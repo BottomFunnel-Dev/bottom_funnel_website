@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22a0338f.css",
+    "main.js": "/static/js/main.3c32c50a.js",
+    "static/js/787.5119cacc.chunk.js": "/static/js/787.5119cacc.chunk.js",
+    "static/media/Blog1.jpg": "/static/media/Blog1.948bc5b40e043dbc4a81.jpg",
+    "static/media/guest2.jpg": "/static/media/guest2.e5a2bbf7b621a97bca22.jpg",
+    "static/media/EnquiryNow.jpg": "/static/media/EnquiryNow.6e1e58364cb93438399d.jpg",
+    "static/media/newcurve.png": "/static/media/newcurve.eb964bbdf555808a6a3c.png",
+    "static/media/guest.jpg": "/static/media/guest.c55609583af23054206a.jpg",
+    "static/media/Blog2.jpg": "/static/media/Blog2.becce9fdc1a65e3382be.jpg",
+    "static/media/Blog3.jpg": "/static/media/Blog3.cce9e9f25db72006e6ff.jpg",
+    "static/media/Volkswagen.jpg": "/static/media/Volkswagen.ac251a46d6bff1bacfb1.jpg",
+    "static/media/curve.png": "/static/media/curve.9491782c9fe800ecdcfa.png",
+    "static/media/Hindustan.jpg": "/static/media/Hindustan.603a6bfbf0038d13ef96.jpg",
+    "static/media/HDFC.jpg": "/static/media/HDFC.4ab6957b0fb6f732c801.jpg",
+    "static/media/Tata.jpg": "/static/media/Tata.17a37201f0376246c961.jpg",
+    "static/media/Airtel.jpg": "/static/media/Airtel.a272c861c450a6e5a6c5.jpg",
+    "static/media/Google.jpg": "/static/media/Google.86d582dbd7d29a6ff1f9.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.22a0338f.css.map": "/static/css/main.22a0338f.css.map",
+    "main.3c32c50a.js.map": "/static/js/main.3c32c50a.js.map",
+    "787.5119cacc.chunk.js.map": "/static/js/787.5119cacc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22a0338f.css",
+    "static/js/main.3c32c50a.js"
+  ]
+}
