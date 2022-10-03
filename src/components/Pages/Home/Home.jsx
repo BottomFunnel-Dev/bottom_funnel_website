@@ -20,9 +20,9 @@ import HeroSection from "../../mainSection/HeroSection";
 const Home = () => {
   return (
     <div>
-      {/* <Banner /> */}
-      <HeroSection/>
-      {/* <CompanyLogo />
+      <Banner />
+      {/* <HeroSection/> */}
+      <CompanyLogo />
       <About />
       <Services />
       <Awards />
@@ -35,7 +35,7 @@ const Home = () => {
       <SeoblogSection />
       <TextDropdown />
       <ContectForm />
-      <MainFooter /> */}
+      <MainFooter />
     </div>
   );
 };
