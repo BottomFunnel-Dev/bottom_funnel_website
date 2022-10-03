@@ -21,7 +21,7 @@ const MainFooter = () => {
 
         <div className="footerLogo">
           <div className="logoBottom">
-            <img src="Images/footer/whiteLogo.png" alt="" />
+            <img src="Images/footer/whitelogo.png" alt="" />
           </div>
 
           <div className="footerAddress">

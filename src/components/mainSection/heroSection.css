@@ -1,0 +1,15 @@
+.images{
+    height: 713px;
+    width: 100%;
+    background-color: white;
+}
+.images>img{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   border: none;
+}
+
+.heroSection{
+    background: url('/src/components/mainSection/curve.png');
+}
