@@ -45,11 +45,11 @@ const webservice = [
   },
   {
     dropContent: "ASP.NET Development",
-    navIcons: "Images/navbar/services/ASP.png",
+    navIcons: "Images/navbar/services/asp.png",
   },
   {
     dropContent: "Java Development",
-    navIcons: "Images/navbar/services/JAVA.png",
+    navIcons: "Images/navbar/services/java.png",
   },
   {
     dropContent: "Python Development",
@@ -61,11 +61,11 @@ const webservice = [
   },
   {
     dropContent: "Golang Development",
-    navIcons: "Images/navbar/services/GOLANG.png",
+    navIcons: "Images/navbar/services/golang.png",
   },
   {
     dropContent: "Javascript Development",
-    navIcons: "Images/navbar/services/JAVASCRIPT.png",
+    navIcons: "Images/navbar/services/javascript.png",
   },
 ];
 
@@ -76,11 +76,11 @@ const appservice = [
   },
   {
     dropContent: "IOS App Development",
-    navIcons: "Images/navbar/services/IOS.png",
+    navIcons: "Images/navbar/services/ios.png",
   },
   {
     dropContent: "Kotlin App Development",
-    navIcons: "Images/navbar/services/KOTLIN.png",
+    navIcons: "Images/navbar/services/kotlin.png",
   },
   {
     dropContent: "Flutter App Development",
@@ -162,18 +162,18 @@ const trendingTech = [
 const industries = [
   { dropContent: "Education",navIcons: "Images/navbar/industriesImage/education.png" },
   { dropContent: "Game Development" ,navIcons: "Images/navbar/industriesImage/gamedev.png"},
-  { dropContent: "E-commerce",navIcons: "Images/navbar/industriesImage/ECOMMERCE.png" },
-  { dropContent: "Video Streaming",navIcons: "Images/navbar/industriesImage/VIDEO STREAMING.png" },
+  { dropContent: "E-commerce",navIcons: "Images/navbar/industriesImage/ecommerce.png" },
+  { dropContent: "Video Streaming",navIcons: "Images/navbar/industriesImage/videostreaming.png" },
   { dropContent: "Sports Betting" ,navIcons: "Images/navbar/industriesImage/sportsbetting.png"},
   { dropContent: "IOT Development",navIcons: "Images/navbar/industriesImage/iot.png" },
   { dropContent: "Fitness" ,navIcons: "Images/navbar/industriesImage/fitness.png"},
-  { dropContent: "Dating",navIcons: "Images/navbar/industriesImage/DATING.png" },
+  { dropContent: "Dating",navIcons: "Images/navbar/industriesImage/dating.png" },
   { dropContent: "Cryptocurrency" ,navIcons: "Images/navbar/industriesImage/crypto.png"},
   { dropContent: "Social Media",navIcons: "Images/navbar/industriesImage/social media.png" },
   { dropContent: "Logistics",navIcons: "Images/navbar/industriesImage/logistics.png" },
 ];
 const ondemand = [
-  { dropContent: "Food Delivery App",navIcons: "Images/navbar/industriesImage/FOODDELIVERY.png" },
+  { dropContent: "Food Delivery App",navIcons: "Images/navbar/industriesImage/fooddelivery.png" },
   { dropContent: "On Demand Home Services" ,navIcons: "Images/navbar/industriesImage/ondemandhomeservices.png"},
   { dropContent: "Alcohol Delivery App",navIcons: "Images/navbar/industriesImage/alcohaldeliveryapp.png" },
   { dropContent: "Laundry Delivery",navIcons: "Images/navbar/industriesImage/laundry.png" },
@@ -197,8 +197,8 @@ const backend = [
   { dropContent: "Python" ,navIcons: "Images/navbar/skills/python.png"},
   { dropContent: "Django" ,navIcons: "Images/navbar/skills/django.png"},
   { dropContent: "Flask" ,navIcons: "Images/navbar/skills/flask.png"},
-  { dropContent: "MySQL",navIcons: "Images/navbar/skills/Mysql.png" },
-  { dropContent: "Golang" ,navIcons: "Images/navbar/skills/GOLANG.png"},
+  { dropContent: "MySQL",navIcons: "Images/navbar/skills/mysql.png" },
+  { dropContent: "Golang" ,navIcons: "Images/navbar/skills/golang.png"},
 ];
 const frontend = [
   { dropContent: "React.js" ,navIcons: "Images/navbar/skills/react.png"},
@@ -210,15 +210,15 @@ const frontend = [
   { dropContent: "TypeScript" ,navIcons: "Images/navbar/skills/typescript.png"},
 ];
 const mobile = [
-  { dropContent: "IOS" ,navIcons: "Images/navbar/skills/IOS.png"},
+  { dropContent: "IOS" ,navIcons: "Images/navbar/skills/ios.png"},
   { dropContent: "Android" ,navIcons: "Images/navbar/skills/andriod.png"},
   { dropContent: "React Native" ,navIcons: "Images/navbar/skills/react.png"},
   { dropContent: "Ionic",navIcons: "Images/navbar/skills/ionic.png" },
-  { dropContent: "Java",navIcons: "Images/navbar/skills/JAVA.png" },
+  { dropContent: "Java",navIcons: "Images/navbar/skills/java.png" },
   { dropContent: "Flutter" ,navIcons: "Images/navbar/skills/flutter.png"},
   { dropContent: "Xamarin",navIcons: "Images/navbar/skills/xamarian.png" },
   { dropContent: "Swift",navIcons: "Images/navbar/skills/swift.png" },
-  { dropContent: "Kotlin" ,navIcons: "Images/navbar/skills/KOTLIN.png"},
+  { dropContent: "Kotlin" ,navIcons: "Images/navbar/skills/kotlin.png"},
 ];
 
 const Navbar = () => {
