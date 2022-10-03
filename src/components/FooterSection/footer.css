@@ -1,4 +1,4 @@
-.footerSection {
+/* .footerSection {
   width: 100%;
   display: flex;
   background-color: darkgreen;
@@ -8,7 +8,6 @@
   width: 50%;
   padding: 20px;
   position: relative;
-  /* background: linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)); */
 }
 
 .mapPointers {
@@ -64,9 +63,6 @@
 .mapPointers:before {
   animation: mapPointers 3s ease-out infinite;
 }
-/* .mapPointers:after{
-    animation: mapPointers 4s 1s ease-out infinite;
-} */
 
 @keyframes mapPointers {
   100% {
@@ -78,13 +74,10 @@
 .tooltipCustomised {
   background-color: #ef4c23;
   width: 130px;
-  /* position: absolute; */
-  /* left: 20%; */
   box-sizing: border-box;
   padding: 8px;
   border-radius: 5px;
   color: white;
-  /* background-color: red; */
   margin-top: 7%;
 }
 .tooltipCustomised > h5 {
@@ -116,8 +109,6 @@
 }
 .innerFooterPart div {
   width: 25%;
-  /* padding: 20px;  */
-  /* background-color: pink;  */
   box-sizing: border-box;
 }
 
@@ -213,4 +204,4 @@
   color: white;
   background-color: #ef4c23;
   border-radius: 14px;
-}
+} */

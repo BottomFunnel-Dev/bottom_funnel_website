@@ -54,7 +54,7 @@ const MainFooter = () => {
               <li></li>
               <li>ISMS Policy</li>
             </div>
-            <p>© 2022 Uplers Solutions Private Limited. All rights reserved.</p>
+            <p>© 2022 bottom funnel technologies Private Limited. All rights reserved.</p>
           </div>
         </div>
       </div>
