@@ -1,0 +1,49 @@
+._SeoReviewsmaindiv {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* border:1px solid green; */
+    margin-top: 70px;
+}
+._SeoReviews1 {
+    width: 50%;
+    padding: 15px;
+   border-bottom: 2px solid #EF4C23;
+}
+._SeoReviews1>p {
+    padding: 15px 5px;
+    color:gray;
+    font-weight: 500;
+}
+._SeoReviews2 {
+    width: 50%;
+}
+._SeoCompanyRatings {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    width: 60%;
+    align-items: center;
+}
+._SeoCompanyLogo {
+    width: 22%;
+}
+._SeoCompanyRatings img {
+    width: 55px;
+    height: 30px;
+    
+}
+
+._SeoRatingStar{
+    display: flex;
+    column-gap: 3px;
+}
+._SeoRatingsStars {
+    width: 40%;
+    background-color: blue;
+    padding: 5px;
+}
+.ratingIcons{
+    font-size: 20px;
+    color: #EF4C23;
+}

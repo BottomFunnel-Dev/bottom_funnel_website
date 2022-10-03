@@ -1,0 +1,216 @@
+.footerSection {
+  width: 100%;
+  display: flex;
+  background-color: darkgreen;
+}
+
+.mapSection {
+  width: 50%;
+  padding: 20px;
+  position: relative;
+  /* background: linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)); */
+}
+
+.mapPointers {
+  width: 15px;
+  height: 15px;
+  background-color: #ef4c23;
+  position: absolute;
+  top: 35%;
+  right: 33%;
+  border-radius: 15px;
+}
+#indiaBranch {
+  position: absolute;
+  top: 35%;
+  right: 33%;
+ 
+}
+#dubaiBranch {
+  position: absolute;
+  top: 36%;
+  right: 38%;
+ 
+}
+#germanyBranch {
+  position: absolute;
+  top: 25%;
+  right: 49%;
+ 
+}
+#newYorkBranch {
+  position: absolute;
+  top: 30%;
+  left: 29%;
+ 
+}
+#manchesterBranch {
+  position: absolute;
+  top: 25%;
+  left: 46%;
+ 
+}
+
+.mapPointers:before,
+.mapPointers:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #ef4c23;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.mapPointers:before {
+  animation: mapPointers 3s ease-out infinite;
+}
+/* .mapPointers:after{
+    animation: mapPointers 4s 1s ease-out infinite;
+} */
+
+@keyframes mapPointers {
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+.tooltipCustomised {
+  background-color: #ef4c23;
+  width: 130px;
+  /* position: absolute; */
+  /* left: 20%; */
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  /* background-color: red; */
+  margin-top: 7%;
+}
+.tooltipCustomised > h5 {
+  font-size: 15px;
+  margin: 0;
+}
+.tooltipCustomised > h6 {
+  font-size: 12px;
+  margin: 0;
+}
+.tooltipCustomised > p {
+  font-size: 10px;
+  margin: 0;
+}
+
+.mainFooter {
+  width: 50%;
+  padding: 10px;
+}
+.innerFooterPart {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.innerFooterPart > div > h3 {
+  font-size: 20px;
+  color: white;
+}
+.innerFooterPart div {
+  width: 25%;
+  /* padding: 20px;  */
+  /* background-color: pink;  */
+  box-sizing: border-box;
+}
+
+.innerFooterPart ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.moreSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px auto;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.moreSection > p {
+  margin: 0;
+  color: white;
+}
+
+.moreServices {
+  display: none;
+}
+
+.downIcon {
+  color: green;
+}
+
+.iconRotation {
+  transform: rotateX(180deg);
+}
+
+.worldMapSection {
+  width: 100%;
+  height: 370px;
+}
+.worldMapSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footerMapContactSection {
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+}
+.footerMapContactSection li:nth-child(2) {
+  border-left: 1px solid white;
+}
+
+.privacySection {
+  width: 23%;
+  margin: 0;
+}
+
+.mapSection p {
+  width: 25%;
+  font-size: 13px;
+  color: white;
+  font-weight: 600;
+}
+
+.footerSocialMediaSection {
+  display: flex;
+  width: 25%;
+  margin: 5px 0;
+  justify-content: space-between;
+}
+
+.socialIcons {
+  font-size: 25px;
+  border: 1px solid white;
+  padding: 3px;
+  color: #ef4c23;
+  border-radius: 14px;
+  background-color: white;
+}
+.socialIcons:hover {
+  font-size: 25px;
+  border: 1px solid white;
+  padding: 3px;
+  color: white;
+  background-color: #ef4c23;
+  border-radius: 14px;
+}

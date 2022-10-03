@@ -1,0 +1,74 @@
+._Storiesmaindiv{
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+    width:100%;
+    text-align: center;
+    box-sizing: border-box;
+    /* padding: 20px; */
+    margin-top: 50px;
+    height:320px;
+    gap:0%;
+}
+._Storiescarousel{
+    /* border:1px solid green; */
+    width:98%;
+    margin: auto;
+}
+._Stories{
+    width:100%;
+    /* border: 1px solid red; */
+    height:220px;
+    margin: auto;
+    margin-top: 15px;
+    position: relative;
+}
+._showtext{
+   position: relative;
+    width:100%;
+    opacity: 0.5;
+    margin: 1px;
+    /* background-color: wheat; */
+    height:250px;
+    transition:0.5s linear;
+    box-shadow: 3px 3px 3px 3px;
+}
+._playbutton{
+    position:absolute;
+    top:50%;
+    left:50%;
+    /* border:1px solid green; */
+    width: 100%;
+    /* -ms-transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+}
+._images{
+    width:100%;
+    height:100%;
+}
+._Description{
+    box-sizing: border-box;
+}
+._IndividualStory{
+    padding-top: 2%;
+    text-align: left;
+    padding-left: 5%;
+}
+._StoryDescription{
+    padding-top: 1%;
+    text-align: left;
+    padding-left: 5%;
+}
+._Sectionheading{
+    /* border: 1px solid rebeccapurple; */
+    /* margin-top: -10px; */
+    font-family:'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;;
+    font-size: 40px;
+    font-weight: 600;
+    color:#EF4C23;
+    background-color:rgb(226 226 226 / 38%);
+    width: 100%;
+}
+@media screen and (max-width:700px) {
+    ._Storiesmaindiv{margin-top: 5px;}
+    ._Sectionheading{margin-top:0px;}
+}

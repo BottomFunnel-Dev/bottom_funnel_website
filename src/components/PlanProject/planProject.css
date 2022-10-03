@@ -1,0 +1,46 @@
+.planProject{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    background: #ef4c23;
+    /* background: linear-gradient(45deg, #d7b5ac, #efb8b8ba); */
+    
+}
+.planProject>div{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.planProject>div>p{
+   margin: 20px 0;
+   /* color: gray; */
+}
+.planProject>div>button {
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    /* border: none; */
+    border:1px solid #ef4c23;
+    font-weight: 500;
+    color: #ef4c23;
+    font-weight: 600;
+    /* color: white; */
+
+}
+.planProject>div>button:hover{
+    color: white;
+    background-color: #ef4c23;
+    box-sizing: border-box;
+    border:1px solid white;
+
+}
+
+
+

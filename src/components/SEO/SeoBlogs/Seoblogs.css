@@ -1,0 +1,58 @@
+/* ._Seoblogs12{
+    margin-top: 50px;
+}
+._Seoblogs12>h1{
+    text-align: center;
+    color: #EF4C23;
+}
+._Seoblogs{
+    width:78%;
+    margin: auto;
+    margin-top:20px;
+    display: flex;
+    gap:5%;
+    justify-content: space-between;
+}
+
+._Seoblogs>h2{
+    text-align: center;
+    color:#EF4C23;
+}
+._SeoBlogsStories{
+    width:700px;
+    height:200px;
+}
+._SeoBlogsStories1{
+    border:1px solid green;
+}
+._Seoblogs1{
+    width:20%;
+    height:250px;
+    
+}
+._Seoblogsimage:hover img {
+    transform: scale(1.2); 
+  opacity:0.8;
+}
+._Seoblogsimage>img{
+    height: 100%;
+    width:100%;
+    transform: scale(1);
+    transition: 0.4s ease-in-out;
+}
+._Seoblogsimage{
+height:80%;
+width:100%;
+overflow: hidden;
+}
+._Seoblogsimage>img{
+    height:100%;
+    width:100%;
+}
+._Seoblogstext{
+height:20%;
+width:100%;
+font-size:18px;
+font-weight: 500;
+margin-top: 5px;
+} */

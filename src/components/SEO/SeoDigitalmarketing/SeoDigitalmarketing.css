@@ -1,0 +1,24 @@
+._SeoDigitalmarketingbanner{
+    /* border:1px solid red; */
+    width:100%;
+    /* height:100%; */
+    height:720px;
+}
+._SeoDigitalmarketingbanner>img{
+    width:100%;
+    height:100%;
+}
+._SeoDigitalmarketingExperts{
+    border:1px solid blue;
+    width:100%;
+    height:220px;
+}
+._SeoDigitalMarketingtext{
+    background-color:#EF4C23;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 45px;
+    line-height: 1.5;
+    /* border: 1px solid green; */
+}

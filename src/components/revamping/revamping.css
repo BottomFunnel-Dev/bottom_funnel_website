@@ -1,0 +1,43 @@
+.revamp {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: #ef4c23;
+  /* background-color: #00800075; */
+}
+
+.revamp > button {
+  padding: 8px 25px;
+  margin-top: 45px;
+  font-size: 18px;
+  border-radius: 25px;
+  background-color: white;
+  color: #ef4c23;
+  border: 2px solid #ef4c23;
+  font-weight: 600;
+}
+.revamp > button:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: #ef4c23;
+  border: 2px solid white;
+}
+
+.navmotion{
+  width: 20%;
+  height: 100px;
+  margin: auto;
+}
+.navmotion>img{
+  width: 30%;
+  height: 100%;
+  object-fit: contain;
+}
+.navIcon {
+  font-size: 60px;
+  color: white;
+}
+
+.buttonIcon {
+  margin-right: 5px;
+}
