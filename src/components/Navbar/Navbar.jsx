@@ -358,7 +358,7 @@ const Navbar = () => {
             PORTFOLIO
           </li>
           <li onMouseEnter={blogHoverIn} onMouseLeave={blogHoverOut}>
-            BLOG
+            BLOGS
           </li>
 
           <button className="callToAction">Hire a Talent</button>
