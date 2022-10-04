@@ -511,7 +511,7 @@ const Navbar = () => {
                   {company.map((item, i) => (
                     <div className="imageIconDivSection">
                       <div>
-                        {/* <img src={item.navIcons} alt="" /> */}
+                        <img src={item.navIcons} alt="" />
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -524,7 +524,7 @@ const Navbar = () => {
                   {whyBottom.map((item, i) => (
                     <div className="imageIconDivSection">
                       <div>
-                        {/* <img src={item.navIcons} alt="" /> */}
+                        <img src={item.navIcons} alt="" />
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -537,7 +537,7 @@ const Navbar = () => {
                   {process.map((item, i) => (
                     <div className="imageIconDivSection">
                       <div>
-                        {/* <img src={item.navIcons} alt="" /> */}
+                        <img src={item.navIcons} alt="" />
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -566,7 +566,7 @@ const Navbar = () => {
                   {webservice.map((item, i) => (
                     <div className="imageIconDivSection">
                       <div>
-                        {/* <img src={item.navIcons} alt="" /> */}
+                        <img src={item.navIcons} alt="" />
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -579,7 +579,7 @@ const Navbar = () => {
                   {appservice.map((item, j) => (
                     <div className="imageIconDivSection">
                       <div>
-                        {/* <img src={item.navIcons} alt="" /> */}
+                        <img src={item.navIcons} alt="" />
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -597,7 +597,7 @@ const Navbar = () => {
                     >
                       <div className="imageIconDivSection">
                         <div>
-                          {/* <img src={item.navIcons} alt="" /> */}
+                          <img src={item.navIcons} alt="" />
                         </div>
                         <p>{item.dropContent}</p>
                       </div>
@@ -611,7 +611,7 @@ const Navbar = () => {
                   {trendingTech.map((item, m) => (
                     <div className="trendImageIconDivSection">
                       <div>
-                        {/* <img src={item.navIcons} alt="" /> */}
+                        <img src={item.navIcons} alt="" />
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -640,7 +640,7 @@ const Navbar = () => {
                   {industries.map((item, i) => (
                     <div className="imageIconDivSection">
                       <div>
-                        {/* <img src={item.navIcons} alt="" /> */}
+                        <img src={item.navIcons} alt="" />
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -653,7 +653,7 @@ const Navbar = () => {
                   {ondemand.map((item, i) => (
                     <div className="imageIconDivSection">
                       <div>
-                        {/* <img src={item.navIcons} alt="" /> */}
+                        <img src={item.navIcons} alt="" />
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -682,7 +682,7 @@ const Navbar = () => {
                   {backend.map((item, i) => (
                     <div className="imageIconDivSection">
                       <div>
-                        {/* <img src={item.navIcons} alt="" /> */}
+                        <img src={item.navIcons} alt="" />
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -695,7 +695,7 @@ const Navbar = () => {
                   {frontend.map((item, j) => (
                     <div className="imageIconDivSection">
                       <div>
-                        {/* <img src={item.navIcons} alt="" /> */}
+                        <img src={item.navIcons} alt="" />
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -708,7 +708,7 @@ const Navbar = () => {
                   {mobile.map((item, j) => (
                     <div className="imageIconDivSection">
                       <div>
-                        {/* <img src={item.navIcons} alt="" /> */}
+                        <img src={item.navIcons} alt="" />
                       </div>
                       <p>{item.dropContent}</p>
                     </div>

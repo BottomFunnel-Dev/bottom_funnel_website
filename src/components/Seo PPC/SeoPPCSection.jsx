@@ -36,7 +36,7 @@ export default function SeoPPCSection(){
                                 <option value="2000$ to 3000$">2000$ to 3000$</option>
                             </select><br />
                             <input placeholder="Share Your Requirement" className="_seoPPCforminput" type="text" /><br />
-                            <div className="_SeoPPCSubmitbutton">Submit</div>
+                            <button className="_SeoPPCSubmitbutton">Submit</button>
                         </div>
                     </div>
                 </div>
