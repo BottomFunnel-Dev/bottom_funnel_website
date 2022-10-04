@@ -40,7 +40,6 @@
 .curveImage {
   width: 110%;
   height: 355px;
-  /* z-index: 1; */
   background-image: url("curve.png");
   background-repeat: no-repeat;
   background-size: 117%;

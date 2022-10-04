@@ -65,7 +65,7 @@
 }
 .services > div:hover {
   margin-top: 0;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 .serviceHeading h4 {
   color: #ef4c23;
@@ -146,4 +146,102 @@
 }
 .serviceDescriptionInvisible {
   display: none;
+}
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 480px) {
+  .mainService {
+    flex-direction: column;
+  }
+
+  .serviceIntro {
+    width: 95%;
+    margin: auto;
+  }
+  .serviceIntro > div {
+    width: 100%;
+    padding: 36px;
+    top: 8%;
+  }
+
+  .services{
+    width: 100%;
+    
+  }
+  .services>div{
+    width: 95%;
+    flex-direction: column;
+    
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .mainService {
+    flex-direction: column;
+  }
+
+  .serviceIntro {
+    width: 95%;
+    margin: auto;
+  }
+  .serviceIntro > div {
+    width: 100%;
+    padding: 36px;
+    top: 8%;
+  }
+
+  .services{
+    width: 100%;
+    
+  }
+  .services>div{
+    width: 95%;
+    flex-direction: column;
+    
+  }
+
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mainService {
+    flex-direction: column;
+  }
+
+  .serviceIntro {
+    width: 95%;
+    margin: auto;
+  }
+  .serviceIntro > div {
+    width: 100%;
+    padding: 36px;
+    top: 8%;
+  }
+
+  .services{
+    width: 100%;
+    
+  }
+  .services>div{
+    width: 95%;
+    flex-direction: column;
+    
+  }
+
+
+}
+
+/* Media Query for Laptops and Desktops */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* Media Query for Large screens */
+
+@media (min-width: 1281px) {
 }

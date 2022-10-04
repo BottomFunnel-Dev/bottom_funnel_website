@@ -20,8 +20,8 @@ import HeroSection from "../../mainSection/HeroSection";
 const Home = () => {
   return (
     <div>
-      <Banner />
-      {/* <HeroSection/> */}
+      {/* <Banner /> */}
+      <HeroSection/>
       <CompanyLogo />
       <About />
       <Services />

@@ -102,7 +102,10 @@ const appservice = [
     dropContent: "Wearable App Development",
     navIcons: "Images/navbar/services/wearable.png",
   },
-  { dropContent: "Mobile UI UX ", navIcons: "Images/navbar/services/mobileuxui.png" },
+  {
+    dropContent: "Mobile UI UX ",
+    navIcons: "Images/navbar/services/mobileuxui.png",
+  },
 ];
 const digitalmarket = [
   {
@@ -140,85 +143,212 @@ const digitalmarket = [
     path: "seo-link-building",
     navIcons: "Images/navbar/services/link.png",
   },
-  { dropContent: "Email Marketing Services",navIcons: "Images/navbar/services/email.png", path: "" },
+  {
+    dropContent: "Email Marketing Services",
+    navIcons: "Images/navbar/services/email.png",
+    path: "",
+  },
 ];
 const trendingTech = [
-  { dropContent: "Big Data Services" ,navIcons: "Images/navbar/services/bigdata.png",},
-  { dropContent: "Blockchain Services",navIcons: "Images/navbar/services/blockchain.png" },
-  { dropContent: "Machine Learning",navIcons: "Images/navbar/services/machinelearning.png" },
-  { dropContent: "Artificial Intelligence" ,navIcons: "Images/navbar/services/ai.png"},
-  { dropContent: "Data Analytics" ,navIcons: "Images/navbar/services/dataanalysis.png"},
-  { dropContent: "Crypto currency Development",navIcons: "Images/navbar/services/crypto.png" },
-  { dropContent: "Customised Web App Development",navIcons: "Images/navbar/services/customizedwebdev.png" },
-  { dropContent: "Virtual Reality Development" ,navIcons: "Images/navbar/services/vr.png"},
-  { dropContent: "Augmented Reality" ,navIcons: "Images/navbar/services/ar.png"},
-  { dropContent: "NFT Development",navIcons: "Images/navbar/services/nft.png" },
-  { dropContent: "IoT Development",navIcons: "Images/navbar/services/iot.png" },
-  { dropContent: "StartUp Solutions" ,navIcons: "Images/navbar/services/startup.png"},
-  { dropContent: "Enterprise Solutions" ,navIcons: "Images/navbar/services/enterprise.png"},
-  { dropContent: "Metaverse Services" ,navIcons: "Images/navbar/services/guest.png"},
+  {
+    dropContent: "Big Data Services",
+    navIcons: "Images/navbar/services/bigdata.png",
+  },
+  {
+    dropContent: "Blockchain Services",
+    navIcons: "Images/navbar/services/blockchain.png",
+  },
+  {
+    dropContent: "Machine Learning",
+    navIcons: "Images/navbar/services/machinelearning.png",
+  },
+  {
+    dropContent: "Artificial Intelligence",
+    navIcons: "Images/navbar/services/ai.png",
+  },
+  {
+    dropContent: "Data Analytics",
+    navIcons: "Images/navbar/services/dataanalysis.png",
+  },
+  {
+    dropContent: "Crypto currency Development",
+    navIcons: "Images/navbar/services/crypto.png",
+  },
+  {
+    dropContent: "Customised Web App Development",
+    navIcons: "Images/navbar/services/customizedwebdev.png",
+  },
+  {
+    dropContent: "Virtual Reality Development",
+    navIcons: "Images/navbar/services/vr.png",
+  },
+  {
+    dropContent: "Augmented Reality",
+    navIcons: "Images/navbar/services/ar.png",
+  },
+  {
+    dropContent: "NFT Development",
+    navIcons: "Images/navbar/services/nft.png",
+  },
+  {
+    dropContent: "IoT Development",
+    navIcons: "Images/navbar/services/iot.png",
+  },
+  {
+    dropContent: "StartUp Solutions",
+    navIcons: "Images/navbar/services/startup.png",
+  },
+  {
+    dropContent: "Enterprise Solutions",
+    navIcons: "Images/navbar/services/enterprise.png",
+  },
+  {
+    dropContent: "Metaverse Services",
+    navIcons: "Images/navbar/services/guest.png",
+  },
 ];
 
 const industries = [
-  { dropContent: "Education",navIcons: "Images/navbar/industriesImage/education.png" },
-  { dropContent: "Game Development" ,navIcons: "Images/navbar/industriesImage/gamedev.png"},
-  { dropContent: "E-commerce",navIcons: "Images/navbar/industriesImage/ecommerce.png" },
-  { dropContent: "Video Streaming",navIcons: "Images/navbar/industriesImage/videostreaming.png" },
-  { dropContent: "Sports Betting" ,navIcons: "Images/navbar/industriesImage/sportsbetting.png"},
-  { dropContent: "IOT Development",navIcons: "Images/navbar/industriesImage/iot.png" },
-  { dropContent: "Fitness" ,navIcons: "Images/navbar/industriesImage/fitness.png"},
-  { dropContent: "Dating",navIcons: "Images/navbar/industriesImage/dating.png" },
-  { dropContent: "Cryptocurrency" ,navIcons: "Images/navbar/industriesImage/crypto.png"},
-  { dropContent: "Social Media",navIcons: "Images/navbar/industriesImage/social media.png" },
-  { dropContent: "Logistics",navIcons: "Images/navbar/industriesImage/logistics.png" },
+  {
+    dropContent: "Education",
+    navIcons: "Images/navbar/industriesImage/education.png",
+  },
+  {
+    dropContent: "Game Development",
+    navIcons: "Images/navbar/industriesImage/gamedev.png",
+  },
+  {
+    dropContent: "E-commerce",
+    navIcons: "Images/navbar/industriesImage/ecommerce.png",
+  },
+  {
+    dropContent: "Video Streaming",
+    navIcons: "Images/navbar/industriesImage/videostreaming.png",
+  },
+  {
+    dropContent: "Sports Betting",
+    navIcons: "Images/navbar/industriesImage/sportsbetting.png",
+  },
+  {
+    dropContent: "IOT Development",
+    navIcons: "Images/navbar/industriesImage/iot.png",
+  },
+  {
+    dropContent: "Fitness",
+    navIcons: "Images/navbar/industriesImage/fitness.png",
+  },
+  {
+    dropContent: "Dating",
+    navIcons: "Images/navbar/industriesImage/dating.png",
+  },
+  {
+    dropContent: "Cryptocurrency",
+    navIcons: "Images/navbar/industriesImage/crypto.png",
+  },
+  {
+    dropContent: "Social Media",
+    navIcons: "Images/navbar/industriesImage/social media.png",
+  },
+  {
+    dropContent: "Logistics",
+    navIcons: "Images/navbar/industriesImage/logistics.png",
+  },
 ];
 const ondemand = [
-  { dropContent: "Food Delivery App",navIcons: "Images/navbar/industriesImage/fooddelivery.png" },
-  { dropContent: "On Demand Home Services" ,navIcons: "Images/navbar/industriesImage/ondemandhomeservices.png"},
-  { dropContent: "Alcohol Delivery App",navIcons: "Images/navbar/industriesImage/alcohaldeliveryapp.png" },
-  { dropContent: "Laundry Delivery",navIcons: "Images/navbar/industriesImage/laundry.png" },
-  { dropContent: "Grocery Delivery App",navIcons: "Images/navbar/industriesImage/grocery.png" },
-  { dropContent: "Beauty & Salon App" ,navIcons: "Images/navbar/industriesImage/beauty.png"},
-  { dropContent: "Cannabis Delivery App" ,navIcons: "Images/navbar/industriesImage/cannabis.png"},
-  { dropContent: "Marketplace Apps" ,navIcons: "Images/navbar/industriesImage/marketplace.png"},
-  { dropContent: "Pickup & Delivery" ,navIcons: "Images/navbar/industriesImage/pickup.png"},
-  { dropContent: "Pharmacy Delivery App" ,navIcons: "Images/navbar/industriesImage/pharmacy.png"},
-  { dropContent: "Flower Delivery App",navIcons: "Images/navbar/industriesImage/flowerdelivery.png" },
-  { dropContent: "Carpooling Apps",navIcons: "Images/navbar/industriesImage/carpooling.png" },
-  { dropContent: "Taxi Booking App",navIcons: "Images/navbar/industriesImage/taxibooking.png" },
-  { dropContent: "Tool Delivery App",navIcons: "Images/navbar/industriesImage/tool.png" },
-  { dropContent: "Icecream Delivery App" ,navIcons: "Images/navbar/industriesImage/icecream.png"},
+  {
+    dropContent: "Food Delivery App",
+    navIcons: "Images/navbar/industriesImage/fooddelivery.png",
+  },
+  {
+    dropContent: "On Demand Home Services",
+    navIcons: "Images/navbar/industriesImage/ondemandhomeservices.png",
+  },
+  {
+    dropContent: "Alcohol Delivery App",
+    navIcons: "Images/navbar/industriesImage/alcohaldeliveryapp.png",
+  },
+  {
+    dropContent: "Laundry Delivery",
+    navIcons: "Images/navbar/industriesImage/laundry.png",
+  },
+  {
+    dropContent: "Grocery Delivery App",
+    navIcons: "Images/navbar/industriesImage/grocery.png",
+  },
+  {
+    dropContent: "Beauty & Salon App",
+    navIcons: "Images/navbar/industriesImage/beauty.png",
+  },
+  {
+    dropContent: "Cannabis Delivery App",
+    navIcons: "Images/navbar/industriesImage/cannabis.png",
+  },
+  {
+    dropContent: "Marketplace Apps",
+    navIcons: "Images/navbar/industriesImage/marketplace.png",
+  },
+  {
+    dropContent: "Pickup & Delivery",
+    navIcons: "Images/navbar/industriesImage/pickup.png",
+  },
+  {
+    dropContent: "Pharmacy Delivery App",
+    navIcons: "Images/navbar/industriesImage/pharmacy.png",
+  },
+  {
+    dropContent: "Flower Delivery App",
+    navIcons: "Images/navbar/industriesImage/flowerdelivery.png",
+  },
+  {
+    dropContent: "Carpooling Apps",
+    navIcons: "Images/navbar/industriesImage/carpooling.png",
+  },
+  {
+    dropContent: "Taxi Booking App",
+    navIcons: "Images/navbar/industriesImage/taxibooking.png",
+  },
+  {
+    dropContent: "Tool Delivery App",
+    navIcons: "Images/navbar/industriesImage/tool.png",
+  },
+  {
+    dropContent: "Icecream Delivery App",
+    navIcons: "Images/navbar/industriesImage/icecream.png",
+  },
 ];
 const backend = [
-  { dropContent: "Node.js" ,navIcons: "Images/navbar/skills/nodejs.png"},
-  { dropContent: ".NET" ,navIcons: "Images/navbar/skills/-net.png" },
-  { dropContent: "PHP" ,navIcons: "Images/navbar/skills/php.png"},
-  { dropContent: "Laravel" ,navIcons: "Images/navbar/skills/laravel.png"},
-  { dropContent: "Python" ,navIcons: "Images/navbar/skills/python.png"},
-  { dropContent: "Django" ,navIcons: "Images/navbar/skills/django.png"},
-  { dropContent: "Flask" ,navIcons: "Images/navbar/skills/flask.png"},
-  { dropContent: "MySQL",navIcons: "Images/navbar/skills/mysql.png" },
-  { dropContent: "Golang" ,navIcons: "Images/navbar/skills/golang.png"},
+  { dropContent: "Node.js", navIcons: "Images/navbar/skills/nodejs.png" },
+  { dropContent: ".NET", navIcons: "Images/navbar/skills/-net.png" },
+  { dropContent: "PHP", navIcons: "Images/navbar/skills/php.png" },
+  { dropContent: "Laravel", navIcons: "Images/navbar/skills/laravel.png" },
+  { dropContent: "Python", navIcons: "Images/navbar/skills/python.png" },
+  { dropContent: "Django", navIcons: "Images/navbar/skills/django.png" },
+  { dropContent: "Flask", navIcons: "Images/navbar/skills/flask.png" },
+  { dropContent: "MySQL", navIcons: "Images/navbar/skills/mysql.png" },
+  { dropContent: "Golang", navIcons: "Images/navbar/skills/golang.png" },
 ];
 const frontend = [
-  { dropContent: "React.js" ,navIcons: "Images/navbar/skills/react.png"},
-  { dropContent: "Angular" ,navIcons: "Images/navbar/skills/angular.png"},
-  { dropContent: "Vue.js" ,navIcons: "Images/navbar/skills/vue js.png"},
-  { dropContent: "Ember.js" ,navIcons: "Images/navbar/skills/emberjs.png"},
-  { dropContent: "jQuery",navIcons: "Images/navbar/skills/jquery.png" },
-  { dropContent: "Next.js" ,navIcons: "Images/navbar/skills/nextjs.png"},
-  { dropContent: "TypeScript" ,navIcons: "Images/navbar/skills/typescript.png"},
+  { dropContent: "React.js", navIcons: "Images/navbar/skills/react.png" },
+  { dropContent: "Angular", navIcons: "Images/navbar/skills/angular.png" },
+  { dropContent: "Vue.js", navIcons: "Images/navbar/skills/vue js.png" },
+  { dropContent: "Ember.js", navIcons: "Images/navbar/skills/emberjs.png" },
+  { dropContent: "jQuery", navIcons: "Images/navbar/skills/jquery.png" },
+  { dropContent: "Next.js", navIcons: "Images/navbar/skills/nextjs.png" },
+  {
+    dropContent: "TypeScript",
+    navIcons: "Images/navbar/skills/typescript.png",
+  },
 ];
 const mobile = [
-  { dropContent: "IOS" ,navIcons: "Images/navbar/skills/ios.png"},
-  { dropContent: "Android" ,navIcons: "Images/navbar/skills/andriod.png"},
-  { dropContent: "React Native" ,navIcons: "Images/navbar/skills/react.png"},
-  { dropContent: "Ionic",navIcons: "Images/navbar/skills/ionic.png" },
-  { dropContent: "Java",navIcons: "Images/navbar/skills/java.png" },
-  { dropContent: "Flutter" ,navIcons: "Images/navbar/skills/flutter.png"},
-  { dropContent: "Xamarin",navIcons: "Images/navbar/skills/xamarian.png" },
-  { dropContent: "Swift",navIcons: "Images/navbar/skills/swift.png" },
-  { dropContent: "Kotlin" ,navIcons: "Images/navbar/skills/kotlin.png"},
+  { dropContent: "IOS", navIcons: "Images/navbar/skills/ios.png" },
+  { dropContent: "Android", navIcons: "Images/navbar/skills/andriod.png" },
+  { dropContent: "React Native", navIcons: "Images/navbar/skills/react.png" },
+  { dropContent: "Ionic", navIcons: "Images/navbar/skills/ionic.png" },
+  { dropContent: "Java", navIcons: "Images/navbar/skills/java.png" },
+  { dropContent: "Flutter", navIcons: "Images/navbar/skills/flutter.png" },
+  { dropContent: "Xamarin", navIcons: "Images/navbar/skills/xamarian.png" },
+  { dropContent: "Swift", navIcons: "Images/navbar/skills/swift.png" },
+  { dropContent: "Kotlin", navIcons: "Images/navbar/skills/kotlin.png" },
 ];
 
 const Navbar = () => {
@@ -379,12 +509,12 @@ const Navbar = () => {
                 <h4>Company</h4>
                 <div className="listItems">
                   {company.map((item, i) => (
-                  <div className="imageIconDivSection">
-                  <div>
-                    <img src={item.navIcons} alt="" />
-                  </div>
-                  <p>{item.dropContent}</p>
-                </div>
+                    <div className="imageIconDivSection">
+                      <div>
+                        {/* <img src={item.navIcons} alt="" /> */}
+                      </div>
+                      <p>{item.dropContent}</p>
+                    </div>
                   ))}
                 </div>
               </div>
@@ -393,11 +523,11 @@ const Navbar = () => {
                 <div className="listItems">
                   {whyBottom.map((item, i) => (
                     <div className="imageIconDivSection">
-                    <div>
-                      <img src={item.navIcons} alt="" />
+                      <div>
+                        {/* <img src={item.navIcons} alt="" /> */}
+                      </div>
+                      <p>{item.dropContent}</p>
                     </div>
-                    <p>{item.dropContent}</p>
-                  </div>
                   ))}
                 </div>
               </div>
@@ -406,11 +536,11 @@ const Navbar = () => {
                 <div className="listItems">
                   {process.map((item, i) => (
                     <div className="imageIconDivSection">
-                    <div>
-                      <img src={item.navIcons} alt="" />
+                      <div>
+                        {/* <img src={item.navIcons} alt="" /> */}
+                      </div>
+                      <p>{item.dropContent}</p>
                     </div>
-                    <p>{item.dropContent}</p>
-                  </div>
                   ))}
                 </div>
               </div>
@@ -436,7 +566,7 @@ const Navbar = () => {
                   {webservice.map((item, i) => (
                     <div className="imageIconDivSection">
                       <div>
-                        <img src={item.navIcons} alt="" />
+                        {/* <img src={item.navIcons} alt="" /> */}
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -449,7 +579,7 @@ const Navbar = () => {
                   {appservice.map((item, j) => (
                     <div className="imageIconDivSection">
                       <div>
-                        <img src={item.navIcons} alt="" />
+                        {/* <img src={item.navIcons} alt="" /> */}
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -467,7 +597,7 @@ const Navbar = () => {
                     >
                       <div className="imageIconDivSection">
                         <div>
-                          <img src={item.navIcons} alt="" />
+                          {/* <img src={item.navIcons} alt="" /> */}
                         </div>
                         <p>{item.dropContent}</p>
                       </div>
@@ -481,7 +611,7 @@ const Navbar = () => {
                   {trendingTech.map((item, m) => (
                     <div className="trendImageIconDivSection">
                       <div>
-                        <img src={item.navIcons} alt="" />
+                        {/* <img src={item.navIcons} alt="" /> */}
                       </div>
                       <p>{item.dropContent}</p>
                     </div>
@@ -509,11 +639,11 @@ const Navbar = () => {
                 <div className="industryListItems">
                   {industries.map((item, i) => (
                     <div className="imageIconDivSection">
-                    <div>
-                      <img src={item.navIcons} alt="" />
+                      <div>
+                        {/* <img src={item.navIcons} alt="" /> */}
+                      </div>
+                      <p>{item.dropContent}</p>
                     </div>
-                    <p>{item.dropContent}</p>
-                  </div>
                   ))}
                 </div>
               </div>
@@ -522,11 +652,11 @@ const Navbar = () => {
                 <div className="industryListItems">
                   {ondemand.map((item, i) => (
                     <div className="imageIconDivSection">
-                    <div>
-                      <img src={item.navIcons} alt="" />
+                      <div>
+                        {/* <img src={item.navIcons} alt="" /> */}
+                      </div>
+                      <p>{item.dropContent}</p>
                     </div>
-                    <p>{item.dropContent}</p>
-                  </div>
                   ))}
                 </div>
               </div>
@@ -536,8 +666,6 @@ const Navbar = () => {
           ""
         )
       )}
-
-
 
       {skillTransition((style, item) =>
         item ? (
@@ -553,11 +681,11 @@ const Navbar = () => {
                 <div className="listItems">
                   {backend.map((item, i) => (
                     <div className="imageIconDivSection">
-                    <div>
-                      <img src={item.navIcons} alt="" />
+                      <div>
+                        {/* <img src={item.navIcons} alt="" /> */}
+                      </div>
+                      <p>{item.dropContent}</p>
                     </div>
-                    <p>{item.dropContent}</p>
-                  </div>
                   ))}
                 </div>
               </div>
@@ -565,25 +693,25 @@ const Navbar = () => {
                 <h4>Frontend</h4>
                 <div className="listItems">
                   {frontend.map((item, j) => (
-                   <div className="imageIconDivSection">
-                   <div>
-                     <img src={item.navIcons} alt="" />
-                   </div>
-                   <p>{item.dropContent}</p>
-                 </div>
+                    <div className="imageIconDivSection">
+                      <div>
+                        {/* <img src={item.navIcons} alt="" /> */}
+                      </div>
+                      <p>{item.dropContent}</p>
+                    </div>
                   ))}
                 </div>
               </div>
               <div className="serviceDropdownContent">
                 <h4>mobile</h4>
                 <div className="listItems">
-                {mobile.map((item, j) => (
-                   <div className="imageIconDivSection">
-                   <div>
-                     <img src={item.navIcons} alt="" />
-                   </div>
-                   <p>{item.dropContent}</p>
-                 </div>
+                  {mobile.map((item, j) => (
+                    <div className="imageIconDivSection">
+                      <div>
+                        {/* <img src={item.navIcons} alt="" /> */}
+                      </div>
+                      <p>{item.dropContent}</p>
+                    </div>
                   ))}
                 </div>
               </div>
