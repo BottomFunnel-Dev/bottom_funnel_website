@@ -239,7 +239,7 @@ const industries = [
   },
   {
     dropContent: "Dating",
-    navIcons: "Images/navbar/industriesImage/dating.png",
+    navIcons: "Images/navbar/industriesImage/dateing.png",
   },
   {
     dropContent: "Cryptocurrency",
@@ -265,7 +265,7 @@ const ondemand = [
   },
   {
     dropContent: "Alcohol Delivery App",
-    navIcons: "Images/navbar/industriesImage/alcohaldeliveryapp.png",
+    navIcons: "Images/navbar/industriesImage/alcohol.png",
   },
   {
     dropContent: "Laundry Delivery",
@@ -281,7 +281,7 @@ const ondemand = [
   },
   {
     dropContent: "Cannabis Delivery App",
-    navIcons: "Images/navbar/industriesImage/cannabis.png",
+    navIcons: "Images/navbar/industriesImage/cannabies.png",
   },
   {
     dropContent: "Marketplace Apps",
@@ -341,7 +341,7 @@ const frontend = [
 ];
 const mobile = [
   { dropContent: "IOS", navIcons: "Images/navbar/skills/ios.png" },
-  { dropContent: "Android", navIcons: "Images/navbar/skills/andriod.png" },
+  { dropContent: "Android", navIcons: "Images/navbar/skills/android.png" },
   { dropContent: "React Native", navIcons: "Images/navbar/skills/react.png" },
   { dropContent: "Ionic", navIcons: "Images/navbar/skills/ionic.png" },
   { dropContent: "Java", navIcons: "Images/navbar/skills/java.png" },
