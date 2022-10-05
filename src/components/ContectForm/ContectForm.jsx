@@ -23,7 +23,7 @@ const ContectForm = () => {
           
       <div className="contectSection">
         <div className="addressSection">
-          <img src="Images/services/service.jpg" alt="" />
+          <img src="Images/services/service.png" alt="" />
           <div>
           <div className="mailAddress">
             <IconContext.Provider value={{ className: "mailIcon" }}>

@@ -9,7 +9,7 @@ const OndemandSection = () => {
   const ondemandSol = [
     {
       solutionName: "Mobile App Solution",
-      bg: "Images/ondemand/mobile.jpg",
+      bg: "Images/ondemand/mobile.png",
       logoImgageOrange: "Images/ondemand/mobileAppOrange.png",
       logoImgageWhite: "Images/ondemand/mobileAppWhite.png",
       description:
@@ -18,7 +18,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Software Solutions",
-      bg: "Images/ondemand/software.jpg",
+      bg: "Images/ondemand/webdev.png",
 
       logoImgageOrange: "Images/ondemand/softwareSolutionsOrange.png",
       logoImgageWhite: "Images/ondemand/softwareSolutionsWhite.png",
@@ -28,7 +28,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "UI UX Designs",
-      bg: "Images/ondemand/uiux.jpg",
+      bg: "Images/ondemand/uiuxdesign.png",
       logoImgageOrange: "Images/ondemand/uiOrange.png",
       logoImgageWhite: "Images/ondemand/uiWhite.png",
       description:
@@ -37,7 +37,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Food Delivery App",
-      bg: "Images/ondemand/fooddelivery.jpg",
+      bg: "Images/ondemand/fooddelivery.png",
       logoImgageOrange: "Images/ondemand/foodDeliveryOrange.png",
       logoImgageWhite: "Images/ondemand/foodDeliveryWhite.png",
       description:
@@ -46,7 +46,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Beauty & Salon App",
-      bg: "Images/ondemand/beautybanner.jpg",
+      bg: "Images/ondemand/beauty.png",
       logoImgageOrange: "Images/ondemand/beautyOrange.png",
       logoImgageWhite: "Images/ondemand/beautyWhite.png",
       description:
@@ -55,7 +55,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Marketplace App",
-      bg: "Images/ondemand/marketplace.jpg",
+      bg: "Images/ondemand/marketplace.png",
       logoImgageOrange: "Images/ondemand/marketOrange.png",
       logoImgageWhite: "Images/ondemand/marketWhite.png",
       description:
@@ -64,7 +64,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Cannabis Delivery App",
-      bg: "Images/ondemand/cannabisback.jpg",
+      bg: "Images/ondemand/cannabis.png",
       logoImgageOrange: "Images/ondemand/cannabisOrange.png",
       logoImgageWhite: "Images/ondemand/cannabisWhite.png",
       description:
@@ -73,7 +73,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Digital Marketing Solutions",
-      bg: "Images/ondemand/beautybanner.jpg",
+      bg: "Images/ondemand/digitalmarketing.png",
       logoImgageOrange: "Images/ondemand/digitalOrange.png",
       logoImgageWhite: "Images/ondemand/digitalWhite.png",
       description:

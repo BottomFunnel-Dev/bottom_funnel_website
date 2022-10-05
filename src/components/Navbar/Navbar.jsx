@@ -451,8 +451,8 @@ const Navbar = () => {
             <img
               src={
                 navbar
-                  ? "Images/navbar/orangebottom.png"
-                  : "Images/navbar/whitebottom.png"
+                  ? "Images/navbar/orangelogobottom.png"
+                  : "Images/navbar/whitelogobottom.png"
               }
               alt=""
             />

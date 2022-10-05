@@ -7,7 +7,7 @@ export const SeoblogSection=()=> {
       <div className="_Seoblogs">
         <div className="_Seoblogs1">
           <div className="_Seoblogsimage">
-            <img src="Images/profile1.jpg" />
+            <img src="Images/blogSection/stories1.png" />
           </div>
           <div className="_Seoblogstext">
             <p>Lorem ipsum dolor sit amet consectetur adipis</p>
@@ -16,7 +16,7 @@ export const SeoblogSection=()=> {
         </div>
         <div className="_Seoblogs1">
           <div className="_Seoblogsimage">
-            <img src="Images/profile6.jpg" />
+            <img src="Images/blogSection/stories2.png" />
           </div>
           <div className="_Seoblogstext">
             <p>Lorem ipsum dolor sit amet consectetur adipis</p>
@@ -25,7 +25,7 @@ export const SeoblogSection=()=> {
         </div>
         <div className="_Seoblogs1">
           <div className="_Seoblogsimage">
-            <img src="Images/profile5.jpg" />
+            <img src="Images/blogSection/stories5.png" />
           </div>
           <div className="_Seoblogstext">   
             <p>Lorem ipsum dolor sit amet consectetur adipis</p>
@@ -34,7 +34,7 @@ export const SeoblogSection=()=> {
         </div>
         <div className="_Seoblogs1">
           <div className="_Seoblogsimage">
-            <img src="Images/profile4.jpg" />
+            <img src="Images/blogSection/stories4.png" />
           </div>
           <div className="_Seoblogstext">
             <p>Lorem ipsum dolor sit amet consectetur adipis</p>

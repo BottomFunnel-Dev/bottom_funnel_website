@@ -49,7 +49,7 @@ const Services = () => {
   return (
     <div className="mainService">
       <div className="serviceIntro">
-        <img src="Images/services/service.jpg" alt="" />
+        <img src="Images/services/service.png" alt="" />
         <div>
           <h1>Our Services</h1>
           <p>
