@@ -12,22 +12,22 @@ import NavServices from "./NavServices";
 import NavIndustries from "./NavIndustries";
 
 const company = [
-  { dropContent: "About Us" },
-  { dropContent: "Our Team" },
-  { dropContent: "Career " },
-  { dropContent: "Contact Us" },
+  { dropContent: "About Us",navIcons: "Images/navbar/services/php.png", },
+  { dropContent: "Our Team" ,navIcons: "Images/navbar/services/php.png", },
+  { dropContent: "Career " ,navIcons: "Images/navbar/services/php.png",},
+  { dropContent: "Contact Us",navIcons: "Images/navbar/services/php.png", },
 ];
 const whyBottom = [
-  { dropContent: "Client Reviews" },
-  { dropContent: "Our Clients" },
-  { dropContent: "Our Partners" },
-  { dropContent: "Awards and Memberships" },
-  { dropContent: "Press and Media" },
+  { dropContent: "Client Reviews",navIcons: "Images/navbar/services/php.png", },
+  { dropContent: "Our Clients",navIcons: "Images/navbar/services/php.png", },
+  { dropContent: "Our Partners" ,navIcons: "Images/navbar/services/php.png",},
+  { dropContent: "Awards and Memberships" ,navIcons: "Images/navbar/services/php.png",},
+  { dropContent: "Press and Media" ,navIcons: "Images/navbar/services/php.png",},
 ];
 const process = [
-  { dropContent: "Our Development Process" },
-  { dropContent: "Engagement Models" },
-  { dropContent: "Our Partners" },
+  { dropContent: "Our Development Process" ,navIcons: "Images/navbar/services/php.png",},
+  { dropContent: "Engagement Models" ,navIcons: "Images/navbar/services/php.png",},
+  { dropContent: "Our Partners" ,navIcons: "Images/navbar/services/php.png",},
 ];
 
 const webservice = [
@@ -45,11 +45,11 @@ const webservice = [
   },
   {
     dropContent: "ASP.NET Development",
-    navIcons: "Images/navbar/services/asp.png",
+    navIcons: "Images/navbar/services/aspnet.png",
   },
   {
     dropContent: "Java Development",
-    navIcons: "Images/navbar/services/java.png",
+    navIcons: "Images/navbar/services/javaimage.png",
   },
   {
     dropContent: "Python Development",
@@ -61,11 +61,11 @@ const webservice = [
   },
   {
     dropContent: "Golang Development",
-    navIcons: "Images/navbar/services/golang.png",
+    navIcons: "Images/navbar/services/golangimage.png",
   },
   {
     dropContent: "Javascript Development",
-    navIcons: "Images/navbar/services/javascript.png",
+    navIcons: "Images/navbar/services/javascriptimage.png",
   },
 ];
 
@@ -76,11 +76,11 @@ const appservice = [
   },
   {
     dropContent: "IOS App Development",
-    navIcons: "Images/navbar/services/ios.png",
+    navIcons: "Images/navbar/services/iosimage.png",
   },
   {
     dropContent: "Kotlin App Development",
-    navIcons: "Images/navbar/services/kotlin.png",
+    navIcons: "Images/navbar/services/kotlinimage.png",
   },
   {
     dropContent: "Flutter App Development",
@@ -219,7 +219,7 @@ const industries = [
   },
   {
     dropContent: "E-commerce",
-    navIcons: "Images/navbar/industriesImage/ecommerce.png",
+    navIcons: "Images/navbar/industriesImage/ecommerceimage.png",
   },
   {
     dropContent: "Video Streaming",
@@ -257,7 +257,7 @@ const industries = [
 const ondemand = [
   {
     dropContent: "Food Delivery App",
-    navIcons: "Images/navbar/industriesImage/fooddelivery.png",
+    navIcons: "Images/navbar/industriesImage/fooddeliveryimage.png",
   },
   {
     dropContent: "On Demand Home Services",
@@ -324,8 +324,8 @@ const backend = [
   { dropContent: "Python", navIcons: "Images/navbar/skills/python.png" },
   { dropContent: "Django", navIcons: "Images/navbar/skills/django.png" },
   { dropContent: "Flask", navIcons: "Images/navbar/skills/flask.png" },
-  { dropContent: "MySQL", navIcons: "Images/navbar/skills/mysql.png" },
-  { dropContent: "Golang", navIcons: "Images/navbar/skills/golang.png" },
+  { dropContent: "MySQL", navIcons: "Images/navbar/skills/mysqlimage.png" },
+  { dropContent: "Golang", navIcons: "Images/navbar/skills/golangimage.png" },
 ];
 const frontend = [
   { dropContent: "React.js", navIcons: "Images/navbar/skills/react.png" },
@@ -340,15 +340,15 @@ const frontend = [
   },
 ];
 const mobile = [
-  { dropContent: "IOS", navIcons: "Images/navbar/skills/ios.png" },
+  { dropContent: "IOS", navIcons: "Images/navbar/skills/iosimage.png" },
   { dropContent: "Android", navIcons: "Images/navbar/skills/android.png" },
   { dropContent: "React Native", navIcons: "Images/navbar/skills/react.png" },
   { dropContent: "Ionic", navIcons: "Images/navbar/skills/ionic.png" },
-  { dropContent: "Java", navIcons: "Images/navbar/skills/java.png" },
+  { dropContent: "Java", navIcons: "Images/navbar/skills/javaimage.png" },
   { dropContent: "Flutter", navIcons: "Images/navbar/skills/flutter.png" },
   { dropContent: "Xamarin", navIcons: "Images/navbar/skills/xamarian.png" },
   { dropContent: "Swift", navIcons: "Images/navbar/skills/swift.png" },
-  { dropContent: "Kotlin", navIcons: "Images/navbar/skills/kotlin.png" },
+  { dropContent: "Kotlin", navIcons: "Images/navbar/skills/kotlinimage.png" },
 ];
 
 const Navbar = () => {
