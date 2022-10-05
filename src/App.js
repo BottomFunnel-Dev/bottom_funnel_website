@@ -9,6 +9,7 @@ import SeoLocal from './components/Pages/SEO/SeoLocal'
 import Seoguest from './components/Pages/SEO/Seoguest'
 import Seolink from './components/Pages/SEO/Seolink'
 import SeoSEM from './components/Pages/SEO/SeoSEM'
+import FoodPage from "./components/Pages/SolutionPages/FoodPage";
 // import { Seomainpage } from "./components/SEO/Seomainpage/Seomainpage";
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/seo-guest-post" element={<Seoguest/>} />
         <Route path="/seo-link-building" element={<Seolink/>} />
         <Route path="/seo-sem" element={<SeoSEM/>} />
+        <Route path="/food-delivery" element={<FoodPage/>} />
         
 
       </Routes>

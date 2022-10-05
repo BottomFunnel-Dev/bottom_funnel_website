@@ -458,6 +458,34 @@
   cursor: pointer;
 }
 
+
+.linkP{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.linkP p{
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.linkP p:hover{
+  color: #ef4c23;
+}
+/* .industryP {
+  text-decoration: none;
+}
+.industryP  p {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+.industryP > p:hover {
+  text-decoration: none;
+  color: #ef4c23;
+} */
+
 /* for media query of navbar */
 #checkbox {
   display: none;
@@ -620,7 +648,6 @@
 
 @media (min-width: 1281px) {
   .navbarSection {
-    background: #ef4c23;
     justify-content: space-between;
     padding: 0 30px;
   }
