@@ -1,0 +1,17 @@
+._AndroidDevelopmentwhymaindiv{
+    border:1px solid rebeccapurple;
+    padding:40px;
+    text-align: center;
+    line-height: 1.8;
+    background-color: rgb(244, 244, 244);
+}
+._AndroidDevelopmentwhymaindiv>h1{
+    text-decoration: underline;
+    color: #EF4C23;
+    text-decoration-thickness: 2px;
+}
+._AndroidDevelopmentwhymaindiv>p{
+    color:gray;
+    font-weight: 400;
+    font-family: sans-serif;
+}

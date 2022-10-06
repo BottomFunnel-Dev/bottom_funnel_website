@@ -1,0 +1,10 @@
+._Flutterbanner{
+    /* border:1px solid red; */
+    height:600px;
+    background-color:#ffd497 ;
+}
+._Flutterbanner>img{
+    height:100%;
+    width:100%;
+    object-fit: fill;  
+}

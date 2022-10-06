@@ -1,0 +1,35 @@
+._Ionicwhy{
+    /* border:1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    width: 88%;
+}
+._Ionicwhy1{
+    /* border:1px solid green; */
+    color: black;
+ 
+}
+._Ionicflex{
+    /* border:1px solid firebrick; */
+    width:80%;
+    margin: auto;
+}
+._Ionicpoints{
+    display: flex;
+    flex-wrap: wrap;
+}
+._Ionicpoints>h5{
+   margin-top: 20px;
+   width: 50%;
+}
+._Ionicwhyimg{
+    width:22%;
+    height:220px;
+    margin: auto;
+}
+._Ionicwhyimg>img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

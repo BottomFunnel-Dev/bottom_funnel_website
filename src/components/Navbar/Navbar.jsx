@@ -125,12 +125,12 @@ const appservice = [
   {
     dropContent: "Andriod App Development",
     navIcons: "Images/navbar/services/andriod.png",
-    path: "",
+    path: "android",
   },
   {
     dropContent: "IOS App Development",
     navIcons: "Images/navbar/services/iosimage.png",
-    path: "",
+    path: "ios",
   },
   {
     dropContent: "Kotlin App Development",
@@ -140,12 +140,12 @@ const appservice = [
   {
     dropContent: "Flutter App Development",
     navIcons: "Images/navbar/services/flutter.png",
-    path: "",
+    path: "flutter",
   },
   {
     dropContent: "React Native App Development",
     navIcons: "Images/navbar/services/react.png",
-    path: "",
+    path: "reactnative",
   },
   {
     dropContent: "Xamarian App Development",
@@ -155,7 +155,7 @@ const appservice = [
   {
     dropContent: "Ionic App Development",
     navIcons: "Images/navbar/services/ionic.png",
-    path: "",
+    path: "ionic",
   },
   {
     dropContent: "Wearable App Development",

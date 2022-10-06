@@ -1,0 +1,149 @@
+._MobileAppservice {
+    /* border: 1px solid red; */
+    width:99%;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 10px;
+    background-color:rgb(245, 244, 244);
+}
+._MobileAppservicesmaindiv {
+    /* border: 1px solid green; */
+    display: flex;
+    height:590px;
+    box-sizing: border-box;
+    padding: 10px;
+    gap:15px;
+}
+._MobileAppservice1 {
+    /* border: 1px solid blue; */
+    width: 30%;
+    height: 565px;
+    box-sizing: border-box;
+    background-image: url("../Images/apps.jpg");
+    background-size: cover;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+._MobileAppservice1>h1 {
+    color: white;
+    padding-top: 150px;
+    text-align: center;
+}
+._MobileAppservice1>p {
+    width: 90%;
+    margin: auto;
+}
+._MobileAppservice2 {
+    /* border: 1px solid green; */
+    width: 69%;
+    margin: auto;
+    height: 570px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+._MobileAppservice2>div {
+
+    width: 30%;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+._MobileAppservice2>div:hover{
+margin-top: -7px;
+transition: 0.2s ease-in-out;
+}
+._MobileAppservice2 > div:nth-child(-n+2){
+width:47.5%;
+display: flex;
+}
+._AppService{
+    background-color: white;
+}
+._AppService:hover{
+color: #EF4C23;
+}
+._AppService1{
+/* border:1px solid green; */
+width:30%;
+/* background-color: white; */
+}
+._AppService1>img{
+    width:100%;
+    height:90%;
+    object-fit: contain;
+    border-radius: 10px;
+    /* border: 1px solid green; */
+    /* margin: auto; */
+}
+._AppService2{
+    /* border:1px solid saddlebrown; */
+    width:70%;
+    box-sizing: border-box;
+    padding-top: 55px;
+}
+._AppService2>span{
+    font-size: 25px;
+    font-weight: 600;
+}
+._AppService2>p{
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+}
+._AppService4{
+    display: flex;
+    /* border: 1px solid green; */
+    height: 120px;
+}
+._AppService41{
+/* border:1px solid firebrick; */
+width:60%;
+position: relative;
+}
+._AppService41>h4{
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+}
+
+._AppService42{
+width:40%;
+/* border:1px solid indigo; */
+}
+._AppService42>img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+._AppServicetext{
+    position: relative;
+    height: 150px;
+}
+._AppService3{
+    background-color: white;
+}
+._AppService3:hover {
+color: #EF4C23;
+}
+._AppServicetext>p{
+width:90%;
+margin: auto;
+font-size: 14px;
+position: absolute; 
+transform: translate(-50%,-50%);
+top:50%;
+left:50%;
+color: gray;
+font-weight: 400;
+}

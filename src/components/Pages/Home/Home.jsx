@@ -16,12 +16,14 @@ import About from "../../AboutSection/About";
 import MainFooter from "../../FooterSection/MainFooter";
 import OndemandSection from "../../OnDemandSection/OndemandSection";
 import HeroSection from "../../mainSection/HeroSection";
+import Portfolio from "../../PortFolioSection/Portfolio";
 
 const Home = () => {
   return (
     <div>
       {/* <Banner /> */}
-      <HeroSection/>
+      {/* <Portfolio /> */}
+      <HeroSection />
       <CompanyLogo />
       <About />
       <Services />

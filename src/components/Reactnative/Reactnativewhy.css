@@ -1,0 +1,35 @@
+._Reactnativewhy{
+    /* border:1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    width: 88%;
+}
+._Reactnativewhy1{
+    /* border:1px solid green; */
+    color: black;
+ 
+}
+._Reactnativeflex{
+    /* border:1px solid firebrick; */
+    width:80%;
+    margin: auto;
+}
+._ReactNativepoints{
+    display: flex;
+    flex-wrap: wrap;
+}
+._ReactNativepoints>h5{
+   margin-top: 20px;
+   width: 50%;
+}
+._Reactnativewhyimg{
+    width:22%;
+    height:220px;
+    margin: auto;
+}
+._Reactnativewhyimg>img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

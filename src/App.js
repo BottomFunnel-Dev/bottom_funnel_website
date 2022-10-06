@@ -10,6 +10,11 @@ import Seoguest from './components/Pages/SEO/Seoguest'
 import Seolink from './components/Pages/SEO/Seolink'
 import SeoSEM from './components/Pages/SEO/SeoSEM'
 import FoodPage from "./components/Pages/SolutionPages/FoodPage";
+import { Flutter } from "./components/Flutter/Flutter";
+import { Ionic } from "./components/Ionic/Ionic";
+import { Iphonepage } from "./components/Iphonedevelopmentpage/Iphonepage";
+import { Reactnative } from "./components/Reactnative/Reactnative";
+import { AndroidDevelopmentPage } from "./components/AndroidDevelopmentPage/AndroidDevelopmentPage";
 // import { Seomainpage } from "./components/SEO/Seomainpage/Seomainpage";
 
 
@@ -26,6 +31,11 @@ function App() {
         <Route path="/seo-link-building" element={<Seolink/>} />
         <Route path="/seo-sem" element={<SeoSEM/>} />
         <Route path="/food-delivery" element={<FoodPage/>} />
+        <Route path="/flutter" element={<Flutter/>} />
+        <Route path="/ionic" element={<Ionic/>} />
+        <Route path="/ios" element={<Iphonepage/>} />
+        <Route path="/reactNative" element={<Reactnative/>} />
+        <Route path="/android" element={<AndroidDevelopmentPage/>} />
         
 
       </Routes>

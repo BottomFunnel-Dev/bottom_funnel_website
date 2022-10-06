@@ -1,0 +1,27 @@
+._MobileappDevelopmentclients{
+    /* border:1px solid fuchsia; */
+    width:90%;
+    margin:auto
+}
+._Clients{
+    /* border:1px solid green; */
+    margin: auto;
+    height:250px;
+    border-radius: 10px;
+}
+._mo{
+    width:90%;
+    margin: auto;
+}
+._Clients>img{
+    height:100%;
+    width:100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+._MobileappDevelopmentclients>h1{
+    color: #Ef4c23;
+    text-align: center;
+    /* border:1px solid blue; */
+    padding: 10px;
+}

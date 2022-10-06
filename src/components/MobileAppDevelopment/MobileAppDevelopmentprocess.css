@@ -1,0 +1,58 @@
+._MobileAppDevelopmentprocessmaindiv{
+    /* border:1px solid firebrick; */
+    margin-top: 55px;
+}
+._MobileAppDevelopmentprocessmaindiv>h1{
+    color: #EF4C23;
+}
+._MobileAppDevelopmentprocessmaindiv>h1{
+    text-align: center;
+}
+._MobileAppDevelopmentprocess{
+    /* border:1px solid green; */
+    display: flex;
+    height:550px;
+}
+._MobileAppDevelopmentprocessimage{
+    /* border:1px solid red; */
+    height:100%;
+    width:60%;
+}
+._MobileAppDevelopmentprocess1{
+    /* border:1px solid green; */
+    height:100%;
+    width:40%;
+}
+._MobileAppDevelopmentprocess1>img{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+._MobileAppDevelopmentprocess11{
+    /* border:1px solid blue; */
+    border-radius:10px;
+    margin: auto;
+    margin-top: 30px;
+    width:85%;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    height:100px;
+}
+._MobileAppDevelopmentprocess11>h4{
+    color:#EF4C23;
+    box-sizing: border-box;
+    /* padding-left: 8px; */
+    padding-top: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    width: fit-content;
+    padding-bottom: 2.5px;
+    margin-left: 8px;
+}
+
+._MobileAppDevelopmentprocess11>p{
+    color:grey;
+    box-sizing: border-box;
+    padding-left: 5px;
+    font-weight: 500;
+    text-align: center;
+}

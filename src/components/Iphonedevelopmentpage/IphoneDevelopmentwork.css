@@ -1,0 +1,63 @@
+._IphoneDevelopmentwork{
+    /* border:1px solid rebeccapurple; */
+    width:96%;
+    height:150px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: rgb(245 244 244 / 69%);
+    margin-bottom: 50px;
+    padding: 10px;
+}
+._IphoneDevelopmentwork>h1{
+    margin-bottom: 10px;
+}
+._IphoneDevelopmentwork>h1{
+    text-align: center;
+    color: #EF4C23;
+}
+._IphoneDevelopmentwork1{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+}
+._IphoneDevelopmentwork1>div{
+    font-size: 22px;
+    margin-top: 10px;
+    /* background-color: #EF4C23; */
+    position: relative;
+    /* color:#EF4C23; */
+}
+._IphoneDevelopmentspan{
+    cursor: pointer;
+    font-weight: 600;
+    color:gray;
+    /* position: relative; */
+}
+._IphoneDevelopmentspan:hover{
+    color: #EF4C23;
+}
+._IphoneDevelopment12{
+    /* visibility: visible; */
+    box-sizing: border-box;
+    padding: 10px;
+    display: block;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    top:40px;
+    left: -70px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    color:gray;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+._IphoneDevelopment121{
+/* visibility: hidden; */
+display: none;
+border: 1px solid green;
+
+}

@@ -9,7 +9,7 @@ const Services = () => {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Mobile & Wearables",
       serviceImages: "Images/services/mobileandwearable.gif",
-      serviceTypes:['IOS', 'ANDROID','HYBRID','WEARABLES']
+      serviceTypes:['IOS', 'ANDROID','FLUTTER','XAMARIN']
     },
     {
       serviceIcon: <FaMobileAlt />,
@@ -21,19 +21,19 @@ const Services = () => {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Digital Marketing",
       serviceImages: "Images/services/digital.gif",
-      serviceTypes:['IOS', 'ANDROID','HYBRID','WEARABLES']
+      serviceTypes:['SEO', 'SMM','SEM','LOCALSEO']
     },
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Cloud Services",
       serviceImages: "Images/services/cloud-new-1.gif",
-      serviceTypes:['ARCHITECT', 'BUILD','MANAGE']
+      serviceTypes:['DIGITALOCEAN', 'VULTR','CLOUDWAYS']
     },
     {
       serviceIcon: <FaMobileAlt />,
-      serviceName: "Machine Learning",  
+      serviceName: "Software Product Development",  
       serviceImages: "Images/services/machine-lkearning.gif",
-      serviceTypes:['IOS', 'ANDROID','HYBRID','WEARABLES']
+      serviceTypes:['AI', 'ML','HYBRID','CRM']
 
     },
     {
@@ -74,11 +74,11 @@ const Services = () => {
                 </div>
               </div>
               <div className="supportableDevices">
-                <li>IOS</li>
-                <li>IOS</li>
-                <li>IOS</li>
-                <li>IOS</li>
-                <li>IOS</li>
+                <li>{item.serviceTypes[0]}</li>
+                <li>{item.serviceTypes[1]}</li>
+                <li>{item.serviceTypes[2]}</li>
+                <li>{item.serviceTypes[3]}</li>
+                
               </div>
             </div>
 

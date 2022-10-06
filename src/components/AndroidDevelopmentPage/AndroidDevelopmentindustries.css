@@ -1,0 +1,51 @@
+._AndroidDevelopmentindustriesmaindiv{
+    margin-top: 15px;
+}
+._AndroidDevelopmentindustriesmaindiv>h1{
+    color:#EF4C23;
+    text-align: center;
+}
+._AndroidDevelopmentindustries{
+    /* border:1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    gap:3%;
+    row-gap:40px;
+    justify-content: center;
+}
+._AndroidDevelopmentindustries1{
+    width:25%;
+    height:200px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 15px;
+    transition: 0.2s linear;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+._AndroidDevelopmentindustries1:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.2s linear;
+}
+
+._AndroidDevelopmentindustries1>p{
+padding-top: 10px;
+color: gray;
+font-weight: 400;
+}
+._AndroidDevelopmentindustries1>div{
+    border:1px solid red;
+    width:100px;
+    margin: auto;
+    border-radius: 15px;
+    color: #EF4C23;
+    font-weight: 600;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+._AndroidDevelopmentindustries1>div:hover{
+    background-color: #EF4C23;
+    color:white;
+    transition: 0.5s ease-in-out;
+}

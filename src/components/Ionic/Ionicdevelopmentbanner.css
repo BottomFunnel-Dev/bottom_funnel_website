@@ -1,0 +1,85 @@
+._Ionicbannermaindiv{
+    height:600px;
+    background-color:#ffd497 ;
+    position: relative;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+._Ionicbanner{
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+._Ionicbanner>div:nth-child(2){
+    /* border: 1px solid rebeccapurple; */
+    padding: 10px;
+    height:95px;
+    font-size: 50px;
+    font-weight: 600;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    color: black;
+    animation-timing-function: linear;
+    left:530px
+}
+@keyframes example {
+    0%   {top:20px}
+    100% {top:200px}
+  }
+  ._Ionicbanner>div:nth-child(1){
+    /* border:1px solid red; */
+    height:95px;
+    width: 80px;
+    position: absolute;
+    animation-name:example1;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    top:200px;
+    animation-timing-function: linear;
+}
+@keyframes example1 {
+    0%   {left:-2%}
+    100% {left:29%}
+}
+._Ionicbanner>img{
+    height:100%;
+    width:100%;
+    object-fit: fill;  
+}
+._Ionicbanner1{
+    border:3px solid white;
+    color: white;
+    height:55px;
+    font-size: 17px;
+    width:140px;
+    background: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 12px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: black;
+    margin: auto;
+    position: absolute;
+    cursor:pointer;
+    left:45%;
+    top:50%;
+}
+/* @keyframes example12 {
+    0%{bottom:0px}
+    100%{bottom: 250px;color:black;background-color: white;}
+} */
+/* ::after ._Ionicbanner1{
+    background-color: white;
+    color: black;
+    transition: 0.2s linear;
+} */
+/* ._Ionicbanner1:hover{
+   background-color: white;
+   color: black;
+   transition: 0.2s linear;
+    /* height: 100%; */
+/* }  */

@@ -1,0 +1,92 @@
+._Ionicadvantagesmaindiv{
+    display: flex;
+    /* border: 1px solid fuchsia; */
+    width: 88%;
+    margin: auto;
+    margin-top: 50px;
+}
+._Ionicadvantages{
+    /* border:1px solid green; */
+    width:35%;
+    height: 50%;
+    margin: auto;
+    /* text-align: center; */
+}
+._Ionicadvantages1{
+    /* border: 1px solid forestgreen; */
+    width:65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:12px;
+    column-gap: 20px;
+    justify-content: right;
+}
+._Ionicadvantages1>div{
+    /* border:1px solid red; */
+    width:40%;
+    height:150px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* background-color:#ffd497; */
+}
+._Ionicgray{
+    background-color: #EEEEEE;
+    transition: 0.2s ease-in-out;
+}
+._Ionicgray:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+._Ionicpeach{
+    transition: 0.2s ease-in-out;
+    background-color: #ffd497;
+    
+}
+._Ionicpeach:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+._Ionichi{
+    background-color: white;
+    border-radius: 20px;
+    font-size: 27px;
+    color:#EF4C23;
+    display: block;
+    width:40px;
+    text-align: center;
+}
+._Ioniclogotext{
+    margin-left:10px;
+    display: flex;
+    padding-top:9px;
+    justify-content: left;
+    gap: 5px;
+}
+._Ionicadtext{
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 17px;
+    font-weight: 500;
+}
+._Ioniclogo{
+   margin: auto;
+   margin-bottom: 20%;
+}
+._Ionicpeach>div:nth-child(2){
+    text-align: center;
+    width:90%;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 5px;
+    color: black;
+ 
+}
+._Ionicgray>div:nth-child(2){
+    text-align: center;
+    width:90%;
+    margin: auto;
+    color: gray;
+    box-sizing: border-box;
+    padding-top: 5px;
+}

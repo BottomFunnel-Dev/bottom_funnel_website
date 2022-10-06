@@ -1,0 +1,9 @@
+._Reactnativebanner{
+    /* border:1px solid red; */
+    height:600px;
+}
+._Reactnativebanner>img{
+    height:100%;
+    width:100%;
+    object-fit: fill;
+}
