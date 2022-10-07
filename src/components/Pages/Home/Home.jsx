@@ -22,7 +22,6 @@ const Home = () => {
   return (
     <div>
       {/* <Banner /> */}
-      {/* <Portfolio /> */}
       <HeroSection />
       <CompanyLogo />
       <About />
@@ -31,6 +30,7 @@ const Home = () => {
       <StoriesSection />
       <Industries />
       <OndemandSection />
+      {/* <Portfolio /> */}
       <PlanProject />
       <Companystats />
       <Revamping />

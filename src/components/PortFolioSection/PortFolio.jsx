@@ -7,7 +7,7 @@ const Portfolio = () => {
   const settings = {
     infinite: true,
     accessibility: false,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 5000,
     speed: 1000,
     slidesToScroll: 1,
     centerMode: true,
@@ -15,7 +15,7 @@ const Portfolio = () => {
     pauseOnHover: false,
     // swipeToSlide:true,
     vertical:true,
-    // autoplay: true,  
+    autoplay: true,  
     // cssEase: "linear",
     arrows: false,
     beforeChange: (current, next) => setImageIndex(next),

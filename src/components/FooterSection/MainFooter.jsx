@@ -16,12 +16,12 @@ const MainFooter = () => {
     <div className="mainFooterSection">
       <div className="rightFooter">
         <div className="mapImageSection">
-          <img src="Images/footer/whiteworld.png" alt="" />
+          <img src="Images/footer/gg.gif" alt="" />
         </div>
 
         <div className="footerLogo">
           <div className="logoBottom">
-            <img src="Images/footer/whitelogo.png" alt="" />
+            <img src="Images/footer/whitelogobottom.png" alt="" />
           </div>
 
           <div className="footerAddress">

@@ -626,6 +626,7 @@ const Navbar = () => {
   };
 
   const navBackground = () => {
+    console.log(window.scrollY)
     if (window.scrollY > 1) {
       setNabvar(true);
     } else {
@@ -642,7 +643,7 @@ const Navbar = () => {
               src={
                 navbar
                   ? "Images/navbar/orangelogobottom.png"
-                  : "Images/navbar/whitelogobottom.png"
+                  : "Images/navbar/blacklogo.png"
               }
               alt=""
             />

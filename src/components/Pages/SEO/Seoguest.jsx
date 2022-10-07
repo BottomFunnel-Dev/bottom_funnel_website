@@ -16,6 +16,8 @@ import StoriesSection from "../../StoriesSection/StoriesSection";
 import Reviews from "../../SEO/SeoReviews/Reviews";
 import Seoexperts from "../../SEO/Seo experts/Seoexperts";
 import Seofaq from "../../SEO/SeoFaq/Seofaq";
+import ContectForm from "../../ContectForm/ContectForm";
+import MainFooter from "../../FooterSection/MainFooter";
 
 const Seoguest = () => {
   return (
@@ -30,6 +32,8 @@ const Seoguest = () => {
       <Seoexperts />
       <Seofaq />
       <SeoblogSection />
+      <ContectForm/>
+      <MainFooter/>
     </div>
   );
 };

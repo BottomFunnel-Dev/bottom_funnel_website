@@ -5,6 +5,9 @@ function Seosection(){
 
     return (
         <div className="_SeoMain1">
+            <div className="gifDenote">
+                <img src="Images/seopages/seogif.gif" alt="" />
+            </div>
             <div className="_Seoupperdiv">
                 <div className="_Seotext" >
                     <div className="_Seoheading">Professional SEO Services Company</div>

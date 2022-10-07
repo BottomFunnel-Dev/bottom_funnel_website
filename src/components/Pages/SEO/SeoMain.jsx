@@ -13,6 +13,8 @@ import Trusted from '../../SEO/SeoTrustedCompanies/Seotrusted'
 import { SeoblogSection } from '../../SeoBlogs/Seoblogs'
 import StoriesSection from '../../StoriesSection/StoriesSection'
 import Seotrusted from '../../SEO/SeoTrustedCompanies/Seotrusted'
+import ContectForm from '../../ContectForm/ContectForm'
+import MainFooter from '../../FooterSection/MainFooter'
 
 const SeoMain = () => {
   return (
@@ -27,6 +29,8 @@ const SeoMain = () => {
       <Seoexperts/>
       <Seofaq/>
       <SeoblogSection/>
+      <ContectForm/>
+      <MainFooter/>
     </div>
   )
 }

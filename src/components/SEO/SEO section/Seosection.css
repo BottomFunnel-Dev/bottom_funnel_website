@@ -1,11 +1,27 @@
 ._SeoMain1 {
   height: auto;
   width: 100%;
-  background: url("/public/Images/seopages/seo.png");
+  background: url("/public/Images/seopages/seowithout.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position:bottom;
   background-origin: border-box;
+  position: relative;
+}
+
+
+.gifDenote{
+  width: 230px;
+  height: 300px;
+  position: absolute;
+  top: 19%;
+  right: 35%;
+}
+.gifDenote>img{
+  width: 256%;
+  height: 210%;
+  object-fit: cover;
+  
 }
 ._Seoupperdiv {
   display: flex;
@@ -35,7 +51,7 @@
 ._Seoheading {
   /* border:1px solid white; */
   margin-bottom: 10px;
-  color: #ef4c23;
+  color: #605d5d;
   width: 100%;
   font-family: sans-serif;
   font-size: 32px;
@@ -67,7 +83,7 @@
   font-size: 23px;
   text-align: center;
   font-weight: 700;
-  color: #ef4c23;
+  color: #605d5d;
 }
 
 ._SeoRatings {

@@ -9,31 +9,31 @@ const Services = () => {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Mobile & Wearables",
       serviceImages: "Images/services/mobileandwearable.gif",
-      serviceTypes:['IOS', 'ANDROID','FLUTTER','XAMARIN']
+      serviceTypes:['IOS', 'ANDROID','FLUTTER','REACT NATIVE']
     },
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Web Development",
       serviceImages: "Images/services/web-dev.gif",
-      serviceTypes:['PHP', '.NET','JAVA','NODE']
+      serviceTypes:['MERN', 'MEAN','JAVA','PHP', "PYTHON"]
     },
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Digital Marketing",
       serviceImages: "Images/services/digital.gif",
-      serviceTypes:['SEO', 'SMM','SEM','LOCALSEO']
+      serviceTypes:['SEO', 'SMM','SEM','LOCALSEO', "GUEST POSTING"]
     },
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Cloud Services",
       serviceImages: "Images/services/cloud-new-1.gif",
-      serviceTypes:['DIGITALOCEAN', 'VULTR','CLOUDWAYS']
+      serviceTypes:['AWS',"GCP","AZURE",'VULTR','CLOUDFARE']
     },
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Software Product Development",  
       serviceImages: "Images/services/machine-lkearning.gif",
-      serviceTypes:['AI', 'ML','HYBRID','CRM']
+      serviceTypes:["IOT",'AI', 'ML','BLOCKCHAIN','DATA SCIENCE']
 
     },
     {
@@ -78,6 +78,8 @@ const Services = () => {
                 <li>{item.serviceTypes[1]}</li>
                 <li>{item.serviceTypes[2]}</li>
                 <li>{item.serviceTypes[3]}</li>
+                <li>{item.serviceTypes[4]}</li>
+                <li>{item.serviceTypes[5]}</li>
                 
               </div>
             </div>

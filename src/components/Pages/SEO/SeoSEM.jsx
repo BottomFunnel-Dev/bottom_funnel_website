@@ -14,6 +14,8 @@ import StoriesSection from "../../StoriesSection/StoriesSection";
 import Seotrusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
 import Seoexperts from "../../SEO/Seo experts/Seoexperts";
 import Seofaq from "../../SEO/SeoFaq/Seofaq";
+import ContectForm from "../../ContectForm/ContectForm";
+import MainFooter from "../../FooterSection/MainFooter";
 
 const SeoSEM = () => {
   return (
@@ -26,6 +28,8 @@ const SeoSEM = () => {
       <Seoexperts />
       <Seofaq />
       <SeoblogSection />
+      <ContectForm/>
+      <MainFooter/>
     </div>
   );
 };
