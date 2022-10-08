@@ -28,7 +28,7 @@ const HeroSection = () => {
 
     },
     {
-      serviceName: "App Development", 
+      serviceName: "Mobile App Development", 
       banner: "Images/banner/appdev.png",
       bannerPhone:"Images/banner/appdev.png",
 
@@ -49,8 +49,8 @@ const HeroSection = () => {
       desc: "Shift your business online and expand your business with us",
     },
     {
-      serviceName: "custom Software Development",
-      banner: "Images/banner/appdev.png",
+      serviceName: "Custom Software Development",
+      banner: "Images/banner/customsoftware.png",
       bannerPhone:"Images/banner/customsoftware.png",
 
       desc: "Looking for customised developed enterprise-level solutions?",
