@@ -3,8 +3,10 @@ import './foodBanner.css'
 const Foodbanner = () => {
   return (
     <div className='foodBanner'>
-      <div className=''></div>
-      <div></div>
+      <div className='foodText'>
+        
+      </div>
+      <div className='foodImage'></div>
     </div>
   )
 }

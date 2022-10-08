@@ -349,7 +349,7 @@ const ondemand = [
   {
     dropContent: "On Demand Home Services",
     navIcons: "Images/navbar/industriesImage/ondemandhomeservices.png",
-    path: "",
+    path: "ondemandHomeServices",
   },
   {
     dropContent: "Alcohol Delivery App",
@@ -626,7 +626,6 @@ const Navbar = () => {
   };
 
   const navBackground = () => {
-    console.log(window.scrollY)
     if (window.scrollY > 1) {
       setNabvar(true);
     } else {

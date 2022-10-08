@@ -1,4 +1,11 @@
 ._AndroidDevelopmentbanner{
     border:1px solid green;
     height:600px;
+    width: 100%;
+}
+._AndroidDevelopmentbanner>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    /* filter: brightness(0.5); */
 }

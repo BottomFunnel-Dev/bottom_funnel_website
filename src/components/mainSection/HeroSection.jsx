@@ -24,34 +24,34 @@ const HeroSection = () => {
       serviceName: "Web Development",
       banner: "Images/banner/webdev.png",
       desc: "Innovation Starts with us: Get the Web Drilled Now",
-      bannerPhone:"Images/banner/blockchainphone.png",
+      bannerPhone:"Images/banner/webdev.png",
 
     },
     {
-      serviceName: "App Development",
+      serviceName: "App Development", 
       banner: "Images/banner/appdev.png",
-      bannerPhone:"Images/banner/blockchainphone.png",
+      bannerPhone:"Images/banner/appdev.png",
 
       desc: "Shift to small screens; get mobile app to explore more business",
     },
     {
-      serviceName: "Blockchain Development",
-      banner: "Images/banner/blockchain.png",
-      bannerPhone:"Images/banner/blockchainphone.png",
+      serviceName: "Software Development",
+      banner: "Images/banner/appdev.png",
+      bannerPhone:"Images/banner/softwaredev.png",
 
       desc: "Secure Development including BlockChain Development, NFT Development, Coin Development, branding and Crypto Exchange Solution Secured with Penetration Testing and Loading Testing ",
     },
     {
       serviceName: "Digital Marketing",
-      banner: "Images/banner/digitalmarketing.png",
-      bannerPhone:"Images/banner/blockchainphone.png",
+      banner: "Images/banner/appdev.png",
+      bannerPhone:"Images/banner/digitalmarketing.png",
 
       desc: "Shift your business online and expand your business with us",
     },
     {
       serviceName: "custom Software Development",
-      banner: "Images/banner/softwaredev.png",
-      bannerPhone:"Images/banner/blockchainphone.png",
+      banner: "Images/banner/appdev.png",
+      bannerPhone:"Images/banner/customsoftware.png",
 
       desc: "Looking for customised developed enterprise-level solutions?",
     },
@@ -59,7 +59,7 @@ const HeroSection = () => {
 
   return (
     <div className="heroSection">
-      <div className="heroCurveImage"></div>
+      {/* <div className="heroCurveImage"></div> */}
       <div className='bannerSlider'>
       <Slider {...settings}>
         {banner.map((item, i) => (

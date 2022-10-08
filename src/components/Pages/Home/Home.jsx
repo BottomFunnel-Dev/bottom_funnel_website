@@ -17,6 +17,7 @@ import MainFooter from "../../FooterSection/MainFooter";
 import OndemandSection from "../../OnDemandSection/OndemandSection";
 import HeroSection from "../../mainSection/HeroSection";
 import Portfolio from "../../PortFolioSection/Portfolio";
+import PortSection from "../../PortFolioSection/PortSection";
 
 const Home = () => {
   return (
@@ -25,12 +26,14 @@ const Home = () => {
       <HeroSection />
       <CompanyLogo />
       <About />
+
+      {/* <PortSection/> */}
       <Services />
       <Awards />
       <StoriesSection />
       <Industries />
       <OndemandSection />
-      {/* <Portfolio /> */}
+    
       <PlanProject />
       <Companystats />
       <Revamping />

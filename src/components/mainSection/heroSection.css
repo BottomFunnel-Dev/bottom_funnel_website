@@ -54,8 +54,8 @@
 .bannerText {
   position: absolute;
   transform: translate(-50%, -50%);
-  left: 28%;
-  top: 60%;
+  left: 25%;
+  top: 45%;
   width: 30%;
 }
 .bannerText > button {
