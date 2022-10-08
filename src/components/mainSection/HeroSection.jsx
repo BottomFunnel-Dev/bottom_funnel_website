@@ -50,7 +50,7 @@ const HeroSection = () => {
     },
     {
       serviceName: "Custom Software Development",
-      banner: "Images/banner/customsoftware.png",
+      banner: "Images/banner/appdev.png",
       bannerPhone:"Images/banner/customsoftware.png",
 
       desc: "Looking for customised developed enterprise-level solutions?",
