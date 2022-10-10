@@ -33,7 +33,7 @@ const Home = () => {
       <StoriesSection />
       <Industries />
       <OndemandSection />
-    <PortSection/>
+    {/* <PortSection/> */}
       <PlanProject />
       <Companystats />
       <Revamping />
