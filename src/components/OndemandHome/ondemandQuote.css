@@ -1,0 +1,23 @@
+.quotation {
+  width: 90%;
+  padding: 20px;
+  background-color: #e1f9f6;
+  border-radius: 10px;
+  text-align: center;
+  margin: 30px auto;
+}
+.quotation>button{
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  background-color: #ef4c23;
+  color: white;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+.quotation>button:hover{
+/* padding: 15px 30px; */
+
+}

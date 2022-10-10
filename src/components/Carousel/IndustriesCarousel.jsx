@@ -18,19 +18,11 @@ export default function VerticalCarousel() {
       <Swiper 
         className="mySwiper"
         direction={"vertical"}
-        slidesPerView={1}
-        pagination={{
-          clickable: true,
-        }}
         modules={[Mousewheel,Pagination,Scrollbar]}
         scrollbar={{ draggable: true }}
-        mousewheel={
-          {
-          forceToAxis:true,
-          releaseOnEdge:true
-        } 
-        }
-        breakpoints={{
+        
+        
+        breakpoints={{  
           500: {
             slidesPerView: 2,
           },

@@ -6,7 +6,7 @@ function Seosection(){
     return (
         <div className="_SeoMain1">
             <div className="gifDenote">
-                <img src="Images/seopages/seogif.gif" alt="" />
+                <img src="Images/seopages/1.gif" alt="" />
             </div>
             <div className="_Seoupperdiv">
                 <div className="_Seotext" >
