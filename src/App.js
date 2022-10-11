@@ -16,6 +16,8 @@ import { Iphonepage } from "./components/Iphonedevelopmentpage/Iphonepage";
 import { Reactnative } from "./components/Reactnative/Reactnative";
 import { AndroidDevelopmentPage } from "./components/AndroidDevelopmentPage/AndroidDevelopmentPage";
 import OndemandHome from "./components/Pages/SolutionPages/OndemandHome";
+import { NodejsPage } from "./components/Nodejs/nodejs";
+import Beautyandcare from "./components/Beautyandcare/Beautyandcare";
 // import { Seomainpage } from "./components/SEO/Seomainpage/Seomainpage";
 
 function App() {
@@ -37,6 +39,8 @@ function App() {
         <Route path="/reactNative" element={<Reactnative />} />
         <Route path="/android" element={<AndroidDevelopmentPage />} />
         <Route path="/ondemandHomeServices" element={<OndemandHome />} />
+        <Route path="/nodejs" element={<NodejsPage/>} />
+        <Route path="/beautycareapp" element={<Beautyandcare/>} />
       </Routes>
       {/* <Seomainpage/> */}
     </div>

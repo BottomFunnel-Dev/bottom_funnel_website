@@ -28,9 +28,9 @@ const PortSection = () => {
         modules={[Mousewheel, Pagination, Scrollbar]}
         scrollbar={{ draggable: true }}
         mousewheel={{
-        //   forceToAxis: true,
+          //   forceToAxis: true,
           releaseOnEdge: true,
-          touchReleaseOnEdges:true,
+          touchReleaseOnEdges: true,
         }}
         breakpoints={{
           500: {

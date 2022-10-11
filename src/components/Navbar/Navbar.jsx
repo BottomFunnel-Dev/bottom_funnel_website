@@ -369,7 +369,7 @@ const ondemand = [
   {
     dropContent: "Beauty & Salon App",
     navIcons: "Images/navbar/industriesImage/beauty.png",
-    path: "",
+    path: "beautycareapp",
   },
   {
     dropContent: "Cannabis Delivery App",
@@ -421,7 +421,7 @@ const backend = [
   {
     dropContent: "Node.js",
     navIcons: "Images/navbar/skills/nodejs.png",
-    path: "",
+    path: "nodejs",
   },
   { dropContent: ".NET", navIcons: "Images/navbar/skills/-net.png", path: "" },
   { dropContent: "PHP", navIcons: "Images/navbar/skills/php.png", path: "" },

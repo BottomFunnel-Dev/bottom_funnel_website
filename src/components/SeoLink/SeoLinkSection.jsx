@@ -5,6 +5,9 @@ export default function SeoLinkSection(){
 
     return (
         <div className="_SeoLinkMain1">
+             <div className="gifDenote">
+                <img src="Images/seopages/1.gif" alt="" />
+            </div>
             <div className="_SeoLinkupperdiv">
                 <div className="_SeoLinktext" >
                     <div className="_SeoLinkheading">Link Building Services Company</div>

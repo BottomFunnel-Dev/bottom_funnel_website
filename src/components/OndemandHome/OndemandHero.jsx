@@ -5,7 +5,7 @@ const OndemandHero = () => {
     <div className="ondemandHero">
       <div className="textcontainer">
         <div>
-          <h1>Food Delivery App</h1>
+          <h1>Home Services App Solutions</h1>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
             architecto magnam ipsam dolorem magni laborum, eaque neque iste

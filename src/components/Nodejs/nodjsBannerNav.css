@@ -1,0 +1,19 @@
+.nodejs-banner-nav-main {
+  height: fit-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nodejs-banner-nav-main > ul {
+  height: fit-content;
+  color: black;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nodejs-banner-nav-main > ul > li {
+  font-size: large;
+  font-weight: bold;
+}

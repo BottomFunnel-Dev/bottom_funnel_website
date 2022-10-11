@@ -6,7 +6,7 @@ export default function SeoSEMSection(){
     return (
         <div className="_SeoSEMMain1">
              <div className="gifDenote">
-                {/* <img src="Images/seopages/sem.gif" alt="" /> */}
+                <img src="Images/seopages/1.gif" alt="" />
             </div>
             <div className="_SeoSEMupperdiv">
                 <div className="_SeoSEMtext" >

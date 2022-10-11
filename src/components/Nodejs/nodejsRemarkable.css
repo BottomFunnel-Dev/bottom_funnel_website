@@ -1,0 +1,56 @@
+.nodejs-remarkable-main {
+  width: 85%;
+  margin: auto;
+  text-align: left;
+}
+
+.nodejs-remarkable-main > h1 {
+  color: #ef4c23;
+
+  font-size: 32px;
+  margin: 0px;
+}
+
+.nodejs-remarkable-main > p {
+  margin: 0px;
+
+  font-size: 16px;
+}
+
+.nodejs-remarkable-solutions {
+  margin: auto;
+  height: fit-content;
+
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.nodejs-remarkable-solutions > div {
+  /* height: 60px; */
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.nodejs-remarkable-image{
+  width: 20%;
+  height: 50px;
+}
+.nodejs-remarkable-image>img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.nodejs-remarkable-solutions > div > img {
+  height: 100%;
+}

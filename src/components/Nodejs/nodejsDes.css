@@ -1,0 +1,41 @@
+#nodejs-hr {
+  margin: 0px;
+}
+
+.nodejs-des-main {
+  width: 85%;
+  height: 160px;
+
+  margin: auto;
+  margin-top: 0px;
+
+  text-align: left;
+  padding: 10px 0;
+
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.nodejs-des-main > img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.nodejs-des-content {
+  padding: 0;
+}
+
+.nodejs-des-content > h1 {
+  color: #ef4c23;
+
+  font-size: 32px;
+  margin: 0px;
+}
+
+.nodejs-des-content > p {
+  width: 90%;
+  margin: 0px;
+
+  font-size: 16px;
+}
