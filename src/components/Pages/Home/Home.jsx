@@ -16,13 +16,13 @@ import About from "../../AboutSection/About";
 import MainFooter from "../../FooterSection/MainFooter";
 import OndemandSection from "../../OnDemandSection/OndemandSection";
 import HeroSection from "../../mainSection/HeroSection";
-import Portfolio from "../../PortFolioSection/Portfolio";
+import Portfolio from "../../PortFolioSection/PortFolio";
 import PortSection from "../../PortFolioSection/PortSection";
 
 const Home = () => {
   return (
     <div>
-      <Banner/>
+      <Banner />
       {/* <HeroSection /> */}
       <CompanyLogo />
       <About />
