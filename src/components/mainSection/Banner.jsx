@@ -4,7 +4,7 @@ import Slider from "react-slick";
 const CompanyLogo = () => {
   var settings = {
     // autoplay: true,
-    dots:false,
+    dots: false,
     autoplaySpeed: 5000,
     cssEase: "linear",
     speed: 2000,
@@ -33,7 +33,6 @@ const CompanyLogo = () => {
           slidesToScroll: 2,
           initialSlide: 2,
           dots: false,
-
         },
       },
       {
@@ -42,19 +41,67 @@ const CompanyLogo = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           dots: false,
-
         },
       },
     ],
   };
 
+  const banner = [
+    {
+      title: "App Development",
+      bannerImage: "Images/banner/app dev.gif",
+      desc: "Connect to your customers in real time with the latest in mobile app development.",
+    },
+    {
+      title: "Custom Software Development",
+      bannerImage: "Images/banner/customsde.gif",
+      desc: "Turn your company’s opportunities into realities with enterprise-level custom software development.",
+    },
+    {
+      title: "Digital Marketing",
+      bannerImage: "Images/banner/digitalmarketing.gif",
+      desc: "Break through the noise and grow your business with the power of digital marketing",
+    },
+    {
+      title: "Web Development",
+      bannerImage: "Images/banner/web dev.gif",
+      desc: "Developing websites that develop your business",
+    },
+    {
+      title: "Software Product Development",
+      bannerImage: "Images/banner/app dev.gif",
+      desc: "Don’t settle for anything less, get the finest software product for you company.",
+    },
+  ];
+
   return (
     <div className="bannerSection">
-      <div className="curveImage"></div>
+      {/* <div className="curveImage"></div> */}
 
       <div className="bannerSlide">
         <Slider {...settings}>
-          <div className="slideMainDiv">
+          {banner.map((item, i) => (
+            <div key={i} className="slideMainDiv">
+              <div className="slideInnerContent">
+                <div className="textContent">
+                  <div>
+                    <h1>{item.title}</h1>
+                    <p>
+                     {item.desc}
+                    </p>
+                    <button>Get Started</button>
+                  </div>
+                </div>
+                <div className="imageContent">
+                  <div className="imageInner">
+                    <img src={item.bannerImage} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+
+          {/* <div className="slideMainDiv">
             <div className="slideInnerContent">
               <div className="textContent">
                 <div>
@@ -73,8 +120,9 @@ const CompanyLogo = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="slideMainDiv">
+          </div> */}
+
+          {/* <div className="slideMainDiv">
             <div className="slideInnerContent">
               <div className="textContent">
                 <div>
@@ -93,7 +141,7 @@ const CompanyLogo = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </Slider>
       </div>
     </div>

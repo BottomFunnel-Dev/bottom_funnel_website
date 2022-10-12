@@ -9,16 +9,18 @@ const Revamping = () => {
       {/* <IconContext.Provider value={{ className: "navIcon" }}>
         <RiNavigationLine />
       </IconContext.Provider> */}
-     <div className="navmotion"> <img src="Images/navmotion.gif" alt="" /></div>
-      <h1>Thinking of Revamping Your Website to Generate Real ROI?</h1>
+      <div className="navmotion">
+        {" "}
+        <img src="Images/navmotion.gif" alt="" />
+      </div>
+      <h1>Need an expert advice on your technical queries?</h1>
       <p>
-        Provide us with the following information and we'll send you your
-        solution
+        Fill the required information about your query and we will send you your
+        solution.
       </p>
       <button>
-        <IconContext.Provider value={{className:"buttonIcon"}}>
-        <RiMailSendFill />
-
+        <IconContext.Provider value={{ className: "buttonIcon" }}>
+          <RiMailSendFill />
         </IconContext.Provider>
         Enquire now
       </button>

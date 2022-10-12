@@ -11,11 +11,10 @@ export const Companystats = () => {
         </div>
         <div className="_About">
           <p className="_detail">
-            Bottom Funnel has a team of passionate developers and tech-savvy
-            professionals. For the past 10+ years in the industry, they have
-            offered a fantastic user experience and crafted unique websites &
-            mobile app development solutions. The team's hard work has made
-            Bottom Funnel a leading mobile & web development company.
+            Bottom Funnel's IT services are the perfect solution when your
+            business needs to go global. Our team of experts provide website
+            development, app development and digital marketing strategies that
+            will help you reach millions with ease.
           </p>
         </div>
 
@@ -24,13 +23,12 @@ export const Companystats = () => {
         </div>
 
         <div className="_information">
-          Bottom Funnel is providing result-driven solutions to all-scale
-          businesses. Their passion for the tech industry has made them the best
-          mobile and web development company. Their progressive and end-to-end
-          software development services led to quality-driven industrial models
-          and top-notch web & mobile applications. They claim 99% customer
-          satisfaction, 450+ satisfied customer base, and 950+ successful
-          projects.
+          Bottom Funnel has a strong team of developers who are well-versed in
+          the subject. We have the expertise to meet corporate demands and are
+          always willing to assist. In addition, we provide customized software
+          and website development solutions for your company. If you're seeking
+          for a skilled and professional mobile and web development firm, then
+          Bottom Funnel should definitely be your first choice.
         </div>
       </div>
 
@@ -61,7 +59,9 @@ export const Companystats = () => {
           <div className="_statsnum">
             <h5>88%</h5>
           </div>
-          <div className="_statstext">Of our customers recommend us to others</div>
+          <div className="_statstext">
+            Of our customers recommend us to others
+          </div>
         </div>
         <div className="_stats">
           <div className="_colordiv"></div>
@@ -77,7 +77,6 @@ export const Companystats = () => {
           </div>
           <div className="_statstext">Successfully completed projects</div>
         </div>
-       
       </div>
     </div>
   );

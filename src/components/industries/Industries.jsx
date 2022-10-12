@@ -7,61 +7,61 @@ export const Industries = () => {
     {
       industryName: "Education",
       description:
-        "Whether you need an Online Tutoring Platform, One to One, or Classroom Solution, Get benefitted from OB Education App & Web Development Expertise.",
+        "Get an Online Tutoring Platform that caters to all your tutoring needs. The One-to-One tutoring solution is perfect for individuals or groups. Your classroom solution will help you get more out of your lessons by providing a digital platform for you and your students.",
       industryImage: "Images/industries/education.png",
     },
     {
       industryName: "Health & Fitness",
       description:
-        "You start building shapes and let our experts reshape your online structure and presentation, and get benefitted from our proven revenue-driven techniques. ",
+        "Let's build a website designed for people who want to take control of their lives and their health.Shape your health and fitness website with our proven revenue driven techniques and online structures to help you reach your target audience.",
       industryImage: "Images/industries/health.png",
     },
     {
       industryName: "Social Networking",
       description:
-        "You make relations, and we make the place to deal it. Get a social networking app with most likely & AI-powered features and let rule the world. ",
+        "We will build a platform that will help you better manage your relationships, by making sure that your website is optimized for user engagement, so that you can focus on what you do best building your business!",
       industryImage: "Images/industries/socialnetworking.png",
     },
     {
       industryName: "OTT & VOD",
       description:
-        "Develop an advanced, future-proof OTT & VOD application with us. Our team of experts offers scalable, robust, real-time analytics solutions in low capital investment. ",
+        "Our OTT & VOD website development services enable you to develop a world-class, intuitive and user-friendly application which will manage your streaming data, grow your audience and monetize your content.",
       industryImage: "Images/industries/ott.png",
     },
     {
       industryName: "Travel & Tourism",
       description:
-        "Revolutionize the travel industry by building powerful web, app, and software solutions. It helps you manage the operations effectively while increasing employee efficiency. ",
+        "Let our skilled web developers and designers create a bespoke and customer-centric travel website for you that caters to the demands of both leisure and business travellers while also improving user experience by providing them with easy trip planning tools.",
       industryImage: "Images/industries/travel.png",
     },
     {
       industryName: "Transport",
       description:
-        "Get rid of the traditional transportation system. You deliver cackle, and we provide your online solutions. Get a highly fueled online appearance with Owebest",
+        "Get the best online transportation system in the market with Bottom Funnel. We provide you with a high-fuelled online appearance, transport solutions and digital marketing services that will help to promote your business.",
       industryImage: "Images/industries/transport.png",
     },
     {
       industryName: "E-Commerce",
       description:
-        "Looking for an AI-Powered Single Vendor or Multivendor Online Store?. Get a fantastic E-Commerce Website and Mobile Application with the expert team of Owebest ",
+        "Stay ahead of the competition and build an e-commerce website that stands out from the rest. Our AI-Powered Single Vendor or Multivendor Online Store will help you increase sales and streamline your business.",
       industryImage: "Images/industries/ecommerce.png",
     },
     {
       industryName: "Food & Grocery",
       description:
-        "Let your customer order the food or grocery from neat & clean web & mobile applications. Owebest makes it delicious and offers the best user experience to your customers. ",
+        "Let us build a web and mobile application for your food and grocery business. Keep it fresh and delicious for your users with our attention to detail and experience in the food and grocery industry.",
       industryImage: "Images/industries/grocery-cart.png",
     },
     {
       industryName: "Classified & Directory",
       description:
-        "Let us create the future-ready classified and directory websites and mobile applications for you and allow peers and businesses to globalize themselves. ",
+        "Connect with millions of people around the world. Increase brand awareness and reach with a global classified and directory website that is future-ready, compliant with all legal requirements, and easy to use.",
       industryImage: "Images/industries/classified.png",
     },
     {
       industryName: "Fintech",
       description:
-        "Get the best robust, feature-rich, high-end Fin-tech solution for your financial system while covering modern-day aspects. ",
+        "We offer a wide range of fintech solutions that are tailored to your needs. We use latest technologies to build the most comprehensive solution for your financial system. Let us build a fintech website for your company.",
       industryImage: "Images/industries/fintech.png",
     },
   ];
@@ -73,11 +73,10 @@ export const Industries = () => {
           <p className="headingIndustries">Industries</p>
           <h1>What we do best</h1>
           <p>
-            Whether you are a real estate company, an educational group, fitness
-            freak, event organizer, filmmaker, transporter or an online
-            e-commerce; Bottom Funnel's hand are highly successful to design &
-            develop your idea. Let's discuss your project and let us make it
-            appealing.
+            Bottom Funnel provides a variety of IT services to meet variety of
+            business needs, so whether you need a website or a bespoke
+            application, we're here to help your business grow. Let's discuss
+            your project and let us make it come alive!
           </p>
         </div>
         <div className="logoImage">

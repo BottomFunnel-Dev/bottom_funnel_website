@@ -1,15 +1,19 @@
-import React from 'react'
-import './planProject.css'
+import React from "react";
+import "./planProject.css";
 const PlanProject = () => {
   return (
-    <div className='planProject'>
+    <div className="planProject">
       <div>
-      <h1>Software Products Development </h1>
-      <p>We churn your ‘idea’ into an ‘app’. In the ho-hum of apps our development process makes us a key differentiator in the industry. Our development process works at taking care of a project throughout the app lifecycle.</p>
-      <button>Let's plan your project</button>
+        <h1>Software Products Development </h1>
+        <p>
+          We believe that every business, no matter how small or large, should
+          be able to have easy access to quality IT services, which is why we
+          offer a variety of plans for every budget.
+        </p>
+        <button>Let's plan your project</button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default PlanProject
+export default PlanProject;

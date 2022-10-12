@@ -112,29 +112,32 @@
   width: 100%;
   margin-top: 10px;
   height: 100%;
-  display: flex;
-  justify-content: space-between;
-  /* background-color: brown; */
 }
-.skills {
-  width: 30%;
+.techstack > p {
+  margin: 5px;
 }
-
 .appstore {
   width: 70%;
+  margin-top: 20px;
   display: flex;
- column-gap: 5px;
- align-items: center;
-  
+  column-gap: 10px;
+  align-items: center;
 }
 .appstore > span {
-  width: 23%;
+  width: 21%;
   cursor: pointer;
   text-align: center;
   font-weight: 600;
 }
-#webicon {
-  width: 10%;
+.webIcon {
+  cursor: pointer;
+  font-size: 30px;
+}
+.webIcon:hover {
+  /* color: #ef4c23; */
+  filter: invert(1);
+  transform: scale(1.1);
+  transition: all .3s linear;
 }
 .appstore > span > img {
   width: 100%;
@@ -142,8 +145,9 @@
   object-fit: contain;
 }
 
-.tagline{
+.tagline {
   position: absolute;
   bottom: 25px;
+  font-family: cursive;
   left: 68px;
 }

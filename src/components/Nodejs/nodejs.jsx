@@ -21,7 +21,7 @@ export const NodejsPage = () => {
   return (
     <div>
       {<NodejsBanner />}
-      {<NodejsBannerNavigation />}
+      {/* {<NodejsBannerNavigation />} */}
       <hr id="nodejs-hr" />
       {<NodejsDescription />}
       {<NodejsRemarkable />}

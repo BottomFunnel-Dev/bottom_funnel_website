@@ -22,7 +22,8 @@ import PortSection from "../../PortFolioSection/PortSection";
 const Home = () => {
   return (
     <div>
-      <HeroSection />
+      <Banner/>
+      {/* <HeroSection /> */}
       <CompanyLogo />
       <About />
       {/* <PortSection/> */}

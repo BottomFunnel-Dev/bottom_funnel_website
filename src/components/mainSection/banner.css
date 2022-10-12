@@ -56,13 +56,15 @@
   width: 100%;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 55%;
-  left: 50%;
+  top: 50%;
+  left: 65%;
   color: #ef4c23;
-  padding: 25px;
 }
 .textContent > div > h1 {
   font-size: 42px;
+}
+.textContent > div > p {
+  color: black;
 }
 .textContent > div > button {
   padding: 10px 30px;
@@ -87,13 +89,14 @@
 }
 
 .imageInner {
+  margin-top: 60px;
   width: 100%;
   height: 100%;
   /* background-color: red; */
 }
 .imageInner > img {
   width: 100%;
-  height: 101%;
+  height: 80%;
   object-fit: contain;
 }
 

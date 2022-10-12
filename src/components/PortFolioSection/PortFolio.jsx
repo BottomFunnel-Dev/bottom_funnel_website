@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./portfolio.css";
 import Slider from "react-slick";
-import { BsGlobe } from "react-icons/bs";
+import { BsGlobe, BsApple } from "react-icons/bs";
+import { AiFillAndroid } from "react-icons/ai";
+import { IconContext } from "react-icons";
 
 const Portfolio = () => {
   const [imageIndex, setImageIndex] = useState(0);
@@ -102,40 +104,37 @@ const Portfolio = () => {
                 <div className="weblinks">
                   <h5>Tech Stack</h5>
                   <span className="techstack">
-                    <span className="skills">
-                      <h6>Frontend</h6>
-                      <li>Modernizr</li>
-                      <li>Jquery</li>
-                    </span>
-                    <span className="skills">
-                      <h6>Backend</h6>
-                      <li>Java</li>
-                    </span>
-                    <span className="skills">
-                      <h6>Database</h6>
-                      <li>CloudFront</li>
-                      <li>Akamai</li>
-                    </span>
+                    <p>
+                      <strong>Frontend:</strong> React, Jquery,Javascript
+                    </p>
+                    <p>
+                      <strong>Backend:</strong> PHP, Jquery,Javascript
+                    </p>
+                    <p>
+                      <strong>Frontend:</strong> React, Jquery,Javascript
+                    </p>
                   </span>
 
                   <div className="appstore">
                     <span>Available On</span>
-                    <span>
-                      <img src="Images/portfolio/androidstore.png" alt="" />
-                    </span>
-                    <span>
-                      <img src="Images/portfolio/appstore.png" alt="" />
-                    </span>
 
-                    <span id="webicon">
-                      <BsGlobe fontSize="30px" />
-                    </span>
+                    <IconContext.Provider value={{ className: "webIcon" }}>
+                      <BsApple />
+                    </IconContext.Provider>
+                    <IconContext.Provider value={{ className: "webIcon" }}>
+                      <AiFillAndroid />
+                    </IconContext.Provider>
+                    <IconContext.Provider value={{ className: "webIcon" }}>
+                      <BsGlobe />
+                    </IconContext.Provider>
                   </div>
                 </div>
                 <div className="bottomfunnelBranding">
                   <img src="Images/navbar/whitebottom.png" alt="" />
                 </div>
-                <p className="tagline">build your project with us</p>
+                <p className="tagline">
+                  <i>Build Your Brand Presence</i>
+                </p>
               </span>
             </div>
             <div className="rightAnime">

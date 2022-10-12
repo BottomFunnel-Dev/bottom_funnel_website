@@ -4,10 +4,9 @@ const About = () => {
   return (
     <div className="newAbout">
       <div className="aboutContent">
-        <h1>One team, one love - Innovation</h1>
+        <h1>The Dream Team For Your Digital Needs</h1>
         <p>
-          Bottom Funnel dream, architect, design and develop. But more than
-          that, we are a team of passionate people driven by one relentless
+          Bottom Funnel is a team of passionate people, driven by one relentless
           pursuit- to craft innovative solutions and deliver unparalleled
           results.
         </p>
@@ -25,7 +24,7 @@ const About = () => {
         <p>Products (Apps) Delivered</p>
       </div>
       <div id="aboutStats3" className="aboutStats">
-      <img src="Images/about/aboutbtn.png" alt="" />
+        <img src="Images/about/aboutbtn.png" alt="" />
 
         <h1>$700m</h1>
         <p>Investment Raised for startups</p>

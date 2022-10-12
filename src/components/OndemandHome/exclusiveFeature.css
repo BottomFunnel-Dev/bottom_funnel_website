@@ -1,0 +1,26 @@
+.exclusiveFeature {
+  width: 100%;
+  padding: 20px;
+  margin-top: 80px;
+  /* height: 500px; */
+}
+.exclusiveFeature > h1 {
+  text-align: center;
+}
+
+.innerFeatures {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 30px;
+}
+.innerFeatures > div {
+  width: 30%;
+  height: 300px;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  border-radius: 10px;
+}
