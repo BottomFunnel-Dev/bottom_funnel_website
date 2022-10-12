@@ -13,11 +13,10 @@
   padding: 10px 0;
 
   display: flex;
-  gap: 10px;
   justify-content: space-between;
 }
 
-.nodejs-des-main > img {
+.nodejs-des-main > div {
   height: 100%;
   object-fit: contain;
 }
@@ -31,6 +30,7 @@
 
   font-size: 32px;
   margin: 0px;
+  margin-bottom: 10px;
 }
 
 .nodejs-des-content > p {

@@ -2,18 +2,42 @@
   height: fit-content;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.nodejs-banner-nav-main > ul {
-  height: fit-content;
-  color: black;
   display: flex;
-  gap: 30px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
+  height: 50px;
 }
 
-.nodejs-banner-nav-main > ul > li {
-  font-size: large;
-  font-weight: bold;
+.nodejs-banner-nav-main > span {
+  max-height: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+
+  overflow: hidden;
+  width: fit-content;
+}
+
+.nodejs-banner-nav-main > span > p {
+  font-size: 16px;
+  text-align: left;
+  color: black;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+  display: none;
+  animation: showtext 1s linear;
+}
+
+@keyframes showtext {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
 }

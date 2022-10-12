@@ -1,34 +1,44 @@
 .nodejs-why-main {
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
 .nodejs-why-main > h1 {
   color: #ef4c23;
-  text-align: left;
-  width: fit-content;
-  margin-left: 50px;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 32px;
 }
 
 .nodejs-why-content {
   width: 100%;
-  height: 500px;
+  height: 400px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.nodejs-why-content > img {
+.nodejs-bullets-points-image {
+  height: 100%;
+  padding: 0 20px 0 20px;
+}
+
+.nodejs-bullets-points-image > img {
   height: 100%;
 }
-.nodejs-why-content > div {
+.nodejs-bullets-points-main {
   background-color: lightgray;
   width: 80%;
   height: 100%;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+.nodejs-bullets-points {
+  width: 80%;
+  margin: auto;
 }
 
 .nodejs-bullets-points > p {
@@ -37,6 +47,7 @@
   cursor: pointer;
 
   display: flex;
+  gap: 15px;
   align-items: center;
 }
 

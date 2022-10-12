@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 import { MdArrowForwardIos } from "react-icons/md";
 
 const Accordion = styled((props) => (
-  <MuiAccordion disableGutters elevation={0} square {...props} />
+  <MuiAccordion disableGutters square {...props} />
 ))(({ theme }) => ({
   border: `1px solid ${theme.palette.divider}`,
   "&:not(:last-child)": {
@@ -119,7 +119,6 @@ export const TextDropdown = () => {
           </AccordionDetails>
         </Accordion>
       </div>
-      
     </div>
   );
 };
