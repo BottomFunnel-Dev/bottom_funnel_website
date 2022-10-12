@@ -62,7 +62,6 @@ const KeyFeatures = () => {
           <div className="serviceappmobile">
             <img src="Images/ondemandHome/serviceprofessionalapp.png" alt="" />
           </div>
-
         </div>
         <div className="serviceapptext">
           <div>
@@ -74,6 +73,31 @@ const KeyFeatures = () => {
               they can make an appointment, track their service pro and manage
               or reschedule bookings with one convenient app.
             </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="serviceproviderpanel">
+        <div className="serviceprovidertext">
+          <div>
+            <h1>Service provider panel</h1>
+            <p>
+              With the help of a powerful service provider panel, you can handle
+              various types of bookings, and offer discounts, rewards etc. Add
+              new coupons to your service provider panel and get instant
+              notifications about it. With the help of in app analytics you will
+              be able to determine your customer's behaviour so that you can
+              gain more and more revenue.
+            </p>
+          </div>
+        </div>
+
+        <div className="serviceProviderImage">
+          <div className="serviceproviderback">
+            <img src="Images/ondemandHome/shape4.png" alt="" />
+          </div>
+          <div className="serviceprovideradminpanel">
+            <img src="Images/ondemandHome/serviceproviderpanel.png" alt="" />
           </div>
         </div>
       </div>
