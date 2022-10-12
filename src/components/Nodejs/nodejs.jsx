@@ -5,7 +5,7 @@ import { TextDropdown } from "../faqSection/Faqs";
 import MainFooter from "../FooterSection/MainFooter";
 import { Industries } from "../industries/Industries";
 import OndemandSection from "../OnDemandSection/OndemandSection";
-import PlanProject from "../PlanProject/PlanProject";
+import Portfolio from "../PortFolioSection/PortFolio";
 import Revamping from "../revamping/Revamping";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
@@ -24,21 +24,20 @@ export const NodejsPage = () => {
       {/* {<NodejsBannerNavigation />} */}
       <hr id="nodejs-hr" />
       {<NodejsDescription />}
-      {<NodejsRemarkable />}
+      {<NodejsWhyApplication />}
       {<NodejsWhyBottomFunnel />}
       {<NodejsBookCall />}
-      {<NodejsWhyApplication />}
-      <StoriesSection/>
-      <Industries/>
-      <OndemandSection/>
-      <PlanProject/>
-      <Companystats/>
-      <Revamping/>
-      <SeoblogSection/>
-      <TextDropdown/>
-      <ContectForm/>
-      <MainFooter/>
-      
+      {<NodejsRemarkable />}
+      {<StoriesSection />}
+      {<Industries />}
+      {<OndemandSection />}
+      {<Portfolio />}
+      {<Companystats />}
+      {<Revamping />}
+      {<SeoblogSection />}
+      {<TextDropdown />}
+      {<ContectForm />}
+      {<MainFooter />}
     </div>
   );
 };

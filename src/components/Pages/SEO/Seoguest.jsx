@@ -32,8 +32,8 @@ const Seoguest = () => {
       <Seoexperts />
       <Seofaq />
       <SeoblogSection />
-      <ContectForm/>
-      <MainFooter/>
+      <ContectForm />
+      <MainFooter />
     </div>
   );
 };

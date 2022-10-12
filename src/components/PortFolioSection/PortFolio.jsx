@@ -5,7 +5,7 @@ import { BsGlobe, BsApple } from "react-icons/bs";
 import { AiFillAndroid } from "react-icons/ai";
 import { IconContext } from "react-icons";
 
-const Portfolio = () => {
+const PortFolio = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const settings = {
     infinite: true,
@@ -147,4 +147,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default PortFolio;

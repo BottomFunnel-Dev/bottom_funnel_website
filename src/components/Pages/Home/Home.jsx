@@ -16,23 +16,21 @@ import About from "../../AboutSection/About";
 import MainFooter from "../../FooterSection/MainFooter";
 import OndemandSection from "../../OnDemandSection/OndemandSection";
 import HeroSection from "../../mainSection/HeroSection";
-import Portfolio from "../../PortFolioSection/Portfolio";
-import PortSection from "../../PortFolioSection/PortSection";
+import PortFolio from "../../PortFolioSection/PortFolio";
+
 
 const Home = () => {
   return (
     <div>
-      <Banner/>
-      {/* <HeroSection /> */}
+      <Banner />
       <CompanyLogo />
       <About />
-      {/* <PortSection/> */}
       <Services />
       <Awards />
       <StoriesSection />
       <Industries />
       <OndemandSection />
-      <Portfolio />
+      <PortFolio/>
       <PlanProject />
       <Companystats />
       <Revamping />

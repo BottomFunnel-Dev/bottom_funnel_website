@@ -31,8 +31,8 @@ const SeoPPC = () => {
       <Seoexperts />
       <Seofaq />
       <SeoblogSection />
-      <ContectForm/>
-      <MainFooter/>
+      <ContectForm />
+      <MainFooter />
     </div>
   );
 };

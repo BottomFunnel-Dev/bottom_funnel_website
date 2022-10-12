@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.12c2d79c.css",
-    "main.js": "/static/js/main.a979639c.js",
+    "main.css": "/static/css/main.97fd329a.css",
+    "main.js": "/static/js/main.d77665f7.js",
     "static/js/787.5119cacc.chunk.js": "/static/js/787.5119cacc.chunk.js",
     "static/media/bsnner.png": "/static/media/bsnner.93647d9453d63477e9d6.png",
     "static/media/Blog1.jpg": "/static/media/Blog1.948bc5b40e043dbc4a81.jpg",
-    "static/media/seowithout.png": "/static/media/seowithout.e46f53dcca01b049cc34.png",
+    "static/media/seo.png": "/static/media/seo.5845ba5f77ce28ccc43e.png",
     "static/media/guest2.jpg": "/static/media/guest2.e5a2bbf7b621a97bca22.jpg",
     "static/media/EnquiryNow.jpg": "/static/media/EnquiryNow.6e1e58364cb93438399d.jpg",
     "static/media/newcurve.png": "/static/media/newcurve.eb964bbdf555808a6a3c.png",
@@ -25,12 +25,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.12c2d79c.css.map": "/static/css/main.12c2d79c.css.map",
-    "main.a979639c.js.map": "/static/js/main.a979639c.js.map",
+    "main.97fd329a.css.map": "/static/css/main.97fd329a.css.map",
+    "main.d77665f7.js.map": "/static/js/main.d77665f7.js.map",
     "787.5119cacc.chunk.js.map": "/static/js/787.5119cacc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12c2d79c.css",
-    "static/js/main.a979639c.js"
+    "static/css/main.97fd329a.css",
+    "static/js/main.d77665f7.js"
   ]
 }

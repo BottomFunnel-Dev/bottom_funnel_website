@@ -1,7 +1,7 @@
 ._SeoPPCMain1 {
   height: auto;
   width: 100%;
-  background: url("/public/Images/seopages/seowithout.png");
+  background: url("/public/Images/seopages/seo.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: bottom;
@@ -11,7 +11,7 @@
 
 .ppcgifDenote{
   width: 230px;
-  height: 300px;
+  height: 400px;
   position: absolute;
   top: 19%;
   right: 33%;

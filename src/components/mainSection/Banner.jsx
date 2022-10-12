@@ -48,7 +48,7 @@ const CompanyLogo = () => {
 
   const banner = [
     {
-      title: "App Development",
+      title: "Mobile App Development",
       bannerImage: "Images/banner/app dev.gif",
       desc: "Connect to your customers in real time with the latest in mobile app development.",
     },

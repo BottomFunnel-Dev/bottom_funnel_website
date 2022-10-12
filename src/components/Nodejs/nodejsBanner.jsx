@@ -7,9 +7,8 @@ export const NodejsBanner = () => {
       <div className="nodejs-banner-content">
         <h1>Node.js Development Services</h1>
         <p>
-          OFFERING HYOU BEST-IN-CLASS SERVICES POWERED BY PREVISELY PICKED AND
-          ADIPTLY TRAINED RESOURCES, WHO ARE WELL-VERSED WITH THE NUANCES AND
-          DEPTHS OF THE TECHNOLOGY.
+          Get the most out of your technology with the help of the best NodeJS
+          development services in the business.
         </p>
       </div>
     </div>

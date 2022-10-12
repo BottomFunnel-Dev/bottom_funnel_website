@@ -14,7 +14,7 @@ import SeoLinkTrusted from "../../SeoLink/SeoLinkTrustedCompanies";
 import StoriesSection from "../../StoriesSection/StoriesSection";
 import { SeoblogSection } from "../../SeoBlogs/Seoblogs";
 import Reviews from "../../SEO/SeoReviews/Reviews";
-import Seotrusted from '../../SEO/SeoTrustedCompanies/Seotrusted'
+import Seotrusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
 import Seoexperts from "../../SEO/Seo experts/Seoexperts";
 import Seofaq from "../../SEO/SeoFaq/Seofaq";
 import ContectForm from "../../ContectForm/ContectForm";
@@ -25,17 +25,17 @@ export default function Seolink() {
     <div>
       <SeoLinkSection />
       <Seostats />
-      <Reviews/>
-      <Seotrusted/>
+      <Reviews />
+      <Seotrusted />
       <SeoLinkEnquiryNow />
       <SeoLinkServices />
-      <StoriesSection/>
+      <StoriesSection />
       <Getintouchcard />
-      <Seoexperts/>
-      <Seofaq/>
-      <SeoblogSection/>
-      <ContectForm/>
-      <MainFooter/>
+      <Seoexperts />
+      <Seofaq />
+      <SeoblogSection />
+      <ContectForm />
+      <MainFooter />
     </div>
   );
 }

@@ -22,7 +22,7 @@ const SeoSEM = () => {
   return (
     <div>
       <SeoSEMSection />
-      <Seostats/>
+      <Seostats />
       <Reviews />
       <Seotrusted />
       <SeoSEMServices />
@@ -30,8 +30,8 @@ const SeoSEM = () => {
       <Seoexperts />
       <Seofaq />
       <SeoblogSection />
-      <ContectForm/>
-      <MainFooter/>
+      <ContectForm />
+      <MainFooter />
     </div>
   );
 };

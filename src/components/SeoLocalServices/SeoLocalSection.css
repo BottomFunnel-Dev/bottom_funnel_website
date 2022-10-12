@@ -1,12 +1,28 @@
 ._SeoLocalMain1{
     height:auto;
     width:100%;
-    background: url("/public/Images/seopages/seowithout.png");
+    background: url("/public/Images/seopages/seo.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position:bottom;
     background-origin: border-box;
 }
+
+
+
+.localgifDenote{
+    width: 230px;
+    height: 400px;
+    position: absolute;
+    top: 43%;
+    right: 34%;
+  }
+  .localgifDenote>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+  }
 ._SeoLocalupperdiv{
     display: flex;
     /* border: 1px solid green; */
