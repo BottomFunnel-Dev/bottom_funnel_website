@@ -13,7 +13,7 @@ const OndemandSection = () => {
       logoImgageOrange: "Images/ondemand/mobileAppOrange.png",
       logoImgageWhite: "Images/ondemand/mobileAppWhite.png",
       description:
-        "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
+        "Our mobility solutions allow people to connect and share information from the most remote of places, even if they're on the move.",
       actionArrow: <BsArrowRight />,
     },
     {
@@ -23,7 +23,7 @@ const OndemandSection = () => {
       logoImgageOrange: "Images/ondemand/softwareSolutionsOrange.png",
       logoImgageWhite: "Images/ondemand/softwareSolutionsWhite.png",
       description:
-        "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
+        "our software solutions allow you to perform all the time-consuming tasks and automate regular tasks to cater to your needs and make your life easier.",
       actionArrow: <BsArrowRight />,
     },
     {
@@ -32,7 +32,7 @@ const OndemandSection = () => {
       logoImgageOrange: "Images/ondemand/uiOrange.png",
       logoImgageWhite: "Images/ondemand/uiWhite.png",
       description:
-        "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
+        "Our UI UX designs are designed to make interacting with products easy. We reduce cognitive load by making interfaces consistent.",
       actionArrow: <BsArrowRight />,
     },
     {
@@ -41,7 +41,7 @@ const OndemandSection = () => {
       logoImgageOrange: "Images/ondemand/foodDeliveryOrange.png",
       logoImgageWhite: "Images/ondemand/foodDeliveryWhite.png",
       description:
-        "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
+        "With our branded food delivery app, your customers will be able to order and have delicious meals delivered to them at any time.",
       actionArrow: <BsArrowRight />,
     },
     {

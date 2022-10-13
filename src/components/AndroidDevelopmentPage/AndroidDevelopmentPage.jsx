@@ -12,7 +12,7 @@ export const AndroidDevelopmentPage = () => {
         <AndroidDevelopmentPagewhy/>
         <AndroidDevelopmentServices/>
         <AndroidDevelopmentindustries/>
-        <AndroidDevelopmentRelated/>
+        {/* <AndroidDevelopmentRelated/> */}
     </div>
   )
 }

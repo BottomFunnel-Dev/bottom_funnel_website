@@ -105,13 +105,13 @@ const PortFolio = () => {
                   <h5>Tech Stack</h5>
                   <span className="techstack">
                     <p>
-                      <strong>Frontend:</strong> React, Jquery,Javascript
+                      <strong>Database:</strong> React, Jquery, Javascript
                     </p>
                     <p>
-                      <strong>Backend:</strong> PHP, Jquery,Javascript
+                      <strong>Backend:</strong> PHP, ASP.NET, Java
                     </p>
                     <p>
-                      <strong>Frontend:</strong> React, Jquery,Javascript
+                      <strong>Frontend:</strong> React, Jquery, Bootstrap
                     </p>
                   </span>
 

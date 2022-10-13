@@ -1,0 +1,50 @@
+.food-delivery-admin-panel-div-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.food-delivery-admin-panel-div-images {
+  width: 50%;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.food-delivery-admin-panel-div-images > img {
+  width: 100%;
+  position: absolute;
+  z-index: 111111;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.food-delivery-admin-panel-div-images > div {
+  width: 100%;
+}
+
+.food-delivery-admin-panel-div-content {
+  width: 45%;
+  text-align: center;
+  padding: 20px;
+}
+
+.food-delivery-admin-panel-div-content > h2 {
+  color: #ef4c23;
+}
+
+.food-delivery-admin-panel-div-content > div {
+  width: 80%;
+  height: 50px;
+  background-color: #fdf2f0;
+  margin: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.food-delivery-admin-panel-div-content > div:hover {
+  background-color: white;
+}

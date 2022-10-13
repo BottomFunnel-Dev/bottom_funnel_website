@@ -1,0 +1,58 @@
+.food-delivery-need-success-main {
+  padding: 5px 20px 50px;
+  background-color: #fcdbd3;
+  min-height: 400px;
+}
+
+.food-delivery-need-success-main > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.food-delivery-need-success-image {
+  width: 50%;
+  height: 100%;
+  text-align: right;
+}
+
+.food-delivery-need-success-image > img {
+  width: 100%;
+}
+
+.food-delivery-need-success-content {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.food-delivery-need-success-content > div {
+  height: auto;
+  padding: 10px 10px 10px 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-start;
+  width: 60%;
+
+  border-radius: 10px;
+  background-color: white;
+
+  cursor: pointer;
+}
+
+.food-delivery-need-success-content > div:hover {
+  background-color: #e1f9f6;
+}
+
+.food-delivery-need-success-content-logo {
+  height: 50px;
+}
+
+.food-delivery-need-success-content-logo > img {
+  height: 100%;
+}

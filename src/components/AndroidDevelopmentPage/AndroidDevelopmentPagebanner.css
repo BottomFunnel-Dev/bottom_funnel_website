@@ -1,7 +1,8 @@
 ._AndroidDevelopmentbanner{
-    border:1px solid green;
     height:600px;
     width: 100%;
+    margin-top: 80px;
+    background-color: #58c963;
 }
 ._AndroidDevelopmentbanner>img{
     width: 100%;

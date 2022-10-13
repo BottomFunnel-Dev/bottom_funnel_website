@@ -1,0 +1,41 @@
+#php-hr {
+  margin: 0px;
+}
+
+.php-des-main {
+  width: 85%;
+  height: 160px;
+
+  margin: auto;
+  margin-top: 0px;
+
+  text-align: left;
+  padding: 10px 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.php-des-main > div {
+  height: 100%;
+  object-fit: contain;
+}
+
+.php-des-content {
+  padding: 0;
+}
+
+.php-des-content > h1 {
+  color: #ef4c23;
+
+  font-size: 32px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.php-des-content > p {
+  width: 90%;
+  margin: 0px;
+
+  font-size: 16px;
+}

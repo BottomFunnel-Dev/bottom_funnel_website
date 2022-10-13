@@ -1,0 +1,65 @@
+._SeoDigitalMarketingstats{
+    width:100%;
+    /* border: 1px solid green; */
+    margin-top: 20px;
+    /* background-color: #EF4C23; */
+}
+/* ._SeoDigitalMarketingmaindiv{
+    margin-top: 25px;
+} */
+._SeoDigitalMarketing{
+    display: flex;
+    width:100%;
+    /* border:1px solid red; */
+    margin-top: 35px;
+}
+._SeoDigitalmarketingImage {
+width:50%;
+height:100%;
+/* border:1px solid green; */
+}
+._SeoDigitalmarketingImage>img{
+    width:80%;
+    height:80%;
+    margin-left:10%;
+}
+._SeoDigitalMarketingheading{
+    text-align: center;
+    /* border:1px solid rebeccapurple; */
+    /* background-color: #EF4C23; */
+    color: #EF4C23;
+}
+._SeoDigitalMarketinginfo{
+    /* border: 1px solid indigo; */
+    /* margin-top: 20px; */
+    display: grid;
+    width:50%;
+    grid-template-columns: 70% 20%;
+    justify-content: center;
+}
+._SeoDigitalMarketinginfo1{
+    text-align: center;
+    /* border: 1px solid firebrick; */
+    font-size: 18px;
+    /* height:120px; */
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px #EF4C23;
+    box-sizing: border-box;
+    padding-top: 35px;
+    color:#EF4C23;
+}
+/* ._SeoDigitalMarketinginfo1:hover{
+    font-size: 19px;
+    transition: 0.4s ease-in-out;
+} */
+._SeoDigitalMarketinginfo2{
+    /* border:1px solid forestgreen; */
+    text-align: center;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding-top: 35px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px #EF4C23;
+    color: #EF4C23;
+    width:100%;
+}

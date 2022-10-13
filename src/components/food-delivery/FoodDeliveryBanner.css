@@ -1,0 +1,57 @@
+.food-delivery-banner-main {
+  height: 700px;
+  /* border: 1px solid red; */
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.food-delivery-banner-content {
+  width: 45%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.food-delivery-banner-content > div {
+  width: 80%;
+}
+
+.food-delivery-banner-content > div > h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.food-delivery-banner-content > div > button {
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #ef4c23;
+  align-self: flex-start;
+
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.food-delivery-banner-content > div > button:hover {
+  background-color: white;
+  color: #ef4c23;
+  font-weight: bolder;
+  box-shadow: none;
+}
+
+.food-delivery-banner-image {
+  width: 55%;
+  height: 100%;
+  object-fit: contain;
+  text-align: right;
+}

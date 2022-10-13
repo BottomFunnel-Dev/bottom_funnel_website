@@ -9,7 +9,6 @@ import SeoLocal from "./components/Pages/SEO/SeoLocal";
 import Seoguest from "./components/Pages/SEO/Seoguest";
 import Seolink from "./components/Pages/SEO/Seolink";
 import SeoSEM from "./components/Pages/SEO/SeoSEM";
-import FoodPage from "./components/Pages/SolutionPages/FoodPage";
 import { Flutter } from "./components/Flutter/Flutter";
 import { Ionic } from "./components/Ionic/Ionic";
 import { Iphonepage } from "./components/Iphonedevelopmentpage/Iphonepage";
@@ -17,8 +16,13 @@ import { Reactnative } from "./components/Reactnative/Reactnative";
 import { AndroidDevelopmentPage } from "./components/AndroidDevelopmentPage/AndroidDevelopmentPage";
 import OndemandHome from "./components/Pages/SolutionPages/OndemandHome";
 import { NodejsPage } from "./components/Nodejs/nodejs";
-import Beautyandcare from "./components/Beautyandcare/Beautyandcare";
 import MainFooter from "./components/FooterSection/MainFooter";
+import { SeoDm } from "./components/SeoDigitalmarketing/SeoDm";
+import SeoEmail from "./components/Pages/SEO/SeoEmail";
+import { PhPSkillsPage } from "./components/php/PhPSkillsPage";
+import { DotNetPage } from "./components/dotnet/DotNetPage";
+import { FoodDelivery } from "./components/food-delivery/FoodDeliveryPage";
+import Beautysection from "./components/Beautyandcare/Beautysection";
 // import { Seomainpage } from "./components/SEO/Seomainpage/Seomainpage";
 
 function App() {
@@ -33,7 +37,6 @@ function App() {
         <Route path="/seo-guest-post" element={<Seoguest />} />
         <Route path="/seo-link-building" element={<Seolink />} />
         <Route path="/seo-sem" element={<SeoSEM />} />
-        <Route path="/food-delivery" element={<FoodPage />} />
         <Route path="/flutter" element={<Flutter />} />
         <Route path="/ionic" element={<Ionic />} />
         <Route path="/ios" element={<Iphonepage />} />
@@ -41,7 +44,12 @@ function App() {
         <Route path="/android" element={<AndroidDevelopmentPage />} />
         <Route path="/ondemandHomeServices" element={<OndemandHome />} />
         <Route path="/nodejs" element={<NodejsPage />} />
-        <Route path="/beautycareapp" element={<Beautyandcare />} />
+        {/* <Route path="/beautycareapp" element={<Beautysection/>} /> */}
+        <Route path="/digitalmarketing" element={<SeoDm/>} />
+        <Route path="/emailservices" element={<SeoEmail/>} />
+        <Route path="/php" element={<PhPSkillsPage/>} />
+        <Route path="/dotnet" element={<DotNetPage/>} />
+        <Route path="/food-delivery" element={<FoodDelivery/>} />
       </Routes>
       {/* <Seomainpage/> */}
     </div>

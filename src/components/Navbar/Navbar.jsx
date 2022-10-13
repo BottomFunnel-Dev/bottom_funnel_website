@@ -207,7 +207,7 @@ const digitalmarket = [
   {
     dropContent: "Email Marketing Services",
     navIcons: "Images/navbar/services/email.png",
-    path: "",
+    path: "emailservices",
   },
 ];
 const trendingTech = [
@@ -339,6 +339,46 @@ const industries = [
     navIcons: "Images/navbar/industriesImage/logistics.png",
     path: "",
   },
+  {
+    dropContent: "Politics",
+    navIcons: "Images/navbar/industriesImage/politics.png",
+    path: "",
+  },
+  {
+    dropContent: "Wellness",
+    navIcons: "Images/navbar/industriesImage/wellness.png",
+    path: "",
+  },
+  {
+    dropContent: "News",
+    navIcons: "Images/navbar/industriesImage/news.png",
+    path: "",
+  },
+  {
+    dropContent: "SaaS",
+    navIcons: "Images/navbar/industriesImage/saas.png",
+    path: "",
+  },
+  {
+    dropContent: "Events",
+    navIcons: "Images/navbar/industriesImage/events.png",
+    path: "",
+  },
+  {
+    dropContent: "eScooter",
+    navIcons: "Images/navbar/industriesImage/escooter.png",
+    path: "",
+  },
+  {
+    dropContent: "Travel",
+    navIcons: "Images/navbar/industriesImage/travel.png",
+    path: "",
+  },
+  // {
+  //   dropContent: "Finance",
+  //   navIcons: "Images/navbar/industriesImage/finance.png",
+  //   path: "",
+  // },
 ];
 const ondemand = [
   {
@@ -423,16 +463,21 @@ const backend = [
     navIcons: "Images/navbar/skills/nodejs.png",
     path: "nodejs",
   },
-  { dropContent: ".NET", navIcons: "Images/navbar/skills/-net.png", path: "" },
-  { dropContent: "PHP", navIcons: "Images/navbar/skills/php.png", path: "" },
+  { dropContent: ".NET", navIcons: "Images/navbar/skills/-net.png", path: "dotnet" },
+  { dropContent: "PHP", navIcons: "Images/navbar/skills/php.png", path: "php" },
   {
     dropContent: "Laravel",
     navIcons: "Images/navbar/skills/laravel.png",
     path: "",
   },
   {
-    dropContent: "Python",
-    navIcons: "Images/navbar/skills/python.png",
+    dropContent: "SpringBoot",
+    navIcons: "Images/navbar/skills/springboot.png",
+    path: "",
+  },
+  {
+    dropContent: "Hibernate",
+    navIcons: "Images/navbar/skills/hibernate.png",
     path: "",
   },
   {
@@ -445,16 +490,13 @@ const backend = [
     navIcons: "Images/navbar/skills/flask.png",
     path: "",
   },
-  {
-    dropContent: "MySQL",
-    navIcons: "Images/navbar/skills/mysqlimage.png",
-    path: "",
-  },
+
   {
     dropContent: "Golang",
     navIcons: "Images/navbar/skills/golangimage.png",
     path: "",
   },
+  
 ];
 const frontend = [
   {
@@ -484,12 +526,17 @@ const frontend = [
   },
   {
     dropContent: "Next.js",
-    navIcons: "Images/navbar/skills/nextjs.png",
+    navIcons: "Images/navbar/skills/next js.png",
     path: "",
   },
   {
-    dropContent: "TypeScript",
-    navIcons: "Images/navbar/skills/typescript.png",
+    dropContent: "Backbone.js",
+    navIcons: "Images/navbar/skills/backbone js.png",
+    path: "",
+  },
+  {
+    dropContent: "Svelte",
+    navIcons: "Images/navbar/skills/svelte.png",
     path: "",
   },
 ];
@@ -537,6 +584,53 @@ const mobile = [
   {
     dropContent: "Kotlin",
     navIcons: "Images/navbar/skills/kotlinimage.png",
+    path: "",
+  },
+];
+const database = [
+  {
+    dropContent: "MySQL",
+    navIcons: "Images/navbar/skills/mysqlimage.png",
+    path: "",
+  },
+  {
+    dropContent: "Microsoft SQL Server",
+    navIcons: "Images/navbar/skills/microsoftsql.png",
+    path: "",
+  },
+  {
+    dropContent: "PostgreSQL",
+    navIcons: "Images/navbar/skills/postgreSQL.png",
+    path: "",
+  },
+  {
+    dropContent: "MongoDB",
+    navIcons: "Images/navbar/skills/mongodb.png",
+    path: "",
+  },
+  {
+    dropContent: "Redis",
+    navIcons: "Images/navbar/skills/redis.png",
+    path: "",
+  },
+  {
+    dropContent: "IBM db2",
+    navIcons: "Images/navbar/skills/ibmdb2.png",
+    path: "",
+  },
+  {
+    dropContent: "Elacticsearch",
+    navIcons: "Images/navbar/skills/elasticsearch.png",
+    path: "",
+  },
+  {
+    dropContent: "SQLite",
+    navIcons: "Images/navbar/skills/sqlite.png",
+    path: "",
+  },
+  {
+    dropContent: "Cassandra",
+    navIcons: "Images/navbar/skills/cassandra.png",
     path: "",
   },
 ];
@@ -666,7 +760,7 @@ const Navbar = () => {
             SERVICES
           </li>
           <li onMouseEnter={serHoverIn} onMouseLeave={serHoverOut}>
-            INDUSTRIES
+            SOLUTIONS
           </li>
           <li onMouseEnter={skillHoverIn} onMouseLeave={skillHoverOut}>
             SKILLS
@@ -696,11 +790,13 @@ const Navbar = () => {
           >
             <div className="aboutDropdownSection">
               <div className="aboutDropdownContent">
-                <h4>Company</h4>
+                <Link className="noStyle">
+                  <h5>Company</h5>
+                </Link>
                 <div className="listItems">
                   {company.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div>
+                      <div className="iconDivSection">
                         <img src={item.navIcons} alt="" />
                       </div>
                       <Link
@@ -715,11 +811,13 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="aboutDropdownContent">
-                <h4>Why Bottom Funnel</h4>
+                <Link className="noStyle">
+                  <h5>Why Bottom Funnel</h5>
+                </Link>
                 <div className="listItems">
                   {whyBottom.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div>
+                      <div className="iconDivSection">
                         <img src={item.navIcons} alt="" />
                       </div>
                       <Link
@@ -734,11 +832,13 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="aboutDropdownContent">
-                <h4>Our Process</h4>
+                <Link className="noStyle">
+                  <h5>Our Process</h5>
+                </Link>
                 <div className="listItems">
                   {process.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div>
+                      <div className="iconDivSection">
                         <img src={item.navIcons} alt="" />
                       </div>
                       <Link
@@ -769,11 +869,13 @@ const Navbar = () => {
           >
             <div className="dropdownSection">
               <div className="serviceDropdownContent">
-                <h4>Web Development</h4>
+                <Link className="noStyle">
+                  <h5>Web Development</h5>
+                </Link>
                 <div className="listItems">
                   {webservice.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div>
+                      <div className="iconDivSection">
                         <img src={item.navIcons} alt="" />
                       </div>
                       <Link
@@ -788,11 +890,13 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="serviceDropdownContent">
-                <h4>App Development</h4>
+                <Link className="noStyle">
+                  <h5>Mobile App Development</h5>
+                </Link>
                 <div className="listItems">
                   {appservice.map((item, j) => (
                     <div className="imageIconDivSection">
-                      <div>
+                      <div className="iconDivSection">
                         <img src={item.navIcons} alt="" />
                       </div>
                       <Link
@@ -807,7 +911,9 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="serviceDropdownContent">
-                <h4>Digital Marketing</h4>
+                <Link to="digitalmarketing" className="noStyle">
+                  <h5>Digital Marketing</h5>
+                </Link>
                 <div className="listItems">
                   {digitalmarket.map((item, l) => (
                     // <Link
@@ -815,8 +921,8 @@ const Navbar = () => {
                     //   onClick={solHoverOut}
                     //   className="servicesP"
                     // >
-                    <div className="imageIconDivSection">
-                      <div>
+                    <div key={l} className="imageIconDivSection">
+                      <div className="iconDivSection">
                         <img src={item.navIcons} alt="" />
                       </div>
                       <Link
@@ -832,11 +938,13 @@ const Navbar = () => {
                 </div>
               </div>
               <div id="serviceDropContent" className="serviceDropdownContent">
-                <h4>Trending Technologies</h4>
+                <Link className="noStyle">
+                  <h5>Trending Technologies</h5>
+                </Link>
                 <div className="trendListItems">
                   {trendingTech.map((item, m) => (
                     <div className="trendImageIconDivSection">
-                      <div>
+                      <div className="iconDivSection">
                         <img src={item.navIcons} alt="" />
                       </div>
                       <Link
@@ -867,11 +975,13 @@ const Navbar = () => {
           >
             <div className="industryDropdown">
               <div className="industryContent">
-                <h4>Industries We Serves</h4>
+                <Link className="noStyle">
+                  <h5>Industries We Serves</h5>
+                </Link>
                 <div className="industryListItems">
                   {industries.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div>
+                      <div className="iconDivSection">
                         <img src={item.navIcons} alt="" />
                       </div>
                       <Link
@@ -886,11 +996,13 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="industryContent">
-                <h4>On Demand Solutions</h4>
+                <Link className="noStyle">
+                  <h5>On Demand Solutions</h5>
+                </Link>
                 <div className="industryListItems">
                   {ondemand.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div>
+                      <div className="iconDivSection">
                         <img src={item.navIcons} alt="" />
                       </div>
                       <Link
@@ -921,11 +1033,13 @@ const Navbar = () => {
           >
             <div className="dropdownSection">
               <div className="serviceDropdownContent">
-                <h4>Backend</h4>
+                <Link className="noStyle">
+                  <h5>Backend</h5>
+                </Link>
                 <div className="listItems">
                   {backend.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div>
+                      <div className="iconDivSection">
                         <img src={item.navIcons} alt="" />
                       </div>
                       <Link
@@ -940,11 +1054,13 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="serviceDropdownContent">
-                <h4>Frontend</h4>
+                <Link className="noStyle">
+                  <h5>Frontend</h5>
+                </Link>
                 <div className="listItems">
                   {frontend.map((item, j) => (
                     <div className="imageIconDivSection">
-                      <div>
+                      <div className="iconDivSection">
                         <img src={item.navIcons} alt="" />
                       </div>
                       <Link
@@ -959,11 +1075,34 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="serviceDropdownContent">
-                <h4>mobile</h4>
+                <Link className="noStyle">
+                  <h5>Mobile</h5>
+                </Link>
                 <div className="listItems">
                   {mobile.map((item, j) => (
                     <div className="imageIconDivSection">
-                      <div>
+                      <div className="iconDivSection">
+                        <img src={item.navIcons} alt="" />
+                      </div>
+                      <Link
+                        onClick={skillHoverOut}
+                        to={item.path}
+                        className="linkP"
+                      >
+                        <p>{item.dropContent}</p>
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="serviceDropdownContent">
+                <Link className="noStyle">
+                  <h5>DataBase</h5>
+                </Link>
+                <div className="listItems">
+                  {database.map((item, j) => (
+                    <div className="imageIconDivSection">
+                      <div className="iconDivSection">
                         <img src={item.navIcons} alt="" />
                       </div>
                       <Link

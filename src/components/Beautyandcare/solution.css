@@ -1,0 +1,140 @@
+ .szsolution{
+    width: 100%;
+    margin-top: 5%;
+  }
+  .szsolution>h1{
+    text-align: center;
+  }
+  .customer-main{
+     
+    margin: auto;
+    height:1900px;
+    width: 100%;
+     
+    /* background-color: aqua; */
+    }
+
+    .customer{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        height: 550px;
+    }
+    .customerapp{
+        width: 40%;
+        /* background-color: aqua; */
+        height: 200px;
+        margin: 20px 10px;
+        padding: 150px 70px;
+        text-align: left; 
+         
+    }
+    .customerapp>p{
+        font-size: 18px;
+    }
+    .bussinessright>p{
+        font-size: 18px;
+    }
+    .szservice>p{
+        font-size: 18px;
+    }
+    
+    .customer-heading{
+       color: #ef4c23;
+    }
+    .customerappimg{
+        /* background-color: #ef4c23; */
+        width:40% ;
+        height: 500px;
+        /* background-color: #ef4c23; */
+        background-image:url("/public/Images/beautycare/costomerrectangle.png") ;
+        background-repeat: no-repeat;
+        background-size: 600px 550px;
+        margin-left: 30px;
+        
+        /* padding: 15px 15pxpx; */
+       
+    }
+    .customermobile{
+        height: 600px;
+        padding:30px  25px;
+     }
+     
+     .bussinescontainer{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        height: 800px;
+     }
+    .bussinessleft{
+        /* background-color: aqua; */
+        width: 55%;
+        height: 810px;
+        padding:10px
+    }
+    .toprectangle{
+        position: absolute;
+        width: 35%;
+        height: 200px;
+        margin-left: 40px;
+        padding: 5x 20px;
+        z-index: 0;
+    }
+    .rectangle{
+        position: absolute;
+        width: 35%; 
+        height: 200px; 
+        margin-left: -41.3%;
+       margin-top:32% ;
+        z-index: 0; 
+        
+    }
+    .admin{
+        padding:  10%;
+        position: relative;
+        z-index: 1;
+        margin-top:5%;
+        margin-left:  -35px;
+        height:450px;
+        
+    }
+    
+    .bussinessright{
+        width: 30%;  
+        margin: 10px 15px;
+        padding: 10% 40px;
+    }
+
+    .szservice{
+        width: 40%;
+        height: 200px;
+        margin: 40px;
+        padding: 20px 40px;
+        text-align: left; 
+    }
+    .szapp{
+        display: flex;
+       
+        margin: auto;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .szserviceimg{
+        width:30% ;  
+        margin: 30px;
+        padding: 5% 90px;
+    }
+     .szservicemobile{
+        height: 700px;
+     }
+    .box{
+        width: 190%;
+        height: 150px;
+        margin-top: -40%;
+         margin-left: -70%;   
+    }
+    
+    .szservicemobile{
+        position: relative;
+        margin-top: -70%;
+    }

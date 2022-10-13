@@ -49,7 +49,7 @@ const Services = () => {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Salesforce Development",
       serviceImages: "Images/services/salesforce.gif",
-      serviceTypes: ["IOS", "ANDROID", "HYBRID", "WEARABLES"],
+      serviceTypes: ["QUIP", "NFT CLOUD", "TABLEAU", "CRM ANALYTICS"],
       serviceDesc:
         "Want to grow your business with salesforce development? We're your one-stop-shop for all of your Salesforce needs! Automate and integrate your Salesforce with the help of our experts.",
     },

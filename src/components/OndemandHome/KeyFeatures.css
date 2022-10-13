@@ -117,10 +117,6 @@
 .adminpanelimage > img {
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-=======
->>>>>>> a5df2abb3ea8256c6b74fe4787e7a6ac65fb98c8
 }
 
 .serviceApp {
@@ -221,8 +217,4 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-<<<<<<< HEAD
-  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
-=======
->>>>>>> a5df2abb3ea8256c6b74fe4787e7a6ac65fb98c8
 }

@@ -1,0 +1,81 @@
+.food-delivery-advance-tech-main {
+  margin-top: 50px;
+}
+
+.food-delivery-advance-tech-main > h1 {
+  font-size: 32px;
+}
+
+.food-delivery-advance-tech-main > h1 > span {
+  color: #ef4c23;
+}
+
+.food-delivery-customer-app-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 650px;
+}
+
+.food-delivery-customer-app-images {
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+
+.food-delivery-customer-app-images > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+
+.food-delivery-customer-app-images > div > img {
+  position: absolute;
+  height: 100%;
+}
+
+.food-delivery-customer-app-images > div:nth-child(1) > img {
+  left: 0;
+  width: 100%;
+  height: 50%;
+  z-index: 1;
+}
+.food-delivery-customer-app-images > div:nth-child(2) > img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-7deg);
+  z-index: 4;
+  height: 108%;
+  /* border: 1px solid green; */
+}
+
+.food-delivery-customer-app-content {
+  width: 55%;
+  text-align: center;
+  padding: 20px;
+}
+
+.food-delivery-customer-app-content > h2 {
+  color: #ef4c23;
+}
+
+.food-delivery-customer-app-content > div {
+  width: 80%;
+  height: 60px;
+  background-color: #e1f9f6;
+  margin: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.food-delivery-customer-app-content > div:hover {
+  background-color: white;
+}
