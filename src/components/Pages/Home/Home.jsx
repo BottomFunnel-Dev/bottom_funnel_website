@@ -16,13 +16,22 @@ import About from "../../AboutSection/About";
 import MainFooter from "../../FooterSection/MainFooter";
 import OndemandSection from "../../OnDemandSection/OndemandSection";
 import HeroSection from "../../mainSection/HeroSection";
+<<<<<<< HEAD
 import PortFolio from "../../PortFolioSection/PortFolio";
 
+=======
+import Portfolio from "../../PortFolioSection/PortFolio";
+import PortSection from "../../PortFolioSection/PortSection";
+>>>>>>> a5df2abb3ea8256c6b74fe4787e7a6ac65fb98c8
 
 const Home = () => {
   return (
     <div>
       <Banner />
+<<<<<<< HEAD
+=======
+      {/* <HeroSection /> */}
+>>>>>>> a5df2abb3ea8256c6b74fe4787e7a6ac65fb98c8
       <CompanyLogo />
       <About />
       <Services />
