@@ -1,0 +1,35 @@
+.szwhychoose{
+    width: 100%;
+    /* background-color: blueviolet; */
+    text-align: center;
+    height: 800px;
+}
+.szchoose{
+    width: 90%;
+    margin: auto;
+   /* background-color: aqua; */
+   display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    justify-content: center;
+}
+ 
+.szchoose>div{
+width: 30%;
+/* background-color: white; */
+ margin-top: 40px;
+ margin-left: 20px;
+border-radius: 18px;
+padding: 40px 30px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+height: 100px;
+}
+.szanalysis{
+    width: 18%;
+    
+}
+.perform{
+    width: 17%; 
+
+}
+

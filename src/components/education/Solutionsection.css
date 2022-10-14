@@ -1,0 +1,54 @@
+.szsolution{
+    width: 100%;
+    /* background-color: aqua; */
+    height: 550px;
+    margin-top: 10px;
+}
+.sol{
+    width: 90%;
+    display: flex;
+  
+    margin: auto;
+    /* background-color: blue; */
+    height: 550px;
+}
+.solleft{
+ width: 50%;
+    /* background-color: blueviolet; */
+    margin: 20px;
+    text-align:  left;
+     padding: 40px 20px;
+     height: 400px;
+}
+.solright{
+    width: 50%;
+    margin: 20px;
+    /* background-color: red; */
+    height: 500px;
+     
+}
+.soltop{
+    display: flex;
+}
+.soltop>div{
+    /* background-color: bisque; */
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 20px;
+    height: 200px;
+     margin:20px 25px
+}
+.szai{
+    padding: 20px;
+}
+.solbotm{
+    display: flex;
+}
+.solbotm>div{
+    /* background-color: bisque; */
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 20px;
+    height: 200px;
+     margin:20px 25px
+}

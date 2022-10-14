@@ -4,6 +4,9 @@
 
 .food-delivery-advance-tech-main > h1 {
   font-size: 32px;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 3%;
 }
 
 .food-delivery-advance-tech-main > h1 > span {
@@ -14,7 +17,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 650px;
+  height: 550px;
+  /* border: 1px solid green; */
 }
 
 .food-delivery-customer-app-images {
@@ -51,31 +55,51 @@
   left: 50%;
   transform: translate(-50%, -50%) rotate(-7deg);
   z-index: 4;
-  height: 108%;
+  height: 100%;
   /* border: 1px solid green; */
 }
 
 .food-delivery-customer-app-content {
-  width: 55%;
+  width: 50%;
   text-align: center;
   padding: 20px;
+  /* border: 1px solid red; */
+  /* border: 1px solid green; */
 }
 
 .food-delivery-customer-app-content > h2 {
   color: #ef4c23;
+  margin-bottom: 35px;
+  /* font-size: 25px; */
 }
 
 .food-delivery-customer-app-content > div {
-  width: 80%;
-  height: 60px;
-  background-color: #e1f9f6;
-  margin: auto;
-  margin-bottom: 20px;
-  cursor: pointer;
-
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.food-delivery-customer-app-content > div:hover {
+.food-delivery-customer-app-content > div > div {
+  width: 45%;
+  height: 170px;
+  padding: 10px;
+  font-size: 16px;
   background-color: white;
+  margin: auto;
+  margin-bottom: 20px;
+  cursor: default;
+
+  border-radius: 15px;
+
+  border: 2px solid rgb(225, 249, 246);
+  box-shadow: rgba(136, 249, 234, 0.5) 0px 3px 8px;
+}
+
+.food-delivery-customer-app-content > div > div > h4,
+.food-delivery-customer-app-content > div > div > p {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }

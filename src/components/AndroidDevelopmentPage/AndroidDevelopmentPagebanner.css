@@ -28,18 +28,18 @@
   font-weight: 600;
   font-size: 18px;
   padding: 10px 60px;
-  border: 2px solid #ef4c23;
-  color: white;
-  background-color: #ef4c23;
+  border: 1px solid #ef4c23;
+  background-color: white;
+  color: #ef4c23;
   border-radius: 25px;
 }
 .androidText > div > button:hover {
   font-weight: 600;
   font-size: 18px;
   padding: 10px 60px;
-  color: #ef4c23;
-  border: 2px solid #ef4c23;
-  background-color: white;
+  background-color: #ef4c23;
+  border: 1px solid #ef4c23;
+  color: white;
   border-radius: 25px;
   transition: all .3s linear;
 }

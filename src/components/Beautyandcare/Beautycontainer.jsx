@@ -10,8 +10,8 @@ export default function Beautycontainer() {
         Enhance your salon's customer experience with our cutting-edge beauty & salon app development.
       </p>
       <button className='btn'> Get Started</button>
-    </div>
-    <div >
+         </div>
+       <div >
       <img   className="mobile" src="Images/beautycare/beautymobile.png" />
     </div>
   </div>

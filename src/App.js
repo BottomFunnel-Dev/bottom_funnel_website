@@ -25,6 +25,10 @@ import { FoodDelivery } from "./components/food-delivery/FoodDeliveryPage";
 import Beautysection from "./components/Beautyandcare/Beautysection";
 // import { Seomainpage } from "./components/SEO/Seomainpage/Seomainpage";
 
+import { nodejsData } from "./Data/SkillsData";
+import { SkillsComPage } from "./components/skillsPageCom/SkillsComPage";
+import Educationpage from "./components/education/Educationpage";
+
 function App() {
   return (
     <div className="App">
@@ -43,13 +47,18 @@ function App() {
         <Route path="/reactNative" element={<Reactnative />} />
         <Route path="/android" element={<AndroidDevelopmentPage />} />
         <Route path="/ondemandHomeServices" element={<OndemandHome />} />
-        <Route path="/nodejs" element={<NodejsPage />} />
-        <Route path="/beautycareapp" element={<Beautysection/>} />
-        <Route path="/digitalmarketing" element={<SeoDm/>} />
-        <Route path="/emailservices" element={<SeoEmail/>} />
-        <Route path="/php" element={<PhPSkillsPage/>} />
-        <Route path="/dotnet" element={<DotNetPage/>} />
-        <Route path="/food-delivery" element={<FoodDelivery/>} />
+        <Route path="/nodejs" element={<NodejsPage/>} />
+        <Route path="/beautycareapp" element={<Beautysection />} />
+        <Route path="/digitalmarketing" element={<SeoDm />} />
+        <Route path="/emailservices" element={<SeoEmail />} />
+        <Route path="/php" element={<PhPSkillsPage />} />
+        <Route path="/dotnet" element={<DotNetPage />} />
+        <Route path="/food-delivery" element={<FoodDelivery />} />
+        {/* <Route path="/education" element={<Educationpage/>} /> */}
+
+
+
+
       </Routes>
       {/* <Seomainpage/> */}
     </div>

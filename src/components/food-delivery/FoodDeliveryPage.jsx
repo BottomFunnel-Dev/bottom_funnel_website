@@ -1,4 +1,14 @@
 import React from "react";
+import ContectForm from "../ContectForm/ContectForm";
+import { TextDropdown } from "../faqSection/Faqs";
+import MainFooter from "../FooterSection/MainFooter";
+import { Industries } from "../industries/Industries";
+import OndemandSection from "../OnDemandSection/OndemandSection";
+import PlanProject from "../PlanProject/PlanProject";
+import PortFolio from "../PortFolioSection/PortFolio";
+import Revamping from "../revamping/Revamping";
+import { SeoblogSection } from "../SeoBlogs/Seoblogs";
+import StoriesSection from "../StoriesSection/StoriesSection";
 import { FoodDeliveryAdminPanel } from "./foodDeliveryAdminPanel";
 import { FoodDeliveryAdvanceTech } from "./foodDeliveryAdvanceTech";
 import { FoodDeliveryBanner } from "./FoodDeliveryBanner";
@@ -21,6 +31,17 @@ export const FoodDelivery = () => {
       {<FoodDeliveryAdminPanel />}
       {<FoodDeliveryPartnerApp />}
       {<FoodDeliveryNeedSuccess />}
+      <PortFolio/>
+      <StoriesSection/>
+      <Industries/>
+      <OndemandSection/>
+      <PlanProject/>
+      <Revamping/>
+      <SeoblogSection/>
+      <TextDropdown/>
+      <ContectForm/>
+      <MainFooter/>
+      
     </div>
   );
 };

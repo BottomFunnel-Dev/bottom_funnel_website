@@ -34,7 +34,7 @@ export const Flutterwhy = () => {
               <h5><span><FaHandPointRight style={{color:"#EF4C23",marginRight:"10px"}}/></span>    ipsum dolor sit amet consectetur adipisicing elit.</h5>
             </div> */}
       <div className='_Flutterwhyimg'>
-        <img src="Images/flutter/react native.gif" />
+        <img src="Images/flutter/flutteranime.gif" />
       </div>
     </div>
   )

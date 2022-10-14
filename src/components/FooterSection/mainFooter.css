@@ -18,15 +18,22 @@
 .startWith > button {
   font-size: 18px;
   font-weight: 600;
-  padding: 7px 30px;
+  padding: 10px 50px;
   border-radius: 25px;
   margin: auto;
   color: white;
   background-color: #ef4c23;
+  border: 2px solid #ef4c23;
+}
+.startWith > button:hover {
+  border: 2px solid #ef4c23;
+
+  background-color: white;
+  color: #ef4c23;
 }
 
-.footerServices{
-  width: 100%;
+.footerServices {
+  width: 100%;  
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -56,7 +63,7 @@
   position: relative;
 }
 
-.newYorkLocation{
+.newYorkLocation {
   position: absolute;
   top: 30%;
   left: 25%;
@@ -64,7 +71,7 @@
   width: 20px;
   height: 20px;
 }
-.zambiaLocation{
+.zambiaLocation {
   position: absolute;
   top: 62%;
   left: 54%;
@@ -72,7 +79,7 @@
   width: 20px;
   height: 20px;
 }
-.germanyLocation{
+.germanyLocation {
   position: absolute;
   top: 25%;
   left: 49%;
@@ -80,7 +87,7 @@
   width: 20px;
   height: 20px;
 }
-.indiaLocation{
+.indiaLocation {
   position: absolute;
   top: 41%;
   left: 67%;
@@ -88,7 +95,7 @@
   width: 20px;
   height: 20px;
 }
-.uaeLocation{
+.uaeLocation {
   position: absolute;
   top: 40%;
   left: 62%;
@@ -115,7 +122,7 @@
   margin: 0;
 }
 
-.indicate{
+.indicate {
   width: 10px;
   height: 10px;
   position: absolute;
@@ -124,7 +131,6 @@
   transform: rotate(45deg);
   background-color: #ef4c23;
 }
-
 
 .mapImageSection > img {
   width: 100%;
@@ -146,7 +152,7 @@
   /* text-align: center; */
 }
 .footerLogo > div > img {
-  width:75%;
+  width: 75%;
   height: 100%;
   object-fit: contain;
 }

@@ -1,0 +1,41 @@
+#skills-hr {
+  margin: 0px;
+}
+
+.skills-des-main {
+  width: 85%;
+  height: 160px;
+
+  margin: auto;
+  margin-top: 0px;
+
+  text-align: left;
+  padding: 10px 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-des-main > div {
+  height: 100%;
+  object-fit: contain;
+}
+
+.skills-des-content {
+  padding: 0;
+}
+
+.skills-des-content > h1 {
+  color: #ef4c23;
+
+  font-size: 32px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.skills-des-content > p {
+  width: 90%;
+  margin: 0px;
+
+  font-size: 16px;
+}

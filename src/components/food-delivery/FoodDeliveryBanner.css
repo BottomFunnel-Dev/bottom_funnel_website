@@ -1,10 +1,11 @@
 .food-delivery-banner-main {
   height: 700px;
   /* border: 1px solid red; */
-  margin-top: 80px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 45px;
 }
 
 .food-delivery-banner-content {
@@ -21,13 +22,18 @@
 }
 
 .food-delivery-banner-content > div > h1 {
-  font-size: 60px;
+  font-size: 35px;
   font-weight: 600;
   margin: 0px;
 }
 
+.food-delivery-banner-content > div > p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
 .food-delivery-banner-content > div > button {
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px 30px;
   border-radius: 20px;
   outline: none;

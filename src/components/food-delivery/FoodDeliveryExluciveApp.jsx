@@ -6,37 +6,41 @@ export const FoodDeliveryExluciveApp = () => {
     {
       img: {
         src: "Images/foodDeliveryphotos/exlucive-app-image-1.png",
-        alt: "Food delivery startup image",
+        alt: "Food Delivery Startup image",
       },
-      title: "Food delivery startup",
+      title: "Food Delivery Startup",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "With food delivery startup app development, you can start your journey to becoming a successful food delivery startup. By developing an app that is user-friendly and easy to use, you can attract customers from all over the city. Food delivery startup app development offers a range of cost-effective options that will help you reach your profitability goals.",
     },
     {
       img: {
         src: "Images/foodDeliveryphotos/exlucive-app-image-2.png",
-        alt: "Chain restaurants management image",
+        alt: "Chain Restaurants Management image",
       },
-      title: "Chain restaurants management",
+      title: "Chain Restaurants Management",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "App development for chain restaurant provides enhanced customer service, efficient food delivery and cost-effective menu planning. The app allows managerment to track inventory and sales, as well as manager large amounts of customers. By developing a robust and edge cutting app for your chain restaurant, you can increase profits and stay ahead of the competition",
     },
     {
       img: {
         src: "Images/foodDeliveryphotos/exlucive-app-image-3.png",
-        alt: "Custom franchise app image",
+        alt: "Custom Franchise App image",
       },
-      title: "Custom franchise app",
+      title: "Custom Franchise App",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Get a customized application development and design service that is tailored specifically for your business which features easy-to-use templates and customizable app designs which will help you reduce operating costs and improve communication with your customers. Increase the reach and visibilty of your franchise with our on-demand app solutions",
     },
   ];
 
   return (
     <div className="food-delivery-exlucive-app-main">
       <h1>
-        <span>Launch Exclusive App</span> for your Business
+        <span>APP SUGGESTIONS</span> FOR DIFFERENT FOOD DEVLIERY BUSINESS:
       </h1>
+      <p>
+        Get exclusive and robusts apps for your food delivery business with a
+        taste of latest technology and creative designs.
+      </p>
       <div className="food-delivery-exlucive-app-content">
         {foodExcluciveAppData.map(({ title, description, img }) => {
           return (

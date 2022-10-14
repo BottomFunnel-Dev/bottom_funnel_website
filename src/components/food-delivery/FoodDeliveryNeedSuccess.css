@@ -4,6 +4,10 @@
   min-height: 400px;
 }
 
+.food-delivery-need-success-main > h1 {
+  font-size: 32px;
+}
+
 .food-delivery-need-success-main > div {
   display: flex;
   align-items: center;
@@ -47,6 +51,10 @@
 
 .food-delivery-need-success-content > div:hover {
   background-color: #e1f9f6;
+}
+
+.food-delivery-need-success-content > div > h3 {
+  font-size: 18px;
 }
 
 .food-delivery-need-success-content-logo {

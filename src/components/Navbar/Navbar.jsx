@@ -242,7 +242,7 @@ const trendingTech = [
     path: "",
   },
   {
-    dropContent: "Customised Web App Development",
+    dropContent: "Customised Web Development",
     navIcons: "Images/navbar/services/customizedwebdev.png",
     path: "",
   },
@@ -287,7 +287,7 @@ const industries = [
   {
     dropContent: "Education",
     navIcons: "Images/navbar/industriesImage/education.png",
-    path: "",
+    path: "education",
   },
   {
     dropContent: "Game Development",

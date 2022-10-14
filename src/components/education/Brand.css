@@ -1,0 +1,29 @@
+.szbrand{
+    width: 100%;
+    text-align: center;
+    /* background-color: blue; */
+    height: 350px;
+}
+
+.szbrandsub{
+     width: 90%; 
+     margin: auto;
+   /* background-color: brown; */
+   height: 270px;
+   display: flex;
+}
+/* .szbrandflex{
+    display: flex;
+    width: 90%;
+    background-color: black;
+    height: 200px;
+} */
+.szbrandflexdiv{
+     margin: 30px;
+     width: 15%;
+     height: 200px;
+     border-radius: 10px;
+     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+     background-color: white;
+
+}

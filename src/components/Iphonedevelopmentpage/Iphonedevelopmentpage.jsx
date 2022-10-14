@@ -20,9 +20,6 @@ export const Iphonedevelopmentpage = () => {
         <div className="macimage">
           <img src="Images/ios/mac.png" alt="" />
         </div>
-        {/* <div className="animeImage">
-          <img src="Images/ios/appleanime.gif" alt="" />
-        </div> */}
       </div>
     </div>
   );

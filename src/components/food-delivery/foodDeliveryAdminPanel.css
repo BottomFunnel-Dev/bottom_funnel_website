@@ -2,26 +2,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 450px;
 }
 
 .food-delivery-admin-panel-div-images {
-  width: 50%;
-  position: relative;
+  width: 40%;
+  height: 100%;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .food-delivery-admin-panel-div-images > img {
-  width: 100%;
-  position: absolute;
-  z-index: 111111;
+  height: 100%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.food-delivery-admin-panel-div-images > div {
-  width: 100%;
 }
 
 .food-delivery-admin-panel-div-content {
@@ -32,19 +27,37 @@
 
 .food-delivery-admin-panel-div-content > h2 {
   color: #ef4c23;
+  margin-bottom: 35px;
+  /* font-size: 25px; */
 }
 
 .food-delivery-admin-panel-div-content > div {
-  width: 80%;
-  height: 50px;
-  background-color: #fdf2f0;
-  margin: auto;
-  margin-bottom: 20px;
-  cursor: pointer;
-
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.food-delivery-admin-panel-div-content > div:hover {
+.food-delivery-admin-panel-div-content > div > div {
+  width: 45%;
+  height: 170px;
+  padding: 10px;
+  font-size: 16px;
   background-color: white;
+  margin: auto;
+  margin-bottom: 20px;
+  cursor: default;
+
+  border-radius: 15px;
+
+  border: 2px solid rgb(253, 242, 240);
+  box-shadow: rgba(247, 165, 151, 0.5) 0px 3px 8px;
+}
+
+.food-delivery-admin-panel-div-content > div > div > h4,
+.food-delivery-admin-panel-div-content > div > div > p {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }

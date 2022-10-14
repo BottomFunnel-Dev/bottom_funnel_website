@@ -291,12 +291,20 @@
   justify-content: center;
 }
 .robotCaptcha button {
-  padding: 8px 25px;
+  padding: 10px 60px;
   font-size: 18px;
   background-color: #ef4c23;
   border-radius: 25px;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   border: none;
   margin-top: 20px;
+border: 2px solid #ef4c23;
+
+}
+.robotCaptcha button:hover {
+border: 2px solid #ef4c23;
+  color: #ef4c23;
+    background-color: white;
+ 
 }

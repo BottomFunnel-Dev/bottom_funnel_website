@@ -22,7 +22,6 @@ export const Iphonepage = () => {
         <Iphonedevelopmentpage/>
         <Iphonedevelopmentwhy/>
         <Iphonedevelopmentservices/>
-        {/* <IphoneDevelopmentwork/> */}
         <PortFolio/>
         <StoriesSection/>
         <Industries/>
