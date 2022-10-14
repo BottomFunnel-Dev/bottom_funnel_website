@@ -4,11 +4,13 @@
 ._AndroidDevelopmentindustriesmaindiv>h1{
     color:#EF4C23;
     text-align: center;
+
 }
 ._AndroidDevelopmentindustries{
     /* border:1px solid blue; */
     display: flex;
     flex-wrap: wrap;
+    padding: 30px;
     gap:3%;
     row-gap:40px;
     justify-content: center;

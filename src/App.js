@@ -44,7 +44,7 @@ function App() {
         <Route path="/android" element={<AndroidDevelopmentPage />} />
         <Route path="/ondemandHomeServices" element={<OndemandHome />} />
         <Route path="/nodejs" element={<NodejsPage />} />
-        {/* <Route path="/beautycareapp" element={<Beautysection/>} /> */}
+        <Route path="/beautycareapp" element={<Beautysection/>} />
         <Route path="/digitalmarketing" element={<SeoDm/>} />
         <Route path="/emailservices" element={<SeoEmail/>} />
         <Route path="/php" element={<PhPSkillsPage/>} />

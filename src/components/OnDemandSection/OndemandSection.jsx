@@ -80,6 +80,24 @@ const OndemandSection = () => {
         "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
       actionArrow: <BsArrowRight />,
     },
+    {
+      solutionName: "Pharmacy Delivery App",
+      bg: "Images/ondemand/pharmacy.png",
+      logoImgageOrange: "Images/ondemand/pharmacyorange.png",
+      logoImgageWhite: "Images/ondemand/pharmacywhite.png",
+      description:
+        "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
+      actionArrow: <BsArrowRight />,
+    },
+    { 
+      solutionName: "Taxi Booking App",
+      bg: "Images/ondemand/taxibooking.png",
+      logoImgageOrange: "Images/ondemand/taxiorange.png",
+      logoImgageWhite: "Images/ondemand/taxiwhite.png",
+      description:
+        "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
+      actionArrow: <BsArrowRight />,
+    },
   ];
   return (
     <div className="ondemandSection">

@@ -1,7 +1,11 @@
 .portfolioSection {
   width: 100%;
-  height: 750px;
+  height: 800px;
   /* background-color: violet; */
+}
+.portfolioSection>h1 {
+color: #ef4c23;
+text-align: center;
 }
 
 .mainSlide {

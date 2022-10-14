@@ -1,18 +1,16 @@
 ._IphoneDevelopmentmaindiv{
     /* border:1px solid blue; */
-    width:96%;
+    width:90%;
     margin: auto;
     background-color: rgb(245 244 244 / 79%);
     border-radius: 10px;
-    padding: 15px;
+    padding: 30px;
     margin-top: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 ._IphoneDevelopmentmaindiv>h1{
     text-align: center;
     color:#EF4C23;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
 }
 ._IphoneDevelopmentmaindiv>p{
 text-align: center;

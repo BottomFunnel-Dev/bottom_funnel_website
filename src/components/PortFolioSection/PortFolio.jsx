@@ -19,6 +19,8 @@ const PortFolio = () => {
     // swipeToSlide:true,
     vertical: true,
     autoplay: true,
+
+
     // cssEase: "linear",
     arrows: false,
     beforeChange: (current, next) => setImageIndex(next),
@@ -32,6 +34,9 @@ const PortFolio = () => {
       title: "Yanbal",
       tagline: "The Finest Beauty Products",
       description: "",
+      frontend:" React, jquery, Mordenizr",
+      backend:" Java, ASP.NET,",
+      database:" CloudFront"
     },
     {
       leftimg: "Images/portfolio/amydus2.png",
@@ -39,6 +44,9 @@ const PortFolio = () => {
       title: "Amydus",
       tagline: "Plud Size Clothing",
       description: "",
+      frontend:" React, jquery, Javascript",
+      backend:" PHP, Ruby on Rails,",
+      database:" CloudFare works"
     },
     {
       leftimg: "Images/portfolio/blueberry2.png",
@@ -46,13 +54,19 @@ const PortFolio = () => {
       title: "Blueberry Travels",
       tagline: "Travel Website",
       description: "",
+      frontend:" Jquery, GSAP, Mordenizr",
+      backend:" PHP, PHP7,",
+      database:" Amazon Route 53"
     },
     {
       leftimg: "Images/portfolio/jambo2.png",
       rightImg: "Images/portfolio/jambo1.png",
-      title: "jambo Shoppe",
+      title: "Jambo Shoppe",
       tagline: "Online Shopping Brand",
       description: "",
+      frontend:" Jquery,Bootstrap",
+      backend:" Java",
+      database:" CloudFront"
     },
     {
       leftimg: "Images/portfolio/myteam112.png",
@@ -60,13 +74,19 @@ const PortFolio = () => {
       title: "MyTeam11",
       tagline: "Andriod Fantasy Sports App",
       description: "",
+      frontend:" jquery, Bootstrap",
+      backend:" ASP.NET MVC, ASP.NET,",
+      database:" CloudFront"
     },
     {
       leftimg: "Images/portfolio/nextholidays2.png",
       rightImg: "Images/portfolio/nextholidays1.png",
-      title: "next Holidays",
+      title: "Next Holidays",
       tagline: "Travel Website",
       description: "",
+      frontend:" Angular, jquery",
+      backend:" ASP.NET, ASP.NET MVC",
+      database:" Cloudflare.js, CDN.js"
     },
     {
       leftimg: "Images/portfolio/oncart2.png",
@@ -74,10 +94,15 @@ const PortFolio = () => {
       title: "On-cart",
       tagline: "Smart Shopping App",
       description: "",
+      frontend:" Angular, jquery, Mordenizr",
+      backend:" PHP, ASP.NET,",
+      database:" CloudFront, AJAX Libraries API"
+
     },
   ];
   return (
     <div className="portfolioSection">
+      <h1>Our Work</h1>
       <Slider {...settings}>
         {portfolioData.map((item, i) => (
           <div
@@ -105,13 +130,13 @@ const PortFolio = () => {
                   <h5>Tech Stack</h5>
                   <span className="techstack">
                     <p>
-                      <strong>Database:</strong> React, Jquery, Javascript
+                      <strong>Database:</strong> {item.database}
                     </p>
                     <p>
-                      <strong>Backend:</strong> PHP, ASP.NET, Java
+                      <strong>Backend:</strong>{item.backend}
                     </p>
                     <p>
-                      <strong>Frontend:</strong> React, Jquery, Bootstrap
+                      <strong>Frontend:</strong> {item.frontend}
                     </p>
                   </span>
 

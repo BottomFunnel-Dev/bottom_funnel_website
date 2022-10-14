@@ -796,8 +796,8 @@ const Navbar = () => {
                 <div className="listItems">
                   {company.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={homeHoverOut}
@@ -817,8 +817,8 @@ const Navbar = () => {
                 <div className="listItems">
                   {whyBottom.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={homeHoverOut}
@@ -838,8 +838,8 @@ const Navbar = () => {
                 <div className="listItems">
                   {process.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={homeHoverOut}
@@ -875,8 +875,8 @@ const Navbar = () => {
                 <div className="listItems">
                   {webservice.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={solHoverOut}
@@ -896,8 +896,8 @@ const Navbar = () => {
                 <div className="listItems">
                   {appservice.map((item, j) => (
                     <div className="imageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={solHoverOut}
@@ -922,8 +922,8 @@ const Navbar = () => {
                     //   className="servicesP"
                     // >
                     <div key={l} className="imageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={solHoverOut}
@@ -944,8 +944,8 @@ const Navbar = () => {
                 <div className="trendListItems">
                   {trendingTech.map((item, m) => (
                     <div className="trendImageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={solHoverOut}
@@ -981,8 +981,8 @@ const Navbar = () => {
                 <div className="industryListItems">
                   {industries.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={serHoverOut}
@@ -1002,8 +1002,8 @@ const Navbar = () => {
                 <div className="industryListItems">
                   {ondemand.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={serHoverOut}
@@ -1039,8 +1039,8 @@ const Navbar = () => {
                 <div className="listItems">
                   {backend.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={skillHoverOut}
@@ -1060,8 +1060,8 @@ const Navbar = () => {
                 <div className="listItems">
                   {frontend.map((item, j) => (
                     <div className="imageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={skillHoverOut}
@@ -1081,8 +1081,8 @@ const Navbar = () => {
                 <div className="listItems">
                   {mobile.map((item, j) => (
                     <div className="imageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={skillHoverOut}
@@ -1102,8 +1102,8 @@ const Navbar = () => {
                 <div className="listItems">
                   {database.map((item, j) => (
                     <div className="imageIconDivSection">
-                      <div className="iconDivSection">
-                        <img src={item.navIcons} alt="" />
+                      <div >
+                        <img className="iconDivSection" src={item.navIcons} alt="" />
                       </div>
                       <Link
                         onClick={skillHoverOut}

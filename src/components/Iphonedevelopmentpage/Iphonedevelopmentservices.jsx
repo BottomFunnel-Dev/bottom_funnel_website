@@ -44,7 +44,7 @@ export const Iphonedevelopmentservices = () => {
                 </div>
             </div>
             <div className='_Iphonedevelopmentsecond'>
-                <img src="Images/ios/apps.jpeg"/>
+                <img src="Images/ios/iosserv.jpg"/>
             </div>
         </div>
     )

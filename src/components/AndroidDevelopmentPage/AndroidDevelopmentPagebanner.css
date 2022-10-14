@@ -1,12 +1,77 @@
-._AndroidDevelopmentbanner{
-    height:600px;
-    width: 100%;
-    margin-top: 80px;
-    background-color: #58c963;
+._AndroidDevelopmentbanner {
+  height: 600px;
+  width: 100%;
+  margin-top: 80px;
+  background-color: #58c963;
+  display: flex;
 }
-._AndroidDevelopmentbanner>img{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    /* filter: brightness(0.5); */
+
+.androidText {
+  width: 50%;
+  position: relative;
+  height: 100%;
+}
+.androidText>div>h1 {
+ color: white;
+}
+.androidText > div {
+  width: 80%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 55%;
+}
+.androidText > div > p {
+    color: white;
+}
+.androidText > div > button {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 60px;
+  border: 2px solid #ef4c23;
+  color: white;
+  background-color: #ef4c23;
+  border-radius: 25px;
+}
+.androidText > div > button:hover {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 60px;
+  color: #ef4c23;
+  border: 2px solid #ef4c23;
+  background-color: white;
+  border-radius: 25px;
+  transition: all .3s linear;
+}
+.androidHero {
+  width: 50%;
+  position: relative;
+}
+
+.androidlogo {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 53%;
+  left: 50%;
+}
+.androidlogo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.phoneimage {
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  right: 6%;
+  transform: translate(-50%, -50%);
+  top: 51.5%;
+  left: 60%;
+}
+.phoneimage > img {
+  width: 100%;
+  height: 105%;
+  object-fit: contain;
 }
