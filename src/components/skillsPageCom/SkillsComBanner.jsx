@@ -9,7 +9,7 @@ export const SkillsComBanner = ({ data }) => {
   return (
     <div
       className="skills-banner-main"
-      // style={{ background: `url(${image})` }}
+      style={{ background: `url(${image})` }}
     >
       <div className="skills-banner-content">
         <h1>{title}</h1>

@@ -6,6 +6,8 @@
 }
 .exclusiveFeature > h1 {
   text-align: center;
+  color: #ef4c23;
+  margin-bottom: 30px;
 }
 
 .innerFeatures {

@@ -23,7 +23,7 @@ const OndemandSection = () => {
       logoImgageOrange: "Images/ondemand/softwareSolutionsOrange.png",
       logoImgageWhite: "Images/ondemand/softwareSolutionsWhite.png",
       description:
-        "our software solutions allow you to perform all the time-consuming tasks and automate regular tasks to cater to your needs and make your life easier.",
+        "our software solutions allow us to perform all the time-consuming tasks and automate regular tasks to cater to your needs and make your life easier.",
       actionArrow: <BsArrowRight />,
     },
     {

@@ -25,7 +25,7 @@ import { FoodDelivery } from "./components/food-delivery/FoodDeliveryPage";
 import Beautysection from "./components/Beautyandcare/Beautysection";
 // import { Seomainpage } from "./components/SEO/Seomainpage/Seomainpage";
 
-import { nodejsData } from "./Data/SkillsData";
+import { cakePHPData, codeigniterData, djangoData, DotnetData, laravelData, nodejsData, phpData } from "./Data/SkillsData";
 import { SkillsComPage } from "./components/skillsPageCom/SkillsComPage";
 import Educationpage from "./components/education/Educationpage";
 
@@ -47,14 +47,20 @@ function App() {
         <Route path="/reactNative" element={<Reactnative />} />
         <Route path="/android" element={<AndroidDevelopmentPage />} />
         <Route path="/ondemandHomeServices" element={<OndemandHome />} />
-        <Route path="/nodejs" element={<NodejsPage/>} />
+        <Route path="/nodejs" element={<SkillsComPage allData={nodejsData}/>} />
+        <Route path="/php" element={<SkillsComPage allData={phpData}/>} />
+        <Route path="/dotnet" element={<SkillsComPage allData={DotnetData}/>} />
+        <Route path="/laravel" element={<SkillsComPage allData={laravelData}/>} />
+        <Route path="/django" element={<SkillsComPage allData={djangoData}/>} />
+        <Route path="/cakephp" element={<SkillsComPage allData={cakePHPData}/>} />
+        <Route path="/codeigniter" element={<SkillsComPage allData={codeigniterData}/>} />
+
         <Route path="/beautycareapp" element={<Beautysection />} />
         <Route path="/digitalmarketing" element={<SeoDm />} />
         <Route path="/emailservices" element={<SeoEmail />} />
-        <Route path="/php" element={<PhPSkillsPage />} />
-        <Route path="/dotnet" element={<DotNetPage />} />
+       
         <Route path="/food-delivery" element={<FoodDelivery />} />
-        {/* <Route path="/education" element={<Educationpage/>} /> */}
+        <Route path="/education" element={<Educationpage/>} />
 
 
 

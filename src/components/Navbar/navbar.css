@@ -70,7 +70,7 @@
   border-radius: 25px;
   font-weight: 600;
   margin: 0 5px;
-  border: 1px solid white;
+  border: none;
 }
 .callToAction:hover {
   color: #ef4c23 !important;
@@ -700,7 +700,8 @@
   }
 
   .callToAction {
-    padding: 5px 10px;
+    padding: 5px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 0;
   }
 }

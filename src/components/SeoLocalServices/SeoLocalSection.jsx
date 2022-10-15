@@ -6,7 +6,7 @@ export default function SeoLocalSection(){
     return (
         <div className="_SeoLocalMain1">
             <div className="localgifDenote">
-                {/* <img src="Images/seopages/pointing.gif" alt="" /> */}
+                <img src="Images/seopages/localseo1.gif" alt="" />
             </div>
             <div className="_SeoLocalupperdiv">
                 <div className="_SeoLocaltext" >

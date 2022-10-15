@@ -7,23 +7,28 @@ export default function Whychoose() {
           <p className='szwhypara'> </p>
         <div className='szchoose'>
             <div>
-                <img className="szanalysis" src="Images/education/security.png" />
+              <div className="szanalysis" >   <img  src="Images/education/security.png" /></div>
+              
                     <p>Data Security</p>
             </div>
             <div>
-               <img className="szanalysis" src="Images/education/customer.png" />
+              <div className="szanalysis" ><img  src="Images/education/customer.png" /></div>
+                
                   <p> Customer Service</p>
             </div>
             <div>
-                <img className="perform" src="Images/education/Performence.png" />
+              <div className='szanalysis'><img  src="Images/education/Performence.png" /></div>
+                 
                   <p> Performance Analysis</p>
             </div>
             <div>
-               <img className="szanalysis" src="Images/education/arrow.png" />
+              <div className="szanalysis"><img src="Images/education/arrow.png" /></div>
+                
                  <p>Flexibility</p>
             </div>
             <div>
-               <img className="szanalysis" src="Images/education/teaching.png" />
+              <div className="szanalysis" >  <img src="Images/education/teaching.png" /></div>
+              
                  <p>Interactiveness</p>
             </div>
              

@@ -6,7 +6,7 @@
 .backgroundDiv {
   width: 100%;
   height: 50%;
-  background-color: #ef4c23;
+  background-color: #fcdbd3;
 }
 .contectSection {
   width: 80%;
@@ -32,11 +32,9 @@
 }
 .formHeader > h5 {
   font-size: 18px;
-  color: white;
 }
 .formHeader > h1 {
   /* margin: 0; */
-  color: white;
 }
 
 .addressSection {
@@ -299,11 +297,12 @@
   font-weight: 600;
   border: none;
   margin-top: 20px;
-border: 2px solid #ef4c23;
+/* border: 2px solid #ef4c23; */
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 .robotCaptcha button:hover {
-border: 2px solid #ef4c23;
+/* border: 2px solid #ef4c23; */
   color: #ef4c23;
     background-color: white;
  

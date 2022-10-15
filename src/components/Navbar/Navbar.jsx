@@ -468,7 +468,7 @@ const backend = [
   {
     dropContent: "Laravel",
     navIcons: "Images/navbar/skills/laravel.png",
-    path: "",
+    path: "laravel",
   },
   {
     dropContent: "SpringBoot",
@@ -483,18 +483,18 @@ const backend = [
   {
     dropContent: "Django",
     navIcons: "Images/navbar/skills/django.png",
-    path: "",
+    path: "django",
   },
   {
-    dropContent: "Flask",
+    dropContent: "CakePHP",
     navIcons: "Images/navbar/skills/flask.png",
-    path: "",
+    path: "cakephp",
   },
 
   {
-    dropContent: "Golang",
+    dropContent: "CodeIgniter",
     navIcons: "Images/navbar/skills/golangimage.png",
-    path: "",
+    path: "codeigniter",
   },
   
 ];

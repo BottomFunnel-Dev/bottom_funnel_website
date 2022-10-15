@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./portfolio.css";
 import Slider from "react-slick";
-import { BsGlobe, BsApple } from "react-icons/bs";
+import { BsGlobe, BsApple, BsArrowRight } from "react-icons/bs";
 import { AiFillAndroid } from "react-icons/ai";
 import { IconContext } from "react-icons";
 
@@ -10,7 +10,7 @@ const PortFolio = () => {
   const settings = {
     infinite: true,
     accessibility: false,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 6000,
     speed: 1000,
     slidesToScroll: 1,
     centerMode: true,
@@ -18,8 +18,7 @@ const PortFolio = () => {
     pauseOnHover: false,
     // swipeToSlide:true,
     vertical: true,
-    autoplay: true,
-
+    // autoplay: true,
 
     // cssEase: "linear",
     arrows: false,
@@ -34,9 +33,9 @@ const PortFolio = () => {
       title: "Yanbal",
       tagline: "The Finest Beauty Products",
       description: "",
-      frontend:" React, jquery, Mordenizr",
-      backend:" Java, ASP.NET,",
-      database:" CloudFront"
+      frontend: " React, jquery, Mordenizr",
+      backend: " Java, ASP.NET,",
+      database: " CloudFront",
     },
     {
       leftimg: "Images/portfolio/amydus2.png",
@@ -44,9 +43,9 @@ const PortFolio = () => {
       title: "Amydus",
       tagline: "Plud Size Clothing",
       description: "",
-      frontend:" React, jquery, Javascript",
-      backend:" PHP, Ruby on Rails,",
-      database:" CloudFare works"
+      frontend: " React, jquery, Javascript",
+      backend: " PHP, Ruby on Rails,",
+      database: " CloudFare works",
     },
     {
       leftimg: "Images/portfolio/blueberry2.png",
@@ -54,9 +53,9 @@ const PortFolio = () => {
       title: "Blueberry Travels",
       tagline: "Travel Website",
       description: "",
-      frontend:" Jquery, GSAP, Mordenizr",
-      backend:" PHP, PHP7,",
-      database:" Amazon Route 53"
+      frontend: " Jquery, GSAP, Mordenizr",
+      backend: " PHP, PHP7,",
+      database: " Amazon Route 53",
     },
     {
       leftimg: "Images/portfolio/jambo2.png",
@@ -64,9 +63,9 @@ const PortFolio = () => {
       title: "Jambo Shoppe",
       tagline: "Online Shopping Brand",
       description: "",
-      frontend:" Jquery,Bootstrap",
-      backend:" Java",
-      database:" CloudFront"
+      frontend: " Jquery,Bootstrap",
+      backend: " Java",
+      database: " CloudFront",
     },
     {
       leftimg: "Images/portfolio/myteam112.png",
@@ -74,9 +73,9 @@ const PortFolio = () => {
       title: "MyTeam11",
       tagline: "Andriod Fantasy Sports App",
       description: "",
-      frontend:" jquery, Bootstrap",
-      backend:" ASP.NET MVC, ASP.NET,",
-      database:" CloudFront"
+      frontend: " jquery, Bootstrap",
+      backend: " ASP.NET MVC, ASP.NET,",
+      database: " CloudFront",
     },
     {
       leftimg: "Images/portfolio/nextholidays2.png",
@@ -84,9 +83,9 @@ const PortFolio = () => {
       title: "Next Holidays",
       tagline: "Travel Website",
       description: "",
-      frontend:" Angular, jquery",
-      backend:" ASP.NET, ASP.NET MVC",
-      database:" Cloudflare.js, CDN.js"
+      frontend: " Angular, jquery",
+      backend: " ASP.NET, ASP.NET MVC",
+      database: " Cloudflare.js, CDN.js",
     },
     {
       leftimg: "Images/portfolio/oncart2.png",
@@ -94,10 +93,9 @@ const PortFolio = () => {
       title: "On-cart",
       tagline: "Smart Shopping App",
       description: "",
-      frontend:" Angular, jquery, Mordenizr",
-      backend:" PHP, ASP.NET,",
-      database:" CloudFront, AJAX Libraries API"
-
+      frontend: " Angular, jquery, Mordenizr",
+      backend: " PHP, ASP.NET,",
+      database: " CloudFront, AJAX Libraries API",
     },
   ];
   return (
@@ -133,7 +131,8 @@ const PortFolio = () => {
                       <strong>Database:</strong> {item.database}
                     </p>
                     <p>
-                      <strong>Backend:</strong>{item.backend}
+                      <strong>Backend:</strong>
+                      {item.backend}
                     </p>
                     <p>
                       <strong>Frontend:</strong> {item.frontend}
@@ -160,10 +159,19 @@ const PortFolio = () => {
                 <p className="tagline">
                   <i>Build Your Brand Presence</i>
                 </p>
+
+                <button className="casestudy">
+                  View Case Study{" "}
+                  <IconContext.Provider value={{ className: "casestudyIcon" }}>
+                    <BsArrowRight />
+                  </IconContext.Provider>
+                </button>
               </span>
             </div>
             <div className="rightAnime">
               <img src={item.rightImg} alt="" />
+
+              <span className="mobileImage"> </span>
             </div>
           </div>
         ))}

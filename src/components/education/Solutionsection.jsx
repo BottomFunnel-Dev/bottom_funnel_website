@@ -13,15 +13,18 @@ export default function Solutionsection() {
         <div className='solright'>
             <div className='soltop'>
                 <div> 
-                <img className="szai"src="Images/education/ai.png" />
+                    <div className="szai">  <img src="Images/education/ai.png" /></div>
+             
                 <p>Ai</p>
             </div>
             <div>
-            <img className="szai" src="Images/education/ar.png" />
+                <div className="szai">  <img  src="Images/education/ar.png" /></div>
+           
                 <p>Ar/Vr</p>
             </div>
             <div>
-                <img className='szai' src="Images/education/dashboard.png"/>
+                <div className="szai">  <img src="Images/education/dashboard.png"/></div>
+               
                 <p>Dashboard</p>
             </div> 
             </div>
@@ -29,15 +32,18 @@ export default function Solutionsection() {
 
             <div className='solbotm'>
                 <div> 
-                <img className="szai"src="Images/education/cube.png" />
+                    <div className="szai"> <img src="Images/education/cube.png" /></div>
+                
                 <p>Intrective Graphics</p>
             </div>
             <div>
-            <img className="szai" src="Images/education/Elearning.png" />
+                <div className="szai"> <img  src="Images/education/Elearning.png" /></div>
+            
                 <p>E-learning</p>
             </div>
             <div>
-                <img className='szai' src=""/>
+                <div className="szai"> <img  src="Images/education/chats.png"/></div>
+                
                 <p> Chat support</p>
             </div> 
             </div>

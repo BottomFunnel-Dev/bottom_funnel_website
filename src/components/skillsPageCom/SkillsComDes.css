@@ -4,13 +4,13 @@
 
 .skills-des-main {
   width: 85%;
-  height: 160px;
+  height: 210px;
 
   margin: auto;
   margin-top: 0px;
 
   text-align: left;
-  padding: 10px 0;
+  padding: 20px 0;
 
   display: flex;
   justify-content: space-between;

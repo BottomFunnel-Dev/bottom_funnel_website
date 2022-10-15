@@ -1,22 +1,42 @@
+
+.szfeaturesection{
+    width: 100%;
+   text-align: center;  
+    
+}
 .featuremedia{
     width:90%;
     margin: auto;
     display: flex;
     /* background-color: aqua; */
-    height: 400px;
+    height: 260px;
 }
 
 .featurdocs{
     width: 30%;
     /* background-color: blue; */
     margin:10px;
-    height: 250px;
+    height: 200px;
     border-radius: 18px;
-    /* padding: 30px ; */
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+   
+    padding: 30px ;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.featurdocs>p{
+  padding: 15px;
 }
 .docimg{
-    padding: 20px;
+    /* background-color: blue; */
+    width: 55px;
+    height: 55px;
+     margin:auto;
+      
+}
+.docimg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+     
 }
 .szrquest{
     
@@ -24,7 +44,7 @@
     border-radius: 10px;
     font-size: 18px;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: -10%;
     background-color: #ef4c23;
     color: white;
     border: 1px solid white;

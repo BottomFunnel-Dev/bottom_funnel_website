@@ -8,6 +8,16 @@ import { SkillsComWhyBF } from "./SkillsComWhyBF";
 import { SkillsComBannerNav } from "./SkillsComBannerNav";
 
 import "./SkillsComPage.css";
+import StoriesSection from "../StoriesSection/StoriesSection";
+import { Industries } from "../industries/Industries";
+import OndemandSection from "../OnDemandSection/OndemandSection";
+import PortFolio from "../PortFolioSection/PortFolio";
+import PlanProject from "../PlanProject/PlanProject";
+import Revamping from "../revamping/Revamping";
+import { SeoblogSection } from "../SeoBlogs/Seoblogs";
+import { TextDropdown } from "../faqSection/Faqs";
+import ContectForm from "../ContectForm/ContectForm";
+import MainFooter from "../FooterSection/MainFooter";
 
 export const SkillsComPage = ({ allData }) => {
   const {
@@ -35,6 +45,18 @@ export const SkillsComPage = ({ allData }) => {
       {isWhyBF ? <SkillsComWhyBF data={WhyBFData} /> : null}
       {isBookCall ? <SkillsComBookCall data={BookCallData} /> : null}
       {isRemarkable ? <SkillsComRemarkable data={RemarkableData} /> : null}
+      <StoriesSection/>
+      <Industries/>
+      <OndemandSection/>
+      <PortFolio/>
+      <PlanProject/>
+      <SeoblogSection/>
+      <Revamping/>
+      <TextDropdown/>
+      <ContectForm/>
+      <MainFooter/>
+
+
     </div>
   );
 };

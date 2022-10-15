@@ -19,11 +19,16 @@ import HeroSection from "../../mainSection/HeroSection";
 import PortFolio from "../../PortFolioSection/PortFolio";
 import PortSection from "../../PortFolioSection/PortSection";
 
+import VerticalCarousel from "../../Carousel/IndustriesCarousel";
+import VerticalSilder from "../../Carousel/VerticalSilder";
 const Home = () => {
   return (
     <div>
       <Banner />
       {/* <HeroSection /> */}
+      {/* <VerticalCarousel /> */}
+      {/* <VerticalSilder/> */}
+
       <CompanyLogo />
       <About />
       <Services />

@@ -23,10 +23,11 @@
   margin: auto;
   color: white;
   background-color: #ef4c23;
-  border: 2px solid #ef4c23;
+  /* border: 2px solid #ef4c23; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .startWith > button:hover {
-  border: 2px solid #ef4c23;
+  /* border: 2px solid #ef4c23; */
 
   background-color: white;
   color: #ef4c23;
