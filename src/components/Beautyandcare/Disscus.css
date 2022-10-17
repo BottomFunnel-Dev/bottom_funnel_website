@@ -1,28 +1,28 @@
-.discuss-section{
-    background-color: #fcdbd3;
-    padding:  20px ;
-    height:160px;
-    width: 90%;
-    margin: auto;
-    border-radius:15px;
-    text-align: center;
-    /* justify-content: center; */
+.discuss-section {
+  background-color: #fcdbd3;
+  padding: 60px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
-.btn2{
-    /* padding: 15px 90px;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius:30px;
-    border: none;
-    background-color: orangered;
-    color: white; */
-    padding: 10px 30px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 20px;
-    background-color: #ef4c23;
-    color: white;
-    border: 1px solid white;
-    margin-bottom: 20px;
+.discuss-section > button {
+  padding: 10px 60px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.discuss-section > button:hover {
+  padding: 10px 60px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #ef4c23;
+  background-color: white;
 }

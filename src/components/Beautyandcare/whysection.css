@@ -1,33 +1,32 @@
-.why{
-    background-color: #fcdbd3;
-    height: 580px;
-    width: 100%;
-   
+.why {
+  background-color: #fcdbd3;
+  width: 100%;
+  padding: 40px 0;
 }
-.why>h1{
-    padding: 20px;
-    text-align: center;
+.why > h1 {
+  text-align: center;
+  margin-bottom: 35px;
 }
-.chose{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    transition: transform .2s;
-    margin-top: -2%;
-    width: 90%;
-    margin: auto;
+.chose {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 2%;
+  row-gap: 25px;
+  transition: transform 0.2s;
+  width: 100%;
+  margin: auto;
 }
-.chose>div{
-    width:20%;
-    background-color: white;
-    height: 150px;
-    margin: 25px 40px;
-    padding: 20px 10px;
-    border-radius: 10px;
+.chose > div {
+  width: 18%;
+  background-color: white;
+  height: 180px;
+  padding: 10px;
+  border-radius: 10px;
 }
-.chose>div>h1{
-    font-size:22px ;
+.chose > div > h1 {
+  font-size: 22px;
 }
-.chose>div:hover{
-    transform: scale(1.1);
+.chose > div:hover {
+  transform: scale(1.1);
 }

@@ -22,37 +22,30 @@
 }
 
 .food-delivery-banner-content > div > h1 {
-  font-size: 35px;
-  font-weight: 600;
-  margin: 0px;
+  font-size: 32px;
 }
 
 .food-delivery-banner-content > div > p {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 5px;
 }
 
 .food-delivery-banner-content > div > button {
   font-size: 18px;
-  padding: 10px 30px;
-  border-radius: 20px;
+  padding: 10px 60px;
+  border-radius: 25px;
   outline: none;
+  font-weight: 600;
   border: none;
   color: white;
   background-color: #ef4c23;
   align-self: flex-start;
-
-  cursor: pointer;
-
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .food-delivery-banner-content > div > button:hover {
   background-color: white;
   color: #ef4c23;
-  font-weight: bolder;
-  box-shadow: none;
 }
 
 .food-delivery-banner-image {

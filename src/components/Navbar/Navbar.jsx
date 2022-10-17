@@ -487,13 +487,13 @@ const backend = [
   },
   {
     dropContent: "CakePHP",
-    navIcons: "Images/navbar/skills/flask.png",
+    navIcons: "Images/navbar/skills/cakephp.png",
     path: "cakephp",
   },
 
   {
     dropContent: "CodeIgniter",
-    navIcons: "Images/navbar/skills/golangimage.png",
+    navIcons: "Images/navbar/skills/codeigniter.png",
     path: "codeigniter",
   },
   

@@ -1,12 +1,53 @@
 import React from 'react'
 import "./whychoose.css"
 export default function Whychoose() {
+       
+  const whychoose=[
+    {
+      img:"Images/education/security.png",
+      p:"Data Security"
+    },
+    { 
+      img:"Images/education/customer.png",
+      p:"Customer Service"
+
+    },
+    { 
+      img:"Images/education/Performence.png",
+      p:"Performance Analysis"
+
+    },
+    { 
+      img:"Images/education/arrow.png ",
+      p:"Flexibility"
+
+    },
+    {
+      img:"Images/education/teaching.png",
+      p:"Interactiveness"
+    }
+
+  ]
   return (
     <div className='szwhychoose'> 
           <h1>Why choose us</h1>
           <p className='szwhypara'> </p>
         <div className='szchoose'>
-            <div>
+
+       
+           {
+              whychoose.map((item) => {
+                return (
+                    <div  >
+                        <div className='szanalysis' ><img src={item.img}/>  </div>
+                        <p>{item.p}</p> 
+                        </div>
+                )
+             })
+           }
+    
+     
+            {/* <div>
               <div className="szanalysis" >   <img  src="Images/education/security.png" /></div>
               
                     <p>Data Security</p>
@@ -31,7 +72,7 @@ export default function Whychoose() {
               
                  <p>Interactiveness</p>
             </div>
-             
+              */}
         </div>
     </div>
   )

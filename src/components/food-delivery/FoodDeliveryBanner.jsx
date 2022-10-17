@@ -6,7 +6,7 @@ export const FoodDeliveryBanner = () => {
     <div className="food-delivery-banner-main">
       <div className="food-delivery-banner-content">
         <div>
-          <h1>FOOD DELIVERY APP SOLUTIONS</h1>
+          <h1>Food Delivery App Solutions</h1>
           <p>
             Spice up the competition in the industry with your own food delivery
             app!

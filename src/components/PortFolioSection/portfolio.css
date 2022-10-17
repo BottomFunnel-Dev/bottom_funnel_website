@@ -66,7 +66,7 @@ text-align: center;
 }
 .activeMainSlide div:nth-child(2) {
   right: 27%;
-  transition: 5s;
+  transition: 3s;
   height: 74%;
   top: 49.5%;
 }

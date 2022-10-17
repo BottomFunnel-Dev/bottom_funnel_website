@@ -62,7 +62,7 @@ export default function Brand() {
   ];
 
   return (
-    <div className="ondemandHomeServices">
+    <div className="szondemandHomeServices">
       <h1>Brand</h1>
     <div>
       <Slider {...settings}>

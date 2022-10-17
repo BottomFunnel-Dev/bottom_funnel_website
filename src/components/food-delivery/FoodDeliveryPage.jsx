@@ -22,10 +22,10 @@ export const FoodDelivery = () => {
   return (
     <div>
       {<FoodDeliveryBanner />}
-      <div className="food-delivery-content">
+      {/* <div className="food-delivery-content"> */}
         {<FoodDeliveryBookCall />}
         {<FoodDeliveryExluciveApp />}
-      </div>
+     
 
       {<FoodDeliveryAdvanceTech />}
       {<FoodDeliveryAdminPanel />}
@@ -41,7 +41,6 @@ export const FoodDelivery = () => {
       <TextDropdown/>
       <ContectForm/>
       <MainFooter/>
-      
     </div>
   );
 };

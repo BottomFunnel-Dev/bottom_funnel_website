@@ -6,6 +6,8 @@
 
 .food-delivery-need-success-main > h1 {
   font-size: 32px;
+  text-align: center;
+  padding: 15px;
 }
 
 .food-delivery-need-success-main > div {

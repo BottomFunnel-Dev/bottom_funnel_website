@@ -2,6 +2,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 20px;
+    height: 350px;
     text-align: center;
     background: #fcdbd3;
     /* background: linear-gradient(45deg, #d7b5ac, #efb8b8ba); */
@@ -27,6 +28,7 @@
     padding: 10px 25px;
     border-radius: 30px;
     /* border: none; */
+    margin-top: 50px;
     border:none;
     font-weight: 500;
     color: white;

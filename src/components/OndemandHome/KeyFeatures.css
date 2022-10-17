@@ -222,15 +222,15 @@
   object-fit: contain;
 }
 
-.featureText > div > h1 {
+.featureText > div > h2 {
   color: #ef4c23;
 }
-.admintext > div > h1 {
+.admintext > div > h2 {
   color: #ef4c23;
 }
-.serviceapptext> div > h1 {
+.serviceapptext> div > h2 {
   color: #ef4c23;
 }
-.serviceprovidertext> div > h1 {
+.serviceprovidertext> div > h2 {
   color: #ef4c23;
 }

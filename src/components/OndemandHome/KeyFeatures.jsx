@@ -16,7 +16,7 @@ const KeyFeatures = () => {
         </div>
         <div className="featureText">
           <div>
-            <h1>Customer App</h1>
+            <h2>Customer App</h2>
             <p>
               Improve customer service with a customer app and website that
               provides services they can easily avail at the comfort of their
@@ -31,7 +31,7 @@ const KeyFeatures = () => {
       <div className="adminpanel">
         <div className="admintext">
           <div>
-            <h1>Admin panel</h1>
+            <h2>Admin panel</h2>
             <p>
               We built this easy-to-use admin panel so that you can manage
               everything related to your business in one place. A single
@@ -65,7 +65,7 @@ const KeyFeatures = () => {
         </div>
         <div className="serviceapptext">
           <div>
-            <h1>Customer App</h1>
+            <h2>Customer App</h2>
             <p>
               Improve customer service with a customer app and website that
               provides services they can easily avail at the comfort of their
@@ -80,7 +80,7 @@ const KeyFeatures = () => {
       <div className="serviceproviderpanel">
         <div className="serviceprovidertext">
           <div>
-            <h1>Service provider panel</h1>
+            <h2>Service provider panel</h2>
             <p>
               With the help of a powerful service provider panel, you can handle
               various types of bookings, and offer discounts, rewards etc. Add

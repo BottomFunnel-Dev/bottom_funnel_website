@@ -1,17 +1,16 @@
-.szbrand{
-    width: 100%;
-    text-align: center;
-    /* background-color: blue; */
-    height: 350px;
-  
+.szbrand {
+  width: 100%;
+  text-align: center;
+  /* background-color: blue; */
+  height: 350px;
 }
 
-.szbrandsub{
-     width: 90%; 
-     margin: auto;
-   /* background-color: brown; */
-   height: 270px;
-   display: flex;
+.szbrandsub {
+  width: 90%;
+  margin: auto;
+  /* background-color: brown; */
+  height: 270px;
+  display: flex;
 }
 /* .szbrandflex{
     display: flex;
@@ -19,68 +18,65 @@
     background-color: black;
     height: 200px;
 } */
-.szbrandflexdiv{
-     margin: 30px;
-     width: 15%;
-     height: 200px;
-     border-radius: 10px;
-     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-     background-color: white;
-
+.szbrandflexdiv {
+  margin: 30px;
+  width: 15%;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  background-color: white;
 }
-
-
-
-
-
 
 /* 
 
 
 //////////////////////ondemandslider//////////////// */
 
-.ondemandHomeServices {
-    width: 100%;
-    height: 440px;
-    /* background-color: red; */
-    position: relative;
-  }
-  .ondemandHomeServices>h1{
-    text-align: center;
-  }
-  .ondemandHomeServices > div {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 400px;
-    /* background-color: green; */
-  }
-  
-  .homeServices {
-    width: 300px;
-    /* background-color: gray; */
-    height: 100%;
-    padding: 20px;
-  }
-  .homeServices > div {
-    width: 100%;
-    border-radius: 10px;
-    height: 100%;
-    padding: 15px;
-    /* background-color: green; */
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  }
-  .homeServices > div >img{
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-  }
-  .homeServices > div >h5{
-   margin-top: 5px;
-  }
-  .homeServices > div >h5{
-   margin-top: 5px;
-  }
-  
+.szondemandHomeServices {
+  width: 100%;
+  height: 480px;
+  /* background-color: red; */
+  position: relative;
+}
+.szondemandHomeServices > h1 {
+  text-align: center;
+  /* padding: 10px; */
+  margin: 10px;
+}
+.szondemandHomeServices > div {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  /* background-color: green; */
+}
+
+.homeServices {
+  width: 300px;
+  /* background-color: gray; */
+  height: 100%;
+  padding: 20px;
+}
+.homeServices > div {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  padding: 15px;
+  /* background-color: green; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.homeServices > div > img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+.homeServices > div > h5 {
+  margin-top: 5px;
+}
+.homeServices > div > h5 {
+  margin-top: 5px;
+}

@@ -121,7 +121,7 @@ const MainFooter = () => {
         </div>
       </div>
       <div className="leftFooter">
-        <p>Lorem ipsum dolor sit amet.</p>
+        {/* <p>Lorem ipsum dolor sit amet.</p> */}
         <div className="startWith">
           <h2>Start With Bottom Funnel Today</h2>
           <button>Plan Project</button>

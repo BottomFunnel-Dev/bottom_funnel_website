@@ -1,34 +1,69 @@
 .revamp {
   text-align: center;
-  color: white;
   padding: 20px;
-  background-color: #ef4c23;
+  height: 350px;
+  color: black;
+  background: #fcdbd3;
+  position: relative;
   /* background-color: #00800075; */
 }
 
-.revamp > button {
-  padding: 10px 60px;
-  margin-top: 45px;
-  font-size: 18px;
-  border-radius: 25px;
-  background-color: white;
-  color: #ef4c23;
-  border: 2px solid #ef4c23;
-  font-weight: 600;
-}
-.revamp > button:hover {
-  border: 2px solid white;
-  color: white;
-  background-color: #ef4c23;
-  border: 2px solid white;
+.textlayer {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
 }
 
-.navmotion{
+.revampback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.revampback > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 25%;
+}
+
+.revamp > h1 {
+  color: black;
+}
+.revamp >p {
+  color: black;
+}
+
+.revamp>div > button {
+  padding: 10px 60px;
+  margin-top: 45px;
+  /* margin-bottom: 10px; */
+  font-size: 18px;
+  border-radius: 25px;
+  color: white;
+  background: #ef4c23;
+  z-index: 1;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: 600;
+}
+
+.revamp>div > button:hover {
+  background-color: white;
+  color: #ef4c23;
+}
+
+.navmotion {
   width: 20%;
   height: 100px;
   margin: auto;
+  filter: invert(1);
 }
-.navmotion>img{
+.navmotion > img {
   width: 30%;
   height: 100%;
   object-fit: contain;
