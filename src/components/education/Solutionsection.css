@@ -4,8 +4,8 @@
     height: 550px;
     margin-top: 10px;
 }
-.sol{
-    width: 90%;
+.sze-learning{
+    width: 100%;
     display: flex;
   
     margin: auto;
@@ -13,13 +13,23 @@
     height: 550px;
 }
 .solleft{
- width: 50%;
+   width: 50%;
     /* background-color: blueviolet; */
     margin: 20px;
     text-align:  left;
-     padding: 50px;
+     padding: 40px;
      height: 400px;
+     position: relative;
 }
+.solutionpara{
+ width: 80%;
+ 
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left:50%;
+}
+
 .solright{
     width: 50%;
     margin: 20px;

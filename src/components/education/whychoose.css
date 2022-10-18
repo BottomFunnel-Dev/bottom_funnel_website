@@ -2,7 +2,7 @@
     width: 100%;
     /* background-color: blueviolet; */
     text-align: center;
-    height: 500px;
+    height: 300px;
 }
 .szchoose{
     width: 90%;
@@ -16,7 +16,7 @@
 }
  
 .szchoose>div{
-width: 30%;
+width:18%;
 background-color: white;
  margin-top: 40px;
  margin-left: 20px;

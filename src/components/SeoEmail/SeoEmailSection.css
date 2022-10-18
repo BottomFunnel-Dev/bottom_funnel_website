@@ -9,18 +9,17 @@
   position: relative;
 }
 
-.EmailgifDenote{
-  width: 230px;
+.emailgifDenote {
+  width: 340px;
   height: 400px;
   position: absolute;
-  top: 19%;
-  right: 33%;
+  top: 38%;
+  right: 28%;
 }
-.EmailgifDenote>img{
-  width: 256%;
-  height: 210%;
+.emailgifDenote > img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  
 }
 
 ._SeoEmailupperdiv {

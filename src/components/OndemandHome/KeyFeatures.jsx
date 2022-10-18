@@ -65,13 +65,14 @@ const KeyFeatures = () => {
         </div>
         <div className="serviceapptext">
           <div>
-            <h2>Customer App</h2>
+            <h2>Service professional’s app</h2>
             <p>
-              Improve customer service with a customer app and website that
-              provides services they can easily avail at the comfort of their
-              home go and can be easily accessed through both android/iOS, where
-              they can make an appointment, track their service pro and manage
-              or reschedule bookings with one convenient app.
+              With service professional’s app, you can coordinate with your
+              professionals on daily basis. You can also book, reschedule and
+              cancel appointments right through the app. With advanced features,
+              customized for your home-based clients like location tracking and
+              live chat, this app is suited to help you organize your time
+              efficiently while giving utmost satisfaction to your customers.
             </p>
           </div>
         </div>

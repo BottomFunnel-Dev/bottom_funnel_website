@@ -7,6 +7,23 @@
   background-position: bottom;
   background-origin: border-box;
 }
+
+.semgifDenote{
+  width: 325px;
+  height: 430px;
+  position: absolute;
+  top: 35%;
+  right: 30%;
+}
+.semgifDenote>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+
+
 ._SeoSEMupperdiv {
   display: flex;
   /* border: 1px solid green; */

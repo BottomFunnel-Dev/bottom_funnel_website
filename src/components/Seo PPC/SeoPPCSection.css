@@ -10,15 +10,15 @@
 }
 
 .ppcgifDenote{
-  width: 230px;
-  height: 400px;
+  width: 325px;
+  height: 430px;
   position: absolute;
-  top: 19%;
-  right: 33%;
+  top: 25%;
+  right: 28%;
 }
 .ppcgifDenote>img{
-  width: 256%;
-  height: 210%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   
 }

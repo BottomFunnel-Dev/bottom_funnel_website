@@ -9,20 +9,17 @@
   position: relative;
 }
 
-
-
-.gifDenote{
-  width: 230px;
+.linkgifDenote {
+  width: 340px;
   height: 400px;
   position: absolute;
-  top: 43%;
-  right: 34%;
+  top: 39%;
+  right: 29%;
 }
-.gifDenote>img{
+.linkgifDenote > img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  
+  object-fit: cover;
 }
 ._SeoLinkupperdiv {
   display: flex;
@@ -82,7 +79,7 @@ font-size: 25px;
   font-size: 25px;
   text-align: center;
   font-weight: 600;
-  color:#605d5d ;
+  color: #605d5d;
 }
 
 ._SeoLinkRatings {
@@ -168,5 +165,4 @@ label ~ select {
   color: #ef4c23;
   transition: 0.2s linear;
   border: 2px solid #ef4c23;
-
 }

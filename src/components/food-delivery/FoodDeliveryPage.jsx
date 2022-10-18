@@ -23,24 +23,23 @@ export const FoodDelivery = () => {
     <div>
       {<FoodDeliveryBanner />}
       {/* <div className="food-delivery-content"> */}
-        {<FoodDeliveryBookCall />}
-        {<FoodDeliveryExluciveApp />}
-     
+      {<FoodDeliveryBookCall />}
+      {<FoodDeliveryExluciveApp />}
 
       {<FoodDeliveryAdvanceTech />}
       {<FoodDeliveryAdminPanel />}
       {<FoodDeliveryPartnerApp />}
       {<FoodDeliveryNeedSuccess />}
-      <PortFolio/>
-      <StoriesSection/>
-      <Industries/>
-      <OndemandSection/>
-      <PlanProject/>
-      <Revamping/>
-      <SeoblogSection/>
-      <TextDropdown/>
-      <ContectForm/>
-      <MainFooter/>
+      <PortFolio />
+      <StoriesSection />
+      <Industries />
+      <PlanProject />
+      <OndemandSection />
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
     </div>
   );
 };

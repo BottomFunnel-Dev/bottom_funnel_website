@@ -185,11 +185,6 @@ const digitalmarket = [
     path: "seo-sem",
   },
   {
-    dropContent: "SMM Services",
-    navIcons: "Images/navbar/services/smm.png",
-    path: "seo-sem",
-  },
-  {
     dropContent: "PPC Management Services",
     navIcons: "Images/navbar/services/ppc.png",
     path: "seo-ppc",
@@ -463,7 +458,11 @@ const backend = [
     navIcons: "Images/navbar/skills/nodejs.png",
     path: "nodejs",
   },
-  { dropContent: ".NET", navIcons: "Images/navbar/skills/-net.png", path: "dotnet" },
+  {
+    dropContent: ".NET",
+    navIcons: "Images/navbar/skills/-net.png",
+    path: "dotnet",
+  },
   { dropContent: "PHP", navIcons: "Images/navbar/skills/php.png", path: "php" },
   {
     dropContent: "Laravel",
@@ -496,7 +495,41 @@ const backend = [
     navIcons: "Images/navbar/skills/codeigniter.png",
     path: "codeigniter",
   },
-  
+  {
+    dropContent: "Flask",
+    navIcons: "Images/navbar/skills/flask.png",
+    path: "codeigniter",
+  },
+  {
+    dropContent: "Golang",
+    navIcons: "Images/navbar/skills/golang.png",
+    path: "codeigniter",
+  },
+  {
+    dropContent: "Struts",
+    navIcons: "Images/navbar/skills/struts.png",
+    path: "codeigniter",
+  },
+  {
+    dropContent: "Symfony",
+    navIcons: "Images/navbar/skills/symfony.png",
+    path: "codeigniter",
+  },
+  {
+    dropContent: "Phalcon",
+    navIcons: "Images/navbar/skills/phalcon.png",
+    path: "codeigniter",
+  },
+  {
+    dropContent: "JSF",
+    navIcons: "Images/navbar/skills/jsf.png",
+    path: "codeigniter",
+  },
+  {
+    dropContent: "Grails",
+    navIcons: "Images/navbar/skills/grails.png",
+    path: "codeigniter",
+  },
 ];
 const frontend = [
   {
@@ -631,6 +664,43 @@ const database = [
   {
     dropContent: "Cassandra",
     navIcons: "Images/navbar/skills/cassandra.png",
+    path: "",
+  },
+];
+const cms = [
+  {
+    dropContent: "Wordpress",
+    navIcons: "Images/navbar/skills/wordpress.png",
+    path: "",
+  },
+  {
+    dropContent: "Hubspot CMS Hub",
+    navIcons: "Images/navbar/skills/hubspot.png",
+    path: "",
+  },
+  {
+    dropContent: "Joomla",
+    navIcons: "Images/navbar/skills/joomla.png",
+    path: "",
+  },
+  {
+    dropContent: "WooCommerce",
+    navIcons: "Images/navbar/skills/woo.png",
+    path: "",
+  },
+  {
+    dropContent: "Drupal",
+    navIcons: "Images/navbar/skills/drupal.png",
+    path: "",
+  },
+  {
+    dropContent: "Wix",
+    navIcons: "Images/navbar/skills/wix.png",
+    path: "",
+  },
+  {
+    dropContent: "Big Commerce",
+    navIcons: "Images/navbar/skills/bigcommerce.png",
     path: "",
   },
 ];
@@ -796,8 +866,12 @@ const Navbar = () => {
                 <div className="listItems">
                   {company.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={homeHoverOut}
@@ -817,8 +891,12 @@ const Navbar = () => {
                 <div className="listItems">
                   {whyBottom.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={homeHoverOut}
@@ -838,8 +916,12 @@ const Navbar = () => {
                 <div className="listItems">
                   {process.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={homeHoverOut}
@@ -875,8 +957,12 @@ const Navbar = () => {
                 <div className="listItems">
                   {webservice.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={solHoverOut}
@@ -896,8 +982,12 @@ const Navbar = () => {
                 <div className="listItems">
                   {appservice.map((item, j) => (
                     <div className="imageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={solHoverOut}
@@ -922,8 +1012,12 @@ const Navbar = () => {
                     //   className="servicesP"
                     // >
                     <div key={l} className="imageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={solHoverOut}
@@ -944,8 +1038,12 @@ const Navbar = () => {
                 <div className="trendListItems">
                   {trendingTech.map((item, m) => (
                     <div className="trendImageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={solHoverOut}
@@ -981,8 +1079,12 @@ const Navbar = () => {
                 <div className="industryListItems">
                   {industries.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={serHoverOut}
@@ -1002,8 +1104,12 @@ const Navbar = () => {
                 <div className="industryListItems">
                   {ondemand.map((item, i) => (
                     <div className="imageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={serHoverOut}
@@ -1032,15 +1138,19 @@ const Navbar = () => {
             style={style}
           >
             <div className="dropdownSection">
-              <div className="serviceDropdownContent">
+              <div className="backendDropdownContent">
                 <Link className="noStyle">
                   <h5>Backend</h5>
                 </Link>
-                <div className="listItems">
+                <div className="backendlistItems">
                   {backend.map((item, i) => (
-                    <div className="imageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                    <div className="backendimageIconDivSection">
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={skillHoverOut}
@@ -1053,15 +1163,19 @@ const Navbar = () => {
                   ))}
                 </div>
               </div>
-              <div className="serviceDropdownContent">
+              <div className="skillDropdownContent">
                 <Link className="noStyle">
                   <h5>Frontend</h5>
                 </Link>
                 <div className="listItems">
                   {frontend.map((item, j) => (
                     <div className="imageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={skillHoverOut}
@@ -1074,15 +1188,20 @@ const Navbar = () => {
                   ))}
                 </div>
               </div>
-              <div className="serviceDropdownContent">
+
+              <div className="skillDropdownContent">
                 <Link className="noStyle">
                   <h5>Mobile</h5>
                 </Link>
                 <div className="listItems">
                   {mobile.map((item, j) => (
                     <div className="imageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={skillHoverOut}
@@ -1095,15 +1214,44 @@ const Navbar = () => {
                   ))}
                 </div>
               </div>
-              <div className="serviceDropdownContent">
+              <div className="skillDropdownContent">
                 <Link className="noStyle">
                   <h5>DataBase</h5>
                 </Link>
                 <div className="listItems">
                   {database.map((item, j) => (
                     <div className="imageIconDivSection">
-                      <div >
-                        <img className="iconDivSection" src={item.navIcons} alt="" />
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
+                      </div>
+                      <Link
+                        onClick={skillHoverOut}
+                        to={item.path}
+                        className="linkP"
+                      >
+                        <p>{item.dropContent}</p>
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="skillDropdownContent">
+                <Link className="noStyle">
+                  <h5>CMS Frameworks</h5>
+                </Link>
+                <div className="listItems">
+                  {cms.map((item, j) => (
+                    <div className="imageIconDivSection">
+                      <div>
+                        <img
+                          className="iconDivSection"
+                          src={item.navIcons}
+                          alt=""
+                        />
                       </div>
                       <Link
                         onClick={skillHoverOut}

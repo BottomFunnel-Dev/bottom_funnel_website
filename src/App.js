@@ -14,7 +14,6 @@ import { Ionic } from "./components/Ionic/Ionic";
 import { Iphonepage } from "./components/Iphonedevelopmentpage/Iphonepage";
 import { Reactnative } from "./components/Reactnative/Reactnative";
 import { AndroidDevelopmentPage } from "./components/AndroidDevelopmentPage/AndroidDevelopmentPage";
-import OndemandHome from "./components/Pages/SolutionPages/OndemandHome";
 import { NodejsPage } from "./components/Nodejs/nodejs";
 import MainFooter from "./components/FooterSection/MainFooter";
 import { SeoDm } from "./components/SeoDigitalmarketing/SeoDm";
@@ -28,6 +27,7 @@ import Beautysection from "./components/Beautyandcare/Beautysection";
 import { cakePHPData, codeigniterData, djangoData, DotnetData, laravelData, nodejsData, phpData } from "./Data/SkillsData";
 import { SkillsComPage } from "./components/skillsPageCom/SkillsComPage";
 import Educationpage from "./components/education/Educationpage";
+import OndemandHome from "./components/OndemandHome/OndemandHome";
 
 function App() {
   return (
@@ -46,7 +46,7 @@ function App() {
         <Route path="/ios" element={<Iphonepage />} />
         <Route path="/reactNative" element={<Reactnative />} />
         <Route path="/android" element={<AndroidDevelopmentPage />} />
-        <Route path="/ondemandHomeServices" element={<OndemandHome />} />
+        <Route path="/ondemandHomeServices" element={<OndemandHome/>} />
         <Route path="/nodejs" element={<SkillsComPage allData={nodejsData}/>} />
         <Route path="/php" element={<SkillsComPage allData={phpData}/>} />
         <Route path="/dotnet" element={<SkillsComPage allData={DotnetData}/>} />

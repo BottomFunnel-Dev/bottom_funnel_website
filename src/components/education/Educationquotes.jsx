@@ -7,13 +7,16 @@ export default function Educationquotes() {
 
         <div className='szproduct'>
         <div className='szproductleft'>
+           <h1>Student Application</h1>
+           <p> Enhance your students’ learning journey with an easy-to-understand education app.</p>
             <div className='quotesflex'>
+              
               <div className='quotescircle'>
                <div  className="correct"><img src="Images/education/correct.png"/> </div> 
                 
                  
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.   </p>
+              <p>Recorded/Live lectures and study notes </p>
             </div>
 
             {/* ///////////2//////// */}
@@ -22,7 +25,7 @@ export default function Educationquotes() {
                  <div   className="correct"><img src="Images/education/correct.png"/></div> 
                  
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.   </p>
+              <p>Track course progress</p>
             </div>
 
             {/* /////////////3///////////// */}
@@ -31,7 +34,7 @@ export default function Educationquotes() {
                  <div  className="correct"><img src="Images/education/correct.png"/></div> 
                  
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.   </p>
+              <p>Doubt discussion platform </p>
             </div>
             
         </div>
@@ -57,13 +60,15 @@ export default function Educationquotes() {
              <div className="szteblateadmin"> <img src='Images/education/teblateadmin.png' /></div>    
         </div>
           <div className='szproductleft'>
+            <h1>Tutor dashboard</h1>
+            <p>Provide your tutor the ease to manage tutoring, connect with students, see their progress,etc. in one screen.</p>
             <div className='quotesflex'>
               <div className='quotescircle'>
                <div  className="correct"><img src="Images/education/correct.png"/> </div> 
                 
                  
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.   </p>
+              <p>Manage students’ attendance and progress </p>
             </div>
 
             {/* ///////////2//////// */}
@@ -72,7 +77,7 @@ export default function Educationquotes() {
                  <div   className="correct"><img src="Images/education/correct.png"/></div> 
                  
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.   </p>
+              <p> Interact with students </p>
             </div>
 
             {/* /////////////3///////////// */}
@@ -81,7 +86,7 @@ export default function Educationquotes() {
                  <div  className="correct"><img src="Images/education/correct.png"/></div> 
                  
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.   </p>
+              <p>Studying platform for revising before tutoring </p>
             </div>
             
         </div>
@@ -89,13 +94,15 @@ export default function Educationquotes() {
         {/* ////////mobile/////// */}
          <div  className='szproduct'>
          <div className='szproductleft'>
+          <h1>Admin panel</h1>
+          <p>Manage all the activities of business from students to tutors to finance at one platform.</p>
             <div className='quotesflex'>
               <div className='quotescircle'>
                <div  className="correct"><img src="Images/education/correct.png"/> </div> 
                 
                  
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.   </p>
+              <p> Supervise all students and tutors </p>
             </div>
 
             {/* ///////////2//////// */}
@@ -104,7 +111,7 @@ export default function Educationquotes() {
                  <div   className="correct"><img src="Images/education/correct.png"/></div> 
                  
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.   </p>
+              <p>Manage payments</p>
             </div>
 
             {/* /////////////3///////////// */}
@@ -113,7 +120,7 @@ export default function Educationquotes() {
                  <div  className="correct"><img src="Images/education/correct.png"/></div> 
                  
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.   </p>
+              <p>Auto-generated analytical graphs</p>
             </div>
             
         </div>

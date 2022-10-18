@@ -9,7 +9,7 @@ export default function Featuresection() {
            p:" Social media Integration"
         },
         {
-            img:"Images/education/Document.png",
+            img:"Images/education/documentation.png",
             p:"Documents sharing"
          },
          {
@@ -22,7 +22,7 @@ export default function Featuresection() {
          },
          {
             img:"Images/education/parentelcontrol.png",
-            p:" Parentel control"
+            p:" Parental control"
          },
          {
             img:"Images/education/livestreaming.png",
@@ -50,7 +50,7 @@ export default function Featuresection() {
     
     </div>
 
-        <button className='szrquest'>Rrequest a Quote</button>
+        <button className='szrquest'>Request a Quote</button>
     </div>
   )
 }

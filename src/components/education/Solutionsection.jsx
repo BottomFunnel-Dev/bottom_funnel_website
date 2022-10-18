@@ -5,22 +5,25 @@ export default function Solutionsection() {
   return (
     <div className='szsolution'>
        
-       <div className='sol'>
+       <div className='sze-learning'>
         <div className='solleft'>
-            <h1>Solution</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet modi neque nesciunt non excepturi temporibus delectus illo! Nostrum iure quae provident temporibus aliquam, sapiente exercitationem laudantium, minus assumenda atque nihil.</p>
+            <div className='solutionpara'> 
+            <h1>E-learning solutions</h1>
+            <p>Make online tutoring more engaging, interactive and fun for your students with our cuttingedge e-learning solutions. We have a wide range of education app development solutions
+that can be used for tutorials, lectures, discussions and more.</p>
         </div>
+      </div>
         <div className='solright'>
             <div className='soltop'>
                 <div> 
                     <div className="szai">  <img src="Images/education/ai.png" /></div>
              
-                <p>Ai</p>
+                <p>AI</p>
             </div>
             <div>
                 <div className="szai">  <img  src="Images/education/ar.png" /></div>
            
-                <p>Ar/Vr</p>
+                <p>AR/VR</p>
             </div>
             <div>
                 <div className="szai">  <img src="Images/education/dashboard.png"/></div>
@@ -34,7 +37,7 @@ export default function Solutionsection() {
                 <div> 
                     <div className="szai"> <img src="Images/education/cube.png" /></div>
                 
-                <p>Intrective Graphics</p>
+                <p>Interactive Graphics</p>
             </div>
             <div>
                 <div className="szai"> <img  src="Images/education/Elearning.png" /></div>

@@ -5,9 +5,9 @@ export default function SeoEmailSection(){
 
     return (
         <div className="_SeoEmailMain1">
-             {/* <div className="EmailgifDenote">
-                <img src="Images/seopages/seogif.gif" alt="" />
-            </div> */}
+             <div className="emailgifDenote">
+                <img src="Images/seopages/vec-7.gif" alt="" />
+            </div>
             <div className="_SeoEmailupperdiv">
                 <div className="_SeoEmailtext" >
                     <div className="_SeoEmailheading">Email Management Services</div>

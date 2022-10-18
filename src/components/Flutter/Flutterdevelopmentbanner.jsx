@@ -5,7 +5,7 @@ export const Flutterdevelopmentbanner = () => {
     <div className="_Flutterbanner">
       <div className="flutterText">
         <div>
-          <h1>IOS App Developement Company</h1>
+          <h1>Flutter App Developement Company</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam,
             aliquid explicabo eaque ullam, inventore impedit iste nemo, delectus

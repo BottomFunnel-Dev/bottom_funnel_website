@@ -30,10 +30,10 @@ export const Flutter = () => {
       <PortFolio/>
       <StoriesSection/>
       <Industries/>
-      <OndemandSection/>
       <PlanProject/>
-      <Revamping/>
+      <OndemandSection/>
       <SeoblogSection/>
+      <Revamping/>
       <TextDropdown/>
       <ContectForm/>
       <MainFooter/>
