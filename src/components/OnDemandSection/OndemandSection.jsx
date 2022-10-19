@@ -50,7 +50,7 @@ const OndemandSection = () => {
       logoImgageOrange: "Images/ondemand/beautyOrange.png",
       logoImgageWhite: "Images/ondemand/beautyWhite.png",
       description:
-        "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
+        "With our on-demand beauty and salon app development services, you’ll get your own beautiful and user-friendly app for your clients.",
       actionArrow: <BsArrowRight />,
     },
     {
@@ -59,7 +59,7 @@ const OndemandSection = () => {
       logoImgageOrange: "Images/ondemand/marketOrange.png",
       logoImgageWhite: "Images/ondemand/marketWhite.png",
       description:
-        "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
+        "Create various types of marketplace platforms like B2B and multi-vendor with our on-demand marketplace app development solutions.",
       actionArrow: <BsArrowRight />,
     },
     {
@@ -68,7 +68,7 @@ const OndemandSection = () => {
       logoImgageOrange: "Images/ondemand/cannabisOrange.png",
       logoImgageWhite: "Images/ondemand/cannabisWhite.png",
       description:
-        "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
+        "Let your users order Cannabis using a feature-rich mobile app and website with our on-demand cannabis delivery app development solutions. ",
       actionArrow: <BsArrowRight />,
     },
     {
@@ -77,7 +77,7 @@ const OndemandSection = () => {
       logoImgageOrange: "Images/ondemand/digitalOrange.png",
       logoImgageWhite: "Images/ondemand/digitalWhite.png",
       description:
-        "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
+        "Step-up your game, reach your target audience and maximise your ROI with our unique ondemand digital marketing solutions.",
       actionArrow: <BsArrowRight />,
     },
     {
@@ -86,16 +86,16 @@ const OndemandSection = () => {
       logoImgageOrange: "Images/ondemand/pharmacyorange.png",
       logoImgageWhite: "Images/ondemand/pharmacywhite.png",
       description:
-        "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
+        "Provide your customers hassle free experience of ordering medicines online with our ondemand pharmacy app development solutions.",
       actionArrow: <BsArrowRight />,
     },
-    { 
+    {
       solutionName: "Taxi Booking App",
       bg: "Images/ondemand/taxibooking.png",
       logoImgageOrange: "Images/ondemand/taxiorange.png",
       logoImgageWhite: "Images/ondemand/taxiwhite.png",
       description:
-        "Our mobility solutions allow mobile users to effectively develop, share or consume required information while on the move.",
+        "Level up your cab business with an easy to use and attractive taxi booking app through our ondemand taxi app development solutions.",
       actionArrow: <BsArrowRight />,
     },
   ];

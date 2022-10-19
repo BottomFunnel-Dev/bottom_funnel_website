@@ -31,8 +31,9 @@ const PortFolio = () => {
       leftimg: "Images/portfolio/yanbal2.png",
       rightImg: "Images/portfolio/yanbal1.png",
       title: "Yanbal",
-      tagline: "The Finest Beauty Products",
-      description: "",
+      tagline: "Global Cosmatic Brand",
+      description:
+        "Yanbal is a global skincare company. It is a global beauty company inspired by, and created for, women. It goods are sold on the internet and through independent style advisors. Yanbal empowers women through beauty and its business opportunity every day. It provides variety of cosmetics and skincare products for women. Yanbal's US operation sells nationwide and is headquartered in Miami, FL.",
       frontend: " React, jquery, Mordenizr",
       backend: " Java, ASP.NET,",
       database: " CloudFront",
@@ -41,8 +42,11 @@ const PortFolio = () => {
       leftimg: "Images/portfolio/bbgroup.png",
       rightImg: "Images/portfolio/blueberrygroup.png",
       title: "BlueBerry Group",
-      tagline: "Passion for Excellence ",
-      description: "",
+      tagline: "Global D2C Travel Company",
+      description: `The Blueberry Group has taken an innovative approach to service development in many industries and specialized services, establishing a reputation as a leading expert in Travel and Tour Services, ECommerce, Electronics, Home Appliances Division and as a Fashion Brand. Through its Travel and
+    Tourism division The Blueberry Group is setting new benchmarks in the sector while providing
+      savvy clients from more than 30 countries worldwide.
+      `,
       frontend: " React, jquery, Javascript",
       backend: " PHP, Ruby on Rails,",
       database: " CloudFare works",
@@ -51,8 +55,9 @@ const PortFolio = () => {
       leftimg: "Images/portfolio/blueberry2.png",
       rightImg: "Images/portfolio/blueberry1.png",
       title: "Blueberry Travels",
-      tagline: "Travel Website",
-      description: "",
+      tagline: "D2C Travel Website",
+      description:
+        "Blueberry Travel was the first company in the Blueberry Group which was started in 2013. It’s involved in simplifying Travel for everyone with a dedicated team, simplified services and easy customizations according to traveller’s need. It has become fastest growing company and is IATA certified in more than 17 countries. Blueberry Travel was ranked top in most of the Major Airlines in African Continent.",
       frontend: " Jquery, GSAP, Mordenizr",
       backend: " PHP, PHP7,",
       database: " Amazon Route 53",
@@ -62,8 +67,13 @@ const PortFolio = () => {
       leftimg: "Images/portfolio/jambo2.png",
       rightImg: "Images/portfolio/jambo1.png",
       title: "Jambo Shoppe",
-      tagline: "Online Shopping Brand",
-      description: "",
+      tagline: "Global E-commerce Shopping Brand",
+      description: `Jambo Shoppe is an e-commerce company in Kenya which houses everything you can possibly
+      imagine, from trending electronics like laptops, Tablets, smartphones, and accessories to in-vogue
+      fashion staples like shoes, clothing and lifestyle accessories; and wardrobes to appliances that make
+      your life easy like washing machines, TVs, ACs, blenders and other time-saving kitchen and small
+      appliances, they got everything everyone covered.
+      `,
       frontend: " Jquery,Bootstrap",
       backend: " Java",
       database: " CloudFront",
@@ -73,8 +83,12 @@ const PortFolio = () => {
       leftimg: "Images/portfolio/roshi.png",
       rightImg: "Images/portfolio/roshi1.png",
       title: "Roshi",
-      tagline: "Lorem ipsum dolor sit",
-      description: "",
+      tagline: "Global Herbal Products Brand",
+      description: `Roshi brings the sophistication of supply chain technologies designed for FDA regulated products to
+      cannabis. Purpose built for cannabis and hemp cultivators, manufacturers, processors and
+      distributors, Roshi’s mobile first SaaS platform actively manages inventory and optimizes business
+      operations while maintaining the highest levels of regulatory compliance.
+      `,
       frontend: " jquery, Bootstrap",
       backend: " ASP.NET MVC, ASP.NET,",
       database: " CloudFront",
@@ -83,8 +97,13 @@ const PortFolio = () => {
       leftimg: "Images/portfolio/nextholidays2.png",
       rightImg: "Images/portfolio/nextholidays1.png",
       title: "Next Holidays",
-      tagline: "Travel Website",
-      description: "",
+      tagline: "D2C travel Website",
+      description: `Based in the ancient land of India with its diverse cultures, the company has 14 years of experience
+      of travel and tourism. Their ambition is to contribute towards the growth of the Indian and world
+      travel community. They suggest suitable holiday destinations and packages customized according to
+      requirements. Travel needs are thoroughly met with polite and friendly, timely and efficient, services
+      to put smiles on a generation of tourists.
+      `,
       frontend: " Angular, jquery",
       backend: " ASP.NET, ASP.NET MVC",
       database: " Cloudflare.js, CDN.js",
@@ -94,7 +113,12 @@ const PortFolio = () => {
       rightImg: "Images/portfolio/oncart1.png",
       title: "On-cart",
       tagline: "Smart Shopping App",
-      description: "",
+      description: `On-cart is an e-commerce store that provides a wide array of products among electronics, apparels
+      and groceries, having years of experience working in the electronics and fashionwear industry. They
+      are a team of tireless creative explorers and strive to provide their clients with the best quality
+      products. They provide logistic support to their clients to ensure continuity of service and on time
+      delivery.
+      `,
       frontend: " Angular, jquery, Mordenizr",
       backend: " PHP, ASP.NET,",
       database: " CloudFront, AJAX Libraries API",
@@ -103,8 +127,11 @@ const PortFolio = () => {
       leftimg: "Images/portfolio/travelflap.png",
       rightImg: "Images/portfolio/travelflap1.png",
       title: "Travelflap",
-      tagline: "Fly With Us",
-      description: "",
+      tagline: "D2C Travel Company",
+      description: `Travel Flap is a New York -based privately owned leading tourism brand with over 15 years of
+      experience in the travel and hospitality domain. The company is driven by the vision to be the world's most recognized and trusted e-com tourism companies. Travel Flap is a premium-experience
+      travel website, which offers flights to over 3,000 destinations, hotel stays in over 85,000 properties
+      around the world, holiday experiences and much more. `,
       frontend: "React, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
@@ -114,7 +141,11 @@ const PortFolio = () => {
       rightImg: "Images/portfolio/mukunda1.png",
       title: "Mukunda",
       tagline: "Global Trading Company",
-      description: "",
+      description: `Mukunda General Trading is a well-established Company for all ICT Material, Hardware, Construction
+      materials, Plumbing Items, Electrical materials, Agricultural goods, Stationary as well as various other
+      goods, diversified in all sorts of goods. They are the subsidiary of Blueberry Holding Limited based in
+      Dubai, with experienced procurement team having turnover above 100 million dollars per annum.
+      `,
       frontend: "React, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
@@ -124,7 +155,22 @@ const PortFolio = () => {
       rightImg: "Images/portfolio/spj1.png",
       title: "SPJ Electronics",
       tagline: "Global Market Leader in Electrical Industry",
-      description: "",
+      description: `SPJ Electronic is a global market leader in the electrical industry. SPJ Electronics offers diverse
+      selection of consumer electrical solutions including Fans, Home appliances, Lighting and Switchgear.
+      They are the distributor of modern appliances that are available in the market. SPJ Electronic was
+      found in Madagascar initially and now it has presence in Zambia & Kenya and planning to open new
+      13 new store in East Africa market.`,
+      frontend: "React, Bootstrap,",
+      backend: "Node, Javascript",
+      database: "MongoDB",
+    },
+    {
+      leftimg: "Images/portfolio/amydus2.png",
+      rightImg: "Images/portfolio/amydus1.png",
+      title: "Amydus",
+      tagline: "Global E-commerce Website",
+      description:
+        "Amydus is a brand that caters to the very much needed demand of ready to wear plus size clothing online, which offers collection in both men's and women's wear. Online plus size clothing and plus size fashion makes a fresh start with Amydus and vice versa. Now you can not only find clothing in trend but also get them in your size",
       frontend: "React, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
@@ -146,15 +192,7 @@ const PortFolio = () => {
               <span className="portfolioText">
                 <h1>{item.title}</h1>
                 <h6>{item.tagline}</h6>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                  tempora sed veritatis, explicabo ducimus quos suscipit
-                  voluptatem odio tempore voluptas facere laborum minima quo?
-                  Dolorem veniam tenetur non harum quibusdam. Culpa nihil
-                  accusamus quaerat voluptatibus, iste consequuntur aut! Beatae
-                  quisquam obcaecati labore at deserunt fuga, nostrum atque
-                  temporibus rem quas.
-                </p>
+                <p>{item.description}</p>
 
                 <div className="weblinks">
                   <h5>Tech Stack</h5>

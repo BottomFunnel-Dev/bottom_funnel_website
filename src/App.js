@@ -29,6 +29,8 @@ import { SkillsComPage } from "./components/skillsPageCom/SkillsComPage";
 import Educationpage from "./components/education/Educationpage";
 import OndemandHome from "./components/OndemandHome/OndemandHome";
 import { Fitness } from "./components/Fitness/Fitness";
+import { GameDevelopmentPage } from "./components/Game-development/GameDevelopmentPage";
+import { EcommerceComPage } from "./components/EcommerceCom/EcommerceComPage";
 
 function App() {
   return (
@@ -78,6 +80,8 @@ function App() {
         <Route path="/food-delivery" element={<FoodDelivery />} />
         <Route path="/education" element={<Educationpage/>} />
         <Route path="/fitness" element={<Fitness/>} />
+        <Route path="/ecommerce" element={<EcommerceComPage/>} />
+        <Route path="/gameDevelopment" element={<GameDevelopmentPage/>} />
 
 
 

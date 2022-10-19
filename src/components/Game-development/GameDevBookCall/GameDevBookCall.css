@@ -1,0 +1,47 @@
+.GameDev-book-call-main {
+  background: linear-gradient(to Bottom, #090300, #160c01);
+
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.GameDev-book-call-main > div {
+  background-color: black;
+  color: white;
+
+  text-align: center;
+
+  padding: 40px 100px;
+  border-radius: 20px;
+}
+
+.GameDev-book-call-main > div > h1 {
+  font-size: 32px;
+}
+
+.GameDev-book-call-main > div > button {
+  font-size: 18px;
+  font-weight: bold;
+  color: #160c01;
+  background-color: #3db3a2;
+
+  border-radius: 100px;
+  padding: 10px 60px;
+
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  box-shadow: rgba(22, 12, 1, 0.1) 0px 4px 6px -1px,
+    rgba(22, 12, 1, 0.06) 0px 2px 4px -1px;
+}
+
+.GameDev-book-call-main > div > button:hover {
+  background-color: #160c01;
+  color: #3db3a2;
+  box-shadow: none;
+}

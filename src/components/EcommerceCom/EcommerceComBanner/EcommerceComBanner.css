@@ -1,0 +1,48 @@
+.e-commerce-banner-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 700px;
+}
+
+.e-commerce-banner-content {
+  width: 40%;
+}
+
+.e-commerce-banner-content > h1 {
+  width: 100%;
+  font-size: 35px;
+}
+
+.e-commerce-banner-content > p {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+.e-commerce-banner-content > button {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: #ef4c23;
+  border-radius: 25px;
+  padding: 10px 60px;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.e-commerce-banner-content > button:hover {
+  background-color: white;
+  color: #ef4c23;
+  /* box-shadow: none; */
+}
+
+.e-commerce-banner-image {
+  width: 45%;
+}
+
+.e-commerce-banner-image > img {
+  width: 100%;
+}

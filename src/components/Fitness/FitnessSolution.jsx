@@ -40,9 +40,9 @@ export default function FitnessSolution() {
          
        <div className='fitnesssolutionsub'>
        {
-              fitnesssolution.map((item) => {
+              fitnesssolution.map((item,i) => {
                 return (
-                    <div className='szfeaturdocssol'>
+                    <div key={i} className='szfeaturdocssol'>
                         <div className="szdocimgsol" ><img src={item.img}/>  </div>
                         <p>{item.p}</p> 
                         </div>

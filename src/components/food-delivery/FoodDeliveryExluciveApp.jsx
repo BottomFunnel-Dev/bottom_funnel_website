@@ -48,8 +48,8 @@ export const FoodDeliveryExluciveApp = () => {
               <div className="food-delivery-exlcusive-app-image-div">
                 <img src={img.src} alt={img.alt} />
               </div>
-              <h2>{title}</h2>
-              <p>{description}</p>
+              <div className="food-text" ><h4>{title}</h4>
+              <p>{description}</p></div>
             </div>
           );
         })}

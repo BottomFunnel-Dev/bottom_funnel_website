@@ -1,0 +1,57 @@
+.e-commerce-featsol-main {
+  /* border: 1px solid red; */
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.e-commerce-featsol-content > h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+}
+
+.e-commerce-featsol-content > p {
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.e-commerce-featsol-cards-main {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.e-commerce-featsol-cards-main > div {
+  /* border: 1px solid rgba(0, 0, 0, 0.24); */
+  width: 30%;
+  margin-top: 40px;
+  border-radius: 10px;
+  text-align: center;
+
+  height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.e-commerce-featsol-cards-main > div > h4 {
+  font-size: 16px;
+}
+
+.e-commerce-featsol-cards-images {
+  height: 50px;
+}
+
+.e-commerce-featsol-cards-images > img {
+  height: 100%;
+}

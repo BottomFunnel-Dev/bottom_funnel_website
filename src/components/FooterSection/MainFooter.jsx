@@ -16,6 +16,7 @@ import {
 } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
+import MoreServices from "./MoreServices";
 const MainFooter = () => {
   const [more, setMore] = useState(false);
   const address = [
@@ -134,7 +135,7 @@ const MainFooter = () => {
               <FiChevronDown />
             </div>
           </div>
-          {more && <FooterTable />}
+          {more && <MoreServices />}
         </div>
       </div>
     </div>

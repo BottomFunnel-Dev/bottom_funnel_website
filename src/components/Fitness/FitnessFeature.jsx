@@ -38,9 +38,9 @@
     </div>
     <div className='fitfeaturemedia'>
            {
-             fitnessfeature.map((item) => {
+             fitnessfeature.map((item,i) => {
                 return (
-                    <div className='fitfeaturdocs'>
+                    <div key={i} className='fitfeaturdocs'>
                         <div className="fitdocimg" ><img src={item.img}/>  </div>
                         <p>{item.p}</p> 
                         </div>

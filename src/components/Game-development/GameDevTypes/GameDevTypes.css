@@ -1,0 +1,77 @@
+.GameDev-types-main {
+  height: 100vh;
+  margin-top: 0px;
+
+  background: url("/public/Images/gameDevelopmentPhotos/types-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.GameDev-types-main > div {
+  width: 90%;
+}
+
+.GameDev-types-main > div > h1 {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+
+  width: 80%;
+
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.GameDev-types-main > div > p {
+  font-size: 18px;
+  color: rgb(189, 189, 189);
+  text-align: center;
+
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.GameDev-types-cards {
+  max-width: 100%;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  margin-top: 60px;
+}
+
+.GameDev-types-cards > div {
+  width: 20%;
+}
+
+.GameDev-types-cards > div > h3 {
+  font-size: 18px;
+  color: white;
+}
+
+.GameDev-types-cards-Images {
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.GameDev-types-cards-Images > img {
+  height: 100%;
+  transform: translate();
+}
+
+.GameDev-right-arrow {
+  color: #3db3a2;
+  font-size: 25px;
+  transform: translate(0);
+}

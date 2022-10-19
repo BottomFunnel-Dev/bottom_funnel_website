@@ -1,0 +1,34 @@
+.e-commerce-admin-main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.e-commerce-admin-images-main {
+  position: relative;
+  width: 34%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.e-commerce-admin-images-main > div {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.e-commerce-admin-images-main > div:nth-child(1) > img {
+  height: 100%;
+  margin-left: 10%;
+}
+
+.e-commerce-admin-images-main > div:nth-child(2) > img {
+  height: 85%;
+  margin-left: -10px;
+}

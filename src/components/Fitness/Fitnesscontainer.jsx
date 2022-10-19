@@ -7,7 +7,7 @@ export const Fitnesscontainer = () => {
     <div className='fitnesscontainer'> 
      <div className='fitnesssub'>
      <div className='fitnessleft'>
-        <h1>Fitness</h1>
+        <h1>Fitness App Development Company</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis totam saepe aliquid quisquam maxime a quidem ipsa optio. Nam tempora minus nesciunt quasi natus porro eaque tenetur modi dolorem mollitia.</p>
       <button className='fitnesgetbtn'>Get Started</button>
      

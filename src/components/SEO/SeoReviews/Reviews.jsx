@@ -1,6 +1,6 @@
 import React from "react";
 import './Reviews.css';
-import Volkswagen from "../../ImageSection/Volkswagen.jpg"
+import Volkswagen from "../../ImageSection/Volkswagen.jpg"  
 import { AiOutlineStar } from 'react-icons/ai';
 import { AiFillStar } from 'react-icons/ai';
 import { IconContext } from "react-icons/lib";
@@ -11,7 +11,7 @@ function Reviews() {
         <div className="_SeoReviewsmaindiv">
             <div className="_SeoReviews1">
                 <div className="_SeoCompanyRatings">
-                    <img src={Volkswagen} alt="image" />
+                    <img src="Images/seopages/clutch.png" alt="image" />
                     <div className="_SeoRatingStar">
                     <IconContext.Provider value={{ className: 'ratingIcons' }}>
                         <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /><AiOutlineStar />
@@ -22,7 +22,7 @@ function Reviews() {
             </div>
             <div className="_SeoReviews1">
                 <div className="_SeoCompanyRatings">
-                    <img src={Volkswagen} alt="image" />
+                    <img src="Images/seopages/Appfutura.png" alt="image" />
                     <div className="_SeoRatingStar">
                     <IconContext.Provider value={{ className: 'ratingIcons' }}>
                         <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /><AiOutlineStar />
@@ -34,7 +34,7 @@ function Reviews() {
             </div>
             <div className="_SeoReviews1">
                 <div className="_SeoCompanyRatings">
-                    <img src={Volkswagen} alt="image" />
+                    <img src="Images/seopages/peopleperhour.png" alt="image" />
                     <div className="_SeoRatingStar">
                     <IconContext.Provider value={{ className: 'ratingIcons' }}>
                         <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /><AiOutlineStar />
@@ -45,7 +45,7 @@ function Reviews() {
             </div>
             <div className="_SeoReviews1">
                 <div className="_SeoCompanyRatings">
-                    <img src={Volkswagen} alt="image" />
+                    <img src="Images/seopages/goodfirms.png" alt="image" />
                     <div className="_SeoRatingStar">
                     <IconContext.Provider value={{ className: 'ratingIcons' }}>
                         <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /><AiOutlineStar />

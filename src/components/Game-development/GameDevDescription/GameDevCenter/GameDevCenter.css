@@ -1,0 +1,38 @@
+.GameDev-center-main {
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
+
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.GameDev-center-content {
+  width: 55%;
+  color: white;
+  text-align: center;
+}
+
+.GameDev-center-image {
+  width: 40%;
+}
+.GameDev-center-image > img {
+  width: 100%;
+}
+
+.GameDev-center-content > h2 {
+  font-size: 25px;
+}
+
+.GameDev-center-content > p {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.GameDev-center-tick-icons {
+  color: #3db3a2;
+}

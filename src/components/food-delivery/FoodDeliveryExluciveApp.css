@@ -9,6 +9,7 @@
   margin-bottom: 0;
 }
 
+
 .food-delivery-exlucive-app-main > h1 > span {
   color: #ef4c23;
 }
@@ -40,11 +41,17 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.food-delivery-exlucive-app-content > div > h2 {
-  font-size: 25px;
+.food-text{
+  width: 100%;
+  margin: 10px 0;
+  /* padding: 10px; */
+  
+}
+.food-text>h4 {
+  font-size: 18px;
 }
 
-.food-delivery-exlucive-app-content > div > p {
+.food-text> p {
   font-size: 16px;
   text-align: justify;
 }

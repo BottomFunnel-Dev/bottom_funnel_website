@@ -1,0 +1,47 @@
+.GameDev-videos-main {
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
+
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.GameDev-videos-content {
+  width: 40%;
+  color: white;
+  text-align: center;
+}
+
+.GameDev-videos-main > div:nth-child(1) {
+  width: 50%;
+}
+.GameDev-videos-main > div:nth-child(1) > img {
+  width: 100%;
+}
+
+.GameDev-videos-content > h2 {
+  font-size: 25px;
+}
+
+.GameDev-videos-content > p {
+  text-align: left;
+  font-size: 16px;
+}
+
+.GameDev-videos-content > div > p {
+  text-align: left;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+
+  font-size: 16px;
+}
+
+.GameDev-videos-tick-icons {
+  color: #3db3a2;
+}

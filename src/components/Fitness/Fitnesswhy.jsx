@@ -32,9 +32,9 @@ export default function Fitnesswhy() {
 
        
            {
-              whychoose.map((item) => {
+              whychoose.map((item,i) => {
                 return (
-                    <div  >
+                    <div key={i}  >
                         <div className='szfitanalysis' ><img src={item.img}/>  </div>
                         <p>{item.p}</p> 
                         </div>

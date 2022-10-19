@@ -287,12 +287,12 @@ const industries = [
   {
     dropContent: "Game Development",
     navIcons: "Images/navbar/industriesImage/gamedev.png",
-    path: "",
+    path: "gameDevelopment",
   },
   {
     dropContent: "E-commerce",
     navIcons: "Images/navbar/industriesImage/ecommerceimage.png",
-    path: "",
+    path: "ecommerce",
   },
   {
     dropContent: "Video Streaming",
