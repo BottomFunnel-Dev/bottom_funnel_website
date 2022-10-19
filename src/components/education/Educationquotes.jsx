@@ -55,7 +55,7 @@ export default function Educationquotes() {
 
         <div className='szproduct'>
           <div className='szproductright'>
-             <div className="szpolygon"> <img  src="Images/education/polygon.png" /></div> 
+             <div className="szpolygon"> <img  src="Images/education/polygonimage.png" /></div> 
              <div  className='sztabletcase'>    <img  src="Images/education/teblate.png"/></div>
              <div className="szteblateadmin"> <img src='Images/education/teblateadmin.png' /></div>    
         </div>
