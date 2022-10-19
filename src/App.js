@@ -24,10 +24,11 @@ import { FoodDelivery } from "./components/food-delivery/FoodDeliveryPage";
 import Beautysection from "./components/Beautyandcare/Beautysection";
 // import { Seomainpage } from "./components/SEO/Seomainpage/Seomainpage";
 
-import { cakePHPData, codeigniterData, djangoData, DotnetData, laravelData, nodejsData, phpData } from "./Data/SkillsData";
+import { angularjsData, backbonejsData, cakePHPData, codeigniterData, djangoData, DotnetData, emberjsData, hiberateData, jqueryData, laravelData, mongodbData, msSQLData, mysqlData, nextjsData, nodejsData, phpData, postgresqlData, reactjsData, redisData, springBootData, svelteData, vuejsData } from "./Data/SkillsData";
 import { SkillsComPage } from "./components/skillsPageCom/SkillsComPage";
 import Educationpage from "./components/education/Educationpage";
 import OndemandHome from "./components/OndemandHome/OndemandHome";
+import { Fitness } from "./components/Fitness/Fitness";
 
 function App() {
   return (
@@ -54,6 +55,21 @@ function App() {
         <Route path="/django" element={<SkillsComPage allData={djangoData}/>} />
         <Route path="/cakephp" element={<SkillsComPage allData={cakePHPData}/>} />
         <Route path="/codeigniter" element={<SkillsComPage allData={codeigniterData}/>} />
+        <Route path="/reactjs" element={<SkillsComPage allData={reactjsData}/>} />
+        <Route path="/angular" element={<SkillsComPage allData={angularjsData}/>} />
+        <Route path="/vuejs" element={<SkillsComPage allData={vuejsData}/>} />
+        <Route path="/springboot" element={<SkillsComPage allData={springBootData}/>} />
+        <Route path="/hibernate" element={<SkillsComPage allData={hiberateData}/>} />
+        <Route path="/emberjs" element={<SkillsComPage allData={emberjsData}/>} />
+        <Route path="/jquery" element={<SkillsComPage allData={jqueryData}/>} />
+        <Route path="/nextjs" element={<SkillsComPage allData={nextjsData}/>} />
+        <Route path="/backbonejs" element={<SkillsComPage allData={backbonejsData}/>} />
+        <Route path="/svelte" element={<SkillsComPage allData={svelteData}/>} />
+        <Route path="/microsoftSQL" element={<SkillsComPage allData={msSQLData}/>} />
+        <Route path="/mongodb" element={<SkillsComPage allData={mongodbData}/>} />
+        <Route path="/mySQL" element={<SkillsComPage allData={mysqlData}/>} />
+        <Route path="/postgreSQL" element={<SkillsComPage allData={postgresqlData}/>} />
+        <Route path="/redis" element={<SkillsComPage allData={redisData}/>} />
 
         <Route path="/beautycareapp" element={<Beautysection />} />
         <Route path="/digitalmarketing" element={<SeoDm />} />
@@ -61,6 +77,7 @@ function App() {
        
         <Route path="/food-delivery" element={<FoodDelivery />} />
         <Route path="/education" element={<Educationpage/>} />
+        <Route path="/fitness" element={<Fitness/>} />
 
 
 

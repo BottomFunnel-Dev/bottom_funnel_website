@@ -2,7 +2,13 @@
 .szfitnesssolution{
     width: 100%;
    text-align: center;  
+   margin: 80px 0;
     
+}
+
+.szfitnesssolution>div{
+   width: 80%;
+   margin: auto;
 }
 .fitnesssolutionsub{
     width:90%;
@@ -19,7 +25,7 @@
     height: 200px;
     border-radius: 18px;
    text-align: center;
-    padding: 30px ;
+    padding: 50px 30px ;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .szfeaturdocssol>p{

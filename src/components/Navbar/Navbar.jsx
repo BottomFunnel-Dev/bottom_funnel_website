@@ -312,7 +312,7 @@ const industries = [
   {
     dropContent: "Fitness",
     navIcons: "Images/navbar/industriesImage/fitness.png",
-    path: "",
+    path: "fitness",
   },
   {
     dropContent: "Dating",
@@ -472,12 +472,12 @@ const backend = [
   {
     dropContent: "SpringBoot",
     navIcons: "Images/navbar/skills/springboot.png",
-    path: "",
+    path: "springboot",
   },
   {
     dropContent: "Hibernate",
     navIcons: "Images/navbar/skills/hibernate.png",
-    path: "",
+    path: "hibernate",
   },
   {
     dropContent: "Django",
@@ -498,79 +498,79 @@ const backend = [
   {
     dropContent: "Flask",
     navIcons: "Images/navbar/skills/flask.png",
-    path: "codeigniter",
+    path: "flask",
   },
   {
     dropContent: "Golang",
     navIcons: "Images/navbar/skills/golang.png",
-    path: "codeigniter",
+    path: "golang",
   },
   {
     dropContent: "Struts",
     navIcons: "Images/navbar/skills/struts.png",
-    path: "codeigniter",
+    path: "struts",
   },
   {
     dropContent: "Symfony",
     navIcons: "Images/navbar/skills/symfony.png",
-    path: "codeigniter",
+    path: "symfony",
   },
   {
     dropContent: "Phalcon",
     navIcons: "Images/navbar/skills/phalcon.png",
-    path: "codeigniter",
+    path: "phalcon",
   },
   {
     dropContent: "JSF",
     navIcons: "Images/navbar/skills/jsf.png",
-    path: "codeigniter",
+    path: "jsf",
   },
   {
     dropContent: "Grails",
     navIcons: "Images/navbar/skills/grails.png",
-    path: "codeigniter",
+    path: "grails",
   },
 ];
 const frontend = [
   {
     dropContent: "React.js",
     navIcons: "Images/navbar/skills/react.png",
-    path: "",
+    path: "reactjs",
   },
   {
     dropContent: "Angular",
     navIcons: "Images/navbar/skills/angular.png",
-    path: "",
+    path: "angular",
   },
   {
     dropContent: "Vue.js",
     navIcons: "Images/navbar/skills/vue js.png",
-    path: "",
+    path: "vuejs",
   },
   {
     dropContent: "Ember.js",
     navIcons: "Images/navbar/skills/emberjs.png",
-    path: "",
+    path: "emberjs",
   },
   {
     dropContent: "jQuery",
     navIcons: "Images/navbar/skills/jquery.png",
-    path: "",
+    path: "jquery",
   },
   {
     dropContent: "Next.js",
     navIcons: "Images/navbar/skills/next js.png",
-    path: "",
+    path: "nextjs",
   },
   {
     dropContent: "Backbone.js",
     navIcons: "Images/navbar/skills/backbone js.png",
-    path: "",
+    path: "backbonejs",
   },
   {
     dropContent: "Svelte",
     navIcons: "Images/navbar/skills/svelte.png",
-    path: "",
+    path: "svelte",
   },
 ];
 const mobile = [
@@ -624,27 +624,27 @@ const database = [
   {
     dropContent: "MySQL",
     navIcons: "Images/navbar/skills/mysqlimage.png",
-    path: "",
+    path: "mySQL",
   },
   {
     dropContent: "Microsoft SQL Server",
     navIcons: "Images/navbar/skills/microsoftsql.png",
-    path: "",
+    path: "microsoftSQL",
   },
   {
     dropContent: "PostgreSQL",
     navIcons: "Images/navbar/skills/postgreSQL.png",
-    path: "",
+    path: "postgreSQL",
   },
   {
     dropContent: "MongoDB",
     navIcons: "Images/navbar/skills/mongodb.png",
-    path: "",
+    path: "mongodb",
   },
   {
     dropContent: "Redis",
     navIcons: "Images/navbar/skills/redis.png",
-    path: "",
+    path: "redis",
   },
   {
     dropContent: "IBM db2",
@@ -714,24 +714,24 @@ const Navbar = () => {
   const [navbar, setNabvar] = useState(false);
 
   const transition = useTransition(aboutH, {
-    from: { x: 0, y: -40, opacity: 0 },
+    from: { x: 0, y: -10, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
-    leave: { x: 0, y: -40, opacity: 0 },
+    leave: { x: 0, y: -10, opacity: 0 },
   });
   const transitionSol = useTransition(solution, {
-    from: { x: 0, y: -40, opacity: 0 },
+    from: { x: 0, y: -10, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
-    leave: { x: 0, y: -40, opacity: 0 },
+    leave: { x: 0, y: -10, opacity: 0 },
   });
   const serTransition = useTransition(service, {
-    from: { x: 0, y: -40, opacity: 0 },
+    from: { x: 0, y: -10, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
-    leave: { x: 0, y: -40, opacity: 0 },
+    leave: { x: 0, y: -10, opacity: 0 },
   });
   const skillTransition = useTransition(skill, {
-    from: { x: 0, y: -40, opacity: 0 },
+    from: { x: 0, y: -10, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
-    leave: { x: 0, y: -40, opacity: 0 },
+    leave: { x: 0, y: -10, opacity: 0 },
   });
 
   const skillHoverIn = () => {

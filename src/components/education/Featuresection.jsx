@@ -9,7 +9,7 @@ export default function Featuresection() {
            p:" Social media Integration"
         },
         {
-            img:"Images/education/documentation.png",
+            img:"Images/education/Documentation.png",
             p:"Documents sharing"
          },
          {

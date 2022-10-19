@@ -1,9 +1,8 @@
-import React from 'react'
-import "./Brand.css"
+import React from "react";
+import "./Brand.css";
 import Slider from "react-slick";
- 
-export default function Brand() {
 
+const HomeServices = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -14,7 +13,6 @@ export default function Brand() {
     autoplay: true,
     autoplaySpeed: 3000,
   };
-
 
   const homeService = [
     {
@@ -62,35 +60,25 @@ export default function Brand() {
   ];
 
   return (
-    <div className="szondemandHomeServices">
-      <h1>Brand</h1>
-    <div>
-      <Slider {...settings}>
-        {homeService.map((item, i) => (
-          <div key={i} className="homeServices">
-            <div>
-              <img src={item.serviceimage} alt="" />
-              <h5>{item.serviceName}</h5>
-              <p>{item.serviceDescription}</p>
-            </div>
-          </div>
-        ))}
-      </Slider>
+    <div className="maineducationDiv">
+      <h1>Brands</h1>
+      <div className="educationServices">
+        <div>
+          <Slider {...settings}>
+            {homeService.map((item, i) => (
+              <div key={i} className="educationDivServices">
+                <div>
+                  <img src={item.serviceimage} alt="" />
+                  <h5>{item.serviceName}</h5>
+                  <p>{item.serviceDescription}</p>
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
     </div>
-  </div>
-    // <div className='szbrand'>
-    //     <h1>Brand</h1>
-    //     <p></p>
-    //     <div className='szbrandsub'>
-         
-    //          <div className='szbrandflexdiv' ></div>
-    //          <div className='szbrandflexdiv' ></div>
-    //          <div className='szbrandflexdiv' ></div>
-    //          <div className='szbrandflexdiv' ></div>
-    //          <div className='szbrandflexdiv' ></div>
-             
-         
-    //     </div>
-    // </div>
-  )
-}
+  );
+};
+
+export default HomeServices;

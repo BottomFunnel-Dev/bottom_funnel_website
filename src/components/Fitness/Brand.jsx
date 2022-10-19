@@ -1,9 +1,8 @@
-import React from 'react'
-import "./Brand.css"
+import React from "react";
+import "./Brand.css";
 import Slider from "react-slick";
- 
-export default function Brand() {
 
+export default function Brand() {
   const settings = {
     dots: false,
     infinite: true,
@@ -14,7 +13,6 @@ export default function Brand() {
     autoplay: true,
     autoplaySpeed: 3000,
   };
-
 
   const homeService = [
     {
@@ -62,22 +60,23 @@ export default function Brand() {
   ];
 
   return (
-    <div className="fitondemandHomeServices">
-      <h1>Brand</h1>
-    <div>
-      <Slider {...settings}>
-        {homeService.map((item, i) => (
-          <div key={i} className="fithomeServices">
-            <div>
-              <img src={item.serviceimage} alt="" />
-              <h5>{item.serviceName}</h5>
-              <p>{item.serviceDescription}</p>
-            </div>
-          </div>
-        ))}
-      </Slider>
+    <div className="fitnessMain">
+         <h1>Brands</h1>
+      <div className="fitondemandHomeServices">
+        <div>
+          <Slider {...settings}>
+            {homeService.map((item, i) => (
+              <div key={i} className="fithomeServices">
+                <div>
+                  <img src={item.serviceimage} alt="" />
+                  <h5>{item.serviceName}</h5>
+                  <p>{item.serviceDescription}</p>
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
     </div>
-  </div>
-    
-  )
+  );
 }

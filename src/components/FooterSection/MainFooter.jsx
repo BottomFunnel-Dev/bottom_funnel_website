@@ -3,7 +3,6 @@ import FooterTable from "./FooterTable";
 import "./mainFooter.css";
 
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-import Tooltip from "react-bootstrap/Tooltip";
 import { FiChevronDown } from "react-icons/fi";
 import { AiOutlineMail } from "react-icons/ai";
 import {

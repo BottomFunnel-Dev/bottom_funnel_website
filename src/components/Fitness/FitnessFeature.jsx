@@ -5,28 +5,28 @@
            
     const fitnessfeature =[
         {
-           img:"Images/education/Socialmedia.png",
-           p:"lorem ipus"
+           img:"Images/fitness/advanced.png",
+           p:"Advanced Search"
         },
         {
-            img:"Images/education/Document.png",
-            p:"lorem ipus"
+            img:"Images/fitness/easy.png",
+            p:"Easy Payment"
          },
          {
-            img:"Images/education/signup.png",
-            p:"lorem ipus"
+            img:"Images/fitness/video.png",
+            p:"Video Calling"
          },
          {
-            img:"Images/education/ratings.png",
-            p:"lorem ipus"
+            img:"Images/fitness/ratings.png",
+            p:"Ratings"
          },
          {
-            img:"Images/education/parentelcontrol.png",
-            p:"lorem ipus"
+            img:"Images/fitness/treaking.png",
+            p:"Performence Treaking"
          },
          {
-            img:"Images/education/livestreaming.png",
-            p:"lorem ipus"
+            img:"Images/fitness/live.png",
+            p:"Live Treaning"
          },
   ]
 
@@ -34,7 +34,7 @@
     <div className='szfitfeaturesection'> 
     <div className='fitfeature'>
         <h1>Features</h1>
-        <p></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusamus delectus eos minima assumenda illo mollitia veritatis. Quia culpa consequatur temporibus iure id? Corrupti hic eligendi, tempora expedita quae fugiat.</p>
     </div>
     <div className='fitfeaturemedia'>
            {

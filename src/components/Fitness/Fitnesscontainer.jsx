@@ -14,7 +14,7 @@ export const Fitnesscontainer = () => {
      </div>
         <div className='fitnessright'>
         <div className='fitnessimage'>
-             <img src="Images/fitness/yoga.png"/> 
+             <img src="Images/fitness/yoga1.png"/> 
          </div>
        
         </div>

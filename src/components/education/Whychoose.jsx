@@ -36,9 +36,9 @@ export default function Whychoose() {
 
        
            {
-              whychoose.map((item) => {
+              whychoose.map((item,i) => {
                 return (
-                    <div  >
+                    <div key={i} >
                         <div className='szanalysis' ><img src={item.img}/>  </div>
                         <p>{item.p}</p> 
                         </div>

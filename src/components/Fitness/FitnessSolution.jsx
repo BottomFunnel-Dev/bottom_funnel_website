@@ -6,36 +6,38 @@ export default function FitnessSolution() {
   const fitnesssolution =[
       
     {
-      img:"Images/education/Socialmedia.png",
-      p:"lorem ipsum"
+      img:"Images/fitness/wearable.png",
+      p:"Wearable Apps"
    },
    {
-       img:"Images/education/Document.png",
-       p:"lorem ipsum"
+       img:"Images/fitness/gym.png",
+       p:"Gym App"
     },
     {
-       img:"Images/education/signup.png",
-       p:"lorem ipsum"
+       img:"Images/fitness/tracker.png",
+       p:"Activity Traking app"
     },
     {
-       img:"Images/education/ratings.png",
-       p:"lorem ipsum"
+       img:"Images/fitness/yoga.png",
+       p:"Yoga App"
     },
     {
-       img:"Images/education/parentelcontrol.png",
-       p:"lorem ipsum"
+       img:"Images/fitness/partner.png",
+       p:"Gym Partner App"
     },
     {
-       img:"Images/education/livestreaming.png",
-       p:"lorem ipsum"
+       img:"Images/fitness/diet.png",
+       p:"Diet Planning App"
     },
           
   ]
   return (
     <div className='szfitnesssolution'> 
-         
+         <div >
          <h1>Solution</h1>
-        {/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero nulla alias atque molestiae est voluptatem qui sapiente veniam eos necessitatibus. Neque tempora vitae magni rem ea excepturi itaque cum atque.</p> */}
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero nulla alias atque molestiae est voluptatem qui sapiente veniam eos necessitatibus. Neque tempora vitae magni rem ea excepturi itaque cum atque.</p>
+         </div>
+         
        <div className='fitnesssolutionsub'>
        {
               fitnesssolution.map((item) => {
