@@ -13,7 +13,7 @@ import NavIndustries from "./NavIndustries";
 
 const company = [
   {
-    dropContent: "About the bottom Funnel",
+    dropContent: "About Us",
     navIcons: "Images/navbar/aboutImage/aboutus.png",
     path: "",
   },
