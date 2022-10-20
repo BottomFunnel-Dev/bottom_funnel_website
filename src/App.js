@@ -31,6 +31,9 @@ import OndemandHome from "./components/OndemandHome/OndemandHome";
 import { Fitness } from "./components/Fitness/Fitness";
 import { GameDevelopmentPage } from "./components/Game-development/GameDevelopmentPage";
 import { EcommerceComPage } from "./components/EcommerceCom/EcommerceComPage";
+import Grocery from "./components/Grocery/Grocery";
+import Travel from "./components/Travel/Travel";
+import Videostreaming from "./components/Videostreaming/Videostreaming";
 
 function App() {
   return (
@@ -82,6 +85,10 @@ function App() {
         <Route path="/fitness" element={<Fitness/>} />
         <Route path="/ecommerce" element={<EcommerceComPage/>} />
         <Route path="/gameDevelopment" element={<GameDevelopmentPage/>} />
+        <Route path="/grocery" element={<Grocery/>} />
+        <Route path="/travel" element={<Travel/>} />
+        <Route path="/videostreaming" element={<Videostreaming/>} />
+
 
 
 

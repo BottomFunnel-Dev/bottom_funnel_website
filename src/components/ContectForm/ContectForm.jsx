@@ -10,50 +10,56 @@ import { CgMenuGridR } from "react-icons/cg";
 import { RiMessage2Fill } from "react-icons/ri";
 import { BiMessage } from "react-icons/bi";
 import { IconContext } from "react-icons/lib";
+import { BsSkype } from "react-icons/bs";
+import {MdEmail} from 'react-icons/md'
 
 const ContectForm = () => {
   return (
     <div className="mainLeadform">
       <div className="backgroundDiv">
-      <div className="formHeader">
-            <h1>Interested in working with us?</h1>
-            <h5>Let's talk and get started</h5>
-          </div>
+        <div className="formHeader">
+          <h1>Interested in working with us?</h1>
+          <h5>Let's talk and get started</h5>
+        </div>
       </div>
-          
+
       <div className="contectSection">
         <div className="addressSection">
           <img src="Images/services/service.png" alt="" />
           <div>
-          <div className="mailAddress">
-            <IconContext.Provider value={{ className: "mailIcon" }}>
-              <BsFillPersonFill />
-            </IconContext.Provider>
+            <div className="mailAddress">
+              <div className="iconDiv">
+                <IconContext.Provider value={{ className: "mailIcon" }}>
+                  <MdEmail />
+                </IconContext.Provider>
+              </div>
 
-            <div>
-              <p>Mail to our sales department</p>
-              <h3>sales@bottomFunnel.net</h3>
+              <div className="mailtextDiv">
+                <p>Mail to our sales department</p>
+                <h3>sales@bottomFunnel.net</h3>
+              </div>
             </div>
-          </div>
-          <div className="mailAddress">
+            <div className="mailAddress">
+            <div className="iconDiv">
             <IconContext.Provider value={{ className: "mailIcon" }}>
-              <BsFillPersonFill />
-            </IconContext.Provider>
-
-            <div>
-              <p>Mail to our sales department</p>
-              <h3>sales@bottomFunnel.net</h3>
+                <BsSkype />
+              </IconContext.Provider>
             </div>
-          </div>
 
-          <div className="assistanceSection">
-            <h3>& What you will get:</h3>
-            <ul>
-              <li>On-call inquiry assistance</li>
-              <li>Project consulting by experts</li>
-              <li>Detailed project estimation</li>
-            </ul>
-          </div>
+              <div className="mailtextDiv">
+                <p>Our Skype ID</p>
+                <h3>skype@bottomFunnel</h3>
+              </div>
+            </div>
+
+            <div className="assistanceSection">
+              <h3>& What you will get:</h3>
+              <ul>
+                <li>On-call inquiry assistance</li>
+                <li>Project consulting by experts</li>
+                <li>Detailed project estimation</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="formPart">

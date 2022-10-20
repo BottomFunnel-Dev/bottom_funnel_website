@@ -58,9 +58,6 @@ const CompanyLogo = () => {
         <div><img src="Images/companiesLogo/general-electric.svg" alt="" /></div>
         </div>
         <div className="slideDivSection">
-        <div><img src="Images/companiesLogo/pampersLogo.svg" alt="" /></div>
-        </div>
-        <div className="slideDivSection">
         <div><img src="Images/companiesLogo/squareLogo.svg" alt="" /></div>
         </div>
         

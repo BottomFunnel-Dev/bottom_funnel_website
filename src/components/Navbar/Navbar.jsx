@@ -16,7 +16,7 @@ const company = [
     dropContent: "About Us",
     navIcons: "Images/navbar/aboutImage/aboutus.png",
     path: "",
-  },
+  },  
   {
     dropContent: "Our Team",
     navIcons: "Images/navbar/aboutImage/ourteam.png",
@@ -297,7 +297,7 @@ const industries = [
   {
     dropContent: "Video Streaming",
     navIcons: "Images/navbar/industriesImage/videostreaming.png",
-    path: "",
+    path: "videostreaming",
   },
   {
     dropContent: "Sports Betting",
@@ -367,7 +367,7 @@ const industries = [
   {
     dropContent: "Travel",
     navIcons: "Images/navbar/industriesImage/travel.png",
-    path: "",
+    path: "travel",
   },
   // {
   //   dropContent: "Finance",
@@ -399,8 +399,9 @@ const ondemand = [
   {
     dropContent: "Grocery Delivery App",
     navIcons: "Images/navbar/industriesImage/grocery.png",
-    path: "",
+    path: "grocery",
   },
+
   {
     dropContent: "Beauty & Salon App",
     navIcons: "Images/navbar/industriesImage/beauty.png",

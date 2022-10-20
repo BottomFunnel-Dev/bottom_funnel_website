@@ -1,0 +1,63 @@
+.szvideofeature {
+  width: 100%;
+  background-color: white;
+  height: 600px;
+}
+.szvideofeature > div {
+  text-align: center;
+  padding: 20px;
+}
+.szfeaturesubcontainer {
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  height: 460px;
+  display: flex;
+}
+.updatediv {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  height: 170px;
+  width: 95%;
+  padding: 10px;
+}
+.updatediv:hover {
+  transform: scale(1.02);
+  transition: all 0.3s linear;
+}
+.updatediv > p {
+  padding: 10px;
+}
+.updateflexdiv {
+  display: flex;
+  /* background-color: aliceblue; */
+  padding: 25px 30px;
+  height: 70px;
+}
+.updateimg {
+  padding: 0px 10px;
+}
+
+.reminderdiv {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  width: 95%;
+  height: 170px;
+}
+.reminderdiv:hover {
+  transform: scale(1.02);
+  transition: all 0.3s linear;
+}
+.reminderdiv > p {
+  padding: 10px;
+}
+.reminderflexdiv {
+  display: flex;
+  /* background-color: aliceblue; */
+  padding: 25px 30px;
+  height: 70px;
+  margin-top: 10%;
+}
+.reminderimg {
+  padding: 5px 10px;
+}

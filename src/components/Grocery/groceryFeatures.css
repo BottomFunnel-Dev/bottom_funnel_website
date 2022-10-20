@@ -1,0 +1,269 @@
+.groceryFeatures {
+  width: 100%;
+  /* height: 600px; */
+  /* background-color: green; */
+}
+.groceryFeatures > h1 {
+  text-align: center;
+  color: #ef4c23;
+}
+
+.grocerycustomerApp {
+  width: 100%;
+  height: 500px;
+  /* background-color: red; */
+  display: flex;
+}
+
+.grocerycustomerImages {
+  position: relative;
+  /* background-color: pink; */
+  width: 50%;
+}
+
+.groceryText {
+  width: 50%;
+  /* background-color: blue; */
+  position: relative;
+}
+.groceryText > div {
+  width: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+}
+
+.backfeature {
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 60%;
+  z-index: 0;
+}
+.backfeature > img {
+  width: 100%;
+  height: 100%;
+}
+
+.grocerycustomerphone {
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  z-index: 3;
+}
+.grocerycustomerphone > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.groceryadminpanel {
+  width: 100%;
+  height: 600px;
+
+  display: flex;
+  /* background-color: green; */
+}
+
+.groceryadmintext {
+  width: 50%;
+  /* background-color: blue; */
+  position: relative;
+}
+.groceryadmintext > div {
+  width: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 19%;
+  left: 50%;
+}
+.groceryadminImage {
+  width: 45%;
+  /* background-color: red; */
+  position: relative;
+}
+.backadmin {
+  width: 100%;
+  position: absolute;
+  top: -117px;
+  height: 250px;
+}
+.backadmin > img {
+  width: 100%;
+  height: 100%;
+}
+.backadmindown {
+  width: 100%;
+  position: absolute;
+  bottom: -133px;
+  height: 250px;
+}
+.backadmindown > img {
+  width: 100%;
+  height: 100%;
+}
+
+.groceryadminpanelimage {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 90%;
+}
+.groceryadminpanelimage > img {
+  width: 100%;
+  height: 100%;
+}
+
+.groceryserviceApp {
+  width: 100%;
+  height: 500px;
+  /* background-color: green; */
+  display: flex;
+}
+
+.groceryserviceimage {
+  width: 40%;
+  height: 100%;
+  /* background-color: red; */
+  position: relative;
+}
+
+.groceryserviceapptext {
+  width: 60%;
+  /* background-color: blue; */
+  position: relative;
+}
+.groceryserviceapptext > div {
+  width: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 50%;
+}
+
+.groceryserviceappback {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+}
+.groceryserviceappback > img {
+  width: 100%;
+  height: 100%;
+}
+.groceryserviceappmobile {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+}
+.groceryserviceappmobile > img {
+  width: 100%;
+  height: 108%;
+  object-fit: contain;
+}
+
+.serviceproviderpanel {
+  width: 100%;
+  height: 600px;
+  /* background-color: green; */
+  display: flex;
+  padding: 30px;
+}
+
+.serviceprovidertext {
+  width: 50%;
+  /* background-color: blue; */
+  position: relative;
+}
+.serviceprovidertext > div {
+  width: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+}
+
+.serviceProviderImage {
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+  position: relative;
+}
+
+.serviceproviderback {
+  width: 100%;
+  height: 100%;
+}
+.serviceproviderback > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.serviceprovideradminpanel {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.serviceprovideradminpanel > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.featureText > div > h2 {
+  color: #ef4c23;
+}
+.groceryadmintext > div > h2 {
+  color: #ef4c23;
+}
+.groceryserviceapptext > div > h2 {
+  color: #ef4c23;
+}
+.serviceprovidertext > div > h2 {
+  color: #ef4c23;
+}
+
+.grocerytextFeatures {
+  width: 100%;
+  height: 100%;
+  /* background-color: green; */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 50%;
+}
+
+.grocerytextFeatures > p {
+  font-size: 18px;
+  padding: 20px;
+  /* background-color: red; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.grocerytextFeatures > p:hover {
+  transform: scale(1.03);
+  transition: all 0.3s linear;
+}
+.groceryText > h2 {
+  padding: 40px 114px;
+  color: #ef4c23;
+}
+.groceryadmintext > h2 {
+  padding: 40px 114px;
+  color: #ef4c23;
+}
+.groceryserviceapptext > h2 {
+  padding: 40px 138px;
+  color: #ef4c23;
+}

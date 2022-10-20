@@ -23,7 +23,7 @@ export default function EnquiryNow() {
           KPIs. The real game starts from here. We eavesdrop on your target
           audience to help them find where you are.
         </p>
-        <div>EnquiryNow</div>
+       <button>Enquiry Now</button>
       </div>
     </div>
   );
