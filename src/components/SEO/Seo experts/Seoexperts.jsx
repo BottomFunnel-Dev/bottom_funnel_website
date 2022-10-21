@@ -29,7 +29,7 @@ const data=[{
 
 return(
         <div className="_Seoexpertsmaindiv">
-            <h1>What's so special about our Seo Experts ?</h1>
+            <h2>What's so special about our Seo Experts ?</h2>
               {  data.map((items,i)=>{
                     return(
                         <div key={i} className="_Seoinfodiv">

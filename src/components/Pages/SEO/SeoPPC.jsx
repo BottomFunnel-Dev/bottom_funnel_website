@@ -18,6 +18,8 @@ import Seoexperts from "../../SEO/Seo experts/Seoexperts";
 import Seofaq from "../../SEO/SeoFaq/Seofaq";
 import ContectForm from "../../ContectForm/ContectForm";
 import MainFooter from "../../FooterSection/MainFooter";
+import SeoServices from "../../SEO/SeoServices/SeoServices";
+import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
 
 const SeoPPC = () => {
   return (
@@ -25,8 +27,10 @@ const SeoPPC = () => {
       <SeoPPCSection />
       <Seostats />
       <Reviews />
-      <Seotrusted />
-      <SeoPPCServices />
+      {/* <Seotrusted /> */}
+      <Trusted/>
+      {/* <SeoPPCServices /> */}
+      <SeoServices/>
       <StoriesSection />
       <Seoexperts />
       <Seofaq />

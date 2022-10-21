@@ -12,6 +12,8 @@ const MoreServices = () => {
         <p>Guest Posting Services</p>
         <p>Link Building Services</p>
         <p>Email Marketing Services</p>
+        <p>Big Data Services</p>
+        <p>Blockchain Services</p>
       </div>
       <div className="innerTable">
         <p>Android App Development</p>
@@ -22,6 +24,9 @@ const MoreServices = () => {
         <p>Xamarin App Development</p>
         <p>Ionic App Development</p>
         <p>Wearable App Developement</p>
+        <p>Crypto Currency Development</p>
+        <p>Custmised Web Developemnt</p>
+        <p>VR Development</p>
       </div>
 
       <div className="innerTable">
@@ -40,27 +45,25 @@ const MoreServices = () => {
         <p>taxi Booking App</p>
         <p>Tool Delivery App</p>
         <p>Icecream Delivery App </p>
+        <p>Wellness</p>
+        
       </div>
       <div className="innerTable">
-        <p>Trending Technologies</p>
-        <p>Big Data Services</p>
-        <p>Blockchain Services</p>
+      <p>Trending Technologies</p>
+       
         <p>Machine Learning</p>
         <p>Artificial Intelligence</p>
         <p>Data Analytics</p>
-        <p>Crypto Currency Development</p>
-        <p>Custmised Web Developemnt</p>
-        <p>VR Development</p>
         <p>Augmented Reality</p>
         <p>NFT Development</p>
         <p>IoT Development</p>
         <p>Social Media</p>
         <p>Logistics</p>
         <p>Politics</p>
-        <p>Wellness</p>
         <p>News</p>
         <p>SaaS</p>
         <p>Events</p>
+       
       </div>
     </div>
   );

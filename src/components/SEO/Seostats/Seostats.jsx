@@ -3,7 +3,7 @@ import "./Seostats.css";
 import { useInView } from "react-intersection-observer";
 
 export default function Seostats() {
-  const { ref, inview } = useInView({
+  const { ref, inView } = useInView({
     threshold: 0,
   });
 
@@ -16,26 +16,26 @@ export default function Seostats() {
   const interval = setInterval(() => {
     count++;
 
-    if (inview === true && count === 1) {
+    if (inView === true && count === 1) {
       if (num <= 9) {
         setnum(num + 1);
       }
       if (p < 90) {
-        setp(p + 1);
+        setp(p + 4);
       }
-      if (g < 1500) {
-        setg(g + 10);
+      if (g < 746) {
+        setg(g + 20);
       }
     }
   }, 100);
 
-  if (g === 1500) {
+  if (g === 746) {
     clearInterval(interval);
   }
-  // console.log(inview)
+  // console.log(inView)
 
   return (
-    <div ref={ref} className="_Seostats" inview={inview}>
+    <div ref={ref} className="_Seostats" inView={inView}>
       <div className="_Seostats1">
         <span> {p}+</span>
         <br />

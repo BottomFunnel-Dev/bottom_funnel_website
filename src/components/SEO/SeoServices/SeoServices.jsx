@@ -9,10 +9,8 @@ import { FaShoppingCart } from "react-icons/fa";
 import { useState } from "react";
 import { IconContext } from "react-icons/lib";
 
-export default function SeoLocalServices() {
-  const [more, setmore] = useState(false);
-  const [num, setnum] = useState();
-  const [a, seta] = useState();
+export default function SeoServices() {
+  const [description, setDescription] = useState(false);
 
   const arr1 = [
     {
@@ -47,8 +45,13 @@ export default function SeoLocalServices() {
     },
   ];
 
-  const handleTrigger = (i) => {
-    console.log(i);
+  const handleTrigger = (key) => {
+    if (description == key) {
+      setDescription(() => "");
+      return;
+    }
+    setDescription(() => key);
+    return;
   };
 
   return (
@@ -57,15 +60,25 @@ export default function SeoLocalServices() {
       <div className="_Seoservicesslider">
         {arr1.map((items, i) => {
           return (
-            <div key={i} className=" _SeoServicesnames">
-              <div className="frontServiceText">
+            <div key={items} className=" _SeoServicesnames">
+              <div
+                className="frontServiceText"
+                style={{
+                  opacity: description == items.servicename ? "0" : "1",
+                }}
+              >
                 <IconContext.Provider value={{ className: "seoServicesIcon" }}>
                   {items.icons}
                 </IconContext.Provider>
-                <h4>{items.servicename}</h4>
+                <h5>{items.servicename}</h5>
               </div>
 
-              <div className="hiddenSeo">
+              <div
+                className="hiddenSeo"
+                style={{
+                  opacity: description == items.servicename ? "1" : "0",
+                }}
+              >
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Iusto, expedita molestias, suscipit natus itaque, maiores
@@ -76,12 +89,17 @@ export default function SeoLocalServices() {
               </div>
 
               <div
-                onClick={(items, i) => {
-                  handleTrigger(i);
-                }}
+                onClick={() => handleTrigger(items.servicename)}
                 className="pointTrigger"
               >
-                <IconContext.Provider value={{ className: "pluscircle" }}>
+                <IconContext.Provider
+                  value={{
+                    className:
+                      description == items.servicename
+                        ? "pluscircle-active"
+                        : "pluscircle",
+                  }}
+                >
                   <AiOutlinePlusCircle />
                 </IconContext.Provider>
               </div>

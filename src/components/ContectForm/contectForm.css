@@ -33,7 +33,7 @@
 .formHeader > h5 {
   font-size: 18px;
 }
-.formHeader > h1 {
+.formHeader > h2 {
   /* margin: 0; */
 }
 
@@ -70,6 +70,7 @@
   column-gap: 5%;
   margin: 20px auto;
   box-sizing: border-box;
+  cursor: pointer;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -189,7 +190,7 @@
 }
 
 .phoneClass {
-  width: 13%;
+  width: 15%;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -211,14 +212,14 @@
 }
 
 .phoneNumber {
-  width: 35%;
+  width: 33%;
   box-sizing: border-box;
   box-sizing: border-box;
   color: #ef4c23;
   color: black;
 
   border: none;
-  background: none;
+  background: none; 
   /* color: white; */
   outline: none;
   font-size: 16px;

@@ -17,6 +17,8 @@ import Seofaq from "../../SEO/SeoFaq/Seofaq";
 import ContectForm from "../../ContectForm/ContectForm";
 import MainFooter from "../../FooterSection/MainFooter";
 import Seostats from "../../SEO/Seostats/Seostats";
+import SeoServices from "../../SEO/SeoServices/SeoServices";
+import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
 
 const SeoLocal = () => {
   return (
@@ -24,8 +26,10 @@ const SeoLocal = () => {
       <SeoLocalSection />
       <Seostats />
       <Reviews />
-      <Seotrusted />
-      <SeoLocalServices />
+      {/* <Seotrusted /> */}
+      <Trusted/>
+      <SeoServices/>
+      {/* <SeoLocalServices /> */}
       <StoriesSection />
       <Seoexperts />
       <Seofaq />

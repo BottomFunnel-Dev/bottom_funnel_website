@@ -9,7 +9,7 @@
 .leftFooter {
   width: 57%;
 }
-.startWith > h2 {
+.startWith > h3 {
   color: #ef4c23;
 }
 .leftFooter > p {
@@ -162,8 +162,15 @@
 }
 .logoBottom {
   width: 45%;
+  position: relative;
 }
-
+.taglinefooter{
+position: absolute;
+top: 120px;
+width: 100%;
+left: 0px;
+color: white;
+}
 .startWith {
   display: flex;
 }

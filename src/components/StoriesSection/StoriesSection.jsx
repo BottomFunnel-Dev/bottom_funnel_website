@@ -143,7 +143,7 @@ const StoriesSection = () => {
   };
   return (
     <div className="storiesSection">
-      <h2>What Our clients says about us</h2>
+      <h3>What Our clients says about us</h3>
       <Slider {...settings}>
         {arr.map((item, i) => (
           <div key={i} className="mainContentDiv">

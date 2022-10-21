@@ -6,6 +6,7 @@
     background-size: 100% 100%;
     background-position:bottom;
     background-origin: border-box;
+    position: relative;
 }
 
 
@@ -14,7 +15,7 @@
     width: 325px;
     height: 430px;
     position: absolute;
-    top: 37%;
+    top: 36%;
     right: 32%;
   }
   .localgifDenote>img{

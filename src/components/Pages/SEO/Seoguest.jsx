@@ -18,6 +18,8 @@ import Seoexperts from "../../SEO/Seo experts/Seoexperts";
 import Seofaq from "../../SEO/SeoFaq/Seofaq";
 import ContectForm from "../../ContectForm/ContectForm";
 import MainFooter from "../../FooterSection/MainFooter";
+import SeoServices from "../../SEO/SeoServices/SeoServices";
+import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
 
 const Seoguest = () => {
   return (
@@ -25,9 +27,12 @@ const Seoguest = () => {
       <SeoguestSection />
       <Seostats />
       <Reviews />
-      <Seotrusted />
+      {/* <Seotrusted /> */}
+      <Trusted/>
+
       <SeoguestEnquiryNow />
-      <SeoguestServices />
+      {/* <SeoguestServices /> */}
+      <SeoServices/>
       <StoriesSection />
       <Seoexperts />
       <Seofaq />

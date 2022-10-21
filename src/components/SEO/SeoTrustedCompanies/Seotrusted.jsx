@@ -10,6 +10,7 @@ const Trusted = () => {
         infinite: true,
         speed: 1000,
         slidesToShow: 5,
+        initialSlide:0,
         slidesToScroll: 1,
         arrows: false,
         autoplay:true,
@@ -20,36 +21,36 @@ const Trusted = () => {
     <div className='_SeoTrusted'>
 
         <div className="_SeoTrustedtext">
-            Trusted By Global Brands
+            <h2 className='globalbrands'>Trusted By Global Brands</h2>
         </div>
         <div className='_SeoTrustedCarousel'>
             <Slider {...settings}>
                 <div className='_Seobrandimg'>
-                    <img src={tata} alt="image.jpg"/>  
+                    <img src="Images/seopages/brand1.png" alt="image.jpg"/>  
                 </div>
                 <div className='_Seobrandimg'>
-                    <img src={hdfc} alt="image.jpg"/>  
+                    <img src="Images/seopages/brand2.png" alt="image.jpg"/>  
                 </div>
                 <div className='_Seobrandimg'>
-                    <img src={airtel} alt="image.jpg"/>  
+                    <img src="Images/seopages/brand3.png" alt="image.jpg"/>  
                 </div>
                 <div className='_Seobrandimg'>
-                    <img src={tata} alt="image.jpg"/>  
+                    <img src="Images/seopages/brand4.png" alt="image.jpg"/>  
                 </div>
                 <div className='_Seobrandimg'>
-                    <img src={hdfc} alt="image.jpg"/>  
+                    <img src="Images/seopages/brand5.png" alt="image.jpg"/>  
                 </div>
                 <div className='_Seobrandimg'>
-                    <img src={airtel} alt="image.jpg"/>  
+                    <img src="Images/seopages/brand6.png" alt="image.jpg"/>  
                 </div>
                 <div className='_Seobrandimg'>
-                    <img src={tata} alt="image.jpg"/>  
+                    <img src="Images/seopages/brand7.png" alt="image.jpg"/>  
                 </div>
                 <div className='_Seobrandimg'>
-                    <img src={hdfc} alt="image.jpg"/>  
+                    <img src="Images/seopages/brand8.png" alt="image.jpg"/>  
                 </div>
                 <div className='_Seobrandimg'>
-                    <img src={airtel} alt="image.jpg"/>  
+                    <img src="Images/seopages/brand9.png" alt="image.jpg"/>  
                 </div>
                 
             </Slider>

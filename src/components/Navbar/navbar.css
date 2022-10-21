@@ -13,7 +13,7 @@
 
 .navbarSection.active {
   background: white;
-  transition: all 0.1s linear;
+  /* transition: all 0.1s linear; */
   /* position: relative; */
   border-bottom: 0.5px solid rgb(232, 227, 227);
 }
@@ -114,7 +114,7 @@
   /* border-top: 1px solid black; */
   /* opacity: 0; */
   top: 75px;
-  transition: all 0.01s linear;
+  /* transition: all 0.01s linear; */
 }
 
 .listIconFirst {
@@ -345,13 +345,13 @@
   /* border-left: 3px solid #ef4c23; */
   margin-top: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  transition: all 0.3s linear;
+  /* transition: all 0.3s linear; */
 }
 .backendimageIconDivSection:hover {
   /* border-left: 3px solid #ef4c23; */
   margin-top: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  transition: all 0.3s linear;
+  /* transition: all 0.3s linear; */
 }
 
 .imageIconDivSection > p {
@@ -478,7 +478,7 @@
 .trendImageIconDivSection:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-top: 0;
-  transition: all 0.3s linear;
+  /* transition: all 0.3s linear; */
 }
 .trendImageIconDivSection:hover .iconDivSection {
   border-left: 3px solid #ef4c23;

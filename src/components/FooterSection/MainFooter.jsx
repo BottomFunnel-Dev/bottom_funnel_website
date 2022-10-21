@@ -73,6 +73,7 @@ const MainFooter = () => {
         <div className="footerLogo">
           <div className="logoBottom">
             <img src="Images/footer/whitelogobottom.png" alt="" />
+            <i className="taglinefooter">"Build Your Brands Presence"</i>
           </div>
 
           <div className="footerAddress">
@@ -123,7 +124,7 @@ const MainFooter = () => {
       <div className="leftFooter">
         {/* <p>Lorem ipsum dolor sit amet.</p> */}
         <div className="startWith">
-          <h2>Start With Bottom Funnel Today</h2>
+          <h3>Start With Bottom Funnel Today</h3>
           <button>Plan Project</button>
         </div>
 

@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import { BsGlobe, BsApple, BsArrowRight } from "react-icons/bs";
 import { AiFillAndroid } from "react-icons/ai";
 import { IconContext } from "react-icons";
+import { Link } from "react-router-dom";
 
 const PortFolio = () => {
   const [imageIndex, setImageIndex] = useState(0);
@@ -37,6 +38,9 @@ const PortFolio = () => {
       frontend: " React, jquery, Mordenizr",
       backend: " Java, ASP.NET,",
       database: " CloudFront",
+      website:"https://www.yanbal.com//bo/",
+      playStore:"http://play.google.com/store/apps/details?id=yanbal.colombia2",
+
     },
     {
       leftimg: "Images/portfolio/bbgroup.png",
@@ -50,6 +54,7 @@ const PortFolio = () => {
       frontend: " React, jquery, Javascript",
       backend: " PHP, Ruby on Rails,",
       database: " CloudFare works",
+      website:"https://blueberrygroup.co/"
     },
     {
       leftimg: "Images/portfolio/blueberry2.png",
@@ -61,6 +66,8 @@ const PortFolio = () => {
       frontend: " Jquery, GSAP, Mordenizr",
       backend: " PHP, PHP7,",
       database: " Amazon Route 53",
+      website:"https://www.blueberry-travel.com/"
+
     },
 
     {
@@ -77,12 +84,14 @@ const PortFolio = () => {
       frontend: " Jquery,Bootstrap",
       backend: " Java",
       database: " CloudFront",
+      website:"https://www.jamboshop.com/",
+      playStore:"http://play.google.com/store/apps/details?id=com.coffye.lijwvx"
     },
 
     {
       leftimg: "Images/portfolio/roshi.png",
       rightImg: "Images/portfolio/roshi1.png",
-      title: "Roshi",
+      title: "Roshi Wellness",
       tagline: "Global Herbal Products Brand",
       description: `Roshi brings the sophistication of supply chain technologies designed for FDA regulated products to
       cannabis. Purpose built for cannabis and hemp cultivators, manufacturers, processors and
@@ -92,6 +101,7 @@ const PortFolio = () => {
       frontend: " jquery, Bootstrap",
       backend: " ASP.NET MVC, ASP.NET,",
       database: " CloudFront",
+      website:"https://roshiwellness.com/"
     },
     {
       leftimg: "Images/portfolio/nextholidays2.png",
@@ -107,6 +117,7 @@ const PortFolio = () => {
       frontend: " Angular, jquery",
       backend: " ASP.NET, ASP.NET MVC",
       database: " Cloudflare.js, CDN.js",
+      website:"https://www.nextholidays.com/"
     },
     {
       leftimg: "Images/portfolio/oncart2.png",
@@ -122,6 +133,9 @@ const PortFolio = () => {
       frontend: " Angular, jquery, Mordenizr",
       backend: " PHP, ASP.NET,",
       database: " CloudFront, AJAX Libraries API",
+      website: "https://www.on-cart.com/",
+      playStore:"http://play.google.com/store/apps/details?id=com.coffye.lijwvx"
+
     },
     {
       leftimg: "Images/portfolio/travelflap.png",
@@ -135,6 +149,7 @@ const PortFolio = () => {
       frontend: "React, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
+      website: "https://www.travelflap.com/"
     },
     {
       leftimg: "Images/portfolio/mukunda.png",
@@ -149,6 +164,7 @@ const PortFolio = () => {
       frontend: "React, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
+      website: "https://www.themukunda.com/"
     },
     {
       leftimg: "Images/portfolio/spjbg.png",
@@ -163,6 +179,7 @@ const PortFolio = () => {
       frontend: "React, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
+      website:"https://spj-electronics.com/"
     },
     {
       leftimg: "Images/portfolio/amydus2.png",
@@ -174,6 +191,7 @@ const PortFolio = () => {
       frontend: "React, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
+      website:"https://www.amydus.com/"
     },
   ];
   return (
@@ -212,15 +230,18 @@ const PortFolio = () => {
                   <div className="appstore">
                     <span>Available On</span>
 
-                    <IconContext.Provider value={{ className: "webIcon" }}>
+                    {/* <IconContext.Provider  value={{ className: "webIcon" }}>
                       <BsApple />
-                    </IconContext.Provider>
-                    <IconContext.Provider value={{ className: "webIcon" }}>
+                    </IconContext.Provider> */}
+
+                   <a href={item.playStore} target="_blank"> <IconContext.Provider value={{ className: "webIcon" }}>
                       <AiFillAndroid />
-                    </IconContext.Provider>
-                    <IconContext.Provider value={{ className: "webIcon" }}>
+                    </IconContext.Provider></a>
+
+                    <a href={item.website} target="_blank"><IconContext.Provider value={{ className: "webIcon" }}>
                       <BsGlobe />
-                    </IconContext.Provider>
+                    </IconContext.Provider></a>
+
                   </div>
                 </div>
                 <div className="bottomfunnelBranding">

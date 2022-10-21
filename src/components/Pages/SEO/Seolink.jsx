@@ -19,6 +19,8 @@ import Seoexperts from "../../SEO/Seo experts/Seoexperts";
 import Seofaq from "../../SEO/SeoFaq/Seofaq";
 import ContectForm from "../../ContectForm/ContectForm";
 import MainFooter from "../../FooterSection/MainFooter";
+import SeoServices from "../../SEO/SeoServices/SeoServices";
+import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
 
 export default function Seolink() {
   return (
@@ -26,9 +28,11 @@ export default function Seolink() {
       <SeoLinkSection />
       <Seostats />
       <Reviews />
-      <Seotrusted />
+      {/* <Seotrusted /> */}
+      <Trusted/>
       <SeoLinkEnquiryNow />
-      <SeoLinkServices />
+      {/* <SeoLinkServices /> */}
+      <SeoServices/>
       <StoriesSection />
       <Getintouchcard />
       <Seoexperts />

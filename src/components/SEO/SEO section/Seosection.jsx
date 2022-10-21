@@ -40,7 +40,7 @@ function Seosection(){
                                 <option value="2000$ to 3000$">2000$ to 3000$</option>
                             </select><br />
                             <input placeholder="Share Your Requirement" className="_seoforminput" type="text" /><br />
-                            <div className="_SeoSubmitbutton">Submit</div>
+                            <div className="_SeoSubmitbutton"><button>Submit</button></div>
                         </div>
                     </div>
                 </div>

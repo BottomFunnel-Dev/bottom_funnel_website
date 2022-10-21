@@ -6,7 +6,7 @@ export default function SeoPPCSection(){
     return (
         <div className="_SeoPPCMain1">
              <div className="ppcgifDenote">
-                <img src="Images/seopages/vec-4.gif" alt="" />
+                <img src="Images/seopages/8.gif" alt="" />
             </div>
             <div className="_SeoPPCupperdiv">
                 <div className="_SeoPPCtext" >

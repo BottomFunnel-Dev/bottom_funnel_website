@@ -3,7 +3,7 @@ import "./Seoblogs.css";
 export const SeoblogSection=()=> {
   return (
     <div className="_Seoblogs12">
-      <h1>Latest Blogs</h1>
+      <h2>Latest Blogs</h2>
       <div className="_Seoblogs">
         <div className="_Seoblogs1">
           <div className="_Seoblogsimage">

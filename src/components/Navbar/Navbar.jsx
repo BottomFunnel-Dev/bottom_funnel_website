@@ -715,24 +715,24 @@ const Navbar = () => {
   const [navbar, setNabvar] = useState(false);
 
   const transition = useTransition(aboutH, {
-    from: { x: 0, y: -10, opacity: 0 },
+    from: { x: 0, y: 0, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
-    leave: { x: 0, y: -10, opacity: 0 },
+    leave: { x: 0, y: 0, opacity: 0 },
   });
   const transitionSol = useTransition(solution, {
-    from: { x: 0, y: -10, opacity: 0 },
+    from: { x: 0, y: 0, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
-    leave: { x: 0, y: -10, opacity: 0 },
+    leave: { x: 0, y: 0, opacity: 0 },
   });
   const serTransition = useTransition(service, {
-    from: { x: 0, y: -10, opacity: 0 },
+    from: { x: 0, y: 0, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
-    leave: { x: 0, y: -10, opacity: 0 },
+    leave: { x: 0, y: 0, opacity: 0 },
   });
   const skillTransition = useTransition(skill, {
-    from: { x: 0, y: -10, opacity: 0 },
+    from: { x: 0, y: 0, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
-    leave: { x: 0, y: -10, opacity: 0 },
+    leave: { x: 0, y: 0, opacity: 0 },
   });
 
   const skillHoverIn = () => {

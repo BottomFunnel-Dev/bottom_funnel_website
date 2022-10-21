@@ -6,7 +6,7 @@ export default function Seofaq(){
 
     return(
         <div className="seofaqs">
-            <h1 className="_SeoFaqheading">Frequently Asked Questions</h1>
+            <h2 className="_SeoFaqheading">Frequently Asked Questions</h2>
             <Accordion flush className="_Seofaq1"> 
               <Accordion.Item eventKey="0">
                 <Accordion.Header className="_Seoheader"><p className="_Seofaq2">Questions you must ask when you are recruiting an SEO Agency</p></Accordion.Header>

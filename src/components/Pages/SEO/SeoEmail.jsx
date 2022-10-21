@@ -12,15 +12,17 @@ import SeoEmailExperts from "../../SeoEmail/SeoEmailExperts";
 import SeoEmailFaq from "../../SeoEmail/SeoEmailFaq";
 import { SeoblogSection } from "../../SeoBlogs/Seoblogs";
 import MainFooter from "../../FooterSection/MainFooter";
+import SeoServices from "../../SEO/SeoServices/SeoServices";
 const SeoEmail = () => {
   return (
     <div>
       <SeoEmailSection />
       <Seostats />
       <Reviews />
-      <SeoEmailTrusted/>
+      <Trusted/>
       <SeoEmailEnquiryNow/>
-      <SeoEmailServices/>
+      <SeoServices/>
+
       <StoriesSection/>
       <SeoEmailExperts/>
       <SeoEmailFaq/>

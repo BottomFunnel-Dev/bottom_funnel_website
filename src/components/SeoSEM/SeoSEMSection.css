@@ -6,14 +6,15 @@
   background-size: 100% 100%;
   background-position: bottom;
   background-origin: border-box;
+  position: relative;
 }
 
 .semgifDenote{
-  width: 325px;
+  width: 380px;
   height: 430px;
   position: absolute;
-  top: 35%;
-  right: 30%;
+  top: 39%;
+  right: 31%;
 }
 .semgifDenote>img{
   width: 100%;

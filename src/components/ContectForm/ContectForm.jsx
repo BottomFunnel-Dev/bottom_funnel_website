@@ -11,14 +11,17 @@ import { RiMessage2Fill } from "react-icons/ri";
 import { BiMessage } from "react-icons/bi";
 import { IconContext } from "react-icons/lib";
 import { BsSkype } from "react-icons/bs";
-import {MdEmail} from 'react-icons/md'
+import { MdEmail } from "react-icons/md";
+import { countrycodes } from "./countrycode";
+import { budget } from "./countrycode";
+import { interested } from "./countrycode";
 
 const ContectForm = () => {
   return (
     <div className="mainLeadform">
       <div className="backgroundDiv">
         <div className="formHeader">
-          <h1>Interested in working with us?</h1>
+          <h2>Interested in working with us?</h2>
           <h5>Let's talk and get started</h5>
         </div>
       </div>
@@ -40,15 +43,15 @@ const ContectForm = () => {
               </div>
             </div>
             <div className="mailAddress">
-            <div className="iconDiv">
-            <IconContext.Provider value={{ className: "mailIcon" }}>
-                <BsSkype />
-              </IconContext.Provider>
-            </div>
+              <div className="iconDiv">
+                <IconContext.Provider value={{ className: "mailIcon" }}>
+                  <BsSkype />
+                </IconContext.Provider>
+              </div>
 
               <div className="mailtextDiv">
                 <p>Our Skype ID</p>
-                <h3>skype@bottomFunnel</h3>
+                <h3>bottomfunnel</h3>
               </div>
             </div>
 
@@ -81,11 +84,11 @@ const ContectForm = () => {
                 <BsFillTelephoneFill />
               </IconContext.Provider>
               <select className="countryCode" name="" id="">
-                <option value="+91">IN +91</option>
-                <option value="+91">IN +91</option>
-                <option value="+91">IN +91</option>
-                <option value="+91">IN +91</option>
-                <option value="+91">IN +91</option>
+                {countrycodes.map((item, i) => (
+                  <option key={i} value={item.code}>
+                    {item.code} {item.dial_code}
+                  </option>
+                ))}
               </select>
             </div>
             <input
@@ -99,12 +102,9 @@ const ContectForm = () => {
               </IconContext.Provider>
               <select className="selectPart" name="" id="">
                 <option value="Select">Interested In*</option>
-                <option value="Select">Select</option>
-                <option value="Select">Select</option>
-                <option value="Select">Select</option>
-                <option value="Select">Select</option>
-                <option value="Select">Select</option>
-                <option value="Select">Select</option>
+                {interested.map((item, i) => (
+                  <option key={i} value={item.service}>{item.service}</option>
+                ))}
               </select>
             </div>
             <div id="budgetSelect" className="selectClass">
@@ -113,12 +113,9 @@ const ContectForm = () => {
               </IconContext.Provider>
               <select className="selectPart" name="" id="">
                 <option value="Select">Your Budget</option>
-                <option value="Select">Select</option>
-                <option value="Select">Select</option>
-                <option value="Select">Select</option>
-                <option value="Select">Select</option>
-                <option value="Select">Select</option>
-                <option value="Select">Select</option>
+                {budget.map((item,i)=>(
+                  <option key={i} value={item.budget}>{item.budget}</option>
+                ))}
               </select>
             </div>
             <div className="inputWithIcon">
