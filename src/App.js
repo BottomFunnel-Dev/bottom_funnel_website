@@ -34,6 +34,7 @@ import { EcommerceComPage } from "./components/EcommerceCom/EcommerceComPage";
 import Grocery from "./components/Grocery/Grocery";
 import Travel from "./components/Travel/Travel";
 import Videostreaming from "./components/Videostreaming/Videostreaming";
+import Dating from "./components/Dating/Dating";
 
 function App() {
   return (
@@ -88,6 +89,8 @@ function App() {
         <Route path="/grocery" element={<Grocery/>} />
         <Route path="/travel" element={<Travel/>} />
         <Route path="/videostreaming" element={<Videostreaming/>} />
+        {/* <Route path="/dating" element={<Dating/>} /> */}
+
 
 
 

@@ -16,7 +16,7 @@ export default function SeoEmailSection(){
                     Our Search Engine Marketing Services start with in-depth keyword research along with Email campaign setup and optimization to deliver ROI-driven Email management services. Our Search Engine Marketing Company follows a brand-focused approach backed by seamless coordination and detailed reporting, thus helping your clients meet their paid search goals.
                     </p>
                     <div className="_SeoEmailPricing">
-                        Check Email SEO Pricing
+                        <button>Check Email SEO Pricing</button>
                     </div>
                 </div>
                 <div className="_SeoEmailform">
@@ -39,7 +39,7 @@ export default function SeoEmailSection(){
                                 <option value="2000$ to 3000$">2000$ to 3000$</option>
                             </select><br />
                             <input placeholder="Share Your Requirement" className="_seoEmailforminput" type="text" /><br />
-                            <div className="_SeoEmailSubmitbutton">Submit</div>
+                            <div className="_SeoEmailSubmitbutton"><button>Submit</button></div>
                         </div>
                     </div>
                 </div>

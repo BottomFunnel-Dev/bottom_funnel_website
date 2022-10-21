@@ -16,7 +16,7 @@ export default function SeoLinkSection(){
                     As a link building services company, we help brands create growth-driven link building strategies. This enables brands to draw great backlinks from high DA websites and reach the right audience. Increase your search engine ranking with our white hat link building services via blogger outreach, resource link building, brand mentions and infographic submission. Our link building strategy can boost your website's overall SEO performance with our experts’ high-quality link building.
                     </p>
                     <div className="_SeoLinkPricing">
-                        Check Link SEO Pricing
+                     <button>Check Link SEO Pricing</button>
                     </div>
                 </div>
                 <div className="_SeoLinkform">
@@ -39,7 +39,7 @@ export default function SeoLinkSection(){
                                 <option value="2000$ to 3000$">2000$ to 3000$</option>
                             </select><br />
                             <input placeholder="Share Your Requirement" className="_seoLinkforminput" type="text" /><br />
-                            <div className="_SeoLinkSubmitbutton">Submit</div>
+                            <div className="_SeoLinkSubmitbutton"><button>Submit</button></div>
                         </div>
                     </div>
                 </div>

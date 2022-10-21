@@ -1,0 +1,119 @@
+.szdatingmobilediv{
+    width: 100%;
+    /* background-color: aqua; */
+    height: 630px;
+    
+}
+
+.szdatingmobiledivflex{
+    width: 90%;
+    margin: auto;
+    /* background-color: black; */
+    height: 600px;
+    display: flex;
+}
+.szmobileimagecontainer{
+    width: 50%;
+    height: 600px;
+    /* background-color: blue; */
+   /* margin-top: 10%; */
+   position: relative;
+}
+ 
+.szmobilebgcircle{
+    width: 90%;
+    height: 450px;
+    position: absolute;
+    z-index: 0;
+}
+.szmobilebgcircle>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.szmobilepbonebg{
+    z-index: 1;
+    position: absolute;
+    height: 550px;
+    width: 70%;
+    margin: 90px;
+}
+.szmobilepbonebg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.szmobilemaches{
+    z-index: 2;
+    position: absolute;
+    height: 430px;
+    width: 70%;
+    margin: 115px 70px;
+}
+.szmobilemaches>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.szcustomerapptext{
+    width: 50%;
+    height: 600px;
+    /* background-color: tomato; */
+    position: relative;
+   padding-top: 25px;
+}
+.szcustomerapptext>h2{
+    margin-left: 30%;
+    color: #FF015D;
+}
+
+.szcustomerapptext>div>p{
+    width: 70%;
+   height: 70px;
+   /* background-color: azure; */
+   color: white;
+    text-align: left;
+    position: absolute;
+    margin: 20px  55px;
+    z-index: 1;
+
+}
+.textsecond{
+    margin-top: 20%;
+}
+.textsecond>div>p{
+    width: 70%;
+    height: 70px;
+    /* background-color: azure; */
+    color: white;
+     text-align: left;
+     position: absolute;
+     margin: 20px  55px;
+     z-index: 1;  
+}
+.textthird{
+    margin-top: 40%;
+}
+.textthird>div>p{
+    width: 70%;
+    height: 70px;
+    /* background-color: azure; */
+    color: white;
+     text-align: left;
+     position: absolute;
+     margin: 20px  55px;
+     z-index: 1;  
+}
+.textfourth{
+    margin-top: 60%;
+}
+.textfourth>div>p{
+    width: 70%;
+    height: 70px;
+    /* background-color: azure; */
+    color: white;
+     text-align: left;
+     position: absolute;
+     margin: 20px  55px;
+     z-index: 1; 
+}

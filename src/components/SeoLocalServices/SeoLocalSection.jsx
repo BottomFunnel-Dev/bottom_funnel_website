@@ -16,7 +16,7 @@ export default function SeoLocalSection(){
                         As a leading Local SEO Company, we bring together the innovation-led approach and Search Engine Friendly practices to help your local business reach and be found by your target users. Our team of Local SEO Experts ensure that your business gains visibility, drives more customers and ultimately revenue.
                     </p>
                     <div className="_SeoLocalPricing">
-                        Check Local SEO Pricing
+                       <button> Check Local SEO Pricing</button>
                     </div>
                 </div>
                 <div className="_SeoLocalform">
@@ -39,7 +39,7 @@ export default function SeoLocalSection(){
                                 <option value="2000$ to 3000$">2000$ to 3000$</option>
                             </select><br />
                             <input placeholder="Share Your Requirement" className="_seoLocalforminput" type="text" /><br />
-                            <div className="_SeoLocalSubmitbutton">Submit</div>
+                            <div className="_SeoLocalSubmitbutton"><button>Submit</button></div>
                         </div>
                     </div>
                 </div>

@@ -317,7 +317,7 @@ const industries = [
   {
     dropContent: "Dating",
     navIcons: "Images/navbar/industriesImage/dateing.png",
-    path: "",
+    path: "dating",
   },
   {
     dropContent: "Cryptocurrency",

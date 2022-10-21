@@ -16,7 +16,7 @@ export default function SeoPPCSection(){
                     Our Search Engine Marketing Services start with in-depth keyword research along with PPC campaign setup and optimization to deliver ROI-driven PPC management services. Our Search Engine Marketing Company follows a brand-focused approach backed by seamless coordination and detailed reporting, thus helping your clients meet their paid search goals.
                     </p>
                     <div className="_SeoPPCPricing">
-                        Check PPC SEO Pricing
+                       <button> Check PPC SEO Pricing</button>
                     </div>
                 </div>
                 <div className="_SeoPPCform">
@@ -39,7 +39,7 @@ export default function SeoPPCSection(){
                                 <option value="2000$ to 3000$">2000$ to 3000$</option>
                             </select><br />
                             <input placeholder="Share Your Requirement" className="_seoPPCforminput" type="text" /><br />
-                            <button className="_SeoPPCSubmitbutton">Submit</button>
+                            <button className="_SeoPPCSubmitbutton"><button>Submit</button></button>
                         </div>
                     </div>
                 </div>
