@@ -1,10 +1,5 @@
 import "./App.css";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  useNavigate,
-} from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 
 import { HomePage } from "./Components/Pages/Home/Home";
 import { Navbar } from "./Components/Navbar/Navbar";
@@ -19,12 +14,12 @@ import { Ionic } from "./Components/Ionic/Ionic";
 import { Iphonepage } from "./Components/Iphonedevelopmentpage/Iphonepage";
 import { Reactnative } from "./Components/Reactnative/Reactnative";
 import { AndroidDevelopmentPage } from "./Components/AndroidDevelopmentPage/AndroidDevelopmentPage";
-import { NodejsPage } from "./Components/Nodejs/nodejs";
-import MainFooter from "./Components/FooterSection/MainFooter";
+// import { NodejsPage } from "./Components/Nodejs/nodejs";
+// import MainFooter from "./Components/FooterSection/MainFooter";
 import { SeoDm } from "./Components/SeoDigitalmarketing/SeoDm";
 import SeoEmail from "./Components/Pages/SEO/SeoEmail";
-import { PhPSkillsPage } from "./Components/php/PhPSkillsPage";
-import { DotNetPage } from "./Components/dotnet/DotNetPage";
+// import { PhPSkillsPage } from "./Components/php/PhPSkillsPage";
+// import { DotNetPage } from "./Components/dotnet/DotNetPage";
 import { FoodDelivery } from "./Components/food-delivery/FoodDeliveryPage";
 import Beautysection from "./Components/Beautyandcare/Beautysection";
 // import { Seomainpage } from "./Components/SEO/Seomainpage/Seomainpage";
@@ -62,7 +57,7 @@ import { EcommerceComPage } from "./Components/EcommerceCom/EcommerceComPage";
 import Grocery from "./Components/Grocery/Grocery";
 import Travel from "./Components/Travel/Travel";
 import Videostreaming from "./Components/Videostreaming/Videostreaming";
-import Dating from "./Components/Dating/Dating";
+// import Dating from "./Components/Dating/Dating";
 import { useEffect } from "react";
 
 function App() {
