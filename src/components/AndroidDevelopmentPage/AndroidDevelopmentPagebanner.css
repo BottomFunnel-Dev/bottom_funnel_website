@@ -11,8 +11,8 @@
   position: relative;
   height: 100%;
 }
-.androidText>div>h1 {
- color: white;
+.androidText > div > h1 {
+  color: white;
 }
 .androidText > div {
   width: 80%;
@@ -22,26 +22,22 @@
   left: 55%;
 }
 .androidText > div > p {
-    color: white;
+  color: white;
 }
 .androidText > div > button {
   font-weight: 600;
   font-size: 18px;
   padding: 10px 60px;
-  border: 1px solid #ef4c23;
+  outline: none;
+  border: none;
   background-color: white;
   color: #ef4c23;
   border-radius: 25px;
+  transition: all 0.3s linear;
 }
 .androidText > div > button:hover {
-  font-weight: 600;
-  font-size: 18px;
-  padding: 10px 60px;
   background-color: #ef4c23;
-  border: 1px solid #ef4c23;
   color: white;
-  border-radius: 25px;
-  transition: all .3s linear;
 }
 .androidHero {
   width: 50%;

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useTransition, animated } from "react-spring";
 import { IoIosPeople } from "react-icons/io";
 import { IconContext } from "react-icons";
@@ -707,6 +707,7 @@ const cms = [
 ];
 
 export const Navbar = () => {
+  const navigate = useNavigate();
   const [aboutH, setAboutH] = useState(false);
   const [solution, setSolution] = useState(false);
   const [service, setService] = useState(false);
@@ -771,7 +772,7 @@ export const Navbar = () => {
   };
   const homeHoverOut = () => {
     setAboutH(false);
-    if (window.scrollY == 0) {
+    if (window.scrollY === 0) {
       setNabvar(false);
     }
   };
@@ -865,7 +866,13 @@ export const Navbar = () => {
               </Link>
               <div className="listItems">
                 {company.map((item, i) => (
-                  <div className="imageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      homeHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -890,7 +897,13 @@ export const Navbar = () => {
               </Link>
               <div className="listItems">
                 {whyBottom.map((item, i) => (
-                  <div className="imageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      homeHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -915,7 +928,13 @@ export const Navbar = () => {
               </Link>
               <div className="listItems">
                 {process.map((item, i) => (
-                  <div className="imageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      homeHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -950,7 +969,13 @@ export const Navbar = () => {
               </Link>
               <div className="listItems">
                 {webservice.map((item, i) => (
-                  <div className="imageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      solHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -975,7 +1000,13 @@ export const Navbar = () => {
               </Link>
               <div className="listItems">
                 {appservice.map((item, j) => (
-                  <div className="imageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      solHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -1005,7 +1036,14 @@ export const Navbar = () => {
                   //   onClick={solHoverOut}
                   //   className="servicesP"
                   // >
-                  <div key={l} className="imageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      solHoverOut();
+                    }}
+                    key={l}
+                    className="imageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -1031,7 +1069,13 @@ export const Navbar = () => {
               </Link>
               <div className="trendListItems">
                 {trendingTech.map((item, m) => (
-                  <div className="trendImageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      solHoverOut();
+                    }}
+                    className="trendImageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -1066,7 +1110,13 @@ export const Navbar = () => {
               </Link>
               <div className="industryListItems">
                 {industries.map((item, i) => (
-                  <div className="imageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      serHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -1091,7 +1141,13 @@ export const Navbar = () => {
               </Link>
               <div className="industryListItems">
                 {ondemand.map((item, i) => (
-                  <div className="imageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      serHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -1126,7 +1182,13 @@ export const Navbar = () => {
               </Link>
               <div className="backendlistItems">
                 {backend.map((item, i) => (
-                  <div className="backendimageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      skillHoverOut();
+                    }}
+                    className="backendimageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -1151,7 +1213,13 @@ export const Navbar = () => {
               </Link>
               <div className="listItems">
                 {frontend.map((item, j) => (
-                  <div className="imageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      skillHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -1177,7 +1245,13 @@ export const Navbar = () => {
               </Link>
               <div className="listItems">
                 {mobile.map((item, j) => (
-                  <div className="imageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      skillHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -1202,7 +1276,13 @@ export const Navbar = () => {
               </Link>
               <div className="listItems">
                 {database.map((item, j) => (
-                  <div className="imageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      skillHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"
@@ -1227,7 +1307,13 @@ export const Navbar = () => {
               </Link>
               <div className="listItems">
                 {cms.map((item, j) => (
-                  <div className="imageIconDivSection">
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      skillHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
                     <div>
                       <img
                         className="iconDivSection"

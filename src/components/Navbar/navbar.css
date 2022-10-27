@@ -354,10 +354,13 @@
   /* border-left: 3px solid #ef4c23; */
   margin-top: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  /* border: 1px solid red; */
   /* transition: all 0.3s linear; */
 }
 .backendimageIconDivSection:hover {
   /* border-left: 3px solid #ef4c23; */
+  cursor: pointer;
   margin-top: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   /* transition: all 0.3s linear; */

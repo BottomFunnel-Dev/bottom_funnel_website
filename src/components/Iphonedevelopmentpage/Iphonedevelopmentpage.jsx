@@ -18,7 +18,7 @@ export const Iphonedevelopmentpage = () => {
       </div>
       <div className="iosImage">
         <div className="macimage">
-          <img src="Images/ios/mac.png" alt="" />
+          <img src="Images/ios/mac.gif" alt="macbook air animation gif" />
         </div>
       </div>
     </div>
