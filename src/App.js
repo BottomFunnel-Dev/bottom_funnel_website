@@ -1,5 +1,10 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useNavigate,
+} from "react-router-dom";
 
 import { HomePage } from "./Components/Pages/Home/Home";
 import { Navbar } from "./Components/Navbar/Navbar";
@@ -58,8 +63,15 @@ import Grocery from "./Components/Grocery/Grocery";
 import Travel from "./Components/Travel/Travel";
 import Videostreaming from "./Components/Videostreaming/Videostreaming";
 import Dating from "./Components/Dating/Dating";
+import { useEffect } from "react";
 
 function App() {
+  const URLpath = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [URLpath]);
+
   return (
     <div className="App">
       <Navbar />
