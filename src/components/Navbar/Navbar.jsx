@@ -823,454 +823,433 @@ export const Navbar = () => {
         </div>
 
         <div className="dropdownBar">
-          <li onMouseEnter={homeHoverIn} onMouseLeave={homeHoverOut}>
-            ABOUT
-            {aboutH ? <WhoWeAre /> : ""}
-          </li>
-          <li onMouseEnter={solHoverIn} onMouseLeave={solHoverOut}>
-            SERVICES
-          </li>
-          <li onMouseEnter={serHoverIn} onMouseLeave={serHoverOut}>
-            SOLUTIONS
-          </li>
-          <li onMouseEnter={skillHoverIn} onMouseLeave={skillHoverOut}>
-            SKILLS
-          </li>
-          <li onMouseEnter={blogHoverIn} onMouseLeave={blogHoverOut}>
-            PRODUCTS
-          </li>
-          <li onMouseEnter={blogHoverIn} onMouseLeave={blogHoverOut}>
-            PORTFOLIO
-          </li>
-          <li onMouseEnter={blogHoverIn} onMouseLeave={blogHoverOut}>
-            BLOGS
-          </li>
+          <div>
+            <li onMouseEnter={homeHoverIn} onMouseLeave={homeHoverOut}>
+              ABOUT
+              {aboutH ? <WhoWeAre /> : ""}
+            </li>
+            <li onMouseEnter={solHoverIn} onMouseLeave={solHoverOut}>
+              SERVICES
+            </li>
+            <li onMouseEnter={serHoverIn} onMouseLeave={serHoverOut}>
+              SOLUTIONS
+            </li>
+            <li onMouseEnter={skillHoverIn} onMouseLeave={skillHoverOut}>
+              SKILLS
+            </li>
+            <li onMouseEnter={blogHoverIn} onMouseLeave={blogHoverOut}>
+              PRODUCTS
+            </li>
+            <li onMouseEnter={blogHoverIn} onMouseLeave={blogHoverOut}>
+              PORTFOLIO
+            </li>
+            <li onMouseEnter={blogHoverIn} onMouseLeave={blogHoverOut}>
+              BLOGS
+            </li>
+          </div>
 
           <button className="callToAction">Hire a Talent</button>
           <button className="callToAction">Apply as a Talent</button>
         </div>
       </nav>
-
-      {transition((style, item) =>
-        item ? (
-          <animated.div
-            onMouseEnter={homeHoverIn}
-            onMouseLeave={homeHoverOut}
-            className="aboutNavVisible"
-            style={style}
-          >
-            <div className="aboutDropdownSection">
-              <div className="aboutDropdownContent">
-                <Link className="noStyle">
-                  <h5>Company</h5>
-                </Link>
-                <div className="listItems">
-                  {company.map((item, i) => (
-                    <div className="imageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={homeHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
+      {aboutH ? (
+        <div
+          onMouseEnter={homeHoverIn}
+          onMouseLeave={homeHoverOut}
+          className="aboutNavVisible"
+        >
+          <div className="aboutDropdownSection">
+            <div className="aboutDropdownContent">
+              <Link className="noStyle">
+                <h5>Company</h5>
+              </Link>
+              <div className="listItems">
+                {company.map((item, i) => (
+                  <div className="imageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
                     </div>
-                  ))}
-                </div>
-              </div>
-              <div className="aboutDropdownContent">
-                <Link className="noStyle">
-                  <h5>Why Bottom Funnel</h5>
-                </Link>
-                <div className="listItems">
-                  {whyBottom.map((item, i) => (
-                    <div className="imageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={homeHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="aboutDropdownContent">
-                <Link className="noStyle">
-                  <h5>Our Process</h5>
-                </Link>
-                <div className="listItems">
-                  {process.map((item, i) => (
-                    <div className="imageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={homeHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
+                    <Link
+                      onClick={homeHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
               </div>
             </div>
-          </animated.div>
-        ) : (
-          ""
-        ),
-      )}
-
-      {transitionSol((style, item) =>
-        item ? (
-          <animated.div
-            onMouseEnter={solHoverIn}
-            onMouseLeave={solHoverOut}
-            className="solutionVisible"
-            style={style}
-          >
-            <div className="dropdownSection">
-              <div className="serviceDropdownContent">
-                <Link className="noStyle">
-                  <h5>Web Development</h5>
-                </Link>
-                <div className="listItems">
-                  {webservice.map((item, i) => (
-                    <div className="imageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
+            <div className="aboutDropdownContent">
+              <Link className="noStyle">
+                <h5>Why Bottom Funnel</h5>
+              </Link>
+              <div className="listItems">
+                {whyBottom.map((item, i) => (
+                  <div className="imageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
                     </div>
-                  ))}
-                </div>
-              </div>
-              <div className="serviceDropdownContent">
-                <Link className="noStyle">
-                  <h5>Mobile App Development</h5>
-                </Link>
-                <div className="listItems">
-                  {appservice.map((item, j) => (
-                    <div className="imageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="serviceDropdownContent">
-                <Link to="digitalmarketing" className="noStyle">
-                  <h5>Digital Marketing</h5>
-                </Link>
-                <div className="listItems">
-                  {digitalmarket.map((item, l) => (
-                    // <Link
-                    //   to={item.path}
-                    //   onClick={solHoverOut}
-                    //   className="servicesP"
-                    // >
-                    <div key={l} className="imageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                    // </Link>
-                  ))}
-                </div>
-              </div>
-              <div id="serviceDropContent" className="serviceDropdownContent">
-                <Link className="noStyle">
-                  <h5>Trending Technologies</h5>
-                </Link>
-                <div className="trendListItems">
-                  {trendingTech.map((item, m) => (
-                    <div className="trendImageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
+                    <Link
+                      onClick={homeHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
               </div>
             </div>
-          </animated.div>
-        ) : (
-          ""
-        ),
-      )}
-
-      {serTransition((style, item) =>
-        item ? (
-          <animated.div
-            onMouseEnter={serHoverIn}
-            onMouseLeave={serHoverOut}
-            className="serviceVisible"
-            style={style}
-          >
-            <div className="industryDropdown">
-              <div className="industryContent">
-                <Link className="noStyle">
-                  <h5>Industries We Serves</h5>
-                </Link>
-                <div className="industryListItems">
-                  {industries.map((item, i) => (
-                    <div className="imageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={serHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
+            <div className="aboutDropdownContent">
+              <Link className="noStyle">
+                <h5>Our Process</h5>
+              </Link>
+              <div className="listItems">
+                {process.map((item, i) => (
+                  <div className="imageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
                     </div>
-                  ))}
-                </div>
-              </div>
-              <div className="industryContent">
-                <Link className="noStyle">
-                  <h5>On Demand Solutions</h5>
-                </Link>
-                <div className="industryListItems">
-                  {ondemand.map((item, i) => (
-                    <div className="imageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={serHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
+                    <Link
+                      onClick={homeHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
               </div>
             </div>
-          </animated.div>
-        ) : (
-          ""
-        ),
-      )}
-
-      {skillTransition((style, item) =>
-        item ? (
-          <animated.div
-            onMouseEnter={skillHoverIn}
-            onMouseLeave={skillHoverOut}
-            className="skillVisible"
-            style={style}
-          >
-            <div className="dropdownSection">
-              <div className="backendDropdownContent">
-                <Link className="noStyle">
-                  <h5>Backend</h5>
-                </Link>
-                <div className="backendlistItems">
-                  {backend.map((item, i) => (
-                    <div className="backendimageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={skillHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
+          </div>
+        </div>
+      ) : null}
+      {solution ? (
+        <div
+          onMouseEnter={solHoverIn}
+          onMouseLeave={solHoverOut}
+          className="solutionVisible"
+        >
+          <div className="dropdownSection">
+            <div className="serviceDropdownContent">
+              <Link className="noStyle">
+                <h5>Web Development</h5>
+              </Link>
+              <div className="listItems">
+                {webservice.map((item, i) => (
+                  <div className="imageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
                     </div>
-                  ))}
-                </div>
-              </div>
-              <div className="skillDropdownContent">
-                <Link className="noStyle">
-                  <h5>Frontend</h5>
-                </Link>
-                <div className="listItems">
-                  {frontend.map((item, j) => (
-                    <div className="imageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={skillHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div className="skillDropdownContent">
-                <Link className="noStyle">
-                  <h5>Mobile</h5>
-                </Link>
-                <div className="listItems">
-                  {mobile.map((item, j) => (
-                    <div className="imageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={skillHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="skillDropdownContent">
-                <Link className="noStyle">
-                  <h5>DataBase</h5>
-                </Link>
-                <div className="listItems">
-                  {database.map((item, j) => (
-                    <div className="imageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={skillHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="skillDropdownContent">
-                <Link className="noStyle">
-                  <h5>CMS Frameworks</h5>
-                </Link>
-                <div className="listItems">
-                  {cms.map((item, j) => (
-                    <div className="imageIconDivSection">
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={skillHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
+                    <Link
+                      onClick={solHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
               </div>
             </div>
-          </animated.div>
-        ) : (
-          ""
-        ),
-      )}
+            <div className="serviceDropdownContent">
+              <Link className="noStyle">
+                <h5>Mobile App Development</h5>
+              </Link>
+              <div className="listItems">
+                {appservice.map((item, j) => (
+                  <div className="imageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
+                    </div>
+                    <Link
+                      onClick={solHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="serviceDropdownContent">
+              <Link to="digitalmarketing" className="noStyle">
+                <h5>Digital Marketing</h5>
+              </Link>
+              <div className="listItems">
+                {digitalmarket.map((item, l) => (
+                  // <Link
+                  //   to={item.path}
+                  //   onClick={solHoverOut}
+                  //   className="servicesP"
+                  // >
+                  <div key={l} className="imageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
+                    </div>
+                    <Link
+                      onClick={solHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                  // </Link>
+                ))}
+              </div>
+            </div>
+            <div id="serviceDropContent" className="serviceDropdownContent">
+              <Link className="noStyle">
+                <h5>Trending Technologies</h5>
+              </Link>
+              <div className="trendListItems">
+                {trendingTech.map((item, m) => (
+                  <div className="trendImageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
+                    </div>
+                    <Link
+                      onClick={solHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : null}
+      {service ? (
+        <div
+          onMouseEnter={serHoverIn}
+          onMouseLeave={serHoverOut}
+          className="serviceVisible"
+        >
+          <div className="industryDropdown">
+            <div className="industryContent">
+              <Link className="noStyle">
+                <h5>Industries We Serves</h5>
+              </Link>
+              <div className="industryListItems">
+                {industries.map((item, i) => (
+                  <div className="imageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
+                    </div>
+                    <Link
+                      onClick={serHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="industryContent">
+              <Link className="noStyle">
+                <h5>On Demand Solutions</h5>
+              </Link>
+              <div className="industryListItems">
+                {ondemand.map((item, i) => (
+                  <div className="imageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
+                    </div>
+                    <Link
+                      onClick={serHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : null}
+      {skill ? (
+        <div
+          onMouseEnter={skillHoverIn}
+          onMouseLeave={skillHoverOut}
+          className="skillVisible"
+        >
+          <div className="dropdownSection">
+            <div className="backendDropdownContent">
+              <Link className="noStyle">
+                <h5>Backend</h5>
+              </Link>
+              <div className="backendlistItems">
+                {backend.map((item, i) => (
+                  <div className="backendimageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
+                    </div>
+                    <Link
+                      onClick={skillHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="skillDropdownContent">
+              <Link className="noStyle">
+                <h5>Frontend</h5>
+              </Link>
+              <div className="listItems">
+                {frontend.map((item, j) => (
+                  <div className="imageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
+                    </div>
+                    <Link
+                      onClick={skillHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="skillDropdownContent">
+              <Link className="noStyle">
+                <h5>Mobile</h5>
+              </Link>
+              <div className="listItems">
+                {mobile.map((item, j) => (
+                  <div className="imageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
+                    </div>
+                    <Link
+                      onClick={skillHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="skillDropdownContent">
+              <Link className="noStyle">
+                <h5>DataBase</h5>
+              </Link>
+              <div className="listItems">
+                {database.map((item, j) => (
+                  <div className="imageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
+                    </div>
+                    <Link
+                      onClick={skillHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="skillDropdownContent">
+              <Link className="noStyle">
+                <h5>CMS Frameworks</h5>
+              </Link>
+              <div className="listItems">
+                {cms.map((item, j) => (
+                  <div className="imageIconDivSection">
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
+                    </div>
+                    <Link
+                      onClick={skillHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : null}
+      ,
     </div>
   );
 };

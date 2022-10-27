@@ -46,9 +46,18 @@
   align-items: center;
   justify-content: space-between;
 }
-.dropdownBar li {
+
+.dropdownBar > div {
+  height: fit-content;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropdownBar > div li {
   /* background-color: green; */
   height: 75px;
+  width: 30%;
   text-align: center;
   padding: 29px 5px;
   color: black;
@@ -56,7 +65,7 @@
   cursor: pointer;
 }
 
-.dropdownBar li:hover {
+.dropdownBar > div li:hover {
   text-decoration: underline;
   text-decoration-color: #ef4c23;
   text-underline-offset: 10px;
@@ -77,27 +86,27 @@
   background-color: white !important;
   border: 1px solid white;
 }
-.navbarSection.active .dropdownBar li:nth-child(8) {
+.navbarSection.active .dropdownBar > div li:nth-child(8) {
   color: white !important;
   background-color: #ef4c23;
   border: 1px solid #ef4c23;
 }
-.navbarSection.active .dropdownBar li {
+.navbarSection.active .dropdownBar > div li {
   color: #ef4c23;
   /* background-color: #ef4c23; */
   /* border: 1px solid #ef4c23; */
 }
 
-.navbarSection.active .dropdownBar li:nth-child(8):hover {
+.navbarSection.active .dropdownBar > div li:nth-child(8):hover {
   background-color: white !important;
   color: black !important;
 }
-.navbarSection.active .dropdownBar li:nth-child(9) {
+.navbarSection.active .dropdownBar > div li:nth-child(9) {
   color: white !important;
   background-color: #ef4c23;
   border: 1px solid #ef4c23;
 }
-.navbarSection.active .dropdownBar li:nth-child(9):hover {
+.navbarSection.active .dropdownBar > div li:nth-child(9):hover {
   background-color: white !important;
   color: #ef4c23 !important;
 }
@@ -612,12 +621,12 @@
     width: 100%;
     background-color: green;
   }
-  .dropdownBar li {
+  .dropdownBar > div li {
     margin: 5px;
     padding: 2px;
   }
 
-  .dropdownBar li:nth-child(1) {
+  .dropdownBar > div li:nth-child(1) {
     padding: 5px;
   }
   #checkbox:checked ~ .dropdownBar {
@@ -665,12 +674,12 @@
     width: 100%;
     background-color: green;
   }
-  .dropdownBar li {
+  .dropdownBar > div li {
     margin: 5px;
     padding: 2px;
   }
 
-  .dropdownBar li:nth-child(1) {
+  .dropdownBar > div li:nth-child(1) {
     padding: 5px;
   }
   #checkbox:checked ~ .dropdownBar {
@@ -718,7 +727,7 @@
   .dropdownBar {
     width: 78%;
   }
-  .dropdownBar li {
+  .dropdownBar > div li {
     font-size: 14px;
   }
 
@@ -746,7 +755,7 @@
   .dropdownBar {
     width: 72%;
   }
-  .dropdownBar li {
+  .dropdownBar > div li {
     font-size: 14px;
   }
 
