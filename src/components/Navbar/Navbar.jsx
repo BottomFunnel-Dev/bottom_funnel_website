@@ -16,7 +16,7 @@ const company = [
     dropContent: "About Us",
     navIcons: "Images/navbar/aboutImage/aboutus.png",
     path: "",
-  },  
+  },
   {
     dropContent: "Our Team",
     navIcons: "Images/navbar/aboutImage/ourteam.png",
@@ -706,7 +706,7 @@ const cms = [
   },
 ];
 
-const Navbar = () => {
+export const Navbar = () => {
   const [aboutH, setAboutH] = useState(false);
   const [solution, setSolution] = useState(false);
   const [service, setService] = useState(false);
@@ -939,7 +939,7 @@ const Navbar = () => {
           </animated.div>
         ) : (
           ""
-        )
+        ),
       )}
 
       {transitionSol((style, item) =>
@@ -1061,7 +1061,7 @@ const Navbar = () => {
           </animated.div>
         ) : (
           ""
-        )
+        ),
       )}
 
       {serTransition((style, item) =>
@@ -1127,7 +1127,7 @@ const Navbar = () => {
           </animated.div>
         ) : (
           ""
-        )
+        ),
       )}
 
       {skillTransition((style, item) =>
@@ -1269,10 +1269,8 @@ const Navbar = () => {
           </animated.div>
         ) : (
           ""
-        )
+        ),
       )}
     </div>
   );
 };
-
-export default Navbar;

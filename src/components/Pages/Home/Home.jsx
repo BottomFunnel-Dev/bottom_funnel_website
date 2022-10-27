@@ -21,7 +21,8 @@ import PortSection from "../../PortFolioSection/PortSection";
 
 import VerticalCarousel from "../../Carousel/IndustriesCarousel";
 import VerticalSilder from "../../Carousel/VerticalSilder";
-const Home = () => {
+
+export const HomePage = () => {
   return (
     <div>
       <Banner />
@@ -36,7 +37,7 @@ const Home = () => {
       <StoriesSection />
       <Industries />
       <OndemandSection />
-      <PortFolio/>
+      <PortFolio />
       <PlanProject />
       <Companystats />
       <Revamping />
@@ -47,5 +48,3 @@ const Home = () => {
     </div>
   );
 };
-
-export default Home;
