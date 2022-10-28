@@ -47,6 +47,8 @@ import {
   springBootData,
   svelteData,
   vuejsData,
+  wordpressData,
+  wixData,
 } from "./Data/SkillsData";
 import { SkillsComPage } from "./Components/skillsPageCom/SkillsComPage";
 import Educationpage from "./Components/education/Educationpage";
@@ -160,6 +162,11 @@ function App() {
           element={<SkillsComPage allData={postgresqlData} />}
         />
         <Route path="/redis" element={<SkillsComPage allData={redisData} />} />
+        <Route
+          path="/wordpress"
+          element={<SkillsComPage allData={wordpressData} />}
+        />
+        <Route path="/wix" element={<SkillsComPage allData={wixData} />} />
 
         <Route path="/beautycareapp" element={<Beautysection />} />
         <Route path="/digitalmarketing" element={<SeoDm />} />

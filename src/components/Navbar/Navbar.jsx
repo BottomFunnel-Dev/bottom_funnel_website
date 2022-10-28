@@ -672,7 +672,7 @@ const cms = [
   {
     dropContent: "Wordpress",
     navIcons: "Images/navbar/skills/wordpress.png",
-    path: "",
+    path: "wordpress",
   },
   {
     dropContent: "Hubspot CMS Hub",
@@ -697,7 +697,7 @@ const cms = [
   {
     dropContent: "Wix",
     navIcons: "Images/navbar/skills/wix.png",
-    path: "",
+    path: "wix",
   },
   {
     dropContent: "Big Commerce",
