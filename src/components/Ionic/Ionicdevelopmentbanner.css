@@ -1,85 +1,56 @@
-._Ionicbannermaindiv{
-    height:600px;
-    background-color:#ffd497 ;
-    position: relative;
-    /* border: 1px solid red; */
-    box-sizing: border-box;
+.Ionic-development-main {
+  margin-top: 45px;
+  width: 100%;
+  height: 700px;
+  display: flex;
 }
-._Ionicbanner{
-    /* border:1px solid red; */
-    display: flex;
-    justify-content: center;
-    position: relative;
+
+.Ionic-developmentText {
+  width: 50%;
+  /* background-color: green; */
+  position: relative;
 }
-._Ionicbanner>div:nth-child(2){
-    /* border: 1px solid rebeccapurple; */
-    padding: 10px;
-    height:95px;
-    font-size: 50px;
-    font-weight: 600;
-    position: absolute;
-    animation-name: example;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
-    color: black;
-    animation-timing-function: linear;
-    left:530px
+.Ionic-developmentText > div {
+  width: 90%;
+  padding: 10px;
+  /* background-color: green; */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
-@keyframes example {
-    0%   {top:20px}
-    100% {top:200px}
-  }
-  ._Ionicbanner>div:nth-child(1){
-    /* border:1px solid red; */
-    height:95px;
-    width: 80px;
-    position: absolute;
-    animation-name:example1;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
-    top:200px;
-    animation-timing-function: linear;
+.Ionic-developmentText > div > button {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 60px;
+  border: 2px solid #498aff;
+  color: #498aff;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-@keyframes example1 {
-    0%   {left:-2%}
-    100% {left:29%}
+.Ionic-developmentText > div > button:hover {
+  color: white;
+  background-color: #498aff;
+  border: 2px solid transparent;
 }
-._Ionicbanner>img{
-    height:100%;
-    width:100%;
-    object-fit: fill;  
+.Ionic-developmentImage {
+  width: 50%;
+  /* background-color: red; */
+  position: relative;
 }
-._Ionicbanner1{
-    border:3px solid white;
-    color: white;
-    height:55px;
-    font-size: 17px;
-    width:140px;
-    background: white;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 12px;
-    border-radius: 30px;
-    font-weight: 600;
-    color: black;
-    margin: auto;
-    position: absolute;
-    cursor:pointer;
-    left:45%;
-    top:50%;
+.Ionic-development-mobileimage {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  /* background-color: pink; */
 }
-/* @keyframes example12 {
-    0%{bottom:0px}
-    100%{bottom: 250px;color:black;background-color: white;}
-} */
-/* ::after ._Ionicbanner1{
-    background-color: white;
-    color: black;
-    transition: 0.2s linear;
-} */
-/* ._Ionicbanner1:hover{
-   background-color: white;
-   color: black;
-   transition: 0.2s linear;
-    /* height: 100%; */
-/* }  */
+.Ionic-development-mobileimage > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}

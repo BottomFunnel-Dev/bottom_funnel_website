@@ -1,9 +1,70 @@
-._Reactnativebanner{
-    /* border:1px solid red; */
-    height:600px;
+._Reactnativebanner {
+  /* border:1px solid red; */
+
+  background-color: white;
+  margin-top: 45px;
+  width: 100%;
+  display: flex;
+  height: 100vh;
 }
-._Reactnativebanner>img{
-    height:100%;
-    width:100%;
-    object-fit: fill;
+._Reactnativebanner > img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.reactNativeText {
+  width: 50%;
+  /* background-color: green; */
+  position: relative;
+}
+.reactNativeText > div {
+  width: 90%;
+  padding: 10px;
+  /* background-color: green; */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.reactNativeText > div > button {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 60px;
+  border: 2px solid transparent;
+  outline: none;
+  color: white;
+  background-color: #ef4c23;
+  border-radius: 25px;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.reactNativeText > div > button:hover {
+  background-color: white;
+  border: 2px solid #ef4c23;
+  color: #ef4c23;
+}
+
+.reactNativeImage {
+  width: 50%;
+  /* background-color: red; */
+  position: relative;
+}
+
+.reactNative-mobileimage {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  /* background-color: pink; */
+}
+
+.reactNative-mobileimage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
