@@ -59,7 +59,7 @@ import { EcommerceComPage } from "./Components/EcommerceCom/EcommerceComPage";
 import Grocery from "./Components/Grocery/Grocery";
 import Travel from "./Components/Travel/Travel";
 import Videostreaming from "./Components/Videostreaming/Videostreaming";
-// import Dating from "./Components/Dating/Dating";
+import Dating from "./Components/Dating/Dating";
 import { useEffect } from "react";
 
 function App() {
@@ -180,7 +180,7 @@ function App() {
         <Route path="/grocery" element={<Grocery />} />
         <Route path="/travel" element={<Travel />} />
         <Route path="/videostreaming" element={<Videostreaming />} />
-        {/* <Route path="/dating" element={<Dating/>} /> */}
+        <Route path="/dating" element={<Dating />} />
       </Routes>
       {/* <Seomainpage/> */}
     </div>
