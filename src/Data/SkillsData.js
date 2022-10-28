@@ -24,6 +24,8 @@
 // redis data -
 // wordpress -
 // wix -
+// joomla -
+// hubspot cms hub -
 
 export const nodejsData = {
   isBanner: true,
@@ -1341,81 +1343,80 @@ export const vuejsData = {
   isBanner: true,
   BannerData: {
     image: "Images/vuejsSkillsPhotos/banner.png",
-    title: "Vuejs Development Services",
-    description:
-      "Delivering on your business vision with quality .NET web development.",
+    title: "Vue.js Development Services",
+    description: "Trust the experts-hire vue.js developers today.",
   },
   isDes: true,
   desData: {
-    title: "Vuejs",
+    title: "Vue.js",
     image: "Images/vuejsSkillsPhotos/vuejs-logo.png",
     description:
-      "Angularjs is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Vue.js is an open-source view-model front end javascript frameword for building user interfaces and single-page applications. It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on defferent use cases. Bottom Funnel is among the leading React.js web application development company in Asia, USA, middle-east and Africa which provides the best React.js web application development services by experienced and best React.js web developers.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR VUEJS WEB DEVELOPMENT SERVICES",
+    title: "VUE.JS WEB DEVELOPMENT SERVICES",
     cardsData: [
       {
         img: {
           src: "Images/vuejsSKillsPhotos/straight-forward.png",
-          alt: "Straightforward Integration logo",
+          alt: "Vue.js Custom App Development logo",
         },
-        title: "Straightforward Integration",
+        title: "Vue.js Custom App Development",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "Use our vue.js custom app development services to create beautiful and innovative single page applications. Our Vue.js developers build custom apps using the latest technologies, so your app will be robust, stable, and secure.",
       },
       {
         img: {
           src: "Images/vuejsSkillsPhotos/easy-understand.png",
-          alt: "Easy to Understand logo",
+          alt: "Single Page App Development logo",
         },
-        title: "Easy to Understand",
+        title: "Single Page App Development",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Use our Vue.js web application development services to develop single page applications because of its fast response time and is versatility. Its lightweight and compact design makes it perfect for single page app development.",
       },
       {
         img: {
           src: "Images/vuejsSkillsPhotos/two-communication.png",
-          alt: "Two-Way Communication logo",
+          alt: "Third-Party Integration logo",
         },
-        title: "Two-Way Communication",
+        title: "Third-Party Integration",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "Our vue.js developers understand how to integrate with various platforms, making sure that your product integrates with the latest trends. use our vue.js integration services for secured and hassle-free third-party integrations.",
       },
       {
         img: {
           src: "Images/vuejsSkillsPhotos/adaptablity.png",
-          alt: "Adaptability logo",
+          alt: "Migration & Integration Services logo",
         },
-        title: "Adaptability",
+        title: "Migration & Integration Services",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Our Vue.js migration and integration services upgrade your present website or migrate it from another platform to Vue.js and to avoid any hitches, our vue.js developers integrate the system and existing web apps together.",
       },
       {
         img: {
           src: "Images/vuejsSKillsPhotos/extra-tool.png",
-          alt: "Extraordinary Tooling logo",
+          alt: "Vue.js Component Development logo",
         },
-        title: "Extraordinary Tooling",
+        title: "Vue.js Component Development",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Our team of experienced vue.js developers have a vast knowledge of Vue.js web application component development and are able to create reusable high-quality components which are compatible with different applications in a short time.",
       },
       {
         img: {
           src: "Images/vuejsSkillsPhotos/small.png",
-          alt: "Small logo",
+          alt: "Vue.js Support & Maintenance logo",
         },
-        title: "Small",
+        title: "Vue.js Support & Maintenance",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Our vue.js support and maintenance services offer 24/7 support so that you can run your web application smoothly and effortlessly. We maintain the latest trends and integrate the latest technologies to keep your product up-to-date.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Angularjs",
+    title: "Why Bottom Funnel for Vue.js",
     image: "Images/vuejsSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -1433,51 +1434,51 @@ export const vuejsData = {
   },
   isRemarkable: false,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "Benefits of using Vue.js web development",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Vue.js is the most popular library framework for building attractive user interfaces and single-page applications. Hire Bottom funnel’s Vue.js web application developers develop attractive high quality web applications and avail the following benefits.",
     cardsData: [
       {
         img: {
           src: "Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          alt: "Straightforward integration logo",
         },
-        title: "Open-source",
+        title: "Straightforward integration",
       },
       {
         img: {
           src: "Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          alt: "Easy to understand logo",
         },
-        title: "Easy complex component handling",
+        title: "Easy to understand",
       },
       {
         img: {
           src: "Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          alt: "Two-way communication logo",
         },
-        title: "Time-Saving Process",
+        title: "Two-way communication",
       },
       {
         img: {
           src: "Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
+          alt: "Adaptability logo",
         },
-        title: "Effective Framework",
+        title: "Adaptability",
       },
       {
         img: {
           src: "Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
+          alt: "Extraordinary tooling logo",
         },
-        title: "Reusable code",
+        title: "Extraordinary tooling",
       },
       {
         img: {
           src: "Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
+          alt: "Flexible and modular logo",
         },
-        title: "Enables Testing Now and Then",
+        title: "Flexible and modular",
       },
     ],
   },
@@ -3473,6 +3474,298 @@ export const wixData = {
   isBookCall: true,
   BookCallData: {
     title: "Need our Redis developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
+export const joomlaData = {
+  isBanner: true,
+  BannerData: {
+    image: "Images/joomlaSkillsPhotos/banner.png",
+    title: "Joomla Development Services",
+    description:
+      "Delivering on your business vision with quality .NET web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Joomla",
+    image: "Images/joomlaSkillsPhotos/joomla-logo.png",
+    description:
+      "Joomla is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR JOOMLA WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/joomlaSkillsPhotos/drone-setting.png",
+          alt: "Free to use logo",
+        },
+        title: "Free to use",
+
+        description:
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+      },
+      {
+        img: {
+          src: "Images/joomlaSkillsPhotos/ecomeerce-desktop.png",
+          alt: "Suitable for e-commerce logo",
+        },
+        title: "Suitable for e-commerce",
+        description:
+          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+      },
+      {
+        img: {
+          src: "Images/joomlaSkillsPhotos/php-icon.png",
+          alt: "Support PHP scripting logo",
+        },
+        title: "Support PHP scripting",
+        description:
+          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+      },
+      {
+        img: {
+          src: "Images/joomlaSkillsPhotos/community.png",
+          alt: "Active forum community logo",
+        },
+        title: "Active forum community",
+        description:
+          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+      },
+      {
+        img: {
+          src: "Images/joomlaSkillsPhotos/cache-database.png",
+          alt: "Build-in caching logo",
+        },
+        title: "Build-in caching",
+        description:
+          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+      },
+      {
+        img: {
+          src: "Images/joomlaSkillsPhotos/languages.png",
+          alt: "Support multiple language logo",
+        },
+        title: "Support multiple language",
+        description:
+          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for Joomla",
+    image: "Images/joomlaSkillsPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive joomla solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our joomla developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
+export const hubspotData = {
+  isBanner: true,
+  BannerData: {
+    image: "Images/hubSkillsPhotos/banner.png",
+    title: "Hubspot CMS hub Development Services",
+    description:
+      "Delivering on your business vision with quality .NET web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Hubspot CMS hub",
+    image: "Images/hubSkillsPhotos/hubspot-logo.png",
+    description:
+      "Hubspot CMS hub is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR HUBSPOT CMS HUB WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/hubSkillsPhotos/drone-setting.png",
+          alt: "Combined publishing logo",
+        },
+        title: "Combined publishing",
+
+        description:
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+      },
+      {
+        img: {
+          src: "Images/hubSkillsPhotos/newsletter.png",
+          alt: "Smart content logo",
+        },
+        title: "Smart content",
+        description:
+          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+      },
+      {
+        img: {
+          src: "Images/hubSkillsPhotos/settings.png",
+          alt: "Personalization without CMS logo",
+        },
+        title: "Personalization without CMS",
+        description:
+          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+      },
+      {
+        img: {
+          src: "Images/hubSkillsPhotos/light.png",
+          alt: "Google AMP support logo",
+        },
+        title: "Google AMP support",
+        description:
+          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+      },
+      {
+        img: {
+          src: "Images/hubSkillsPhotos/security.png",
+          alt: "Security through obscurity logo",
+        },
+        title: "Security through obscurity",
+        description:
+          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+      },
+      {
+        img: {
+          src: "Images/hubSkillsPhotos/checked-setting.png",
+          alt: "Easy to use logo",
+        },
+        title: "Easy to use",
+        description:
+          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for Hubspot CMS Hub",
+    image: "Images/hubSkillsPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive hubspot cms hub solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our hubspot CMS hub developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,

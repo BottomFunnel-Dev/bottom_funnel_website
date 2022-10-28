@@ -49,6 +49,8 @@ import {
   vuejsData,
   wordpressData,
   wixData,
+  joomlaData,
+  hubspotData,
 } from "./Data/SkillsData";
 import { SkillsComPage } from "./Components/skillsPageCom/SkillsComPage";
 import Educationpage from "./Components/education/Educationpage";
@@ -167,6 +169,14 @@ function App() {
           element={<SkillsComPage allData={wordpressData} />}
         />
         <Route path="/wix" element={<SkillsComPage allData={wixData} />} />
+        <Route
+          path="/joomla"
+          element={<SkillsComPage allData={joomlaData} />}
+        />
+        <Route
+          path="/hubspot"
+          element={<SkillsComPage allData={hubspotData} />}
+        />
 
         <Route path="/beautycareapp" element={<Beautysection />} />
         <Route path="/digitalmarketing" element={<SeoDm />} />

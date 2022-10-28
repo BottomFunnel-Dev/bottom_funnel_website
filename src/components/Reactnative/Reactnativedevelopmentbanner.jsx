@@ -19,7 +19,10 @@ export const Reactnativedevelopmentbanner = () => {
       </div>
       <div className="reactNativeImage">
         <div className="reactNative-mobileimage">
-          <img src="Images/ios/mac.gif" alt="macbook air animation gif" />
+          <img
+            src="Images/reactnative/banner.gif"
+            alt="macbook air animation gif"
+          />
         </div>
       </div>
     </div>

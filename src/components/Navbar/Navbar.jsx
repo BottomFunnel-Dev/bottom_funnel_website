@@ -677,12 +677,12 @@ const cms = [
   {
     dropContent: "Hubspot CMS Hub",
     navIcons: "Images/navbar/skills/hubspot.png",
-    path: "",
+    path: "hubspot",
   },
   {
     dropContent: "Joomla",
     navIcons: "Images/navbar/skills/joomla.png",
-    path: "",
+    path: "joomla",
   },
   {
     dropContent: "WooCommerce",

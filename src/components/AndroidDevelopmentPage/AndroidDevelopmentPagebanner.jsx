@@ -17,9 +17,13 @@ export const AndroidDevelopmentPagebanner = () => {
         </div>
       </div>
       <div className="androidHero">
-
-       <div className="androidlogo"> <img src="Images/android/logo.png" alt="" /></div>
-        <div className="phoneimage"><img className="phoneimage" src="Images/android/phone.png" alt="" /></div>
+        <div className="androidlogo">
+          {" "}
+          <img src="Images/android/logo.gif" alt="" />
+        </div>
+        <div className="phoneimage">
+          <img src="Images/android/phone.png" alt="" />
+        </div>
       </div>
     </div>
   );

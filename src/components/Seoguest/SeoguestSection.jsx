@@ -5,7 +5,7 @@ export default function SeoguestSection() {
   return (
     <div className="_SeoEmailMain1">
       <div className="emailgifDenote">
-        <img src="Images/seopages/comp-2.gif" alt="" />
+        <img src="Images/seopages/comp-7.gif" alt="animated gif" />
       </div>
       <div className="_SeoEmailupperdiv">
         <div className="_SeoEmailtext">

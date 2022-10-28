@@ -38,9 +38,9 @@ const PortFolio = () => {
       frontend: " React, jquery, Mordenizr",
       backend: " Java, ASP.NET,",
       database: " CloudFront",
-      website:"https://www.yanbal.com//bo/",
-      playStore:"http://play.google.com/store/apps/details?id=yanbal.colombia2",
-
+      website: "https://www.yanbal.com//bo/",
+      playStore:
+        "http://play.google.com/store/apps/details?id=yanbal.colombia2",
     },
     {
       leftimg: "Images/portfolio/bbgroup.png",
@@ -54,7 +54,7 @@ const PortFolio = () => {
       frontend: " React, jquery, Javascript",
       backend: " PHP, Ruby on Rails,",
       database: " CloudFare works",
-      website:"https://blueberrygroup.co/"
+      website: "https://blueberrygroup.co/",
     },
     {
       leftimg: "Images/portfolio/blueberry2.png",
@@ -66,8 +66,7 @@ const PortFolio = () => {
       frontend: " Jquery, GSAP, Mordenizr",
       backend: " PHP, PHP7,",
       database: " Amazon Route 53",
-      website:"https://www.blueberry-travel.com/"
-
+      website: "https://www.blueberry-travel.com/",
     },
 
     {
@@ -84,8 +83,9 @@ const PortFolio = () => {
       frontend: " Jquery,Bootstrap",
       backend: " Java",
       database: " CloudFront",
-      website:"https://www.jamboshop.com/",
-      playStore:"http://play.google.com/store/apps/details?id=com.coffye.lijwvx"
+      website: "https://www.jamboshop.com/",
+      playStore:
+        "http://play.google.com/store/apps/details?id=com.coffye.lijwvx",
     },
 
     {
@@ -101,7 +101,7 @@ const PortFolio = () => {
       frontend: " jquery, Bootstrap",
       backend: " ASP.NET MVC, ASP.NET,",
       database: " CloudFront",
-      website:"https://roshiwellness.com/"
+      website: "https://roshiwellness.com/",
     },
     {
       leftimg: "Images/portfolio/nextholidays2.png",
@@ -117,7 +117,7 @@ const PortFolio = () => {
       frontend: " Angular, jquery",
       backend: " ASP.NET, ASP.NET MVC",
       database: " Cloudflare.js, CDN.js",
-      website:"https://www.nextholidays.com/"
+      website: "https://www.nextholidays.com/",
     },
     {
       leftimg: "Images/portfolio/oncart2.png",
@@ -134,8 +134,8 @@ const PortFolio = () => {
       backend: " PHP, ASP.NET,",
       database: " CloudFront, AJAX Libraries API",
       website: "https://www.on-cart.com/",
-      playStore:"http://play.google.com/store/apps/details?id=com.coffye.lijwvx"
-
+      playStore:
+        "http://play.google.com/store/apps/details?id=com.coffye.lijwvx",
     },
     {
       leftimg: "Images/portfolio/travelflap.png",
@@ -149,7 +149,7 @@ const PortFolio = () => {
       frontend: "React, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
-      website: "https://www.travelflap.com/"
+      website: "https://www.travelflap.com/",
     },
     {
       leftimg: "Images/portfolio/mukunda.png",
@@ -164,7 +164,7 @@ const PortFolio = () => {
       frontend: "React, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
-      website: "https://www.themukunda.com/"
+      website: "https://www.themukunda.com/",
     },
     {
       leftimg: "Images/portfolio/spjbg.png",
@@ -179,7 +179,7 @@ const PortFolio = () => {
       frontend: "React, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
-      website:"https://spj-electronics.com/"
+      website: "https://spj-electronics.com/",
     },
     {
       leftimg: "Images/portfolio/amydus2.png",
@@ -191,7 +191,7 @@ const PortFolio = () => {
       frontend: "React, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
-      website:"https://www.amydus.com/"
+      website: "https://www.amydus.com/",
     },
   ];
   return (
@@ -234,14 +234,18 @@ const PortFolio = () => {
                       <BsApple />
                     </IconContext.Provider> */}
 
-                   <a href={item.playStore} target="_blank"> <IconContext.Provider value={{ className: "webIcon" }}>
-                      <AiFillAndroid />
-                    </IconContext.Provider></a>
+                    <a href={item.playStore} target="_blank">
+                      {" "}
+                      <IconContext.Provider value={{ className: "webIcon" }}>
+                        <AiFillAndroid />
+                      </IconContext.Provider>
+                    </a>
 
-                    <a href={item.website} target="_blank"><IconContext.Provider value={{ className: "webIcon" }}>
-                      <BsGlobe />
-                    </IconContext.Provider></a>
-
+                    <a href={item.website} target="_blank">
+                      <IconContext.Provider value={{ className: "webIcon" }}>
+                        <BsGlobe />
+                      </IconContext.Provider>
+                    </a>
                   </div>
                 </div>
                 <div className="bottomfunnelBranding">

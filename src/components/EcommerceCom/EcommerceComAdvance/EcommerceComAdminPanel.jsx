@@ -14,7 +14,7 @@ export const EcommerceComAdminPanel = () => {
     cardsData: [
       {
         image: {
-          src: "Images/ecommercePhotos/one.png",
+          src: "Images/Ecommercephotos/one.png",
           alt: "can be easily accessed through both android/ios",
         },
         description:
@@ -22,7 +22,7 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "Images/ecommercePhotos/two.png",
+          src: "Images/Ecommercephotos/two.png",
           alt: "user-friendly interface logo",
         },
         description:
@@ -30,7 +30,7 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "Images/ecommercePhotos/three.png",
+          src: "Images/Ecommercephotos/three.png",
           alt: "Order food and track their service logo",
         },
         description:
@@ -38,7 +38,7 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "Images/ecommercePhotos/four.png",
+          src: "Images/Ecommercephotos/four.png",
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
@@ -46,7 +46,7 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "Images/ecommercePhotos/five.png",
+          src: "Images/Ecommercephotos/five.png",
           alt: "Dummy text logo",
         },
         description:
@@ -54,7 +54,7 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "Images/ecommercePhotos/six.png",
+          src: "Images/Ecommercephotos/six.png",
           alt: "Dummy text logo",
         },
         description:

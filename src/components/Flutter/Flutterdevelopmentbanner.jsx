@@ -18,7 +18,7 @@ export const Flutterdevelopmentbanner = () => {
       </div>
       <div className="flutterImage">
         <div className="flutterMobile">
-          <img src="Images/flutter/flutter.png" alt="" />
+          <img src="Images/flutter/banner.gif" alt="" />
         </div>
       </div>
     </div>

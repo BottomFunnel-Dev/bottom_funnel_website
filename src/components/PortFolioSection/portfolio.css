@@ -6,6 +6,7 @@
 .portfolioSection > h1 {
   color: #ef4c23;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .mainSlide {
