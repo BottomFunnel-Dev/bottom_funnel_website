@@ -11,40 +11,15 @@ export const GameDevelopmentPage = () => {
   return (
     <div>
       <GameDevBanner />
-      <div className="banner-bottom-space">
-        <img
-          src="Images/gameDevelopmentphotos/black-border.png"
-          alt="black border"
-        />
-      </div>
+      <div className="banner-bottom-space"></div>
       <GameDevFeature />
-      <div className="banner-bottom-space">
-        <img
-          src="Images/gameDevelopmentphotos/black-border.png"
-          alt="black border"
-        />
-      </div>
+      <div className="banner-bottom-space"></div>
       <GameDevType />
-      <div className="banner-bottom-space">
-        <img
-          src="Images/gameDevelopmentphotos/black-border.png"
-          alt="black border"
-        />
-      </div>
+      <div className="banner-bottom-space"></div>
       <GameDevDescription />
-      <div className="banner-bottom-space">
-        <img
-          src="Images/gameDevelopmentphotos/black-border.png"
-          alt="black border"
-        />
-      </div>
+      <div className="banner-bottom-space"></div>
       <GameDevSolutions />
-      <div className="banner-bottom-space">
-        <img
-          src="Images/gameDevelopmentphotos/black-border.png"
-          alt="black border"
-        />
-      </div>
+      <div className="banner-bottom-space"></div>
       <GameDevBookCall />
     </div>
   );
