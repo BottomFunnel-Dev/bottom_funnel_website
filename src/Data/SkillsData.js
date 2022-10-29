@@ -1359,7 +1359,7 @@ export const vuejsData = {
     cardsData: [
       {
         img: {
-          src: "Images/vuejsSKillsPhotos/straight-forward.png",
+          src: "Images/vuejsSkillsPhotos/straight-forward.png",
           alt: "Vue.js Custom App Development logo",
         },
         title: "Vue.js Custom App Development",
@@ -1396,7 +1396,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "Images/vuejsSKillsPhotos/extra-tool.png",
+          src: "Images/vuejsSkillsPhotos/extra-tool.png",
           alt: "Vue.js Component Development logo",
         },
         title: "Vue.js Component Development",
