@@ -33,6 +33,7 @@ const company = [
     path: "",
   },
 ];
+
 const whyBottom = [
   {
     dropContent: "Client Reviews",
@@ -55,6 +56,7 @@ const whyBottom = [
     path: "",
   },
 ];
+
 const process = [
   {
     dropContent: "Our Development Process",
@@ -168,6 +170,7 @@ const appservice = [
     path: "",
   },
 ];
+
 const digitalmarket = [
   {
     dropContent: "SEO Services",
@@ -205,6 +208,7 @@ const digitalmarket = [
     path: "emailservices",
   },
 ];
+
 const trendingTech = [
   {
     dropContent: "Big Data Services",
@@ -375,6 +379,7 @@ const industries = [
   //   path: "",
   // },
 ];
+
 const ondemand = [
   {
     dropContent: "Food Delivery App",
@@ -410,7 +415,7 @@ const ondemand = [
   {
     dropContent: "Cannabis Delivery App",
     navIcons: "Images/navbar/industriesImage/cannabies.png",
-    path: "",
+    path: "cannabis",
   },
   {
     dropContent: "Marketplace Apps",
@@ -453,6 +458,7 @@ const ondemand = [
     path: "",
   },
 ];
+
 const backend = [
   {
     dropContent: "Node.js",
@@ -532,6 +538,7 @@ const backend = [
     path: "grails",
   },
 ];
+
 const frontend = [
   {
     dropContent: "React.js",
@@ -574,6 +581,7 @@ const frontend = [
     path: "svelte",
   },
 ];
+
 const mobile = [
   {
     dropContent: "IOS",
@@ -621,6 +629,7 @@ const mobile = [
     path: "",
   },
 ];
+
 const database = [
   {
     dropContent: "MySQL",
@@ -668,6 +677,7 @@ const database = [
     path: "",
   },
 ];
+
 const cms = [
   {
     dropContent: "Wordpress",
@@ -720,16 +730,19 @@ export const Navbar = () => {
     enter: { x: 0, y: 0, opacity: 1 },
     leave: { x: 0, y: 0, opacity: 0 },
   });
+
   const transitionSol = useTransition(solution, {
     from: { x: 0, y: 0, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
     leave: { x: 0, y: 0, opacity: 0 },
   });
+
   const serTransition = useTransition(service, {
     from: { x: 0, y: 0, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
     leave: { x: 0, y: 0, opacity: 0 },
   });
+
   const skillTransition = useTransition(skill, {
     from: { x: 0, y: 0, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
@@ -740,46 +753,55 @@ export const Navbar = () => {
     setSkill(true);
     setNabvar(true);
   };
+
   const skillHoverOut = () => {
     setSkill(false);
     if (window.scrollY == 0) {
       setNabvar(false);
     }
   };
+
   const solHoverIn = () => {
     setSolution(true);
     setNabvar(true);
   };
+
   const solHoverOut = () => {
     setSolution(false);
     if (window.scrollY == 0) {
       setNabvar(false);
     }
   };
+
   const serHoverIn = () => {
     setService(true);
     setNabvar(true);
   };
+
   const serHoverOut = () => {
     setService(false);
     if (window.scrollY == 0) {
       setNabvar(false);
     }
   };
+
   const homeHoverIn = () => {
     setAboutH(true);
     setNabvar(true);
   };
+
   const homeHoverOut = () => {
     setAboutH(false);
     if (window.scrollY === 0) {
       setNabvar(false);
     }
   };
+
   const blogHoverIn = () => {
     // setAboutH(true);
     setNabvar(true);
   };
+
   const blogHoverOut = () => {
     // setAboutH(false);
     if (window.scrollY == 0) {
@@ -798,7 +820,9 @@ export const Navbar = () => {
       setNabvar(false);
     }
   };
+
   window.addEventListener("scroll", navBackground);
+
   return (
     <div>
       <nav className={navbar ? "navbarSection active" : "navbarSection"}>

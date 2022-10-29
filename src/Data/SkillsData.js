@@ -26,6 +26,9 @@
 // wix -
 // joomla -
 // hubspot cms hub -
+// woo commerce -
+// big commerce -
+// drupal -
 
 export const nodejsData = {
   isBanner: true,

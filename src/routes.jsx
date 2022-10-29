@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import { AlcoholDeliveryPage } from "./Components/alcohol-delivery/AlcoholDeliveryPage";
 import { AndroidDevelopmentPage } from "./Components/AndroidDevelopmentPage/AndroidDevelopmentPage";
 import Beautysection from "./Components/Beautyandcare/Beautysection";
+import Cannabis from "./Components/CannabisPage/Cannabis";
 import Dating from "./Components/Dating/Dating";
 import { EcommerceComPage } from "./Components/EcommerceCom/EcommerceComPage";
 import Educationpage from "./Components/education/Educationpage";
@@ -166,6 +167,7 @@ export const ALLroutes = () => {
       <Route path="/videostreaming" element={<Videostreaming />} />
       <Route path="/dating" element={<Dating />} />
       <Route path="/alcohol" element={<AlcoholDeliveryPage />} />
+      <Route path="/cannabis" element={<Cannabis />} />
     </Routes>
   );
 };
