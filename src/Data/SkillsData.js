@@ -3819,3 +3819,441 @@ export const hubspotData = {
     ],
   },
 };
+
+export const wooecommerceData = {
+  isBanner: true,
+  BannerData: {
+    image: "Images/woocommerceSkillsPhotos/banner.png",
+    title: "Woo commerce Development Services",
+    description:
+      "Delivering on your business vision with quality .NET web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Woo commerce",
+    image: "Images/woocommerceSkillsPhotos/woocommerce-logo.png",
+    description:
+      "Woo commerce is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR WOO COMMERCE WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/woocommerceSkillsPhotos/dollar-secure.png",
+          alt: "Secure payment logo",
+        },
+        title: "Secure payment",
+
+        description:
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+      },
+      {
+        img: {
+          src: "Images/woocommerceSkillsPhotos/folder-setting.png",
+          alt: "Customization logo",
+        },
+        title: "Customization",
+        description:
+          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+      },
+      {
+        img: {
+          src: "Images/woocommerceSkillsPhotos/open-source.png",
+          alt: "Open source logo",
+        },
+        title: "Open source",
+        description:
+          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+      },
+      {
+        img: {
+          src: "Images/woocommerceSkillsPhotos/analysis.png",
+          alt: "Improved SEO performance logo",
+        },
+        title: "Improved SEO performance",
+        description:
+          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+      },
+      {
+        img: {
+          src: "Images/woocommerceSkillsPhotos/support.png",
+          alt: "excellent support logo",
+        },
+        title: "excellent support",
+        description:
+          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+      },
+      {
+        img: {
+          src: "Images/woocommerceSkillsPhotos/setting-loading.png",
+          alt: "Flexible logo",
+        },
+        title: "Flexible",
+        description:
+          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for Woo Commerce",
+    image: "Images/woocommerceSkillsPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive woo commerce solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our woo commerce developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
+export const drupalData = {
+  isBanner: true,
+  BannerData: {
+    image: "Images/drupalSkillsPhotos/banner.png",
+    title: "Drupal Development Services",
+    description:
+      "Delivering on your business vision with quality .NET web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Drupal",
+    image: "Images/drupalSkillsPhotos/drupal-logo.png",
+    description:
+      "Drupal is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR DRUPAL WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/drupalSkillsPhotos/router.png",
+          alt: "Marketing automation logo",
+        },
+        title: "Marketing automation",
+
+        description:
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+      },
+      {
+        img: {
+          src: "Images/drupalSkillsPhotos/hide-eye.png",
+          alt: "Dummy text logo",
+        },
+        title: "Dummy text",
+        description:
+          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+      },
+      {
+        img: {
+          src: "Images/drupalSkillsPhotos/database.png",
+          alt: "Massive template collection logo",
+        },
+        title: "Massive template collection",
+        description:
+          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+      },
+      {
+        img: {
+          src: "Images/drupalSkillsPhotos/fast-run.png",
+          alt: "Fast performance logo",
+        },
+        title: "Fast performance",
+        description:
+          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+      },
+      {
+        img: {
+          src: "Images/drupalSkillsPhotos/support.png",
+          alt: "Excellent support logo",
+        },
+        title: "Excellent support",
+        description:
+          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+      },
+      {
+        img: {
+          src: "Images/drupalSkillsPhotos/setting-loading.png",
+          alt: "Flexible logo",
+        },
+        title: "Flexible",
+        description:
+          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for Drupal",
+    image: "Images/drupalSkillsPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive drupal solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our drupal developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
+export const bigcommerceData = {
+  isBanner: true,
+  BannerData: {
+    image: "Images/bigcommerceSkillsPhotos/banner.png",
+    title: "Big commerce Development Services",
+    description:
+      "Delivering on your business vision with quality .NET web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Big commerce",
+    image: "Images/bigcommerceSkillsPhotos/bigcommerce-logo.png",
+    description:
+      "Big commerce is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR BIG COMMERCE WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/bigcommerceSkillsPhotos/analysis.png",
+          alt: "Improved SEO performance logo",
+        },
+        title: "Improved SEO performance",
+
+        description:
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+      },
+      {
+        img: {
+          src: "Images/bigcommerceSkillsPhotos/uiux-layout.png",
+          alt: "Better user experience logo",
+        },
+        title: "Better user experience",
+        description:
+          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+      },
+      {
+        img: {
+          src: "Images/bigcommerceSkillsPhotos/thumbs-up.png",
+          alt: "Rating & Reviews logo",
+        },
+        title: "Rating & Reviews",
+        description:
+          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+      },
+      {
+        img: {
+          src: "Images/bigcommerceSkillsPhotos/fast-run.png",
+          alt: "Fast performance logo",
+        },
+        title: "Fast performance",
+        description:
+          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+      },
+      {
+        img: {
+          src: "Images/bigcommerceSkillsPhotos/support.png",
+          alt: "Excellent support logo",
+        },
+        title: "Excellent support",
+        description:
+          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+      },
+      {
+        img: {
+          src: "Images/bigcommerceSkillsPhotos/setting-loading.png",
+          alt: "Flexible logo",
+        },
+        title: "Flexible",
+        description:
+          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for Big Commerce",
+    image: "Images/bigcommerceSkillsPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive big commerce solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our big commerce developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};

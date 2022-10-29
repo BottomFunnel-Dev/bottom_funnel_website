@@ -687,12 +687,12 @@ const cms = [
   {
     dropContent: "WooCommerce",
     navIcons: "Images/navbar/skills/woo.png",
-    path: "",
+    path: "woo-commerce",
   },
   {
     dropContent: "Drupal",
     navIcons: "Images/navbar/skills/drupal.png",
-    path: "",
+    path: "drupal",
   },
   {
     dropContent: "Wix",
@@ -702,7 +702,7 @@ const cms = [
   {
     dropContent: "Big Commerce",
     navIcons: "Images/navbar/skills/bigcommerce.png",
-    path: "",
+    path: "bigcommerce",
   },
 ];
 

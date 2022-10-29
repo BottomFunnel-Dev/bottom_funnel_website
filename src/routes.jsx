@@ -30,10 +30,12 @@ import Videostreaming from "./Components/Videostreaming/Videostreaming";
 import {
   angularjsData,
   backbonejsData,
+  bigcommerceData,
   cakePHPData,
   codeigniterData,
   djangoData,
   DotnetData,
+  drupalData,
   emberjsData,
   hiberateData,
   hubspotData,
@@ -53,6 +55,7 @@ import {
   svelteData,
   vuejsData,
   wixData,
+  wooecommerceData,
   wordpressData,
 } from "./Data/SkillsData";
 
@@ -72,7 +75,6 @@ export const ALLroutes = () => {
       <Route path="/reactNative" element={<Reactnative />} />
       <Route path="/android" element={<AndroidDevelopmentPage />} />
       <Route path="/ondemandHomeServices" element={<OndemandHome />} />
-
       <Route path="/nodejs" element={<SkillsComPage allData={nodejsData} />} />
       <Route path="/php" element={<SkillsComPage allData={phpData} />} />
       <Route path="/dotnet" element={<SkillsComPage allData={DotnetData} />} />
@@ -81,7 +83,6 @@ export const ALLroutes = () => {
         element={<SkillsComPage allData={laravelData} />}
       />
       <Route path="/django" element={<SkillsComPage allData={djangoData} />} />
-
       <Route
         path="/cakephp"
         element={<SkillsComPage allData={cakePHPData} />}
@@ -142,11 +143,19 @@ export const ALLroutes = () => {
         path="/hubspot"
         element={<SkillsComPage allData={hubspotData} />}
       />
+      <Route
+        path="/woo-commerce"
+        element={<SkillsComPage allData={wooecommerceData} />}
+      />
+      <Route path="/drupal" element={<SkillsComPage allData={drupalData} />} />
+      <Route
+        path="/bigcommerce"
+        element={<SkillsComPage allData={bigcommerceData} />}
+      />
 
       <Route path="/beautycareapp" element={<Beautysection />} />
       <Route path="/digitalmarketing" element={<SeoDm />} />
       <Route path="/emailservices" element={<SeoEmail />} />
-
       <Route path="/food-delivery" element={<FoodDelivery />} />
       <Route path="/education" element={<Educationpage />} />
       <Route path="/fitness" element={<Fitness />} />
