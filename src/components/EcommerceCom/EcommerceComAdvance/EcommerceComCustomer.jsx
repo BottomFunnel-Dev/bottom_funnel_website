@@ -14,7 +14,7 @@ export const EcommerceComCustomer = () => {
     cardsData: [
       {
         image: {
-          src: "Images/Ecommercephotos/one.png",
+          src: "Images/EcommercePhotos/one.png",
           alt: "can be easily accessed through both android/ios",
         },
         description:
@@ -22,7 +22,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "Images/Ecommercephotos/two.png",
+          src: "Images/EcommercePhotos/two.png",
           alt: "user-friendly interface logo",
         },
         description:
@@ -30,7 +30,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "Images/Ecommercephotos/three.png",
+          src: "Images/EcommercePhotos/three.png",
           alt: "Order food and track their service logo",
         },
         description:
@@ -38,7 +38,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "Images/Ecommercephotos/four.png",
+          src: "Images/EcommercePhotos/four.png",
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
@@ -46,7 +46,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "Images/Ecommercephotos/five.png",
+          src: "Images/EcommercePhotos/five.png",
           alt: "Dummy text logo",
         },
         description:
@@ -54,7 +54,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "Images/Ecommercephotos/six.png",
+          src: "Images/EcommercePhotos/six.png",
           alt: "Dummy text logo",
         },
         description:
