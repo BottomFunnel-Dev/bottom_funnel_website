@@ -36,7 +36,7 @@ export default function Travelfeature() {
             return (
               <div className="travelfeaturdocs">
                 <div className="traveldocimg">
-                  <img src={item.img} />{" "}
+                  <img src={item.img} alt={item.p} />{" "}
                 </div>
                 <p>{item.p}</p>
               </div>
