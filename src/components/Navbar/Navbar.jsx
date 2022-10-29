@@ -389,7 +389,7 @@ const ondemand = [
   {
     dropContent: "Alcohol Delivery App",
     navIcons: "Images/navbar/industriesImage/alcohol.png",
-    path: "",
+    path: "alcohol",
   },
   {
     dropContent: "Laundry Delivery",

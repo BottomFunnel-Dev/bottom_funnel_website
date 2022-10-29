@@ -22,6 +22,7 @@ import SeoEmail from "./Components/Pages/SEO/SeoEmail";
 // import { DotNetPage } from "./Components/dotnet/DotNetPage";
 import { FoodDelivery } from "./Components/food-delivery/FoodDeliveryPage";
 import Beautysection from "./Components/Beautyandcare/Beautysection";
+import { AlcoholDeliveryPage } from "./Components/alcohol-delivery/AlcoholDeliveryPage";
 // import { Seomainpage } from "./Components/SEO/Seomainpage/Seomainpage";
 
 import {
@@ -191,6 +192,7 @@ function App() {
         <Route path="/travel" element={<Travel />} />
         <Route path="/videostreaming" element={<Videostreaming />} />
         <Route path="/dating" element={<Dating />} />
+        <Route path="/alcohol" element={<AlcoholDeliveryPage />} />
       </Routes>
       {/* <Seomainpage/> */}
     </div>
