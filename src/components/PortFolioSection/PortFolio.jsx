@@ -230,12 +230,12 @@ const PortFolio = () => {
                   <div className="appstore">
                     <span>Available On</span>
 
-                    {/* <IconContext.Provider  value={{ className: "webIcon" }}>
+                    <IconContext.Provider  value={{ className: "webIcon" }}>
                       <BsApple />
-                    </IconContext.Provider> */}
+                    </IconContext.Provider>
 
                     <a href={item.playStore} target="_blank">
-                      {" "}
+                  
                       <IconContext.Provider value={{ className: "webIcon" }}>
                         <AiFillAndroid />
                       </IconContext.Provider>
