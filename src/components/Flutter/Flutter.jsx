@@ -9,15 +9,11 @@ import PortFolio from "../PortFolioSection/PortFolio";
 import Revamping from "../revamping/Revamping";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
-import { Flutteradvantages, Reactnativeadvantages } from "./Flutteradvantages";
-import { Flutterbenefits, Reactnativebenefits } from "./Flutterbenefits";
-import {
-  Flutterdevelopmentbanner,
-  Reactnativedevelopment,
-  Reactnativedevelopmentbanner,
-} from "./Flutterdevelopmentbanner";
-import { Flutterservices, Reactnativeservices } from "./Flutterservices";
-import { Flutterwhy, Reactnativewhy } from "./Flutterwhy";
+import { Flutteradvantages } from "./Flutteradvantages";
+import { Flutterbenefits } from "./Flutterbenefits";
+import { Flutterdevelopmentbanner } from "./Flutterdevelopmentbanner";
+import { Flutterservices } from "./Flutterservices";
+import { Flutterwhy } from "./Flutterwhy";
 
 export const Flutter = () => {
   return (
@@ -27,17 +23,16 @@ export const Flutter = () => {
       <Flutterbenefits />
       <Flutteradvantages />
       <Flutterwhy />
-      <PortFolio/>
-      <StoriesSection/>
-      <Industries/>
-      <PlanProject/>
-      <OndemandSection/>
-      <SeoblogSection/>
-      <Revamping/>
-      <TextDropdown/>
-      <ContectForm/>
-      <MainFooter/>
-
+      <PortFolio />
+      <StoriesSection />
+      <Industries />
+      <PlanProject />
+      <OndemandSection />
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
     </div>
   );
 };

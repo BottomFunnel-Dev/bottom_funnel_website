@@ -1,6 +1,7 @@
 import React from "react";
 import "./Seoblogs.css";
-export const SeoblogSection=()=> {
+
+export const SeoblogSection = () => {
   return (
     <div className="_Seoblogs12">
       <h2>Latest Blogs</h2>
@@ -27,7 +28,7 @@ export const SeoblogSection=()=> {
           <div className="_Seoblogsimage">
             <img src="Images/blogSection/stories5.png" />
           </div>
-          <div className="_Seoblogstext">   
+          <div className="_Seoblogstext">
             <p>Lorem ipsum dolor sit amet consectetur adipis</p>
             <p>Lorem ipsum dolor sit.</p>
           </div>
@@ -41,8 +42,7 @@ export const SeoblogSection=()=> {
             <p>Lorem ipsum dolor sit.</p>
           </div>
         </div>
-       
       </div>
     </div>
   );
-}
+};

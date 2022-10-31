@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../../Navbar/Navbar";
 import Banner from "../../mainSection/Banner";
 import CompanyLogo from "../../CompanyLogos/CompanyLogo";
 import Services from "../../Services/Services";
@@ -15,12 +14,7 @@ import ContectForm from "../../ContectForm/ContectForm";
 import About from "../../AboutSection/About";
 import MainFooter from "../../FooterSection/MainFooter";
 import OndemandSection from "../../OnDemandSection/OndemandSection";
-import HeroSection from "../../mainSection/HeroSection";
 import PortFolio from "../../PortFolioSection/PortFolio";
-import PortSection from "../../PortFolioSection/PortSection";
-
-import VerticalCarousel from "../../Carousel/IndustriesCarousel";
-import VerticalSilder from "../../Carousel/VerticalSilder";
 
 export const HomePage = () => {
   return (

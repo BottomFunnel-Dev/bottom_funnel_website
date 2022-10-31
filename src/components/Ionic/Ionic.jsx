@@ -1,18 +1,18 @@
-import React from 'react';
-import { Flutteradvantages, Ionicadvantages, Reactnativeadvantages } from './Ionicadvantages';
-import { Flutterbenefits, Ionicbenefits, Reactnativebenefits } from './Ionicbenefits';
-import { Flutterdevelopmentbanner, Ionicdevelopmentbanner, Reactnativedevelopment, Reactnativedevelopmentbanner } from './Ionicdevelopmentbanner';
-import { Flutterservices, Ionicservices, Reactnativeservices } from './Ionicservices';
-import { Flutterwhy, Ionicwhy, Reactnativewhy } from './Ionicwhy';
+import React from "react";
+import { Ionicadvantages } from "./Ionicadvantages";
+import { Ionicbenefits } from "./Ionicbenefits";
+import { Ionicdevelopmentbanner } from "./Ionicdevelopmentbanner";
+import { Ionicservices } from "./Ionicservices";
+import { Ionicwhy } from "./Ionicwhy";
 
 export const Ionic = () => {
   return (
-    <div className='_Reactnative'>
-        <Ionicdevelopmentbanner/>
-        <Ionicservices/>
-        <Ionicbenefits/>
-        <Ionicadvantages/>
-        <Ionicwhy/>
+    <div className="_Reactnative">
+      <Ionicdevelopmentbanner />
+      <Ionicservices />
+      <Ionicbenefits />
+      <Ionicadvantages />
+      <Ionicwhy />
     </div>
-  )
-}
+  );
+};
