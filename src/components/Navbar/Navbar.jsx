@@ -659,7 +659,7 @@ const database = [
   {
     dropContent: "IBM db2",
     navIcons: "Images/navbar/skills/ibmdb2.png",
-    path: "",
+    path: "ibm-db",
   },
   {
     dropContent: "Elacticsearch",

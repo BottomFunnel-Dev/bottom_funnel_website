@@ -40,6 +40,7 @@ import {
   emberjsData,
   hiberateData,
   hubspotData,
+  ibmData,
   joomlaData,
   jqueryData,
   laravelData,
@@ -153,6 +154,7 @@ export const ALLroutes = () => {
         path="/bigcommerce"
         element={<SkillsComPage allData={bigcommerceData} />}
       />
+      <Route path="/ibm-db" element={<SkillsComPage allData={ibmData} />} />
 
       <Route path="/beautycareapp" element={<Beautysection />} />
       <Route path="/digitalmarketing" element={<SeoDm />} />
