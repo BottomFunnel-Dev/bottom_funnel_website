@@ -34,11 +34,14 @@ import {
   backbonejsData,
   bigcommerceData,
   cakePHPData,
+  cassandraData,
   codeigniterData,
   djangoData,
   DotnetData,
   drupalData,
+  elasticData,
   emberjsData,
+  flaskData,
   hiberateData,
   hubspotData,
   ibmData,
@@ -55,6 +58,7 @@ import {
   reactjsData,
   redisData,
   springBootData,
+  sqliteData,
   svelteData,
   vuejsData,
   wixData,
@@ -156,6 +160,16 @@ export const ALLroutes = () => {
         element={<SkillsComPage allData={bigcommerceData} />}
       />
       <Route path="/ibm-db" element={<SkillsComPage allData={ibmData} />} />
+      <Route
+        path="/elasticsearch"
+        element={<SkillsComPage allData={elasticData} />}
+      />
+      <Route path="/SQLite" element={<SkillsComPage allData={sqliteData} />} />
+      <Route
+        path="/Cassandra"
+        element={<SkillsComPage allData={cassandraData} />}
+      />
+      <Route path="/flask" element={<SkillsComPage allData={flaskData} />} />
 
       <Route path="/beautycareapp" element={<Beautysection />} />
       <Route path="/digitalmarketing" element={<SeoDm />} />

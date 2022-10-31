@@ -651,17 +651,17 @@ export const database = [
   {
     dropContent: "Elacticsearch",
     navIcons: "Images/navbar/skills/elasticsearch.png",
-    path: "",
+    path: "elasticsearch",
   },
   {
     dropContent: "SQLite",
     navIcons: "Images/navbar/skills/sqlite.png",
-    path: "",
+    path: "SQLite",
   },
   {
     dropContent: "Cassandra",
     navIcons: "Images/navbar/skills/cassandra.png",
-    path: "",
+    path: "Cassandra",
   },
 ];
 
