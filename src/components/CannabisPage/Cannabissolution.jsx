@@ -20,7 +20,7 @@ export default function Cannabissolution() {
       p: "Ratings",
     },
     {
-      img: "Images/cannabisPhotos/coininHand.png",
+      img: "Images/cannabisPhotos/CoininHand.png",
       p: " Parental control",
     },
     {
