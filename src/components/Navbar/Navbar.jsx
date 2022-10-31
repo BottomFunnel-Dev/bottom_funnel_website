@@ -140,7 +140,11 @@ export const NavbarMain = () => {
             <li onMouseEnter={skillHoverIn} onMouseLeave={skillHoverOut}>
               SKILLS
             </li>
-            <li onMouseEnter={blogHoverIn} onMouseLeave={blogHoverOut}>
+            <li
+              onMouseEnter={blogHoverIn}
+              onMouseLeave={blogHoverOut}
+              onClick={() => navigate("/Products")}
+            >
               PRODUCTS
             </li>
             <li onMouseEnter={blogHoverIn} onMouseLeave={blogHoverOut}>
