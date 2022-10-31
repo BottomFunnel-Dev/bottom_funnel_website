@@ -1064,66 +1064,86 @@ export const reactjsData = {
     title: "Reactjs",
     image: "Images/reactjsSkillsPhotos/reactjs-logo.png",
     description:
-      "Reactjs is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      `React is a free and open-source front-end JavaScript library for building user interfaces
+      based on UI components. It builds encapsulated components that manage their own state,
+      then compose them to make complex UIs. Bottom Funnel is among the leading React.js web
+      application development company in Asia, USA, middle-east and Africa which provides the
+      best React.js web application development services by experienced and best React.js web
+      developers.`,
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR CODEIGNITER WEB DEVELOPMENT SERVICES",
+    title: "React.js Web Development Services",
     cardsData: [
       {
         img: {
           src: "Images/reactjsSkillsPhotos/better-user.png",
           alt: "Better User Experience logo",
         },
-        title: "Better User Experience",
+        title: "Portal Development",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          `We have a team of expert ReactJS developers who can help you build your perfect portal so
+          that you can get the most out of your website by optimizing it for performance and
+          usability.
+          `,
       },
       {
         img: {
           src: "Images/reactjsSkillsPhotos/easy-jsx.png",
           alt: "Easy to Write With JSX logo",
         },
-        title: "Easy to Write With JSX",
+        title: "Interactive ReactJS UI Development",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          `Our React.js web application development services specialize in creating interactive UI
+          designs that are responsive and adaptive to different devices and browsers by using the
+          latest technologies such as React Router 4.`,
       },
       {
         img: {
           src: "Images/reactjsSkillsPhotos/big-timesaver.png",
           alt: "A Big Timesaver logo",
         },
-        title: "A Big Timesaver",
+        title: "React.js migration service",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          `You can be assured of a smooth and error-free migration process. Our experienced and
+          qualified React.js developers take care of migrating all your current websites while
+          preserving all your current information.
+          `,
       },
       {
         img: {
           src: "Images/reactjsSkillsPhotos/performance-ecosystem.png",
           alt: "Performance Leveraging Ecosystem logo",
         },
-        title: "Performance Leveraging Ecosystem",
+        title: "Custom React.Js Development",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          `Our ReactJS developers are familiar with various front-end development frameworks such
+          as Bootstrap, Material Design, and Foundation to facilitate you with custom react.js
+          development services.`,
       },
       {
         img: {
           src: "Images/reactjsSkillsPhotos/great-developer.png",
           alt: "Great Developer Tools logo",
         },
-        title: "Great Developer Tools",
+        title: "Ajax Development",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          `We specialize in developing Ajax applications that are both user friendly and efficient. Our
+          react.js developers can design, develop, and deploy ajax applications that can improve your
+          work flow and make your life easier`,
       },
       {
         img: {
           src: "Images/reactjsSkillsPhotos/easy-understand.png",
           alt: "Easy-to-Understand logo",
         },
-        title: "Easy-to-Understand",
+        title: "E-commerce Development",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          `Our react.js web application development services for developing an e-commerce website
+          can deliver a website that engages and converts visitors into customers with an attractive
+          and well-optimized user interface.
+          `,
       },
     ],
   },
@@ -1142,14 +1162,16 @@ export const reactjsData = {
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our CodeIgniter developers to build your application?",
+    title: "Need our React.js developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Reactjs Services",
+    title: "Benefits Of Using React.js for Web Development",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      `React.js is the most popular library for developing complex UIs. Bottom funnel’s React.js
+      web application developers develop attractive high quality web applications and avail the
+      following benefits:`,
     cardsData: [
       {
         img: {
