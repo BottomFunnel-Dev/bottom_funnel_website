@@ -1056,8 +1056,7 @@ export const reactjsData = {
   BannerData: {
     image: "Images/reactjsSkillsPhotos/banner.png",
     title: "React.js Development services",
-    description:
-      `React.js development services that will take your app from concept to production in no time.`,
+    description: `React.js development services that will take your app from concept to production in no time.`,
   },
   isDes: true,
   desData: {
@@ -1202,16 +1201,14 @@ export const angularjsData = {
   BannerData: {
     image: "Images/angularjsSkillsPhotos/banner.png",
     title: "Angularjs Development Services",
-    description:
-      `Speed up your web application development with our top-notch angular.js development
+    description: `Speed up your web application development with our top-notch angular.js development
       services.`,
   },
   isDes: true,
   desData: {
     title: "Angularjs",
     image: "Images/angularjsSkillsPhotos/angularjs-logo.png",
-    description:
-      `AngularJS is a discontinued free and open-source JavaScript-based web framework for
+    description: `AngularJS is a discontinued free and open-source JavaScript-based web framework for
       developing single-page applications. AngularJS is a toolset for building the framework most
       suited to your application development. Bottom Funnel is among the leading Angular.js web
       application development company in Asia, USA, middle-east and Africa which provides the
@@ -1229,8 +1226,7 @@ export const angularjsData = {
         },
         title: "Custom AngularJS Development",
 
-        description:
-          `Our custom AngularJS development services provides various Angular.js web application
+        description: `Our custom AngularJS development services provides various Angular.js web application
           development options customized specifically to serve your business needs which can speed up your
           ability to deliver products.`,
       },
@@ -1240,8 +1236,7 @@ export const angularjsData = {
           alt: "Trouble-Free Testing logo",
         },
         title: "Portal development",
-        description:
-          `Our angular.js portal development services will provide you a web app portal that is easy to
+        description: `Our angular.js portal development services will provide you a web app portal that is easy to
           use, visually appealing, function smoothly and innovative by utilizing the most up-to-date
           tools and technologies`,
       },
@@ -1251,8 +1246,7 @@ export const angularjsData = {
           alt: "A Complete Client-Side Solution logo",
         },
         title: `Single page application development`,
-        description:
-          `Let our Angular.js single page application developers help you build the best quality Single
+        description: `Let our Angular.js single page application developers help you build the best quality Single
           Page Applications in a very short period of time that will power your business to the next
           level.`,
       },
@@ -1262,8 +1256,7 @@ export const angularjsData = {
           alt: "Captivating Support Services logo",
         },
         title: "Angular.js support and maintenance",
-        description:
-          `our angular.js support and maintenance services clear out the outdated coding and improve
+        description: `our angular.js support and maintenance services clear out the outdated coding and improve
           user experience with the latest tools and technology ensuring constant quality and timely
           services to avoid any inconvenience.`,
       },
@@ -1273,8 +1266,7 @@ export const angularjsData = {
           alt: "Features to Get Excited About logo",
         },
         title: "UI/UX Development",
-        description:
-          `Our angular.js UI/UX development services offer appealing user interface and user
+        description: `Our angular.js UI/UX development services offer appealing user interface and user
           experience with customizable and responsive designs which are user feedback integrated to
           enhance the visuals of the web application.`,
       },
@@ -1284,8 +1276,7 @@ export const angularjsData = {
           alt: "Great MVC Support logo",
         },
         title: "Integrating API Services",
-        description:
-          `Hire our angular.js developers to develop and integrate APIs for your business. Our
+        description: `Hire our angular.js developers to develop and integrate APIs for your business. Our
           angular.js development services can help you design, develop, and deploy your own APIs
           quickly and efficiently.`,
       },
@@ -1312,8 +1303,7 @@ export const angularjsData = {
   isRemarkable: true,
   RemarkableData: {
     title: "Benefits Of Using angular.js for Application Development",
-    description:
-      `Develop engaging and sophisticated single page application with Angular.js. Bottom funnel’s
+    description: `Develop engaging and sophisticated single page application with Angular.js. Bottom funnel’s
       React.js web application developers develop attractive high quality web applications and
       avail the following benefits:`,
     cardsData: [
@@ -4374,6 +4364,590 @@ export const ibmData = {
   isBookCall: true,
   BookCallData: {
     title: "Need our ibm db2 developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
+export const elasticData = {
+  isBanner: true,
+  BannerData: {
+    image: "Images/elasticSkillsPhotos/banner.png",
+    title: "Elasticsearch Development Services",
+    description:
+      "Delivering on your business vision with quality .NET web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Elasticsearch",
+    image: "Images/elasticSkillsPhotos/elastic-logo.png",
+    description:
+      "Elasticsearch is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR ELASTICSEARCH WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/elasticSkillsPhotos/security.png",
+          alt: "Security logo",
+        },
+        title: "Security",
+
+        description:
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+      },
+      {
+        img: {
+          src: "Images/elasticSkillsPhotos/management.png",
+          alt: "Management logo",
+        },
+        title: "Management",
+        description:
+          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+      },
+      {
+        img: {
+          src: "Images/elasticSkillsPhotos/pip.png",
+          alt: "Scalability and resiliency logo",
+        },
+        title: "Scalability and resiliency",
+        description:
+          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+      },
+      {
+        img: {
+          src: "Images/elasticSkillsPhotos/switch.png",
+          alt: "Integrations logo",
+        },
+        title: "Integrations",
+        description:
+          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+      },
+      {
+        img: {
+          src: "Images/elasticSkillsPhotos/upgrade-database.png",
+          alt: "Data enrichment logo",
+        },
+        title: "Data enrichment",
+        description:
+          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+      },
+      {
+        img: {
+          src: "Images/elasticSkillsPhotos/database-search.png",
+          alt: "Automatic node recovery logo",
+        },
+        title: "Automatic node recovery",
+        description:
+          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for Elasticsearch",
+    image: "Images/elasticSkillsPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive elasticsearch solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our elasticsearch developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
+export const sqliteData = {
+  isBanner: true,
+  BannerData: {
+    image: "Images/sqliteSkillsPhotos/banner.png",
+    title: "SQLite Development Services",
+    description:
+      "Delivering on your business vision with quality .NET web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "SQLite",
+    image: "Images/sqliteSkillsPhotos/sqlite-logo.png",
+    description:
+      "SQLite is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR ELASTICSEARCH WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/sqliteSkillsPhotos/open-source.png",
+          alt: "Open source logo",
+        },
+        title: "Open source",
+
+        description:
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+      },
+      {
+        img: {
+          src: "Images/sqliteSkillsPhotos/free.png",
+          alt: "Free to use logo",
+        },
+        title: "Free to use",
+        description:
+          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+      },
+      {
+        img: {
+          src: "Images/sqliteSkillsPhotos/sync.png",
+          alt: "Cross-platform logo",
+        },
+        title: "Cross-platform",
+        description:
+          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+      },
+      {
+        img: {
+          src: "Images/sqliteSkillsPhotos/setting-loading.png",
+          alt: "Flexible logo",
+        },
+        title: "Flexible",
+        description:
+          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+      },
+      {
+        img: {
+          src: "Images/sqliteSkillsPhotos/no-user.png",
+          alt: "No licence required logo",
+        },
+        title: "No licence required",
+        description:
+          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+      },
+      {
+        img: {
+          src: "Images/sqliteSkillsPhotos/no-database.png",
+          alt: "Serverless logo",
+        },
+        title: "Serverless",
+        description:
+          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for SQLite",
+    image: "Images/sqliteSkillsPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive SQLite solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our SQLite developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
+export const cassandraData = {
+  isBanner: true,
+  BannerData: {
+    image: "Images/cassandraSkillsPhotos/banner.png",
+    title: "Cassandra Development Services",
+    description:
+      "Delivering on your business vision with quality .NET web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Cassandra",
+    image: "Images/cassandraSkillsPhotos/cassandra-logo.png",
+    description:
+      "Cassandra is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR CASSANDRA WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/cassandraSkillsPhotos/box-dimension.png",
+          alt: "Distributed footprint logo",
+        },
+        title: "Distributed footprint",
+
+        description:
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+      },
+      {
+        img: {
+          src: "Images/cassandraSkillsPhotos/qr-code.png",
+          alt: "Better user experience logo",
+        },
+        title: "Better user experience",
+        description:
+          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+      },
+      {
+        img: {
+          src: "Images/cassandraSkillsPhotos/shut-button.png",
+          alt: "Fault tolerance logo",
+        },
+        title: "Fault tolerance",
+        description:
+          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+      },
+      {
+        img: {
+          src: "Images/cassandraSkillsPhotos/open-source.png",
+          alt: "Open source logo",
+        },
+        title: "Open source",
+        description:
+          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+      },
+      {
+        img: {
+          src: "Images/cassandraSkillsPhotos/pip.png",
+          alt: "Scalability logo",
+        },
+        title: "Scalability",
+        description:
+          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+      },
+      {
+        img: {
+          src: "Images/cassandraSkillsPhotos/fast-run.png",
+          alt: "Fast writes logo",
+        },
+        title: "Fast writes",
+        description:
+          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for cassandra",
+    image: "Images/cassandraSkillsPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive cassandra solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our cassandra developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
+export const flaskData = {
+  isBanner: true,
+  BannerData: {
+    image: "Images/flaskSkillsPhotos/banner.png",
+    title: "Flask Development Services",
+    description:
+      "Delivering on your business vision with quality .NET web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Flask",
+    image: "Images/flaskSkillsPhotos/flask-logo.png",
+    description:
+      "Flask is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR FLASK WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/flaskSkillsPhotos/unicode.png",
+          alt: "Improved SEO Performance logo",
+        },
+        title: "Improved SEO Performance",
+
+        description:
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+      },
+      {
+        img: {
+          src: "Images/flaskSkillsPhotos/printing.png",
+          alt: "Integrated support for unit testing logo",
+        },
+        title: "Integrated support for unit testing",
+        description:
+          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+      },
+      {
+        img: {
+          src: "Images/flaskSkillsPhotos/files.png",
+          alt: "Complete documentration logo",
+        },
+        title: "Complete documentration",
+        description:
+          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+      },
+      {
+        img: {
+          src: "Images/flaskSkillsPhotos/cookies-guard.png",
+          alt: "Support for secure cookies logo",
+        },
+        title: "Support for secure cookies",
+        description:
+          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+      },
+      {
+        img: {
+          src: "Images/flaskSkillsPhotos/bug-setting.png",
+          alt: "Development server and debugger logo",
+        },
+        title: "Development server and debugger",
+        description:
+          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+      },
+      {
+        img: {
+          src: "Images/flaskSkillsPhotos/fast-run.png",
+          alt: "Fast performance logo",
+        },
+        title: "Fast performance",
+        description:
+          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for flask",
+    image: "Images/flaskSkillsPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive flask solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our flask developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,
