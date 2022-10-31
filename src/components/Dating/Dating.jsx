@@ -5,6 +5,8 @@ import Datingbrands from './Datingbrands'
 import Datingcontainer from './Datingcontainer'
 import Datingfeatures from './Datingfeatures'
 import Datingmobile from './Datingmobile'
+import Datingstart from './Datingstart'
+import DatingWhy from './DatingWhy'
 import Solutiondating from './Solutiondating'
 
 export default function Dating() {
@@ -17,6 +19,8 @@ export default function Dating() {
        <Adminpannel/>
        <Datingmobile/>
        <Solutiondating/>
+       <Datingstart/>
+       <DatingWhy/>
     </div>
   )
 }

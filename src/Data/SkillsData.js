@@ -1055,9 +1055,9 @@ export const reactjsData = {
   isBanner: true,
   BannerData: {
     image: "Images/reactjsSkillsPhotos/banner.png",
-    title: "Reactjs Development Services",
+    title: "React.js Development services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      `React.js development services that will take your app from concept to production in no time.`,
   },
   isDes: true,
   desData: {
@@ -1203,73 +1203,91 @@ export const angularjsData = {
     image: "Images/angularjsSkillsPhotos/banner.png",
     title: "Angularjs Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      `Speed up your web application development with our top-notch angular.js development
+      services.`,
   },
   isDes: true,
   desData: {
     title: "Angularjs",
     image: "Images/angularjsSkillsPhotos/angularjs-logo.png",
     description:
-      "Angularjs is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      `AngularJS is a discontinued free and open-source JavaScript-based web framework for
+      developing single-page applications. AngularJS is a toolset for building the framework most
+      suited to your application development. Bottom Funnel is among the leading Angular.js web
+      application development company in Asia, USA, middle-east and Africa which provides the
+      best Angular.js web application development services by experienced and best Angular.js
+      web developers.`,
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR ANGULARJS WEB DEVELOPMENT SERVICES",
+    title: "Angular.js Web Development Services",
     cardsData: [
       {
         img: {
           src: "Images/angularjsSKillsPhotos/two-way-bind.png",
           alt: "Two-Way Data Binding logo",
         },
-        title: "Two-Way Data Binding",
+        title: "Custom AngularJS Development",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          `Our custom AngularJS development services provides various Angular.js web application
+          development options customized specifically to serve your business needs which can speed up your
+          ability to deliver products.`,
       },
       {
         img: {
           src: "Images/angularjsSkillsPhotos/trouble-free.png",
           alt: "Trouble-Free Testing logo",
         },
-        title: "Trouble-Free Testing",
+        title: "Portal development",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          `Our angular.js portal development services will provide you a web app portal that is easy to
+          use, visually appealing, function smoothly and innovative by utilizing the most up-to-date
+          tools and technologies`,
       },
       {
         img: {
           src: "Images/angularjsSkillsPhotos/complete-client-solution.png",
           alt: "A Complete Client-Side Solution logo",
         },
-        title: "A Complete Client-Side Solution",
+        title: `Single page application development`,
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          `Let our Angular.js single page application developers help you build the best quality Single
+          Page Applications in a very short period of time that will power your business to the next
+          level.`,
       },
       {
         img: {
           src: "Images/angularjsSkillsPhotos/captivating-support.png",
           alt: "Captivating Support Services logo",
         },
-        title: "Captivating Support Services",
+        title: "Angular.js support and maintenance",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          `our angular.js support and maintenance services clear out the outdated coding and improve
+          user experience with the latest tools and technology ensuring constant quality and timely
+          services to avoid any inconvenience.`,
       },
       {
         img: {
           src: "Images/angularjsSKillsPhotos/features-excited.png",
           alt: "Features to Get Excited About logo",
         },
-        title: "Features to Get Excited About",
+        title: "UI/UX Development",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          `Our angular.js UI/UX development services offer appealing user interface and user
+          experience with customizable and responsive designs which are user feedback integrated to
+          enhance the visuals of the web application.`,
       },
       {
         img: {
           src: "Images/angularjsSkillsPhotos/mvc-support.png",
           alt: "Great MVC Support logo",
         },
-        title: "Great MVC Support",
+        title: "Integrating API Services",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          `Hire our angular.js developers to develop and integrate APIs for your business. Our
+          angular.js development services can help you design, develop, and deploy your own APIs
+          quickly and efficiently.`,
       },
     ],
   },
@@ -1293,9 +1311,11 @@ export const angularjsData = {
   },
   isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "Benefits Of Using angular.js for Application Development",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      `Develop engaging and sophisticated single page application with Angular.js. Bottom funnel’s
+      React.js web application developers develop attractive high quality web applications and
+      avail the following benefits:`,
     cardsData: [
       {
         img: {

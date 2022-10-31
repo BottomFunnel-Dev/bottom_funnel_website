@@ -1,42 +1,44 @@
-.datingsolutiondiv {
-  width: 100%;
-  height: 500px;
-  padding: 20px;
-  text-align: center;
+.szdatingsolutiondiv{
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+    text-align: center;
+    /* background-color: aqua; */
 }
-.datingsolutionsubdiv {
-  max-width: 90%;
-  background-color: white;
-  margin: auto;
-  margin: auto;
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.szdatingsolutionsubdiv{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    /* background-color: rgb(178, 191, 191); */
+    display: flex;
+   
 }
-
-.datingsolutionsubdiv > div {
-  width: 30%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-  margin-top: 15px;
-  margin-bottom: 10px;
-  border-radius: 20px;
-
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
+ 
+ 
+.szdatingsolutionsubdiv>div{
+    text-align: center;
+    padding: 5px;
+    /* background-color: brown; */
+   
 }
 
-.datingsolutiondiv {
-  width: 100%;
-  padding: 20px 0;
-  background-color: white;
-  height: 550px;
+.szupdatediv{
+   width: 95%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    height: 170px;
+    padding: 30px;
+    margin:  2%;
+    /* background-color: aqua; */
 }
-.datingsolutiondiv > div {
-  text-align: center;
-  padding: 5px;
-  padding-top: 10px;
+ 
+.szreminderdiv{
+    width: 95%;
+    border-radius: 20px;
+    margin: 15% 2%;
+    padding: 30px;
+    height: 170px;
+    /* background-color: rgb(131, 131, 170); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+ 

@@ -9,6 +9,7 @@ export default function Datingcontainer() {
             <div> 
             <h1>Dating </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum excepturi, quis corporis voluptatem neque, rerum blanditiis laudantium fugiat magnam aut tenetur iure, voluptates quos alias sapiente repudiandae minus omnis. Reiciendis.</p>
+            <button className='szdatingbtn'>Get Started</button> 
             </div>
        </div>
             <div className='datinglogodiv'>  
