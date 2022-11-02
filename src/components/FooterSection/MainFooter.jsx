@@ -92,21 +92,43 @@ const MainFooter = () => {
             </div>
 
             <div className="footerSocialMediaSection">
-              <IconContext.Provider value={{ className: "socialIcons" }}>
-                <FaFacebookF />
-              </IconContext.Provider>
-              <IconContext.Provider value={{ className: "socialIcons" }}>
-                <FaTwitter />
-              </IconContext.Provider>
-              <IconContext.Provider value={{ className: "socialIcons" }}>
-                <FaLinkedin />
-              </IconContext.Provider>
-              <IconContext.Provider value={{ className: "socialIcons" }}>
-                <AiFillInstagram />
-              </IconContext.Provider>
-              <IconContext.Provider value={{ className: "socialIcons" }}>
-                <FaYoutube />
-              </IconContext.Provider>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100075774771610"
+              >
+                <IconContext.Provider value={{ className: "socialIcons" }}>
+                  <FaFacebookF />
+                </IconContext.Provider>
+              </a>
+              <a target="_blank" href="https://twitter.com/BottomFunnel">
+                <IconContext.Provider value={{ className: "socialIcons" }}>
+                  <FaTwitter />
+                </IconContext.Provider>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/bottomfunnel/mycompany/verification/"
+              >
+                <IconContext.Provider value={{ className: "socialIcons" }}>
+                  <FaLinkedin />
+                </IconContext.Provider>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/bottomfunnelmarketing/"
+              >
+                <IconContext.Provider value={{ className: "socialIcons" }}>
+                  <AiFillInstagram />
+                </IconContext.Provider>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UC-zyghDYFUgRSUlKTadvJuQ"
+              >
+                <IconContext.Provider value={{ className: "socialIcons" }}>
+                  <FaYoutube />
+                </IconContext.Provider>
+              </a>
             </div>
 
             <div className="footerMapContactSection privacySection">
