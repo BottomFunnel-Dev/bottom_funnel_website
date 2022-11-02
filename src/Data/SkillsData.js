@@ -30,6 +30,10 @@
 // big commerce -
 // drupal -
 // IBM db2 -
+// Elacticsearch -
+// Sqlite -
+// Cassandra -
+// Flask -
 
 export const nodejsData = {
   isBanner: true,
@@ -1062,8 +1066,7 @@ export const reactjsData = {
   desData: {
     title: "Reactjs",
     image: "Images/reactjsSkillsPhotos/reactjs-logo.png",
-    description:
-      `React is a free and open-source front-end JavaScript library for building user interfaces
+    description: `React is a free and open-source front-end JavaScript library for building user interfaces
       based on UI components. It builds encapsulated components that manage their own state,
       then compose them to make complex UIs. Bottom Funnel is among the leading React.js web
       application development company in Asia, USA, middle-east and Africa which provides the
@@ -1081,8 +1084,7 @@ export const reactjsData = {
         },
         title: "Portal Development",
 
-        description:
-          `We have a team of expert ReactJS developers who can help you build your perfect portal so
+        description: `We have a team of expert ReactJS developers who can help you build your perfect portal so
           that you can get the most out of your website by optimizing it for performance and
           usability.
           `,
@@ -1093,8 +1095,7 @@ export const reactjsData = {
           alt: "Easy to Write With JSX logo",
         },
         title: "Interactive ReactJS UI Development",
-        description:
-          `Our React.js web application development services specialize in creating interactive UI
+        description: `Our React.js web application development services specialize in creating interactive UI
           designs that are responsive and adaptive to different devices and browsers by using the
           latest technologies such as React Router 4.`,
       },
@@ -1104,8 +1105,7 @@ export const reactjsData = {
           alt: "A Big Timesaver logo",
         },
         title: "React.js migration service",
-        description:
-          `You can be assured of a smooth and error-free migration process. Our experienced and
+        description: `You can be assured of a smooth and error-free migration process. Our experienced and
           qualified React.js developers take care of migrating all your current websites while
           preserving all your current information.
           `,
@@ -1116,8 +1116,7 @@ export const reactjsData = {
           alt: "Performance Leveraging Ecosystem logo",
         },
         title: "Custom React.Js Development",
-        description:
-          `Our ReactJS developers are familiar with various front-end development frameworks such
+        description: `Our ReactJS developers are familiar with various front-end development frameworks such
           as Bootstrap, Material Design, and Foundation to facilitate you with custom react.js
           development services.`,
       },
@@ -1127,8 +1126,7 @@ export const reactjsData = {
           alt: "Great Developer Tools logo",
         },
         title: "Ajax Development",
-        description:
-          `We specialize in developing Ajax applications that are both user friendly and efficient. Our
+        description: `We specialize in developing Ajax applications that are both user friendly and efficient. Our
           react.js developers can design, develop, and deploy ajax applications that can improve your
           work flow and make your life easier`,
       },
@@ -1138,8 +1136,7 @@ export const reactjsData = {
           alt: "Easy-to-Understand logo",
         },
         title: "E-commerce Development",
-        description:
-          `Our react.js web application development services for developing an e-commerce website
+        description: `Our react.js web application development services for developing an e-commerce website
           can deliver a website that engages and converts visitors into customers with an attractive
           and well-optimized user interface.
           `,
@@ -1167,8 +1164,7 @@ export const reactjsData = {
   isRemarkable: true,
   RemarkableData: {
     title: "Benefits Of Using React.js for Web Development",
-    description:
-      `React.js is the most popular library for developing complex UIs. Bottom funnel’s React.js
+    description: `React.js is the most popular library for developing complex UIs. Bottom funnel’s React.js
       web application developers develop attractive high quality web applications and avail the
       following benefits:`,
     cardsData: [
@@ -4970,6 +4966,152 @@ export const flaskData = {
   isBookCall: true,
   BookCallData: {
     title: "Need our flask developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
+export const golangData = {
+  isBanner: true,
+  BannerData: {
+    image: "Images/golangSkillsPhotos/banner.png",
+    title: "Golang Development Services",
+    description:
+      "Delivering on your business vision with quality .NET web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Golang",
+    image: "Images/golangSkillsPhotos/golang-logo.png",
+    description:
+      "Golang is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR GOLANG WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/golangSkillsPhotos/open-source.png",
+          alt: "Open Source logo",
+        },
+        title: "Open Source",
+
+        description:
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+      },
+      {
+        img: {
+          src: "Images/golangSkillsPhotos/sync.png",
+          alt: "Cross-platform development logo",
+        },
+        title: "Cross-platform development",
+        description:
+          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+      },
+      {
+        img: {
+          src: "Images/golangSkillsPhotos/printing.png",
+          alt: "Testing capabilities logo",
+        },
+        title: "Testing capabilities",
+        description:
+          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+      },
+      {
+        img: {
+          src: "Images/golangSkillsPhotos/keyboard.png",
+          alt: "Static typing logo",
+        },
+        title: "Static typing",
+        description:
+          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+      },
+      {
+        img: {
+          src: "Images/golangSkillsPhotos/books.png",
+          alt: "Powerful standard liberary logo",
+        },
+        title: "Powerful standard liberary",
+        description:
+          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+      },
+      {
+        img: {
+          src: "Images/golangSkillsPhotos/proccess.png",
+          alt: "Concurrency support logo",
+        },
+        title: "Concurrency support",
+        description:
+          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for Golang",
+    image: "Images/golangSkillsPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive golang solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our golang developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,

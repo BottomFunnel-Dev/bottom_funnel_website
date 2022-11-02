@@ -45,6 +45,7 @@ import {
   elasticData,
   emberjsData,
   flaskData,
+  golangData,
   hiberateData,
   hubspotData,
   ibmData,
@@ -173,6 +174,7 @@ export const ALLroutes = () => {
         element={<SkillsComPage allData={cassandraData} />}
       />
       <Route path="/flask" element={<SkillsComPage allData={flaskData} />} />
+      <Route path="/golang" element={<SkillsComPage allData={golangData} />} />
 
       <Route path="/beautycareapp" element={<Beautysection />} />
       <Route path="/digitalmarketing" element={<SeoDm />} />
