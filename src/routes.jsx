@@ -46,17 +46,20 @@ import {
   emberjsData,
   flaskData,
   golangData,
+  grailsData,
   hiberateData,
   hubspotData,
   ibmData,
   joomlaData,
   jqueryData,
+  jsfData,
   laravelData,
   mongodbData,
   msSQLData,
   mysqlData,
   nextjsData,
   nodejsData,
+  phalconData,
   phpData,
   postgresqlData,
   reactjsData,
@@ -71,6 +74,7 @@ import {
   wooecommerceData,
   wordpressData,
 } from "./Data/SkillsData";
+import { Taxibooking } from "./Components/Taxibooking/Taxibooking";
 
 export const ALLroutes = () => {
   return (
@@ -182,6 +186,12 @@ export const ALLroutes = () => {
         path="/symfony"
         element={<SkillsComPage allData={symfonyData} />}
       />
+      <Route path="/grails" element={<SkillsComPage allData={grailsData} />} />
+      <Route path="/jsf" element={<SkillsComPage allData={jsfData} />} />
+      <Route
+        path="/phalcon"
+        element={<SkillsComPage allData={phalconData} />}
+      />
 
       <Route path="/beautycareapp" element={<Beautysection />} />
       <Route path="/digitalmarketing" element={<SeoDm />} />
@@ -200,6 +210,7 @@ export const ALLroutes = () => {
       <Route path="/Icecream" element={<Icecream />} />
       <Route path="/Products" element={<ProductPage />} />
       <Route path="/E-shooter" element={<Escooter />} />
+      <Route path="/taxi-booking" element={<Taxibooking />} />
     </Routes>
   );
 };

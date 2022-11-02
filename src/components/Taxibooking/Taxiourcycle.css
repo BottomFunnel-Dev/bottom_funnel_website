@@ -1,0 +1,29 @@
+.szourtaxi{
+    width: 100%;
+    height: 400px;
+    /* background-color: rgb(56, 120, 120); */
+}
+.szourtaxisub{
+    width: 90%;
+    margin: auto;
+    height: 330px;
+    padding: 20px 10px;
+    /* background-color: rgb(62, 185, 57); */
+    text-align: center;
+}
+.szourtaxidiv{
+    width: 100%;
+    height: 320px;
+    padding: 20px 0px;
+    /* background-color: chartreuse; */
+}
+.szdispatch{
+    /* background-color: crimson; */
+    width: 100%;
+    height: 300px;
+}
+.szdispatch>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

@@ -432,7 +432,7 @@ export const ondemand = [
   {
     dropContent: "Taxi Booking App",
     navIcons: "Images/navbar/industriesImage/taxibooking.png",
-    path: "",
+    path: "taxi-booking",
   },
   {
     dropContent: "Tool Delivery App",
@@ -573,22 +573,22 @@ export const mobile = [
   {
     dropContent: "IOS",
     navIcons: "Images/navbar/skills/iosimage.png",
-    path: "",
+    path: "ios",
   },
   {
     dropContent: "Android",
     navIcons: "Images/navbar/skills/android.png",
-    path: "",
+    path: "android",
   },
   {
     dropContent: "React Native",
     navIcons: "Images/navbar/skills/react.png",
-    path: "",
+    path: "reactNative",
   },
   {
     dropContent: "Ionic",
     navIcons: "Images/navbar/skills/ionic.png",
-    path: "",
+    path: "ionic",
   },
   {
     dropContent: "Java",
@@ -598,7 +598,7 @@ export const mobile = [
   {
     dropContent: "Flutter",
     navIcons: "Images/navbar/skills/flutter.png",
-    path: "",
+    path: "flutter",
   },
   {
     dropContent: "Xamarin",

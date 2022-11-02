@@ -1,28 +1,35 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./moreServices.css";
 const MoreServices = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="footerTable">
       <div className="innerTable">
         <p>Digital Marketing Services</p>
-        <p>Seo Services</p>
-        <p>Local Seo Services</p>
-        <p>SEM Services</p>
-        <p>PPC Management Services</p>
-        <p>Guest Posting Services</p>
+        <p onClick={() => navigate("/seo")}>Seo Services</p>
+        <p onClick={() => navigate("/local-seo")}>Local Seo Services</p>
+        <p onClick={() => navigate("/seo-sem")}>SEM Services</p>
+        <p onClick={() => navigate("/seo-ppc")}>PPC Management Services</p>
+        <p onClick={() => navigate("/seo-guest-post")}>
+          Guest Posting Services
+        </p>
         <p>Link Building Services</p>
         <p>Email Marketing Services</p>
         <p>Big Data Services</p>
         <p>Blockchain Services</p>
       </div>
       <div className="innerTable">
-        <p>Android App Development</p>
-        <p>IOS App Development</p>
+        <p onClick={() => navigate("/android")}>Android App Development</p>
+        <p onClick={() => navigate("/ios")}>IOS App Development</p>
         <p>Kotlin App Developement</p>
-        <p>Flutter App Development</p>
-        <p>React Native App Development</p>
+        <p onClick={() => navigate("/flutter")}>Flutter App Development</p>
+        <p onClick={() => navigate("/reactNative")}>
+          React Native App Development
+        </p>
         <p>Xamarin App Development</p>
-        <p>Ionic App Development</p>
+        <p onClick={() => navigate("/iconic")}>Ionic App Development</p>
         <p>Wearable App Developement</p>
         <p>Crypto Currency Development</p>
         <p>Custmised Web Developemnt</p>
@@ -31,26 +38,24 @@ const MoreServices = () => {
 
       <div className="innerTable">
         <p>Solutions</p>
-        <p>Food Delivery App</p>
-        <p>Alcohol Delivery App</p>
+        <p onClick={() => navigate("/food-delivery")}>Food Delivery App</p>
+        <p onClick={() => navigate("/alcohol")}>Alcohol Delivery App</p>
         <p>laundry Delivery App</p>
-        <p>Grocery Delivery App</p>
-        <p>Beauty & Salon App</p>
+        <p onClick={() => navigate("/grocery")}>Grocery Delivery App</p>
+        <p onClick={() => navigate("/beautycareapp")}>Beauty & Salon App</p>
         <p>Carpooling App</p>
         <p>taxi Booking App</p>
-        <p>Cannabis Delivery App</p>
+        <p onClick={() => navigate("/cannabis")}>Cannabis Delivery App</p>
         <p>Pharmacy Delivery App</p>
         <p>Flower Delivery App</p>
         <p>Carpooling App</p>
         <p>taxi Booking App</p>
         <p>Tool Delivery App</p>
-        <p>Icecream Delivery App </p>
+        <p onClick={() => navigate("/Icecream")}>Icecream Delivery App </p>
         <p>Wellness</p>
-        
       </div>
       <div className="innerTable">
-      <p>Trending Technologies</p>
-       
+        <p>Trending Technologies</p>
         <p>Machine Learning</p>
         <p>Artificial Intelligence</p>
         <p>Data Analytics</p>
@@ -63,7 +68,6 @@ const MoreServices = () => {
         <p>News</p>
         <p>SaaS</p>
         <p>Events</p>
-       
       </div>
     </div>
   );
