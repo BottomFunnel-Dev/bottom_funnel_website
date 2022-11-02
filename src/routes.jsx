@@ -29,6 +29,9 @@ import { SkillsComPage } from "./Components/skillsPageCom/SkillsComPage";
 import Travel from "./Components/Travel/Travel";
 import Videostreaming from "./Components/Videostreaming/Videostreaming";
 import { ProductPage } from "./Components/ProductsPage/ProductPage";
+import { Icecream } from "./Components/Icecream/Icecream";
+import Escooter from "./Components/Escooter/Escooter";
+
 import {
   angularjsData,
   backbonejsData,
@@ -185,7 +188,9 @@ export const ALLroutes = () => {
       <Route path="/dating" element={<Dating />} />
       <Route path="/alcohol" element={<AlcoholDeliveryPage />} />
       <Route path="/cannabis" element={<Cannabis />} />
+      <Route path="/Icecream" element={<Icecream />} />
       <Route path="/Products" element={<ProductPage />} />
+      <Route path="/E-shooter" element={<Escooter />} />
     </Routes>
   );
 };

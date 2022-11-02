@@ -1,0 +1,109 @@
+.szescootersection{
+width: 100%;
+height: 625px;
+margin-top: 6%;
+/* background-color: aqua; */
+}
+.szescootersub{
+ width: 90%;
+ height: 590px;
+ /* background-color: red; */
+ margin: auto;
+ display: flex;
+ background: url("/public/Images/Escooter/Background.png");
+ background-repeat: no-repeat;
+ background-size: 100% 550px;
+ position: relative;
+ 
+}
+.szescooterleft{
+    width: 50%;
+    /* background-color: blue; */
+    height: 450px;
+    position: relative
+}
+.szescooterleft>div{
+    color: white;
+    width: 50%;
+    padding: 30px 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.szescooterleft>div>p{
+    font-size: 18px;
+ 
+}
+.szescooterright{
+    width: 50%;
+    /* background-color: burlywood; */
+    height:450px;
+    position: relative
+    
+}
+.escooterblue{
+ width:100% ;
+ height:250px ;
+ position: absolute;
+ margin-top: 50%;
+ margin-left: -20%;
+ z-index: 2;
+}
+.escooterblue>img{
+    width:100% ;
+    height:100% ;
+    object-fit: contain;
+}
+.segway{
+    width:100% ;
+    height:400px ;
+    margin-top: 28%;
+    position: absolute;
+    z-index: 1;
+}
+.segway>img{
+    width:100% ;
+    height:100% ;
+    object-fit: contain;
+}
+.goodriding{
+    width:50% ;
+    margin: 30% 50%;
+    height:385px ;
+    position: absolute;
+    z-index: 0;
+}
+.goodriding>img{
+    width:100% ;
+    height:100% ;
+    object-fit: contain;
+}
+.szskyblueeffect{
+    width: 40%;
+    height: 100px;
+    
+    margin: 80% 12%;
+}
+.szskyblueeffect>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.szescooterbtn{
+
+
+    padding:10px 60px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    background-color: #ef4c23;
+    color:white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.szescooterbtn:hover{
+     color: #ef4c23;
+     background-color:white;
+}

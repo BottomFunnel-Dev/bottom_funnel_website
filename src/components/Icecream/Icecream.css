@@ -1,0 +1,87 @@
+.szicecreamcontainer{
+    width: 100%;
+    height: 630px;
+    /* background-color: aqua; */
+    margin-top: 6%;
+}
+.szicecreamsubcontainer{
+    width: 90%;
+    /* background-color: blue; */
+    height: 590px;
+    margin: auto;
+    display: flex;
+}
+.szicecreamright{
+ width: 50%;
+ /* background-color: brown; */
+ position: relative;
+ 
+}
+.szicecreamleft{
+    width: 50%;
+    /* background-color: chartreuse; */
+  position: relative;  
+  padding: 100px 30px;
+     
+}
+.szicecreamleft>div{
+    width: 100%;
+    padding: 30px 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.szrecpurple{
+    width:100%;
+    height: 650px;
+    position: absolute;
+    z-index: 0;
+}
+.szrecpurple>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.szchoclatecream{
+    width: 30%;
+    height: 350px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 23%;
+    margin-top: 3%;
+}
+.szchoclatecream>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.szbowlicecream{
+    width: 50%;
+    height: 385px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 38%;
+    margin-top: 30%;
+}
+.szbowlicecream>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.szicecreambtn{
+    padding:10px 60px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    background-color: #ef4c23;
+    color:white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.szicecreambtn:hover{
+     color: #ef4c23;
+     background-color:white;
+}

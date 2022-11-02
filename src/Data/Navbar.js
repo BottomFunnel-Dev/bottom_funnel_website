@@ -353,7 +353,7 @@ export const industries = [
   {
     dropContent: "eScooter",
     navIcons: "Images/navbar/industriesImage/escooter.png",
-    path: "",
+    path: "E-shooter",
   },
   {
     dropContent: "Travel",
@@ -442,7 +442,7 @@ export const ondemand = [
   {
     dropContent: "Icecream Delivery App",
     navIcons: "Images/navbar/industriesImage/icecream.png",
-    path: "",
+    path: "Icecream",
   },
 ];
 

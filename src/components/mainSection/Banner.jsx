@@ -3,18 +3,16 @@ import "./banner.css";
 import Slider from "react-slick";
 const CompanyLogo = () => {
   var settings = {
-    // autoplay: true,
+    autoplay: true,
     dots: false,
     autoplaySpeed: 5000,
     cssEase: "linear",
-    speed: 2000,
+    speed: 7000,
     swipeToSlide: true,
     slidesToShow: 1,
-    pauseOnHover: false,
+    pauseOnHover: true,
     slidesToScroll: 1,
-    // vertical:true,
-    // fade: true,
-    // arrows: true,
+    arrows: true,
     infinite: true,
     responsive: [
       {
@@ -86,9 +84,7 @@ const CompanyLogo = () => {
                 <div className="textContent">
                   <div>
                     <h1>{item.title}</h1>
-                    <p>
-                     {item.desc}
-                    </p>
+                    <p>{item.desc}</p>
                     <button>Get Started</button>
                   </div>
                 </div>

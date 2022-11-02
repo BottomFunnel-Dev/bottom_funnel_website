@@ -1,0 +1,96 @@
+.icecreamcustomersection{
+    width:100%;
+    /* background-color: blue; */
+    height: 600px;
+  }
+  .icecreamsubcustomer{
+   width: 90%;
+   height: 550px;
+   margin: auto;
+   display: flex;
+   /* background-color: tan; */
+  }
+  .icecreamsubcustomerleft{
+      width: 50%;
+      height: 550px;
+      /* background-color: aqua; */
+      position: relative;
+  }
+  .icecreamsubcustomerright{
+  width: 50%;
+  height: 550px;
+  /* background-color: red; */
+  position: relative;
+  }
+  .icecreamsubcustomerright>div{
+      width: 90%;
+      padding: 30px 20px;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 50%;
+      left: 55%;
+  }
+  .icecreamcustomerbtn{
+      padding:10px 60px;
+      font-weight: 600;
+      font-size: 18px;
+      border: none;
+      background-color: #ef4c23;
+      color:white;
+      border-radius: 25px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .icecreamcustomerbtn:hover{
+       color: #ef4c23;
+       background-color:white;
+  }
+  .szpinkcircleimage{
+      width:100%;
+      height: 500px;
+      margin-left: -13%;
+      position: absolute;
+      z-index: 0;
+  }
+  .szpinkcircleimage>img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+  }
+  .szpurplecircleimage{
+      width:100%;
+      margin: 25% 20%;
+      height: 400px;
+      position: absolute;
+      z-index: 1;
+  }
+  .szpurplecircleimage>img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+  }
+  .szvanilla{
+   width: 90%;
+   height: 400px;
+   margin: 15% -12%;
+   position: absolute;
+   /* z-index: 3; */
+  }
+  .szvanilla>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .szchoclate{
+
+    width: 90%;
+    height: 350px;
+    margin: 29% 20%;
+    position: absolute;
+    z-index:2 ;
+  }
+  .szchoclate>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }

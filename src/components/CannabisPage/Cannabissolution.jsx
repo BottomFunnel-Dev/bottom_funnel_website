@@ -94,7 +94,7 @@ export default function Cannabissolution() {
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src="Images/cannabisPhotos/coininHand.png" />{" "}
+              <img src="Images/cannabisPhotos/CoininHand.png" />{" "}
             </div>
             <h5>Real-Time Tracking</h5>
           </div>

@@ -1,0 +1,96 @@
+.icecreamdrivesection{
+    width:100%;
+    /* background-color: blue; */
+    height: 600px;
+  }
+  .icecreamsubdrive{
+   width: 90%;
+   height: 550px;
+   margin: auto;
+   display: flex;
+   /* background-color: tan; */
+  }
+  .icecreamsubdriveleft{
+      width: 50%;
+      height: 550px;
+      /* background-color: aqua; */
+      position: relative;
+  }
+  .icecreamsubdriveright{
+  width: 50%;
+  height: 550px;
+  /* background-color: red; */
+  position: relative;
+  }
+  .icecreamsubdriveright>div{
+      width: 90%;
+      padding: 30px 20px;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 50%;
+      left: 55%;
+  }
+  .icecreamdrivebtn{
+      padding:10px 60px;
+      font-weight: 600;
+      font-size: 18px;
+      border: none;
+      background-color: #ef4c23;
+      color:white;
+      border-radius: 25px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .icecreamdrivebtn:hover{
+       color: #ef4c23;
+       background-color:white;
+  }
+  .szicerectangletop{
+      width:100%;
+      height: 500px;
+      margin-top: -10%;
+      position: absolute;
+      z-index: 0;
+  }
+  .szicerectangletop>img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+  }
+  .szicetab{
+      width:100%;
+      margin: 10% 5%;
+      height: 400px;
+      position: absolute;
+      z-index: 1;
+  }
+  .szicetab>img{
+      width: 90%;
+      height: 100%;
+      object-fit: contain;
+  }
+  .szicerectanglebottom{
+   width: 90%;
+   height: 400px;
+   margin: 29% 0%;
+   position: absolute;
+   z-index: 0;
+  }
+  .szicerectanglebottom>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .szchoclate{
+
+    width: 90%;
+    height: 350px;
+    margin: 29% 20%;
+    position: absolute;
+    z-index:2 ;
+  }
+  .szchoclate>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
