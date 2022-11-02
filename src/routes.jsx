@@ -63,7 +63,9 @@ import {
   redisData,
   springBootData,
   sqliteData,
+  strutsData,
   svelteData,
+  symfonyData,
   vuejsData,
   wixData,
   wooecommerceData,
@@ -175,6 +177,11 @@ export const ALLroutes = () => {
       />
       <Route path="/flask" element={<SkillsComPage allData={flaskData} />} />
       <Route path="/golang" element={<SkillsComPage allData={golangData} />} />
+      <Route path="/struts" element={<SkillsComPage allData={strutsData} />} />
+      <Route
+        path="/symfony"
+        element={<SkillsComPage allData={symfonyData} />}
+      />
 
       <Route path="/beautycareapp" element={<Beautysection />} />
       <Route path="/digitalmarketing" element={<SeoDm />} />

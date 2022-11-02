@@ -5020,6 +5020,152 @@ export const flaskData = {
   },
 };
 
+export const strutsData = {
+  isBanner: true,
+  BannerData: {
+    image: "Images/strutsSkillsPhotos/banner.png",
+    title: "Struts Development Services",
+    description:
+      "Delivering on your business vision with quality .NET web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Struts",
+    image: "Images/strutsSkillsPhotos/struts-logo.png",
+    description:
+      "Struts is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR STRUTS WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/strutsSkillsPhotos/price-tag.png",
+          alt: "Tag support logo",
+        },
+        title: "Tag support",
+
+        description:
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+      },
+      {
+        img: {
+          src: "Images/strutsSkillsPhotos/database.png",
+          alt: "Teplate support logo",
+        },
+        title: "Teplate support",
+        description:
+          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+      },
+      {
+        img: {
+          src: "Images/strutsSkillsPhotos/coordination.png",
+          alt: "Intigration support logo",
+        },
+        title: "Intigration support",
+        description:
+          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+      },
+      {
+        img: {
+          src: "Images/strutsSkillsPhotos/ajax.png",
+          alt: "Ajax support logo",
+        },
+        title: "Ajax support",
+        description:
+          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+      },
+      {
+        img: {
+          src: "Images/strutsSkillsPhotos/open-source.png",
+          alt: "Open Source logo",
+        },
+        title: "Open Source",
+        description:
+          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+      },
+      {
+        img: {
+          src: "Images/strutsSkillsPhotos/result.png",
+          alt: "Various result types logo",
+        },
+        title: "Various result types",
+        description:
+          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for Struts",
+    image: "Images/strutsSkillsPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive struts solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our struts developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
 export const golangData = {
   isBanner: true,
   BannerData: {
@@ -5112,6 +5258,152 @@ export const golangData = {
   isBookCall: true,
   BookCallData: {
     title: "Need our golang developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
+export const symfonyData = {
+  isBanner: true,
+  BannerData: {
+    image: "Images/symfonySkillsPhotos/banner.png",
+    title: "Symfony Development Services",
+    description:
+      "Delivering on your business vision with quality .NET web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Symfony",
+    image: "Images/symfonySkillsPhotos/symfony-logo.png",
+    description:
+      "Symfony is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR SYMFONY WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/symfonySkillsPhotos/php.png",
+          alt: "High-performance PHP framework logo",
+        },
+        title: "High-performance PHP framework",
+
+        description:
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+      },
+      {
+        img: {
+          src: "Images/symfonySkillsPhotos/database-checked.png",
+          alt: "Full-featured database classes logo",
+        },
+        title: "Full-featured database classes",
+        description:
+          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+      },
+      {
+        img: {
+          src: "Images/symfonySkillsPhotos/curved.png",
+          alt: "Flexible logo",
+        },
+        title: "Flexible",
+        description:
+          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+      },
+      {
+        img: {
+          src: "Images/symfonySkillsPhotos/setting.png",
+          alt: "Easier to maintain logo",
+        },
+        title: "Easier to maintain",
+        description:
+          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+      },
+      {
+        img: {
+          src: "Images/symfonySkillsPhotos/support.png",
+          alt: "Excellent support logo",
+        },
+        title: "Excellent support",
+        description:
+          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+      },
+      {
+        img: {
+          src: "Images/symfonySkillsPhotos/users.png",
+          alt: "Session management logo",
+        },
+        title: "Session management",
+        description:
+          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for Symfony",
+    image: "Images/symfonySkillsPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive symfony solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our symfony developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,
