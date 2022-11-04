@@ -18,6 +18,7 @@ const FooterTable = () => {
         <p>Our Development Process</p>
         <p>Engagement Modals</p>
       </div>
+
       <div className="innerTable">
         <p>Web Development</p>
         <p>PHP Development</p>
@@ -30,29 +31,37 @@ const FooterTable = () => {
         <p>Golang Development</p>
         <p>Javascript Development</p>
       </div>
+
       <div className="innerTable">
-        <p>Portfolio</p>
-        <p>Yanbal</p>
-        <p>BlueBerry Group</p>
-        <p>Blueberry Travels</p>
-        <p>Jambo Shoppe</p>
-        <p>Roshi Wellness</p>
-        <p>Next Holidays</p>
-        <p>On-cart</p>
-        <p>Travelflap</p>
-        <p>More...</p>
+        <p>Mobile App Development</p>
+        <p onClick={() => navigate("/android")}>Android App Development</p>
+        <p onClick={() => navigate("/ios")}>IOS App Development</p>
+        <p>Kotlin App Developement</p>
+        <p onClick={() => navigate("/flutter")}>Flutter App Development</p>
+        <p onClick={() => navigate("/reactNative")}>
+          React Native App Development
+        </p>
+        <p>Xamarin App Development</p>
+        <p onClick={() => navigate("/iconic")}>Ionic App Development</p>
+        <p>Wearable App Developement</p>
+        <p>Mobile UX/UI</p>
       </div>
+
       <div className="innerTable">
-        <p>Industry We Serve</p>
-        <p onClick={() => navigate("/education")}>Education</p>
-        <p onClick={() => navigate("/gameDevelopment")}>Gaming</p>
-        <p onClick={() => navigate("/ecommerce")}>E-Commerce</p>
-        <p onClick={() => navigate("/videostreaming")}>Video Streaming</p>
-        <p>Sports Betting</p>
-        <p>IoT Development</p>
-        <p onClick={() => navigate("/fitness")}>Fitness</p>
-        <p onClick={() => navigate("/dating")}>Dating</p>
-        <p>Cryptocurrency</p>
+        <p>Digital Marketing Services</p>
+        <p onClick={() => navigate("/seo")}>Seo Services</p>
+        <p onClick={() => navigate("/local-seo")}>Local Seo Services</p>
+        <p onClick={() => navigate("/seo-sem")}>SEM Services</p>
+        <p onClick={() => navigate("/seo-ppc")}>PPC Management Services</p>
+        <p onClick={() => navigate("/seo-guest-post")}>
+          Guest Posting Services
+        </p>
+        <p onClick={() => navigate("/seo-link-building")}>
+          Link Building Services
+        </p>
+        <p onClick={() => navigate("/emailservices")}>
+          Email Marketing Services
+        </p>
       </div>
     </div>
   );

@@ -34,6 +34,12 @@
 // Sqlite -
 // Cassandra -
 // Flask -
+// Struts -
+// Golang -
+// Symfony -
+// Grails -
+// JSF -
+// Phalcon -
 
 export const nodejsData = {
   isBanner: true,
@@ -477,18 +483,18 @@ export const laravelData = {
     image: "Images/larvelskillsphotos/banner.png",
     title: "Laravel Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Let our Laravel developers build an expressive and elegant Laravel web application for you.",
   },
   isDes: true,
   desData: {
     title: "Laravel",
     image: "Images/larvelskillsphotos/laravel-logo.png",
     description:
-      "Laravel is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Laravel is a free, cross-platform, open-source developer platform that has been designed support many different types of application development needs. It uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. Bottom Funnel is among the leading Laravel web application development country in Asia, USA, middle-east and Africa which provides the best Laravel web application development services by experienced and best Laravel web developers.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR laravel WEB DEVELOPMENT SERVICES",
+    title: "OUR LARAVEL WEB DEVELOPMENT SERVICES",
     cardsData: [
       {
         img: {
@@ -498,7 +504,7 @@ export const laravelData = {
         title: "Bundled Features",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "Laravel web application development has bundled features already available for easy addition to applications. Bundles provide a modular packaging system which enables our Laravel web developers to create an interactive and robust web applications for you.",
       },
       {
         img: {
@@ -507,7 +513,7 @@ export const laravelData = {
         },
         title: "Automated Testing",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Laravel doesn't let any session or cache data be persisted while testing for web development as it automatically configures the session and cache to the array driver testing making your web application error and cache free.",
       },
       {
         img: {
@@ -516,7 +522,7 @@ export const laravelData = {
         },
         title: "Reusable code",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "Laravel lets the web application developers use high-quality code for reusability purpose for a new function and software so that you will be able to use the same codes which are already developed by our developers, saving your time and cost.",
       },
       {
         img: {
@@ -525,7 +531,7 @@ export const laravelData = {
         },
         title: "Agile development",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Laravel provides the flexibility of using agile development method to the web application developers which enables them to constantly improve quality in sprints with short-term deliverables, making the web application adaptable to any changes you suggest.",
       },
       {
         img: {
@@ -534,7 +540,7 @@ export const laravelData = {
         },
         title: "AJAX-enabled widgets",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Laravel provides AJAX-enabled widgets for creating fast and dynamic web pages. Our Laravel web application developers utilize many web technologies used on the client-side to create asynchronous Web applications with the help of AJAX-enabled widgets of Laravel.",
       },
       {
         img: {
@@ -543,13 +549,13 @@ export const laravelData = {
         },
         title: "Build in tools",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Laravel has certain built-in web application development tools like phpstorm, bitbucket, etc. to assist our Laravel web application developers in catering to all your technical requirements for the web application and to build an attractive and robust web application.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom funnel for .NET",
+    title: "Why Bottom funnel for Laravel",
     image: "Images/larvelskillsphotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -567,9 +573,9 @@ export const laravelData = {
   },
   isRemarkable: true,
   RemarkableData: {
-    title: "BENEFITS OF USING .NET FOR APPLICATION DEVELOPMENT",
+    title: "BENEFITS OF USING LARAVEL FOR APPLICATION DEVELOPMENT",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Connect with Bottom funnel's Laravel web application developers to develop hybrid high quality web applications and avail the following benefits:",
     cardsData: [
       {
         img: {
@@ -623,73 +629,73 @@ export const djangoData = {
     image: "Images/djangoPhotos/banner.png",
     title: "Django Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Develop web applications quicker and cost efficient by using less codes with our Django web application development services.",
   },
   isDes: true,
   desData: {
     title: "Django",
     image: "Images/djangoPhotos/django-logo.png",
     description:
-      "Django is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Django is a free and open-source, Python-based web framework that follows the template and views architectural pattern. It is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Bottom Funnel is among the leading Django web application development company in Asia, USA, middle-east and Africa which provides the best Django web application development services by experienced and best Django web developers.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR DJANGO WEB DEVELOPMENT SERVICES",
+    title: "OUR DJANGO WEB DEVELOPMENT SERVICES",
     cardsData: [
       {
         img: {
           src: "Images/djangoPhotos/remark-speed.png",
-          alt: "Remarkable speed logo",
+          alt: "Django application development logo",
         },
-        title: "Remarkable speed",
+        title: "Django application development",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "Hire our Django app developers to design and develop robust and secure apps for you. Get clean and practical apps rapidly for your business through our Django application development services.",
       },
       {
         img: {
           src: "Images/djangoPhotos/complete-load.png",
-          alt: "Completely Loaded logo",
+          alt: "Django website Development  logo",
         },
-        title: "Completely Loaded",
+        title: "Django website Development ",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Our Django web development services provide best Django web developers who can build engaging, interesting, informative and highly responsive website for you with the help of highly versatile framework of Django.",
       },
       {
         img: {
           src: "Images/djangoPhotos/exception-secure.png",
-          alt: "Exciptionally secure logo",
+          alt: "Django Web Interface Design logo",
         },
-        title: "Exciptionally secure",
+        title: "Django Web Interface Design",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "Create backend as well as frontend codes with a single framework of Django to create interactive and attractive webpage interfaces through our customized Django interface design services by expert web developers.",
       },
       {
         img: {
           src: "Images/djangoPhotos/wealthy-feature.png",
-          alt: "Wealthy in features logo",
+          alt: "Django Template Design logo",
         },
-        title: "Wealthy in features",
+        title: "Django Template Design",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Django is a Python-based web framework for web application development that enables our web application developers to design and create variety of beautiful templates for your website, app or software.",
       },
       {
         img: {
           src: "Images/djangoPhotos/very-scalable.png",
-          alt: "Very scalable logo",
+          alt: "Django REST framework logo",
         },
-        title: "Very scalable",
+        title: "Django REST framework",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Django enables our Django web developers to use REST framework for delivering simple and flexible RESTfull APIs to our clients. We provides quality web application APIs through our Django REST framework services.",
       },
       {
         img: {
           src: "Images/djangoPhotos/very-scalable.png",
-          alt: "Dummy text logo",
+          alt: "Django Support and Maintenance logo",
         },
-        title: "Dummy text",
+        title: "Django Support and Maintenance",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "The Django support and maintenance services identify the gaps and repair the module to make it sound in terms of performance. Let our Django web application developers take care of the good performance of your app.",
       },
     ],
   },
@@ -715,7 +721,7 @@ export const djangoData = {
   RemarkableData: {
     title: "BENEFITS OF USING DJANGO FOR APPLICATION DEVELOPMENT",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Empower your business with rapid development and clean, pragmatic designs. Connect with Bottom funnel's Django web application developers to develop hybrid high quality web applications and avail the following benefits:",
     cardsData: [
       {
         img: {
@@ -769,14 +775,14 @@ export const cakePHPData = {
     image: "Images/cakephpPhotos/banner.png",
     title: "Cakephp Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality CakePHP web development.",
   },
   isDes: true,
   desData: {
     title: "CakePHP",
     image: "Images/cakephpPhotos/cakephp-logo.png",
     description:
-      "CakePHP is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "CakePHP is a free and open-source development framework! The programmers enjoy the functional structures that help in creating a beautiful application flexibly. If there is monotony in the group of Framework, CakePHP offers that platform for web development. We offer all the functionality and tools required to start the coding process to the functions require to maintain the development.",
   },
   isWhyApp: true,
   WhyAppData: {
@@ -788,9 +794,8 @@ export const cakePHPData = {
           alt: "Compatible logo",
         },
         title: "Compatible",
-
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "The framework is compatible with different versions of PHP as well as with the popular website directories.  ",
       },
       {
         img: {
@@ -799,7 +804,7 @@ export const cakePHPData = {
         },
         title: "Code reusability",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Coding from scratch isn't required as code-written can be used multiple times in the project reducing time and effort.",
       },
       {
         img: {
@@ -808,7 +813,7 @@ export const cakePHPData = {
         },
         title: "Facile database management",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "Apart from basic database handling, CakePHP web development helps in managing the database in a much more effective way.",
       },
       {
         img: {
@@ -817,7 +822,7 @@ export const cakePHPData = {
         },
         title: "Customizable elements",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "The elements residing inside the framework are easy to customize and comprehend.",
       },
       {
         img: {
@@ -826,7 +831,7 @@ export const cakePHPData = {
         },
         title: "MVC pattern",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Large apps require a systematic pattern to get started, which CakePHP offers with its unique MVC pattern.",
       },
       {
         img: {
@@ -835,13 +840,13 @@ export const cakePHPData = {
         },
         title: "Easy debugging",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Debugging of applications is simple as you don't have to get into details of the code all over again.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Cakephp",
+    title: "Why Bottom Funnel for CakePHP",
     image: "Images/cakephpPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -849,12 +854,12 @@ export const cakePHPData = {
       "Commitments with NDA agreements.",
       "Flexible engagement models.",
       "Experienced and talented team of developers.",
-      "Offers variety of exclusive cakephp solutions.",
+      "Offers variety of exclusive cakePHP solutions.",
     ],
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our cakephp developers to build your application?",
+    title: "Need our cakePHP developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: true,
@@ -915,14 +920,14 @@ export const codeigniterData = {
     image: "Images/CodeIgniterPhotos/banner.png",
     title: "CodeIgniter Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality codeigniter web development.",
   },
   isDes: true,
   desData: {
     title: "CodeIgniter",
-    image: "Images/CodeIgniterPhotos/CodeIgniter-logo.png",
+    image: "Images/codeigniterPhotos/CodeIgniter-logo.png",
     description:
-      "CodeIgniter is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Codelgniter empowers programmers to build robust applications from scratch bypassing all the possible constraints that ultimately leads to functional and dynamic products. Feature-rich apps made in a hassle-free way require high understandability of the framework and expertise in making things work. Thankfully, we at Konstant possess both.",
   },
   isWhyApp: true,
   WhyAppData: {
@@ -930,7 +935,7 @@ export const codeigniterData = {
     cardsData: [
       {
         img: {
-          src: "Images/CodeIgniterPhotos/framework-footprint.png",
+          src: "Images/codeigniterPhotos/framework-footprint.png",
           alt: "Framework with right footprint logo",
         },
         title: "Framework with right footprint",
@@ -940,7 +945,7 @@ export const codeigniterData = {
       },
       {
         img: {
-          src: "Images/CodeIgniterPhotos/simply-sol.png",
+          src: "Images/codeigniterPhotos/simply-sol.png",
           alt: "Simplified solutions logo",
         },
         title: "Simplified solutions",
@@ -949,7 +954,7 @@ export const codeigniterData = {
       },
       {
         img: {
-          src: "Images/CodeIgniterPhotos/restriction-coding.png",
+          src: "Images/codeigniterPhotos/restriction-coding.png",
           alt: "no restrictions on coding logo",
         },
         title: "no restrictions on coding",
@@ -988,19 +993,19 @@ export const codeigniterData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for CodeIgniter",
-    image: "Images/CodeIgniterPhotos/big-left-image.png",
+    image: "Images/codeigniterPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
       "Commitments with NDA agreements.",
       "Flexible engagement models.",
       "Experienced and talented team of developers.",
-      "Offers variety of exclusive CodeIgniter solutions.",
+      "Offers variety of exclusive codeigniter solutions.",
     ],
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our CodeIgniter developers to build your application?",
+    title: "Need our codeigniter developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,
@@ -1184,7 +1189,7 @@ export const reactjsData = {
       },
       {
         img: {
-          src: "Images/reactjsSKillsPhotos/reactjs-migration.png",
+          src: "Images/reactjsSkillsPhotos/reactjs-migration.png",
           alt: "ReactJs Migrations Service logo",
         },
         title: "Enables testing now and team",
@@ -1522,22 +1527,22 @@ export const springBootData = {
     image: "Images/springbootSkillsPhotos/banner.png",
     title: "SpringBoot Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality springboot java development.",
   },
   isDes: true,
   desData: {
     title: "SpringBoot",
     image: "Images/springbootSkillsPhotos/springboot-logo.png",
     description:
-      "SpringBoot is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Spring Boot is an open source Java-based framework used to create a micro Service. It is developed by Pivotal Team and is used to build stand-alone and production ready spring applications. Spring Boot provides a good platform for Java developers to develop a stand-alone and production-grade spring application that you can just run. You can get started with minimum configurations without the need for an entire Spring configuration setup.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR SPRINGBOOT WEB DEVELOPMENT SERVICES",
+    title: "WHY SPRINGBOOT FOR APPLICATION DEVELOPMENT",
     cardsData: [
       {
         img: {
-          src: "Images/springbootSKillsPhotos/easy-development.png",
+          src: "Images/springbootSkillsPhotos/easy-development.png",
           alt: "Easy Development logo",
         },
         title: "Easy Development",
@@ -1574,7 +1579,7 @@ export const springBootData = {
       },
       {
         img: {
-          src: "Images/springbootSKillsPhotos/simple-setup.png",
+          src: "Images/springbootSkillsPhotos/simple-setup.png",
           alt: "Simple setup and management logo",
         },
         title: "Simple setup and management",
@@ -1594,7 +1599,7 @@ export const springBootData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Angularjs",
+    title: "Why Bottom Funnel for Springboot",
     image: "Images/springbootSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -1602,17 +1607,17 @@ export const springBootData = {
       "Commitments with NDA agreements.",
       "Flexible engagement models.",
       "Experienced and talented team of developers.",
-      "Offers variety of exclusive vuejs solutions.",
+      "Offers variety of exclusive springboot solutions.",
     ],
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our Vuejs developers to build your application?",
+    title: "Need our springboot developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "Remarkable Springboot Services",
     description:
       "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
     cardsData: [
@@ -1668,22 +1673,22 @@ export const hiberateData = {
     image: "Images/hibernateSkillsPhotos/banner.png",
     title: "Hibernate Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality hibernate java development.",
   },
   isDes: true,
   desData: {
     title: "Hibernate",
     image: "Images/hibernateSkillsPhotos/hiberate-logo.png",
     description:
-      "Hibernate is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Hibernate is a Java framework that simplifies the development of Java application to interact with the database. It is an open source, lightweight, ORM (Object Relational Mapping) tool. Hibernate implements the specifications of JPA (Java Persistence API) for data persistence. It was started in 2001 by Gavin King as an alternative to EJB2 style entity bean.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR SPRINGBOOT WEB DEVELOPMENT SERVICES",
+    title: "WHY HIBERNATE FOR APPLICATION DEVELOPMNET",
     cardsData: [
       {
         img: {
-          src: "Images/hibernateSKillsPhotos/open-source.png",
+          src: "Images/hibernateSkillsPhotos/open-source.png",
           alt: "Open source and Lightweight logo",
         },
         title: "Open source and Lightweight",
@@ -1702,7 +1707,7 @@ export const hiberateData = {
       },
       {
         img: {
-          src: "Images/hibernateSkillsPhotos/frame-5.png",
+          src: "Images/hibernateSkillsPhotos/Frame-5.png",
           alt: "Database Independent Query logo",
         },
         title: "Database Independent Query",
@@ -1720,7 +1725,7 @@ export const hiberateData = {
       },
       {
         img: {
-          src: "Images/hibernateSKillsPhotos/simplifies.png",
+          src: "Images/hibernateSkillsPhotos/simplifies.png",
           alt: "Simplifies Complex Join logo",
         },
         title: "Simplifies Complex Join",
@@ -1740,7 +1745,7 @@ export const hiberateData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Angularjs",
+    title: "Why Bottom Funnel for Hibernate",
     image: "Images/hibernateSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -1753,12 +1758,12 @@ export const hiberateData = {
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our Hibernate developers to build your application?",
+    title: "Need our hibernate developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "Remarkable Hibernate Services",
     description:
       "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
     cardsData: [
@@ -4880,14 +4885,14 @@ export const flaskData = {
     image: "Images/flaskSkillsPhotos/banner.png",
     title: "Flask Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality python development.",
   },
   isDes: true,
   desData: {
     title: "Flask",
     image: "Images/flaskSkillsPhotos/flask-logo.png",
     description:
-      "Flask is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.",
   },
   isWhyApp: true,
   WhyAppData: {
@@ -5026,18 +5031,18 @@ export const strutsData = {
     image: "Images/strutsSkillsPhotos/banner.png",
     title: "Struts Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality struts development.",
   },
   isDes: true,
   desData: {
     title: "Struts",
     image: "Images/strutsSkillsPhotos/struts-logo.png",
     description:
-      "Struts is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Apache Struts 1 is an open-source web application framework for developing Java EE web applications. It uses and extends the Java Servlet API to encourage developers to adopt a model-view-controller(MVC) architecture. It was originally created by Craig McClanahan and donated to the Apache Foundation in May 2000. Formerly located under the Apache Jakarta Project and known as Jakarta Struts, it became a top-level Apache project in 2005.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR STRUTS WEB DEVELOPMENT SERVICES",
+    title: "WHY STRUTS FOR APPLICATION DEVELOPMENT ?",
     cardsData: [
       {
         img: {
@@ -5116,7 +5121,7 @@ export const strutsData = {
   },
   isRemarkable: false,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "Remarkable Struts Services",
     description:
       "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
     cardsData: [
@@ -5172,14 +5177,14 @@ export const golangData = {
     image: "Images/golangSkillsPhotos/banner.png",
     title: "Golang Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality golang development.",
   },
   isDes: true,
   desData: {
     title: "Golang",
     image: "Images/golangSkillsPhotos/golang-logo.png",
     description:
-      "Golang is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson.It is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.It is often referred to as Golang because of its former domain name, golang.org, but its proper name is Go.",
   },
   isWhyApp: true,
   WhyAppData: {
@@ -5262,7 +5267,7 @@ export const golangData = {
   },
   isRemarkable: false,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "Remarkable Golang Services",
     description:
       "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
     cardsData: [
@@ -5318,18 +5323,18 @@ export const symfonyData = {
     image: "Images/symfonySkillsPhotos/banner.png",
     title: "Symfony Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality PHP web development.",
   },
   isDes: true,
   desData: {
     title: "Symfony",
     image: "Images/symfonySkillsPhotos/symfony-logo.png",
     description:
-      "Symfony is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Symfony is an open-source PHP web application framework, designed for developers who need a simple and elegant toolkit to create full-featured web applications. Symfony is sponsored by SensioLabs. It was developed by Fabien Potencier in 2005. This tutorial will give you a quick introduction to Symfony framework and make you comfortable with its various components.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR SYMFONY WEB DEVELOPMENT SERVICES",
+    title: "WHY SYMFONY FOR APPLICATION DEVELOPMENT ?",
     cardsData: [
       {
         img: {
@@ -5464,18 +5469,18 @@ export const grailsData = {
     image: "Images/grailsSkillsPhotos/banner.png",
     title: "Grails Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality grails development.",
   },
   isDes: true,
   desData: {
     title: "Grails",
     image: "Images/grailsSkillsPhotos/grails-logo.png",
     description:
-      "Grails is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Grails is an open source web application framework that uses the Apache Groovy programming language. It is intended to be a high-productivity framework by following the 'coding by convention' paradigm, providing a stand-alone development environment and hiding much of the configuration detail from the developer.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR GRAILS WEB DEVELOPMENT SERVICES",
+    title: "WHY GRAILS FOR APPLICATIONS DEVELOPMENT ?",
     cardsData: [
       {
         img: {
@@ -5554,7 +5559,7 @@ export const grailsData = {
   },
   isRemarkable: false,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "Remarkable Grails Services",
     description:
       "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
     cardsData: [
@@ -5610,18 +5615,18 @@ export const jsfData = {
     image: "Images/jsfSkillsPhotos/banner.png",
     title: "JSF Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality javascript development.",
   },
   isDes: true,
   desData: {
     title: "JSF",
-    image: "Images/grailsSkillsPhotos/grails-logo.png",
+    image: "Images/jsfSkillsPhotos/jsf-logo.png",
     description:
-      "JSF is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Jakarta Faces, formerly Jakarta Server Faces and JavaServer Faces (JSF) is a Java specification for building component-based user interfaces for web applications and was formalized as a standard through the Java Community Process being part of the Java Platform, Enterprise Edition. It is also an MVC web framework that simplifies the construction of user interfaces(UI) for server-based applications by using reusable UI components in a page.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR JSF WEB DEVELOPMENT SERVICES",
+    title: "WHY JSF FOR APPICATIONS DEVELOPMENT ?",
     cardsData: [
       {
         img: {
@@ -5756,18 +5761,18 @@ export const phalconData = {
     image: "Images/phalconSkillsPhotos/banner.png",
     title: "Phalcon Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality PHP web development.",
   },
   isDes: true,
   desData: {
     title: "Phalcon",
     image: "Images/phalconSkillsPhotos/phalcon-logo.png",
     description:
-      "Phalcon is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high performance. Its unique architecture allows the framework to always be memory resident, offering its functionality whenever it's needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR PHALCON WEB DEVELOPMENT SERVICES",
+    title: "WHY PHALCON FOR APPLICATION DEVELOPMENT ?",
     cardsData: [
       {
         img: {
@@ -5846,7 +5851,7 @@ export const phalconData = {
   },
   isRemarkable: false,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "Remarkable phalcon Services",
     description:
       "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
     cardsData: [

@@ -7,34 +7,19 @@ const MoreServices = () => {
   return (
     <div className="footerTable">
       <div className="innerTable">
-        <p>Digital Marketing Services</p>
-        <p onClick={() => navigate("/seo")}>Seo Services</p>
-        <p onClick={() => navigate("/local-seo")}>Local Seo Services</p>
-        <p onClick={() => navigate("/seo-sem")}>SEM Services</p>
-        <p onClick={() => navigate("/seo-ppc")}>PPC Management Services</p>
-        <p onClick={() => navigate("/seo-guest-post")}>
-          Guest Posting Services
-        </p>
-        <p onClick={() => navigate("/seo-link-building")}>
-          Link Building Services
-        </p>
-        <p onClick={() => navigate("/emailservices")}>
-          Email Marketing Services
-        </p>
-      </div>
-      <div className="innerTable">
-        <p>Mobile App Development</p>
-        <p onClick={() => navigate("/android")}>Android App Development</p>
-        <p onClick={() => navigate("/ios")}>IOS App Development</p>
-        <p>Kotlin App Developement</p>
-        <p onClick={() => navigate("/flutter")}>Flutter App Development</p>
-        <p onClick={() => navigate("/reactNative")}>
-          React Native App Development
-        </p>
-        <p>Xamarin App Development</p>
-        <p onClick={() => navigate("/iconic")}>Ionic App Development</p>
-        <p>Wearable App Developement</p>
-        <p>Mobile UX/UI</p>
+        <p>Trending Technologies</p>
+        <p>Machine Learning</p>
+        <p>Artificial Intelligence</p>
+        <p>Data Analytics</p>
+        <p>Augmented Reality</p>
+        <p>NFT Development</p>
+        <p>IoT Development</p>
+        <p>Social Media</p>
+        <p>Logistics</p>
+        <p>Politics</p>
+        <p>News</p>
+        <p>SaaS</p>
+        <p>Events</p>
       </div>
 
       <div className="innerTable">
@@ -55,20 +40,33 @@ const MoreServices = () => {
         <p onClick={() => navigate("/Icecream")}>Icecream Delivery App </p>
         <p>Wellness</p>
       </div>
+
       <div className="innerTable">
-        <p>Trending Technologies</p>
-        <p>Machine Learning</p>
-        <p>Artificial Intelligence</p>
-        <p>Data Analytics</p>
-        <p>Augmented Reality</p>
-        <p>NFT Development</p>
+        <p>Industry We Serve</p>
+        <p onClick={() => navigate("/education")}>Education</p>
+        <p onClick={() => navigate("/gameDevelopment")}>Gaming</p>
+        <p onClick={() => navigate("/ecommerce")}>E-Commerce</p>
+        <p onClick={() => navigate("/videostreaming")}>Video Streaming</p>
+        <p>Sports Betting</p>
         <p>IoT Development</p>
-        <p>Social Media</p>
-        <p>Logistics</p>
-        <p>Politics</p>
-        <p>News</p>
-        <p>SaaS</p>
-        <p>Events</p>
+        <p onClick={() => navigate("/fitness")}>Fitness</p>
+        <p onClick={() => navigate("/dating")}>Dating</p>
+        <p>Cryptocurrency</p>
+      </div>
+
+      <div className="innerTable">
+        <p>Products</p>
+        <p>Yanbal</p>
+        <p>BlueBerry Group</p>
+        <p>Blueberry Travels</p>
+        <p>Jambo Shoppe</p>
+        <p>Roshi Wellness</p>
+        <p>Next Holidays</p>
+        <p>On-cart</p>
+        <p>Travelflap</p>
+        <p>Mukunda</p>
+        <p>SPJ Electronics</p>
+        <p>Amydus</p>
       </div>
     </div>
   );
