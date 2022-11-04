@@ -20,29 +20,27 @@ const FooterTable = () => {
       </div>
       <div className="innerTable">
         <p>Web Development</p>
+        <p>PHP Development</p>
         <p>MERN Stack Development</p>
-        <p>MERN Stack Development</p>
+        <p>MEAN Stack Development</p>
         <p>Java Develoment</p>
-        <p onClick={() => navigate("/android")}>Android App Development</p>
-        <p>IOS App Development</p>
         <p>ASP.NET Development</p>
         <p>Python Development</p>
         <p>Ruby on Rails Development</p>
-        <p onClick={() => navigate("/golang")}>Golang Development</p>
+        <p>Golang Development</p>
+        <p>Javascript Development</p>
       </div>
       <div className="innerTable">
-        <p>Solutions</p>
-        <p onClick={() => navigate("/food-delivery")}>Food Delivery App</p>
-        <p onClick={() => navigate("/ondemandHomeServices")}>
-          On Demand Home Services
-        </p>
-        <p onClick={() => navigate("/alcohol")}>Alcohol Delivery App</p>
-        <p>laundry Delivery App</p>
-        <p onClick={() => navigate("/grocery")}>Grocery Delivery App</p>
-        <p onClick={() => navigate("/beautycareapp")}>Beauty & Salon App</p>
-        <p onClick={() => navigate("/cannabis")}>Cannabis Delivery App</p>
-        <p>Marketplace</p>
-        <p>Pickup & Delivery</p>
+        <p>Portfolio</p>
+        <p>Yanbal</p>
+        <p>BlueBerry Group</p>
+        <p>Blueberry Travels</p>
+        <p>Jambo Shoppe</p>
+        <p>Roshi Wellness</p>
+        <p>Next Holidays</p>
+        <p>On-cart</p>
+        <p>Travelflap</p>
+        <p>More...</p>
       </div>
       <div className="innerTable">
         <p>Industry We Serve</p>
@@ -54,7 +52,7 @@ const FooterTable = () => {
         <p>IoT Development</p>
         <p onClick={() => navigate("/fitness")}>Fitness</p>
         <p onClick={() => navigate("/dating")}>Dating</p>
-        <p>Crypto</p>
+        <p>Cryptocurrency</p>
       </div>
     </div>
   );

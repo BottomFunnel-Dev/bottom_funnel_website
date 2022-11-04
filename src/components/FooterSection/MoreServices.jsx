@@ -15,12 +15,15 @@ const MoreServices = () => {
         <p onClick={() => navigate("/seo-guest-post")}>
           Guest Posting Services
         </p>
-        <p>Link Building Services</p>
-        <p>Email Marketing Services</p>
-        <p>Big Data Services</p>
-        <p>Blockchain Services</p>
+        <p onClick={() => navigate("/seo-link-building")}>
+          Link Building Services
+        </p>
+        <p onClick={() => navigate("/emailservices")}>
+          Email Marketing Services
+        </p>
       </div>
       <div className="innerTable">
+        <p>Mobile App Development</p>
         <p onClick={() => navigate("/android")}>Android App Development</p>
         <p onClick={() => navigate("/ios")}>IOS App Development</p>
         <p>Kotlin App Developement</p>
@@ -31,13 +34,11 @@ const MoreServices = () => {
         <p>Xamarin App Development</p>
         <p onClick={() => navigate("/iconic")}>Ionic App Development</p>
         <p>Wearable App Developement</p>
-        <p>Crypto Currency Development</p>
-        <p>Custmised Web Developemnt</p>
-        <p>VR Development</p>
+        <p>Mobile UX/UI</p>
       </div>
 
       <div className="innerTable">
-        <p>Solutions</p>
+        <p>On Demand Solutions</p>
         <p onClick={() => navigate("/food-delivery")}>Food Delivery App</p>
         <p onClick={() => navigate("/alcohol")}>Alcohol Delivery App</p>
         <p>laundry Delivery App</p>

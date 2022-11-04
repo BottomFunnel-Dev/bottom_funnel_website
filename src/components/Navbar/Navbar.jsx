@@ -27,7 +27,7 @@ export const NavbarMain = () => {
   const [aboutH, setAboutH] = useState(false);
   const [solution, setSolution] = useState(false);
   const [service, setService] = useState(false);
-  const [handleCat, setHandleCat] = useState(true);
+  const [scroll, setScroll] = useState(false);
   const [skill, setSkill] = useState(false);
   const [navbar, setNabvar] = useState(false);
 
@@ -94,8 +94,10 @@ export const NavbarMain = () => {
   const navBackground = () => {
     if (window.scrollY > 1) {
       setNabvar(true);
+      setScroll(true);
     } else {
       setNabvar(false);
+      setScroll(false);
     }
   };
 
@@ -103,7 +105,10 @@ export const NavbarMain = () => {
 
   return (
     <div>
-      <nav className={navbar ? "navbarSection active" : "navbarSection"}>
+      <nav
+        className={navbar ? "navbarSection active" : "navbarSection"}
+        style={{ top: scroll ? "0" : "4.25%" }}
+      >
         <div className="logoSection">
           <Link to="/" className="logoText">
             <img
@@ -164,6 +169,7 @@ export const NavbarMain = () => {
           onMouseEnter={homeHoverIn}
           onMouseLeave={homeHoverOut}
           className="aboutNavVisible"
+          style={{ top: scroll ? "75px" : "88px" }}
         >
           <div className="aboutDropdownSection">
             <div className="aboutDropdownContent">
@@ -267,6 +273,7 @@ export const NavbarMain = () => {
           onMouseEnter={solHoverIn}
           onMouseLeave={solHoverOut}
           className="solutionVisible"
+          style={{ top: scroll ? "75px" : "88px" }}
         >
           <div className="dropdownSection">
             <div className="serviceDropdownContent">
@@ -408,6 +415,7 @@ export const NavbarMain = () => {
           onMouseEnter={serHoverIn}
           onMouseLeave={serHoverOut}
           className="serviceVisible"
+          style={{ top: scroll ? "75px" : "88px" }}
         >
           <div className="industryDropdown">
             <div className="industryContent">
@@ -480,6 +488,7 @@ export const NavbarMain = () => {
           onMouseEnter={skillHoverIn}
           onMouseLeave={skillHoverOut}
           className="skillVisible"
+          style={{ top: scroll ? "75px" : "88px" }}
         >
           <div className="dropdownSection">
             <div className="backendDropdownContent">

@@ -75,6 +75,7 @@ import {
   wordpressData,
 } from "./Data/SkillsData";
 import { Taxibooking } from "./Components/Taxibooking/Taxibooking";
+import Logicstic from "./Components/Logistic/Logicstic";
 
 export const ALLroutes = () => {
   return (
@@ -211,6 +212,7 @@ export const ALLroutes = () => {
       <Route path="/Products" element={<ProductPage />} />
       <Route path="/E-shooter" element={<Escooter />} />
       <Route path="/taxi-booking" element={<Taxibooking />} />
+      <Route path="/Logistics" element={<Logicstic />} />
     </Routes>
   );
 };

@@ -1,0 +1,83 @@
+.logicadmin{
+    width: 100%;
+    height: 780px;
+    /* background-color: cornflowerblue; */
+  }
+  .logicadminsub{
+      width: 90%;
+      height: 740px;
+      margin:auto;
+      background: url("/public/Images/logistic/fullRectangle.png");
+      background-repeat: no-repeat;
+      background-size: 100% 740px;
+      /* background-color:  chocolate; */
+      /* display: flex; */
+  }
+  .logicadminleft{
+      width: 100%;
+      height: 500px;
+      padding: 10px  ;
+ 
+      display: flex;
+      
+  }
+  /* .logicadminright{
+      width: 50%;
+      height: 500px;
+      background-color:  rgb(210, 30, 78)
+  } */
+  
+  .logicadminright {
+      width: 100%;
+      height: 200px;
+      /* background-color: blue; */
+      display: flex;
+     padding:  10px;
+      gap: 10px;
+      /* align-items: flex-start; */
+      justify-content: space-around;
+    }
+    
+    .logicadminright > div {
+      height: auto;
+      padding: 10px 10px 10px 10px;
+      /* display: flex; */
+      /* align-items:flex-start;
+      gap: 20px; */
+      /* justify-content: flex-start; */
+      width: 20%;
+      border-radius: 18px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 10px;
+      background-color: white;
+    
+      cursor: pointer;
+    }
+    
+  .logicadminright> div:hover {
+      background-color: #e1f9f6;
+    }
+    
+    .logicadminright> div > h3 {
+      font-size: 18px;
+    }
+    
+    
+    .logistic-admin-image{
+      width: 100%;
+      height: 500px;
+      /* margin-top: -10%; */
+      
+    }
+    .logicdive{
+      width: 100%;
+      display: flex;
+      /* background-color: red; */
+      height: 60px;
+    }  
+     
+    .logistic-admin-image>img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
