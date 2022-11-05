@@ -118,7 +118,7 @@ export const nodejsData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom funnel for Node.js",
+    title: "Why Bottom funnel For Node.js",
     image: "Images/nodejsphotos/nodejs-big-logo.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -263,7 +263,7 @@ export const phpData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom funnel for PHP",
+    title: "Why Bottom funnel For PHP",
     image: "Images/phpskillsphotos/php-big-logo.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -409,7 +409,7 @@ export const DotnetData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom funnel for .NET",
+    title: "Why Bottom funnel For .NET",
     image: "Images/dotnetphotos/image-2.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -555,7 +555,7 @@ export const laravelData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom funnel for Laravel",
+    title: "Why Bottom funnel For Laravel",
     image: "Images/larvelskillsphotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -701,7 +701,7 @@ export const djangoData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Django",
+    title: "Why Bottom Funnel For Django",
     image: "Images/djangoPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -846,7 +846,7 @@ export const cakePHPData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for CakePHP",
+    title: "Why Bottom Funnel For CakePHP",
     image: "Images/cakephpPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -917,7 +917,7 @@ export const cakePHPData = {
 export const codeigniterData = {
   isBanner: true,
   BannerData: {
-    image: "Images/CodeIgniterPhotos/banner.png",
+    image: "Images/codeigniterPhotos/banner.png",
     title: "CodeIgniter Development Services",
     description:
       "Delivering on your business vision with quality codeigniter web development.",
@@ -941,7 +941,7 @@ export const codeigniterData = {
         title: "Framework with right footprint",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "CodeIgniter foundation offers many security-rich functions and a number of features that have diverse inbuilt functionalities for input and output filtering.",
       },
       {
         img: {
@@ -950,7 +950,7 @@ export const codeigniterData = {
         },
         title: "Simplified solutions",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "CodeIgniter PHP framework is made of a linear arrangement and has a freely usable folder set-up.  This aids in streamlining the syntax of PHP while utilizing this framework.",
       },
       {
         img: {
@@ -959,40 +959,40 @@ export const codeigniterData = {
         },
         title: "no restrictions on coding",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "PHP CodeIgniter model view controller framework has a modest interface which makes it simple to learn and use.",
       },
       {
         img: {
           src: "Images/cakephpPhotos/custom-element.png",
-          alt: "Dummy text logo",
+          alt: "Accepts Third-party Scripts logo",
         },
-        title: "Dummy text",
+        title: "Accepts Third-party Scripts",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Developers are free to integrate scripts on their own or create a new library based on project's requirements.",
       },
       {
         img: {
           src: "Images/cakephpPhotos/mvc-pattern.png",
-          alt: "Dummy text logo",
+          alt: "MVC approach logo",
         },
-        title: "Dummy text",
+        title: "MVC approach",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Developers can relish the systematic approach to website development via MVC (Model, View, Controller).",
       },
       {
         img: {
           src: "Images/cakephpPhotos/easy-debug.png",
-          alt: "Dummy text logo",
+          alt: "Documentation logo",
         },
-        title: "Dummy text",
+        title: "Documentation",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "It comes with a comprehensive documentation that allows PHP developers to get started on the fly.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for CodeIgniter",
+    title: "Why Bottom Funnel For CodeIgniter",
     image: "Images/codeigniterPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -1150,7 +1150,7 @@ export const reactjsData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for CodeIgniter",
+    title: "Why Bottom Funnel For Reactjs",
     image: "Images/reactjsSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -1158,17 +1158,17 @@ export const reactjsData = {
       "Commitments with NDA agreements.",
       "Flexible engagement models.",
       "Experienced and talented team of developers.",
-      "Offers variety of exclusive Reactjs solutions.",
+      "Offers variety of exclusive reactjs solutions.",
     ],
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our React.js developers to build your application?",
+    title: "Need our reactjs developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: true,
   RemarkableData: {
-    title: "Benefits Of Using React.js for Web Development",
+    title: "Benefits Of Using react.js for Web Development",
     description: `React.js is the most popular library for developing complex UIs. Bottom funnel’s React.js
       web application developers develop attractive high quality web applications and avail the
       following benefits:`,
@@ -1244,7 +1244,7 @@ export const angularjsData = {
     cardsData: [
       {
         img: {
-          src: "Images/angularjsSKillsPhotos/two-way-bind.png",
+          src: "Images/angularjsSkillsPhotos/two-way-bind.png",
           alt: "Two-Way Data Binding logo",
         },
         title: "Custom AngularJS Development",
@@ -1285,7 +1285,7 @@ export const angularjsData = {
       },
       {
         img: {
-          src: "Images/angularjsSKillsPhotos/features-excited.png",
+          src: "Images/angularjsSkillsPhotos/features-excited.png",
           alt: "Features to Get Excited About logo",
         },
         title: "UI/UX Development",
@@ -1307,7 +1307,7 @@ export const angularjsData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Angularjs",
+    title: "Why Bottom Funnel For Angularjs",
     image: "Images/angularjsSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -1320,7 +1320,7 @@ export const angularjsData = {
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our Angularjs developers to build your application?",
+    title: "Need our angularjs developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: true,
@@ -1346,7 +1346,7 @@ export const angularjsData = {
       },
       {
         img: {
-          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          src: "Images/angularjsSkillsPhotos/time-saving.png",
           alt: "Time-Saving Process logo",
         },
         title: "Time-Saving Process",
@@ -1453,7 +1453,7 @@ export const vuejsData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Vue.js",
+    title: "Why Bottom Funnel For Vue.js",
     image: "Images/vuejsSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -1469,7 +1469,7 @@ export const vuejsData = {
     title: "Need our Vuejs developers to build your application?",
     btn: "Book a call now",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
     title: "Benefits of using Vue.js web development",
     description:
@@ -1548,7 +1548,7 @@ export const springBootData = {
         title: "Easy Development",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "To speed up the dependency management process, Spring Boot implicitly packages the required third-party dependencies for each type of Spring-based application and provides them through so-called starter packages.",
       },
       {
         img: {
@@ -1557,7 +1557,7 @@ export const springBootData = {
         },
         title: "No war files develoyment",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "While Spring Boot can use WAR (web application resource) files, they are not necessary. Instead, Spring Boot can rely on JAR (Java resource). JAR has a shorter, simpler structure that makes them useful for developers and users.",
       },
       {
         img: {
@@ -1566,7 +1566,7 @@ export const springBootData = {
         },
         title: "No XML configuration",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "Spring project developers can choose to use annotations or XML configurations. The option to avoid XML configurations appeals to a lot of software engineers who don't want to go through the extra steps required.",
       },
       {
         img: {
@@ -1575,7 +1575,7 @@ export const springBootData = {
         },
         title: "Standalone Applications",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Spring Boot makes it easy to create stand-alone, production-grade Spring-based applications. Spring Boot provides various starters for building standalone or more traditional war deployments. We will create Spring Boot standalone application.",
       },
       {
         img: {
@@ -1584,7 +1584,7 @@ export const springBootData = {
         },
         title: "Simple setup and management",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Spring Boot applications are spring bases web applications. So, it is secure by default with basic authentication on all HTTP endpoints. A rich set of Endpoints is available to develop a secure Spring Boot application.",
       },
       {
         img: {
@@ -1593,13 +1593,13 @@ export const springBootData = {
         },
         title: "Easy to start",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Spring Boot Starters is one of the major key features or components of Spring Boot Framework. The main responsibility of Spring Boot Starter is to combine a group of common or related dependencies into single dependencies.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Springboot",
+    title: "Why Bottom Funnel For Springboot",
     image: "Images/springbootSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -1694,7 +1694,7 @@ export const hiberateData = {
         title: "Open source and Lightweight",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "Hibernate provides a SQL inspired language called Hibernate Query Language (HQL) for writing SQL-like queries against Hibernate's data objects. Criteria Queries are provided as an object-oriented alternative to HQL.",
       },
       {
         img: {
@@ -1703,7 +1703,7 @@ export const hiberateData = {
         },
         title: "Fast Performance",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "The performance of hibernate framework is fast because cache is internally used in hibernate framework. There are two types of cache in hibernate framework first level cache and second level cache. First level cache is enabled by default.",
       },
       {
         img: {
@@ -1712,7 +1712,7 @@ export const hiberateData = {
         },
         title: "Database Independent Query",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "It generates the database independent queries. So you don't need to write database specific queries. Before Hibernate, if database is changed for the project, we need to change the SQL query as well that leads to the maintenance problem.",
       },
       {
         img: {
@@ -1721,7 +1721,7 @@ export const hiberateData = {
         },
         title: "Automatic Table Creation",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Hibernate framework provides the facility to create the tables of the database automatically. So there is no need to create tables in the database manually.",
       },
       {
         img: {
@@ -1730,7 +1730,7 @@ export const hiberateData = {
         },
         title: "Simplifies Complex Join",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Hibernate framework support Auto DDL operations. In JDBC manually we have to create table and declare the data-type for each and every column.",
       },
       {
         img: {
@@ -1739,13 +1739,13 @@ export const hiberateData = {
         },
         title: "Provides Query Statistics",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Hibernate framework is independent of Database because it supports HQL which is not specific to any database, whereas JDBC is database dependent.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Hibernate",
+    title: "Why Bottom Funnel For Hibernate",
     image: "Images/hibernateSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -1840,7 +1840,7 @@ export const emberjsData = {
         title: "Patent add-ons",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "Due to the plugin design of EmberJS, add-ons can be added and provide further functionality with little to no configuration. Improve SEO or initial render performance of complex, highly dynamic web pages using server-side rendering.",
       },
       {
         img: {
@@ -1849,7 +1849,7 @@ export const emberjsData = {
         },
         title: "Ember CLI",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "One of the issues you're dealing with is app performance across multiple devices, as many people check things out on their mobile phones. A web app will not operate properly, and you will also need to construct a mobile app.",
       },
       {
         img: {
@@ -1858,7 +1858,7 @@ export const emberjsData = {
         },
         title: "Convention over configuration",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "To give consumers a flawless experience, you must guarantee that the program is free of problems. Debugging, though, can occasionally become a challenge. But this is not the case with Ember.js because it has an inspection tool.",
       },
       {
         img: {
@@ -1867,7 +1867,7 @@ export const emberjsData = {
         },
         title: "Stability sans stagnation",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Ember.js is the best choice for long-term projects, single-page apps, online apps with native capabilities, programs that require an environment similar to Python, and apps with challenging functionality integration.",
       },
       {
         img: {
@@ -1876,7 +1876,7 @@ export const emberjsData = {
         },
         title: "Community",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "One of the challenging and time-consuming tasks in app development is coding. Ember, on the other hand, streamlines it and makes it easier. As a result, it will cost you less money and take less time to develop codes.",
       },
       {
         img: {
@@ -1885,13 +1885,13 @@ export const emberjsData = {
         },
         title: "Ember Octane",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Ember.js and React. Both of these well-known JavaScript frameworks are most effective when used to build user interfaces and the front-end development of websites. These technologies have received positive feedback from the development community.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Emberjs",
+    title: "Why Bottom Funnel For Emberjs",
     image: "Images/emberjSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -1986,7 +1986,7 @@ export const jqueryData = {
         title: "Easy to understand",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "It has simpler code than JavaScript. So you just have to write few lines of code to do the same thing. In addition, builders ought not to be professionals in programming or web layout to create incredible patterns for their sites.",
       },
       {
         img: {
@@ -1995,7 +1995,7 @@ export const jqueryData = {
         },
         title: "Speed thing up",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Many search engines are considering page load time as one of the main factors because it affects SEO. For this reason, every developer in today's world wants to make codes as concise as possible. Best way to make your website faster.",
       },
       {
         img: {
@@ -2004,7 +2004,7 @@ export const jqueryData = {
         },
         title: "Lots of plugins",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "jQuery was developed to save the time of developers by reducing the code. It takes loads of common duties that require many lines of js code to perform and wrap them into strategies that you may name with a single line of code.",
       },
       {
         img: {
@@ -2013,16 +2013,16 @@ export const jqueryData = {
         },
         title: "Community",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "jQuery is open source (meaning anyone can contribute to or modify it) and has a large user community(opens in a new tab), meaning it is consistently supported and added-on to. jQuery plays well with any other JavaScript libraries.",
       },
       {
         img: {
           src: "Images/jquerySkillsPhotos/cross-support.png",
-          alt: "Cross-browser support logo",
+          alt: "Animation becomes easy logo",
         },
-        title: "Cross-browser support",
+        title: "Animation becomes easy",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "jQuery makes use of CSS, HTML, JavaScript, and AJAX. In this method, you could practice an optimization approach on your website online while not having to make unique changes for technologies like Flash.",
       },
       {
         img: {
@@ -2031,13 +2031,13 @@ export const jqueryData = {
         },
         title: "Extension",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "The purpose why jQuery's recognition keeps developing with .Net developers. With the addition of the jQuery cell difficulty for Windows, you currently have all the development benefits of the jQuery library for the Windows platform.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Jquery",
+    title: "Why Bottom Funnel For Jquery",
     image: "Images/jquerySkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -2111,28 +2111,28 @@ export const nextjsData = {
     image: "Images/nextjsSkillsPhotos/banner.png",
     title: "Nextjs Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality nextjs web development.",
   },
   isDes: true,
   desData: {
     title: "Nextjs",
     image: "Images/nextjsSkillsPhotos/nextjs-logo.png",
     description:
-      "Nextjs is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites. React documentation mentions Next.js among 'Recommended Toolchains' advising it to developers as a solution when 'Building a server-rendered website with Node.js'.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR JQUERY WEB DEVELOPMENT SERVICES",
+    title: "WHY NEXTJS FOR APPLICATION DEVELOPMENT ?",
     cardsData: [
       {
         img: {
-          src: "Images/nextjsSKillsPhotos/computer-research.png",
+          src: "Images/nextjsSkillsPhotos/computer-research.png",
           alt: "Improved SEO Performance logo",
         },
         title: "Improved SEO Performance",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. Net uses asynchronous programming.",
       },
       {
         img: {
@@ -2141,7 +2141,7 @@ export const nextjsData = {
         },
         title: "Security",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Websites created with NextJS are static, which means there is no direct connection to the database, dependencies, user data or any other sensitive information. This ensures data security.",
       },
       {
         img: {
@@ -2150,7 +2150,7 @@ export const nextjsData = {
         },
         title: "Flexible",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "This thing are fundamental to a great user experience and mean that websites and applications adjust to the screen size of the device.",
       },
       {
         img: {
@@ -2159,16 +2159,16 @@ export const nextjsData = {
         },
         title: "Quick loading",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Short page load time static websites are fast by nature, so visitors and customers will be content with the performance of NextJS websites and web apps. Edits made on React components are visible within seconds.",
       },
       {
         img: {
-          src: "Images/nextjsSKillsPhotos/support.png",
+          src: "Images/nextjsSkillsPhotos/support.png",
           alt: "Excellent Support logo",
         },
         title: "Excellent Support",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Popularity of Reactjs development services as well as NextJS is growing so is the number of developers. Because of that, it will be easy to find an agency or freelancer to make some changes if needed.",
       },
       {
         img: {
@@ -2177,26 +2177,26 @@ export const nextjsData = {
         },
         title: "Fast performance",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "NextJS is a great way of creating MVP as fast as possible thanks to many premade components. This way of building allows you to get feedback quickly and improve your product accordingly without wasting both time and money.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Angularjs",
-    image: "Images/NextjsSkillsPhotos/big-left-image.png",
+    title: "Why Bottom Funnel For Nextjs",
+    image: "Images/nextjsSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
       "Commitments with NDA agreements.",
       "Flexible engagement models.",
       "Experienced and talented team of developers.",
-      "Offers variety of exclusive Jquery solutions.",
+      "Offers variety of exclusive nextjs solutions.",
     ],
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our Nextjs developers to build your application?",
+    title: "Need our nextjs developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,
@@ -2257,28 +2257,28 @@ export const backbonejsData = {
     image: "Images/backbonejsSkillsPhotos/banner.png",
     title: "Backbonejs Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality javascript development.",
   },
   isDes: true,
   desData: {
     title: "Backbonejs",
     image: "Images/backbonejsSkillsPhotos/backbone-logo.png",
     description:
-      "Backbonejs is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Backbone.js is a JavaScript rich-client web app framework based on the model-view-controller design paradigm, intended to connect to an API over a RESTful JSON interface. Backbone is known for being lightweight, as its only hard dependency is on one JavaScript library, Underscore.js, plus jQuery for use of the full library. It is designed for developing single-page web applications, and for keeping various parts of web applications synchronized.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR JQUERY WEB DEVELOPMENT SERVICES",
+    title: "WHY BACKBONEJS FOR APPLICATION DEVELOPMENT ?",
     cardsData: [
       {
         img: {
-          src: "Images/backbonejsSKillsPhotos/computer-leaf.png",
+          src: "Images/backbonejsSkillsPhotos/computer-leaf.png",
           alt: "Lightweight logo",
         },
         title: "Lightweight",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "The weight of any project is essential when you talk about downloading speed and responsive applications. Backbone.js size is nearly 7.6kb.",
       },
       {
         img: {
@@ -2287,7 +2287,7 @@ export const backbonejsData = {
         },
         title: "MV structure and abstract code",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Abstract code plays a crucial role in programming. It also incorporates Object Oriented Programming language.",
       },
       {
         img: {
@@ -2296,7 +2296,7 @@ export const backbonejsData = {
         },
         title: "Lots of small libraries",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "Extensibility is the core idea of Backbone.js. It includes several libraries that could be used whenever required.",
       },
       {
         img: {
@@ -2305,16 +2305,16 @@ export const backbonejsData = {
         },
         title: "Event-driven communication",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "The jQuery declarations become complex and get distributed over the place, making the code difficult to clutter and read. Backbone.js solves this through event-driven communication.",
       },
       {
         img: {
-          src: "Images/backbonejsSKillsPhotos/api-cloud.png",
+          src: "Images/backbonejsSkillsPhotos/api-cloud.png",
           alt: "API and documentation logo",
         },
         title: "API and documentation",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "It is easy to learn due to several reasons. It has tons of documentation and guides that could be browsed from the internet. It is tested and supported by several todo applications.",
       },
       {
         img: {
@@ -2323,13 +2323,13 @@ export const backbonejsData = {
         },
         title: "Conventions for coding style",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Conventions are a great choice when you have to introduce a common coding style. The more the developer would stick to backbone conventions, the developers have to code less.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Angularjs",
+    title: "Why Bottom Funnel For Backbonejs",
     image: "Images/backbonejsSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -2337,12 +2337,12 @@ export const backbonejsData = {
       "Commitments with NDA agreements.",
       "Flexible engagement models.",
       "Experienced and talented team of developers.",
-      "Offers variety of exclusive Jquery solutions.",
+      "Offers variety of exclusive backbonejs solutions.",
     ],
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our Backbonejs developers to build your application?",
+    title: "Need our backbonejs developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,
@@ -2403,18 +2403,18 @@ export const svelteData = {
     image: "Images/svelteSkillsPhotos/banner.png",
     title: "Svelte Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality svelte development.",
   },
   isDes: true,
   desData: {
     title: "Svelte",
     image: "Images/svelteSkillsPhotos/svelte-logo.png",
     description:
-      "Svelte is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Svelte is a free and open-source front end compiler created by Rich Harris and maintained by the Svelte core team members. Svelte is not a monolithic JavaScript library imported by applications: instead, Svelte compiles HTML templates to specialized code that manipulates the DOM directly, which may reduce the size of transferred files and give better client performance, application code is also processed by the compiler, inserting calls to automatically recompute data and re-render UI elements when the data they depend on is modified.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR SVELTE WEB DEVELOPMENT SERVICES",
+    title: "WHY SVELTE FOR APPLICATION DEVELOPMENT ?",
     cardsData: [
       {
         img: {
@@ -2424,7 +2424,7 @@ export const svelteData = {
         title: "Lightweight",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "Svelte produces highly optimized vanilla JS with a very minimal overhead at runtime. This means small bundle sizes, a low memory footprint, and a fast-loading and fast-running application.",
       },
       {
         img: {
@@ -2433,7 +2433,7 @@ export const svelteData = {
         },
         title: "All in one",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Svelte there is no need for adding glue code like hooks or complex state management and so on. The boilerplate required for components is very minimal and almost close to vanilla HTML/JS.",
       },
       {
         img: {
@@ -2442,7 +2442,7 @@ export const svelteData = {
         },
         title: "Fast",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "Svelte is reactive by default. the DOM is automatically updated on state changes in any top-level variable on a component. You don't even have to add any special code for that.",
       },
       {
         img: {
@@ -2451,7 +2451,7 @@ export const svelteData = {
         },
         title: "Easy to learn",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Unlike React or Angular, the learning curve for Svelte is quite low. There is no special syntax like JSX to learn or complex APIs like Angular to remember.The docs are easy to follow.",
       },
       {
         img: {
@@ -2460,7 +2460,7 @@ export const svelteData = {
         },
         title: "stable",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Svelte follows a component first pattern which makes it ideal for building new web applications or for adding web components to existing applications.",
       },
       {
         img: {
@@ -2469,13 +2469,13 @@ export const svelteData = {
         },
         title: "Reusable components",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "It is easy to change output targets without having to change your component's code. For example, Svelte supports server-side rendering out of the box by providing a compiler mode for it.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Svelte",
+    title: "Why Bottom Funnel For Svelte",
     image: "Images/svelteSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -2488,7 +2488,7 @@ export const svelteData = {
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our Svelte developers to build your application?",
+    title: "Need our svelte developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,
@@ -2546,17 +2546,17 @@ export const svelteData = {
 export const msSQLData = {
   isBanner: true,
   BannerData: {
-    image: "Images/mssqlSkillsPhotos/banner.png",
+    image: "Images/mssqlSKillsPhotos/banner.png",
     title: "MicrosoftSQL Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality backend development.",
   },
   isDes: true,
   desData: {
     title: "MicrosoftSQL",
-    image: "Images/mssqlSkillsPhotos/mssql-logo.png",
+    image: "Images/mssqlSKillsPhotos/mssql-logo.png",
     description:
-      "MicrosoftSQL is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network.",
   },
   isWhyApp: true,
   WhyAppData: {
@@ -2564,65 +2564,65 @@ export const msSQLData = {
     cardsData: [
       {
         img: {
-          src: "Images/mssqlSkillsPhotos/docs-security.png",
+          src: "Images/mssqlSKillsPhotos/docs-security.png",
           alt: "Increse data security logo",
         },
         title: "Increse data security",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "One of the primary purposes of Microsoft SQL Server is ensuring the security of your database, especially with a Microsoft SQL Server database administration service.",
       },
       {
         img: {
-          src: "Images/mssqlSkillsPhotos/computer-ai.png",
+          src: "Images/mssqlSKillsPhotos/computer-ai.png",
           alt: "Ease of configuration logo",
         },
         title: "Ease of configuration",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Unlike other database management software, the installation and configuration of Microsoft SQL Server are easier. A specific toolkit to install the software, and updates are fully automatic.",
       },
       {
         img: {
-          src: "Images/mssqlSkillsPhotos/database.png",
+          src: "Images/mssqlSKillsPhotos/database.png",
           alt: "Optimized data storage logo",
         },
         title: "Optimized data storage",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "With Microsoft SQL Server, don't have to have another data storage from the same database if using a different device. Consequently, Save time and work on important aspects of business.",
       },
       {
         img: {
-          src: "Images/mssqlSkillsPhotos/setting-docs-loading.png",
+          src: "Images/mssqlSKillsPhotos/setting-docs-loading.png",
           alt: "Data recovery support logo",
         },
         title: "Data recovery support",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Microsoft SQL Server eliminates the risk of losing data by having features for data recovery and restoration. Have large community.",
       },
       {
         img: {
-          src: "Images/mssqlSkillsPhotos/sql-server.png",
+          src: "Images/mssqlSKillsPhotos/sql-server.png",
           alt: "Intelligent database logo",
         },
         title: "Intelligent database",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Intelligence on all your data with Big Data clusters: being able to query your entire data estate from SQL Serve to Oracle without replication.",
       },
       {
         img: {
-          src: "Images/mssqlSkillsPhotos/fast-run.png",
+          src: "Images/mssqlSKillsPhotos/fast-run.png",
           alt: "Fast performance logo",
         },
         title: "Fast performance",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Built-in transparent data compression and encrypt features, SQL server offers enhanced performance. To secure data, users need not modify programs.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for MicrosoftSQL",
-    image: "Images/mssqlSkillsPhotos/big-left-image.png",
+    title: "Why Bottom Funnel For MicrosoftSQL",
+    image: "Images/mssqlSKillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2634,7 +2634,7 @@ export const msSQLData = {
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our MicrosoftSQL developers to build your application?",
+    title: "Need our microsoftSQL developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,
@@ -2767,7 +2767,7 @@ export const mongodbData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for MongoDB",
+    title: "Why Bottom Funnel For MongoDB",
     image: "Images/mongodbSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -2848,7 +2848,7 @@ export const mysqlData = {
     title: "MySQL",
     image: "Images/mysqlSkillsPhotos/mysql-logo.png",
     description:
-      "MySQL is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "MySQL is an open-source relational database management system (RDBMS). Its name is a combination of 'My', the name of co-founder Michael Widenius's daughter My, and 'SQL', the abbreviation for Structured Query Language. A relational database organizes data into one or more data tables in which data may be related to each other; these relations help structure the data.",
   },
   isWhyApp: true,
   WhyAppData: {
@@ -2862,7 +2862,7 @@ export const mysqlData = {
         title: "Data security",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "MySQL is globally renowned for being the most secure and reliable database management system used in popular web applications like WordPress, Drupal, Joomla, Facebook and Twitter.",
       },
       {
         img: {
@@ -2871,7 +2871,7 @@ export const mysqlData = {
         },
         title: "On demand scalibility",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "MySQL offers unmatched scalability to facilitate the management of deeply embedded apps using a smaller footprint even in massive warehouses that stack terabytes of data.",
       },
       {
         img: {
@@ -2880,7 +2880,7 @@ export const mysqlData = {
         },
         title: "High performance",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "MySQL features a distinct storage-engine framework that facilitates system administrators to configure the MySQL database server for a flawless performance.",
       },
       {
         img: {
@@ -2889,7 +2889,7 @@ export const mysqlData = {
         },
         title: "Round-the-clock Uptime",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "MySQL comes with the assurance of 24X7 uptime and offers a wide range of high availability solutions like specialized cluster servers and master/slave replication configurations.",
       },
       {
         img: {
@@ -2898,22 +2898,22 @@ export const mysqlData = {
         },
         title: "Comprehensive transactions support",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "MySQL tops the list of robust transactional database engines available on the market. With features like complete atomic, consistent, isolated, durable transaction support.",
       },
       {
         img: {
           src: "Images/mysqlSkillsPhotos/setting-loading.png",
-          alt: "Dummy text logo",
+          alt: "Complete Workflow Control logo",
         },
-        title: "Dummy text",
+        title: "Complete Workflow Control",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "With the average download and installation time being less than 30 minutes, MySQL means usability from day one. Whether your platform is Linux, Microsoft, Macintosh or UNIX.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for MySQL",
+    title: "Why Bottom Funnel For MySQL",
     image: "Images/mysqlSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -3059,7 +3059,7 @@ export const postgresqlData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for PostgreSQL",
+    title: "Why Bottom Funnel For PostgreSQL",
     image: "Images/postgresqlSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -3205,7 +3205,7 @@ export const redisData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for redis",
+    title: "Why Bottom Funnel For redis",
     image: "Images/redisSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -3351,7 +3351,7 @@ export const wordpressData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for wordpress",
+    title: "Why Bottom Funnel For wordpress",
     image: "Images/wpSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -3497,7 +3497,7 @@ export const wixData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for redis",
+    title: "Why Bottom Funnel For redis",
     image: "Images/wixSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -3643,7 +3643,7 @@ export const joomlaData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Joomla",
+    title: "Why Bottom Funnel For Joomla",
     image: "Images/joomlaSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -3789,7 +3789,7 @@ export const hubspotData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Hubspot CMS Hub",
+    title: "Why Bottom Funnel For Hubspot CMS Hub",
     image: "Images/hubSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -3935,7 +3935,7 @@ export const wooecommerceData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Woo Commerce",
+    title: "Why Bottom Funnel For Woo Commerce",
     image: "Images/woocommerceSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -4081,7 +4081,7 @@ export const drupalData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Drupal",
+    title: "Why Bottom Funnel For Drupal",
     image: "Images/drupalSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -4227,7 +4227,7 @@ export const bigcommerceData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Big Commerce",
+    title: "Why Bottom Funnel For Big Commerce",
     image: "Images/bigcommerceSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -4373,7 +4373,7 @@ export const ibmData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for IBM db2",
+    title: "Why Bottom Funnel For IBM db2",
     image: "Images/bigcommerceSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -4519,7 +4519,7 @@ export const elasticData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Elasticsearch",
+    title: "Why Bottom Funnel For Elasticsearch",
     image: "Images/elasticSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -4665,7 +4665,7 @@ export const sqliteData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for SQLite",
+    title: "Why Bottom Funnel For SQLite",
     image: "Images/sqliteSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -4811,7 +4811,7 @@ export const cassandraData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for cassandra",
+    title: "Why Bottom Funnel For cassandra",
     image: "Images/cassandraSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -4896,7 +4896,7 @@ export const flaskData = {
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR FLASK WEB DEVELOPMENT SERVICES",
+    title: "WHY FLASK FOR APPLICATION DEVELOPMENT ?",
     cardsData: [
       {
         img: {
@@ -4906,7 +4906,7 @@ export const flaskData = {
         title: "Improved SEO Performance",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "Flask is one such framework that fits your requirements. It can process a high number of requests as your business scales up with time.",
       },
       {
         img: {
@@ -4915,7 +4915,7 @@ export const flaskData = {
         },
         title: "Integrated support for unit testing",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Flask is one such web framework, so it has a massive user base among the tech community. There are very few parts of Flask that you can't change or alter.",
       },
       {
         img: {
@@ -4924,7 +4924,7 @@ export const flaskData = {
         },
         title: "Complete documentration",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "Flask empowers developers to make decisions while selecting the components for development. It also provides control over the various extensions that you get with the framework.",
       },
       {
         img: {
@@ -4933,7 +4933,7 @@ export const flaskData = {
         },
         title: "Support for secure cookies",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "After development, the next phase in the software development life cycle is testing. Unfortunately, in most web application frameworks, you won't find the testing option.",
       },
       {
         img: {
@@ -4942,7 +4942,7 @@ export const flaskData = {
         },
         title: "Development server and debugger",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "In the modern era, you want a web application framework to experiment with the development approach. That's where Flask can be your best bet.",
       },
       {
         img: {
@@ -4951,13 +4951,13 @@ export const flaskData = {
         },
         title: "Fast performance",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "When web app developers select the framework for their project, they will think about the learning curve, whether it's steep or shallow.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for flask",
+    title: "Why Bottom Funnel For Flask",
     image: "Images/flaskSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -5052,7 +5052,7 @@ export const strutsData = {
         title: "Tag support",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "Struts encourages good design practices and modeling because the framework is designed with time-proven design patterns.",
       },
       {
         img: {
@@ -5061,7 +5061,7 @@ export const strutsData = {
         },
         title: "Teplate support",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "It takes much of the complexity out as instead of building your own MVC framework, you can use struts.",
       },
       {
         img: {
@@ -5070,7 +5070,7 @@ export const strutsData = {
         },
         title: "Intigration support",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "It is flexible and extensible, it is easy for the existing web applications to adapt the struts framework.",
       },
       {
         img: {
@@ -5079,7 +5079,7 @@ export const strutsData = {
         },
         title: "Ajax support",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "It supports many convenient features such as input validation and internationalization.",
       },
       {
         img: {
@@ -5088,7 +5088,7 @@ export const strutsData = {
         },
         title: "Open Source",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "It allows capturing input form data into javabean objects called Action forms.",
       },
       {
         img: {
@@ -5097,13 +5097,13 @@ export const strutsData = {
         },
         title: "Various result types",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "It also hand over standard error handling both programmatically and declaratively.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Struts",
+    title: "Why Bottom Funnel For Struts",
     image: "Images/strutsSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -5188,7 +5188,7 @@ export const golangData = {
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR GOLANG WEB DEVELOPMENT SERVICES",
+    title: "WHY GOLANG FOR APPLICATION DEVELOPMENT ?",
     cardsData: [
       {
         img: {
@@ -5198,7 +5198,7 @@ export const golangData = {
         title: "Open Source",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "Golang was created to combine the C programming language's punctuation features and integrate elements from dialects of the present. Go offers capabilities such as pointer number-crunching, type legacy and administrators over-burdening.",
       },
       {
         img: {
@@ -5207,7 +5207,7 @@ export const golangData = {
         },
         title: "Cross-platform development",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Golang provides a basic structure and sentence structure that doesn't have any kind of legacy for types or classes. This means that Golang doesn't hold classes, and so the legacy is handled via inline structures.",
       },
       {
         img: {
@@ -5216,7 +5216,7 @@ export const golangData = {
         },
         title: "Testing capabilities",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "Golang is an assembly language, it is unnecessary to understand it as it aids applications by opening up drives and ensuring better execution. The clients get the most efficient experience due to the fact that distributed memory is used efficiently.",
       },
       {
         img: {
@@ -5225,7 +5225,7 @@ export const golangData = {
         },
         title: "Static typing",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Golang is a secure static information language, which means that the whole structure remains secure. It is recommended that engineers clearly determine the type of data to be transferred.",
       },
       {
         img: {
@@ -5234,7 +5234,7 @@ export const golangData = {
         },
         title: "Powerful standard liberary",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "It has a rich library and packages that make programming seamless, meaning engineers don’t have to use other tools. It provides software bundles that will help you manage I/O, cryptography web servers, and the list goes on.",
       },
       {
         img: {
@@ -5243,13 +5243,13 @@ export const golangData = {
         },
         title: "Concurrency support",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Golang offers the GoDoc tool that will aid you in analyzing the code needed to create documentation pages. With Golang, it is not necessary to use various dialects, for example, JSDoc, PHPDoc, and JavaDoc.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Golang",
+    title: "Why Bottom Funnel For Golang",
     image: "Images/golangSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -5339,21 +5339,21 @@ export const symfonyData = {
       {
         img: {
           src: "Images/symfonySkillsPhotos/php.png",
-          alt: "High-performance PHP framework logo",
+          alt: "Stable and Sustainable logo",
         },
-        title: "High-performance PHP framework",
+        title: "Stable and Sustainable",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "Symfony is one of the few commercially supported frameworks. Developed and sponsored by SensioLabs, it offers 3-year support for all the major versions. Moreover, the company also provides lifetime support for security-related issues and offers official tutorials and certification.",
       },
       {
         img: {
           src: "Images/symfonySkillsPhotos/database-checked.png",
-          alt: "Full-featured database classes logo",
+          alt: "Refined MVC Architecture logo",
         },
-        title: "Full-featured database classes",
+        title: "Refined MVC Architecture",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "The MVC architecture of the Symfony framework is ideal for systematic and scalable web development projects. Utilizing MVC as the core of its web development, the Symfony framework makes sure that the project has an organized structure.",
       },
       {
         img: {
@@ -5362,16 +5362,16 @@ export const symfonyData = {
         },
         title: "Flexible",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          " Symfony PHP framework is a well-organized, feature-rich PHP framework whose architecture paves the way for developers to build sustainable web applications in the easiest way possible which further enhances the users' experience.",
       },
       {
         img: {
           src: "Images/symfonySkillsPhotos/setting.png",
-          alt: "Easier to maintain logo",
+          alt: "Customization logo",
         },
-        title: "Easier to maintain",
+        title: "Customization",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Symfony framework is packed with exclusive custom features and functionalities for developers and businesses. With Symfony as your PHP framework, you can make your web application as user-oriented as you aim for.",
       },
       {
         img: {
@@ -5380,22 +5380,22 @@ export const symfonyData = {
         },
         title: "Excellent support",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Symfony PHP framework is an open-source framework giving liberty to PHP experts from all corners of the world to take part in making the code better for everybody. In the community, people cooperate in building new components.",
       },
       {
         img: {
           src: "Images/symfonySkillsPhotos/users.png",
-          alt: "Session management logo",
+          alt: "Large community logo",
         },
-        title: "Session management",
+        title: "Large community",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "This is one of the critical aspects that define the framework's survivability and stands good. Symfony's official website declares 3000+ contributors with a passionate group of over 600,000 developers from more than 120 countries.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Symfony",
+    title: "Why Bottom Funnel For Symfony",
     image: "Images/symfonySkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -5490,7 +5490,7 @@ export const grailsData = {
         title: "Pragmatic Strategy",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "Groovy code is considered to be much more concise, expressive and DRY in comparison to Java code. A developer has to write less code to develop a software application as compared to other web frameworks.",
       },
       {
         img: {
@@ -5499,7 +5499,7 @@ export const grailsData = {
         },
         title: "Build-in testing frameworkd",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "The Grails community provides extensive assistance and support for both novice and advanced programmers. Almost, all questions and queries get answered by the active Grails community.",
       },
       {
         img: {
@@ -5508,7 +5508,7 @@ export const grailsData = {
         },
         title: "Seamless java integration",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "Grails web application framework supports Scaffolding, which helps developers to quickly create an application with CRUD functionalities (Create, Read, Update and Delete). Scaffolding is highly useful in creating the “wow” effect.",
       },
       {
         img: {
@@ -5517,7 +5517,7 @@ export const grailsData = {
         },
         title: "Dynamic doman class reloading",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Grails offers 700+ plugins, which have been collaboratively developed by the core development team and enthusiastic Grails app developers. The plugins offered by Grails improves the integration for software developers.",
       },
       {
         img: {
@@ -5526,7 +5526,7 @@ export const grailsData = {
         },
         title: "Plugin liberary",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Grails supports Locale, which allows software developers to easily convert their existing software application to other languages. This saves a lot of time and cost of rewriting the software application into another language.",
       },
       {
         img: {
@@ -5535,13 +5535,13 @@ export const grailsData = {
         },
         title: "Spring boot foundation",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Developers find it relatively easy to commence working on Grails, especially programmers familiar with the Java language. Grails web application framework brings a whole new level of excitement to web oriented application development.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Grails",
+    title: "Why Bottom Funnel For Grails",
     image: "Images/grailsSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -5636,7 +5636,7 @@ export const jsfData = {
         title: "Default exception handling",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "There is default exception handling provided by JavaServer Faces to develop bug-free applications.",
       },
       {
         img: {
@@ -5645,7 +5645,7 @@ export const jsfData = {
         },
         title: "Support HTML5",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "JSF2.2 provides a way to include attributes of HTML5 to JSF components.",
       },
       {
         img: {
@@ -5654,7 +5654,7 @@ export const jsfData = {
         },
         title: "Ease and rapid web development",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "It offers a rich collection of inbuilt libraries which can be used to develop web app rapidly.",
       },
       {
         img: {
@@ -5663,7 +5663,7 @@ export const jsfData = {
         },
         title: "Security",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Expression Language offers a significant mechanism for making the UI (web pages) communicate with the application logic.",
       },
       {
         img: {
@@ -5672,7 +5672,7 @@ export const jsfData = {
         },
         title: "Inbuilt AJAX support",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Ajax is a technique to use HTTP XML object of JavaScript to send data to the server and receive data from the server asynchronously.",
       },
       {
         img: {
@@ -5681,13 +5681,13 @@ export const jsfData = {
         },
         title: "Templating",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Annotations feature is provided by this which helps in validating tasks in the Managed Bean, rather than in the HTML page.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for JSF",
+    title: "Why Bottom Funnel For JSF",
     image: "Images/jsfSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -5791,7 +5791,7 @@ export const phalconData = {
         },
         title: "Security",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "The view is a visual representation of models, interacts with the model, and gets the necessary data. It includes data what the end-user sees which is achieved by sending requests and receiving responses.",
       },
       {
         img: {
@@ -5800,7 +5800,7 @@ export const phalconData = {
         },
         title: "Fast performance",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "The controller is the intermediary for model and view. On accepting requests from users, through a view is send to model. The model transforms and sends a response to the controller, which is displayed to end-users in the view layer.",
       },
       {
         img: {
@@ -5809,7 +5809,7 @@ export const phalconData = {
         },
         title: "Autoloader",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Phalcon being a loosely coupled framework hence allowing its objects to be treated as glue components based on applications need.",
       },
       {
         img: {
@@ -5818,7 +5818,7 @@ export const phalconData = {
         },
         title: "Independent framework",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "For using Phalcon, the developer having knowledge on Model View Controller or Object Relational Modeling will be a plus.",
       },
       {
         img: {
@@ -5827,13 +5827,13 @@ export const phalconData = {
         },
         title: "Fastest framework for PHP",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Developer Tools with CRUD features are used for developing web applications. C-Create R-Read U-Update D-Delete.",
       },
     ],
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Phalcon",
+    title: "Why Bottom Funnel For Phalcon",
     image: "Images/phalconSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",

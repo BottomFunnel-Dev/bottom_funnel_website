@@ -333,7 +333,7 @@ export const industries = [
   {
     dropContent: "Wellness",
     navIcons: "Images/navbar/industriesImage/wellness.png",
-    path: "",
+    path: "wellness",
   },
   {
     dropContent: "News",

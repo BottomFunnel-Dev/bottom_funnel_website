@@ -31,6 +31,7 @@ import Videostreaming from "./Components/Videostreaming/Videostreaming";
 import { ProductPage } from "./Components/ProductsPage/ProductPage";
 import { Icecream } from "./Components/Icecream/Icecream";
 import Escooter from "./Components/Escooter/Escooter";
+import Wellness from "./Components/Wellness/Wellness";
 
 import {
   angularjsData,
@@ -213,6 +214,7 @@ export const ALLroutes = () => {
       <Route path="/eScooter" element={<Escooter />} />
       <Route path="/taxi-booking" element={<Taxibooking />} />
       <Route path="/Logistics" element={<Logicstic />} />
+      <Route path="/wellness" element={<Wellness />} />
     </Routes>
   );
 };

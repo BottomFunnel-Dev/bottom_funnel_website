@@ -650,7 +650,6 @@ export const NavbarMain = () => {
           </div>
         </div>
       ) : null}
-      ,
     </div>
   );
 };

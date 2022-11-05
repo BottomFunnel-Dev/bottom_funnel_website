@@ -8,25 +8,22 @@ import PlanProject from "../PlanProject/PlanProject";
 import Revamping from "../revamping/Revamping";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
-import Brand from "./Brand";
+import Wellnessadmin from "./Wellnessadmin";
+import Wellnessconnect from "./Wellnessconnect";
+import Wellnesscontainer from "./Wellnesscontainer";
+import Wellnessdoctor from "./Wellnessdoctor";
+import Wellnesshealthcare from "./Wellnesshealthcare";
+import Wellnesspatient from "./Wellnesspatient";
 
-import { Fitnesscontainer } from "./Fitnesscontainer";
-import Fitnessexercise from "./Fitnessexercise";
-import FitnessFeature from "./FitnessFeature";
-import FitnessSolution from "./FitnessSolution";
-import FitnessStart from "./FitnessStart";
-import Fitnesswhy from "./Fitnesswhy";
-
-export const Fitness = () => {
+export default function Wellness() {
   return (
     <div>
-      <Fitnesscontainer />
-      <Brand />
-      <FitnessFeature />
-      <FitnessStart />
-      <Fitnessexercise />
-      <FitnessSolution />
-      <Fitnesswhy />
+      <Wellnesscontainer />
+      <Wellnesshealthcare />
+      <Wellnessconnect />
+      <Wellnesspatient />
+      <Wellnessdoctor />
+      <Wellnessadmin />
       <StoriesSection />
       <Industries />
       <PlanProject />
@@ -38,4 +35,4 @@ export const Fitness = () => {
       <MainFooter />
     </div>
   );
-};
+}
