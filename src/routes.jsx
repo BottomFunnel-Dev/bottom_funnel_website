@@ -210,7 +210,7 @@ export const ALLroutes = () => {
       <Route path="/cannabis" element={<Cannabis />} />
       <Route path="/Icecream" element={<Icecream />} />
       <Route path="/Products" element={<ProductPage />} />
-      <Route path="/E-shooter" element={<Escooter />} />
+      <Route path="/eScooter" element={<Escooter />} />
       <Route path="/taxi-booking" element={<Taxibooking />} />
       <Route path="/Logistics" element={<Logicstic />} />
     </Routes>

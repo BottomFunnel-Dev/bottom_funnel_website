@@ -273,7 +273,7 @@ export const NavbarMain = () => {
           onMouseEnter={solHoverIn}
           onMouseLeave={solHoverOut}
           className="solutionVisible"
-          style={{ top: scroll ? "75px" : "88px" }}
+          style={{ top: scroll ? "75px" : "110px" }}
         >
           <div className="dropdownSection">
             <div className="serviceDropdownContent">
@@ -415,7 +415,7 @@ export const NavbarMain = () => {
           onMouseEnter={serHoverIn}
           onMouseLeave={serHoverOut}
           className="serviceVisible"
-          style={{ top: scroll ? "75px" : "88px" }}
+          style={{ top: scroll ? "75px" : "110px" }}
         >
           <div className="industryDropdown">
             <div className="industryContent">
@@ -488,7 +488,7 @@ export const NavbarMain = () => {
           onMouseEnter={skillHoverIn}
           onMouseLeave={skillHoverOut}
           className="skillVisible"
-          style={{ top: scroll ? "75px" : "88px" }}
+          style={{ top: scroll ? "75px" : "110px" }}
         >
           <div className="dropdownSection">
             <div className="backendDropdownContent">

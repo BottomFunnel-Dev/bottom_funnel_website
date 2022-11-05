@@ -1819,22 +1819,22 @@ export const emberjsData = {
     image: "Images/emberjSkillsPhotos/banner.png",
     title: "Emberjs Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality javascript development.",
   },
   isDes: true,
   desData: {
     title: "EmberJs",
     image: "Images/emberjSkillsPhotos/ember-logo.png",
     description:
-      "EmberJs is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Ember.js is an open-source JavaScript web framework that utilizes a component-service pattern. It allows developers to create scalable single-page web applications by incorporating common idioms, best practices, and patterns from other single-page-app ecosystem patterns into the framework.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR EMBERJS WEB DEVELOPMENT SERVICES",
+    title: "WHY EMBER JS FOR APPLICATION DEVELOPMENT",
     cardsData: [
       {
         img: {
-          src: "Images/emberjSKillsPhotos/patent-adds.png",
+          src: "Images/emberjSkillsPhotos/patent-adds.png",
           alt: "Patent add-ons logo",
         },
         title: "Patent add-ons",
@@ -1871,7 +1871,7 @@ export const emberjsData = {
       },
       {
         img: {
-          src: "Images/emberjSKillsPhotos/community.png",
+          src: "Images/emberjSkillsPhotos/community.png",
           alt: "Community logo",
         },
         title: "Community",
@@ -1891,7 +1891,7 @@ export const emberjsData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Angularjs",
+    title: "Why Bottom Funnel for Emberjs",
     image: "Images/emberjSkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -1899,12 +1899,12 @@ export const emberjsData = {
       "Commitments with NDA agreements.",
       "Flexible engagement models.",
       "Experienced and talented team of developers.",
-      "Offers variety of exclusive hibernate solutions.",
+      "Offers variety of exclusive emberjs solutions.",
     ],
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our Hibernate developers to build your application?",
+    title: "Need our emberjs developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,
@@ -1965,22 +1965,22 @@ export const jqueryData = {
     image: "Images/jquerySkillsPhotos/banner.png",
     title: "Jquery Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Delivering on your business vision with quality jquery development.",
   },
   isDes: true,
   desData: {
     title: "Jquery",
     image: "Images/jquerySkillsPhotos/jquery-logo.png",
     description:
-      "Jquery is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of Aug 2022, jQuery is used by 77% of the 10 million most popular websites.",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR JQUERY WEB DEVELOPMENT SERVICES",
+    title: "WHY JQUERY FOR APPLICATION DEVELOPEMENT ?",
     cardsData: [
       {
         img: {
-          src: "Images/jquerySKillsPhotos/easy-understand.png",
+          src: "Images/jquerySkillsPhotos/easy-understand.png",
           alt: "Easy to understand logo",
         },
         title: "Easy to understand",
@@ -2017,7 +2017,7 @@ export const jqueryData = {
       },
       {
         img: {
-          src: "Images/jquerySKillsPhotos/cross-support.png",
+          src: "Images/jquerySkillsPhotos/cross-support.png",
           alt: "Cross-browser support logo",
         },
         title: "Cross-browser support",
@@ -2037,7 +2037,7 @@ export const jqueryData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for Angularjs",
+    title: "Why Bottom Funnel for Jquery",
     image: "Images/jquerySkillsPhotos/big-left-image.png",
     bulletPointData: [
       "We use an agile approach.",
@@ -2045,12 +2045,12 @@ export const jqueryData = {
       "Commitments with NDA agreements.",
       "Flexible engagement models.",
       "Experienced and talented team of developers.",
-      "Offers variety of exclusive Jquery solutions.",
+      "Offers variety of exclusive jquery solutions.",
     ],
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our Jquery developers to build your application?",
+    title: "Need our jquery developers to build your application?",
     btn: "Book a call now",
   },
   isRemarkable: false,

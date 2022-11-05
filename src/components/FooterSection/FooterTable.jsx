@@ -11,12 +11,15 @@ const FooterTable = () => {
         <p>About</p>
         <p>About Us</p>
         <p>Our Team</p>
-        <p>Our partners</p>
-        <p>Our Clients</p>
         <p>Career</p>
+        <p>Contact us</p>
+        <p>Client reviews</p>
+        <p>Our Clients</p>
         <p>Awards & Memberships</p>
+        <p>Press and media</p>
         <p>Our Development Process</p>
         <p>Engagement Modals</p>
+        <p>Our partners</p>
       </div>
 
       <div className="innerTable">
@@ -24,8 +27,8 @@ const FooterTable = () => {
         <p>PHP Development</p>
         <p>MERN Stack Development</p>
         <p>MEAN Stack Development</p>
-        <p>Java Develoment</p>
         <p>ASP.NET Development</p>
+        <p>Java Develoment</p>
         <p>Python Development</p>
         <p>Ruby on Rails Development</p>
         <p>Golang Development</p>

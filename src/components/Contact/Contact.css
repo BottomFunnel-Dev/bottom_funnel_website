@@ -1,11 +1,10 @@
 .Contact-Above-Navbar-Main {
   padding: 5px 0 5px 0;
   height: 10%;
-  background-color: #f3f3f3;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid gray;
 }
 
 .Contact-Above-Navbar-Main > div {
