@@ -59,6 +59,8 @@ export default function Logisticadmin() {
       const [active, setActive] = useState(0);
   return (
     <div className='logicadmin'> 
+
+    <h1> Admin panel</h1>
     <div className='logicadminsub'> 
              
             <div className='logicadminright'>

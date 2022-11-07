@@ -21,7 +21,7 @@
     </div>
 
     <div className='szescooteradminright'>
-        <div className='szshape'> <img src='Images/Escooter/shape.png'/> </div>
+        {/* <div className='szshape'> <img src='Images/Escooter/shape.png'/> </div> */}
         <div className='szscootertab'> <img src='Images/Escooter/tab.png'/> </div>
        <div className='blackbluescooter'> <img src="Images/Escooter/blackbluescooter.png"/></div>
     </div>

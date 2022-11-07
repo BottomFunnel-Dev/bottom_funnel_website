@@ -9,47 +9,7 @@
   margin: 0 !important;
 }
 
-.slick-prev {
-  left: 3% !important;
-  z-index: 1;
-}
 
-.slick-prev:before {
-  font-size: 18px;
-  font-weight: bolder;
-  content: "<";
-  color: white;
-  width: fit-content;
-  height: fit-content;
-  padding: 8px 12px;
-  border-radius: 50%;
-  background: #ef4c34;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slick-next {
-  right: 3% !important;
-  z-index: 1;
-}
-
-.slick-next:before {
-  font-size: 18px;
-  font-weight: bolder;
-  content: ">";
-  color: white;
-  width: fit-content;
-  height: fit-content;
-  padding: 8px 12px;
-  border-radius: 50%;
-  background: #ef4c34;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .slideDivSection {
   width: 200px;

@@ -58,6 +58,7 @@ export default function Logicdrive() {
       const [active, setActive] = useState(0);
   return (
     <div className='logicdrive'> 
+    <h1>Drive app</h1>
     <div className='logicdrivesub'> 
              
             <div className='logicdriveleft'>

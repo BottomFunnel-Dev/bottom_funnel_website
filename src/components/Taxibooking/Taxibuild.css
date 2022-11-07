@@ -2,14 +2,15 @@
  width: 100%;
  /* background-color: aqua; */
  height: 250px;
+ background: url("/public/Images/Taxibooking/planerextangl.png");
+ background-repeat: no-repeat;
+ background-size: 100% 200px;
 }
 .sztaxibuildsub{
     width: 90%;
     margin: auto;
     height: 250px;
-    background: url("/public/Images/Taxibooking/planerextangl.png");
-    background-repeat: no-repeat;
-    background-size: 100% 200px;
+   
     padding: 45px;
 }
 .sztaxibuildsub>h2{

@@ -1,0 +1,40 @@
+.politicsreliable{
+    width: 100%;
+    /* background-color: rgb(31, 118, 118); */
+    height:200px;
+  
+    }
+     
+    .politicsreliablesub{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        height: 150px;
+        padding: 20px;
+        /* background-color: rgb(103, 35, 35); */
+      
+        position: relative;
+    }
+    
+    .szPoliticalreliablediv{
+        /* background-color: coral; */
+        width: 70%;
+        padding: 30px 20px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 30%;
+        text-align: center;
+        font-size: 18px;
+        left: 50%;
+    }
+     .szpoliticreliablehead{
+        width: 95%;
+        margin-left: 2%;
+        text-align: center;
+        background: url("/public/Images/Politics/thinrectangle.png");
+        background-repeat: no-repeat;
+        background-size: 100% 50px;
+     }
+
+
+     
