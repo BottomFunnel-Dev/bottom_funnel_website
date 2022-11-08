@@ -4,9 +4,9 @@
     /* background-color: aqua; */
 }
 .szkeyareasub{
-    width: 100%;
+    width: 90%;
     height: 500px;
-     
+    margin: auto;
     /* background-color: blue; */
     display: flex;
 }
@@ -20,7 +20,7 @@ width: 50%;
 /* background-color: tan; */
 }
 .szbigtriangle{
-    width: 50%;
+    width: 45%;
     margin-top: 15%;
     height: 270px;
    position: absolute;

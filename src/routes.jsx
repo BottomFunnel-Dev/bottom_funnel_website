@@ -77,7 +77,6 @@ import {
 } from "./Data/SkillsData";
 import { Taxibooking } from "./Components/Taxibooking/Taxibooking";
 import Logicstic from "./Components/Logistic/Logicstic";
-import { PoliticsPage } from "./Components/Politics/Politics";
 
 export const ALLroutes = () => {
   return (
@@ -216,7 +215,6 @@ export const ALLroutes = () => {
       <Route path="/taxi-booking" element={<Taxibooking />} />
       <Route path="/Logistics" element={<Logicstic />} />
       <Route path="/wellness" element={<Wellness />} />
-      <Route path="/politics" element={<PoliticsPage/>} />
     </Routes>
   );
 };

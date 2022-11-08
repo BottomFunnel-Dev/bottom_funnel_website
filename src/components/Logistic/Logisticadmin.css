@@ -3,12 +3,8 @@
     height: 780px;
     /* background-color: cornflowerblue; */
   }
-  .logicadmin>h1{
-    text-align: center;
-    padding: 10px;
-  }
   .logicadminsub{
-      width: 100%;
+      width: 90%;
       height: 740px;
       margin:auto;
       background: url("/public/Images/logistic/fullRectangle.png");

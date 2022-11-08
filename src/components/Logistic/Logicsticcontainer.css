@@ -1,11 +1,11 @@
 .szlogisticcontainer{
     width: 100%;
-    height: 650px;
+    height: 600px;
     /* background-color: aqua; */
     margin-top: 6%;
 }
 .szlogisticsubcontainer{
-    width: 95%;
+    width: 90%;
     /* background-color: blue; */
     height: 590px;
     margin: auto;
@@ -34,7 +34,7 @@
      
 }
 .szlogisticleft>div{
-    width: 90%;
+    width: 100%;
     padding: 30px 20px;
     position: absolute;
     transform: translate(-50%,-50%);

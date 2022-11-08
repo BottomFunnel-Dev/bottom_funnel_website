@@ -4,7 +4,7 @@
     /* background-color: rgb(42, 73, 73); */
 }
 .sztaxiadminsub{
-    width: 95%;
+    width: 90%;
     height: 500px;
     margin: auto;
     /* background-color: rgb(255, 0, 153); */
@@ -20,9 +20,8 @@ width: 50%;
 /* background-color: tan; */
 }
 .sztaxiadmin{
-    margin-top: 2% ;
-    width: 47%;
-    
+    margin-top: 2%;
+    width: 45%;
     /* margin-top: 10%; */
     height: 450px;
    position: absolute;

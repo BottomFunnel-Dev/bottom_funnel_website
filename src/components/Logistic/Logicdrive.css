@@ -1,17 +1,12 @@
 .logicdrive{
     width: 100%;
-    height: 670px;
+    height: 600px;
     /* background-color: cornflowerblue; */
   }
-  .logicdrive>h1{
-    margin-left: 60%;
-  }
   .logicdrivesub{
-      width: 97%;
+      width: 90%;
       height: 500px;
       margin:auto;
-      margin-top: 2%;
-      justify-content: space-between;
       /* background-color:  chocolate; */
       display: flex;
   }

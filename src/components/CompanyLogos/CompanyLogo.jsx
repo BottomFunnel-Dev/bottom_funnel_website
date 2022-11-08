@@ -32,7 +32,7 @@ const CompanyLogo = () => {
     speed: 9000,
     slidesToShow: 5,
     slidesToScroll: 1,
-    arrows: false,
+    arrows: true,
     infinite: true,
     dots: true,
     nextArrow: <SampleNextArrow />,
