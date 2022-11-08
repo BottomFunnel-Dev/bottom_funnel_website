@@ -2,8 +2,8 @@ import "./App.css";
 import { useNavigate } from "react-router-dom";
 import React, { useEffect } from "react";
 
-import {NavbarMain} from './components/Navbar/Navbar'
-import { ContactMain } from "./components/Contact/Contact";
+import {NavbarMain} from './Components/Navbar/Navbar'
+import { ContactMain } from "./Components/Contact/Contact";
 import { ALLroutes } from "./routes";
 
 function App() {
