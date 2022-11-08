@@ -1,37 +1,37 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { AlcoholDeliveryPage } from "./Components/alcohol-delivery/AlcoholDeliveryPage";
-import { AndroidDevelopmentPage } from "./Components/AndroidDevelopmentPage/AndroidDevelopmentPage";
-import Beautysection from "./Components/Beautyandcare/Beautysection";
-import Cannabis from "./Components/CannabisPage/Cannabis";
-import Dating from "./Components/Dating/Dating";
-import { EcommerceComPage } from "./Components/EcommerceCom/EcommerceComPage";
-import Educationpage from "./Components/education/Educationpage";
-import { Fitness } from "./Components/Fitness/Fitness";
-import { Flutter } from "./Components/Flutter/Flutter";
-import { FoodDelivery } from "./Components/food-delivery/FoodDeliveryPage";
-import { GameDevelopmentPage } from "./Components/Game-development/GameDevelopmentPage";
-import Grocery from "./Components/Grocery/Grocery";
-import { Ionic } from "./Components/Ionic/Ionic";
-import { Iphonepage } from "./Components/Iphonedevelopmentpage/Iphonepage";
-import OndemandHome from "./Components/OndemandHome/OndemandHome";
-import { HomePage } from "./Components/Pages/Home/Home";
-import SeoEmail from "./Components/Pages/SEO/SeoEmail";
-import Seoguest from "./Components/Pages/SEO/Seoguest";
-import Seolink from "./Components/Pages/SEO/Seolink";
-import SeoLocal from "./Components/Pages/SEO/SeoLocal";
-import SeoMain from "./Components/Pages/SEO/SeoMain";
-import SeoPPC from "./Components/Pages/SEO/SeoPPC";
-import SeoSEM from "./Components/Pages/SEO/SeoSEM";
-import { Reactnative } from "./Components/Reactnative/Reactnative";
-import { SeoDm } from "./Components/SeoDigitalmarketing/SeoDm";
-import { SkillsComPage } from "./Components/skillsPageCom/SkillsComPage";
-import Travel from "./Components/Travel/Travel";
-import Videostreaming from "./Components/Videostreaming/Videostreaming";
-import { ProductPage } from "./Components/ProductsPage/ProductPage";
-import { Icecream } from "./Components/Icecream/Icecream";
-import Escooter from "./Components/Escooter/Escooter";
-import Wellness from "./Components/Wellness/Wellness";
+import { AlcoholDeliveryPage } from "./components/alcohol-delivery/AlcoholDeliveryPage";
+import { AndroidDevelopmentPage } from "./components/AndroidDevelopmentPage/AndroidDevelopmentPage";
+import Beautysection from "./components/Beautyandcare/Beautysection";
+import Cannabis from "./components/CannabisPage/Cannabis";
+import Dating from "./components/Dating/Dating";
+import { EcommerceComPage } from "./components/EcommerceCom/EcommerceComPage";
+import Educationpage from "./components/education/Educationpage";
+import { Fitness } from "./components/Fitness/Fitness";
+import { Flutter } from "./components/Flutter/Flutter";
+import { FoodDelivery } from "./components/food-delivery/FoodDeliveryPage";
+import { GameDevelopmentPage } from "./components/Game-development/GameDevelopmentPage";
+import Grocery from "./components/Grocery/Grocery";
+import { Ionic } from "./components/Ionic/Ionic";
+import { Iphonepage } from "./components/Iphonedevelopmentpage/Iphonepage";
+import OndemandHome from "./components/OndemandHome/OndemandHome";
+import { HomePage } from "./components/Pages/Home/Home";
+import SeoEmail from "./components/Pages/SEO/SeoEmail";
+import Seoguest from "./components/Pages/SEO/Seoguest";
+import Seolink from "./components/Pages/SEO/Seolink";
+import SeoLocal from "./components/Pages/SEO/SeoLocal";
+import SeoMain from "./components/Pages/SEO/SeoMain";
+import SeoPPC from "./components/Pages/SEO/SeoPPC";
+import SeoSEM from "./components/Pages/SEO/SeoSEM";
+import { Reactnative } from "./components/Reactnative/Reactnative";
+import { SeoDm } from "./components/SeoDigitalmarketing/SeoDm";
+import { SkillsComPage } from "./components/skillsPageCom/SkillsComPage";
+import Travel from "./components/Travel/Travel";
+import Videostreaming from "./components/Videostreaming/Videostreaming";
+import { ProductPage } from "./components/ProductsPage/ProductPage";
+import { Icecream } from "./components/Icecream/Icecream";
+import Escooter from "./components/Escooter/Escooter";
+import Wellness from "./components/Wellness/Wellness";
 
 import {
   angularjsData,
@@ -75,9 +75,9 @@ import {
   wooecommerceData,
   wordpressData,
 } from "./Data/SkillsData";
-import { Taxibooking } from "./Components/Taxibooking/Taxibooking";
-import Logicstic from "./Components/Logistic/Logicstic";
-import { PoliticsPage } from "./Components/Politics/Politics";
+import { Taxibooking } from "./components/Taxibooking/Taxibooking";
+import Logicstic from "./components/Logistic/Logicstic";
+import { PoliticsPage } from "./components/Politics/Politics";
 
 export const ALLroutes = () => {
   return (
@@ -216,7 +216,7 @@ export const ALLroutes = () => {
       <Route path="/taxi-booking" element={<Taxibooking />} />
       <Route path="/Logistics" element={<Logicstic />} />
       <Route path="/wellness" element={<Wellness />} />
-      {/* <Route path="/politics" element={<PoliticsPage/>} /> */}
+      <Route path="/politics" element={<PoliticsPage/>} />
     </Routes>
   );
 };

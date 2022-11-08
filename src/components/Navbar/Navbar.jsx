@@ -30,6 +30,23 @@ export const NavbarMain = () => {
   const [scroll, setScroll] = useState(false);
   const [skill, setSkill] = useState(false);
   const [navbar, setNabvar] = useState(false);
+  const [sidetoggle, setSidetoggle] = useState("Technologies")
+
+
+
+  const sideBar = [
+    { sidename: "Discover" },
+    { sidename: "Design" },
+    { sidename: "Technologies" },
+    { sidename: "Skills" },
+    { sidename: "Scale" },
+  ]
+
+
+  const handleSide = (element) => {
+    console.log(element)
+    setSidetoggle(element)
+  }
 
   const skillHoverIn = () => {
     setSkill(true);
@@ -143,7 +160,7 @@ export const NavbarMain = () => {
               SOLUTIONS
             </li>
             <li onMouseEnter={skillHoverIn} onMouseLeave={skillHoverOut}>
-              SKILLS
+              PRICING
             </li>
             <li
               onMouseEnter={blogHoverIn}
@@ -275,7 +292,15 @@ export const NavbarMain = () => {
           className="solutionVisible"
           style={{ top: scroll ? "75px" : "110px" }}
         >
-          <div className="dropdownSection">
+          <div className="sideNav">
+            {sideBar.map((item, index) => (
+              <div key={item.sidename}   className={ sidetoggle===item.sidename?"active-toggle":""} onClick={() => { handleSide(item.sidename) }}><h6>{item.sidename}</h6></div>
+
+            ))}
+
+
+          </div>
+          {sidetoggle === "Technologies" && <div className="dropdownSection">
             <div className="serviceDropdownContent">
               <Link className="noStyle">
                 <h5>Web Development</h5>
@@ -407,90 +432,11 @@ export const NavbarMain = () => {
                 ))}
               </div>
             </div>
-          </div>
-        </div>
-      ) : null}
-      {service ? (
-        <div
-          onMouseEnter={serHoverIn}
-          onMouseLeave={serHoverOut}
-          className="serviceVisible"
-          style={{ top: scroll ? "75px" : "110px" }}
-        >
-          <div className="industryDropdown">
-            <div className="industryContent">
-              <Link className="noStyle">
-                <h5>Industries We Serves</h5>
-              </Link>
-              <div className="industryListItems">
-                {industries.map((item, i) => (
-                  <div
-                    onClick={() => {
-                      navigate(`/${item.path}`);
-                      serHoverOut();
-                    }}
-                    className="imageIconDivSection"
-                  >
-                    <div>
-                      <img
-                        className="iconDivSection"
-                        src={item.navIcons}
-                        alt=""
-                      />
-                    </div>
-                    <Link
-                      onClick={serHoverOut}
-                      to={item.path}
-                      className="linkP"
-                    >
-                      <p>{item.dropContent}</p>
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="industryContent">
-              <Link className="noStyle">
-                <h5>On Demand Solutions</h5>
-              </Link>
-              <div className="industryListItems">
-                {ondemand.map((item, i) => (
-                  <div
-                    onClick={() => {
-                      navigate(`/${item.path}`);
-                      serHoverOut();
-                    }}
-                    className="imageIconDivSection"
-                  >
-                    <div>
-                      <img
-                        className="iconDivSection"
-                        src={item.navIcons}
-                        alt=""
-                      />
-                    </div>
-                    <Link
-                      onClick={serHoverOut}
-                      to={item.path}
-                      className="linkP"
-                    >
-                      <p>{item.dropContent}</p>
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      ) : null}
-      {skill ? (
-        <div
-          onMouseEnter={skillHoverIn}
-          onMouseLeave={skillHoverOut}
-          className="skillVisible"
-          style={{ top: scroll ? "75px" : "110px" }}
-        >
-          <div className="dropdownSection">
+          </div>}
+
+          {sidetoggle === "Discover" && <div>hello discover</div>}
+          {sidetoggle === "Design" && <div>hello design</div>}
+          {sidetoggle === "Skills" && <div className="dropdownSection">
             <div className="backendDropdownContent">
               <Link className="noStyle">
                 <h5>Backend</h5>
@@ -647,9 +593,97 @@ export const NavbarMain = () => {
                 ))}
               </div>
             </div>
+          </div>}
+          {sidetoggle === "Scale" && <div>hello Scale</div>}
+
+        </div>
+      ) : null}
+      {service ? (
+        <div
+          onMouseEnter={serHoverIn}
+          onMouseLeave={serHoverOut}
+          className="serviceVisible"
+          style={{ top: scroll ? "75px" : "110px" }}
+        >
+          <div className="industryDropdown">
+            <div className="industryContent">
+              <Link className="noStyle">
+                <h5>Industries We Serves</h5>
+              </Link>
+              <div className="industryListItems">
+                {industries.map((item, i) => (
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      serHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
+                    </div>
+                    <Link
+                      onClick={serHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="industryContent">
+              <Link className="noStyle">
+                <h5>On Demand Solutions</h5>
+              </Link>
+              <div className="industryListItems">
+                {ondemand.map((item, i) => (
+                  <div
+                    onClick={() => {
+                      navigate(`/${item.path}`);
+                      serHoverOut();
+                    }}
+                    className="imageIconDivSection"
+                  >
+                    <div>
+                      <img
+                        className="iconDivSection"
+                        src={item.navIcons}
+                        alt=""
+                      />
+                    </div>
+                    <Link
+                      onClick={serHoverOut}
+                      to={item.path}
+                      className="linkP"
+                    >
+                      <p>{item.dropContent}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       ) : null}
+
+
+
+      {/* {skill ? (
+        <div
+          onMouseEnter={skillHoverIn}
+          onMouseLeave={skillHoverOut}
+          className="skillVisible"
+          style={{ top: scroll ? "75px" : "110px" }}
+        >
+
+        </div>
+      ) : null} */}
     </div>
   );
 };
