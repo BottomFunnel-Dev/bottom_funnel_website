@@ -159,15 +159,15 @@ export const NavbarMain = () => {
             <li onMouseEnter={serHoverIn} onMouseLeave={serHoverOut}>
               SOLUTIONS
             </li>
-            <li onMouseEnter={skillHoverIn} onMouseLeave={skillHoverOut} onClick={() => navigate("/pricing")}>
-              PRICING
-            </li>
             <li
               onMouseEnter={blogHoverIn}
               onMouseLeave={blogHoverOut}
               onClick={() => navigate("/Products")}
             >
               PRODUCTS
+            </li>
+            <li onMouseEnter={skillHoverIn} onMouseLeave={skillHoverOut} onClick={() => navigate("/pricing")}>
+              PRICING
             </li>
             <li onMouseEnter={blogHoverIn} onMouseLeave={blogHoverOut}>
               PORTFOLIO
@@ -294,7 +294,7 @@ export const NavbarMain = () => {
         >
           <div className="sideNav">
             {sideBar.map((item, index) => (
-              <div key={item.sidename}   className={ sidetoggle===item.sidename?"active-toggle":""} onClick={() => { handleSide(item.sidename) }}><h6>{item.sidename}</h6></div>
+              <div key={item.sidename} className={sidetoggle === item.sidename ? "active-toggle" : ""} onClick={() => { handleSide(item.sidename) }}><h6>{item.sidename}</h6></div>
 
             ))}
 

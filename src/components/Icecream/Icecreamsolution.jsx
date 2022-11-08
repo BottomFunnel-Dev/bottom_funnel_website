@@ -10,6 +10,7 @@ export const Icecreamsolution = () => {
        
     </div>
       <div className='szicecreamsub'> 
+      
           <div> 
               <div className='szgreybg'> 
           <div className='szicesolution'><img src=" Images/Icecream/Location.png"/> </div>

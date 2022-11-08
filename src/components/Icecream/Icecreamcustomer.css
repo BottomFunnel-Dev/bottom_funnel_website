@@ -4,9 +4,9 @@
     height: 600px;
   }
   .icecreamsubcustomer{
-   width: 90%;
+   width: 100%;
    height: 550px;
-   margin: auto;
+   /* margin: auto; */
    display: flex;
    /* background-color: tan; */
   }
@@ -28,7 +28,7 @@
       position: absolute;
       transform: translate(-50%,-50%);
       top: 50%;
-      left: 55%;
+      left: 50%;
   }
   .icecreamcustomerbtn{
       padding:10px 60px;
@@ -48,7 +48,7 @@
   .szpinkcircleimage{
       width:100%;
       height: 500px;
-      margin-left: -13%;
+      margin-left: -17%;
       position: absolute;
       z-index: 0;
   }
@@ -59,7 +59,7 @@
   }
   .szpurplecircleimage{
       width:100%;
-      margin: 25% 20%;
+      margin: 25% 15%;
       height: 400px;
       position: absolute;
       z-index: 1;

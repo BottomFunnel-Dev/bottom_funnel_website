@@ -15,7 +15,7 @@ export const Icecreamsection = () => {
        </div>
       
        <div className='szicecreamright'>
-            <div className='szrecpurple'> <img src="Images/Icecream/Rectanglepurple.png"/> </div>
+            {/* <div className='szrecpurple'> <img src="Images/Icecream/Rectanglepurple.png"/> </div> */}
             <div className='szchoclatecream'> <img src="Images/Icecream/choclatecream.png"/> </div>
             <div className='szbowlicecream'> <img src="Images/Icecream/bowlicecream.png" /></div>
      </div>

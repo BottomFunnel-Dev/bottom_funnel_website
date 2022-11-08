@@ -6,9 +6,10 @@
     
 }
 .szicecreamsub{
-    width: 90%;
+    width: 100%;
     /* border: 1px solid aqua; */
-    margin: auto;
+    /* margin: auto; */
+    justify-content: space-around;
     height: 540px;
     /* padding-top: 20px; */
     display: flex;
