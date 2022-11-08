@@ -59,10 +59,11 @@ export default function Logiccustomer() {
       const [active, setActive] = useState(0);
   return (
     <div className='logiccustomer'> 
+     <h1>Customer app</h1>
       <div className='logiccustomersub'> 
-               
+                   
               <div className='logiccustomerright'>
-
+  
               
           {Logisticcustomerdata.map(({ title, icon }, idx) => {
             return (

@@ -1,0 +1,32 @@
+.szPolitical{
+width: 100%;
+border-color: aqua;
+height:350px;
+}
+ 
+.szPoliticalsub{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    height: 200px;
+    padding: 20px;
+    /* background-color: rgb(103, 35, 35); */
+    background: url("/public/Images/Politics/lightbluebg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    position: relative;
+}
+
+.szPoliticaldiv{
+    width: 70%;
+    padding: 30px 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 52%;
+    font-size: 18px;
+    left: 35%;
+}
+ .szpolitichead{
+    width: 50%;
+    margin-left: 3%;
+ }

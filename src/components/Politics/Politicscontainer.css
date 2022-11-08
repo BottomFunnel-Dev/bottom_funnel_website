@@ -1,0 +1,65 @@
+.politicscontainer{
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top:6%;
+    height: 500px;
+}
+.politicssub{
+    width: 100%;
+    /* margin: auto; */
+    display: flex;
+    height: 500px;
+    padding: 20px;
+    /* background-color: black; */
+}
+
+.politicsleft{
+    width: 50%;
+    /* background-color: blueviolet; */
+    padding: 100px 30px;
+    position: relative;
+}
+.politicsleft>div{
+    width: 100%;
+    padding: 30px 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.politicsleft>div>p{
+    font-size: 18px;
+}
+.politicsright{
+    width: 50%;
+    background-color: rgb(16, 60, 60);
+    padding: 35px 30px;
+    background: url("/public/Images/Politics/politicsbg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    background-position: 5px;
+}
+.politicsimage{
+    width: 92%;
+    height: 300px;
+    margin: 35px 100px;
+}
+.politicsimage>img{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+.politicsgetbtn{
+    padding:10px 60px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    background-color: #ef4c23;
+    color:white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.politicsgetbtn:hover{
+    background-color: white;
+    color:#ef4c23;
+}

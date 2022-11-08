@@ -1,0 +1,67 @@
+.szpoliticaltool{
+    width: 100%;
+    /* background-color:  aqua; */
+    height:480px;
+}
+.szpolicstoolhead{
+    width: 50%;
+    text-align: left;
+    margin-left: 30%;
+}
+.szpoliticaltoolsub{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    height: 250px;
+    padding: 20px;
+    /* background-color: rgb(103, 35, 35); */
+    background: url("/public/Images/Politics/darkrectangle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    position: relative;
+}
+.szpoliticaltoolpara
+{
+    width: 50%;
+    padding: 30px 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    /* text-align: center; */
+    font-size: 18px;
+    left: 40%;
+}
+.szpoliticalimagesdiv{
+    display: flex;
+    width: 90%;
+    justify-content:space-around ;
+    margin-top: 12%;
+    margin-left: 5%;
+    height: 140px;
+    align-content: center;
+    /* background-color: blue; */
+}
+.szpoliticalimagesdiv>div{
+    background-color: white;
+    width: 20%;
+    padding: 10px 10px;
+    height: 150px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.szpoliticalimagesdiv>div>p{
+    padding: 10px;
+}
+.crossimg{
+    width: 50%;
+    height: 80px;
+    margin-left: 25%;
+   
+}
+.crossimg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
