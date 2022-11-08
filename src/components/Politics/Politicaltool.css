@@ -1,15 +1,17 @@
-.szpoliticaltool{
+.szpoliticaltool {
     width: 100%;
     /* background-color:  aqua; */
-    height:480px;
+    height: 480px;
 }
-.szpolicstoolhead{
-    width: 50%;
-    text-align: left;
-    margin-left: 30%;
+
+.szpolicstoolhead {
+    width: 56%;
+    text-align: center;
+    margin: auto;
 }
-.szpoliticaltoolsub{
-    width: 95%;
+
+.szpoliticaltoolsub {
+    width: 100%;
     margin: auto;
     display: flex;
     height: 250px;
@@ -20,28 +22,31 @@
     background-size: 100% 250px;
     position: relative;
 }
-.szpoliticaltoolpara
-{
-    width: 50%;
-    padding: 30px 20px;
+
+.szpoliticaltoolpara {
+    width: 45%;
+    /* padding: 10px 20px; */
     position: absolute;
-    transform: translate(-50%,-50%);
-    top: 40%;
-    /* text-align: center; */
+    transform: translate(-50%, -50%);
+    top: 30%;
+    text-align: left;
     font-size: 18px;
-    left: 40%;
+    left: 50%;
+    color: white;
 }
-.szpoliticalimagesdiv{
+
+.szpoliticalimagesdiv {
     display: flex;
     width: 90%;
-    justify-content:space-around ;
+    justify-content: space-around;
     margin-top: 12%;
     margin-left: 5%;
     height: 140px;
     align-content: center;
     /* background-color: blue; */
 }
-.szpoliticalimagesdiv>div{
+
+.szpoliticalimagesdiv>div {
     background-color: white;
     width: 20%;
     padding: 10px 10px;
@@ -51,16 +56,19 @@
     font-size: 18px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.szpoliticalimagesdiv>div>p{
+
+.szpoliticalimagesdiv>div>p {
     padding: 10px;
 }
-.crossimg{
+
+.crossimg {
     width: 50%;
     height: 80px;
     margin-left: 25%;
-   
+
 }
-.crossimg>img{
+
+.crossimg>img {
     width: 100%;
     height: 100%;
     object-fit: contain;

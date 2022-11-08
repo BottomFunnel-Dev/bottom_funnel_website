@@ -124,7 +124,7 @@ export const NavbarMain = () => {
     <div>
       <nav
         className={navbar ? "navbarSection active" : "navbarSection"}
-        style={{ top: scroll ? "0" : "4.25%" }}
+        style={{ top: scroll ? "0" : "40px" }}
       >
         <div className="logoSection">
           <Link to="/" className="logoText">
@@ -159,7 +159,7 @@ export const NavbarMain = () => {
             <li onMouseEnter={serHoverIn} onMouseLeave={serHoverOut}>
               SOLUTIONS
             </li>
-            <li onMouseEnter={skillHoverIn} onMouseLeave={skillHoverOut}>
+            <li onMouseEnter={skillHoverIn} onMouseLeave={skillHoverOut} onClick={() => navigate("/pricing")}>
               PRICING
             </li>
             <li

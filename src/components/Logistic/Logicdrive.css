@@ -37,9 +37,9 @@
       height: 100%;
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 15px;
       /* align-items: flex-start; */
-      justify-content: space-around;
+      justify-content: center;
     }
     
     .logicdriveright > div {

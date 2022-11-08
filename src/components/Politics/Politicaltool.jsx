@@ -5,7 +5,7 @@ export default function Politicaltool() {
   return (
     <div className='szpoliticaltool'>
         <div className='szpolicstoolhead'>
-            <h1>Tools & frameworks that we use to makeyour Political app engaging</h1>
+            <h1>Tools & frameworks that we use to make your Political app engaging</h1>
             </div> 
            <div className='szpoliticaltoolsub'> 
                <div className='szpoliticaltoolpara'>

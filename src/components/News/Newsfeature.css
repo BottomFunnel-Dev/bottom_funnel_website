@@ -1,0 +1,38 @@
+.newsfeature{
+    width: 100%;
+    /* background-color: rgb(31, 118, 118); */
+    height:300px;
+    }
+     
+    .newsfeaturesub{
+        width: 100%;
+        /* margin: auto; */
+        display: flex;
+        height: 200px;
+        padding: 20px;
+        /* background-color: rgb(103, 35, 35); */
+      
+        position: relative;
+    }
+    
+    .sznewsfeaturediv{
+        width: 70%;
+        padding: 30px 20px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 52%;
+        font-size: 18px;
+        left: 39%;
+    }
+     .sznewsfeaturehead{
+        width: 55%;
+        padding: 10px 30px;
+        /* margin-left: 2%; */
+        background: url("/public/Images/News/yellowrectangle.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100px;
+        background-position: 0px 30px;
+     }
+     .sznewsfeaturehead>h1{
+        margin-left:9%;
+     }

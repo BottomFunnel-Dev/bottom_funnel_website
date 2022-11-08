@@ -1,84 +1,88 @@
-.logiccustomer{
+.logiccustomer {
   width: 100%;
   height: 670px;
   /* background-color: cornflowerblue; */
 }
-.logiccustomer>h1{
- margin-left: 5%;
+
+.logiccustomer>h1 {
+  margin-left: 5%;
 }
-.logiccustomersub{
-    width: 97%;
-    height: 500px;
-    justify-content: space-between;
-    margin:auto;
-    margin-top: 2%;
-    /* background-color:  chocolate; */
-    display: flex;
+
+.logiccustomersub {
+  width: 100%;
+  height: 500px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 2%;
+  /* background-color:  chocolate; */
+  display: flex;
 }
-.logiccustomerleft{
-    width: 50%;
-    height: 500px;
-    padding: 10px;
-    /* background-color:  rgb(210, 30, 180); */
-    display: flex;
-    background: url("/public/Images/logistic/rectanglebase.png");
-    background-repeat: no-repeat;
-    background-size: 100% 500px;
-    /* background-position: 10px; */
+
+.logiccustomerleft {
+  width: 50%;
+  height: 500px;
+  padding: 10px;
+  /* background-color:  rgb(210, 30, 180); */
+  display: flex;
+  background: url("/public/Images/logistic/rectanglebase.png");
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  /* background-position: 10px; */
 }
- 
+
 
 .logiccustomerright {
-    width: 45%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    /* background-color: aqua; */
-    /* align-items: flex-start; */
-    justify-content: space-around;
-  }
-  
-  .logiccustomerright > div {
-    height: auto;
-    padding: 10px 10px 10px 10px;
-    /* display: flex; */
-    align-items:flex-start;
-    gap: 20px;
-    justify-content: flex-start;
-    width: 35%;
-    border-radius: 18px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-    background-color: white;
-  
-    cursor: pointer;
-  }
-  
-.logiccustomerright> div:hover {
-    background-color: #e1f9f6;
-  }
-  
-  .logiccustomerright> div > h3 {
-    font-size: 18px;
-  }
-  
+  width: 45%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
  
-  .logistic-customer-image{
-    width: 50%;
-    height: 500px;
-    text-align: right;
-    margin-left: 20%;
-  }
-  .logicdive{
-    width: 100%;
-    display: flex;
-    /* background-color: red; */
-    height: 60px;
-  }  
-   
-  .logistic-customer-image>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
+}
+
+.logiccustomerright>div {
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  /* display: flex; */
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: flex-start;
+  width: 35%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: white;
+
+  cursor: pointer;
+}
+
+.logiccustomerright>div:hover {
+  background-color: #e1f9f6;
+}
+
+.logiccustomerright>div>h3 {
+  font-size: 18px;
+}
+
+
+.logistic-customer-image {
+  width: 50%;
+  height: 500px;
+  text-align: right;
+  margin-left: 20%;
+}
+
+.logicdive {
+  width: 100%;
+  display: flex;
+  /* background-color: red; */
+  height: 60px;
+}
+
+.logistic-customer-image>img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -328,7 +328,7 @@ export const industries = [
   {
     dropContent: "Politics",
     navIcons: "Images/navbar/industriesImage/politics.png",
-    path: "",
+    path: "politics",
   },
   {
     dropContent: "Wellness",
@@ -338,12 +338,12 @@ export const industries = [
   {
     dropContent: "News",
     navIcons: "Images/navbar/industriesImage/news.png",
-    path: "",
+    path: "news",
   },
   {
     dropContent: "SaaS",
     navIcons: "Images/navbar/industriesImage/saas.png",
-    path: "",
+    path: "saas",
   },
   {
     dropContent: "Events",

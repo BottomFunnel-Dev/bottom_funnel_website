@@ -2,7 +2,9 @@
     width: 100%;
     /* background-color: rgb(31, 118, 118); */
     height:200px;
-  
+    background: url("/public/Images/Politics/thinrectangle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50px;
     }
      
     .politicsreliablesub{
@@ -23,17 +25,15 @@
         position: absolute;
         transform: translate(-50%,-50%);
         top: 30%;
-        text-align: center;
+        text-align: left;
         font-size: 18px;
-        left: 50%;
+        left: 37%;
     }
      .szpoliticreliablehead{
         width: 95%;
         margin-left: 2%;
         text-align: center;
-        background: url("/public/Images/Politics/thinrectangle.png");
-        background-repeat: no-repeat;
-        background-size: 100% 50px;
+        
      }
 
 

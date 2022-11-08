@@ -6,11 +6,10 @@
 }
 .politicssub{
     width: 100%;
-    /* margin: auto; */
+   
     display: flex;
     height: 500px;
-    padding: 20px;
-    /* background-color: black; */
+    
 }
 
 .politicsleft{
@@ -20,7 +19,7 @@
     position: relative;
 }
 .politicsleft>div{
-    width: 100%;
+    width: 90%;
     padding: 30px 20px;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -32,17 +31,18 @@
 }
 .politicsright{
     width: 50%;
-    background-color: rgb(16, 60, 60);
+    /* background-color: rgb(16, 60, 60); */
     padding: 35px 30px;
     background: url("/public/Images/Politics/politicsbg.png");
     background-repeat: no-repeat;
-    background-size: 100% 450px;
+    background-size: 99% 450px;
     background-position: 5px;
 }
 .politicsimage{
-    width: 92%;
-    height: 300px;
-    margin: 35px 100px;
+    width: 90%;
+    height: 265px;
+    /* background-color: blueviolet; */
+    margin: 70px 10px;
 }
 .politicsimage>img{
    width: 100%;

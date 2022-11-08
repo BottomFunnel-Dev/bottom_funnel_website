@@ -1,5 +1,4 @@
 .Contact-Above-Navbar-Main {
-  padding: 5px 0 5px 0;
   height: 40px;
   background-color: white;
   display: flex;
@@ -25,6 +24,7 @@
   align-items: center;
   justify-content: center;
 }
+
 
 .Contact-Above-Navbar-Main > div > div > span {
   width: fit-content;

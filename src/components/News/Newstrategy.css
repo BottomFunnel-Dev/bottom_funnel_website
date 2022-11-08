@@ -1,0 +1,34 @@
+.sznewstrategy{
+    width: 100%;
+    /* border-color: aqua; */
+    height:300px;
+    }
+     
+    .sznewstrategysub{
+        width: 100%;
+        /* margin: auto; */
+        display: flex;
+        height: 200px;
+        padding: 20px;
+        /* background-color: rgb(103, 35, 35); */
+        background: url("/public/Images/News/rectanglebg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 450px;
+        position: relative;
+    }
+    
+    .sznewstrategydiv{
+        width: 55%;
+        padding: 30px 20px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 52%;
+        font-size: 18px;
+        left:50%;
+        text-align: left;
+    }
+     .sznewstrategyhead{
+        width: 100%;
+        text-align: center;
+     }
+   

@@ -5,9 +5,9 @@ const CompanyLogo = () => {
   var settings = {
     autoplay: true,
     dots: false,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     cssEase: "linear",
-    speed: 7000,
+    speed: 2000,
     swipeToSlide: true,
     slidesToShow: 1,
     pauseOnHover: true,

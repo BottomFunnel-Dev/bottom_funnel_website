@@ -1,0 +1,27 @@
+.Pricing-Banner {
+  height: 450px;
+
+  background-image: url("/public/Images/pricingPhotos/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Pricing-Banner > h1 {
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 5px;
+
+  color: #ef4c34;
+}
+
+.Pricing-Banner > p {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 5px;
+}

@@ -1,0 +1,33 @@
+.SaasCards-main {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+  margin-top: 2%;
+}
+
+.SaasCards-content {
+  width: 94%;
+}
+
+.SaasCards-content > h3 {
+  font-size: 18px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.SaasCards-content > p {
+  font-size: 16px;
+  margin-top: 5px;
+
+  width: 60%;
+}
+
+.SaasCards-icon {
+  height: 60px;
+  width: fit-content;
+}
+
+.SaasCards-icon > img {
+  height: 100%;
+}
