@@ -9,12 +9,11 @@
    
     display: flex;
     height: 500px;
-    
+
 }
 
 .politicsleft{
     width: 50%;
-    /* background-color: blueviolet; */
     padding: 100px 30px;
     position: relative;
 }

@@ -52,6 +52,7 @@ export const SaasValuable = () => {
         </div>
       </div>
       <div className="SaasValuable-content">
+        <div className="SaasValuable-content-heading">
         <h1>
           How we convert your cloud ideas into SaaS application that are
           scalable, parctical and valuable
@@ -65,6 +66,7 @@ export const SaasValuable = () => {
           minus excepturi facilis laudantium. Placeat, magni nobis impedit
           commodi velit consequuntur at optio qui id praesentium dolor eveniet.
         </p>
+        </div>
         <div>
           {cardsData.map((elem) => {
             return <SaasCards data={elem} />;

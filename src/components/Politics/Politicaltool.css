@@ -8,6 +8,7 @@
     width: 56%;
     text-align: center;
     margin: auto;
+    padding: 15px 0;
 }
 
 .szpoliticaltoolsub {
@@ -29,7 +30,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     top: 30%;
-    text-align: left;
+    text-align: center;
     font-size: 18px;
     left: 50%;
     color: white;

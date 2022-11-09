@@ -9,12 +9,21 @@
   width: 65%;
 }
 
-.SaasValuable-content > h1 {
+.SaasValuable-content-heading > h1 {
   font-size: 32px;
-  width: 60%;
+  width: 75%;
+  margin-bottom: 10px;
 }
 
-.SaasValuable-content > p {
+.SaasValuable-content-heading{
+  height: 280px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.SaasValuable-content-heading > p {
   font-size: 16px;
   width: 95%;
 }
@@ -31,7 +40,7 @@
 
 .SaasValuable-funnel-image {
   width: 90%;
-  height: 570px;
+  height: 680px;
   overflow: hidden;
   transform: rotateY(180deg);
 }
@@ -42,5 +51,5 @@
 }
 
 .SaasValuable-images > img {
-  height: 400px;
+  height: 300px;
 }

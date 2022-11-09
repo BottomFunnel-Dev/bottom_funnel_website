@@ -45,6 +45,7 @@ export const SaasSuite = () => {
   return (
     <div className="SaasSuite-main">
       <div className="SaasSuite-content">
+        <div className="SaasSuite-content-heading">
         <h1>
           Our suite of SaaS application <br /> development services
         </h1>
@@ -57,6 +58,7 @@ export const SaasSuite = () => {
           minus excepturi facilis laudantium. Placeat, magni nobis impedit
           commodi velit consequuntur at optio qui id praesentium dolor eveniet.
         </p>
+        </div>
         <div>
           {cardsData.map((elem) => {
             return <SaasCards data={elem} />;
