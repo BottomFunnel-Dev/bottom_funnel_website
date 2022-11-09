@@ -14,7 +14,7 @@ export const EventsDevelopment = () => {
                 </div>
             </div>
             <div className="eventsdevelopmentImage">
-                <img src="Images/EventPage/eventservice1.png" alt="" />
+                <img src="Images/Eventpage/eventservice1.png" alt="" />
             </div>
         </div>
     )

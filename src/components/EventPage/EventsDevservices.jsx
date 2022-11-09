@@ -5,8 +5,8 @@ export const EventsDevservices = () => {
     return (
         <div className="eventsdevservices">
             <div className="eventsdevserviceImage">
-                <div className='eventsbackImage'><img src="Images/EventPage/eventserviceback.png" alt="" /></div>
-                <div className='eventstopImage'><img src="Images/EventPage/eventservicetop.png" alt="" /></div>
+                <div className='eventsbackImage'><img src="Images/Eventpage/eventserviceback.png" alt="" /></div>
+                <div className='eventstopImage'><img src="Images/Eventpage/eventservicetop.png" alt="" /></div>
             </div>
             <div className="eventsdevserviceText">
                 <div>

@@ -12,7 +12,7 @@
     margin: auto;
 }
 .sztransport{
-    width: 44%;
+    width: 50%;
     /* margin-left: 1%; */
 }
 .logistictranspotwhydiv{
@@ -20,7 +20,7 @@
     width: 100%;
     height: 280px;
     /* background-color: teal; */
-     justify-content: center;
+     justify-content: space-around;
 }
 /* .logistictranspotwhydiv{
     width: 50%;
@@ -28,7 +28,7 @@
  
 } */
 .szagiledive{
-    width: 30%;
+    width: 22%;
     height: 260px;
     /* background-color: rgb(192, 131, 143); */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
