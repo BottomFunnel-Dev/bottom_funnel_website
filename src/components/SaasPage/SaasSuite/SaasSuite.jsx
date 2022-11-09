@@ -44,19 +44,31 @@ export const SaasSuite = () => {
 
   return (
     <div className="SaasSuite-main">
-      <h1>
-        Our suite of SaaS application <br /> development services
-      </h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        natus itaque similique minus excepturi facilis laudantium. Placeat,
-        magni nobis impedit commodi velit consequuntur at optio qui id
-        praesentium dolor eveniet.
-      </p>
-      <div>
-        {cardsData.map((elem) => {
-          return <SaasCards data={elem} />;
-        })}
+      <div className="SaasSuite-content">
+        <h1>
+          Our suite of SaaS application <br /> development services
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, natus itaque similique minus excepturi facilis
+          laudantium. Placeat, magni nobis impedit commodi velit consequuntur at
+          optio qui id praesentium dolor eveniet.Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Exercitationem, natus itaque similique
+          minus excepturi facilis laudantium. Placeat, magni nobis impedit
+          commodi velit consequuntur at optio qui id praesentium dolor eveniet.
+        </p>
+        <div>
+          {cardsData.map((elem) => {
+            return <SaasCards data={elem} />;
+          })}
+        </div>
+      </div>
+      <div className="SaasSuite-images">
+        <img src="Images/saasPhotos/expertise.png" alt="Side image" />
+        <br />
+        <div className="SaasSuite-funnel-image">
+          <img src="Images/saasPhotos/funnel.png" alt="Big funnel" />
+        </div>
       </div>
     </div>
   );

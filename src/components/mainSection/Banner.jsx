@@ -1,6 +1,7 @@
 import React from "react";
 import "./banner.css";
 import Slider from "react-slick";
+import { ParallexSection } from "../Parallex/ParallexSection";
 const CompanyLogo = () => {
   var settings = {
     autoplay: true,
@@ -74,9 +75,10 @@ const CompanyLogo = () => {
 
   return (
     <div className="bannerSection">
-      {/* <div className="curveImage"></div> */}
-
       <div className="bannerSlide">
+        {/* <div className="backAnimation">
+          <ParallexSection />
+        </div> */}
         <Slider {...settings}>
           {banner.map((item, i) => (
             <div key={i} className="slideMainDiv">

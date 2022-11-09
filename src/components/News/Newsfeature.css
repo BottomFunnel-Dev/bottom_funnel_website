@@ -26,13 +26,11 @@
     }
      .sznewsfeaturehead{
         width: 55%;
-        padding: 10px 30px;
+        padding: 10px 80px;
         /* margin-left: 2%; */
         background: url("/public/Images/News/yellowrectangle.png");
         background-repeat: no-repeat;
         background-size: 100% 100px;
         background-position: 0px 30px;
      }
-     .sznewsfeaturehead>h1{
-        margin-left:9%;
-     }
+    

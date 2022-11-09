@@ -15,14 +15,13 @@ import About from "../../AboutSection/About";
 import MainFooter from "../../FooterSection/MainFooter";
 import OndemandSection from "../../OnDemandSection/OndemandSection";
 import PortFolio from "../../PortFolioSection/PortFolio";
+import {  ParallexSection } from "../../Parallex/ParallexSection";
 
 export const HomePage = () => {
   return (
     <div>
       <Banner />
-      {/* <HeroSection /> */}
-      {/* <VerticalCarousel /> */}
-      {/* <VerticalSilder/> */}
+     {/* <ParallexSection/> */}
 
       <CompanyLogo />
       <About />

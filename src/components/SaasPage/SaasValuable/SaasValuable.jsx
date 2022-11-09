@@ -44,19 +44,32 @@ export const SaasValuable = () => {
 
   return (
     <div className="SaasValuable-main">
-      <h1>
-        Our suite of SaaS application <br /> development services
-      </h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        natus itaque similique minus excepturi facilis laudantium. Placeat,
-        magni nobis impedit commodi velit consequuntur at optio qui id
-        praesentium dolor eveniet.
-      </p>
+      <div className="SaasValuable-images">
+        <img src="Images/saasPhotos/valuable.png" alt="Side image" />
+        <br />
+        <div className="SaasValuable-funnel-image">
+          <img src="Images/saasPhotos/funnel.png" alt="Big funnel" />
+        </div>
+      </div>
       <div className="SaasValuable-content">
-        {cardsData.map((elem) => {
-          return <SaasCards data={elem} />;
-        })}
+        <h1>
+          How we convert your cloud ideas into SaaS application that are
+          scalable, parctical and valuable
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, natus itaque similique minus excepturi facilis
+          laudantium. Placeat, magni nobis impedit commodi velit consequuntur at
+          optio qui id praesentium dolor eveniet.Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Exercitationem, natus itaque similique
+          minus excepturi facilis laudantium. Placeat, magni nobis impedit
+          commodi velit consequuntur at optio qui id praesentium dolor eveniet.
+        </p>
+        <div>
+          {cardsData.map((elem) => {
+            return <SaasCards data={elem} />;
+          })}
+        </div>
       </div>
     </div>
   );

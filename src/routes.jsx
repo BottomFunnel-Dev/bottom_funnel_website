@@ -225,7 +225,7 @@ export const ALLroutes = () => {
       <Route path="/pricing" element={<PricingPage/>} />
       <Route path="/events" element={<Event/>} />
 
-      {/* <Route path="/saas" element={<SaasPage/>} /> */}
+      <Route path="/saas" element={<SaasPage/>} />
     </Routes>
   );
 };

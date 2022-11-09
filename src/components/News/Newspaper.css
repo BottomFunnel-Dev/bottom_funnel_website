@@ -29,9 +29,8 @@
 
 .sznewspaperhead {
     width: 60%;
-    padding: 10px 30px;
+    padding: 10px 80px;
+    /* margin-left: 5%; */
 }
-
-.sznewspaperhead>h1 {
-    margin-left: 8%;
-}
+ 
+ 

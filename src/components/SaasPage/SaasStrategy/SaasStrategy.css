@@ -1,5 +1,4 @@
 .SaasStrategy-main {
-  width: 90%;
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -8,7 +7,7 @@
 .SaasStrategy-main > h1 {
   font-size: 32px;
   margin: auto;
-  margin-bottom: -1%;
+  margin-bottom: 1%;
   text-align: center;
 }
 

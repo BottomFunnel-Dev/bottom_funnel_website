@@ -1,5 +1,6 @@
 .SaasCards-main {
   display: flex;
+  gap: 2%;
   justify-content: space-between;
 
   margin-bottom: 20px;
@@ -20,7 +21,7 @@
   font-size: 16px;
   margin-top: 5px;
 
-  width: 60%;
+  width: 80%;
 }
 
 .SaasCards-icon {

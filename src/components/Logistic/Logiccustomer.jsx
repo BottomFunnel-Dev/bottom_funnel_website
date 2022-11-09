@@ -39,7 +39,8 @@ export default function Logiccustomer() {
                     title: "Multiple Payment Option",
                     para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
        
-                },
+      },
+      
         {
           img: {
             src: "Images/logistic/track order screen.png",
@@ -78,13 +79,10 @@ export default function Logiccustomer() {
                   <img src={icon.src} alt={icon.alt} />
                 </div>
                 <h3>{title}</h3>
-                 
-              
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev</p>
                 </div>
-            
           
-            );
+             );
           })}
         
               </div>

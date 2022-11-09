@@ -9,7 +9,7 @@ export default function Newsintro() {
         <div> 
        <h2>Magazine & Newspaper App Development</h2>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis totam saepe aliquid quisquam maxime a quidem ipsa optio. Nam tempora minus nesciunt quasi natus porro eaque tenetur modi dolorem mollitia.</p>
-     <button className='newsintrogetbtn'>Get Started</button>
+     <button className='newsintrogetbtn'>Request a proposal</button>
      </div>
     </div>
        <div className='newsintroright'>

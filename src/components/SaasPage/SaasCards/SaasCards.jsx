@@ -2,7 +2,6 @@ import React from "react";
 import "./SaasCards.css";
 
 export const SaasCards = ({ data }) => {
-  console.log(data);
   return (
     <div className="SaasCards-main">
       <div className="SaasCards-icon">
