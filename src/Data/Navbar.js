@@ -348,7 +348,7 @@ export const industries = [
   {
     dropContent: "Events",
     navIcons: "Images/navbar/industriesImage/events.png",
-    path: "",
+    path: "events",
   },
   {
     dropContent: "eScooter",

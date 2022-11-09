@@ -23,10 +23,10 @@ const SeoMain = () => {
       <Trusted />
       <EnquiryNow />
       <SeoServices />
-      <Downloadratecard />
       <StoriesSection />
       <Seoexperts />
       <Seofaq />
+      <Downloadratecard />
       <SeoblogSection />
       <ContectForm />
       <MainFooter />

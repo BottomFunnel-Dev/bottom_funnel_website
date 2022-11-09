@@ -81,6 +81,7 @@ import Politics from "./components/Politics/Politics";
 import { SaasPage } from "./components/SaasPage/SaasPage";
 import { PricingPage } from "./components/pricing/PricingPage";
 import News from "./components/News/News";
+import { Event } from "./components/EventPage/Event";
 
 export const ALLroutes = () => {
   return (
@@ -221,7 +222,8 @@ export const ALLroutes = () => {
       <Route path="/wellness" element={<Wellness />} />
       <Route path="/politics" element={<Politics/>} />
       <Route path="/news" element={<News/>} />
-      {/* <Route path="/pricing" element={<PricingPage/>} /> */}
+      <Route path="/pricing" element={<PricingPage/>} />
+      <Route path="/events" element={<Event/>} />
 
       {/* <Route path="/saas" element={<SaasPage/>} /> */}
     </Routes>
