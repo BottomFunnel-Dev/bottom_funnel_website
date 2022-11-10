@@ -52,7 +52,7 @@ export default function Logictransport() {
 
             <div className='szship'>
               <div className='szshipping'>
-                <div className='delivery'><img src="Images/logistic/search in browser.png" /> </div>
+                <div className='delivery'><img src="Images/logistic/searchbrowser.png" /> </div>
                 <h5>Shipping Logistics Management Software Development </h5>
               </div>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor possimus libero praesentium nostrum sapiente cum aliquam dicta quam, deleniti atque officiis minus velit </p>

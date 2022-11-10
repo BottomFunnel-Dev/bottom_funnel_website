@@ -31,7 +31,7 @@ export default function Logisticwhy() {
 
                        <div className='szagiledive'>
                          <div className='szagile'>
-                                  <div className='szprocess'><img src="Images/logistic/Delivery time.png" /> </div>
+                                  <div className='szprocess'><img src="Images/logistic/deliverytime.png" /> </div>
                                    <h5> Round-the-clock support </h5>
                           </div>
                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor possimus libero praesentium nostrum sapiente cum aliquam dicta quam, deleniti atque officiis minus velit </p>
