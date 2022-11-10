@@ -4,9 +4,9 @@
     /* background-color: rgb(42, 73, 73); */
 }
 .sztaxiadminsub{
-    width: 95%;
+    width: 100%;
     height: 500px;
-    margin: auto;
+    /* margin: auto; */
     /* background-color: rgb(255, 0, 153); */
     display: flex;
 }
@@ -22,7 +22,7 @@ width: 50%;
 .sztaxiadmin{
     margin-top: 2% ;
     width: 47%;
-    
+    margin-left: 3%;
     /* margin-top: 10%; */
     height: 450px;
    position: absolute;
@@ -50,7 +50,7 @@ width: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 40%;
-    left: 50%;
+    left: 55%;
 }
  
 .taxiadminbtn{
@@ -58,8 +58,8 @@ width: 50%;
     font-weight: 600;
     font-size: 18px;
     border: none;
-    margin-top: 50%;
-    margin-left: 12%;
+    margin-top: 42%;
+    margin-left: 18%;
     background-color: #ef4c23;
     color:white;
     border-radius: 25px;

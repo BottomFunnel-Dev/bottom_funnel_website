@@ -25,7 +25,7 @@ export const whyBottom = [
   {
     dropContent: "Client Reviews",
     navIcons: "Images/navbar/aboutImage/clientreview.png",
-    path: "",
+    path: "client-reviews",
   },
   {
     dropContent: "Our Clients",

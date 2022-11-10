@@ -1,0 +1,62 @@
+.ReviewRating-main {
+  color: #393939;
+  width: 80%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ReviewRating-main > div {
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ReviewRating-main > div > svg {
+  padding: 10px;
+}
+.ReviewRating-main > div > div {
+  padding: 10px;
+}
+
+.ReviewRating-main > div > div > h3 {
+  font-size: 18px;
+  margin: auto;
+  margin-bottom: 2px;
+}
+
+.ReviewRating-main > div > div > p {
+  font-size: 16px;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.Review-overall-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  width: 90px;
+  height: 90px;
+
+  border: 1px solid #353535;
+  border-radius: 10px;
+}
+
+.Review-overall-rating > svg {
+  border-right: none;
+  position: absolute;
+  color: lightgray;
+  z-index: 1px;
+  width: 90px;
+  height: 90px;
+}
+
+.Review-overall-rating > div {
+  z-index: 2;
+  text-align: center;
+}

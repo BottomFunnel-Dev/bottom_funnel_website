@@ -1,0 +1,125 @@
+.RecentReview-main {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  color: #393939;
+  text-align: center;
+}
+
+.RecentReview-main > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.RecentReview-main > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.RecentReview-Content {
+  border-radius: 5px;
+  width: 30%;
+  height: fit-content;
+  padding: 10px 10px 40px;
+  margin-top: 1%;
+  border-bottom: 5px solid transparent;
+  text-align: center;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.RecentReview-Content:hover {
+  border-bottom: 5px solid #ef4c34;
+}
+
+.RecentReview-Content > h4 {
+  font-size: 17px;
+  text-align: center;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.RecentReview-Content > p {
+  width: 90%;
+  height: 100px;
+  overflow-y: scroll;
+  margin: auto;
+  padding: 5px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.RecentReview-Content > button {
+  background: transparent;
+  border: none;
+  outline: none;
+
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+
+  cursor: pointer;
+  color: #393939;
+}
+
+.RecentReview-Content > button:hover {
+  color: #ef4c34;
+}
+
+.RecentReview-company-main {
+  width: fit-content;
+
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.RecentReview-company > h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-top: 5%;
+}
+
+.RecentReview-logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RecentReview-logo > img {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.RecentReview-main > button {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 30px;
+  cursor: pointer;
+
+  color: white;
+  background-color: #ef4c34;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.RecentReview-main > button:hover {
+  background: white;
+  color: #ef4c34;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}

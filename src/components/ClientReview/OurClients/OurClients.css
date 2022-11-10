@@ -1,0 +1,40 @@
+.OurClients-main {
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  background: #edf2f4;
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.OurClients-main > button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 700;
+
+  border: none;
+  outline: none;
+  border-radius: 100px;
+
+  background-color: #ef4c34;
+  color: white;
+  cursor: pointer;
+
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.OurClients-main > button:hover {
+  background: transparent;
+  color: #ef4c34;
+
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}

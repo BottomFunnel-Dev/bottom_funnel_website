@@ -82,6 +82,7 @@ import { SaasPage } from "./components/SaasPage/SaasPage";
 import { PricingPage } from "./components/pricing/PricingPage";
 import News from "./components/News/News";
 import { Event } from "./components/EventPage/Event";
+import { ClientReview } from "./components/ClientReview/ClientReview";
 
 export const ALLroutes = () => {
   return (
@@ -226,6 +227,9 @@ export const ALLroutes = () => {
       <Route path="/events" element={<Event/>} />
 
       <Route path="/saas" element={<SaasPage/>} />
+      <Route path="/client-reviews" element={<ClientReview/>} />
+
+
     </Routes>
   );
 };

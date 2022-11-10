@@ -27,13 +27,14 @@ export const Taxibooking = () => {
       <Taxibookingadmin />
       <Taxidrive />
       <Taxiourcycle />
+
       <StoriesSection />
       <Industries />
-      <PlanProject />
+      <Revamping />
       <OndemandSection />
       <PortFolio />
       <SeoblogSection />
-      <Revamping />
+      <PlanProject />
       <TextDropdown />
       <ContectForm />
       <MainFooter />

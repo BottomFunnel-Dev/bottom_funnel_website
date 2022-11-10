@@ -1,0 +1,32 @@
+.ClientBanner-main {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ClientBanner-content {
+  width: 40%;
+}
+
+.ClientBanner-content > h1 {
+  font-size: 35px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.ClientBanner-content > p {
+  font-size: 18px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.ClientBanner-image {
+  height: fit-content;
+  width: 50%;
+}
+
+.ClientBanner-image > img {
+  width: 100%;
+}

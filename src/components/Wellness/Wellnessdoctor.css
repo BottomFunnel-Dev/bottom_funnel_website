@@ -3,28 +3,28 @@
     text-align: center;
     height:550px;
     /* background-color: rgb(108, 10, 87); */
-    padding: 20px;
+    /* padding: 20px; */
 }
  
 .Wellnessdoctorsub{
-    width: 90%;
+    width: 100%;
     height:500px;
     display: flex;
-    margin: auto;
     margin-top: 20px;
-    /* justify-content: center; */
+    /* margin: auto; */
+    justify-content: space-between;
     /* background-color: rgb(13, 83, 67); */
 }
 .Wellnessdoctorleft{
-    width:50%;
-    /* background-color: rgb(2, 2, 41); */
+    width:45%;
+    /* background-color: rgb(222, 181, 216); */
     height:500px;
     position: relative;
 }
 .Wellnessdoctorright{
     width:50%;
     /* background-color: rgb(48, 48, 185); */
-    height: 400px;
+    height: 500px;
     position: relative;
 }
 .Wellnessdoctorleft>div{
@@ -33,13 +33,14 @@
     position: absolute;
     transform: translate(-50%,-50%);
     top: 40%;
-    left: 50%;
+    left: 60%;
 
 }
 .Wellnessdoctorleft>div>div>ul>li{
     list-style-type:disc;
     font-size: 18px;
     text-align: left;
+    cursor: pointer;
     /* margin-left: 10%; */
     /* background-color: chartreuse; */
 }
@@ -53,7 +54,7 @@
     font-size: 18px;
     border: none;
     margin-top: 45%;
-    margin-left: -10%;
+    margin-left: 10%;
     background-color: #ef4c23;
     color:white;
     border-radius: 25px;
@@ -69,7 +70,7 @@
     width: 100%;
     height: 350px;
    position: absolute;
-   margin-top: 23%;
+   margin-top: 20%;
    z-index: 0;
 }
 .szwelldoctorbotombg>img{
@@ -78,16 +79,17 @@
     object-fit:fill;
 }
 .szwellnessdoctortab{
-    width: 82%;
-    height: 430px; 
-    margin-top: 15%;
-    margin-left: 10%;
+    width: 100%;
+    height: 500px; 
+    margin-top: 10%;
+    margin-left: 5%;
     position: absolute;
+    /* padding: 20px 0px; */
     /* background-color: aqua; */
     z-index: 1;
 }
 .szwellnessdoctortab>img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 } 

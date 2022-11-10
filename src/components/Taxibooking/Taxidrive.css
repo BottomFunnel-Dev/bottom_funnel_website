@@ -4,20 +4,21 @@
     /* background-color: aqua; */
 }
 .sztaxidrivesub{
-    width: 95%;
+    width: 100%;
     height: 500px;
-    margin: auto;
+    /* margin: auto; */
     /* background-color: blue; */
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 .sztaxidriveleft{
-width: 47%;
+width: 50%;
+ 
 /* background-color: brown; */
 position: relative;
 }
 .sztaxidriveright{
-width: 47%;
+width: 50%;
 /* background-color: tan; */
 background: url("/public/Images/Taxibooking/twotriangle.png");
 background-repeat: no-repeat;
@@ -39,7 +40,7 @@ background-size: 100% 500px;
     /* background-color: blue; */
     height: 440px;
     margin-top: 2%;
-    margin-left: -10%;
+    margin-left: -9%;
     position: absolute;
    z-index: 1;
 }
@@ -74,11 +75,11 @@ background-size: 100% 500px;
 }
 .sztaxidriveleft>div{
     width: 100%;
-    padding: 0px 20px;
+    padding: 0px 160px;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 40%;
-    left: 61%;
+    left: 50%;
 }
 .szcaricon{
 width: 30%;
@@ -94,7 +95,7 @@ height: 200px;
     font-weight: 600;
     font-size: 18px;
     border: none;
-    margin-top: 50%;
+    margin-top: 42%;
     margin-left: 33%;
     background-color: #ef4c23;
     color:white;

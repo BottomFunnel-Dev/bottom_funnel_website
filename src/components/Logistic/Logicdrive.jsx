@@ -8,7 +8,7 @@ export default function Logicdrive() {
         alt: "Register image",
       },
       icon: {
-        src: "Images/logistic/box1.png",
+        src: "Images/logistic/boxside.png",
         alt: " Register logo",
       },
       title: "Receive Shipment Request",

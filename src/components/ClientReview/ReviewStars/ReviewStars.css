@@ -1,0 +1,9 @@
+.ReviewStars-main {
+  width: fit-content;
+  height: fit-content;
+
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}

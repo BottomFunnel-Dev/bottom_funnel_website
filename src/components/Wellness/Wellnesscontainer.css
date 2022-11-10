@@ -5,10 +5,11 @@
   /* background-color: rgb(108, 10, 87); */
 }
 .szwellnesssub{
-    width: 90%;
+    width: 100%;
     height:500px;
     display: flex;
-    margin: auto;
+ 
+    /* margin: auto; */
     /* background-color: rgb(13, 83, 67); */
 }
 .szwellnessleft{

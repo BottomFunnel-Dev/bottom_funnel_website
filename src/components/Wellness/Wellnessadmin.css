@@ -2,31 +2,27 @@
     width: 100%;
     text-align: center;
     height:580px;
-    /* background-color: rgb(108, 10, 87); */
-    padding: 20px;
+   
 }
  
 .Wellnessadminsub{
-    width: 90%;
-    height:500px;
+    width: 100%;
+    height:550px;
     display: flex;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 20px;
     position: relative;
     z-index: 0;
-    /* justify-content: center; */
-    /* background-color: rgb(13, 83, 67); */
+    justify-content: space-between;
 }
 .Wellnessadminleft{
-    width:50%;
-    /* background-color: rgb(2, 2, 41); */
-    height: 500px;
+    width:45%;
+    height: 530px;
     position: relative;
 }
 .Wellnessadminright{
     width:50%;
-    /* background-color: rgb(48, 48, 185); */
-    height: 500px;
+    height: 530px;
     position: relative;
 }
 .Wellnessadminleft>div{
@@ -42,6 +38,7 @@
     list-style-type:disc;
     font-size: 18px;
     text-align: left;
+    cursor: pointer;
     /* margin-left: 10%; */
     /* background-color: chartreuse; */
 }
@@ -54,12 +51,12 @@
     font-weight: 600;
     font-size: 18px;
     border: none;
-    margin-top: 45%;
-    margin-left: -25%;
-    background-color: #ef4c23;
+    margin-top: 47%;
+    margin-left: -30%;
     color:white;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #ef4c23;
 }
 .wellnessadminbtn:hover{
     background-color: white;
