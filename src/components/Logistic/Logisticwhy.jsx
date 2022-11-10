@@ -23,7 +23,7 @@ export default function Logisticwhy() {
 
                        <div className='szagiledive'>
                          <div className='szagile'>
-                                  <div className='szprocess'><img src="Images/logistic/private folder.png" /> </div>
+                                  <div className='szprocess'><img src="Images/logistic/privatefolder.png" /> </div>
                                    <h5> Data security and protection</h5>
                           </div>
                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor possimus libero praesentium nostrum sapiente cum aliquam dicta quam, deleniti atque officiis minus velit </p>
