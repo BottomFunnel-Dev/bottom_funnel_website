@@ -9,7 +9,7 @@ export default function Logiccustomer() {
             alt: "Register image",
           },
           icon: {
-            src: "Images/logistic/Inspection.png",
+            src: "Images/logistic/inspection.png",
             alt: " Register logo",
           },
           title: "Registration",
