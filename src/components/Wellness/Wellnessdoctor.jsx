@@ -7,7 +7,7 @@ export default function Wellnessdoctor() {
   let wellnessdoctordata = [
     {
       img: {
-        src: "Images/Wellness/dr.profile.png",
+        src: "Images/Wellness/doctormanage.png",
         alt: "Register image",
       },
       title: "Profile",

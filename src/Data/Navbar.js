@@ -30,7 +30,7 @@ export const whyBottom = [
   {
     dropContent: "Our Clients",
     navIcons: "Images/navbar/aboutImage/ourclients.png",
-    path: "",
+    path: "our-clients",
   },
   {
     dropContent: "Awards and Memberships",

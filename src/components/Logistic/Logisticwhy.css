@@ -12,8 +12,9 @@
     margin: auto;
 }
 .sztransport{
-    width: 50%;
-    /* margin-left: 1%; */
+    width: 85%;
+    margin-left: 1.5%;
+    margin-bottom: 20px;
 }
 .logistictranspotwhydiv{
     display: flex;

@@ -1,0 +1,35 @@
+.OurClientBanner-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.OurClientBanner-content {
+  width: 45%;
+  text-align: center;
+}
+
+.OurClientBanner-content > h1 {
+  font-size: 35px;
+  margin: auto;
+}
+
+.OurClientBanner-content > p {
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  text-align: left;
+}
+
+.OurClientBanner-image {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.OurClientBanner-image > img {
+  height: 85%;
+}

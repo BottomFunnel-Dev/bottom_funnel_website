@@ -1,0 +1,57 @@
+.OurClientCards-main {
+  border: 1px solid #393939;
+  border-radius: 5px;
+  width: 25%;
+  height: fit-content;
+  margin: auto;
+  padding: 10px;
+  margin-top: 1%;
+  margin-bottom: 10px;
+}
+
+.OurClientCards-main > h4 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.OurClientCards-content {
+  border: 1px solid #ef4c34;
+  border-radius: 5px;
+  position: relative;
+  padding: 10px;
+  z-index: 1;
+}
+
+.OurClientCards-content > div {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.OurClientCards-content > p {
+  z-index: 2;
+  font-size: 16px;
+  margin-bottom: 35px;
+
+  width: 90%;
+  text-align: justify;
+}
+
+.OurClientCards-company {
+  text-align: center;
+
+  height: 50px;
+  width: fit-content;
+  margin: auto;
+  z-index: 10;
+
+  position: relative;
+
+  margin-top: -25px;
+  background: white;
+}
+
+.OurClientCards-company > img {
+  height: 100%;
+}

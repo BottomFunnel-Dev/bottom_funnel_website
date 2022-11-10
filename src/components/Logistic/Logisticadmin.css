@@ -5,7 +5,7 @@
       /* background-color: aqua; */
     }
     .logicadmin>h1{
-     margin-left: 5%;
+     margin-left: 6.5%;
     }
     .logicadminsub{
         width: 100%;
@@ -26,12 +26,11 @@
     }
     .logicadminright {
         width: 45%;
-        margin-left: 1%;
         height: 100%;
         /* background-color: aqua; */
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        margin: auto;
       }
       
       .logicadminright > div {

@@ -6,6 +6,7 @@
 .Escooterthundersub{
  width: 90%;
 height: 320px;
+padding: 20px;
 margin: auto;
 text-align: center;
 /* background-color: blue; */
@@ -34,6 +35,7 @@ background-size: 100% 320px;
     background-color:  #ffffff;
     display: flex;
     margin: 20px  30px;
+    align-items: center;
     /* background-color: blue; */
 
     text-align: left;
@@ -53,8 +55,8 @@ background-size: 100% 320px;
 }
 .szwhythunder>p{
     font-size: 18px;
+    margin: 0;
     /* background-color: brown; */
-    padding: 10px;
 }
  
  

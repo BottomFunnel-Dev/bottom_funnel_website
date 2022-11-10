@@ -5,7 +5,7 @@ export default function Wellnessconnect() {
     <div className='szwellnessconnect' >
         <div className='szwellnessconnectsub' > 
         <div className='szwellnessconnectcenter' >
-            <div className='szwellnessconnectimage'><img src="Images/wellness/heart.png"/> </div>
+            <div className='szwellnessconnectimage'><img src="Images/Wellness/heart.png"/> </div>
             <h4>Connect with us for a seamless product</h4>
             <button className='szwellnessconnectbtn'> Get Started</button>
         </div>

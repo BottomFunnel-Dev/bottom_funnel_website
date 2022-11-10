@@ -8,15 +8,13 @@
     width: 56%;
     text-align: center;
     margin: auto;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .szpoliticaltoolsub {
     width: 100%;
     margin: auto;
     display: flex;
-    height: 250px;
-    padding: 20px;
     /* background-color: rgb(103, 35, 35); */
     background: url("/public/Images/Politics/darkrectangle.png");
     background-repeat: no-repeat;
@@ -25,7 +23,7 @@
 }
 
 .szpoliticaltoolpara {
-    width: 45%;
+    width: 50%;
     /* padding: 10px 20px; */
     position: absolute;
     transform: translate(-50%, -50%);
@@ -34,6 +32,9 @@
     font-size: 18px;
     left: 50%;
     color: white;
+}
+.szpoliticaltoolpara>p {
+    margin: 0;
 }
 
 .szpoliticalimagesdiv {

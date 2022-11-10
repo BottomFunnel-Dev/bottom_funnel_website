@@ -4,14 +4,13 @@
   /* background-color: aqua; */
 }
 .logiccustomer>h1{
- margin-left: 5%;
+ margin-left: 6%;
 }
 .logiccustomersub{
     width: 100%;
     height: 500px;
     justify-content: space-between;
     margin:auto;
-    margin-top: 2%;
     display: flex;
 }
 .logiccustomerleft{
@@ -28,8 +27,8 @@
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 1%;
-    gap: 10px;
+    margin: auto;
+    margin-top: 30px;
   }
   
   .logiccustomerright > div {

@@ -20,7 +20,7 @@ p {
   font-size: 16px;
 }
 h1 {
-  font-size: 40px;
+  font-size: 37px;
 }
 h2 {
   font-size: 32px;
@@ -37,4 +37,12 @@ h5 {
 }
 h6 {
   font-size: 16px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #393939;
+    background-color: #ffffff;
+  }
+  
 }

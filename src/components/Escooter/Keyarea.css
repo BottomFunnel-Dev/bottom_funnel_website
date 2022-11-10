@@ -1,74 +1,74 @@
-.szkeyareacontainer{
-    width: 100%;
-    height: 550px;
-    /* background-color: aqua; */
+.szkeyareacontainer {
+  width: 100%;
+  height: 550px;
+  /* background-color: aqua; */
 }
-.szkeyareasub{
-    width: 100%;
-    height: 500px;
-     
-    /* background-color: blue; */
-    display: flex;
+.szkeyareasub {
+  width: 100%;
+  height: 500px;
+
+  /* background-color: blue; */
+  display: flex;
 }
-.szkeyarealeft{
-width: 50%;
-/* background-color: brown; */
-position: relative;
+.szkeyarealeft {
+  width: 50%;
+  /* background-color: brown; */
+  position: relative;
 }
-.szkeyarearight{
-width: 50%;
-/* background-color: tan; */
+.szkeyarearight {
+  width: 50%;
+  /* background-color: tan; */
 }
-.szbigtriangle{
-    width: 50%;
-    margin-top: 15%;
-    height: 270px;
-   position: absolute;
+.szbigtriangle {
+  width: 50%;
+  margin-top: 15%;
+  height: 270px;
+  position: absolute;
 }
-.szbigtriangle>img{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+.szbigtriangle > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
-.szkeymap{
-    width: 30%;
-    /* background-color: blue; */
-    height: 480px;
-  
-    margin-left: 15%;
-   position: absolute;
+.szkeymap {
+  width: 30%;
+  /* background-color: blue; */
+  height: 480px;
+
+  margin-left: 15%;
+  position: absolute;
 }
-.szkeymap>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.szkeymap > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-.szkeyscooter{
-    width: 50%;
-    margin-top: 15%;
-    height: 200px;
-   position: absolute;
+.szkeyscooter {
+  width: 50%;
+  margin-top: 15%;
+  height: 200px;
+  position: absolute;
 }
-.szkeyscooter>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.szkeyscooter > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
- 
-.szkeyarealeft>div>ul>li{
-    list-style-type:disc;
-    font-size: 18px;
-    margin-left: 20%;
+
+.szkeyarealeft > div > ul > li {
+  list-style-type: disc;
+  font-size: 18px;
+  margin-left: 36%;
 }
-.szkeyarealeft>div>h2{
-    text-align: center;
-    padding: 10px;
+.szkeyarealeft > div > h2 {
+  text-align: center;
+  padding: 10px;
 }
-.szkeyarealeft>div{
-    width: 100%;
-    padding: 30px 20px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
+.szkeyarealeft > div {
+  width: 100%;
+  padding: 30px 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
 }

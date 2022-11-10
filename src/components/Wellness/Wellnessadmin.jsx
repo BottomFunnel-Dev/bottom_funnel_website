@@ -24,7 +24,7 @@ export default function Wellnessadmin() {
         },
         {
           img: {
-            src: "Images/Wellness/Doctor management.png",
+            src: "Images/Wellness/doctormanage.png",
             alt: "Multiple Payment Option image",
           },
             title: "Doctor management",

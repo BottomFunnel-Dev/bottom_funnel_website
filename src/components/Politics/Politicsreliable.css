@@ -7,7 +7,6 @@
   width: 90%;
   margin: auto;
   display: flex;
-  height: 150px;
   padding: 20px;
   position: relative;
 }
@@ -15,13 +14,9 @@
 .szPoliticalreliablediv {
   /* background-color: coral; */
   width: 70%;
-  padding: 30px 20px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 30%;
-  text-align: left;
+  text-align: center;
   font-size: 18px;
-  left: 37%;
+  margin: auto;
 }
 .szpoliticreliablehead {
   width: 100%;
