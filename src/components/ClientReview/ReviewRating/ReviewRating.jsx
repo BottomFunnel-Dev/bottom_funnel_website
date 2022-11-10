@@ -4,11 +4,9 @@ import "./ReviewRating.css";
 export const ReviewRating = () => {
   return (
     <div className="ReviewRating-main">
-      <div>
+      <div className="RecentRating-content-main">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="30px"
-          height="30px"
           fill="currentColor"
           class="bi bi-calendar-week-fill"
           viewBox="0 0 16 16"
@@ -21,11 +19,9 @@ export const ReviewRating = () => {
           <p>Schedule</p>
         </div>
       </div>
-      <div>
+      <div className="RecentRating-content-main">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="30"
-          height="30"
           fill="currentColor"
           class="bi bi-award-fill"
           viewBox="0 0 16 16"
@@ -39,11 +35,9 @@ export const ReviewRating = () => {
           <p>Quality</p>
         </div>
       </div>
-      <div>
+      <div className="RecentRating-content-main">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="30"
-          height="30"
           fill="currentColor"
           class="bi bi-currency-dollar"
           viewBox="0 0 16 16"
@@ -56,25 +50,17 @@ export const ReviewRating = () => {
           <p>Cost</p>
         </div>
       </div>
-      <div>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="30"
-          height="30"
-          fill="currentColor"
-          class="bi bi-calendar-week-fill"
-          viewBox="0 0 16 16"
-          style={{ borderRight: "2px solid rgb(104, 104, 104)" }}
-        >
-          <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zM9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z" />
-        </svg>
+      <div className="RecentRating-content-main">
+      <svg xmlns="http://www.w3.org/2000/svg" style={{borderRight: "2px solid rgb(104, 104, 104)"}} fill="currentColor" class="bi bi-emoji-smile-fill" viewBox="0 0 16 16">
+  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z"/>
+</svg>
         <div>
           <h3>5/5</h3>
           <p>Willing to Refer</p>
         </div>
       </div>
       <h2>=</h2>
-      <div className="Review-overall-rating">
+      <div className="RecentReview-overall-rating">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"

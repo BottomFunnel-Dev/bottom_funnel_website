@@ -8,55 +8,71 @@
   justify-content: space-evenly;
 }
 
-.ReviewRating-main > div {
+.RecentRating-content-main {
   width: 18%;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  height: fit-content;
 }
 
-.ReviewRating-main > div > svg {
+.RecentRating-content-main > svg {
   padding: 10px;
+  width: 50px;
+  height: 50px;
 }
-.ReviewRating-main > div > div {
+
+.RecentRating-content-main > div {
   padding: 10px;
 }
 
-.ReviewRating-main > div > div > h3 {
+.RecentRating-content-main > div > h3 {
   font-size: 18px;
   margin: auto;
   margin-bottom: 2px;
 }
 
-.ReviewRating-main > div > div > p {
+.RecentRating-content-main > div > p {
   font-size: 16px;
   margin: auto;
   margin-top: 0px;
 }
 
-.Review-overall-rating {
+.RecentReview-overall-rating {
   display: flex;
   align-items: center;
   justify-content: center;
 
   position: relative;
-  width: 90px;
-  height: 90px;
+  width: fit-content;
+  height: fit-content;
 
   border: 1px solid #353535;
   border-radius: 10px;
+  padding: 10px;
 }
 
-.Review-overall-rating > svg {
+.RecentReview-overall-rating > svg {
   border-right: none;
   position: absolute;
-  color: lightgray;
+  color: rgb(223, 220, 220);
   z-index: 1px;
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
 }
 
-.Review-overall-rating > div {
+.RecentReview-overall-rating > div {
   z-index: 2;
   text-align: center;
+}
+
+.RecentReview-overall-rating > div>h3{
+  font-size: 18px;
+  margin: 0px;
+}
+
+.RecentReview-overall-rating > div>p{
+  font-size: 15px;
+  margin-top: 0px;
 }

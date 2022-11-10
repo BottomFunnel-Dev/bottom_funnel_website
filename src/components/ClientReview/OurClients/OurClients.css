@@ -1,5 +1,5 @@
 .OurClients-main {
-  width: 90%;
+  width: 100%;
   margin: auto;
   border-radius: 10px;
   background: #edf2f4;
@@ -13,12 +13,15 @@
   align-items: center;
   justify-content: center;
 }
+.OurClients-main>h1{
+  font-size: 32px;
+}
 
 .OurClients-main > button {
-  padding: 15px 30px;
+  padding: 10px 30px;
   font-size: 18px;
-  font-weight: 700;
-
+  font-weight: 600;
+margin: 10px 0;
   border: none;
   outline: none;
   border-radius: 100px;
