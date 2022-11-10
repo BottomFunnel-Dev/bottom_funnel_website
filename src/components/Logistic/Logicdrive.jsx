@@ -8,19 +8,20 @@ export default function Logicdrive() {
             alt: "Register image",
           },
           icon: {
-            src: "Images/logistic/box.png",
+            src: "Images/logistic/box1.png",
             alt: " Register logo",
           },
           title: "Receive Shipment Request",
          para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
         },
+
         {
           img: {
             src: "Images/logistic/request screen.png",
-            alt: "Schedule",
+            alt: "Schedule",  
           },
           icon: {
-            src: "Images/logistic/Inspection.png",
+            src: "Images/logistic/inspect.png",
             alt: "Schedule logo",
           },
              title: "Accept/Reject Request",
@@ -32,7 +33,7 @@ export default function Logicdrive() {
             alt: "Multiple Payment Option image",
           },
           icon: {
-            src: "Images/logistic/notification.png",
+            src: "Images/logistic/notification1.png",
             alt: "Multiple Payment Option logo",
           },
             title: "Notification",
