@@ -412,12 +412,12 @@ export const ondemand = [
   {
     dropContent: "Pickup & Delivery",
     navIcons: "Images/navbar/industriesImage/pickup.png",
-    path: "",
+    path: "pickup&delivery",
   },
   {
     dropContent: "Pharmacy Delivery App",
     navIcons: "Images/navbar/industriesImage/pharmacy.png",
-    path: "",
+    path: "pharmacy",
   },
   {
     dropContent: "Flower Delivery App",

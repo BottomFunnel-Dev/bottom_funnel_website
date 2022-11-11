@@ -1,15 +1,18 @@
 .Contact-Above-Navbar-Main {
   height: 40px;
+  width: 100%;
   background-color: white;
   display: flex;
   justify-content: center;
+  position: absolute;
+  z-index: 1000;
   align-items: center;
 }
 
 .Contact-Above-Navbar-Main > div {
   width: 80%;
   margin: auto;
-
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;

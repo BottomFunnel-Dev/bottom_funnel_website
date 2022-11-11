@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Logicdrive.css";
 export default function Logicdrive() {
+
+
   let Logisticdrivedata = [
     {
       img: {
@@ -91,4 +93,6 @@ export default function Logicdrive() {
       </div>
     </div>
   );
+
+  
 }
