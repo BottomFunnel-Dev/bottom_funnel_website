@@ -233,7 +233,7 @@ export const ALLroutes = () => {
       <Route path="/client-reviews" element={<ClientReview/>} />
       <Route path="/our-clients" element={<OurClient/>} />
       <Route path="/pickup&delivery" element={<PickupDelivery/>} />
-      <Route path="/pharmacy" element={<Pharmacy/>} />
+      {/* <Route path="/pharmacy" element={<Pharmacy/>} /> */}
 
 
 
