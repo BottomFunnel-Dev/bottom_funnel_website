@@ -42,12 +42,15 @@
 // Phalcon -
 
 export const nodejsData = {
+  title: "Best nodejs developers in the market | Bottom Funnel",
+  description:
+    "When it comes to node.js web development, there is no-one better than Bottom Funnel node.js developers, who develop robust applications and websites that will meet your exact needs.",
   isBanner: true,
   BannerData: {
     image: "Images/nodejsphotos/bsnner.png",
     title: "Node.js Development Services",
     description:
-      "Get the most out of your technology with the help of the best NodeJS development services in the business.",
+      "Get the most out of your technology with the help of the best NodeJS development services in the business. Node.js (Node) is an open-source development platform for executing JavaScript code server-side. Node is useful for developing applications that require a persistent connection from the browser to the server and is often used for real-time applications such as chat, news feeds and web push notifications.",
   },
   isDes: true,
   desData: {
@@ -187,6 +190,9 @@ export const nodejsData = {
 };
 
 export const phpData = {
+  title: "Best PHP developers in the market | Bottom Funnel",
+  description:
+    "Bottom funnel's php web development services are the best way to start your website development journey. Get in touch with the best php developers in the market to develop robust applications and websites that look great. ",
   isBanner: true,
   BannerData: {
     image: "Images/phpskillsphotos/banner.png",
@@ -332,6 +338,9 @@ export const phpData = {
 };
 
 export const DotnetData = {
+  title: "Best .NET developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel gets you the best .NET developers in the market who can develop robust applications and websites using the latest technologies like ASP.net and VB.net on an hourly, part-time and full-time contract basis.",
   isBanner: true,
   BannerData: {
     image: "Images/dotnetphotos/banner.png",
@@ -478,6 +487,9 @@ export const DotnetData = {
 };
 
 export const laravelData = {
+  title: "Best larvels developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced Laravel developers. Our Laravel development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/larvelskillsphotos/banner.png",
@@ -624,6 +636,9 @@ export const laravelData = {
 };
 
 export const djangoData = {
+  title: "Best django developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced django developers. Our django development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/djangoPhotos/banner.png",
@@ -770,6 +785,9 @@ export const djangoData = {
 };
 
 export const cakePHPData = {
+  title: "Best cakePHP developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced cakePHP developers. Our cakePHP development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/cakephpPhotos/banner.png",
@@ -915,6 +933,9 @@ export const cakePHPData = {
 };
 
 export const codeigniterData = {
+  title: "Best codeigniter developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced codeigniter developers. Our codeigniter development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/codeigniterPhotos/banner.png",
@@ -1061,6 +1082,9 @@ export const codeigniterData = {
 };
 
 export const reactjsData = {
+  title: "Best reactjs developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced reactjs developers. Our reactjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/reactjsSkillsPhotos/banner.png",
@@ -1220,12 +1244,14 @@ export const reactjsData = {
 };
 
 export const angularjsData = {
+  title: "Best angolarjs developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced angolarjs developers. Our angolarjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/angularjsSkillsPhotos/banner.png",
     title: "Angularjs Development Services",
-    description: `Speed up your web application development with our top-notch angular.js development
-      services.`,
+    description: `Speed up your web application development with our top-notch angular.js development services.`,
   },
   isDes: true,
   desData: {
@@ -1377,6 +1403,9 @@ export const angularjsData = {
 };
 
 export const vuejsData = {
+  title: "Best vuejs developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced vuejs developers. Our vuejs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/vuejsSkillsPhotos/banner.png",
@@ -1522,6 +1551,9 @@ export const vuejsData = {
 };
 
 export const springBootData = {
+  title: "Best springboot developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced springboot developers. Our springboot development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/springbootSkillsPhotos/banner.png",
@@ -1668,6 +1700,9 @@ export const springBootData = {
 };
 
 export const hiberateData = {
+  title: "Best hibernate developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced hibernate developers. Our hibernate development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/hibernateSkillsPhotos/banner.png",
@@ -1814,6 +1849,9 @@ export const hiberateData = {
 };
 
 export const emberjsData = {
+  title: "Best emberjs developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced emberjs developers. Our emberjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/emberjSkillsPhotos/banner.png",
@@ -1960,6 +1998,9 @@ export const emberjsData = {
 };
 
 export const jqueryData = {
+  title: "Best jquery developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced jquery developers. Our jquery development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/jquerySkillsPhotos/banner.png",
@@ -2106,6 +2147,9 @@ export const jqueryData = {
 };
 
 export const nextjsData = {
+  title: "Best nextjs developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced nextjs developers. Our nextjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/nextjsSkillsPhotos/banner.png",
@@ -2252,6 +2296,9 @@ export const nextjsData = {
 };
 
 export const backbonejsData = {
+  title: "Best backbonejs developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced backbonejs developers. Our backbonejs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/backbonejsSkillsPhotos/banner.png",
@@ -2398,6 +2445,9 @@ export const backbonejsData = {
 };
 
 export const svelteData = {
+  title: "Best svelte developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced svelte developers. Our svelte development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/svelteSkillsPhotos/banner.png",
@@ -2544,6 +2594,9 @@ export const svelteData = {
 };
 
 export const msSQLData = {
+  title: "Best microsoft SQL developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced microsoft SQL developers. Our microsoft SQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/mssqlSKillsPhotos/banner.png",
@@ -2690,6 +2743,9 @@ export const msSQLData = {
 };
 
 export const mongodbData = {
+  title: "Best mongoDB developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced mongoDB developers. Our mongoDB development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/mongodbSkillsPhotos/banner.png",
@@ -2836,6 +2892,9 @@ export const mongodbData = {
 };
 
 export const mysqlData = {
+  title: "Best mySQL developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced mySQL developers. Our mySQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/mysqlSkillsPhotos/banner.png",
@@ -2982,6 +3041,9 @@ export const mysqlData = {
 };
 
 export const postgresqlData = {
+  title: "Best postgreSQL developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced postgreSQL developers. Our postgreSQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/postgresqlSkillsPhotos/banner.png",
@@ -3128,6 +3190,9 @@ export const postgresqlData = {
 };
 
 export const redisData = {
+  title: "Best redis developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced redis developers. Our redis development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/redisSkillsPhotos/banner.png",
@@ -3274,6 +3339,9 @@ export const redisData = {
 };
 
 export const wordpressData = {
+  title: "Best wordpress developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced wordpress developers. Our wordpress development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/wpSkillsPhotos/banner.png",
@@ -3420,6 +3488,9 @@ export const wordpressData = {
 };
 
 export const wixData = {
+  title: "Best wix developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced wix developers. Our wix development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/wixSkillsPhotos/banner.png",
@@ -3566,6 +3637,9 @@ export const wixData = {
 };
 
 export const joomlaData = {
+  title: "Best joomla developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced joomla developers. Our joomla development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/joomlaSkillsPhotos/banner.png",
@@ -3712,6 +3786,9 @@ export const joomlaData = {
 };
 
 export const hubspotData = {
+  title: "Best hubspot developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced hubspot developers. Our hubspot development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/hubSkillsPhotos/banner.png",
@@ -3858,6 +3935,9 @@ export const hubspotData = {
 };
 
 export const wooecommerceData = {
+  title: "Best woo-ecommerce developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced woo-ecommerce developers. Our woo-ecommerce development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/woocommerceSkillsPhotos/banner.png",
@@ -4004,6 +4084,9 @@ export const wooecommerceData = {
 };
 
 export const drupalData = {
+  title: "Best drupal developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced drupal developers. Our drupal development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/drupalSkillsPhotos/banner.png",
@@ -4150,6 +4233,9 @@ export const drupalData = {
 };
 
 export const bigcommerceData = {
+  title: "Best big-commerce developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced big-commerce developers. Our big-commerce development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/bigcommerceSkillsPhotos/banner.png",
@@ -4296,6 +4382,9 @@ export const bigcommerceData = {
 };
 
 export const ibmData = {
+  title: "Best IBM db2 developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced IBM db2 developers. Our IBM db2 development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/ibmSkillsPhotos/banner.png",
@@ -4442,6 +4531,9 @@ export const ibmData = {
 };
 
 export const elasticData = {
+  title: "Best elasticsearch developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced elasticsearch developers. Our elasticsearch development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/elasticSkillsPhotos/banner.png",
@@ -4588,6 +4680,9 @@ export const elasticData = {
 };
 
 export const sqliteData = {
+  title: "Best SQLite developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced SQLite developers. Our SQLite development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/sqliteSkillsPhotos/banner.png",
@@ -4734,6 +4829,9 @@ export const sqliteData = {
 };
 
 export const cassandraData = {
+  title: "Best cassandra developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced cassandra developers. Our cassandra development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/cassandraSkillsPhotos/banner.png",
@@ -4880,6 +4978,9 @@ export const cassandraData = {
 };
 
 export const flaskData = {
+  title: "Best flask developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced flask developers. Our flask development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/flaskSkillsPhotos/banner.png",
@@ -5026,6 +5127,9 @@ export const flaskData = {
 };
 
 export const strutsData = {
+  title: "Best struts developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced struts developers. Our struts development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/strutsSkillsPhotos/banner.png",
@@ -5172,6 +5276,9 @@ export const strutsData = {
 };
 
 export const golangData = {
+  title: "Best golang developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced golang developers. Our golang development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/golangSkillsPhotos/banner.png",
@@ -5318,6 +5425,9 @@ export const golangData = {
 };
 
 export const symfonyData = {
+  title: "Best symfony developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced symfony developers. Our symfony development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/symfonySkillsPhotos/banner.png",
@@ -5464,6 +5574,9 @@ export const symfonyData = {
 };
 
 export const grailsData = {
+  title: "Best grails developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced grails developers. Our grails development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/grailsSkillsPhotos/banner.png",
@@ -5610,6 +5723,9 @@ export const grailsData = {
 };
 
 export const jsfData = {
+  title: "Best jsf developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced jsf developers. Our jsf development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/jsfSkillsPhotos/banner.png",
@@ -5756,6 +5872,9 @@ export const jsfData = {
 };
 
 export const phalconData = {
+  title: "Best phalcon developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced phalcon developers. Our phalcon development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "Images/phalconSkillsPhotos/banner.png",
