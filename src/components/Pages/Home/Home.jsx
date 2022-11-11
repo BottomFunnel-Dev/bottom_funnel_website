@@ -15,13 +15,24 @@ import About from "../../AboutSection/About";
 import MainFooter from "../../FooterSection/MainFooter";
 import OndemandSection from "../../OnDemandSection/OndemandSection";
 import PortFolio from "../../PortFolioSection/PortFolio";
-import {  ParallexSection } from "../../Parallex/ParallexSection";
+import { ParallexSection } from "../../Parallex/ParallexSection";
+import { Helmet } from "react-helmet";
 
 export const HomePage = () => {
   return (
     <div>
+      <Helmet>
+        <title>
+          Bottom Funnel | Global mobile app and web development company
+        </title>
+
+        <meta
+          name="description"
+          content="Bottom Funnel is a leading global mobile app development company in India, US, UAE & UK which offers innovative and customized digital on-demand solutions for cross-platform App and web Development"
+        />
+      </Helmet>
       <Banner />
-     {/* <ParallexSection/> */}
+      {/* <ParallexSection/> */}
 
       <CompanyLogo />
       <About />

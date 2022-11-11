@@ -18,9 +18,12 @@ import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import { TextDropdown } from "../faqSection/Faqs";
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
+import { Helmet } from "react-helmet";
 
 export const SkillsComPage = ({ allData }) => {
   const {
+    title,
+    description,
     isBanner,
     BannerData,
     isDes,
@@ -37,6 +40,10 @@ export const SkillsComPage = ({ allData }) => {
 
   return (
     <div>
+      <Helmet>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+      </Helmet>
       {isBanner ? <SkillsComBanner data={BannerData} /> : null}
       {/* {<SkillsComBannerNav />} */}
       <hr id="skills-hr" />
@@ -45,18 +52,16 @@ export const SkillsComPage = ({ allData }) => {
       {isWhyBF ? <SkillsComWhyBF data={WhyBFData} /> : null}
       {isBookCall ? <SkillsComBookCall data={BookCallData} /> : null}
       {isRemarkable ? <SkillsComRemarkable data={RemarkableData} /> : null}
-      <StoriesSection/>
-      <Industries/>
-      <OndemandSection/>
-      <PortFolio/>
-      <PlanProject/>
-      <SeoblogSection/>
-      <Revamping/>
-      <TextDropdown/>
-      <ContectForm/>
-      <MainFooter/>
-
-
+      <StoriesSection />
+      <Industries />
+      <OndemandSection />
+      <PortFolio />
+      <PlanProject />
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
     </div>
   );
 };
