@@ -2751,14 +2751,14 @@ export const mongodbData = {
     image: "Images/mongodbSkillsPhotos/banner.png",
     title: "MongoDB Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "MongoDB is a powerful database that's a favorite among developers. This flexible schema approach makes it popular with teams using agile methodologies.",
   },
   isDes: true,
   desData: {
     title: "MongoDB",
     image: "Images/mongodbSkillsPhotos/mongodb.png",
     description:
-      "MongoDB is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "MongoDB is a database that's used by developers worldwide. It's flexible, scalable and easy to use. With its drivers for programming languages, you can start building your app right away without spending time on installing the database. And with its support in agile methodologies like Agile SDLC, it's even more popular today than before!",
   },
   isWhyApp: true,
   WhyAppData: {
@@ -2772,7 +2772,7 @@ export const mongodbData = {
         title: "Cloud based",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "With mongodb, you can store and query data quickly and with minimal hardware requirements. As a cloud database, it offers scalable storage and real-time updates. Plus, it's easy to install and maintain.",
       },
       {
         img: {
@@ -2781,7 +2781,7 @@ export const mongodbData = {
         },
         title: "Flexible document schemas",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Mongodb is a no-SQL database that stores JSON documents and supports document schemas. It's flexible document schemas make it easy to organize your data in whatever way makes sense for you.",
       },
       {
         img: {
@@ -2790,7 +2790,7 @@ export const mongodbData = {
         },
         title: "Widely supported and code native access",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "mongodb is a widely-adopted and code-native access to MongoDB. With more than 20 years of experience under its belt, it's no wonder that mongodb is the choice of many enterprises looking for scalable and reliable database software.",
       },
       {
         img: {
@@ -3049,14 +3049,16 @@ export const postgresqlData = {
     image: "Images/postgresqlSkillsPhotos/banner.png",
     title: "PostgreSQL Development Services",
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Do you have a lot of data and need an easy way to manage it? | PostgreSQL is the perfect choice for you.",
   },
   isDes: true,
   desData: {
     title: "PostgreSQL",
     image: "Images/postgresqlSkillsPhotos/postgresql-logo.png",
     description:
-      "PostgreSQL is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      `Companies worldwide are turning to PostgreSQL as a powerful, open source database system with over 35 years of active development. With a reputation for stability and reliability, PostgreSQL has earned its place as one of the most trusted database systems in the industry.
+      PostgreSQL offers an unmatched level of functionality and extensibility, making it an ideal choice for any enterprise looking to modernize their data infrastructure. Plus, thanks to its commitment to community development, you're always getting new features and bug fixes that make your app more efficient and reliable.
+      `,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -3067,55 +3069,55 @@ export const postgresqlData = {
           src: "Images/postgresqlSkillsPhotos/dumble.png",
           alt: "Robust feature set logo",
         },
-        title: "Robust feature set",
+        title: "Data types and Data Integrity",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          "PostgreSQL is a leading database that supports all necessary data types, making sure your information stays safe and sound. In addition to that, it's easy to set up and use, so you'll have no problem getting started. Plus, its support for JSON makes it perfect for modern web applications.",
       },
       {
         img: {
           src: "Images/postgresqlSkillsPhotos/oops.png",
           alt: "Object-oriented database features logo",
         },
-        title: "Object-oriented database features",
+        title: "Performance",
         description:
-          "The .Net framework makes XML web application development easy and efficient by providing powerful tools for development, data binding, validation, routing, security, and more. it creates compatible, safe and robust applications.",
+          "Don't let your database lag behind in performance! PostgreSQL is one of the most powerful and scalable databases, with advanced features like parallelization of read queries, powerful indexing methods, and multiversion concurrency control.",
       },
       {
         img: {
           src: "Images/postgresqlSkillsPhotos/sql-docs.png",
           alt: "SQL standards conformance logo",
         },
-        title: "SQL standards conformance",
+        title: "Disaster Recovery & Reliability",
         description:
-          "CMS web application development provides you with the latest and most robust technologies so that your applications run effectively and securely to manage the content in the most effective way.",
+          "PostgreSQL is a reliable database that can be used in the most demanding situations. You can use its advanced replication features to ensure that your data are always safely stored. And with regular backups, you can always recover them if there's a problem.",
       },
       {
         img: {
           src: "Images/postgresqlSkillsPhotos/recycle.png",
           alt: "ACID compliance logo",
         },
-        title: "ACID compliance",
+        title: "Extensibility",
         description:
-          "E-commerce web application development using .NET can provide you with industry-standard solutions that will secure your online shopping and protect your data. It makes the application convenient and easy to use.",
+          "Postrgesql is an open source PostgreSQL database that allows you to store and retrieve a variety of types of data. With this database, you no longer have to limit yourself to certain types of documents. The database offers you a wide selection of data types for your disposal.",
       },
       {
         img: {
           src: "Images/postgresqlSkillsPhotos/user-database.png",
           alt: "Diverse indexing techniques logo",
         },
-        title: "Diverse indexing techniques",
+        title: "Internationalization & Text Search",
         description:
-          "By using .NET for shopping cart web application development, you will have a custom designed shopping cart that that is user-friendly and dynamic with wide range of features such as product management, currecy conversion, etc.",
+          "Postgres is a wonder database that stands at the top of the heap when it comes to its popularity and fame. This is because of its ability to support international character sets, full-text search capabilities as well as case-insensitive and accent-insensitive collations. So, what are you waiting for? Go ahead and try out Postgres!",
       },
       {
         img: {
           src: "Images/postgresqlSkillsPhotos/light-setting.png",
           alt: "Diverse indexing techniques logo",
         },
-        title: "Diverse indexing techniques",
+        title: "Support of non-relational data",
         description:
-          "Microsoft SQL is a web-based database used to store and search for data from websites. It operates best with .NET sites and provides an interactive analysis of users' profiles that are updates at all.",
+          "Postgres offers support for JSON, XML, Hstore and Cstore documents, making it possible for you to store unstructured data in your database without sacrificing performance or scalability. In short, It is the way forward when it comes to post-relational databases.",
       },
     ],
   },

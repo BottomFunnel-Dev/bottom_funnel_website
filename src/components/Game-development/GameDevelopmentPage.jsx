@@ -1,4 +1,6 @@
 import React from "react";
+import ContectForm from "../ContectForm/ContectForm";
+import MainFooter from "../FooterSection/MainFooter";
 import { GameDevBanner } from "./GameDevBanner/GameDevBanner";
 import { GameDevBookCall } from "./GameDevBookCall/GameDevBookCall";
 import { GameDevDescription } from "./GameDevDescription/GameDevDescription";
@@ -21,6 +23,9 @@ export const GameDevelopmentPage = () => {
       <GameDevSolutions />
       <div className="banner-bottom-space"></div>
       <GameDevBookCall />
+
+      <ContectForm/>
+      <MainFooter/>
     </div>
   );
 };

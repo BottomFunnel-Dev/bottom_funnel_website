@@ -2,16 +2,20 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 70px;
+
 }
 
 .OurClientBanner-content {
   width: 45%;
   text-align: center;
-}
+} 
 
 .OurClientBanner-content > h1 {
   font-size: 35px;
   margin: auto;
+  text-align: left;
+  margin-left: 67px;
 }
 
 .OurClientBanner-content > p {

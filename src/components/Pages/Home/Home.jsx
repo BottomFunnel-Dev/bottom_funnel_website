@@ -32,7 +32,6 @@ export const HomePage = () => {
         />
       </Helmet>
       <Banner />
-      {/* <ParallexSection/> */}
 
       <CompanyLogo />
       <About />

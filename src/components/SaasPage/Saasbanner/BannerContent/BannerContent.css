@@ -40,11 +40,11 @@
 .saas-banner-content > button {
   font-size: 18px;
   padding: 10px 30px;
-  border-radius: 20px;
+  border-radius: 25px;
   outline: none;
   border: none;
   color: white;
-  background-color: #5490ff;
+  background-color: #ef4c23;
   align-self: flex-start;
   margin-left: 5%;
 
@@ -55,6 +55,6 @@
 
 .saas-banner-content > button:hover {
   background-color: white;
-  color: #5490ff;
-  font-weight: bolder;
+  color: #ef4c23;
+  /* font-weight: bolder; */
 }

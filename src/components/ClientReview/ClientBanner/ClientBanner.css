@@ -1,5 +1,6 @@
 .ClientBanner-main {
   height: 100vh;
+  margin-top: 70px;
 
   display: flex;
   align-items: center;

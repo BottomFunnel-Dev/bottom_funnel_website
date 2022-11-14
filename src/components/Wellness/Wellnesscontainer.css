@@ -1,6 +1,6 @@
 .szwellnesscontainer{
   width: 100%;
-  margin-top: 7%;
+  margin-top: 8%;
   height:550px;
   /* background-color: rgb(108, 10, 87); */
 }
@@ -16,7 +16,7 @@
 width: 50%;
 position: relative;
 /* background-color: rgb(2, 2, 41); */
-height: 500px;
+height: 550px;
 background: url("/public/Images/Wellness/Rectangletop.png");
 background-repeat: no-repeat;
 background-size: 100% 400px;
