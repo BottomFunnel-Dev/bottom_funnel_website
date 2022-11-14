@@ -190,7 +190,7 @@ export const NavbarMain = () => {
           onMouseEnter={homeHoverIn}
           onMouseLeave={homeHoverOut}
           className="aboutNavVisible"
-          style={{ top: scroll ? "75px" : "88px" }}
+          style={{ top: scroll ? "75px" : "110px" }}
         >
           <div className="aboutDropdownSection">
             <div className="aboutDropdownContent">

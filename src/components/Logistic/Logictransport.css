@@ -30,6 +30,8 @@
     display: flex;
     /* background-color: crimson; */
     flex-wrap: wrap;
+    margin-bottom: 60px;
+    margin-top: 20px;
 }
 .sztransportbottom{
     width: 90%;
@@ -41,14 +43,14 @@
 }
 .szship{
     width: 30%;
-    height: 200px;
+    height: 270px;
     border-radius: 18px;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 10px;
+    padding: 15px;
     margin: auto;
     /* margin: auto; */
-    margin-top: 2%;
+    margin-bottom: 60px;
 }
 .szshipping{
     display: flex;

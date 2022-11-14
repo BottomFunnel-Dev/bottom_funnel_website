@@ -13,7 +13,7 @@ export default function Logiccustomer() {
         alt: " Register logo",
       },
       title: "Registration",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Get a head start on your logistics and transportation business with this great, easy-to-use website.",
     },
     {
       img: {
@@ -25,7 +25,7 @@ export default function Logiccustomer() {
         alt: "Schedule logo",
       },
       title: "Schedule Trip",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Schedule Trip helps you set up an appointment with them and keep track on where your product is moving from.",
     },
     {
       img: {
@@ -37,7 +37,7 @@ export default function Logiccustomer() {
         alt: "Multiple Payment Option logo",
       },
       title: "Multiple Payment Option",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "With multiple payment options, your website will be updated regularly without any disruptions.",
     },
 
     {
@@ -50,7 +50,7 @@ export default function Logiccustomer() {
         alt: "Track Order logo",
       },
       title: "Track Order",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "From shipping services to vehicle tracking and parcel delivery, we have everything you need in one place.",
     },
   ];
 
@@ -60,7 +60,7 @@ export default function Logiccustomer() {
       <h1>Customer app</h1>
       <div className="logiccustomersub">
         <div className="logiccustomerright">
-          {Logisticcustomerdata.map(({ title, icon }, idx) => {
+          {Logisticcustomerdata.map(({ title, icon, para }, idx) => {
             return (
               <div
                 key={title}
@@ -71,10 +71,7 @@ export default function Logiccustomer() {
                   <img src={icon.src} alt={icon.alt} />
                 </div>
                 <h3>{title}</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
-                  quis eum ev
-                </p>
+                <p>{para}</p>
               </div>
             );
           })}
