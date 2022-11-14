@@ -12,10 +12,13 @@ export default function Logisticwhy() {
           </h2>
           {/* <h2>Software Devlopment Services We Offer</h2> */}
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
-            dicta reiciendis odit nostrum! Dolorum, obcaecati similique at
-            officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos
-            quidem, quaerat odit accusantium.
+            Get a head start on your logistics and transportation business with
+            this great, easy-to-use website. It's fast and powerful, so you can
+            get up and running in no time. And with it comes all the features
+            you need to run your business efficiently. Your customers will love
+            that you have an app for their convenience as well! Upgrade to our
+            comprehensive package today, and let us take care of everything else
+            while you focus on growing your business!
           </p>
         </div>
 
@@ -58,7 +61,10 @@ export default function Logisticwhy() {
               <h5> Round-the-clock support </h5>
             </div>
             <p>
-            We use state-of-the-art software and hardware to ensure high availability of service at all times. From automated tracking systems to GPS navigation tools, we have everything you need to run your business smoothly.
+              We use state-of-the-art software and hardware to ensure high
+              availability of service at all times. From automated tracking
+              systems to GPS navigation tools, we have everything you need to
+              run your business smoothly.
             </p>
           </div>
 
@@ -70,7 +76,10 @@ export default function Logisticwhy() {
               <h5> Quality development </h5>
             </div>
             <p>
-            Quality development is what you get with us. Our engineers have a deep understanding of the logistics and transportation industry, allowing us to build quality websites that will be easy for your users to navigate.
+              Quality development is what you get with us. Our engineers have a
+              deep understanding of the logistics and transportation industry,
+              allowing us to build quality websites that will be easy for your
+              users to navigate.
             </p>
           </div>
         </div>
