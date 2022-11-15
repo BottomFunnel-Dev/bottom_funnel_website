@@ -6,7 +6,7 @@ export const ClientBanner = () => {
     <div className="OurClientBanner-main">
       <div className="OurClientBanner-content">
         <h1>Our Client</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam esse quidem, sunt, explicabo unde debitis est modi minima neque sit nihil saepe nesciunt officiis ut nam? Dicta esse quia exercitationem illum at rerum pariatur iure nesciunt quas dolore. Quae error nulla aperiam cum nisi, blanditiis dolor numquam perspiciatis laborum accusamus!</p>
+        <p>Our Client related 2 or 3 line</p>
       </div>
       <div className="OurClientBanner-image">
         <img

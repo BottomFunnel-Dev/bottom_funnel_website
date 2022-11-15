@@ -1,0 +1,21 @@
+.AboutUS-main > h2 {
+  width: fit-content;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.AboutUS-main > h2:hover {
+  color: #ef4c34;
+}
+
+.AboutUS-main > h2 > svg {
+  transition: all 0.5s linear;
+}
+
+.AboutUS-main > h2:hover svg {
+  transform: translateX(50%);
+}

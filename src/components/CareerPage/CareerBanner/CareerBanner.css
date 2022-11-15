@@ -1,0 +1,31 @@
+.Career-banner-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 100vh;
+}
+
+.Career-banner-image {
+  width: 50%;
+  height: 100%;
+}
+
+.Career-banner-image > img {
+  width: 100%;
+}
+
+.Career-banner-content {
+  width: 40%;
+}
+
+.Career-banner-content > h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.Career-banner-content > p {
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 5px;
+}

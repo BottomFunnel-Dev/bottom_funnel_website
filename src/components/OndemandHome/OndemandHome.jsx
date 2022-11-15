@@ -15,11 +15,13 @@ import Portfolio from "../PortFolioSection/PortFolio";
 import Revamping from "../revamping/Revamping";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
-
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
+import { homesolutionsLogo } from "../../Data/SeopartnerData";
 const OndemandHome = () => {
   return (
     <div>
       <OndemandHero />
+      <Trusted partnerLogo={homesolutionsLogo}/>
       <OndemandQuote />
       <HomeServices />
       <ExclusiveFeature />

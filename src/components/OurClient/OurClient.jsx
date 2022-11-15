@@ -1,14 +1,4 @@
 import React from "react";
-import ContectForm from "../ContectForm/ContectForm";
-import { TextDropdown } from "../faqSection/Faqs";
-import MainFooter from "../FooterSection/MainFooter";
-import { Industries } from "../industries/Industries";
-import OndemandSection from "../OnDemandSection/OndemandSection";
-import PlanProject from "../PlanProject/PlanProject";
-import PortFolio from "../PortFolioSection/PortFolio";
-import Revamping from "../revamping/Revamping";
-import { SeoblogSection } from "../SeoBlogs/Seoblogs";
-import StoriesSection from "../StoriesSection/StoriesSection";
 import { ClientBanner } from "./ClientBanner/ClientBanner";
 import { ClientEmpower } from "./ClientEmpower/ClientEmpower";
 import { ClientTrust } from "./ClientTrust/ClientTrust";
@@ -132,17 +122,6 @@ export const OurClient = () => {
       <OurClientbrand data={startupdata} />
       <OurClientbrand data={enterprisedata} />
       <ClientTrust />
-
-      <StoriesSection />
-      <Industries />
-      <Revamping />
-      <OndemandSection />
-      <PortFolio />
-      <SeoblogSection />
-      <PlanProject />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
     </div>
   );
 };

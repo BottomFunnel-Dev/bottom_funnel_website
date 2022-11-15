@@ -8,10 +8,7 @@ export const BannerContent = () => {
         <h1>SaaS App Development</h1>
         <div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
-            voluptatem ipsum! Autem nulla facilis reiciendis quidem, illum iste
-            adipisci vero nam vel eligendi enim quo, fugit ea? Voluptatem,
-            dolores doloribus?
+          Oops! Your website isn't working properly these days. We know that you're concerned and we understand your need for quality service. That's why we offer saas development services to help you improve the performance of your website. We have years of experience in this field, so rest assured that we'll deliver an effective solution that will boost your online presence.
           </p>
         </div>
         <button>Request a proposal</button>

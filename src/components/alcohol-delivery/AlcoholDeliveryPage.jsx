@@ -14,11 +14,13 @@ import { AlcoholBookCall } from "./AlcoholBookCall/AlcoholBookCall";
 import "./AlcoholDeliveryPage.css";
 import { AlcoholSolutions } from "./AlcoholSolutions/AlcoholSolutions";
 import { AlcoholSuggestions } from "./AlcoholSuggestions/AlcoholSuggestions";
-
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
+import { alcoholLogo } from "../../Data/SeopartnerData";
 export const AlcoholDeliveryPage = () => {
   return (
     <div>
       <AlcoholBanner />
+      <Trusted partnerLogo={alcoholLogo} />
       <AlcoholBookCall />
       <AlcoholSuggestions />
       <AlcoholSolutions />

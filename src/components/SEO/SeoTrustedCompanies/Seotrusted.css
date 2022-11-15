@@ -3,16 +3,12 @@
   padding: 50px 0;
 }
 ._SeoTrustedCarousel {
-  /* border:2px solid forestgreen; */
   width: 68%;
   text-align: center;
   margin: auto;
 }
-/* ._SeoTrustedCarousel:hover{
-    background-color: #F5831F;
-} */
+
 ._SeoTrustedtext {
-  /* border: 1px solid navy; */
   width: 30%;
   color: white;
   font-size: 32px;
@@ -24,7 +20,7 @@
   position: relative;
 }
 .globalbrands {
-    width: 100%;
+  width: 100%;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -33,10 +29,24 @@
 ._Seobrandimg {
   /* border: 1px solid black; */
   height: 100px;
-  width: 50px;
+  width: 147px;
+  position: relative;
+  
 }
 ._Seobrandimg > img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 70%;
+  object-fit: contain;
   filter: grayscale(1);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+
+.mainlogoDiv{
+  /* width: 200px; */
+  height: 100px;
+  /* background-color: green; */
 }

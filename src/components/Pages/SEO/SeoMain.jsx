@@ -12,6 +12,7 @@ import StoriesSection from "../../StoriesSection/StoriesSection";
 import ContectForm from "../../ContectForm/ContectForm";
 import MainFooter from "../../FooterSection/MainFooter";
 import SeoServices from "../../SEO/SeoServices/SeoServices";
+import { partnerData } from "../../../Data/SeopartnerData";
 
 const SeoMain = () => {
   return (
@@ -20,7 +21,7 @@ const SeoMain = () => {
       <Seostats />
       <Reviews />
       {/* <Seotrusted /> */}
-      <Trusted />
+      <Trusted partnerLogo={partnerData}  />
       <EnquiryNow />
       <SeoServices />
       <StoriesSection />

@@ -17,12 +17,15 @@ import { FoodDeliveryExluciveApp } from "./FoodDeliveryExluciveApp";
 import { FoodDeliveryNeedSuccess } from "./FoodDeliveryNeedSuccess";
 import "./FoodDeliveryPage.css";
 import { FoodDeliveryPartnerApp } from "./FoodDeliveryPartnerApp";
+import { fooddeliveryLogo } from "../../Data/SeopartnerData";
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 
 export const FoodDelivery = () => {
   return (
     <div>
       {<FoodDeliveryBanner />}
       {/* <div className="food-delivery-content"> */}
+<Trusted partnerLogo={fooddeliveryLogo}/>
       {<FoodDeliveryBookCall />}
       {<FoodDeliveryExluciveApp />}
 

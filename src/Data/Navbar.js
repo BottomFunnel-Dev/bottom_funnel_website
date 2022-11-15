@@ -2,7 +2,7 @@ export const company = [
   {
     dropContent: "About Us",
     navIcons: "Images/navbar/aboutImage/aboutus.png",
-    path: "",
+    path: "about-us",
   },
   {
     dropContent: "Our Team",
@@ -12,12 +12,12 @@ export const company = [
   {
     dropContent: "Career ",
     navIcons: "Images/navbar/aboutImage/career.png",
-    path: "",
+    path: "career",
   },
   {
     dropContent: "Contact Us",
     navIcons: "Images/navbar/aboutImage/contactus.png",
-    path: "",
+    path: "contact-us",
   },
 ];
 

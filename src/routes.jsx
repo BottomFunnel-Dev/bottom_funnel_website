@@ -86,6 +86,9 @@ import { ClientReview } from "./components/ClientReview/ClientReview";
 import { OurClient } from "./components/OurClient/OurClient";
 import { PickupDelivery } from "./components/PickupDelivery/PickupDelivery";
 import Pharmacy from "./components/Pharmacy/Pharmacy";
+import { AboutUS } from "./components/aboutUsPage/AboutUS";
+import { ContactUS } from "./components/ContactUS/ContactUS";
+import { CareerPage } from "./components/CareerPage/CareerPage";
 
 export const ALLroutes = () => {
   return (
@@ -233,7 +236,11 @@ export const ALLroutes = () => {
       <Route path="/client-reviews" element={<ClientReview/>} />
       <Route path="/our-clients" element={<OurClient/>} />
       <Route path="/pickup&delivery" element={<PickupDelivery/>} />
+      <Route path="/about-us" element={<AboutUS/>} />
+      <Route path="/contact-us" element={<ContactUS/>} />
+      <Route path="/career" element={<CareerPage/>} />
       {/* <Route path="/pharmacy" element={<Pharmacy/>} /> */}
+      
 
 
 

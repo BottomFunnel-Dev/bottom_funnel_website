@@ -1,0 +1,72 @@
+.about-us-ourprocess {
+  padding: 50px 10px 50px 10px;
+  background-color: #ffd5d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourprocess-image {
+  width: 40%;
+  height: fit-content;
+  text-align: center;
+}
+
+.ourprocess-image > img {
+  width: 83%;
+}
+
+.ourprocess-content {
+  width: 50%;
+}
+
+.ourprocess-content > h1 {
+  font-size: 32px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.ourprocess-content > p {
+  font-size: 16px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.ourprocess-content > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourprocess-icons {
+  width: fit-content;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourprocess-icons > svg {
+  width: 40px;
+}
+
+.onprocess-text {
+  width: 90%;
+}
+
+.onprocess-text > h3 {
+  font-size: 18px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.onprocess-text > p {
+  font-size: 15px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}

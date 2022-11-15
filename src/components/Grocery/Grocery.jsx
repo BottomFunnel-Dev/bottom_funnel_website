@@ -7,16 +7,19 @@ import OndemandSection from '../OnDemandSection/OndemandSection'
 import PlanProject from '../PlanProject/PlanProject'
 import PortFolio from '../PortFolioSection/PortFolio'
 import Revamping from '../revamping/Revamping'
+import Trusted from '../SEO/SeoTrustedCompanies/Seotrusted'
 import { SeoblogSection } from '../SeoBlogs/Seoblogs'
 import StoriesSection from '../StoriesSection/StoriesSection'
 import DeliveryServices from './DeliveryServices'
 import GroceryBanner from './GroceryBanner'
 import GroceryFeatures from './GroceryFeatures'
+import { groceryLogo } from '../../Data/SeopartnerData'
 
 const Grocery = () => {
   return (
     <div>
       <GroceryBanner/>
+      <Trusted  partnerLogo={groceryLogo} />
       <DeliveryServices/>
       <GroceryFeatures/>
       <StoriesSection/>

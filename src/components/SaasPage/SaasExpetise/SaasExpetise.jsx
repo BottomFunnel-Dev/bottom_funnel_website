@@ -8,17 +8,11 @@ export const SaasExpetise = () => {
       <div>
         <p>
           <strong>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
-            quia inventore architecto reprehenderit libero dolorum, voluptas
-            cumque nobis iure quam possimus ipsum nihil labore soluta vero autem
-            aut distinctio eum.
+          Bottom funnel is an advanced SaaS enterprise software that enables businesses to harness the power of cloud-based intelligence to grow faster and smarter. With our cutting-edge solutions, you can streamline your processes, innovate your business model, and scale your app without any limitations.
           </strong>
           <br />
           <br />
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio aut,
-          numquam atque, quod corrupti quaerat dolore hic perspiciatis nostrum
-          deserunt commodi, accusamus labore corporis laudantium voluptatibus
-          officiis harum pariatur nisi.
+          From customer engagement to CRM, marketing automation to inventory management, we've got you covered with a wide range of powerful tools that will help you unlock new growth opportunities. Our expert team is dedicated to delivering world-class customer experience and support so that you can focus on growing your business.
         </p>
       </div>
     </div>
