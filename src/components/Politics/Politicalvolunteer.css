@@ -1,23 +1,25 @@
 .volunteerdiv {
   width: 100%;
   /* background-color: aqua; */
-  height: 750px;
+  /* height: 7px; */
 }
 .volunteersub {
   width: 92%;
   margin: auto;
   /* display: flex; */
-  height: 700px;
+  /* height: 700px; */
   /* background-color: chartreuse; */
 }
 .szvolunteer {
   width: 50%;
-  height: 85px;
   /* background-color: rgb(12, 71, 71); */
   display: flex;
+  /* align-items: center; */
+  gap: 15px;
+  margin: 30px 0;
 }
 .szvolunteerimage {
-  width: 55px;
+  width: 8%;
   height: 55px;
 }
 .szvolunteerimage > img {
@@ -25,7 +27,8 @@
   height: 100%;
 }
 .volunteerhead {
-  margin: 3%;
+  /* margin: 3%; */
+  width: 90%;
 }
 .volenterpara {
   width: 50%;

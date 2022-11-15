@@ -1,11 +1,11 @@
  
     .logicadmin{
       width: 100%;
-      height: 600px;
+      height: 640px;
       /* background-color: aqua; */
     }
     .logicadmin>h1{
-     margin-left: 6.5%;
+     margin-left: 5%;
     }
     .logicadminsub{
         width: 100%;
@@ -14,9 +14,10 @@
         margin:auto;
         margin-top: 2%;
         display: flex;
+        flex-wrap: wrap;
     }
     .logicadminleft{
-        width: 50%;
+        width: 45%;
         height: 500px;
         /* padding: 10px; */
         display: flex;
@@ -31,14 +32,13 @@
         display: flex;
         flex-wrap: wrap;
         margin: auto;
+        gap: 20px;
       }
       
       .logicadminright > div {
         padding: 10px 10px 10px 10px;
-        gap: 10px;
-        margin-left: 8%;
-        height: 200px;
-        width: 35%;
+        height: 250px;
+        width: 45%;
         border-radius: 18px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         border-radius: 10px;

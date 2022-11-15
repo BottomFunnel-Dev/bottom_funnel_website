@@ -13,7 +13,7 @@ export default function Logisticadmin() {
             alt: " Register logo",
           },
           title: "Dashboard",
-         para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+         para:"All your logistics and transportation data in one place? That's what Unique Logistics is offering. We've built a dashboard to make it easy for you to see all your data at a glance, so you can stay on top of your business.",
         },
         {
           img: {
@@ -25,7 +25,7 @@ export default function Logisticadmin() {
             alt: "Schedule logo",
           },
              title: "Assets",
-             para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+             para:"Our logistics and transportation web development services are reliable, fast, and easy to work with. Our team of professionals will take care of everything for you so that you can focus on more important things in your life.",
         },
         {
           img: {
@@ -37,7 +37,7 @@ export default function Logisticadmin() {
             alt: "Multiple Payment Option logo",
           },
             title: "History",
-             para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+             para:"Our team has years of experience in web development, marketing strategies, and more. We know what it takes to build a successful business online, so let us help you take your company forward!",
        
          },
         {
@@ -50,7 +50,7 @@ export default function Logisticadmin() {
             alt: "Track Order logo",
           },
           title: "Tracking",
-          para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+          para:"We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
         },
         
       ];
@@ -66,7 +66,7 @@ export default function Logisticadmin() {
             <div className='logicadminright'>
 
             
-{Logisticadmindata.map(({ title, icon }, idx) => {
+{Logisticadmindata.map(({ title, icon ,para}, idx) => {
   return (
    
     <div
@@ -81,7 +81,7 @@ export default function Logisticadmin() {
       <h3>{title}</h3>
        
     
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev</p>
+      <p>{para}</p>
       </div>
   
 

@@ -13,7 +13,7 @@ export default function Logiccustomer() {
         alt: " Register logo",
       },
       title: "Registration",
-      para: "Get a head start on your logistics and transportation business with this great, easy-to-use website.",
+      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
     },
     {
       img: {
@@ -25,7 +25,7 @@ export default function Logiccustomer() {
         alt: "Schedule logo",
       },
       title: "Schedule Trip",
-      para: "Schedule Trip helps you set up an appointment with them and keep track on where your product is moving from.",
+      para: "Scheduling your next trip with Schedule. Just set up an appointment, and the logistics team will keep track of where your product is moving from. Whether it's a local drop-off or getting picked up curbside, we've got you covered.",
     },
     {
       img: {
@@ -37,7 +37,7 @@ export default function Logiccustomer() {
         alt: "Multiple Payment Option logo",
       },
       title: "Multiple Payment Option",
-      para: "With multiple payment options, your website will be updated regularly without any disruptions.",
+      para: "We offer multiple payment options that are safe and secure. With our platform, you can effortlessly add payments to your online shopping cart without worrying about credit card fraud or identity theft.",
     },
 
     {
@@ -50,7 +50,7 @@ export default function Logiccustomer() {
         alt: "Track Order logo",
       },
       title: "Track Order",
-      para: "From shipping services to vehicle tracking and parcel delivery, we have everything you need in one place.",
+      para: "Track Order is the web development platform that gives you access to all of the shipping services available today. You can choose how you want your packages to be delivered, and whether you want it on a truck or with UPS.",
     },
   ];
 

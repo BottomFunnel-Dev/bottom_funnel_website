@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./Logicdrive.css";
 export default function Logicdrive() {
-
-
   let Logisticdrivedata = [
     {
       img: {
@@ -14,7 +12,7 @@ export default function Logicdrive() {
         alt: " Register logo",
       },
       title: "Receive Shipment Request",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "we've come up with a solution that saves you time and money. With our web app, you can manage your shipments from anywhere in the world on your mobile device or laptop.",
     },
 
     {
@@ -27,7 +25,7 @@ export default function Logicdrive() {
         alt: "Schedule logo",
       },
       title: "Accept/Reject Request",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "With our software, you will feel confident that every shipment or pickup is being made on time, according to plan, and that each customer is receiving the exact service he or she expects from you.",
     },
     {
       img: {
@@ -39,7 +37,7 @@ export default function Logicdrive() {
         alt: "Multiple Payment Option logo",
       },
       title: "Notification",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Our web development team has been in the industry for years now, so they know what it takes to deliver quality work on time. We offer services such as website design, SEO optimization, and content generation as well.",
     },
     {
       img: {
@@ -51,7 +49,7 @@ export default function Logicdrive() {
         alt: "Track Order logo",
       },
       title: "Navigation",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "With the help of extensive experience in logistics and transportation web development. Our powerful navigation smoothly directs users to all the relevant information regarding your company's services or products.",
     },
   ];
 
@@ -70,7 +68,7 @@ export default function Logicdrive() {
         </div>
 
         <div className="logicdriveright">
-          {Logisticdrivedata.map(({ title, icon }, idx) => {
+          {Logisticdrivedata.map(({ title, icon, para }, idx) => {
             return (
               <div
                 key={title}
@@ -83,8 +81,7 @@ export default function Logicdrive() {
                 <h3>{title}</h3>
 
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
-                  quis eum ev
+                  {para}
                 </p>
               </div>
             );
@@ -93,6 +90,4 @@ export default function Logicdrive() {
       </div>
     </div>
   );
-
-  
 }

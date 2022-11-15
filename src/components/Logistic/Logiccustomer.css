@@ -4,7 +4,7 @@
   /* background-color: aqua; */
 }
 .logiccustomer>h1{
- margin-left: 6%;
+ margin-left: 4%;
 }
 .logiccustomersub{
     width: 100%;
@@ -29,14 +29,14 @@
     flex-wrap: wrap;
     margin: auto;
     margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
   }
   
   .logiccustomerright > div {
     padding: 10px 10px 10px 10px;
-    gap: 10px;
-    margin-left: 8%;
-    height: 200px;
-    width: 35%;
+    height: 250px;
+    width: 45%;
     border-radius: 18px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;

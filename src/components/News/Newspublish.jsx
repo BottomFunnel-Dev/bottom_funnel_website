@@ -6,37 +6,37 @@ export default function Newspublish() {
     {
       img: "Images/News/target.png",
       h4: "Heavy personalization",
-      p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem iste praesentium eligendi officiis. Est quia dolor rerum eligendi unde sunt voluptas quo cumque. Nemo aspernatur omnis expedita impedit quaerat!",
+      p: "We let you create unique content for your website or social media page in no time! We offer personalization features like data mining where you can personalize content according to your visitors' interests so they stay engaged on your website easily.",
     },
     {
       img: "Images/News/network.png",
       h4: "Social media integration",
-      p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem iste praesentium eligendi officiis. Est quia dolor rerum eligendi unde sunt voluptas quo cumque. Nemo aspernatur omnis expedita impedit quaerat!",
+      p: "We have years of experience designing websites and blogs that are not only functional but also aesthetically pleasing, keeping in mind their target audience. With an eye for detail, we ensure that all our projects are completed on time and within budget. ",
     },
     {
       img: "Images/News/ebook.png",
       h4: "Reader engagement techniques",
-      p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem iste praesentium eligendi officiis. Est quia dolor rerum eligendi unde sunt voluptas quo cumque. Nemo aspernatur omnis expedita impedit quaerat!",
+      p: "Want to get the attention of your target readers? Then we have a solution for you. We'll make sure your site runs smoothly, so all you have to do is focus on creating engaging content. With our magazine & newspaper web development services, we'll help you stay up-to-date on everything that's happening in your industry.",
     },
     {
       img: "Images/News/cloud.png",
       h4: "Offline view",
-      p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem iste praesentium eligendi officiis. Est quia dolor rerum eligendi unde sunt voluptas quo cumque. Nemo aspernatur omnis expedita impedit quaerat!",
+      p: "We have a deep understanding of magazines and newspapers from their inception till their publishing. And when we say offline view, we mean it! We know how to take a magazine or newspaper offline and build an app out of it.",
     },
     {
       img: "Images/News/payment-method.png",
       h4: "Payment integrated",
-      p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem iste praesentium eligendi officiis. Est quia dolor rerum eligendi unde sunt voluptas quo cumque. Nemo aspernatur omnis expedita impedit quaerat!",
+      p: "We give your readers the option to connect their debit or credit card with the app and pay for magazine or news subscription. Not only does it save time, but also makes sure they know how much they will be charged per month before subscribing. The app also provides you with article previews, making it easier than ever to decide on which newspaper is worth subscribing to.",
     },
     {
       img: "Images/News/location.png",
       h4: "Localization",
-      p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem iste praesentium eligendi officiis. Est quia dolor rerum eligendi unde sunt voluptas quo cumque. Nemo aspernatur omnis expedita impedit quaerat!",
+      p: "Localization is difficult for many companies, especially foreign ones. To make your content available in as many languages as possible, we offer translation services to help you reach people all over the world. We use the latest technologies and methods to provide accurate translations that convey your message clearly and accurately.",
     },
     {
       img: "Images/News/share.png",
       h4: "Social media sharing",
-      p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem iste praesentium eligendi officiis. Est quia dolor rerum eligendi unde sunt voluptas quo cumque. Nemo aspernatur omnis expedita impedit quaerat!",
+      p: "We provide web development services that help brands drive traffic to their websites through social media channels like Facebook, Twitter and Pinterest. Our team of talented developers will help you create a solid online presence by automating all the necessary processes with ease.",
     },
   ];
   return (

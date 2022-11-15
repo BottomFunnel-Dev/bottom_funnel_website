@@ -9,8 +9,8 @@ export default function Newsfeature() {
      </div>
         <div className='newsfeaturesub'>
         <div className='sznewsfeaturediv'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nemo modi sequi corrupti, amet neque saepe hic ullam ab ex ut doloremque dolores mollitia optio quae repudiandae magnam vitae autem.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis iure iste rerum error, hic enim dolor? Repellat molestias optio exercitationem aliquam beatae, impedit fugit laborum ea. Autem, ipsa velit. Eligendi.</p>
+          <p>We don't believe in any limitations. That's why we work with the top-notch brands and understand their needs perfectly. With us, you get a comprehensive understanding of what it takes to build an app of this sort and then translate that into code.</p>
+          <p>We're not satisfied just with mundane features such as image upload, videos and audio playback; we aim to create apps worthy of being on the front page of your favorite newspaper or magazine!</p>
          </div>
       </div>
 </div>

@@ -22,10 +22,8 @@
 }
 .szpoliticmobilehead {
   width: 65%;
-  background-repeat: no-repeat;
-  background-size: 100% 70px;
-  background-position: 0px 30px;
+ padding: 30px;
 }
 .szpoliticmobilehead > h1 {
-  margin-left: 6%;
+  margin-left: 4%;
 }

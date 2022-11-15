@@ -8,7 +8,7 @@ export default function Wellnesscontainer() {
           <div className='szwellnessleft'>
               <div>
                 <h1>A Leading Healthcare App Development Company</h1>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quam reprehenderit magni saepe non officiis aspernatur, explicabo voluptatum doloribus id veritatis magnam nostrum, </p>
+               <p>You're new to the field or looking for ways to expand your horizons, we have the skills and expertise you need to create a truly exceptional app. From our deep understanding of the healthcare industry, to our in-house talent pool, we have everything it takes to bring your vision alive.</p>
                <button className='szwellnessbtn'>Get Started</button>
              </div>
           </div>
