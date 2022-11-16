@@ -471,9 +471,9 @@ export const NavbarMain = () => {
                 {discoverRightContent.map((item, index) => (
                   <div key={index}>
                     <ImageCard cardContent={item} />
-                    <h4>
+                    <h5 className="knowmore">
                       Know More <BsArrowRight />
-                    </h4>
+                    </h5>
                   </div>
                 ))}
               </div>
@@ -497,9 +497,9 @@ export const NavbarMain = () => {
                 {discoverRightContent.map((item, index) => (
                   <div key={index}>
                     <ImageCard cardContent={item} />
-                    <h4>
+                    <h5 className="knowmore">
                       Know More <BsArrowRight />
-                    </h4>
+                    </h5>
                   </div>
                 ))}
               </div>
@@ -683,10 +683,10 @@ export const NavbarMain = () => {
                 {discoverRightContent.map((item, index) => (
                   <div key={index}>
                     <ImageCard cardContent={item} />
-                    <h4>
+                    <h5 className="knowmore">
                       Know More
                       <BsArrowRight />{" "}
-                    </h4>
+                    </h5>
                   </div>
                 ))}
               </div>

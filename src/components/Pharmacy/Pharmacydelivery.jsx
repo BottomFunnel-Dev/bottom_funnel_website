@@ -23,7 +23,7 @@ export default function Pharmacydelivery() {
 
           <div className='szdeliverysolution'>
             <div className='szdeliverysolutionapp'>
-              <div className='szdeliverytraking'><img src="Images/pharmacy/Payment option.png" /> </div>
+              <div className='szdeliverytraking'><img src="Images/pharmacy/payment option.png" /> </div>
               <h5> Multiple Payment Options</h5>
             </div>
             <p>Less time spent in the ordering process means better user experience. Let your app users pay easily using multiple payment options so as to improve their overall app experience.</p>
