@@ -89,6 +89,7 @@ import Pharmacy from "./components/Pharmacy/Pharmacy";
 import { AboutUS } from "./components/aboutUsPage/AboutUS";
 import { ContactUS } from "./components/ContactUS/ContactUS";
 import { CareerPage } from "./components/CareerPage/CareerPage";
+import { Carpooling } from "./components/Carpooling/Carpooling";
 
 export const ALLroutes = () => {
   return (
@@ -239,7 +240,9 @@ export const ALLroutes = () => {
       <Route path="/about-us" element={<AboutUS/>} />
       <Route path="/contact-us" element={<ContactUS/>} />
       <Route path="/career" element={<CareerPage/>} />
-      {/* <Route path="/pharmacy" element={<Pharmacy/>} /> */}
+      <Route path="/carpooling" element={<Carpooling/>} />
+      <Route path="/pharmacy" element={<Pharmacy/>} />
+      
       
 
 

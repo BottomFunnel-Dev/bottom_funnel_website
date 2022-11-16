@@ -5,12 +5,12 @@ export default function Pharmacyadmin() {
     let Pharmacyadmindata = [
         {
           img: {
-            src: "Images/Pharmacy/Market Overview.png",
+            src: "Images/pharmacy/Market Overview.png",
             alt: "Marketimage",
           },
 
           icon: {
-            src: "Images/Pharmacy/Market overview icon.png",
+            src: "Images/pharmacy/Market overview icon.png",
             alt: " Marketlogo",
           },
 
@@ -20,11 +20,11 @@ export default function Pharmacyadmin() {
 
         {
           img: {
-            src: "Images/Pharmacy/Product overview.png",
+            src: "Images/pharmacy/Product overview.png",
             alt: "Product ",
           },
           icon: {
-            src: "Images/Pharmacy/Product overview icon.png",
+            src: "Images/pharmacy/Product overview icon.png",
             alt: "Product logo",
           },
              title: "Product Overview",
@@ -32,11 +32,11 @@ export default function Pharmacyadmin() {
         },
         {
           img: {
-            src: "Images/Pharmacy/Reports and revenue.png",
+            src: "Images/pharmacy/Reports and revenue.png",
             alt: "Revenueimage",
           },
           icon: {
-            src: "Images/Pharmacy/Revenue & sales icon.png",
+            src: "Images/pharmacy/Revenue & sales icon.png",
             alt: "Revenuelogo",
           },
             title: "Revenue & Sales Analytics",
@@ -45,11 +45,11 @@ export default function Pharmacyadmin() {
          },
         {
           img: {
-            src: "Images/Pharmacy/Customer management.png",
+            src: "Images/pharmacy/Customer management.png",
             alt: "Customer image",
           },
           icon: {
-            src: "Images/Pharmacy/Customer management icon.png",
+            src: "Images/pharmacy/Customer management icon.png",
             alt: "Customer logo",
           },
           title: "Customer Management",

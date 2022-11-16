@@ -6,7 +6,11 @@ export const ClientBanner = () => {
     <div className="OurClientBanner-main">
       <div className="OurClientBanner-content">
         <h1>Our Client</h1>
-        <p>Our Client related 2 or 3 line</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quas
+          veniam delectus iste impedit sed id nisi corrupti
+        </p>
+        <button>Become Client</button>
       </div>
       <div className="OurClientBanner-image">
         <img

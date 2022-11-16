@@ -16,10 +16,6 @@ export default function Escooterstealing() {
           p:"Flexibilety"
         },
         {
-          img:"Images/Escooter/Traffic Light.png",
-          p:"Customer Satisfaction"
-        },
-        {
           img:"Images/Escooter/Kick Scooter.png",
            p:"Customer Satisfaction"
         },

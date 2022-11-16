@@ -1,28 +1,44 @@
 .OurClientBanner-main {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  background: #f1f1f1;
+  color: #393939;
 }
 
 .OurClientBanner-content {
-  width: 45%;
-  text-align: center;
+  width: 40%;
+  text-align: left;
 }
 
 .OurClientBanner-content > h1 {
-  font-size: 35px;
+  font-size: 60px;
   margin: auto;
+  background: linear-gradient(to right, #ef4c23, #ff5c00);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .OurClientBanner-content > p {
-  font-size: 16px;
-  width: 80%;
-  margin: auto;
+  font-size: 20px;
   margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.OurClientBanner-content > button {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(to Right Bottom, #ef4c23, #ff5c00);
+  padding: 10px 40px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
 }
 
 .OurClientBanner-image {
-  width: 50%;
+  width: fit-content;
   height: 600px;
   display: flex;
   align-items: flex-end;
@@ -30,5 +46,5 @@
 }
 
 .OurClientBanner-image > img {
-  height: 85%;
+  height: 95%;
 }

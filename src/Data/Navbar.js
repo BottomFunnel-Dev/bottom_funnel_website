@@ -427,7 +427,7 @@ export const ondemand = [
   {
     dropContent: "Carpooling Apps",
     navIcons: "Images/navbar/industriesImage/carpooling.png",
-    path: "",
+    path: "carpooling",
   },
   {
     dropContent: "Taxi Booking App",
@@ -700,5 +700,94 @@ export const cms = [
     dropContent: "Big Commerce",
     navIcons: "Images/navbar/skills/bigcommerce.png",
     path: "bigcommerce",
+  },
+];
+
+export const discoverContent = [
+  {
+    title: "Scoping sessions",
+    description: `Enlighten our tech experts about your breakthrough idea in an intensive session. We characterise your product idea and define the Scope of work.`,
+    cardImg: "Images/navbar/discovericons/training.png",
+  },
+  {
+    title: "Business analysis",
+    description: `We elicit business needs, study the competitive landscape, perform strategic analysis, and provide bespoke solutions.`,
+    cardImg: "Images/navbar/discovericons/line-chart.png",
+  },
+  {
+    title: "Product discovery workshop & design sprints",
+    description: `Define your product strategy, prioritize features and visualize the end results with our strategic Discovery workshops. Validate assumptions with real users and find answers to most pressing concerns with Design Sprint.`,
+    cardImg: "Images/navbar/discovericons/product.png",
+  },
+];
+export const discoverRightContent = [
+  {
+    title: "Full cycle product development",
+    description: `We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
+    cardImg: "Images/navbar/discovericons/lifecycle.png",
+  },
+  {
+    title: "Innovation Lab",
+    description: `We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
+    cardImg: "Images/navbar/discovericons/graduation-cap.png",
+  },
+];
+export const designContent = [
+  {
+    title: "User Experience Design",
+    description: `Seamlessly integrate branding, functionality, usability and accessibility into your product. We enhance user interaction and deliver experiences that are meaningful and delightful.`,
+    cardImg: "Images/navbar/designicons/user-interface.png",
+  },
+  {
+    title: "User Interface Design",
+    description: `We enhance usability and craft designs that are unconventional and intuitively guides users into a splendid visual journey.`,
+    cardImg: "Images/navbar/designicons/vector.png",
+  },
+  {
+    title: "User Experience Review",
+    description: `Identify usability issues, discuss UX improvements, and radically improve your digital product with our UX review sessions.`,
+    cardImg: "Images/navbar/designicons/writing.png",
+  },
+];
+export const designRightContent = [
+  {
+    title: "Full cycle product development",
+    description: `We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
+    cardImg: "Images/card/anywhate",
+  },
+  {
+    title: "Innovation Lab",
+    description: `We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
+    cardImg: "Images/card/anywhate",
+  },
+];
+
+export const scaleContent = [
+  {
+    title: "IT Consulting Services",
+    description: `Our IT consulting services provide you the gears necessary for overcoming technological challenges.`,
+    cardImg: "Images/navbar/scaleicons/technical-support.png",
+  },
+  {
+    title: "Digital Transformation",
+    description: `We help you digitally transform and scale your business through the power of technology and innovation.`,
+    cardImg: "Images/navbar/scaleicons/digitalization.png",
+  },
+  {
+    title: `Product Launch and Growth Hacking`,
+    description: `We outline low-budget innovative strategies, identify channels for rapid customer acquisition and scale businesses to new heights.`,
+    cardImg: "Images/navbar/scaleicons/arrow-up.png",
+  },
+];
+export const scaleRightContent = [
+  {
+    title: "Full cycle product development",
+    description: ` We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
+    cardImg: "Images/card/anywhate",
+  },
+  {
+    title: "Innovation Lab",
+    description: ` We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
+    cardImg: "Images/card/anywhate",
   },
 ];

@@ -1,8 +1,8 @@
 .OurClients-main {
-  width: 100%;
+  width: 90%;
   margin: auto;
   border-radius: 10px;
-  background: #edf2f4;
+  background: #feded9;
 
   margin-top: 5%;
   margin-bottom: 5%;
@@ -13,15 +13,12 @@
   align-items: center;
   justify-content: center;
 }
-.OurClients-main>h1{
-  font-size: 32px;
-}
 
 .OurClients-main > button {
-  padding: 10px 30px;
+  padding: 15px 30px;
   font-size: 18px;
-  font-weight: 600;
-margin: 10px 0;
+  font-weight: 700;
+
   border: none;
   outline: none;
   border-radius: 100px;
@@ -35,9 +32,6 @@ margin: 10px 0;
 }
 
 .OurClients-main > button:hover {
-  background: transparent;
+  background: white;
   color: #ef4c34;
-
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }

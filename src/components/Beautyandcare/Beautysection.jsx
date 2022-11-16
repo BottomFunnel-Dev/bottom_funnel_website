@@ -7,6 +7,7 @@ import OndemandSection from "../OnDemandSection/OndemandSection";
 import PlanProject from "../PlanProject/PlanProject";
 import PortFolio from "../PortFolioSection/PortFolio";
 import Revamping from "../revamping/Revamping";
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
 import Beautycontainer from "./Beautycontainer";
@@ -15,11 +16,13 @@ import Diversesection from "./Diversesection";
 import Feature from "./Feature";
 import Solution from "./Solution";
 import Whysection from "./Whysection";
+import { beautyLogo } from "../../Data/SeopartnerData";
 
 export default function Beautysection() {
   return (
     <div>
       <Beautycontainer />
+      <Trusted partnerLogo={beautyLogo} />
       <Diversesection />
       <Disscus />
       <Feature />

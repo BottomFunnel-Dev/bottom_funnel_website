@@ -4,7 +4,14 @@ import "./navbar.css";
 import { Link, useNavigate } from "react-router-dom";
 import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
+import { BsArrowRight } from "react-icons/bs";
 import WhoWeAre from "./WhoWeAre";
+import {
+  discoverContent,
+  discoverRightContent,
+  designContent,
+  scaleContent,
+} from "../../Data/Navbar";
 import {
   company,
   whyBottom,
@@ -21,6 +28,7 @@ import {
   database,
   cms,
 } from "../../Data/Navbar";
+import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
 
 export const NavbarMain = () => {
   const navigate = useNavigate();
@@ -311,7 +319,6 @@ export const NavbarMain = () => {
           </div>
           {sidetoggle === "Technologies" && (
             <div className="dropdownSection">
-              
               <div className="serviceDropdownContent">
                 <Link className="noStyle">
                   <h5>Web Development</h5>
@@ -443,12 +450,61 @@ export const NavbarMain = () => {
                   ))}
                 </div>
               </div>
-
             </div>
           )}
 
-          {sidetoggle === "Discover" && <div>hello discover</div>}
-          {sidetoggle === "Design" && <div>hello design</div>}
+          {sidetoggle === "Discover" && (
+            <div className="discoverDropdown">
+              <div className="discoverleft">
+                <div className="discoverlefttop">
+                  {discoverContent.map((item, index) => (
+                    <ImageCard key={index} cardContent={item} />
+                  ))}
+                </div>
+                <div className="discoverleftbottom">
+                  <h3>
+                    Learn more About <span>Our services <BsArrowRight/></span>
+                  </h3>
+                </div>
+              </div>
+              <div className="discoverright">
+                {discoverRightContent.map((item, index) => (
+                  <div key={index}>
+                    <ImageCard cardContent={item} />
+                    <h4>
+                      Know More <BsArrowRight />
+                    </h4>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+          {sidetoggle === "Design" && (
+            <div className="discoverDropdown">
+              <div className="discoverleft">
+                <div className="discoverlefttop">
+                  {designContent.map((item, index) => (
+                    <ImageCard key={index} cardContent={item} />
+                  ))}
+                </div>
+                <div className="discoverleftbottom">
+                  <h3>
+                    Learn more About <span>Our services <BsArrowRight /></span>
+                  </h3>
+                </div>
+              </div>
+              <div className="discoverright">
+                {discoverRightContent.map((item, index) => (
+                  <div key={index}>
+                    <ImageCard cardContent={item} />
+                    <h4>
+                      Know More <BsArrowRight />
+                    </h4>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
           {sidetoggle === "Skills" && (
             <div className="dropdownSection">
               <div className="backendDropdownContent">
@@ -609,9 +665,36 @@ export const NavbarMain = () => {
               </div>
             </div>
           )}
-          {sidetoggle === "Scale" && <div>hello Scale</div>}
+          {sidetoggle === "Scale" && (
+            <div className="discoverDropdown">
+              <div className="discoverleft">
+                <div className="discoverlefttop">
+                  {scaleContent.map((item, index) => (
+                    <ImageCard key={index} cardContent={item} />
+                  ))}
+                </div>
+                <div className="discoverleftbottom">
+                  <h3>
+                    Learn more About <span>Our services <BsArrowRight /></span>
+                  </h3>
+                </div>
+              </div>
+              <div className="discoverright">
+                {discoverRightContent.map((item, index) => (
+                  <div key={index}>
+                    <ImageCard cardContent={item} />
+                    <h4>
+                      Know More
+                      <BsArrowRight />{" "}
+                    </h4>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       ) : null}
+
       {service ? (
         <div
           onMouseEnter={serHoverIn}

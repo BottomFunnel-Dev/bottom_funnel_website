@@ -124,6 +124,9 @@ export const fooddeliveryLogo = {
     backgroundColor: "#ef4c23",
   },
 };
+
+
+
 export const groceryLogo = {
   logo: [
     {
@@ -150,6 +153,40 @@ export const groceryLogo = {
     {
       partnerImage: "Images/seopages/grocery delivery app/thrive.png",
     },
+   
+  ],
+
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const beautyLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/beauty/minibar.png",
+    },
+    {
+      partnerImage: "Images/seopages/beauty/minibar-1.png",
+    },
+    {
+      partnerImage: "Images/seopages/beauty/minibar-2.png",
+    },
+    {
+      partnerImage: "Images/seopages/beauty/minibar-3.png",
+    },
+    {
+      partnerImage: "Images/seopages/beauty/minibar-4.png",
+    },
+    {
+      partnerImage: "Images/seopages/beauty/minibar-5.png",
+    },
+    {
+      partnerImage: "Images/seopages/beauty/minibar-6.png",
+    },
+    {
+      partnerImage: "Images/seopages/beauty/minibar-7.png",
+    },
+   
    
   ],
 
