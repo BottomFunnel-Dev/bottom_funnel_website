@@ -90,6 +90,7 @@ import { AboutUS } from "./components/aboutUsPage/AboutUS";
 import { ContactUS } from "./components/ContactUS/ContactUS";
 import { CareerPage } from "./components/CareerPage/CareerPage";
 import { Carpooling } from "./components/Carpooling/Carpooling";
+import {BigDataServiceCom} from './components/BigDataServiceCom/BigDataServiceCom'
 
 export const ALLroutes = () => {
   return (
@@ -242,6 +243,8 @@ export const ALLroutes = () => {
       <Route path="/career" element={<CareerPage/>} />
       <Route path="/carpooling" element={<Carpooling/>} />
       <Route path="/pharmacy" element={<Pharmacy/>} />
+      <Route path="/bigdata-services" element={<BigDataServiceCom/>} />
+
       
       
 

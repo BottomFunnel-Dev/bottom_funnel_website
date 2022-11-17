@@ -1,0 +1,257 @@
+.BigDataServiceForm-container {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.BigDataServiceForm-stats {
+  z-index: 1;
+  text-align: center;
+  padding: 2% 2% 5%;
+  color: white;
+  background: linear-gradient(to Right, #ef4c23 40%, #fed200);
+}
+
+.BigDataServiceForm-stats > h1 {
+  font-size: 35px;
+}
+
+.BigDataServiceForm-stats > div {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.BigDataServiceForm-stats > div > div > h1 {
+  font-size: 30px;
+  margin-bottom: 1%;
+}
+
+.BigDataServiceForm-stats > div > div > h3 {
+  font-size: 18px;
+  background-color: white;
+  color: #393939;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 1%;
+}
+
+.BigDataServiceForm-main {
+  width: 80%;
+  height: fit-content;
+  margin: auto;
+  margin-top: -4%;
+  z-index: 2;
+  background: #f3f3f3;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.BigDataServiceForm-feature-main {
+  width: 50%;
+  height: 600px;
+  padding: 1%;
+}
+
+.BigDataServiceForm-feature-main > h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.BigDataServiceForm-feature-main > ul {
+  width: 80%;
+  margin: auto;
+  padding: 10%;
+}
+
+.BigDataServiceForm-feature-main > ul > li {
+  font-size: 16px;
+}
+
+.BigDataServiceForm-form-outer-main {
+  width: 50%;
+  height: 600px;
+  padding: 3%;
+  background: linear-gradient(to Top, #ef4c23 40%, #fed200);
+}
+
+.BigDataServiceForm-form-outer-main > h1 {
+  margin-bottom: 2%;
+  font-size: 35px;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.BigDataServiceForm-formSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 1%;
+  row-gap: 30px;
+  color: #f5f5f5;
+}
+
+.BigDataServiceForm-inputWithIcon {
+  box-sizing: border-box;
+  width: 47%;
+  display: flex;
+  align-items: center;
+  column-gap: 1%;
+  border-bottom: 2px solid #d0d0d0;
+}
+
+.BigDataServiceForm-inputPart {
+  box-sizing: border-box;
+  border: none;
+  color: #f5f5f5;
+
+  background: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.BigDataServiceForm-inputPart::placeholder {
+  color: #f5f5f5;
+
+  font-weight: 600;
+}
+
+.BigDataServiceForm-phoneNumber {
+  width: 30%;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  color: #f5f5f5;
+  margin-left: -5%;
+
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+  border-bottom: 2px solid #d0d0d0;
+}
+
+.BigDataServiceForm-phoneNumber::placeholder {
+  color: #f5f5f5;
+
+  font-weight: 600;
+}
+
+.BigDataServiceForm-messagePart {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  color: #f5f5f5;
+
+  background: none;
+
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+  border-bottom: 2px solid #d0d0d0;
+}
+
+.BigDataServiceForm-messagePart::placeholder {
+  font-weight: 600;
+  color: #f5f5f5;
+}
+
+.BigDataServiceForm-phoneClass {
+  width: 15%;
+  font-size: 12px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #d0d0d0;
+}
+
+.BigDataServiceForm-countryCode {
+  width: 90%;
+  box-sizing: border-box;
+  font-size: 14px;
+  background: none;
+  padding: 10px 0;
+  font-weight: 600;
+  color: #f5f5f5;
+
+  outline: none;
+  border: none;
+}
+
+.BigDataServiceForm-countryCode > option {
+  color: #393939;
+}
+
+.BigDataServiceForm-selectClass {
+  width: 47%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #d0d0d0;
+  color: #f5f5f5;
+}
+
+.BigDataServiceForm-selectPart {
+  width: 90%;
+  box-sizing: border-box;
+  font-size: 16px;
+  /* color: rgb(125, 118, 118); */
+  background: none;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  color: #f5f5f5;
+}
+
+.BigDataServiceForm-selectPart > option {
+  color: #393939;
+}
+
+.BigDataServiceForm-textareaClass {
+  width: 100%;
+  color: #f5f5f5;
+}
+
+.BigDataServiceForm-formMessageIcon {
+  margin-right: 5px;
+  color: #f5f5f5;
+}
+
+.BigDataServiceForm-textareaClass > label {
+  color: #f5f5f5;
+
+  font-weight: 600;
+}
+
+.BigDataServiceForm-robotCaptcha {
+  display: flex;
+  justify-content: center;
+}
+
+.BigDataServiceForm-robotCaptcha button {
+  padding: 10px 60px;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 50px;
+  color: #ef4c23;
+  font-weight: 600;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.BigDataServiceForm-robotCaptcha button:hover {
+  background-color: #ef4c23;
+  color: white;
+}

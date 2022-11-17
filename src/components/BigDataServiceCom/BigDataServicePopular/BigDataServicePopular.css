@@ -1,0 +1,142 @@
+.BigDataServicePopular-main {
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.BigDataServicePopular-main > h1 {
+  font-size: 32px;
+  margin-bottom: 1%;
+}
+
+.BigDataServicePopular-hr-line {
+  width: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.BigDataServicePopular-hr-line > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.BigDataServicePopular-hr-line > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
+
+.BigDataServicePopular-main > p {
+  font-size: 16px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.BigDataServicePopular-Content {
+  width: 90%;
+  margin: auto;
+}
+
+.BigDataServicePopular-Content > div {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 3%;
+
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.BigDataServicePopular-Content > div:last-child {
+  border-bottom: none;
+}
+
+.BigDataServicePopular-Cards-Content {
+  width: 70%;
+}
+
+.BigDataServicePopular-Cards-Content > h2 {
+  font-size: 25px;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.BigDataServicePopular-Cards-Content > p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.BigDataServicePopular-Cards-Images {
+  width: 25%;
+}
+
+.BigDataServicePopular-Cards-Images > img {
+  width: 100%;
+}
+
+.BigDataServicePopular-Button {
+  width: 500px;
+  height: fit-content;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  display: flex;
+  gap: 3%;
+  align-items: center;
+  justify-content: flex-end;
+
+  border-radius: 100px;
+  padding-left: 3%;
+
+  background: linear-gradient(to Right, #ef4c23 60%, #fed200);
+}
+
+.BigDataServicePopular-Button > h3 {
+  font-size: 18px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.BigDataServicePopular-Button > div {
+  height: fit-content;
+  width: fit-content;
+  padding: 8px;
+
+  background: linear-gradient(to Bottom, #ef4c23, #fed200);
+  border-radius: 100px;
+  border: 2px solid white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BigDataServicePopular-Button > div > div {
+  width: fit-content;
+  height: fit-content;
+
+  background: linear-gradient(to Bottom, #fed200, #ef4c23);
+  padding: 8px;
+  border-radius: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BigDataServicePopular-Button > div > div > svg {
+  width: 30px;
+  height: 30px;
+  color: white;
+}

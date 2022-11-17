@@ -5,6 +5,7 @@ import React, { useEffect } from "react";
 import { ContactMain } from "./components/Contact/Contact";
 import { NavbarMain } from "./components/Navbar/Navbar";
 import { ALLroutes } from "./routes";
+import { Panel } from "./components/particularComponents/Panels/Panel";
 
 function App() {
   const URLpath = useNavigate();
@@ -18,6 +19,8 @@ function App() {
       <ContactMain />
       <NavbarMain />
       <ALLroutes />
+
+      {/* <Panel/> */}
     </div>
   );
 }

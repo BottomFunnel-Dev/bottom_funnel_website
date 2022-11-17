@@ -200,7 +200,7 @@ export const trendingTech = [
   {
     dropContent: "Big Data Services",
     navIcons: "Images/navbar/services/bigdata.png",
-    path: "",
+    path: "bigdata-services",
   },
   {
     dropContent: "Blockchain Services",
