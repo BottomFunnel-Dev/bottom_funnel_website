@@ -205,7 +205,7 @@ export const trendingTech = [
   {
     dropContent: "Blockchain Services",
     navIcons: "Images/navbar/services/blockchain.png",
-    path: "",
+    path: "block-chain",
   },
   {
     dropContent: "Machine Learning",

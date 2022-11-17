@@ -1,0 +1,101 @@
+.BlockChainBF-Container {
+  margin: auto;
+  margin-top: 3%;
+  height: 480px;
+  position: relative;
+}
+
+.BlockChainBF-Background-rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  z-index: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.BlockChainBF-Background-rectangle > img:nth-child(1) {
+  align-self: flex-start;
+  height: 50%;
+  width: 15%;
+}
+
+.BlockChainBF-Background-rectangle > img:nth-child(2) {
+  align-self: flex-end;
+  height: 50%;
+  width: 15%;
+}
+
+.BlockChainBF-main {
+  width: 90%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.BlockChainBF-Cards-Container {
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 85%;
+  height: 300px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.BlockChainBF-Cards-summary {
+  width: 45%;
+  height: 90%;
+  padding: 3% 2%;
+}
+
+.BlockChainBF-Cards-summary > h1 {
+  font-size: 32px;
+}
+
+.BlockChainBF-Cards-summary > h1 > span {
+  color: #ef4c23;
+}
+
+.BlockChainBF-Cards-summary > p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.BlockChainBF-cards-hr-line {
+  width: fit-content;
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.BlockChainBF-cards-hr-line > div {
+  border: 2px solid #0fb2e8;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.BlockChainBF-cards-hr-line > span {
+  width: 2px;
+  height: 42%;
+  background-color: #0fb2e8;
+  color: #0fb2e8;
+}
+
+.BlockChainBF-Cards-why {
+  width: 45%;
+  padding: 3% 2%;
+  height: 90%;
+}

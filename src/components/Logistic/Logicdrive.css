@@ -1,6 +1,6 @@
 .logicdrive{
     width: 100%;
-    height: 650px;
+    height: 920px;
     /* background-color: cornflowerblue; */
   }
   .logicdrive>h1{
@@ -8,18 +8,19 @@
   }
   .logicdrivesub{
       width: 100%;
-      height: 500px;
       margin-top: 2%;
       justify-content: space-between;
       /* background-color:  chocolate; */
       display: flex;
+    align-items: center;
+
   }
   .logicdriveleft{
       width: 50%;
       
       /* background-color: blue; */
       height: 500px;
-      background: url("/public/Images/logistic/triangle.png");
+      /* background: url("/public/Images/logistic/triangle.png"); */
       background-repeat: no-repeat;
       background-size: 100% 670px;
       margin-left: -3%;

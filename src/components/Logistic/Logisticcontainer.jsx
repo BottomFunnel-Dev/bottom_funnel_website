@@ -18,7 +18,7 @@ export default function Logisticcontainer() {
         <div className="szlogisticright">
           <div className="szrecpurple">
             {" "}
-            <img src="Images/logistic/logistic.png" />{" "}
+            <img src="Images/logistic/logistic.png" />
           </div>
         </div>
       </div>

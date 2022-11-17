@@ -1,5 +1,4 @@
 import React from "react";
-import { Panel } from "../particularComponents/Panels/Panel";
 import "./carpoolingwhy.css";
 export const CarpoolingWhy = () => {
   const carpoolwhydata = [
@@ -51,7 +50,6 @@ export const CarpoolingWhy = () => {
 
 
 
-      {/* <Panel/> */}
     </div>
   );
 };

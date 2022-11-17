@@ -5,6 +5,7 @@ import MainFooter from '../FooterSection/MainFooter'
 import { Industries } from '../industries/Industries'
 import PlanProject from '../PlanProject/PlanProject'
 import Revamping from '../revamping/Revamping'
+import Trusted from '../SEO/SeoTrustedCompanies/Seotrusted'
 import { SeoblogSection } from '../SeoBlogs/Seoblogs'
 import StoriesSection from '../StoriesSection/StoriesSection'
 import Icecreamadminpanel from './Icecreamadminpanel'
@@ -12,12 +13,13 @@ import Icecreamcustomer from './Icecreamcustomer'
 import { Icecreamdrive } from './Icecreamdrive'
 import { Icecreamsection } from './Icecreamsection'
 import { Icecreamsolution } from './Icecreamsolution'
- 
+ import { icecreamLogo } from '../../Data/SeopartnerData'
  
  export const Icecream = () => {
    return (
      <div >
        <Icecreamsection/>
+       <Trusted partnerLogo={icecreamLogo}/>
        <Icecreamsolution/>
        <Icecreamcustomer/>
        <Icecreamadminpanel/>

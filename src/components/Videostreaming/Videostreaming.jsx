@@ -14,11 +14,13 @@ import { SeoblogSection } from '../SeoBlogs/Seoblogs'
 import { TextDropdown } from '../faqSection/Faqs'
 import ContectForm from '../ContectForm/ContectForm'
 import MainFooter from '../FooterSection/MainFooter'
-
+import Trusted from '../SEO/SeoTrustedCompanies/Seotrusted'
+import { videostreamLogo } from '../../Data/SeopartnerData'
 export default function Videostreaming() {
   return (
     <div>
       <Videostreamingcontainer/>
+      <Trusted partnerLogo={videostreamLogo} />
       <Services/>
       <Grow/>
       <Featuressection/>

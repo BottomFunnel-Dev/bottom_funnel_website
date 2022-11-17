@@ -7,6 +7,7 @@ import OndemandSection from "../OnDemandSection/OndemandSection";
 import PlanProject from "../PlanProject/PlanProject";
 import PortFolio from "../PortFolioSection/PortFolio";
 import Revamping from "../revamping/Revamping";
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
 import { EcommerceBookCall } from "./EcommerceBookCall/EcommerceBookCall";
@@ -16,11 +17,12 @@ import { EcommerceComShopping } from "./EcommerceComAdvance/EcommerceComShopping
 import { EcommerceComBanner } from "./EcommerceComBanner/EcommerceComBanner";
 import { EcommerceComFeatures } from "./EcommerceComFeturesSolutions/EcommerceComFeatures";
 import { EcommerceComSolutions } from "./EcommerceComFeturesSolutions/EcommerceComSolutions";
-
+import { EcommerceLogo } from "../../Data/SeopartnerData";
 export const EcommerceComPage = () => {
   return (
     <div>
       <EcommerceComBanner />
+      <Trusted partnerLogo={EcommerceLogo}/>
       <EcommerceComFeatures />
       <EcommerceComCustomer />
       <EcommerceComAdminPanel />

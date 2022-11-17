@@ -1,70 +1,67 @@
- 
-    .logicadmin{
-      width: 100%;
-      height: 640px;
-      /* background-color: aqua; */
-    }
-    .logicadmin>h1{
-     margin-left: 5%;
-    }
-    .logicadminsub{
-        width: 100%;
-        height: 500px;
-        justify-content: space-between;
-        margin:auto;
-        margin-top: 2%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .logicadminleft{
-        width: 45%;
-        height: 500px;
-        /* padding: 10px; */
-        display: flex;
-        background: url("/public/Images/logistic/plane\ triangle.png");
-        background-repeat: no-repeat;
-        background-size: 100% 500px;
-    }
-    .logicadminright {
-        width: 45%;
-        height: 100%;
-        /* background-color: aqua; */
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
-        gap: 20px;
-      }
-      
-      .logicadminright > div {
-        padding: 10px 10px 10px 10px;
-        height: 250px;
-        width: 45%;
-        border-radius: 18px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        border-radius: 10px;
-        background-color:  white;
-        cursor: pointer;
-      }
-      
-    .logicadminright> div:hover {
-        background-color: #e1f9f6;
-      }
-      .logicadminright> div > h3 {
-        font-size: 18px;
-      }
-      
-     
-      .logistic-admin-image{
-        width: 80%;
-        height: 500px;
-        text-align: right;
-        margin-left: 10%;
-        padding-bottom: 40px;
-      }
-       
-       
-      .logistic-admin-image>img{
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
+.logicadmin {
+  width: 100%;
+  height: 920px;
+  /* background-color: aqua; */
+}
+.logicadmin > h1 {
+  margin-left: 5%;
+}
+.logicadminsub {
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logicadminleft {
+  width: 45%;
+  height: 500px;
+  /* padding: 10px; */
+  display: flex;
+  /* background: url("/public/Images/logistic/plane\ triangle.png"); */
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+}
+.logicadminright {
+  width: 45%;
+  height: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 20px;
+}
+
+.logicadminright > div {
+  padding: 10px 10px 10px 10px;
+  height: 250px;
+  width: 45%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.logicadminright > div:hover {
+  background-color: #e1f9f6;
+}
+.logicadminright > div > h3 {
+  font-size: 18px;
+}
+
+.logistic-admin-image {
+  width: 80%;
+  height: 500px;
+  text-align: right;
+  margin-left: 10%;
+  padding-bottom: 40px;
+}
+
+.logistic-admin-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

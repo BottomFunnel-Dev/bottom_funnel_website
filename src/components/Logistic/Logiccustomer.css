@@ -1,6 +1,6 @@
 .logiccustomer{
   width: 100%;
-  height: 650px;
+  height: 920px;
   /* background-color: aqua; */
 }
 .logiccustomer>h1{
@@ -8,17 +8,17 @@
 }
 .logiccustomersub{
     width: 100%;
-    height: 500px;
     justify-content: space-between;
     margin:auto;
     display: flex;
+    align-items: center;
 }
 .logiccustomerleft{
     width: 50%;
     height: 500px;
     padding: 10px;
     display: flex;
-    background: url("/public/Images/logistic/rectanglebase.png");
+    /* background: url("/public/Images/logistic/rectanglebase.png"); */
     background-repeat: no-repeat;
     background-size: 100% 500px;
 }

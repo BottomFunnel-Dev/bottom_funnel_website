@@ -63,7 +63,6 @@ export const alcoholLogo = {
   },
 };
 
-
 export const homesolutionsLogo = {
   logo: [
     {
@@ -93,7 +92,6 @@ export const homesolutionsLogo = {
     backgroundColor: "#ef4c23",
   },
 };
-
 
 export const fooddeliveryLogo = {
   logo: [
@@ -125,8 +123,6 @@ export const fooddeliveryLogo = {
   },
 };
 
-
-
 export const groceryLogo = {
   logo: [
     {
@@ -153,7 +149,44 @@ export const groceryLogo = {
     {
       partnerImage: "Images/seopages/grocery delivery app/thrive.png",
     },
-   
+  ],
+
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const educationLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/educompanies/Frame 30png",
+    },
+    {
+      partnerImage: "Images/seopages/educompanies/Frame 31.png",
+    },
+    {
+      partnerImage: "Images/seopages/educompanies/Frame 32.png",
+    },
+    {
+      partnerImage: "Images/seopages/educompanies/Frame 33.png",
+    },
+    {
+      partnerImage: "Images/seopages/educompanies/Frame 34.png",
+    },
+    {
+      partnerImage: "Images/seopages/educompanies/Frame 35.png",
+    },
+    {
+      partnerImage: "Images/seopages/educompanies/Frame 36.png",
+    },
+    {
+      partnerImage: "Images/seopages/educompanies/Frame 37.png",
+    },
+    {
+      partnerImage: "Images/seopages/educompanies/Frame 38.png",
+    },
+    {
+      partnerImage: "Images/seopages/educompanies/Frame 39.png",
+    },
   ],
 
   bgcolors: {
@@ -186,8 +219,307 @@ export const beautyLogo = {
     {
       partnerImage: "Images/seopages/beauty/minibar-7.png",
     },
-   
-   
+  ],
+
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const CannabisLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/Cannabis/Frame 31.png",
+    },
+    {
+      partnerImage: "Images/seopages/Cannabis/Frame 32.png",
+    },
+    {
+      partnerImage: "Images/seopages/Cannabis/Frame 33.png",
+    },
+    {
+      partnerImage: "Images/seopages/Cannabis/Frame 34.png",
+    },
+    {
+      partnerImage: "Images/seopages/Cannabis/Frame 35.png",
+    },
+    {
+      partnerImage: "Images/seopages/Cannabis/Frame 36.png",
+    },
+    {
+      partnerImage: "Images/seopages/Cannabis/Frame 37.png",
+    },
+    {
+      partnerImage: "Images/seopages/Cannabis/Frame 38.png",
+    },
+    {
+      partnerImage: "Images/seopages/Cannabis/Frame 39.png",
+    },
+  ],
+
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const EcommerceLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/E-Commerce/Frame 61.png",
+    },
+    {
+      partnerImage: "Images/seopages/E-Commerce/Frame 62.png",
+    },
+    {
+      partnerImage: "Images/seopages/E-Commerce/Frame 63.png",
+    },
+    {
+      partnerImage: "Images/seopages/E-Commerce/Frame 64.png",
+    },
+    {
+      partnerImage: "Images/seopages/E-Commerce/Frame 65.png",
+    },
+    {
+      partnerImage: "Images/seopages/E-Commerce/Frame 66.png",
+    },
+    {
+      partnerImage: "Images/seopages/E-Commerce/Frame 67.png",
+    },
+    {
+      partnerImage: "Images/seopages/E-Commerce/Frame 68.png",
+    },
+    {
+      partnerImage: "Images/seopages/E-Commerce/Frame 69.png",
+    },
+    {
+      partnerImage: "Images/seopages/E-Commerce/Frame 70.png",
+    },
+  ],
+
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const gameDevelopmentLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/game development/Frame 51.png",
+    },
+    {
+      partnerImage: "Images/seopages/game development/Frame 52.png",
+    },
+    {
+      partnerImage: "Images/seopages/game development/Frame 53.png",
+    },
+    {
+      partnerImage: "Images/seopages/game development/Frame 54.png",
+    },
+    {
+      partnerImage: "Images/seopages/game development/Frame 55.png",
+    },
+    {
+      partnerImage: "Images/seopages/game development/Frame 56.png",
+    },
+    {
+      partnerImage: "Images/seopages/game development/Frame 57.png",
+    },
+    {
+      partnerImage: "Images/seopages/game development/Frame 58.png",
+    },
+    {
+      partnerImage: "Images/seopages/game development/Frame 59.png",
+    },
+    {
+      partnerImage: "Images/seopages/game development/Frame 60.png",
+    },
+  ],
+
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const icecreamLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/ice cream/Frame 11.png",
+    },
+    {
+      partnerImage: "Images/seopages/ice cream/Frame 12.png",
+    },
+    {
+      partnerImage: "Images/seopages/ice cream/Frame 13.png",
+    },
+    {
+      partnerImage: "Images/seopages/ice cream/Frame 14.png",
+    },
+    {
+      partnerImage: "Images/seopages/ice cream/Frame 15.png",
+    },
+    {
+      partnerImage: "Images/seopages/ice cream/Frame 16.png",
+    },
+    {
+      partnerImage: "Images/seopages/ice cream/Frame 17.png",
+    },
+    {
+      partnerImage: "Images/seopages/ice cream/Frame 18.png",
+    },
+    {
+      partnerImage: "Images/seopages/ice cream/Frame 19.png",
+    },
+    {
+      partnerImage: "Images/seopages/ice cream/Frame 20.png",
+    },
+  ],
+
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const marketLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 21.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 22.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 23.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 24.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 25.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 26.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 27.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 28.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 29.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 30.png",
+    },
+  ],
+
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const videostreamLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/Video streamimg/Frame 71.png",
+    },
+    {
+      partnerImage: "Images/seopages/Video streamimg/Frame 72.png",
+    },
+    {
+      partnerImage: "Images/seopages/Video streamimg/Frame 73.png",
+    },
+    {
+      partnerImage: "Images/seopages/Video streamimg/Frame 74.png",
+    },
+    {
+      partnerImage: "Images/seopages/Video streamimg/Frame 75.png",
+    },
+    {
+      partnerImage: "Images/seopages/Video streamimg/Frame 76.png",
+    },
+    {
+      partnerImage: "Images/seopages/Video streamimg/Frame 77.png",
+    },
+    {
+      partnerImage: "Images/seopages/Video streamimg/Frame 78.png",
+    },
+    {
+      partnerImage: "Images/seopages/Video streamimg/Frame 79.png",
+    },
+    {
+      partnerImage: "Images/seopages/Video streamimg/Frame 80.png",
+    },
+  ],
+
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const marketplaceLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 21.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 22.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 23.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 24.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 25.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 26.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 27.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 28.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 29.png",
+    },
+    {
+      partnerImage: "Images/seopages/Marketplace/Frame 30.png",
+    },
+  ],
+
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const pickupanddeliveryLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/Pickup and delivery/Frame 1.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pickup and delivery/Frame 2.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pickup and delivery/Frame 3.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pickup and delivery/Frame 4.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pickup and delivery/Frame 5.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pickup and delivery/Frame 6.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pickup and delivery/Frame 7.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pickup and delivery/Frame 8.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pickup and delivery/Frame 9.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pickup and delivery/Frame 10.png",
+    },
   ],
 
   bgcolors: {

@@ -16,6 +16,7 @@ import Logictransport from "./Logictransport";
 import Logisticadmin from "./Logisticadmin";
 import Logisticcontainer from "./Logisticcontainer";
 import Logisticwhy from "./Logisticwhy";
+import { logisticsCustomer,logisticDrive,logisticAdmin } from "../../Data/panelsData";
 
 export default function Logicstic() {
   return (
@@ -23,9 +24,9 @@ export default function Logicstic() {
       <Logisticcontainer />
       <Logictransport />
       <Logisticwhy />
-      <Logiccustomer />
-      <Logicdrive />
-      <Logisticadmin />
+      <Logiccustomer customerData={logisticsCustomer}/>
+      <Logicdrive driveData={logisticDrive} />
+      <Logisticadmin adminData={logisticAdmin} />
 
       <StoriesSection />
       <Industries />

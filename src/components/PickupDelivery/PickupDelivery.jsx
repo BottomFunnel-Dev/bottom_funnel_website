@@ -16,11 +16,13 @@ import { PickupCustomer } from "./PickupCustomer";
 import { Pickupdriveapp } from "./Pickupdriveapp";
 import { Pickuprequire } from "./Pickuprequire";
 import { PickupSolutions } from "./PickupSolutions";
-
+import { pickupanddeliveryLogo } from "../../Data/SeopartnerData";
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 export const PickupDelivery = () => {
   return (
     <div>
       <PickupBanner />
+      <Trusted partnerLogo={pickupanddeliveryLogo} />
       <PickupSolutions />
       <Pickuprequire />
       <PickupCustomer />

@@ -91,6 +91,7 @@ import { ContactUS } from "./components/ContactUS/ContactUS";
 import { CareerPage } from "./components/CareerPage/CareerPage";
 import { Carpooling } from "./components/Carpooling/Carpooling";
 import {BigDataServiceCom} from './components/BigDataServiceCom/BigDataServiceCom'
+import { BlockChainPage } from "./components/BlockChainPage/BlockChainPage";
 
 export const ALLroutes = () => {
   return (
@@ -244,6 +245,7 @@ export const ALLroutes = () => {
       <Route path="/carpooling" element={<Carpooling/>} />
       <Route path="/pharmacy" element={<Pharmacy/>} />
       <Route path="/bigdata-services" element={<BigDataServiceCom/>} />
+      <Route path="/block-chain" element={<BlockChainPage/>} />
 
       
       
