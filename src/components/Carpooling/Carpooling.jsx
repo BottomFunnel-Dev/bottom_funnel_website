@@ -38,11 +38,11 @@ export const Carpooling = () => {
 
       <StoriesSection />
       <Industries />
+      <PlanProject />
       <OndemandSection />
       <PortFolio />
-      <PlanProject />
-      <Revamping />
       <SeoblogSection />
+      <Revamping />
       <TextDropdown />
       <ContectForm />
       <MainFooter />
