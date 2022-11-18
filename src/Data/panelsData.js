@@ -217,34 +217,34 @@ export const carpoolCustomer = {
       title: "Real-Time Tracking",
       para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
     },
-    {
-      img: {
-        src: "Images/carpoolingpage/customerapp/Review & ratings.png",
-        alt: "Track Order image",
-      },
-      icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
-        alt: "Track Order logo",
-      },
-      title: "Review and Ratings",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
-    },
-    {
-      img: {
-        src: "Images/carpoolingpage/customerapp/Simple payments.png",
-        alt: "Track Order image",
-      },
-      icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
-        alt: "Track Order logo",
-      },
-      title: "Simple Payments",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
-    },
+    // {
+    //   img: {
+    //     src: "Images/carpoolingpage/customerapp/Review & ratings.png",
+    //     alt: "Track Order image",
+    //   },
+    //   icon: {
+    //     src: "Images/carpoolingpage/icons/checkmark.png",
+    //     alt: "Track Order logo",
+    //   },
+    //   title: "Review and Ratings",
+    //   para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+    // },
+    // {
+    //   img: {
+    //     src: "Images/carpoolingpage/customerapp/Simple payments.png",
+    //     alt: "Track Order image",
+    //   },
+    //   icon: {
+    //     src: "Images/carpoolingpage/icons/checkmark.png",
+    //     alt: "Track Order logo",
+    //   },
+    //   title: "Simple Payments",
+    //   para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+    // },
   ],
 
   sectionTitle: "Customer App",
-  background: "/public/Images/carpoolingpage/bannersbackgrounds/Rectangle 4223.png",
+  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
 };
 
 export const carpoolDrive = {
@@ -297,34 +297,34 @@ export const carpoolDrive = {
       title: "Wallet Details",
       para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
     },
-    {
-      img: {
-        src: "Images/carpoolingpage/driverapp/Tips.png",
-        alt: "Track Order image",
-      },
-      icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
-        alt: "Track Order logo",
-      },
-      title: "Tips & Rewards",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
-    },
-    {
-      img: {
-        src: "Images/carpoolingpage/driverapp/In app Navigation.png",
-        alt: "Track Order image",
-      },
-      icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
-        alt: "Track Order logo",
-      },
-      title: "In-Built Navigation",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
-    },
+    // {
+    //   img: {
+    //     src: "Images/carpoolingpage/driverapp/Tips.png",
+    //     alt: "Track Order image",
+    //   },
+    //   icon: {
+    //     src: "Images/carpoolingpage/icons/checkmark.png",
+    //     alt: "Track Order logo",
+    //   },
+    //   title: "Tips & Rewards",
+    //   para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+    // },
+    // {
+    //   img: {
+    //     src: "Images/carpoolingpage/driverapp/In app Navigation.png",
+    //     alt: "Track Order image",
+    //   },
+    //   icon: {
+    //     src: "Images/carpoolingpage/icons/checkmark.png",
+    //     alt: "Track Order logo",
+    //   },
+    //   title: "In-Built Navigation",
+    //   para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+    // },
   ],
 
   sectionTitle: "Driver App",
-  background: "/public/Images/carpoolingpage/bannersbackgrounds/Group 339939.png",
+  background: "/Images/carpoolingpage/bannersbackgrounds/group9.png",
 };
 
 export const carpoolAdmin = {
@@ -377,32 +377,32 @@ export const carpoolAdmin = {
       title: "Driver Management",
       para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
     },
-    {
-      img: {
-        src: "Images/carpoolingpage/adminpanel/Payment management.png",
-        alt: "Track Order image",
-      },
-      icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
-        alt: "Track Order logo",
-      },
-      title: "Payments Management",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
-    },
-    {
-      img: {
-        src: "Images/carpoolingpage/adminpanel/Notification & alerts.png",
-        alt: "Track Order image",
-      },
-      icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
-        alt: "Track Order logo",
-      },
-      title: "Notification & Alerts",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
-    },
+    // {
+    //   img: {
+    //     src: "Images/carpoolingpage/adminpanel/Payment management.png",
+    //     alt: "Track Order image",
+    //   },
+    //   icon: {
+    //     src: "Images/carpoolingpage/icons/checkmark.png",
+    //     alt: "Track Order logo",
+    //   },
+    //   title: "Payments Management",
+    //   para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+    // },
+    // {
+    //   img: {
+    //     src: "Images/carpoolingpage/adminpanel/Notification & alerts.png",
+    //     alt: "Track Order image",
+    //   },
+    //   icon: {
+    //     src: "Images/carpoolingpage/icons/checkmark.png",
+    //     alt: "Track Order logo",
+    //   },
+    //   title: "Notification & Alerts",
+    //   para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+    // },
   ],
 
   sectionTitle: "Admin App",
-  background: "/public/Images/carpoolingpage/bannersbackgrounds/Rectangle 4201.png",
+  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };

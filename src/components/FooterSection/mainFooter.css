@@ -5,6 +5,9 @@
   padding: 15px;
   display: flex;
 }
+.mainFooterSection li {
+list-style: none;
+}
 
 .leftFooter {
   width: 57%;

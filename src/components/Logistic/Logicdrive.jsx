@@ -11,7 +11,8 @@ export default function Logicdrive({ driveData }) {
           style={{
             background: `url(${driveData.background})`,
             backgroundRepeat: "no-repeat",
-            backgroundSize: "100% 500px",
+            backgroundSize: "contain",
+            backgroundPosition:"center",
           }}
         >
           <div className="logistic-drive-image">

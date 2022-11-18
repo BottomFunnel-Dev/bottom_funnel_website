@@ -27,10 +27,11 @@ export default function Logisticadmin({ adminData }) {
         </div>
         <div
           className="logicadminleft"
-          style={{
+         style={{
             background: `url(${adminData.background})`,
             backgroundRepeat: "no-repeat",
-            backgroundSize: "100% 500px",
+            backgroundSize: "contain",
+            backgroundPosition:"center",
           }}
         >
           <div className="logistic-admin-image">
