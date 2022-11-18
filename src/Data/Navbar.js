@@ -215,12 +215,12 @@ export const trendingTech = [
   {
     dropContent: "Artificial Intelligence",
     navIcons: "Images/navbar/services/ai.png",
-    path: "",
+    path: "artificial-inteligence",
   },
   {
-    dropContent: "Data Analytics",
+    dropContent: "Data Science",
     navIcons: "Images/navbar/services/dataanalysis.png",
-    path: "",
+    path: "data-science",
   },
   {
     dropContent: "Crypto currency Development",
@@ -235,7 +235,7 @@ export const trendingTech = [
   {
     dropContent: "Virtual Reality Development",
     navIcons: "Images/navbar/services/vr.png",
-    path: "",
+    path: "virtual-reality",
   },
   {
     dropContent: "Augmented Reality",
@@ -250,7 +250,7 @@ export const trendingTech = [
   {
     dropContent: "IoT Development",
     navIcons: "Images/navbar/services/iot.png",
-    path: "",
+    path: "internet-of-things",
   },
   {
     dropContent: "StartUp Solutions",
@@ -293,7 +293,7 @@ export const industries = [
   {
     dropContent: "Sports Betting",
     navIcons: "Images/navbar/industriesImage/sportsbetting.png",
-    path: "",
+    path: "sports-betting",
   },
   {
     dropContent: "IOT Development",

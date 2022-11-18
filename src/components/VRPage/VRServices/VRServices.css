@@ -1,0 +1,149 @@
+.VRServices-main {
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.VRServices-main > h1 {
+  font-size: 32px;
+  margin-bottom: 1%;
+}
+
+.VRServices-hr-line {
+  width: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.VRServices-hr-line > div {
+  border: 2px solid #bf42b9;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.VRServices-hr-line > span {
+  width: 46%;
+  height: 2px;
+  background-color: #bf42b9;
+  color: #bf42b9;
+}
+
+.VRServices-main > p {
+  font-size: 16px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.VRServices-Content {
+  width: 90%;
+  margin: auto;
+}
+
+.VRServices-Content > div {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 3%;
+
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.VRServices-Content > div:last-child {
+  border-bottom: none;
+}
+
+.VRServices-Cards-Content {
+  width: 70%;
+}
+
+.VRServices-Cards-Content > h2 {
+  font-size: 25px;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.VRServices-Cards-Content > p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.VRServices-Cards-Images {
+  width: 25%;
+  background: #ffb2fb;
+  padding: 4px;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VRServices-Cards-Images > img {
+  width: 100%;
+}
+
+.VRServices-Button {
+  width: 500px;
+  height: fit-content;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  display: flex;
+  gap: 3%;
+  align-items: center;
+  justify-content: flex-end;
+
+  border-radius: 100px;
+  padding-left: 3%;
+
+  background: linear-gradient(to Right, #bf42b9 60%, #08ffff);
+}
+
+.VRServices-Button > h3 {
+  font-size: 18px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.VRServices-Button > div {
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+
+  background: linear-gradient(to Right Bottom, #bf42b9, #08ffff);
+  border-radius: 100px;
+  border: 2px solid white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VRServices-Button > div > div {
+  width: fit-content;
+  height: fit-content;
+
+  background: linear-gradient(to Bottom, #08ffff, #bf42b9);
+  padding: 8px;
+  border-radius: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VRServices-Button > div > div > svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}

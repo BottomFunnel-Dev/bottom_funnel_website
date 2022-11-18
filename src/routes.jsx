@@ -92,6 +92,10 @@ import { CareerPage } from "./components/CareerPage/CareerPage";
 import { Carpooling } from "./components/Carpooling/Carpooling";
 import {BigDataServiceCom} from './components/BigDataServiceCom/BigDataServiceCom'
 import { BlockChainPage } from "./components/BlockChainPage/BlockChainPage";
+import { SportsBetting } from "./components/Sportsbetting/SportsBetting";
+import { VRPage } from "./components/VRPage/VRPage";
+import { IOTPage } from "./components/IOTPage/IOTPage";
+import { AIPage } from "./components/AIPage/AIPage";
 
 export const ALLroutes = () => {
   return (
@@ -246,11 +250,10 @@ export const ALLroutes = () => {
       <Route path="/pharmacy" element={<Pharmacy/>} />
       <Route path="/bigdata-services" element={<BigDataServiceCom/>} />
       <Route path="/block-chain" element={<BlockChainPage/>} />
-
-      
-      
-
-
+      <Route path="/sports-betting" element={<SportsBetting/>} />
+      <Route path="/virtual-reality" element={<VRPage/>} />
+      <Route path="/internet-of-things" element={<IOTPage/>} />
+      <Route path="/artificial-inteligence" element={<AIPage/>} />
 
     </Routes>
   );

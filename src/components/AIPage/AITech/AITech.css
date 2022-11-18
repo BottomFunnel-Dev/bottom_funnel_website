@@ -1,0 +1,67 @@
+.AITech-main {
+  padding: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.AITech-main > h1 {
+  font-size: 32px;
+  margin-bottom: 1%;
+}
+
+.AITech-hr-line {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AITech-hr-line > div {
+  border: 2px solid #fc63b4;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.AITech-hr-line > span {
+  width: 46%;
+  height: 2px;
+  background-color: #fc63b4;
+  color: #fc63b4;
+}
+
+.AITech-Cards-container {
+  width: 90%;
+  height: fit-content;
+  margin: auto;
+  margin-top: 3%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AITech-Cards-main {
+  width: 13%;
+  height: 120px;
+  text-align: center;
+}
+
+.AITech-Cards-main > h3 {
+  font-size: 18px;
+  margin: 0px;
+  margin-top: 5%;
+}
+
+.AITech-Cards-main > div {
+  height: 50px;
+}
+
+.AITech-Cards-main > div > img {
+  height: 100%;
+}

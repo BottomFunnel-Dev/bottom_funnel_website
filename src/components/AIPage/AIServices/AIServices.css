@@ -1,0 +1,149 @@
+.AIServices-main {
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.AIServices-main > h1 {
+  font-size: 32px;
+  margin-bottom: 1%;
+}
+
+.AIServices-hr-line {
+  width: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AIServices-hr-line > div {
+  border: 2px solid #fc63b4;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.AIServices-hr-line > span {
+  width: 46%;
+  height: 2px;
+  background-color: #fc63b4;
+  color: #fc63b4;
+}
+
+.AIServices-main > p {
+  font-size: 16px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.AIServices-Content {
+  width: 90%;
+  margin: auto;
+}
+
+.AIServices-Content > div {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 3%;
+
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.AIServices-Content > div:last-child {
+  border-bottom: none;
+}
+
+.AIServices-Cards-Content {
+  width: 70%;
+}
+
+.AIServices-Cards-Content > h2 {
+  font-size: 25px;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.AIServices-Cards-Content > p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.AIServices-Cards-Images {
+  width: 25%;
+  background: #ffd1e9;
+  padding: 4px;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AIServices-Cards-Images > img {
+  width: 100%;
+}
+
+.AIServices-Button {
+  width: 500px;
+  height: fit-content;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  display: flex;
+  gap: 3%;
+  align-items: center;
+  justify-content: flex-end;
+
+  border-radius: 100px;
+  padding-left: 3%;
+
+  background: linear-gradient(to Right, #044088 60%, #b033a0);
+}
+
+.AIServices-Button > h3 {
+  font-size: 18px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.AIServices-Button > div {
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+
+  background: linear-gradient(to Right Bottom, #044088, #b033a0);
+  border-radius: 100px;
+  border: 2px solid white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AIServices-Button > div > div {
+  width: fit-content;
+  height: fit-content;
+
+  background: linear-gradient(to Bottom, #b033a0, #044088);
+  padding: 8px;
+  border-radius: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AIServices-Button > div > div > svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}

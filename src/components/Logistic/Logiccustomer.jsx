@@ -31,7 +31,7 @@ export default function Logiccustomer({ customerData }) {
             background: `url(${customerData.background})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            backgroundPosition:"center",
+            backgroundPosition: "center",
           }}
         >
           <div className="logistic-customer-image">
