@@ -32,6 +32,7 @@ export const Carpooling = () => {
       <Logiccustomer customerData={carpoolCustomer} />
       <Logicdrive driveData={carpoolDrive} />
       <Logisticadmin adminData={carpoolAdmin} />
+      
       <CarpoolingAction />
       <CarpoolingWhy />
 
