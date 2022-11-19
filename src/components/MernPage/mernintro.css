@@ -12,7 +12,7 @@
 .mainstackDiv {
   width: 100%;
   margin: auto;
-  background-color: #92bcd6;
+  background-color: #D6F8FF;
 }
 .stackflex {
   width: 80%;
@@ -33,7 +33,6 @@
     border-radius: 10px;
   display: flex;
   align-items: top;
-  border: 0.5px solid rgb(223, 221, 221);
 }
 
 .stackImage {

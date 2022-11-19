@@ -21,7 +21,7 @@ export const MernPoluparServices = ({ popularservice }) => {
               }}
               key={index}
               className="serviceContent"
-              style={toggle===index? {background:"red"}:{background:"green"}}
+              style={toggle===index? {background:"#34b0ca", borderRadius:"5px",color:"white"}:{background:"white"}}
             >
               <h4 className="h4Content">{item.serviceName}</h4>
             </div>

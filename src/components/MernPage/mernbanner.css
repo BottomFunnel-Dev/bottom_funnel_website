@@ -2,7 +2,6 @@
   width: 100%;
   margin-top: 90px;
   height: 628px;
-  background-color: green;
   position: relative;
 }
 
@@ -10,7 +9,7 @@
   width: 35%;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 45%;
+  top: 50%;
   left: 23%;
   /* background-color: red; */
   padding: 30px;
@@ -23,6 +22,10 @@
   font-size: 18px;
   border: none;
   border-radius: 10px;
+}
+.mernButton:hover {
+ background-color: #0FB2E8;
+ color: white;
 }
 
 .bannerIcons {

@@ -1,9 +1,9 @@
 export const mernbanner = {
   title: "Best Mern Services Around the Globe",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum temporibus perspiciatis laboriosam culpa vero, asperiores facilis hic similique libero provident.",
+    "MERN Stack Development services by Bottom Funnel will give you the edge in every aspect of web development. We are a team of experts with vast experience and expertise, and we understand the needs of businesses. With us, you can be sure that your website is built on a solid framework for future growth.",
   buttonStyle: {
-    color: "lightblue",
+    color: "#0FB2E8",
     backgroundColor: "white",
   },
   icons: [
