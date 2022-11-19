@@ -105,6 +105,7 @@
   text-underline-offset: 5px;
   text-decoration-thickness: 2px;
   cursor: pointer;
+  list-style: none;
 }
 .supportableDevices li:hover {
   font-size: 14px;

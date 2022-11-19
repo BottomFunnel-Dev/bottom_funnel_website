@@ -5,9 +5,8 @@ import { homeBannerData } from "../../Data/BannerData";
 
 export const CarpoolingBanner = () => {
   return (
-  <>
-    <MainBanner bannerData={homeBannerData} />
-  </>
-    
+    <>
+      <MainBanner bannerData={homeBannerData} />
+    </>
   );
 };

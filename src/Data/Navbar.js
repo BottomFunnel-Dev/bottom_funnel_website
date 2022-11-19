@@ -71,7 +71,7 @@ export const webservice = [
   {
     dropContent: "MERN Stack Development",
     navIcons: "Images/navbar/services/react.png",
-    path: "",
+    path: "mern-stack",
   },
   {
     dropContent: "MEAN Stack Development",

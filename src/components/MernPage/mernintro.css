@@ -1,0 +1,51 @@
+.mernintro {
+  width: 100%;
+  /* background-color: green; */
+}
+
+.stackintro {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.mainstackDiv {
+  width: 100%;
+  margin: auto;
+  background-color: #92bcd6;
+}
+.stackflex {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 15px;
+  padding: 15px;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+}
+
+.stackCard {
+    width: 45%;
+    height: max-content;
+    padding: 10px;
+    border-radius: 10px;
+  display: flex;
+  align-items: top;
+  border: 0.5px solid rgb(223, 221, 221);
+}
+
+.stackImage {
+  width: 30%;
+  height: 100%;
+}
+.stackImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: content;
+}
+.stackContent {
+  width: 70%;
+  height: 100%;
+}

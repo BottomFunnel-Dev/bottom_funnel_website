@@ -1,0 +1,29 @@
+.techgetstarted{
+    width: 100%;
+    height: 250px;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+
+}
+
+.techgetstarted>div{
+    color: white;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+
+}
+.techgetstarted>div>button{
+    color: white;
+    padding: 10px 30px;
+    background: transparent;
+    font-size: 18px;
+    border: 2px solid white;
+    font-weight: 600;
+    border-radius: 10px;
+}

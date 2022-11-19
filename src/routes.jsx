@@ -96,6 +96,7 @@ import { SportsBetting } from "./components/Sportsbetting/SportsBetting";
 import { VRPage } from "./components/VRPage/VRPage";
 import { IOTPage } from "./components/IOTPage/IOTPage";
 import { AIPage } from "./components/AIPage/AIPage";
+import { Mern } from "./components/MernPage/Mern";
 
 export const ALLroutes = () => {
   return (
@@ -254,6 +255,7 @@ export const ALLroutes = () => {
       <Route path="/virtual-reality" element={<VRPage/>} />
       <Route path="/internet-of-things" element={<IOTPage/>} />
       <Route path="/artificial-inteligence" element={<AIPage/>} />
+      {/* <Route path="/mern-stack" element={<Mern/>} /> */}
 
     </Routes>
   );
