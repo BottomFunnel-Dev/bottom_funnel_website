@@ -1,0 +1,38 @@
+.marketplaceclientmaindiv{
+
+    width: 90%;
+    margin-left: 50px;
+    margin-top: -150px;
+   
+}
+.marketplacedivbox{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.marketplacedivboxright{
+
+
+background-image: url("/public/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
+background-size: contain;
+background-repeat: no-repeat;
+width: 100%;
+
+}
+
+.imageinsider{
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+
+.imageinsider2{
+    height: 150px;
+    margin-top: 180px;
+    margin-left: -230px;
+}
+
+.textclient{
+    margin-left: 50px;
+}

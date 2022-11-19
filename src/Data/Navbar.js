@@ -407,7 +407,7 @@ export const ondemand = [
   {
     dropContent: "Marketplace Apps",
     navIcons: "Images/navbar/industriesImage/marketplace.png",
-    path: "",
+    path: "marketplace",
   },
   {
     dropContent: "Pickup & Delivery",

@@ -1,0 +1,24 @@
+.marketplacebanner{
+
+    background-image: url("/public/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png");
+  height: 700px;
+  width: 100%;
+object-fit: cover;
+}
+
+.marketplacebannertext{
+ 
+    height: 300px;
+    width: 30%;
+    margin-top: -430px;
+    color: white;
+    margin-left: 120px;
+}
+.marketplacebannerbutton{
+    background-color: #5B89FF;
+  width: 140px;
+  height: 40px;
+    border-radius: 5px;
+ color: white;
+ border: none;
+}

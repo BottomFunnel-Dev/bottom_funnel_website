@@ -97,6 +97,7 @@ import { VRPage } from "./components/VRPage/VRPage";
 import { IOTPage } from "./components/IOTPage/IOTPage";
 import { AIPage } from "./components/AIPage/AIPage";
 import { Mern } from "./components/MernPage/Mern";
+import { MarketPlace } from "./components/MarketPlace/MarketPlace";
 
 export const ALLroutes = () => {
   return (
@@ -256,6 +257,7 @@ export const ALLroutes = () => {
       <Route path="/internet-of-things" element={<IOTPage/>} />
       <Route path="/artificial-inteligence" element={<AIPage/>} />
       <Route path="/mern-stack" element={<Mern/>} />
+      <Route path="/marketplace" element={<MarketPlace/>} />
 
     </Routes>
   );

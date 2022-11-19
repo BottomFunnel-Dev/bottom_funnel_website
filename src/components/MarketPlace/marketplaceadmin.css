@@ -1,0 +1,77 @@
+.marketplacemaindiv{
+ 
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+    
+    
+    
+    }
+    
+
+
+
+
+.marketplaceadminbackgroundimg{
+    background-image: url("/public/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
+   width: 80%;
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    margin-left: -142px;
+    object-fit: cover;
+  
+
+
+}
+.marketplaceadminbackgroundimginner{
+
+
+    margin-left: 90%;
+    width: 46%;
+    height: 460px;
+}
+
+.insiderimg{
+    object-fit: cover;
+    height: 460px;
+    width: 60%;
+    margin-top: 50px;
+}
+.admintext{
+
+    margin-top: -400px;
+    height: 400px;
+    margin-left: 145px;
+}
+.bigtextadmin{
+    height: 80px;
+
+    margin-top: -140px;
+}
+
+
+
+.marketplacefreelancerflexbo{
+
+    height: 50%;
+        width: 100%;
+        display: grid;
+        
+     grid-template-columns: repeat(2,400px);
+
+     background-repeat: no-repeat;
+ 
+
+
+
+}
+
+.flexboxdivmarketplacefreeimgbo{
+
+    height: 100%;
+    width: 35%;
+
+}
