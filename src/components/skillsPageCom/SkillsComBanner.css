@@ -17,24 +17,23 @@
   text-align: center;
   width: fit-content;
   height: fit-content;
+  margin-top: 50px;
 }
 
 .skills-banner-content > h1 {
   font-size: 50px;
-  font-weight: bolder;
   margin: 0px;
 }
 
 .skills-banner-content > p {
   width: 65%;
   font-size: larger;
-  font-weight: bold;
   margin: auto;
   margin-top: 10px;
 }
 
 .skills-banner-main > button {
-  margin-top: 5%;
+  margin-top: 2%;
   font-size: 18px;
   font-weight: 600;
   outline: none;
@@ -51,4 +50,5 @@
 .skills-banner-main > button:hover {
   background-color: white;
   color: #ef4c34;
+  border: 2px solid white;
 }

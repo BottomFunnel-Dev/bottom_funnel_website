@@ -90,14 +90,15 @@ import { AboutUS } from "./components/aboutUsPage/AboutUS";
 import { ContactUS } from "./components/ContactUS/ContactUS";
 import { CareerPage } from "./components/CareerPage/CareerPage";
 import { Carpooling } from "./components/Carpooling/Carpooling";
-import {BigDataServiceCom} from './components/BigDataServiceCom/BigDataServiceCom'
+import { BigDataServiceCom } from "./components/BigDataServiceCom/BigDataServiceCom";
 import { BlockChainPage } from "./components/BlockChainPage/BlockChainPage";
 import { SportsBetting } from "./components/Sportsbetting/SportsBetting";
 import { VRPage } from "./components/VRPage/VRPage";
 import { IOTPage } from "./components/IOTPage/IOTPage";
 import { AIPage } from "./components/AIPage/AIPage";
 import { Mern } from "./components/MernPage/Mern";
-import { MarketPlace } from "./components/MarketPlace/MarketPlace";
+import { Marketplace } from "./components/MarketPlace/Marketplace";
+import { AwardsPage } from "./components/AwardsPage/AwardsPage";
 
 export const ALLroutes = () => {
   return (
@@ -236,29 +237,29 @@ export const ALLroutes = () => {
       <Route path="/taxi-booking" element={<Taxibooking />} />
       <Route path="/Logistics" element={<Logicstic />} />
       <Route path="/wellness" element={<Wellness />} />
-      <Route path="/politics" element={<Politics/>} />
-      <Route path="/news" element={<News/>} />
-      <Route path="/pricing" element={<PricingPage/>} />
-      <Route path="/events" element={<Event/>} />
+      <Route path="/politics" element={<Politics />} />
+      <Route path="/news" element={<News />} />
+      <Route path="/pricing" element={<PricingPage />} />
+      <Route path="/events" element={<Event />} />
 
-      <Route path="/saas" element={<SaasPage/>} />
-      <Route path="/client-reviews" element={<ClientReview/>} />
-      <Route path="/our-clients" element={<OurClient/>} />
-      <Route path="/pickup&delivery" element={<PickupDelivery/>} />
-      <Route path="/about-us" element={<AboutUS/>} />
-      <Route path="/contact-us" element={<ContactUS/>} />
-      <Route path="/career" element={<CareerPage/>} />
-      <Route path="/carpooling" element={<Carpooling/>} />
-      <Route path="/pharmacy" element={<Pharmacy/>} />
-      <Route path="/bigdata-services" element={<BigDataServiceCom/>} />
-      <Route path="/block-chain" element={<BlockChainPage/>} />
-      <Route path="/sports-betting" element={<SportsBetting/>} />
-      <Route path="/virtual-reality" element={<VRPage/>} />
-      <Route path="/internet-of-things" element={<IOTPage/>} />
-      <Route path="/artificial-inteligence" element={<AIPage/>} />
-      <Route path="/mern-stack" element={<Mern/>} />
-      <Route path="/marketplace" element={<MarketPlace/>} />
-
+      <Route path="/saas" element={<SaasPage />} />
+      <Route path="/client-reviews" element={<ClientReview />} />
+      <Route path="/our-clients" element={<OurClient />} />
+      <Route path="/pickup&delivery" element={<PickupDelivery />} />
+      <Route path="/about-us" element={<AboutUS />} />
+      <Route path="/contact-us" element={<ContactUS />} />
+      <Route path="/career" element={<CareerPage />} />
+      <Route path="/carpooling" element={<Carpooling />} />
+      <Route path="/pharmacy" element={<Pharmacy />} />
+      <Route path="/bigdata-services" element={<BigDataServiceCom />} />
+      <Route path="/block-chain" element={<BlockChainPage />} />
+      <Route path="/sports-betting" element={<SportsBetting />} />
+      <Route path="/virtual-reality" element={<VRPage />} />
+      <Route path="/internet-of-things" element={<IOTPage />} />
+      <Route path="/artificial-inteligence" element={<AIPage />} />
+      <Route path="/mern-stack" element={<Mern />} />
+      <Route path="/marketplace" element={<Marketplace />} />
+      <Route path="/awards" element={<AwardsPage />} />
     </Routes>
   );
 };

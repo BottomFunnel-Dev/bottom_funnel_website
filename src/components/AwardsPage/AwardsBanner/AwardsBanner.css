@@ -1,0 +1,73 @@
+.AwardsBanner-main {
+  height: 100vh;
+  position: relative;
+
+  background: url("/public/Images/AwardsPhotos/banner-background.jpg");
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Awardsbanner-content-main {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  gap: 3%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Awardsbanner-content {
+  width: 40%;
+  text-align: center;
+}
+
+.Awardsbanner-content > h1 {
+  font-size: 37px;
+  margin-bottom: 3%;
+}
+
+.Awardsbanner-content > p {
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.Awardsbanner-content > button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 60px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 3%;
+
+  outline: none;
+  border: none;
+  background-color: #ef4c34;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Awardsbanner-content > button:hover {
+  background-color: white;
+  color: #ef4c34;
+}
+
+.Awardsbanner-image {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Awardsbanner-image > img {
+  height: 100%;
+}
