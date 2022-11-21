@@ -1,0 +1,73 @@
+.NewsEventCards-main {
+  width: 47%;
+  margin-bottom: 2%;
+  padding: 1%;
+  height: 200px;
+  cursor: pointer;
+  transition: transform 0.5s linear;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.NewsEventCards-image {
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NewsEventCards-image > img {
+  width: 70%;
+}
+
+.NewsEventCards-Content {
+  width: 65%;
+  height: fit-content;
+  text-align: left;
+}
+
+.NewsEventCards-Content > h2 {
+  font-size: 25px;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.NewsEventCards-Content > p {
+  font-size: 16px;
+  text-align: justify;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.NewsEventCards-Content > button {
+  margin-top: 5px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background: none;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  width: fit-content;
+  height: fit-content;
+  padding: 0px;
+}
+
+.NewsEventCards-main:hover {
+  transform: scale(101%) translateY(-3%);
+}
+
+.NewsEventCards-main:hover .NewsEventCards-Content > h2,
+.NewsEventCards-main:hover .NewsEventCards-Content > button {
+  color: #ef3c23;
+}

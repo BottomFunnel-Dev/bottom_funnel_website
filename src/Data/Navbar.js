@@ -40,7 +40,7 @@ export const whyBottom = [
   {
     dropContent: "Press and Media",
     navIcons: "Images/navbar/aboutImage/pressandmedia.png",
-    path: "",
+    path: "PressAndMedia",
   },
 ];
 
@@ -210,7 +210,7 @@ export const trendingTech = [
   {
     dropContent: "Machine Learning",
     navIcons: "Images/navbar/services/machinelearning.png",
-    path: "",
+    path: "machine-learning",
   },
   {
     dropContent: "Artificial Intelligence",

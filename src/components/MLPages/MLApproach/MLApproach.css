@@ -1,0 +1,23 @@
+.MLApproach-main {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+.MLApproach-main > h1 {
+  font-size: 32px;
+}
+
+.MLApproach-main > p {
+  font-size: 16px;
+}
+
+.MLApproach-image {
+  width: 80%;
+  margin: auto;
+}
+
+.MLApproach-image > img {
+  width: 100%;
+}

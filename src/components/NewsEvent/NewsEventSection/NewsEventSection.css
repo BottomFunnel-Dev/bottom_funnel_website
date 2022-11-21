@@ -1,0 +1,12 @@
+.NewsEventSection-main {
+  width: 95%;
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.NewsEventSection-main > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

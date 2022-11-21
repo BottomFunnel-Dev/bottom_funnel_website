@@ -99,6 +99,8 @@ import { AIPage } from "./components/AIPage/AIPage";
 import { Mern } from "./components/MernPage/Mern";
 import { Marketplace } from "./components/MarketPlace/Marketplace";
 import { AwardsPage } from "./components/AwardsPage/AwardsPage";
+import { NewsEvent } from "./components/NewsEvent/NewsEvent";
+import { MLPages } from "./components/MLPages/MLPages";
 
 export const ALLroutes = () => {
   return (
@@ -260,6 +262,8 @@ export const ALLroutes = () => {
       <Route path="/mern-stack" element={<Mern />} />
       <Route path="/marketplace" element={<Marketplace />} />
       <Route path="/awards" element={<AwardsPage />} />
+      <Route path="/PressAndMedia" element={<NewsEvent />} />
+      <Route path="/machine-learning" element={<MLPages />} />
     </Routes>
   );
 };
