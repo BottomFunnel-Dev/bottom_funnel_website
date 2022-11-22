@@ -5,16 +5,16 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 export const EnterpriseSlider = () => {
   const data = [
-    "Images/EnterpriseWebPhotos/ajax.png",
-    "Images/EnterpriseWebPhotos/angular-js.png",
-    "Images/EnterpriseWebPhotos/css.png",
-    "Images/EnterpriseWebPhotos/icon-html5.png",
-    "Images/EnterpriseWebPhotos/icon-jquery.png",
-    "Images/EnterpriseWebPhotos/icon-node-js.png",
-    "Images/EnterpriseWebPhotos/javascript.png",
-    "Images/EnterpriseWebPhotos/jquery-mobile.png",
-    "Images/EnterpriseWebPhotos/react-js.png",
-    "Images/EnterpriseWebPhotos/bootstrap.png",
+    "Images/enterpriseWebPhotos/ajax.png",
+    "Images/enterpriseWebPhotos/angular-js.png",
+    "Images/enterpriseWebPhotos/css.png",
+    "Images/enterpriseWebPhotos/icon-html5.png",
+    "Images/enterpriseWebPhotos/icon-jquery.png",
+    "Images/enterpriseWebPhotos/icon-node-js.png",
+    "Images/enterpriseWebPhotos/javascript.png",
+    "Images/enterpriseWebPhotos/jquery-mobile.png",
+    "Images/enterpriseWebPhotos/react-js.png",
+    "Images/enterpriseWebPhotos/bootstrap.png",
   ];
 
   const NextArrow = ({ onClick }) => {

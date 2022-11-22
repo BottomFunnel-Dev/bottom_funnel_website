@@ -8,16 +8,16 @@ export const mernbanner = {
   },
   icons: [
     {
-      img: "Images/mern/vector-2.png",
+      img: "Images/mern/Vector-2.png",
     },
     {
-      img: "Images/mern/vector-3.png",
+      img: "Images/mern/Vector-3.png",
     },
     {
-      img: "Images/mern/vector-1.png",
+      img: "Images/mern/Vector-1.png",
     },
     {
-      img: "Images/mern/vector-4.png",
+      img: "Images/mern/Vector-4.png",
     },
   ],
   background: "Images/mern/bannerback.png",
