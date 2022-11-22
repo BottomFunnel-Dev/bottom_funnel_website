@@ -1,6 +1,6 @@
 ._Seoblogs12 {
   padding: 30px;
-  width: 90%;
+  width: 100%;
 
   margin: 20px auto;
 }
@@ -31,14 +31,12 @@
   /* background-color: #ef4c23; */
   border-radius: 10px;
   width: 23%;
-  height: 370px;
   box-shadow: 0px 0px 30px 2px rgb(236 234 234);
-  margin-top: 8px;
   box-sizing: border-box;
 }
 ._Seoblogs1:hover {
-  margin: 0;
   transition: all .3s linear;
+  transform: scale(1.02);
   /* box-shadow: 0px 1px 1px 1px rgb(210, 207, 207); */
   box-shadow: 1px 1px 30px 2px rgb(236 234 234);
 
@@ -66,11 +64,11 @@
  padding: 10px;
 }
 ._Seoblogstext p:nth-child(1) {
- font-size: 18px;
  font-weight: 500;
- color: #ef4c23;
+ color: #393939;
 
  margin: 0;
+ margin-bottom: 10px;
 
 }
 ._Seoblogstext p:nth-child(2) {

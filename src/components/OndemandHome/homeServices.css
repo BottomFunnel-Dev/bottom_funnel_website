@@ -32,6 +32,7 @@
   width: 100%;
   height: 50%;
   object-fit: cover;
+  overflow: hidden;
 }
 .homeServices > div >h5{
  margin-top: 5px;

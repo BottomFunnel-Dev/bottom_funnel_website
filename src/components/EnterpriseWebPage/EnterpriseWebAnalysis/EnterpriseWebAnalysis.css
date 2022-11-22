@@ -1,0 +1,33 @@
+.EnterpriseWebAnalysis-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.EnterpriseWebAnalysis-card {
+  width: 14%;
+  text-align: center;
+  border-right: 2px solid gray;
+}
+
+.EnterpriseWebAnalysis-card > h1 {
+  font-size: 40px;
+  margin: 0 0 2% 0;
+  color: #ef4c23;
+}
+
+.EnterpriseWebAnalysis-card > h3 {
+  font-size: 20px;
+  margin: 1% 0 0 0;
+}
+
+.EnterpriseWebAnalysis-image {
+  width: 40%;
+}
+.EnterpriseWebAnalysis-image > img {
+  width: 100%;
+}

@@ -34,25 +34,25 @@ const HomeServices = () => {
       serviceName: "Beauty & Salon",
     },
     {
-      serviceimage: "Images/ondemandHome/cleaning.png",
+      serviceimage: "Images/ondemandHome/childcare.png",
       serviceDescription:
         "Show your care for your customers by covering their child care problems with an on-demand home service application",
       serviceName: "Child Care",
     },
     {
-      serviceimage: "Images/ondemandHome/carpenter.png",
+      serviceimage: "Images/ondemandHome/electrical.png",
       serviceDescription:
         "Provide your customers quick, easy and affordable electrician services through our on-demand electrical service solution.",
       serviceName: "Electrical service",
     },
     {
-      serviceimage: "Images/ondemandHome/washing.png",
+      serviceimage: "Images/ondemandHome/painting.png",
       serviceDescription:
         "Transform your business with customized on demand home services by your painters through this app.",
       serviceName: "Painting service",
     },
     {
-      serviceimage: "Images/ondemandHome/washing.png",
+      serviceimage: "Images/ondemandHome/plumbing.png",
       serviceDescription:
         "Get the plumbing service your business needs, all through our easy-touse platform of on-demand home service app.",
       serviceName: "Plumbing services",

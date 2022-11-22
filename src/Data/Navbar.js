@@ -260,7 +260,7 @@ export const trendingTech = [
   {
     dropContent: "Enterprise Solutions",
     navIcons: "Images/navbar/services/enterprise.png",
-    path: "",
+    path: "enterprise-solutions",
   },
   {
     dropContent: "Metaverse Services",

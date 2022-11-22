@@ -33,6 +33,8 @@ const Trusted = ({ partnerLogo}) => {
             </div>
           ))}
 
+          
+
           {/* <div className="_Seobrandimg">
             <img src="Images/seopages/brand2.png" alt="image.jpg" />
           </div>

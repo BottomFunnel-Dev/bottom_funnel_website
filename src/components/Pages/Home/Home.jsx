@@ -17,6 +17,7 @@ import OndemandSection from "../../OnDemandSection/OndemandSection";
 import PortFolio from "../../PortFolioSection/PortFolio";
 import { ParallexSection } from "../../Parallex/ParallexSection";
 import { Helmet } from "react-helmet";
+import EnquiryNow from "../../SEO/EnquiryNow/EnquiryNow";
 
 export const HomePage = () => {
   return (
@@ -32,7 +33,6 @@ export const HomePage = () => {
         />
       </Helmet>
       <Banner />
-
       <CompanyLogo />
       <About />
       <Services />

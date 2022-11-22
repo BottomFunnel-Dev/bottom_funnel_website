@@ -109,7 +109,7 @@ export const homesolutionsLogo = {
       partnerImage: "Images/seopages/home solutions/porch.png",
     },
     {
-      partnerImage: "Images/seopages/home solutions/thumntack.png",
+      partnerImage: "Images/seopages/home solutions/thumbtack.png",
     },
     {
       partnerImage: "Images/seopages/home solutions/urban company.png",

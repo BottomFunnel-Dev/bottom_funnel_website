@@ -19,28 +19,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContectForm = () => {
-  const form = useRef();
-
-  const serviceID = "service_219qjzb";
-  const template = "template_0fxfi75";
-  const publicKey = "w37MD2W3eugHo9N6r";
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm(serviceID, template, form.current, publicKey).then(
-      (result) => {
-        console.log(result.text);
-        alert("email sent successfully");
-        console.log("successfull")
-      },
-      (error) => {
-        console.log(error.text);
-        console.log("failed");
-      }
-    );
-
-  };
+  
 
   return (
     <div className="mainLeadform">
@@ -90,7 +69,7 @@ const ContectForm = () => {
             </div>
           </div>
         </div>
-        <form ref={form} onSubmit={sendEmail} className="formPart">
+        <form  className="formPart">
           <div className="formSection">
             <div className="inputWithIcon">
               <IconContext.Provider value={{ className: "formIcon" }}>
