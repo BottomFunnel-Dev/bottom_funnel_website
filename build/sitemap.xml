@@ -9,202 +9,37 @@
 
 <url>
   <loc>https://bottomfunnel.net/</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
+  <lastmod>2022-21-11T11:28:24+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://bottomfunnel.net/nodejs</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/php</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/dotnet</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/laravel</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/django</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/cakephp</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/codeigniter</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/reactjs</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/angular</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/springboot</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/hibernate</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/emberjs</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/backbonejs</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/microsoftSQL</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/jquery</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/nextjs</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/svelte</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
+  <lastmod>2022-21-11T11:28:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bottomfunnel.net/mongodb</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/mySQL</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/postgreSQL</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
+  <lastmod>2022-21-11T11:28:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bottomfunnel.net/redis</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
+  <lastmod>2022-21-11T11:28:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bottomfunnel.net/wordpress</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
+  <loc>https://bottomfunnel.net/sports-betting</loc>
+  <lastmod>2022-21-11T11:28:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bottomfunnel.net/wix</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
+  <loc>https://bottomfunnel.net/mern-stack</loc>
+  <lastmod>2022-21-11T11:28:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bottomfunnel.net/joomla</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/hubspot</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/woo-commerce</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/drupal</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/bigcommerce</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/ibm-db</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/elasticsearch</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/SQLite</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/Cassandra</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/flask</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/golang</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/struts</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/symfony</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/grails</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/jsf</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bottomfunnel.net/phalcon</loc>
-  <lastmod>2022-11-11T11:28:24+00:00</lastmod>
+  <loc>https://bottomfunnel.net/carpooling</loc>
+  <lastmod>2022-21-11T11:28:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
