@@ -1,3 +1,37 @@
+export const partnerlocalseoData = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/brand1.png",
+    },
+    {
+      partnerImage: "Images/seopages/brand2.png",
+    },
+    {
+      partnerImage: "Images/seopages/brand3.png",
+    },
+    {
+      partnerImage: "Images/seopages/brand4.png",
+    },
+    {
+      partnerImage: "Images/seopages/brand5.png",
+    },
+    {
+      partnerImage: "Images/seopages/brand6.png",
+    },
+    {
+      partnerImage: "Images/seopages/brand7.png",
+    },
+    {
+      partnerImage: "Images/seopages/brand8.png",
+    },
+    {
+      partnerImage: "Images/seopages/brand9.png",
+    },
+  ],
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
 export const partnerData = {
   logo: [
     {

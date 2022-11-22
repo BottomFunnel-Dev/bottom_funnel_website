@@ -19,6 +19,7 @@ import MainFooter from "../../FooterSection/MainFooter";
 import Seostats from "../../SEO/Seostats/Seostats";
 import SeoServices from "../../SEO/SeoServices/SeoServices";
 import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
+import { partnerlocalseoData } from "../../../Data/SeopartnerData";
 
 const SeoLocal = () => {
   return (
@@ -27,7 +28,7 @@ const SeoLocal = () => {
       <Seostats />
       <Reviews />
       {/* <Seotrusted /> */}
-      <Trusted/>
+      <Trusted partnerLogo= { partnerlocalseoData}/>
       <SeoServices/>
       {/* <SeoLocalServices /> */}
       <StoriesSection />

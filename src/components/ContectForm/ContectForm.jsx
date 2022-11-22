@@ -21,30 +21,25 @@ import emailjs from "@emailjs/browser";
 const ContectForm = () => {
   const form = useRef();
 
-  const serviceID = "service_n0kb2p4";
+  const serviceID = "service_219qjzb";
   const template = "template_0fxfi75";
   const publicKey = "w37MD2W3eugHo9N6r";
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        serviceID,
-        template,
-        form.current,
-        publicKey
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("success")
-        },
-        (error) => {
-          console.log(error.text);
-          console.log("failed")
-        }
-      );
+    emailjs.sendForm(serviceID, template, form.current, publicKey).then(
+      (result) => {
+        console.log(result.text);
+        alert("email sent successfully");
+        console.log("successfull")
+      },
+      (error) => {
+        console.log(error.text);
+        console.log("failed");
+      }
+    );
+
   };
 
   return (
@@ -101,13 +96,23 @@ const ContectForm = () => {
               <IconContext.Provider value={{ className: "formIcon" }}>
                 <BsFillPersonFill />
               </IconContext.Provider>
-              <input type="text" className="inputPart" placeholder="Name" name="user_name" />
+              <input
+                type="text"
+                className="inputPart"
+                placeholder="Name"
+                name="user_name"
+              />
             </div>
             <div className="inputWithIcon">
               <IconContext.Provider value={{ className: "formIcon" }}>
                 <AiTwotoneMail />
               </IconContext.Provider>
-              <input type="text" className="inputPart" placeholder="Email" name="user_email" />
+              <input
+                type="text"
+                className="inputPart"
+                placeholder="Email"
+                name="user_email"
+              />
             </div>
             <div className="phoneClass">
               <IconContext.Provider value={{ className: "formIcon" }}>
@@ -184,7 +189,7 @@ const ContectForm = () => {
             </strong> */}
           </div>
           <div className="robotCaptcha">
-           <input type="submit" value="Send Your Enquiry" />
+            <input type="submit" value="Send Your Enquiry" />
           </div>
         </form>
       </div>

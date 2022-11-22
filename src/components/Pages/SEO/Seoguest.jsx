@@ -11,6 +11,7 @@ import ContectForm from "../../ContectForm/ContectForm";
 import MainFooter from "../../FooterSection/MainFooter";
 import SeoServices from "../../SEO/SeoServices/SeoServices";
 import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
+import { partnerlocalseoData } from "../../../Data/SeopartnerData";
 
 const Seoguest = () => {
   return (
@@ -19,7 +20,7 @@ const Seoguest = () => {
       <Seostats />
       <Reviews />
       {/* <Seotrusted /> */}
-      <Trusted />
+      <Trusted partnerLogo={partnerlocalseoData} />
 
       <SeoguestEnquiryNow />
       {/* <SeoguestServices /> */}

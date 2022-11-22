@@ -6,7 +6,7 @@ import hdfc from '../ImageSection/HDFC.jpg';
 import airtel from '../ImageSection/Airtel.jpg';
 import Hindustan from '../ImageSection/Hindustan.jpg';
 import Google from "../ImageSection/Google.jpg";
-const SeoLocalTrusted = () => {
+const SeoLocalTrusted = ({}) => {
     const settings = {
         infinite: true,
         speed: 1000,
