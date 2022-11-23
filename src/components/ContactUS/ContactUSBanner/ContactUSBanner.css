@@ -1,16 +1,97 @@
 .ContactUSBanner-main {
-  height: 60vh;
-  background: url("/public/Images/ContactUS/banner.jpg");
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 90vh;
+  background: #f5f5f5;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
-.ContactUSBanner-main > h1 {
-  font-size: 37px;
-  text-shadow: 5px 5px 4px #ef4c34;
+.ContactUsBanner-image {
+  width: 35%;
+  height: 60%;
+  text-align: center;
+}
+
+.ContactUsBanner-image > img {
+  height: 100%;
+}
+
+.ContactUsBanner-Content {
+  width: 50%;
+}
+
+.ContactUsBanner-Content > h1 {
+  font-size: 50px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.ContactUsBanner-Content > div {
+  height: 1px;
+  width: 60%;
+  background-color: gray;
+}
+
+.ContactUsBanner-Content > p {
+  font-size: 16px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.ContactUsBanner-Content > button {
+  font-size: 18px;
+  font-weight: 600;
+  background: #ef4c23;
+  color: white;
+  cursor: pointer;
+
+  margin-top: 2%;
+  padding: 10px 50px;
+
+  border-radius: 100px;
+  border: 2px solid #ef4c23;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ContactUsBanner-Content > button:hover {
+  color: #ef4c23;
+  background: white;
+}
+
+.ContactUsBanner-animated-title {
+  font-size: 40px;
+  position: relative;
+  color: #ef4c23;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.ContactUsBanner-animated-title::after {
+  content: "|";
+  position: absolute;
+  font-size: 40px;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+  height: 100%;
+  background-color: #f5f5f5;
+  color: #393939;
+  animation: animateTitle 10s linear infinite, caret 1s infinite;
+}
+
+@keyframes animateTitle {
+  0% {
+    width: 100%;
+  }
+
+  50% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
 }

@@ -1,0 +1,105 @@
+.StartupSolOfferCard-container {
+  width: 90%;
+  margin: 1% auto 1% auto;
+}
+
+.StartupSolOfferCard-Button {
+  width: 600px;
+  height: fit-content;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  display: flex;
+  gap: 3%;
+  align-items: center;
+  justify-content: flex-end;
+
+  border-radius: 100px;
+  padding-left: 3%;
+
+  background: linear-gradient(to Right, #ee0a26 60%, #fa00ff);
+}
+
+.StartupSolOfferCard-Button > h3 {
+  font-size: 18px;
+  width: fit-content;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.StartupSolOfferCard-Button > div {
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+
+  background: linear-gradient(to Bottom, #ee0a26, #fa00ff);
+  border-radius: 100px;
+  border: 2px solid white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.StartupSolOfferCard-Button > div > div {
+  width: fit-content;
+  height: fit-content;
+
+  background: linear-gradient(to Bottom, #fa00ff, #ee0a26);
+  padding: 8px;
+  border-radius: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.StartupSolOfferCard-Button > div > div > svg {
+  width: 23px;
+  height: 23px;
+  color: white;
+}
+
+.StartupSolOfferCard-main {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.StartupSolOfferCard-main > div {
+  width: 45%;
+  margin-bottom: 2%;
+  padding: 2%;
+
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.StartupSolOfferCard-main > div > h2 {
+  font-size: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.StartupSolOfferCard-main > div > p {
+  font-size: 16px;
+  text-align: justify;
+
+  margin: 1% auto 1% auto;
+}
+
+.StartupSolOfferCard-main > div > div {
+  width: fit-content;
+  height: 80px;
+}
+
+.StartupSolOfferCard-main > div > div > img {
+  height: 100%;
+}

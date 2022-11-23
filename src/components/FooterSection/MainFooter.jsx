@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import FooterTable from "./FooterTable";
 import "./mainFooter.css";
 
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Modal from "@mui/material/Modal";
+import { PopupForm } from "../PopupForm/PopupForm";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import { FiChevronDown } from "react-icons/fi";
 import { AiOutlineMail } from "react-icons/ai";
@@ -18,6 +23,25 @@ import { AiFillInstagram } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
 import MoreServices from "./MoreServices";
 const MainFooter = () => {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: 700,
+    height: 550,
+    bgcolor: "background.paper",
+    border: "2px solid #000",
+    // boxShadow: 24,
+    backgorund: "green",
+    p: 1,
+    borderRadius: 2
+  };
+
+
   const [more, setMore] = useState(false);
   const address = [
     {
@@ -147,7 +171,32 @@ const MainFooter = () => {
         {/* <p>Lorem ipsum dolor sit amet.</p> */}
         <div className="startWith">
           <h3>Start With Bottom Funnel Today</h3>
-          <button>Plan Project</button>
+          <button onClick={handleOpen}>Plan Project</button>
+
+          <Modal
+                      open={open}
+                      onClose={handleClose}
+                      aria-labelledby="modal-modal-title"
+                      aria-describedby="modal-modal-description"
+                    >
+                      <Box sx={style}>
+                        <Typography
+                          id="modal-modal-title"
+                          variant="h6"
+                          component="h2"
+                        >
+                          <div className="popform">
+
+
+                            <PopupForm/>
+                          </div>
+                        </Typography>
+                       
+                         
+                      </Box>
+                    </Modal>
+
+
         </div>
 
         <div className="footerServices">

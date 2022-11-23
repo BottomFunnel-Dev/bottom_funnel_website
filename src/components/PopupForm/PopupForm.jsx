@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./popup.css";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
+
 import { IconContext } from "react-icons/lib";
 import {
   BsFillPersonFill,
@@ -30,7 +29,6 @@ export const PopupForm = () => {
       (result) => {
         console.log(result.text);
         alert("email sent successfully");
-        console.log("successfull");
       },
       (error) => {
         console.log(error.text);

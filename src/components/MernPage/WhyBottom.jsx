@@ -25,5 +25,5 @@ export const WhyBottom = ({ whyContent }) => {
         ))}
       </div>
     </div>
-  );
+  );  
 };

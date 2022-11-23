@@ -22,3 +22,10 @@ export const mernbanner = {
   ],
   background: "Images/mern/bannerback.png",
 };
+
+export const webDevMain = {
+  background: "Images/webdevmain/webbanner.png",
+  title: "Best Web Development Around the Globe",
+  description:
+    "Web Development services by Bottom Funnel will give you the edge in every aspect of web development. We are a team of experts with vast experience and expertise, and we understand the needs of businesses. With us, you can be sure that your website is built on a solid framework for future growth.",
+};

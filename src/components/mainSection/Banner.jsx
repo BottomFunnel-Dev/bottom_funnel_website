@@ -35,9 +35,9 @@ const Banner = () => {
   var settings = {
     autoplay: true,
     dots: false,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 5000,
     cssEase: "linear",
-    speed: 2000,
+    speed: 500,
     swipeToSlide: true,
     slidesToShow: 1,
     pauseOnHover: true,

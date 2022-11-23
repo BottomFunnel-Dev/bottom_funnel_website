@@ -1,4 +1,6 @@
 export const mernWhyContent = {
+  intro:
+    "Bottom funnel is a term used for the agile software development methodology, which has gained prominence over the years. Mern is a software implementation methodology that focuses on customer engagement. Specially, it is implemented for e-commerce websites as they play an important role in branding and marketing of a business",
   feature: [
     {
       title: "Agile",

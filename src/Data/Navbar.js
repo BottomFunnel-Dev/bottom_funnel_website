@@ -255,7 +255,7 @@ export const trendingTech = [
   {
     dropContent: "StartUp Solutions",
     navIcons: "Images/navbar/services/startup.png",
-    path: "",
+    path: "startup-solutions",
   },
   {
     dropContent: "Enterprise Solutions",

@@ -458,6 +458,16 @@
   text-decoration: none;
   color: #ef4c23;
 }
+.noStyleMain {
+  text-decoration: none;
+  color: #ef4c23;
+  cursor: pointer;
+}
+
+.noStyleMain:hover {
+  text-decoration: none;
+  color: #ef4c23;
+}
 
 .sideNav {
   width: 10%;

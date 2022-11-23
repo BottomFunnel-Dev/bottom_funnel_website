@@ -1,0 +1,36 @@
+.StartupSolWhyBF-main {
+  width: 90%;
+  margin: auto;
+}
+
+.StartupSolWhyBF-main > h1 {
+  font-size: 32px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.StartupSolWhyBF-container {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.StartupSolWhyBF-content {
+  border: 1px solid green;
+  width: 45%;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.StartupSolWhyBF-image {
+  width: 50%;
+  height: fit-content;
+}
+
+.StartupSolWhyBF-image > img {
+  width: 100%;
+}

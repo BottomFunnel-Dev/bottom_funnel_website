@@ -320,9 +320,16 @@ export const NavbarMain = () => {
           {sidetoggle === "Technologies" && (
             <div className="dropdownSection">
               <div className="serviceDropdownContent">
-                <Link className="noStyle">
-                  <h5>Web Development</h5>
-                </Link>
+                <h5
+                  className="noStyleMain"
+                  onClick={() => {
+                    navigate(`web-development`);
+                    solHoverOut();
+                  }}
+                >
+                  Web Development
+                </h5>
+
                 <div className="listItems">
                   {webservice.map((item, i) => (
                     <div
@@ -463,7 +470,10 @@ export const NavbarMain = () => {
                 </div>
                 <div className="discoverleftbottom">
                   <h3>
-                    Learn more About <span>Our services <BsArrowRight/></span>
+                    Learn more About{" "}
+                    <span>
+                      Our services <BsArrowRight />
+                    </span>
                   </h3>
                 </div>
               </div>
@@ -489,7 +499,10 @@ export const NavbarMain = () => {
                 </div>
                 <div className="discoverleftbottom">
                   <h3>
-                    Learn more About <span>Our services <BsArrowRight /></span>
+                    Learn more About{" "}
+                    <span>
+                      Our services <BsArrowRight />
+                    </span>
                   </h3>
                 </div>
               </div>
@@ -675,7 +688,10 @@ export const NavbarMain = () => {
                 </div>
                 <div className="discoverleftbottom">
                   <h3>
-                    Learn more About <span>Our services <BsArrowRight /></span>
+                    Learn more About{" "}
+                    <span>
+                      Our services <BsArrowRight />
+                    </span>
                   </h3>
                 </div>
               </div>
