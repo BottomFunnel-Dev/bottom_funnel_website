@@ -7,17 +7,20 @@ import OndemandSection from "../OnDemandSection/OndemandSection";
 import PlanProject from "../PlanProject/PlanProject";
 import PortFolio from "../PortFolioSection/PortFolio";
 import Revamping from "../revamping/Revamping";
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
 import { BettingSpecial } from "./BettingSpecial";
 import { Bettingwhy } from "./Bettingwhy";
 import { SportsBanner } from "./SportsBanner";
 import { SportsPanels } from "./SportsPanels";
+import { sportsBettingLogo } from "../../Data/SeopartnerData";
 
 export const SportsBetting = () => {
   return (
     <div>
       <SportsBanner />
+      <Trusted partnerLogo={sportsBettingLogo}/>
       <SportsPanels />
       <BettingSpecial />
       <Bettingwhy />

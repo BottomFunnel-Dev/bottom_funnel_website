@@ -5,9 +5,7 @@ export const GetStarted = () => {
     <div className="getStarted">
       <div className="getText">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
-          doloribus.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, distinctio? elit. Officiis, distinctio?
+        Don't wait any longer! Contact bottom funnel today and let us build your next success story!
         </p>
         <button>Let's get Started</button>
       </div>

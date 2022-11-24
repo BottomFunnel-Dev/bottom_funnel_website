@@ -31,56 +31,50 @@ export const mernservices = {
 export const webDevServices = {
   title: "Web Development Services Provided By Us",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio, similique nam ipsa impedit commodi? Libero facere, voluptatem consectetur ab provident cupiditate unde. Vel praesentium deserunt placeat ducimus dolorum rem obcaecati neque esse iure ad ullam, sint sed nobis magni nihil quam quas eos? Dolorem sapiente architecto ad? Nulla, in",
+    "With our years of experience in the industry, we understand how important it is to deliver a user-friendly experience that converts visitors into customers. That's why we take pride in offering cutting-edge website design and SEO strategies that will ensure your website gets noticed by potential clients. We offer a wide range of services including online marketing, mobile app development, search engine optimization (SEO), e-commerce solutions, and more! So whether you're looking for help with branding or expanding your online presence, we have you covered.",
   serviceCard: [
     {
       icon: "Images/webdevmain/Cms.png",
       alt: "Images/webdevmain/Cms.png",
       serviceTitle: "CMS Website Development",
       serviceDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio, similique nam ipsa impedit commodi? Libero facere, voluptatem consectetur ab provident cupiditate unde.",
+      "our CMS Website Development service is just the thing for you! We provide expert domain knowledge, web designing skills and marketing tactics that help you achieve your goal in a short period of time.",
     },
     {
       icon: "Images/webdevmain/Ecommerce.png",
       alt: "Images/webdevmain/Cms.png",
       serviceTitle: "Ecommerce Development",
       serviceDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio, similique nam ipsa impedit commodi? Libero facere, voluptatem consectetur ab provident cupiditate unde.",
+        "Our team is expert in designing ecommerce sites that convert quickly and delight customers by delivering a seamless user experience. We understand how important it is for a site to look professional and have all the right features in place that make it easy to navigate and use.",
     },
     {
       icon: "Images/webdevmain/Python.png",
       alt: "Images/webdevmain/Cms.png",
       serviceTitle: "Python Development",
       serviceDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio, similique nam ipsa impedit commodi? Libero facere, voluptatem consectetur ab provident cupiditate unde.",
+        "We are here to help with development of Python projects so that they run smoothly and perform as expected. By using our services, your business can save precious time and resources while also ensuring optimal performance and uptime.",
     },
     {
       icon: "Images/webdevmain/wordpress.png",
       alt: "Images/webdevmain/Cms.png",
       serviceTitle: "Wordpress Development",
       serviceDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio, similique nam ipsa impedit commodi? Libero facere, voluptatem consectetur ab provident cupiditate unde.",
+        "Bottom funnel is a software company that specializes in the development of WordPress projects. Our team has years of experience in this field, so we know what works and what doesn't. ",
     },
     {
       icon: "Images/webdevmain/Stack.png",
       alt: "Images/webdevmain/Cms.png",
       serviceTitle: "Full Stack Development",
       serviceDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio, similique nam ipsa impedit commodi? Libero facere, voluptatem consectetur ab provident cupiditate unde.",
+        "Bottom funnel web development offers all that and more! We're proud to be an expert in all things backend, so you can rest assured that your website will be running smoothly from day one. ",
     },
-    {
-      icon: "Images/webdevmain/webdev.png",
-      alt: "Images/webdevmain/Cms.png",
-      serviceTitle: "Static Web Development",
-      serviceDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio, similique nam ipsa impedit commodi? Libero facere, voluptatem consectetur ab provident cupiditate unde.",
-    },
+    
     {
       icon: "Images/webdevmain/Php.png",
       alt: "Images/webdevmain/Cms.png",
       serviceTitle: "PHP Development",
       serviceDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio, similique nam ipsa impedit commodi? Libero facere, voluptatem consectetur ab provident cupiditate unde.",
+        "We specialize in creating powerful yet intuitive websites using PHP and MySQL. With years of experience under our belt, we're able to create complex projects that are both aesthetically pleasing and functional.",
     },
   ],
 };

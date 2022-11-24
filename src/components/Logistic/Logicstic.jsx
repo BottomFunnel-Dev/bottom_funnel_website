@@ -17,11 +17,13 @@ import Logisticadmin from "./Logisticadmin";
 import Logisticcontainer from "./Logisticcontainer";
 import Logisticwhy from "./Logisticwhy";
 import { logisticsCustomer,logisticDrive,logisticAdmin } from "../../Data/panelsData";
-
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
+import { logisticsLogo } from "../../Data/SeopartnerData";
 export default function Logicstic() {
   return (
     <div>
       <Logisticcontainer />
+      <Trusted partnerLogo={logisticsLogo} />
       <Logictransport />
       <Logisticwhy />
       <Logiccustomer customerData={logisticsCustomer}/>

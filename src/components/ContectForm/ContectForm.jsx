@@ -19,7 +19,9 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContectForm = () => {
-  
+  const handleform = (e) => {
+    e.preventDefault();
+  };
 
   return (
     <div className="mainLeadform">
@@ -69,7 +71,7 @@ const ContectForm = () => {
             </div>
           </div>
         </div>
-        <form  className="formPart">
+        <form onSubmit={handleform} className="formPart">
           <div className="formSection">
             <div className="inputWithIcon">
               <IconContext.Provider value={{ className: "formIcon" }}>
@@ -162,10 +164,6 @@ const ContectForm = () => {
                 rows="5"
               ></textarea>
             </div>
-            {/* <input type="checkbox" />{" "}
-            <strong>
-              Yes, Send Me A Mutual NDA (Non-Disclosure Agreement)
-            </strong> */}
           </div>
           <div className="robotCaptcha">
             <input type="submit" value="Send Your Enquiry" />

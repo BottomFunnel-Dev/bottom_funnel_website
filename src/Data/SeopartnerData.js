@@ -561,3 +561,269 @@ export const pickupanddeliveryLogo = {
     backgroundColor: "#ef4c23",
   },
 };
+export const sportsBettingLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame30.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame31.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame32.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame33.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame34.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame35.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame36.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame37.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame38.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame39.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame40.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame41.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame42.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame43.png",
+    },
+    {
+      partnerImage: "Images/seopages/sportsbetting/frame44.png",
+    },
+  ],
+
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const datingLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/dating/frame1.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame2.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame3.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame4.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame5.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame6.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame7.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame8.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame9.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame10.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame11.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame12.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame13.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame14.png",
+    },
+    {
+      partnerImage: "Images/seopages/dating/frame15.png",
+    },
+  ],
+  
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+
+export const logisticsLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/logistics/frame1.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame2.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame3.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame4.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame5.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame6.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame7.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame8.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame9.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame10.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame11.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame12.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame13.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame14.png",
+    },
+    {
+      partnerImage: "Images/seopages/logistics/frame15.png",
+    },
+  ],
+  
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const newsLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/news/q1.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q2.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q3.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q4.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q5.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q6.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q7.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q8.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q9.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q10.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q11.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q12.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q13.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q14.png",
+    },
+    {
+      partnerImage: "Images/seopages/news/q15.png",
+    },
+  ],
+  
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const fitnessLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/fitness/altitude.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/crossrope.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/dicks.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/fitbit.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/foot.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/frame.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/gymshark.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/herbalife.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/him.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/limit.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/nobull.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/peloton.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/planet.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/studio.png",
+    },
+    {
+      partnerImage: "Images/seopages/fitness/sweat.png",
+    },
+  ],
+
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};

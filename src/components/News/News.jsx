@@ -6,6 +6,7 @@ import { Industries } from '../industries/Industries'
 import OndemandSection from '../OnDemandSection/OndemandSection'
 import PlanProject from '../PlanProject/PlanProject'
 import Revamping from '../revamping/Revamping'
+import Trusted from '../SEO/SeoTrustedCompanies/Seotrusted'
 import { SeoblogSection } from '../SeoBlogs/Seoblogs'
 import StoriesSection from '../StoriesSection/StoriesSection'
 import Newsfeature from './Newsfeature'
@@ -13,11 +14,12 @@ import Newsintro from './Newsintro'
 import Newspaper from './Newspaper'
 import Newspublish from './Newspublish'
 import Newstrategy from './Newstrategy'
-
+import { newsLogo } from '../../Data/SeopartnerData'
 export default function News() {
   return (
     <div>
         <Newsintro/>
+        <Trusted partnerLogo={newsLogo} />
         <Newspaper/>
         <Newsfeature/>
         <Newspublish/>

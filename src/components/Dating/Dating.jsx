@@ -8,7 +8,6 @@ import Datingmobile from './Datingmobile'
 import Datingstart from './Datingstart'
 import DatingWhy from './DatingWhy'
 import Solutiondating from './Solutiondating'
-import StoriersSection from '../StoriesSection/StoriesSection'
 import StoriesSection from '../StoriesSection/StoriesSection'
 import { Industries } from '../industries/Industries'
 import OndemandSection from '../OnDemandSection/OndemandSection'
@@ -19,11 +18,13 @@ import { SeoblogSection } from '../SeoBlogs/Seoblogs'
 import { TextDropdown } from '../faqSection/Faqs'
 import ContectForm from '../ContectForm/ContectForm'
 import MainFooter from '../FooterSection/MainFooter'
-
+import Trusted from '../SEO/SeoTrustedCompanies/Seotrusted'
+import { datingLogo } from '../../Data/SeopartnerData'
 export default function Dating() {
   return (
     <div> 
        <Datingcontainer/>
+       <Trusted partnerLogo={datingLogo}/>
        <Datingbrands/>
        <Datingfeatures/>
        <Customerapp/>
@@ -34,15 +35,14 @@ export default function Dating() {
        <DatingWhy/>
        <StoriesSection/>
        <Industries/>
+       <PlanProject/>
        <OndemandSection/>
        <PortFolio/>
-       <PlanProject/>
-       <Revamping/>
        <SeoblogSection/>
+       <Revamping/>
        <TextDropdown/>
        <ContectForm/>
        <MainFooter/>
-       
     </div>
   )
 }
