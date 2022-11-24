@@ -1,0 +1,84 @@
+.CustomisedWebBanner-main {
+  height: 100vh;
+  padding-left: 5%;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("/public/Images/customWebPhotos/banner.png");
+  background-size: 110%;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CustomisedWebBanner-main > h1 {
+  font-size: 40px;
+  width: 65%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  color: #f5f5f5;
+}
+
+.CustomisedWebBanner-main > h1 > span {
+  color: #ef4c23;
+}
+
+.CustomisedWebBanner-main > p {
+  font-size: 18px;
+  width: 70%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+
+  color: #f5f5f5;
+}
+
+.CustomisedWebBanner-main > button {
+  font-size: 20px;
+  font-weight: 600;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 1%;
+
+  background-color: #f5f5f5;
+  color: #ef4c23;
+  padding: 10px 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.CustomisedWebBanner-main > button:hover {
+  color: #f5f5f5;
+  background-color: #ef4c23;
+}
+
+.CustomisedWebBanner-hr-line {
+  width: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CustomisedWebBanner-hr-line > div {
+  border: 2px solid #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.CustomisedWebBanner-hr-line > span {
+  width: 46%;
+  height: 2px;
+  background-color: #fff;
+  color: #fff;
+}

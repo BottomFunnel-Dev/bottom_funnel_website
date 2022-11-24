@@ -230,7 +230,7 @@ export const trendingTech = [
   {
     dropContent: "Customised Web Development",
     navIcons: "Images/navbar/services/customizedwebdev.png",
-    path: "",
+    path: "custom-web-solutions",
   },
   {
     dropContent: "Virtual Reality Development",

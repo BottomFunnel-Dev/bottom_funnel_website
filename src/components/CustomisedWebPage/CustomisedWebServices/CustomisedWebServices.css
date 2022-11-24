@@ -1,0 +1,112 @@
+.CustomisedWebServices-container {
+  background: #f5f5f5;
+  margin: 2% auto 2% auto;
+  padding: 2% 0 2% 0;
+}
+
+.CustomisedWebServices-heading {
+  width: 90%;
+  margin: auto;
+}
+
+.CustomisedWebServices-heading > h1 {
+  font-size: 32px;
+  width: fit-content;
+  text-transform: uppercase;
+
+  margin: 0 0 1% 0;
+}
+
+.CustomisedWebServices-heading > h1 > span {
+  color: #ef4c23;
+}
+
+.CustomisedWebServices-main {
+  width: 80%;
+  margin: auto;
+}
+
+.CustomisedWebServices-frontend,
+.CustomisedWebServices-backend {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CustomisedWebServices-frontend-content,
+.CustomisedWebServices-backend-content {
+  width: 45%;
+}
+
+.CustomisedWebServices-frontend-content > h2,
+.CustomisedWebServices-backend-content > h2 {
+  font-size: 25px;
+  width: 100%;
+  margin: 1% auto 2% auto;
+}
+
+.CustomisedWebServices-frontend-content > p,
+.CustomisedWebServices-backend-content > p {
+  font-size: 18px;
+  width: 100%;
+  margin: 1% auto 1% auto;
+  text-align: justify;
+}
+
+.CustomisedWebServices-frontend-image,
+.CustomisedWebServices-backend-image {
+  width: 40%;
+  height: fit-content;
+  background-color: #ff714d;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+  padding: 5px;
+}
+.CustomisedWebServices-frontend-image {
+  border-bottom-left-radius: 40%;
+}
+
+.CustomisedWebServices-frontend-image > img {
+  width: 100%;
+  border-bottom-left-radius: 40%;
+}
+
+.CustomisedWebServices-backend-image > img {
+  width: 100%;
+  border-top-right-radius: 40%;
+}
+
+.CustomisedWebServices-backend-image {
+  border-top-right-radius: 40%;
+}
+
+.CustomisedWebServices-hr-line {
+  width: 30%;
+  margin: 1% 0 1% 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CustomisedWebServices-hr-line > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.CustomisedWebServices-hr-line > span {
+  width: 45%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
