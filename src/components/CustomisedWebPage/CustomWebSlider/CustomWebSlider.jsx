@@ -5,14 +5,14 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 export const CustomWebSlider = () => {
   const data = [
-    "Images/customWebPhotos/slidericons/cake.png",
-    "Images/customWebPhotos/slidericons/fly.png",
-    "Images/customWebPhotos/slidericons/butterfly.png",
-    "Images/customWebPhotos/slidericons/hotfire.png",
-    "Images/customWebPhotos/slidericons/laravel.png",
-    "Images/customWebPhotos/slidericons/sideface.png",
-    "Images/customWebPhotos/slidericons/slim.png",
-    "Images/customWebPhotos/slidericons/zee.png",
+    "Images/customWebPhotos/sliderIcons/cake.png",
+    "Images/customWebPhotos/sliderIcons/fly.png",
+    "Images/customWebPhotos/sliderIcons/butterfly.png",
+    "Images/customWebPhotos/sliderIcons/hotfire.png",
+    "Images/customWebPhotos/sliderIcons/laravel.png",
+    "Images/customWebPhotos/sliderIcons/sideface.png",
+    "Images/customWebPhotos/sliderIcons/slim.png",
+    "Images/customWebPhotos/sliderIcons/zee.png",
   ];
 
   const NextArrow = ({ onClick }) => {
