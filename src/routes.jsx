@@ -104,6 +104,7 @@ import { EnterpriseWebPage } from "./components/EnterpriseWebPage/EnterpriseWebP
 import { WebdevMain } from "./components/WebdevPages/WebdevMain";
 import { ContactUS } from "./components/ContactUS/ContactUS";
 import { StartupSolutions } from "./components/StartupSolutions/StartupSolutions";
+import { CustomisedWebPage } from "./components/CustomisedWebPage/CustomisedWebPage";
 
 export const ALLroutes = () => {
   return (
@@ -251,8 +252,8 @@ export const ALLroutes = () => {
       <Route path="/client-reviews" element={<ClientReview />} />
       <Route path="/our-clients" element={<OurClient />} />
       <Route path="/pickup&delivery" element={<PickupDelivery />} />
-      <Route path="/about-us" element={<AboutUS/>} />
-      <Route path="/contact-us" element={<ContactUS/>} />
+      <Route path="/about-us" element={<AboutUS />} />
+      <Route path="/contact-us" element={<ContactUS />} />
       <Route path="/career" element={<CareerPage />} />
       <Route path="/carpooling" element={<Carpooling />} />
       <Route path="/pharmacy" element={<Pharmacy />} />
@@ -267,9 +268,10 @@ export const ALLroutes = () => {
       <Route path="/awards" element={<AwardsPage />} />
       <Route path="/PressAndMedia" element={<NewsEvent />} />
       <Route path="/machine-learning" element={<MLPages />} />
-      <Route path="/enterprise-solutions" element={<EnterpriseWebPage/>} />
-      <Route path="/web-development" element={<WebdevMain/>} />
-      <Route path="/startup-solutions" element={<StartupSolutions/>} />
+      <Route path="/enterprise-solutions" element={<EnterpriseWebPage />} />
+      <Route path="/web-development" element={<WebdevMain />} />
+      <Route path="/startup-solutions" element={<StartupSolutions />} />
+      <Route path="/custom-web-solutions" element={<CustomisedWebPage />} />
     </Routes>
   );
 };
