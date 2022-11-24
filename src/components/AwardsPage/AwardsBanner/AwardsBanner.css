@@ -1,6 +1,7 @@
 .AwardsBanner-main {
-  height: 100vh;
+  height: 85vh;
   position: relative;
+  margin-top: 120px;
 
   background: url("/public/Images/AwardsPhotos/banner-background.jpg");
   background-size: 110%;
