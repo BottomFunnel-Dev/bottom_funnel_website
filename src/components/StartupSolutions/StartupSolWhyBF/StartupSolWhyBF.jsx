@@ -15,7 +15,10 @@ export const StartupSolWhyBF = () => {
       title: "Transparency & Accountability",
       body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
     },
-    { title: "Deep Tech Expertise", body: "" },
+    {
+      title: "Deep Tech Expertise",
+      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+    },
     {
       title: "Top-Tier Talent",
       body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
@@ -38,8 +41,10 @@ export const StartupSolWhyBF = () => {
           {cardData.map(({ title, body }, idx) => {
             return (
               <div>
-                <div>{title}</div>
-                <div></div>
+                <h4>{title}</h4>
+                <div>
+                  <p>{body}</p>
+                </div>
               </div>
             );
           })}

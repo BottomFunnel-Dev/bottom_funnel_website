@@ -16,12 +16,14 @@ import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import { TextDropdown } from "../faqSection/Faqs";
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
+import { WebDevTechStack } from "./webDevTachstack/WebDevTechStack";
 export const WebdevMain = () => {
   return (
     <div>
       <WebdevBanner bannerContent={webDevMain} />
       <WebDevServices webservicesContent={webDevServices} />
       <GetStarted />
+      <WebDevTechStack/>
       <WebDevWhy whyDevContent={mernWhyContent} />
 
       <StoriesSection />

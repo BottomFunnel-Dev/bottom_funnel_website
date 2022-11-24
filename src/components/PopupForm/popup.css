@@ -285,10 +285,10 @@
   
     outline: none;
     font-size: 16px;
-    padding: 10px 0;
+    padding: 10px 7px;
     border-bottom: 2px solid rgb(164, 160, 160);
   }
-  
+
   .popuptextareaClass > label {
     color: #ef4c23;
     color: black;

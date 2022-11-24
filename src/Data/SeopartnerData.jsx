@@ -192,7 +192,7 @@ export const groceryLogo = {
 export const educationLogo = {
   logo: [
     {
-      partnerImage: "Images/seopages/educompanies/Frame 30png",
+      partnerImage: "Images/seopages/educompanies/Frame 30.png",
     },
     {
       partnerImage: "Images/seopages/educompanies/Frame 31.png",
@@ -449,34 +449,34 @@ export const marketLogo = {
 export const videostreamLogo = {
   logo: [
     {
-      partnerImage: "Images/seopages/Video streamimg/Frame 71.png",
+      partnerImage: "Images/seopages/videostreaming/frame71.png",
     },
     {
-      partnerImage: "Images/seopages/Video streamimg/Frame 72.png",
+      partnerImage: "Images/seopages/videostreaming/frame72.png",
     },
     {
-      partnerImage: "Images/seopages/Video streamimg/Frame 73.png",
+      partnerImage: "Images/seopages/videostreaming/frame73.png",
     },
     {
-      partnerImage: "Images/seopages/Video streamimg/Frame 74.png",
+      partnerImage: "Images/seopages/videostreaming/frame74.png",
     },
     {
-      partnerImage: "Images/seopages/Video streamimg/Frame 75.png",
+      partnerImage: "Images/seopages/videostreaming/frame75.png",
     },
     {
-      partnerImage: "Images/seopages/Video streamimg/Frame 76.png",
+      partnerImage: "Images/seopages/videostreaming/frame76.png",
     },
     {
-      partnerImage: "Images/seopages/Video streamimg/Frame 77.png",
+      partnerImage: "Images/seopages/videostreaming/frame77.png",
     },
     {
-      partnerImage: "Images/seopages/Video streamimg/Frame 78.png",
+      partnerImage: "Images/seopages/videostreaming/frame78.png",
     },
     {
-      partnerImage: "Images/seopages/Video streamimg/Frame 79.png",
+      partnerImage: "Images/seopages/videostreaming/frame79.png",
     },
     {
-      partnerImage: "Images/seopages/Video streamimg/Frame 80.png",
+      partnerImage: "Images/seopages/videostreaming/frame80.png",
     },
   ],
 
@@ -484,6 +484,7 @@ export const videostreamLogo = {
     backgroundColor: "#ef4c23",
   },
 };
+
 export const marketplaceLogo = {
   logo: [
     {

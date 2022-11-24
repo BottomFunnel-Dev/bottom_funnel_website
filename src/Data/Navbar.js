@@ -218,9 +218,9 @@ export const trendingTech = [
     path: "artificial-inteligence",
   },
   {
-    dropContent: "Data Science",
+    dropContent: "Data Analytics",
     navIcons: "Images/navbar/services/dataanalysis.png",
-    path: "data-science",
+    path: "data-analytics",
   },
   {
     dropContent: "Crypto currency Development",

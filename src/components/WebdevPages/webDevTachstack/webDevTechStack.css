@@ -1,5 +1,71 @@
-.webDevStack{
-    width: 100%;
-    height: 500px;
-    background-color: green;
+.webDevStack {
+  width: 100%;
+  height: 500px;
+  /* background-color: green; */
+  padding: 30px;
+}
+
+.devStackText {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.textStack {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  column-gap: 2px;
+}
+.techStack {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 10px; */
+}
+.techStack > button {
+  padding: 20px 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-left: 5px solid rgb(242, 238, 238);
+  box-sizing: border-box;
+  background-color: white;
+}
+.techStack > button:hover {
+  border-left: 5px solid #ef4c23;
+  background-color: #e8a594;
+  color: black;
+}
+
+.stackGrid {
+  width: 80%;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 9%;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.stackframeworkCard{
+  width: 100px;
+  height: 100px;
+}
+.stackIcon{
+  width: 70px;
+  margin: 10px auto;
+  height: 70px;
+}
+.stackIcon>img{
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border: 1px solid red; */
 }

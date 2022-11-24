@@ -7,7 +7,6 @@ import { StartupSolPartner } from "./StartupSolPartner/StartupSolPartner";
 import { StartupSolutionsBanner } from "./StartupSolutionsBanner/StartupSolutionsBanner";
 import "./StartupSolutions.css";
 import { StartupSolWhyBF } from "./StartupSolWhyBF/StartupSolWhyBF";
-import MainFooter from "../FooterSection/MainFooter";
 
 export const StartupSolutions = () => {
   return (
@@ -17,9 +16,8 @@ export const StartupSolutions = () => {
       <StartupSolOffer />
       <StartupSolOfferCard />
       <StartupSolMidBanner />
-      {/* <StartupSolWhyBF /> */}
+      <StartupSolWhyBF />
       <StartupSolForm />
-      <MainFooter/>
     </div>
   );
 };
