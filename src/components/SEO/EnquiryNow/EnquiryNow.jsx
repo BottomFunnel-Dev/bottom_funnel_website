@@ -14,14 +14,7 @@ export default function EnquiryNow() {
           spiders
         </h3>
         <p>
-          From in-depth analysis of user and keyword trends to drafting killer
-          strategies for your custom needs – we do it all. The only difference
-          is – we as an affordable SEO Services company, do it in a much cooler
-          way! Our fine-tuned professional Search Engine Optimization services
-          embrace everything from local strategy setup, expanding your business
-          capabilities, cracking the Google search rankings to setting the right
-          KPIs. The real game starts from here. We eavesdrop on your target
-          audience to help them find where you are.
+        With our SEO services, you can rest assured that we will be targeting the biggest keywords in your industry, ensuring that yours ranks high in search results. We are an expert team with years of experience and know-how, which ensures that we deliver results quickly and efficiently. Our freelancers are well-versed in all aspects of SEO and know how to implement strategies that work best for each specific site. With our services, you can be sure to gain more visibility online and increase customer conversion rates!
         </p>
        <button>Enquiry Now</button>
       </div>

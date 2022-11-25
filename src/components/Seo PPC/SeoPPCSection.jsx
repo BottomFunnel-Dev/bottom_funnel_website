@@ -1,4 +1,5 @@
 import React from "react";
+import { SeoForm } from "../SEO/seoForm/SeoForm";
 import "./SeoPPCSection.css"
 
 export default function SeoPPCSection(){
@@ -19,7 +20,7 @@ export default function SeoPPCSection(){
                        <button> Check PPC SEO Pricing</button>
                     </div>
                 </div>
-                <div className="_SeoPPCform">
+                {/* <div className="_SeoPPCform">
                     <div className="_SeoPPCformcontent">
                         <div className="_SeoPPCformheading">
                         Want to kickstart your first PPC SEO Project?
@@ -42,7 +43,8 @@ export default function SeoPPCSection(){
                             <button className="_SeoPPCSubmitbutton"><button>Submit</button></button>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <SeoForm/>
             </div>
 
         </div>

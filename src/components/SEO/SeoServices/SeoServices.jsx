@@ -16,32 +16,32 @@ export default function SeoServices() {
     {
       servicename: "Local Seo Audits",
       icons: <BsSearch />,
-      data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      data: "With our auditing process in place, we ensure that your website is optimised for Search Engine Optimisation (SEO) so that it ranks high on Google and other leading search engine results pages. This translates into an increase in online visibility, which is crucial for business growth.",
     },
     {
       servicename: "Google My Business Optimization & Management",
       icons: <IoLocationSharp />,
-      data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      data: "We are a full-fledged SEO company that has experience in creating content for various platforms, optimizing websites, and managing keywords. With our expertise, you can be sure of getting top rankings in search results. We understand how important it is to maintain high-quality content that customers want to read so they become interested in your services or products.",
     },
     {
       servicename: "Citation Audit and Cleanup Service",
       icons: <SiGoogleanalytics />,
-      data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      data: "We know how important it is to have your website optimize for search results, so our team works hard to bring you the best results possible. We audit your site's content and structure in order to identify opportunities for improvement and make recommendations based on our years of experience.",
     },
     {
       servicename: "Local Map Search Optimization",
       icons: <ImLink />,
-      data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      data: "From optimizing your location page for search engine optimization to adding local businesses to your site, we do it all so that you get maximum visibility on the map! Contact us today and let us help you take your business online with the power of Google Maps!",
     },
     {
       servicename: "Local Business Optimization for Multilocation",
       icons: <AiOutlineAudit />,
-      data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      data: "With an experienced team, we have years of knowledge under our belt and are ready to help you grow your business online. We offer a multitude of services to help get your online presence off the ground, including website design and development, SEO, keyword research and publishing, social media management, etc.",
     },
     {
       servicename: "Monthly Local Seo Reporting",
       icons: <FaShoppingCart />,
-      data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      data: "With monthly local SEO reports that tell you about search engine traffic for your business's listings in Google Maps, Yahoo Local Search and Bing Maps, Wisdom Marketing is one of the most efficient companies around when it comes to giving your business the boost it needs.",
     },
   ];
 
@@ -56,7 +56,7 @@ export default function SeoServices() {
 
   return (
     <div className="_Seoservicesmaindiv">
-      <h2>OUR SERVICES INCLUDES</h2>
+      <h2>What We Offers in Our SEO Services</h2>
       <div className="_Seoservicesslider">
         {arr1.map((items, i) => {
           return (
@@ -80,11 +80,7 @@ export default function SeoServices() {
                 }}
               >
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Iusto, expedita molestias, suscipit natus itaque, maiores
-                  officiis deleniti quaerat ducimus at animi ex. Quod harum
-                  voluptatem eos dolore, a repellendus quis minus consequuntur
-                  voluptatem eos dolore, a repellendus quis minus consequuntur
+                 {items.data}
                 </p>
               </div>
 

@@ -22,11 +22,13 @@ import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import { TextDropdown } from "../faqSection/Faqs";
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
-
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
+import { carpoolingLogo } from "../../Data/SeopartnerData";
 export const Carpooling = () => {
   return (
     <div>
       <CarpoolingBanner />
+      <Trusted partnerLogo={carpoolingLogo} />
       <CarpoolingRide />
       <CarpoolingSolutions />
       <Logiccustomer customerData={carpoolCustomer} />

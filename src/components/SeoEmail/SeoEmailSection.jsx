@@ -1,4 +1,5 @@
 import React from "react";
+import { SeoForm } from "../SEO/seoForm/SeoForm";
 import "./SeoEmailSection.css"
 
 export default function SeoEmailSection(){
@@ -19,7 +20,7 @@ export default function SeoEmailSection(){
                         <button>Check Email SEO Pricing</button>
                     </div>
                 </div>
-                <div className="_SeoEmailform">
+                {/* <div className="_SeoEmailform">
                     <div className="_SeoEmailformcontent">
                         <div className="_SeoEmailformheading">
                         Want to kickstart your first Email SEO Project?
@@ -42,7 +43,8 @@ export default function SeoEmailSection(){
                             <div className="_SeoEmailSubmitbutton"><button>Submit</button></div>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <SeoForm/>
             </div>
 
         </div>

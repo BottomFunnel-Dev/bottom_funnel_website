@@ -1,4 +1,5 @@
 import React from "react";
+import { SeoForm } from "../SEO/seoForm/SeoForm";
 import "./SeoSEMSection.css"
 
 export default function SeoSEMSection(){
@@ -19,7 +20,7 @@ export default function SeoSEMSection(){
                         <button>Check SEM SEO Pricing</button>
                     </div>
                 </div>
-                <div className="_SeoSEMform">
+                {/* <div className="_SeoSEMform">
                     <div className="_SeoSEMformcontent">
                         <div className="_SeoSEMformheading">
                         Want to kickstart your first SEM SEO Project?
@@ -42,7 +43,8 @@ export default function SeoSEMSection(){
                             <div className="_SeoSEMSubmitbutton"><button>Submit</button></div>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <SeoForm/>
             </div>
 
         </div>

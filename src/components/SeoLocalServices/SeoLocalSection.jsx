@@ -1,4 +1,5 @@
 import React from "react";
+import { SeoForm } from "../SEO/seoForm/SeoForm";
 import "./SeoLocalSection.css"
 
 export default function SeoLocalSection(){
@@ -19,7 +20,7 @@ export default function SeoLocalSection(){
                        <button> Check Local SEO Pricing</button>
                     </div>
                 </div>
-                <div className="_SeoLocalform">
+                {/* <div className="_SeoLocalform">
                     <div className="_SeoLocalformcontent">
                         <div className="_SeoLocalformheading">
                         Want to kickstart your first Local SEO Project?
@@ -42,7 +43,8 @@ export default function SeoLocalSection(){
                             <div className="_SeoLocalSubmitbutton"><button>Submit</button></div>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <SeoForm/>
             </div>
 
         </div>

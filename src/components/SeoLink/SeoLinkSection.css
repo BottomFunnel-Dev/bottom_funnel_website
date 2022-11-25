@@ -12,11 +12,11 @@
 }
 
 .linkgifDenote {
-  width: 340px;
+  width: 390px;
   height: 400px;
   position: absolute;
-  top: 39%;
-  right: 29%;
+  top: 30%;
+  right: 28%;
 }
 .linkgifDenote > img {
   width: 100%;
@@ -116,17 +116,7 @@ font-size: 25px;
 .SeoLinkforminput:hover {
   outline-color: #ef4c23;
 }
-label ~ select {
-  width: 100%;
-  font-size: 18px;
-  font-weight: 400;
-  border-radius: 12px;
-  padding: 10px;
 
-  color: gray;
-  margin-top: 12px;
-  border: 1px solid #ef4c23;
-}
 ._SeoLinkSubmitbutton {
   width: 100%;
   padding: 15px 0;

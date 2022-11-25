@@ -1,4 +1,5 @@
 import React from "react";
+import { SeoForm } from "../SEO/seoForm/SeoForm";
 import "./SeoLinkSection.css"
 
 export default function SeoLinkSection(){
@@ -19,7 +20,7 @@ export default function SeoLinkSection(){
                      <button>Check Link SEO Pricing</button>
                     </div>
                 </div>
-                <div className="_SeoLinkform">
+                {/* <div className="_SeoLinkform">
                     <div className="_SeoLinkformcontent">
                         <div className="_SeoLinkformheading">
                         Get in Touch
@@ -42,7 +43,8 @@ export default function SeoLinkSection(){
                             <div className="_SeoLinkSubmitbutton"><button>Submit</button></div>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <SeoForm/>
             </div>
 
         </div>

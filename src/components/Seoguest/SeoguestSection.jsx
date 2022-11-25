@@ -1,10 +1,11 @@
 import React from "react";
+import { SeoForm } from "../SEO/seoForm/SeoForm";
 import "./SeoguestSection.css";
 
 export default function SeoguestSection() {
   return (
     <div className="_SeoEmailMain1">
-      <div className="emailgifDenote">
+      <div className="guestgifDenote">
         <img src="Images/seopages/Comp-7.gif" alt="animated gif" />
       </div>
       <div className="_SeoEmailupperdiv">
@@ -23,7 +24,7 @@ export default function SeoguestSection() {
             <button>Check Email SEO Pricing</button>
           </div>
         </div>
-        <div className="_SeoEmailform">
+        {/* <div className="_SeoEmailform">
           <div className="_SeoEmailformcontent">
             <div className="_SeoEmailformheading">
               Want to kickstart your first Email SEO Project?
@@ -71,7 +72,8 @@ export default function SeoguestSection() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        <SeoForm/>
       </div>
     </div>
   );

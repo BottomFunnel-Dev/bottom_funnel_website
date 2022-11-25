@@ -721,6 +721,112 @@ export const logisticsLogo = {
     backgroundColor: "#ef4c23",
   },
 };
+export const carpoolingLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/carpooling/frame31.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame32.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame33.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame34.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame35.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame36.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame37.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame38.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame39.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame40.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame41.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame42.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame43.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame44.png",
+    },
+    {
+      partnerImage: "Images/seopages/carpooling/frame45.png",
+    },
+  ],
+  
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
+export const pharmacyLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame1.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame2.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame3.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame4.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame5.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame6.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame7.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame8.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame9.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame10.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame11.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame12.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame13.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame14.png",
+    },
+    {
+      partnerImage: "Images/seopages/Pharmacy/frame15.png",
+    },
+  ],
+  
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
 export const newsLogo = {
   logo: [
     {
