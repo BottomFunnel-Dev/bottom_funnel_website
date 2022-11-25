@@ -1,0 +1,31 @@
+.flowerdeliverylastdivstart{
+
+    width: 80%;
+    margin-left: 10%;
+   
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flowerdeliverydisplayflex{
+height: 42%;
+width: 43%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+padding: 20px;
+margin: 3%;
+display: flex;
+    
+}
+
+.insiderdivflexboxleft{
+    height: 100%;
+    width: 60%;
+ 
+}
+
+.insiderdivflexboxright{
+    height: 100%;
+    width: 40%;
+
+}

@@ -106,6 +106,8 @@ import { ContactUS } from "./components/ContactUS/ContactUS";
 import { StartupSolutions } from "./components/StartupSolutions/StartupSolutions";
 import { CustomisedWebPage } from "./components/CustomisedWebPage/CustomisedWebPage";
 import { CryptoDevPage } from "./components/CryptoDevPage/CryptoDevPage";
+import { AspNetPage } from "./components/ASP.NETpage/AspNetPage";
+import FlowerDelevry from "./components/FlowerDelevry/FlowerDelevry";
 
 export const ALLroutes = () => {
   return (
@@ -274,6 +276,8 @@ export const ALLroutes = () => {
       <Route path="/startup-solutions" element={<StartupSolutions />} />
       <Route path="/custom-web-solutions" element={<CustomisedWebPage />} />
       <Route path="/Crypto-Development" element={<CryptoDevPage />} />
+      <Route path="/asp-net-development" element={<AspNetPage/>} />
+      <Route path="/flower-delivery" element={<FlowerDelevry/>} />
     </Routes>
   );
 };

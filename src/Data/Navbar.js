@@ -81,7 +81,7 @@ export const webservice = [
   {
     dropContent: "ASP.NET Development",
     navIcons: "Images/navbar/services/aspnet.png",
-    path: "",
+    path: "asp-net-development",
   },
   {
     dropContent: "Java Development",
@@ -422,7 +422,7 @@ export const ondemand = [
   {
     dropContent: "Flower Delivery App",
     navIcons: "Images/navbar/industriesImage/flowerdelivery.png",
-    path: "",
+    path: "flower-delivery",
   },
   {
     dropContent: "Carpooling Apps",

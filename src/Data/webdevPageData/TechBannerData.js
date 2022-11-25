@@ -29,3 +29,9 @@ export const webDevMain = {
   description:
     "Web Development services by Bottom Funnel will give you the edge in every aspect of web development. We are a team of experts with vast experience and expertise, and we understand the needs of businesses. With us, you can be sure that your website is built on a solid framework for future growth.",
 };
+export const aspnetBanner = {
+  background: "Images/webdevmain/webbanner.png",
+  title: "Best ASP.NET Development Around the Globe",
+  description:
+    "With ASP.net, you can create an e-commerce website that looks beautiful and functions smoothly on all types of devices. Not only does it provide a rich user experience, but it also protects your data through encryption and complies to PCI DSS standards for securing customer credit card information.Bottom funnel ASP.NET development gives you a chance to learn how an application works from ground up and provides all the technologies required to build it successfully.",
+};

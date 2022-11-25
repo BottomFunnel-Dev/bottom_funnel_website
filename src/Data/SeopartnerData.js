@@ -88,8 +88,24 @@ export const alcoholLogo = {
       partnerImage: "Images/seopages/alcoholLogo/vivino.png",
     },
     {
-      partnerImage: "Images/seopages/brand9.png",
+      partnerImage: "Images/seopages/alcoholLogo/frame1.png",
     },
+    {
+      partnerImage: "Images/seopages/alcoholLogo/frame2.png",
+    },
+    {
+      partnerImage: "Images/seopages/alcoholLogo/frame3.png",
+    },
+    {
+      partnerImage: "Images/seopages/alcoholLogo/frame4.png",
+    },
+    {
+      partnerImage: "Images/seopages/alcoholLogo/frame5.png",
+    },
+    {
+      partnerImage: "Images/seopages/alcoholLogo/frame6.png",
+    },
+   
   ],
 
   bgcolors: {
@@ -118,8 +134,33 @@ export const homesolutionsLogo = {
       partnerImage: "Images/seopages/home solutions/zimmber.png",
     },
     {
-      partnerImage: "Images/seopages/brand9.png",
+      partnerImage: "Images/seopages/home solutions/frame1.png",
     },
+    {
+      partnerImage: "Images/seopages/home solutions/frame2.png",
+    },
+    {
+      partnerImage: "Images/seopages/home solutions/frame3.png",
+    },
+    {
+      partnerImage: "Images/seopages/home solutions/frame4.png",
+    },
+    {
+      partnerImage: "Images/seopages/home solutions/frame5.png",
+    },
+    {
+      partnerImage: "Images/seopages/home solutions/frame6.png",
+    },
+    {
+      partnerImage: "Images/seopages/home solutions/frame7.png",
+    },
+    {
+      partnerImage: "Images/seopages/home solutions/frame8.png",
+    },
+    {
+      partnerImage: "Images/seopages/home solutions/frame9.png",
+    },
+   
   ],
 
   bgcolors: {
@@ -148,8 +189,33 @@ export const fooddeliveryLogo = {
       partnerImage: "Images/seopages/fooddeliverylogo/zomato.png",
     },
     {
-      partnerImage: "Images/seopages/brand9.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/frame1.png",
     },
+    {
+      partnerImage: "Images/seopages/fooddeliverylogo/frame2.png",
+    },
+    {
+      partnerImage: "Images/seopages/fooddeliverylogo/frame3.png",
+    },
+    {
+      partnerImage: "Images/seopages/fooddeliverylogo/frame4.png",
+    },
+    {
+      partnerImage: "Images/seopages/fooddeliverylogo/frame5.png",
+    },
+    {
+      partnerImage: "Images/seopages/fooddeliverylogo/frame6.png",
+    },
+    {
+      partnerImage: "Images/seopages/fooddeliverylogo/frame7.png",
+    },
+    {
+      partnerImage: "Images/seopages/fooddeliverylogo/frame8.png",
+    },
+    {
+      partnerImage: "Images/seopages/fooddeliverylogo/frame9.png",
+    },
+    
   ],
 
   bgcolors: {
@@ -408,44 +474,7 @@ export const icecreamLogo = {
     backgroundColor: "#ef4c23",
   },
 };
-export const marketLogo = {
-  logo: [
-    {
-      partnerImage: "Images/seopages/Marketplace/Frame 21.png",
-    },
-    {
-      partnerImage: "Images/seopages/Marketplace/Frame 22.png",
-    },
-    {
-      partnerImage: "Images/seopages/Marketplace/Frame 23.png",
-    },
-    {
-      partnerImage: "Images/seopages/Marketplace/Frame 24.png",
-    },
-    {
-      partnerImage: "Images/seopages/Marketplace/Frame 25.png",
-    },
-    {
-      partnerImage: "Images/seopages/Marketplace/Frame 26.png",
-    },
-    {
-      partnerImage: "Images/seopages/Marketplace/Frame 27.png",
-    },
-    {
-      partnerImage: "Images/seopages/Marketplace/Frame 28.png",
-    },
-    {
-      partnerImage: "Images/seopages/Marketplace/Frame 29.png",
-    },
-    {
-      partnerImage: "Images/seopages/Marketplace/Frame 30.png",
-    },
-  ],
 
-  bgcolors: {
-    backgroundColor: "#ef4c23",
-  },
-};
 export const videostreamLogo = {
   logo: [
     {
