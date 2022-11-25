@@ -1,26 +1,32 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
-import "./SeoLocalSection.css"
+import "./SeoLocalSection.css";
 
-export default function SeoLocalSection(){
+export default function SeoLocalSection() {
+  return (
+    <div className="_SeoLocalMain1">
+      <div className="localgifDenote">
+        <img src="Images/seopages/Comp-5.gif" alt="" />
+      </div>
+      <div className="_SeoLocalupperdiv">
+        <div className="_SeoLocaltext">
+          <div className="_SeoLocalheading">Local SEO Services Company</div>
 
-    return (
-        <div className="_SeoLocalMain1">
-            <div className="localgifDenote">
-                <img src="Images/seopages/Comp-5.gif" alt="" />
-            </div>
-            <div className="_SeoLocalupperdiv">
-                <div className="_SeoLocaltext" >
-                    <div className="_SeoLocalheading">Local SEO Services Company</div>
-                  
-                    <p className="_SeoLocalparagraph">
-                        As a leading Local SEO Company, we bring together the innovation-led approach and Search Engine Friendly practices to help your local business reach and be found by your target users. Our team of Local SEO Experts ensure that your business gains visibility, drives more customers and ultimately revenue.
-                    </p>
-                    <div className="_SeoLocalPricing">
-                       <button> Check Local SEO Pricing</button>
-                    </div>
-                </div>
-                {/* <div className="_SeoLocalform">
+          <p className="_SeoLocalparagraph">
+            Our local SEO services revolutionize your online presence so you can
+            reach the right people with targeted traffic. We know how important
+            it is to have a website that is search engine optimized and easy to
+            navigate, so we work closely with our clients to ensure they're
+            getting the results they want. Not only do our experts understand
+            how search engines work, but they also know how to get your site on
+            top of the rankings by implementing strategies that will help drive
+            traffic and grow their business online.
+          </p>
+          <div className="_SeoLocalPricing">
+            <button> Check Local SEO Pricing</button>
+          </div>
+        </div>
+        {/* <div className="_SeoLocalform">
                     <div className="_SeoLocalformcontent">
                         <div className="_SeoLocalformheading">
                         Want to kickstart your first Local SEO Project?
@@ -44,10 +50,8 @@ export default function SeoLocalSection(){
                         </div>
                     </div>
                 </div> */}
-                <SeoForm/>
-            </div>
-
-        </div>
-
-    )
+        <SeoForm />
+      </div>
+    </div>
+  );
 }

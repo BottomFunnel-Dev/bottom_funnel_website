@@ -6,7 +6,7 @@ export const SeoDigitalmarketing = () => {
   return (
     <div className='_SeoDigitalmarketingmaindiv'>
         <div className='_SeoDigitalmarketingbanner'>
-            <img src="Images/digitalmarketing"/>
+            <img src='' />
         </div>
         <div className='_SeoDigitalmarketingExperts'>
             <div className='_SeoDigitalmarketingapproach'>

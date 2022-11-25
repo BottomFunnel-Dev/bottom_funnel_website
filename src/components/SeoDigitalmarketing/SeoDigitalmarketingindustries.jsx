@@ -1,5 +1,8 @@
 import React from 'react';
 import './SeoDigitalmarketingindustries.css'
+// import fitness from '../Images/fitness 2.jpg'
+// import food from '../Images/food 3.jpg'
+// import financial from '../Images/financial services 2.jpg'
 import { useState } from 'react';
 import { ListItemSecondaryAction } from '@mui/material';
 export const SeoDigitalmarketingindustries = () => {
@@ -17,17 +20,17 @@ export const SeoDigitalmarketingindustries = () => {
 
     const arr1=[
         {
-            image:"Images/profile1.jpg",
+            image:'',
             services:"financial services",
             text:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi illo maiores maxime laudantium eveniet voluptatem esse nihil fugiat est repudiandae! Natus nostrum amet iusto similique cumque dolorum repellendus ullam totam"
         },
         {
-            image:"Images/profile2.jpg",
+            image:'',
             services:"financial services",
             text:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi illo maiores maxime laudantium eveniet voluptatem esse nihil fugiat est repudiandae! Natus nostrum amet iusto similique cumque dolorum repellendus ullam totam"
         },
         {
-            image:"Images/profile3.jpg",
+            image:'',
             services:"financial services",
             text:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi illo maiores maxime laudantium eveniet voluptatem esse nihil fugiat est repudiandae! Natus nostrum amet iusto similique cumque dolorum repellendus ullam totam"
         },

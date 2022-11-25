@@ -272,6 +272,7 @@ export const ALLroutes = () => {
       <Route path="/web-development" element={<WebdevMain />} />
       <Route path="/startup-solutions" element={<StartupSolutions />} />
       <Route path="/custom-web-solutions" element={<CustomisedWebPage />} />
+      {/* <Route path="/digitalmarketing" element={<SeoDm/>} /> */}
     </Routes>
   );
 };

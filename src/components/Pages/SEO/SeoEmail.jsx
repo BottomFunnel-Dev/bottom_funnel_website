@@ -13,14 +13,14 @@ import SeoEmailFaq from "../../SeoEmail/SeoEmailFaq";
 import { SeoblogSection } from "../../SeoBlogs/Seoblogs";
 import MainFooter from "../../FooterSection/MainFooter";
 import SeoServices from "../../SEO/SeoServices/SeoServices";
-import { partnerlocalseoData } from "../../../Data/SeopartnerData";
+import { dmpagesLogo } from "../../../Data/SeopartnerData";
 const SeoEmail = () => {
   return (
     <div>
       <SeoEmailSection />
       <Seostats />
       <Reviews />
-      <Trusted partnerLogo={partnerlocalseoData} />
+      <Trusted partnerLogo={dmpagesLogo} />
       <SeoEmailEnquiryNow/>
       <SeoServices/>
 

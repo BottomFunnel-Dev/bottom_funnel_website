@@ -827,6 +827,59 @@ export const pharmacyLogo = {
     backgroundColor: "#ef4c23",
   },
 };
+export const dmpagesLogo = {
+  logo: [
+    {
+      partnerImage: "Images/seopages/dmpages/frame1.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame2.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame3.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame4.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame5.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame6.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame7.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame8.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame9.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame10.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame11.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame12.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame13.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame14.png",
+    },
+    {
+      partnerImage: "Images/seopages/dmpages/frame15.png",
+    },
+  ],
+  
+  bgcolors: {
+    backgroundColor: "#ef4c23",
+  },
+};
 export const newsLogo = {
   logo: [
     {

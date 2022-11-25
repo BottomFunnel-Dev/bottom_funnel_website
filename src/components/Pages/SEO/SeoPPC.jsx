@@ -20,7 +20,7 @@ import ContectForm from "../../ContectForm/ContectForm";
 import MainFooter from "../../FooterSection/MainFooter";
 import SeoServices from "../../SEO/SeoServices/SeoServices";
 import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
-import { partnerlocalseoData } from "../../../Data/SeopartnerData";
+import { dmpagesLogo } from "../../../Data/SeopartnerData";
 
 const SeoPPC = () => {
   return (
@@ -29,7 +29,7 @@ const SeoPPC = () => {
       <Seostats />
       <Reviews />
       {/* <Seotrusted /> */}
-      <Trusted partnerLogo={partnerlocalseoData} />
+      <Trusted partnerLogo={dmpagesLogo} />
       {/* <SeoPPCServices /> */}
       <SeoServices/>
       <StoriesSection />

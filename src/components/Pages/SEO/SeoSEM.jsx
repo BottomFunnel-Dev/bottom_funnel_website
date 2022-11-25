@@ -19,7 +19,7 @@ import MainFooter from "../../FooterSection/MainFooter";
 import Seostats from "../../SEO/Seostats/Seostats";
 import SeoServices from "../../SEO/SeoServices/SeoServices";
 import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
-import { partnerData } from "../../../Data/SeopartnerData";
+import { dmpagesLogo } from "../../../Data/SeopartnerData";
 
 const SeoSEM = () => {
   return (
@@ -28,7 +28,7 @@ const SeoSEM = () => {
       <Seostats />
       <Reviews />
       {/* <Seotrusted /> */}
-      <Trusted partnerLogo={partnerData} />
+      <Trusted partnerLogo={dmpagesLogo} />
       {/* <SeoSEMServices /> */}
       <SeoServices />
       <StoriesSection />

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { useInView } from 'react-intersection-observer'
-// import dm from '../Images/dm.jpg'
+
 import './SeoDigitalmarketingstats.css'
 
 export const SeoDigitalMarketingstats = () => {
@@ -50,7 +50,7 @@ export const SeoDigitalMarketingstats = () => {
             </div>
             <div className='_SeoDigitalMarketing' inView={inView} ref={ref}>
                 <div className='_SeoDigitalmarketingImage'>
-                    <img src="Images/digitalmarketing.jpg"/>
+                    <img src="" alt=''/>
                 </div>
                 <div className='_SeoDigitalMarketinginfo'>
                     <div className='_SeoDigitalMarketinginfo1'>

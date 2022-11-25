@@ -21,7 +21,7 @@ import ContectForm from "../../ContectForm/ContectForm";
 import MainFooter from "../../FooterSection/MainFooter";
 import SeoServices from "../../SEO/SeoServices/SeoServices";
 import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
-import { partnerlocalseoData } from "../../../Data/SeopartnerData";
+import { dmpagesLogo } from "../../../Data/SeopartnerData";
 
 export default function Seolink() {
   return (
@@ -30,7 +30,7 @@ export default function Seolink() {
       <Seostats />
       <Reviews />
       {/* <Seotrusted /> */}
-      <Trusted partnerLogo={partnerlocalseoData} />
+      <Trusted partnerLogo={dmpagesLogo} />
       <SeoLinkEnquiryNow />
       {/* <SeoLinkServices /> */}
       <SeoServices/>
