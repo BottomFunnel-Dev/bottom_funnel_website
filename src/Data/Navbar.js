@@ -225,7 +225,7 @@ export const trendingTech = [
   {
     dropContent: "Crypto currency Development",
     navIcons: "Images/navbar/services/crypto.png",
-    path: "",
+    path: "Crypto-Development",
   },
   {
     dropContent: "Customised Web Development",

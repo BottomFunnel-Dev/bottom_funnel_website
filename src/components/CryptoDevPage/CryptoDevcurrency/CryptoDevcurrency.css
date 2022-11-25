@@ -1,0 +1,68 @@
+.CryptoDevcurrency-container {
+  width: 90%;
+  margin: 2% auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CryptoDevcurrency-main {
+  width: 45%;
+}
+
+.CryptoDevcurrency-main > h1 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.CryptoDevcurrency-main > p {
+  font-size: 16px;
+}
+
+.CryptoDevcurrency-images-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CryptoDevcurrency-images-container > div {
+  width: 45%;
+  height: fit-content;
+  text-align: center;
+}
+
+.CryptoDevcurrency-images-container > div > h2 {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 1%;
+}
+
+.CryptoDevcurrency-images-container > div > img {
+  width: 50%;
+}
+
+.CryptoDevcurrency-hr-line {
+  width: 30%;
+  margin: 1% 0 1% 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CryptoDevcurrency-hr-line > div {
+  border: 2px solid #ef4c23;
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+}
+
+.CryptoDevcurrency-hr-line > span {
+  width: 43%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}

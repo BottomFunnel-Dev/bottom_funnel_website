@@ -1,0 +1,66 @@
+.CryptoDevBenefit-container {
+  width: 90%;
+  margin: 2% auto 2% auto;
+}
+
+.CryptoDevBenefit-container > h1 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.CryptoDevBenefit-main {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.CryptoDevBenefit-main > div {
+  width: 48%;
+  margin-bottom: 2%;
+  padding: 2%;
+
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.CryptoDevBenefit-main > div > div {
+  height: 80px;
+}
+
+.CryptoDevBenefit-main > div > div > img {
+  height: 100%;
+}
+
+.CryptoDevBenefit-main > h2 {
+  font-size: 25px;
+}
+
+.CryptoDevBenefit-main > p {
+  font-size: 16px;
+}
+
+.CryptoDevBenefit-hr-line {
+  width: 50%;
+  margin: 1% 0 1% 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CryptoDevBenefit-hr-line > div {
+  border: 2px solid #ef4c23;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.CryptoDevBenefit-hr-line > span {
+  width: 45%;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}

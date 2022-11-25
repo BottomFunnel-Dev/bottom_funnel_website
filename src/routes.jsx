@@ -105,6 +105,7 @@ import { WebdevMain } from "./components/WebdevPages/WebdevMain";
 import { ContactUS } from "./components/ContactUS/ContactUS";
 import { StartupSolutions } from "./components/StartupSolutions/StartupSolutions";
 import { CustomisedWebPage } from "./components/CustomisedWebPage/CustomisedWebPage";
+import { CryptoDevPage } from "./components/CryptoDevPage/CryptoDevPage";
 
 export const ALLroutes = () => {
   return (
@@ -272,6 +273,7 @@ export const ALLroutes = () => {
       <Route path="/web-development" element={<WebdevMain />} />
       <Route path="/startup-solutions" element={<StartupSolutions />} />
       <Route path="/custom-web-solutions" element={<CustomisedWebPage />} />
+      <Route path="/Crypto-Development" element={<CryptoDevPage />} />
     </Routes>
   );
 };
