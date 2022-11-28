@@ -27,7 +27,7 @@
 }
 
 .DataScienceSlider-hr-line > div {
-  border: 2px solid #bf42b9;
+  border: 2px solid #ef4c23;
   width: 20px;
   height: 20px;
   border-radius: 20px;
@@ -36,8 +36,8 @@
 .DataScienceSlider-hr-line > span {
   width: 46%;
   height: 2px;
-  background-color: #bf42b9;
-  color: #bf42b9;
+  background-color: #ef4c23;
+  color: #ef4c23;
 }
 
 .DataScienceSlider-slide {
