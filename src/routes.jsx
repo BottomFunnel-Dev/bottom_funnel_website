@@ -108,6 +108,7 @@ import { CustomisedWebPage } from "./components/CustomisedWebPage/CustomisedWebP
 import { CryptoDevPage } from "./components/CryptoDevPage/CryptoDevPage";
 import { AspNetPage } from "./components/ASP.NETpage/AspNetPage";
 import FlowerDelevry from "./components/FlowerDelevry/FlowerDelevry";
+import { NFTpage } from "./components/NFTpage/NFTpage";
 
 export const ALLroutes = () => {
   return (
@@ -225,7 +226,6 @@ export const ALLroutes = () => {
         path="/phalcon"
         element={<SkillsComPage allData={phalconData} />}
       />
-
       <Route path="/beautycareapp" element={<Beautysection />} />
       <Route path="/digitalmarketing" element={<SeoDm />} />
       <Route path="/emailservices" element={<SeoEmail />} />
@@ -250,7 +250,6 @@ export const ALLroutes = () => {
       <Route path="/news" element={<News />} />
       <Route path="/pricing" element={<PricingPage />} />
       <Route path="/events" element={<Event />} />
-
       <Route path="/saas" element={<SaasPage />} />
       <Route path="/client-reviews" element={<ClientReview />} />
       <Route path="/our-clients" element={<OurClient />} />
@@ -276,8 +275,9 @@ export const ALLroutes = () => {
       <Route path="/startup-solutions" element={<StartupSolutions />} />
       <Route path="/custom-web-solutions" element={<CustomisedWebPage />} />
       <Route path="/Crypto-Development" element={<CryptoDevPage />} />
-      <Route path="/asp-net-development" element={<AspNetPage/>} />
-      <Route path="/flower-delivery" element={<FlowerDelevry/>} />
+      <Route path="/asp-net-development" element={<AspNetPage />} />
+      <Route path="/flower-delivery" element={<FlowerDelevry />} />\
+      <Route path="/NFT-Development" element={<NFTpage />} />
     </Routes>
   );
 };

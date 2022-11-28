@@ -1,0 +1,39 @@
+.NFTAboutIt-container {
+  width: 90%;
+  margin: 2% auto;
+}
+
+.NFTAboutIt-container > h1 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.NFTAboutIt-container > p {
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 1%;
+}
+
+.NFTAboutIt-hr-line {
+  width: 25%;
+  margin: 1% 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NFTAboutIt-hr-line > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.NFTAboutIt-hr-line > span {
+  width: 44%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}

@@ -1,0 +1,56 @@
+.NFTSolutions-container {
+  width: 90%;
+  margin: 1% auto;
+}
+
+.NFTSolutions-container > h1 {
+  font-size: 32px;
+  margin: 1% auto;
+}
+
+.NFTSoluitons-main {
+  width: 90%;
+  margin: 1% auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.NFTSolutions-container > h1 {
+  font-size: 32px;
+  margin: 1% auto;
+}
+
+.NFTSolutions-container > h1 > span {
+  color: #ef4c23;
+}
+
+.NFTSoluitons-main > div {
+  width: 44%;
+  margin-bottom: 2%;
+  padding: 2%;
+
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.NFTSoluitons-main > div > h2 {
+  font-size: 25px;
+  margin: 1% auto;
+}
+
+.NFTSoluitons-main > div > p {
+  font-size: 16px;
+  margin: 1% auto;
+  text-align: justify;
+}
+
+.NFTSoluitons-main > div > div {
+  height: 80px;
+}
+
+.NFTSoluitons-main > div > div > img {
+  height: 100%;
+}

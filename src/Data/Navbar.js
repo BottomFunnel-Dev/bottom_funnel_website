@@ -245,7 +245,7 @@ export const trendingTech = [
   {
     dropContent: "NFT Development",
     navIcons: "Images/navbar/services/nft.png",
-    path: "",
+    path: "NFT-Development",
   },
   {
     dropContent: "IoT Development",

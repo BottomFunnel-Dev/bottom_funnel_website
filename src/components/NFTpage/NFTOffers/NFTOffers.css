@@ -1,0 +1,29 @@
+.NFTOffers-container {
+  margin: 3% auto;
+}
+
+.NFTOffers-heading {
+  width: 90%;
+  margin: auto;
+}
+
+.NFTOffers-heading > h1 {
+  font-size: 32px;
+  margin: 1% auto;
+}
+
+.NFTOffers-heading > h1 > span {
+  color: #ef4c23;
+}
+
+.NFTOffers-heading > p {
+  font-size: 16px;
+  margin: 1% auto;
+}
+
+.NFTOffers-main {
+  background: #fbcec3;
+  width: 100%;
+  margin: 1% auto;
+  padding: 2%;
+}
