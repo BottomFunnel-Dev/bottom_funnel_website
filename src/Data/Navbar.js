@@ -267,6 +267,11 @@ export const trendingTech = [
     navIcons: "Images/navbar/services/guest.png",
     path: "",
   },
+  {
+    dropContent: "Data Science",
+    navIcons: "Images/navbar/services/datascience.png",
+    path: "data-science",
+  },
 ];
 
 export const industries = [

@@ -1,0 +1,41 @@
+.DataScienceServices-container {
+  background: #f5f5f5;
+  padding: 2%;
+}
+
+.DataScienceServices-heading {
+  width: 90%;
+  margin: auto;
+}
+
+.DataScienceServices-heading > h1 {
+  font-size: 32px;
+  margin: 1% auto;
+}
+
+.DataScienceServices-main {
+  width: 90%;
+  margin: 1% auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.DataScienceServices-main > div {
+  width: 45%;
+  margin-bottom: 2%;
+}
+
+.DataScienceServices-main > div > img {
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.DataScienceServices-main > div > ul {
+  padding-left: 20%;
+}
+
+.DataScienceServices-main > div > ul > li {
+  font-size: 16px;
+}

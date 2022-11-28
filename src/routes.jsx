@@ -109,6 +109,7 @@ import { CryptoDevPage } from "./components/CryptoDevPage/CryptoDevPage";
 import { AspNetPage } from "./components/ASP.NETpage/AspNetPage";
 import FlowerDelevry from "./components/FlowerDelevry/FlowerDelevry";
 import { NFTpage } from "./components/NFTpage/NFTpage";
+import { DataSciencePage } from "./components/DataSciencePage/DataSciencePage";
 
 export const ALLroutes = () => {
   return (
@@ -278,6 +279,7 @@ export const ALLroutes = () => {
       <Route path="/asp-net-development" element={<AspNetPage />} />
       <Route path="/flower-delivery" element={<FlowerDelevry />} />\
       <Route path="/NFT-Development" element={<NFTpage />} />
+      <Route path="/data-science" element={<DataSciencePage />} />
     </Routes>
   );
 };

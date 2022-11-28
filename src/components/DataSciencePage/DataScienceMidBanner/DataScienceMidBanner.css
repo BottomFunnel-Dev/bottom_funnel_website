@@ -1,0 +1,12 @@
+.DataScienceMidBanner-main {
+  padding: 5% 3% 5% 3%;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/public/Images/IOTPhotos/mid-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+  text-align: center;
+}
