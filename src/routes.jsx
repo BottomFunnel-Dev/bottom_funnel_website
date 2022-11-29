@@ -96,7 +96,7 @@ import { VRPage } from "./components/VRPage/VRPage";
 import { IOTPage } from "./components/IOTPage/IOTPage";
 import { AIPage } from "./components/AIPage/AIPage";
 import { Mern } from "./components/MernPage/Mern";
-import { Marketplace } from "./components/MarketPlace/Marketplace";
+// import { Marketplace } from "./components/MarketPlace/Marketplace";
 import { AwardsPage } from "./components/AwardsPage/AwardsPage";
 import { NewsEvent } from "./components/NewsEvent/NewsEvent";
 import { MLPages } from "./components/MLPages/MLPages";
@@ -110,6 +110,7 @@ import { AspNetPage } from "./components/ASP.NETpage/AspNetPage";
 import FlowerDelevry from "./components/FlowerDelevry/FlowerDelevry";
 import { NFTpage } from "./components/NFTpage/NFTpage";
 import { DataSciencePage } from "./components/DataSciencePage/DataSciencePage";
+import {LaundryPage} from "./components/LaundryPage/LaundryPage";
 
 export const ALLroutes = () => {
   return (
@@ -267,7 +268,7 @@ export const ALLroutes = () => {
       <Route path="/internet-of-things" element={<IOTPage />} />
       <Route path="/artificial-inteligence" element={<AIPage />} />
       <Route path="/mern-stack" element={<Mern />} />
-      <Route path="/marketplace" element={<Marketplace />} />
+      {/* <Route path="/marketplace" element={<Marketplace />} /> */}
       <Route path="/awards" element={<AwardsPage />} />
       <Route path="/PressAndMedia" element={<NewsEvent />} />
       <Route path="/machine-learning" element={<MLPages />} />
@@ -280,6 +281,8 @@ export const ALLroutes = () => {
       <Route path="/flower-delivery" element={<FlowerDelevry />} />\
       <Route path="/NFT-Development" element={<NFTpage />} />
       <Route path="/data-science" element={<DataSciencePage />} />
+      <Route path="/laundry" element={<LaundryPage/>} />
+      
     </Routes>
   );
 };

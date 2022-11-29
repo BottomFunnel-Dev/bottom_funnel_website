@@ -25,7 +25,7 @@ export default function Educationpage() {
       <Educationquotes />
       <Solutionsection />
       <Whychoose />
-      <Brand />
+      {/* <Brand /> */}
       <PlanProject />
       <StoriesSection />
       <Industries />

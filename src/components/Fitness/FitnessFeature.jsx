@@ -22,11 +22,11 @@
          },
          {
             img:"Images/fitness/treaking.png",
-            p:"Performence Treaking"
+            p:"Performence Tracking"   
          },
          {
             img:"Images/fitness/live.png",
-            p:"Live Treaning"
+            p:"Live Training"
          },
   ]
 
@@ -34,7 +34,7 @@
     <div className='szfitfeaturesection'> 
     <div className='fitfeature'>
         <h1>Features</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusamus delectus eos minima assumenda illo mollitia veritatis. Quia culpa consequatur temporibus iure id? Corrupti hic eligendi, tempora expedita quae fugiat.</p>
+        <p>With brand new features like interactive graphs and charts, you'll never miss a beat when it comes to tracking your progress. And our community will help keep you motivated by offering support from other likeminded individuals.</p>
     </div>
     <div className='fitfeaturemedia'>
            {

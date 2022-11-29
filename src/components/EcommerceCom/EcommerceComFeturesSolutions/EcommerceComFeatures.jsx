@@ -62,7 +62,6 @@ export const EcommerceComFeatures = () => {
         description:
           "With Easy Zoom in and out, you can browse through thousands of products with ease. You will never miss out on a single thing while browsing online. Let's make your online experience more convenient with ecommerce web development!",
       },
-      
     ],
   };
 
@@ -73,17 +72,19 @@ export const EcommerceComFeatures = () => {
         <p>{featureCardsData.description}</p>
       </div>
       <div className="e-commerce-featsol-cards-main">
-        {featureCardsData.CardsData.map(({ title, image,description }, idx) => {
-          return (
-            <div key={idx}>
-              <div className="e-commerce-featsol-cards-images">
-                <img src={image.src} alt={image.alt} />
+        {featureCardsData.CardsData.map(
+          ({ title, image, description }, idx) => {
+            return (
+              <div key={idx}>
+                <div className="e-commerce-featsol-cards-images">
+                  <img src={image.src} alt={image.alt} />
+                </div>
+                <h4>{title}</h4>
+                <p>{description}</p>
               </div>
-              <h4>{title}</h4>
-              <p>{description}</p>
-            </div>
-          );
-        })}
+            );
+          }
+        )}
       </div>
     </div>
   );

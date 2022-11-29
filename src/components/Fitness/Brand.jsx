@@ -16,52 +16,47 @@ export default function Brand() {
 
   const homeService = [
     {
-      serviceimage: "Images/ondemandHome/carpenter.png",
+      serviceimage: "Images/fitness/fitnesstracking.png",
       serviceDescription:
-        "Get more business with customized on-demand carpenter services. Carpenters across the city are waiting for you!",
-      serviceName: "Carpenter",
+        "We provide you to keep track of your exercises and activities in an easy way. Through our apps keeps record of everything from sleep patterns to calories. ",
+      serviceName: "Fitness Tracking Apps",
     },
     {
-      serviceimage: "Images/ondemandHome/cleaning.png",
+      serviceimage: "Images/fitness/nutrition.png",
       serviceDescription:
-        "Increase profits and grow your business with customizable, on-demand home services of cleaning through an App",
-      serviceName: " Cleaning",
+        "With our calorie-counting and nutrition apps, you'll be able to accurately track your meals and snacks so that you can make sure you're getting the right amount of nutrients in every bite.",
+      serviceName: "Nutrition & Diet Apps",
     },
     {
-      serviceimage: "Images/ondemandHome/washing.png",
+      serviceimage: "Images/fitness/wearables.png",
       serviceDescription:
-        "Beautify your customer relationships by providing your customers a wide range of on demand beauty and care services.",
-      serviceName: "Beauty & Salon",
+        "With our fitness app development services, you'll be able to track many more aspects of your health from an app that was built with you in mind.",
+      serviceName: "Tracking & Wearable Apps",
     },
     {
-      serviceimage: "Images/ondemandHome/cleaning.png",
+      serviceimage: "Images/fitness/body.jpg",
       serviceDescription:
-        "Show your care for your customers by covering their child care problems with an on-demand home service application",
-      serviceName: "Child Care",
+        "With Bodybuilding & Workout Apps, you can keep track of your progress and stay motivated while doing something you love.",
+      serviceName: "Bodybuilding & Workout Apps",
     },
     {
-      serviceimage: "Images/ondemandHome/carpenter.png",
+      serviceimage: "Images/fitness/meditation.png",
       serviceDescription:
-        "Provide your customers quick, easy and affordable electrician services through our on-demand electrical service .",
-      serviceName: "Electrical service",
+        "We are developing apps with great features and customer-centric approach. From meditation & yoga to weight loss & nutrition apps, we have covered them all.",
+      serviceName: "Meditation & Yoga Apps",
     },
     {
-      serviceimage: "Images/ondemandHome/washing.png",
+      serviceimage: "Images/fitness/zymTracker.png",
       serviceDescription:
-        "Transform your business with customized on demand home services by your painters through this.",
-      serviceName: "Painting service",
+        "We offer additional features like real-time updates regarding your progress as well as turn-by-turn GPS directions for indoor exercises so that you can be at your best even when you're busy!",
+      serviceName: "Exercise & Gym Tracker Apps",
     },
-    {
-      serviceimage: "Images/ondemandHome/washing.png",
-      serviceDescription:
-        "Get the plumbing service your business needs, all through our easy-touse platform of on-demand home service .",
-      serviceName: "Plumbing services",
-    },
+    
   ];
 
   return (
     <div className="fitnessMain">
-         <h1>Brands</h1>
+         <h1>Create custom workout apps that are tailored to meet your specific needs</h1>
       <div className="fitondemandHomeServices">
         <div>
           <Slider {...settings}>

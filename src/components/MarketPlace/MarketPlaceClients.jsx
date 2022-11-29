@@ -69,7 +69,10 @@ key={e.Htxt} onMouseEnter={() => {
 }}
 
 >
-<div className='imageboxflexboxinsiderimage'><img className='smalllogomarketplaceinner' src={e.img} alt='' /></div>
+<div style={{
+    marginTop:"-30px",
+    padding:"2px"
+}} className='imageboxflexboxinsiderimage'><img className='smalllogomarketplaceinner' src={e.img} alt='' /></div>
 <div className='imageboxflexboxinsidertext'>
 <h3>{e.Htxt}</h3>
 <p>{e.stxt}</p>

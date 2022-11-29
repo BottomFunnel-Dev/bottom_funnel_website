@@ -18,7 +18,8 @@ export const EcommerceComShopping = () => {
           alt: "can be easily accessed through both android/ios",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the shopping comfort of use.",
+          "Registration process for vendors in an e-commerce website is getting tedious and time-consuming. With Easy Registration, you can automate the registration process for vendors in your website and make it easier for them to register on your site. ",
+          title:"Easy Registration/Login"
       },
       {
         image: {
@@ -26,7 +27,8 @@ export const EcommerceComShopping = () => {
           alt: "user-friendly interface logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "With easy product uploading, we have provided an easy way for vendors to upload their products and track sales on eCommerce platform! The code is clean and simple and won't slow down your website.",
+          title:"Easy Product Uploading"
       },
       {
         image: {
@@ -34,7 +36,8 @@ export const EcommerceComShopping = () => {
           alt: "Order food and track their service logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "With us, you can easily manage offers and discounts for customers in an ecommerce web app. Our team has years of experience in building e-commerce apps, which enables us to deliver high-quality software at affordable prices.",
+          title:"Manage Offers & Discounts"
       },
       {
         image: {
@@ -42,7 +45,8 @@ export const EcommerceComShopping = () => {
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "We  provides a platform for vendors to manage their customers' orders and transactions in real time. With features like intelligent customer support, organization tools, and analytics.",
+          title:"Order Management"
       },
       {
         image: {
@@ -50,7 +54,8 @@ export const EcommerceComShopping = () => {
           alt: "Dummy text logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "It is important to have a user-friendly catalogue that makes sure that all information is displayed clearly. With our easy-to-use interface, you will be able to customize it as per your requirements.",
+          title:"Manage Catalogue"
       },
       {
         image: {
@@ -58,7 +63,8 @@ export const EcommerceComShopping = () => {
           alt: "Dummy text logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "We've got you covered with alerts that tell you when your favorite products are on sale, or which new arrivals have arrived in the store. With us you'll be prepared for every situation and know how to keep your customers happy!",
+          title:"Notifications & Alerts"
       },
     ],
   };
@@ -83,15 +89,16 @@ export const EcommerceComShopping = () => {
       </div>
       <div className="e-commerce-advance-cards-main">
         <div>
-          <h2>E-Commerce app</h2>
+          <h2>Vendor Panel</h2>
           <div>
-            {shoppingAppData.cardsData.map(({ description, image }, idx) => {
+            {shoppingAppData.cardsData.map(({ description, image,title }, idx) => {
               return (
                 <div className="e-commerce-advance-cards" key={idx}>
                   <div className="e-commerce-advance-cards-logo">
                     <img src={image.src} alt={image.alt} />
                   </div>
                   <div className="e-commerce-advance-cards-content">
+                    <h5>{title}</h5>
                     <p>{description}</p>
                   </div>
                 </div>

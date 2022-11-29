@@ -7,6 +7,8 @@ import { aspnetwebDevServices } from "../../Data/webdevPageData/Popularservices"
 import { GetStarted } from "../WebdevPages/webGetStartedCard/GetStarted";
 import { WebDevWhy } from "../WebdevPages/webDevWhy/WebDevWhy";
 import { aspnetWhyContent } from "../../Data/webdevPageData/whyBottomContent";
+import { WhyTechStack } from "../WebdevPages/whyTechStack/WhyTechStack";
+import { whyAspnet } from "../../Data/webdevPageData/whyTechStack";
 export const AspNetPage = () => {
   return (
     <div>
@@ -14,7 +16,7 @@ export const AspNetPage = () => {
       <WebDevServices webservicesContent={aspnetwebDevServices}/>
       <GetStarted/>
       <WebDevWhy whyDevContent={aspnetWhyContent} />
-      
+      <WhyTechStack techData={whyAspnet}/>
     </div>
   );
 };

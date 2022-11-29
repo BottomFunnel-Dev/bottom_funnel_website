@@ -391,7 +391,7 @@ export const ondemand = [
   {
     dropContent: "Laundry Delivery",
     navIcons: "Images/navbar/industriesImage/laundry.png",
-    path: "",
+    path: "laundry",
   },
   {
     dropContent: "Grocery Delivery App",

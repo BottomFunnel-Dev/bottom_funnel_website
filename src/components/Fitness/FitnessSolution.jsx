@@ -34,8 +34,8 @@ export default function FitnessSolution() {
   return (
     <div className='szfitnesssolution'> 
          <div >
-         <h1>Solution</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero nulla alias atque molestiae est voluptatem qui sapiente veniam eos necessitatibus. Neque tempora vitae magni rem ea excepturi itaque cum atque.</p>
+         <h1>Solutions</h1>
+        <p>Our team of experts has created many successful apps for a wide range of industries and categories, such as health & wellness, travel & hospitality, real estate & marketing automation, education etc., so you can be sure your project will be taken care of by professionals who know what they're doing best.</p>
          </div>
          
        <div className='fitnesssolutionsub'>

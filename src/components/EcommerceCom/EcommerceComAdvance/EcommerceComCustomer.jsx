@@ -18,7 +18,8 @@ export const EcommerceComCustomer = () => {
           alt: "can be easily accessed through both android/ios",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the shopping comfort of use.",
+          "Sorting and filtering products in Ecommerce can be time-consuming. That's why we've created Ecommerce Filtering & Sorting, an efficient solution that makes it easier than ever to find the right products.",
+          title:"Product Filtering & Sorting"
       },
       {
         image: {
@@ -26,7 +27,8 @@ export const EcommerceComCustomer = () => {
           alt: "user-friendly interface logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "With shipment tracking in Ecommerce apps, you can now do just that! With the latest technology and best-in-class services, we can help you track packages on your website or mobile app.",
+          title:"Shipment Tracking"
       },
       {
         image: {
@@ -34,7 +36,8 @@ export const EcommerceComCustomer = () => {
           alt: "Order food and track their service logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "With our e-commerce web app, you can offer your customers a wide range of payment methods right on your website. Our friendly support team is always available to help you make the most out of your online store.",
+          title:"Multiple Payment Options"
       },
       {
         image: {
@@ -42,7 +45,8 @@ export const EcommerceComCustomer = () => {
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "Push notification is easy to integrate and will help turn visitors into buyers. Make sure that all visitors are informed about new products and promotions available at the store they like most.",
+          title:"Push Notification"
       },
       {
         image: {
@@ -50,7 +54,8 @@ export const EcommerceComCustomer = () => {
           alt: "Dummy text logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "With our simple registration process, you can create an account in no time and start engaging with your users. We offer end-to-end solutions that ensure a smooth user experience.",
+          title:"Simple Registration Process"
       },
       {
         image: {
@@ -58,7 +63,8 @@ export const EcommerceComCustomer = () => {
           alt: "Dummy text logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "We understand how important it is for you to have an easy-to-navigate ecommerce website, that is why we offers comprehensive solutions for both beginners and professional web developers.",
+          title:"Super Navigation"
       },
     ],
   };
@@ -87,15 +93,16 @@ export const EcommerceComCustomer = () => {
         </div>
         <div className="e-commerce-advance-cards-main">
           <div>
-            <h2>E-Commerce app</h2>
+            <h2>Customer app</h2>
             <div>
-              {customerAppData.cardsData.map(({ description, image }, idx) => {
+              {customerAppData.cardsData.map(({ description, image,title }, idx) => {
                 return (
                   <div className="e-commerce-advance-cards" key={idx}>
                     <div className="e-commerce-advance-cards-logo">
                       <img src={image.src} alt={image.alt} />
                     </div>
                     <div className="e-commerce-advance-cards-content">
+                      <h5>{title}</h5>
                       <p>{description}</p>
                     </div>
                   </div>

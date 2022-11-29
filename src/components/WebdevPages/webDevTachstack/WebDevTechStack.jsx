@@ -379,7 +379,7 @@ export const WebDevTechStack = () => {
               <h6>{el.stackName}</h6>
             </div>
           ))}
-        </div>
+        </div>  
 
         <div className="techStack">
           <button>PYTHON</button>

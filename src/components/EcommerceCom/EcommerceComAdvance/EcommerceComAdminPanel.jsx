@@ -18,7 +18,8 @@ export const EcommerceComAdminPanel = () => {
           alt: "can be easily accessed through both android/ios",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "We provide best in class solutions to help you grow your business online. From analytics to marketing, we have it all covered. With our team of experts, we can create an e-commerce app that will boost your sales and profits.",
+        title: "Dashboard Management",
       },
       {
         image: {
@@ -26,7 +27,8 @@ export const EcommerceComAdminPanel = () => {
           alt: "user-friendly interface logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "Using our user-friendly interface, you will be able to analyze everything about your app right on your fingertips. Data will be updated automatically every day with real time information about user engagement, transactions etc.",
+        title: "Manage Users",
       },
       {
         image: {
@@ -34,7 +36,8 @@ export const EcommerceComAdminPanel = () => {
           alt: "Order food and track their service logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "When you're managing a large catalog of products, efficiency is key. From setting up product categories to installing integrations, we'll do everything we can to ensure your website runs smoothly and efficiently. ",
+        title: "Manage Product Categories",
       },
       {
         image: {
@@ -42,7 +45,8 @@ export const EcommerceComAdminPanel = () => {
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "We specialize in helping businesses with their e-commerce needs by providing a wide range of solutions that will help you track your sales effectively and efficiently. From marketing automation tools to site optimization services.",
+        title: "Track Sales",
       },
       {
         image: {
@@ -50,7 +54,8 @@ export const EcommerceComAdminPanel = () => {
           alt: "Dummy text logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "We provide solutions that help brands in growing their business and expanding the market by offering complete visibility in terms of promotions, discounts, and loyalty programs.",
+        title: "Manage Promotions & Rewards",
       },
       {
         image: {
@@ -58,7 +63,8 @@ export const EcommerceComAdminPanel = () => {
           alt: "Dummy text logo",
         },
         description:
-          "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+          "We provides you with a content management system that will enable you to save and organize any information about your online business. With this powerful toolset at your disposal, you'll never have to worry about losing critical data.",
+        title: "Content Management System",
       },
     ],
   };
@@ -69,13 +75,14 @@ export const EcommerceComAdminPanel = () => {
         <div>
           <h2>Admin panel</h2>
           <div>
-            {adminPanelData.cardsData.map(({ description, image }) => {
+            {adminPanelData.cardsData.map(({ description, image, title }) => {
               return (
                 <div className="e-commerce-advance-cards">
                   <div className="e-commerce-advance-cards-logo">
                     <img src={image.src} alt={image.alt} />
                   </div>
                   <div className="e-commerce-advance-cards-content">
+                    <h5>{title}</h5>
                     <p>{description}</p>
                   </div>
                 </div>
