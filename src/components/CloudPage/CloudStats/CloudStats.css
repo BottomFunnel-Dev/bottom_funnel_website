@@ -1,0 +1,20 @@
+.CloudStats-container {
+  width: 90%;
+  margin: 2% auto -2%;
+  padding: 2%;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background: #fac9bd;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.CloudStats-container > h2 {
+  font-size: 25px;
+  text-align: center;
+  width: 23%;
+}

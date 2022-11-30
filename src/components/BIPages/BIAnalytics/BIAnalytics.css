@@ -1,0 +1,30 @@
+.BIAnalytics-container {
+  width: 80%;
+  margin: 3% auto;
+  padding: 2%;
+  border-radius: 25px;
+  background: #ffd8cf;
+  text-align: center;
+}
+
+.BIAnalytics-container > h1 {
+  font-size: 32px;
+
+  width: 100%;
+  margin: 1% auto 0;
+}
+
+.BIAnalytics-main {
+  width: 95%;
+  margin: 1% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.BIAnalytics-main > span {
+  height: 60px;
+  width: 2px;
+  color: white;
+  background-color: white;
+}

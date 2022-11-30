@@ -110,10 +110,14 @@ import { AspNetPage } from "./components/ASP.NETpage/AspNetPage";
 import FlowerDelevry from "./components/FlowerDelevry/FlowerDelevry";
 import { NFTpage } from "./components/NFTpage/NFTpage";
 import { DataSciencePage } from "./components/DataSciencePage/DataSciencePage";
-import {LaundryPage} from "./components/LaundryPage/LaundryPage";
+import { LaundryPage } from "./components/LaundryPage/LaundryPage";
 import { Javapage } from "./components/JavaDevPage/Javapage";
 import { Marketplace } from "./components/Marketplace/Marketplace";
 import { PythonPage } from "./components/PythonPage/PythonPage";
+import { CloudPage } from "./components/CloudPage/CloudPage";
+import { BIPages } from "./components/BIPages/BIPages";
+import { MetaversePage } from "./components/MetaversePage/MetaversePage";
+import { VettingPage } from "./components/VettingPage/VettingPage";
 
 export const ALLroutes = () => {
   return (
@@ -284,10 +288,13 @@ export const ALLroutes = () => {
       <Route path="/flower-delivery" element={<FlowerDelevry />} />\
       <Route path="/NFT-Development" element={<NFTpage />} />
       <Route path="/data-science" element={<DataSciencePage />} />
-      <Route path="/laundry" element={<LaundryPage/>} />
-      <Route path="/java-development" element={<Javapage/>} />
-      <Route path="/python-development" element={<PythonPage/>} />
-      
+      <Route path="/laundry" element={<LaundryPage />} />
+      <Route path="/java-development" element={<Javapage />} />
+      <Route path="/python-development" element={<PythonPage />} />
+      <Route path="/cloud" element={<CloudPage />} />
+      <Route path="/Business-intelligence" element={<BIPages />} />
+      <Route path="/metaverse" element={<MetaversePage />} />
+      <Route path="/vetting-process" element={<VettingPage />} />
     </Routes>
   );
 };

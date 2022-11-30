@@ -1,0 +1,45 @@
+.BISolutions-container {
+  width: 90%;
+  margin: 2% auto;
+}
+
+.BISolutions-container > h1 {
+  font-size: 32px;
+  width: 100%;
+  margin: 1% auto;
+}
+
+.BISolutions-container > h1 > span {
+  color: #ef4c23;
+}
+
+.BISolutions-main > div {
+  width: 100%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.BISolutions-content {
+  width: 96%;
+}
+
+.BISolutions-content > h2 {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.BISolutions-content > p {
+  font-size: 16px;
+  margin: 1% auto;
+}
+
+.BISolutions-dot {
+  width: 3%;
+}
+
+.BISolutions-dot > img {
+  width: 100%;
+}

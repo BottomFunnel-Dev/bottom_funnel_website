@@ -23,9 +23,9 @@ export const company = [
 
 export const whyBottom = [
   {
-    dropContent: "Client Reviews",
-    navIcons: "Images/navbar/aboutImage/clientreview.png",
-    path: "client-reviews",
+    dropContent: "Vetting Process",
+    navIcons: "Images/navbar/aboutImage/vetting.png",
+    path: "vetting-process",
   },
   {
     dropContent: "Our Clients",
@@ -218,9 +218,9 @@ export const trendingTech = [
     path: "artificial-inteligence",
   },
   {
-    dropContent: "Data Analytics",
-    navIcons: "Images/navbar/services/dataanalysis.png",
-    path: "data-analytics",
+    dropContent: "Data Science",
+    navIcons: "Images/navbar/services/datascience.png",
+    path: "data-science",
   },
   {
     dropContent: "Crypto currency Development",
@@ -265,12 +265,22 @@ export const trendingTech = [
   {
     dropContent: "Metaverse Services",
     navIcons: "Images/navbar/services/guest.png",
-    path: "",
+    path: "metaverse",
   },
   {
-    dropContent: "Data Science",
-    navIcons: "Images/navbar/services/datascience.png",
-    path: "data-science",
+    dropContent: "Business Intelligence",
+    navIcons: "Images/navbar/services/bi.png",
+    path: "Business-intelligence",
+  },
+  {
+    dropContent: "Cloud",
+    navIcons: "Images/navbar/services/cloud.png",
+    path: "cloud",
+  },
+  {
+    dropContent: "Salesforce",
+    navIcons: "Images/navbar/services/salesforce.png",
+    path: "",
   },
 ];
 
@@ -725,6 +735,7 @@ export const discoverContent = [
     cardImg: "Images/navbar/discovericons/product.png",
   },
 ];
+
 export const discoverRightContent = [
   {
     title: "Full cycle product development",
@@ -737,6 +748,7 @@ export const discoverRightContent = [
     cardImg: "Images/navbar/discovericons/graduation-cap.png",
   },
 ];
+
 export const designContent = [
   {
     title: "User Experience Design",
@@ -754,6 +766,7 @@ export const designContent = [
     cardImg: "Images/navbar/designicons/writing.png",
   },
 ];
+
 export const designRightContent = [
   {
     title: "Full cycle product development",
@@ -784,6 +797,7 @@ export const scaleContent = [
     cardImg: "Images/navbar/scaleicons/arrow-up.png",
   },
 ];
+
 export const scaleRightContent = [
   {
     title: "Full cycle product development",
