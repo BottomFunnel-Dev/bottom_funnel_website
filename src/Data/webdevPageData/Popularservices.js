@@ -29,7 +29,7 @@ export const mernservices = {
 };
 
 export const webDevServices = {
-  title: "Web Development Services Provided By Us",
+  title: "Web Development",
   description:
     "With our years of experience in the industry, we understand how important it is to deliver a user-friendly experience that converts visitors into customers. That's why we take pride in offering cutting-edge website design and SEO strategies that will ensure your website gets noticed by potential clients. We offer a wide range of services including online marketing, mobile app development, search engine optimization (SEO), e-commerce solutions, and more! So whether you're looking for help with branding or expanding your online presence, we have you covered.",
   serviceCard: [
@@ -38,7 +38,7 @@ export const webDevServices = {
       alt: "Images/webdevmain/Cms.png",
       serviceTitle: "CMS Website Development",
       serviceDesc:
-      "our CMS Website Development service is just the thing for you! We provide expert domain knowledge, web designing skills and marketing tactics that help you achieve your goal in a short period of time.",
+        "our CMS Website Development service is just the thing for you! We provide expert domain knowledge, web designing skills and marketing tactics that help you achieve your goal in a short period of time.",
     },
     {
       icon: "Images/webdevmain/Ecommerce.png",
@@ -68,7 +68,7 @@ export const webDevServices = {
       serviceDesc:
         "Bottom funnel web development offers all that and more! We're proud to be an expert in all things backend, so you can rest assured that your website will be running smoothly from day one. ",
     },
-    
+
     {
       icon: "Images/webdevmain/Php.png",
       alt: "Images/webdevmain/Cms.png",
@@ -79,7 +79,7 @@ export const webDevServices = {
   ],
 };
 export const aspnetwebDevServices = {
-  title: "ASP.NET Development Services Provided By Us",
+  title: "ASP.NET",
   description:
     "We have developed years of expertise in creating world-class websites and apps using ASP.NET. We offer comprehensive services that include application design, coding, testing, deployment, and maintenance so you can sleep easy knowing your website will be up and running smoothly day after day.",
   serviceCard: [
@@ -88,7 +88,7 @@ export const aspnetwebDevServices = {
       alt: "database.png",
       serviceTitle: "Database Development",
       serviceDesc:
-      "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
     },
     {
       icon: "Images/asp.netpagephotos/Ecommerce.png",
@@ -118,11 +118,68 @@ export const aspnetwebDevServices = {
       serviceDesc:
         "A quick way to build app is using ASP.NET and its frameworks. ASP.NET is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
     },
-    
+
     {
       icon: "Images/asp.netpagephotos/support.png",
       alt: "support.png",
       serviceTitle: "Support and Maintenance",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+  ],
+};
+export const javawebDevServices = {
+  title: "Java Development",
+  description:
+    "We have developed years of expertise in creating world-class websites and apps using Java. We offer comprehensive services that include application design, coding, testing, deployment, and maintenance so you can sleep easy knowing your website will be up and running smoothly day after day.",
+  serviceCard: [
+    {
+      icon: "Images/javapage/mobiledev.png",
+      alt: "mobiledev.png",
+      serviceTitle: "Java mobile Applications",
+      serviceDesc:
+        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+    },
+    {
+      icon: "Images/javapage/Desktop.png",
+      alt: "desktop",
+      serviceTitle: "Desktop GUI Applictions",
+      serviceDesc:
+        "We use Java and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
+    },
+    {
+      icon: "Images/javapage/appdev.png",
+      alt: "appdev.png",
+      serviceTitle: "Web-based Applications",
+      serviceDesc:
+        "With Java, you can easily create web applications that run smoothly on any device without causing any errors. From backend to frontend, everything is organized in such a way that it'll be easy for you to understand how the whole system works.",
+    },
+    {
+      icon: "Images/javapage/Server.png",
+      alt: "server.png",
+      serviceTitle: "Java Web Servers",
+      serviceDesc:
+        "Bottom Funnel is the best Java development company that offers migration services for your existing Java application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+    },
+    {
+      icon: "Images/javapage/Company.png",
+      alt: "company.png",
+      serviceTitle: "Enterprise Applications",
+      serviceDesc:
+        "A quick way to build app is using Java and its frameworks. Java is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
+    },
+
+    {
+      icon: "Images/javapage/molecule.png",
+      alt: "molecule.png",
+      serviceTitle: "Java Scientific Applications",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+    {
+      icon: "Images/javapage/Database.png",
+      alt: "database.png",
+      serviceTitle: "Java Big Data Technologies",
       serviceDesc:
         "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
     },

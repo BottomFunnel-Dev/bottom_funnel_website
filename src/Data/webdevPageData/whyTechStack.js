@@ -35,3 +35,42 @@ export const whyAspnet = {
     },
   ],
 };
+
+
+export const whyJava = {
+  heading: "Java",
+  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+
+  cardData: [
+    {
+      title: "Lightweight",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Powerful Abstraction",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Easy to Test",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Loose Coupling",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Open Source",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Provides Rich Libraries",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+  ],
+};

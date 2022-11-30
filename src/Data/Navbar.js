@@ -86,12 +86,12 @@ export const webservice = [
   {
     dropContent: "Java Development",
     navIcons: "Images/navbar/services/javaimage.png",
-    path: "",
+    path: "Java-development",
   },
   {
     dropContent: "Python Development",
     navIcons: "Images/navbar/services/python.png",
-    path: "",
+    path: "python-development",
   },
   {
     dropContent: "Ruby on Rails Development",

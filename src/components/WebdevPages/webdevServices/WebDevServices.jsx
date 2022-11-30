@@ -4,7 +4,7 @@ export const WebDevServices = ({ webservicesContent }) => {
   return (
     <div className="webDevServices">
       <div className="webdevTextServices">
-        <h1>Web Development <span className="spanText">Services</span> Provided By Us</h1>
+        <h1>{webservicesContent.title} <span className="spanText">Services</span> Provided By Us</h1>
 
         <p>{webservicesContent.description}</p>
       </div>

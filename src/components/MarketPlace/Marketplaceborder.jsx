@@ -11,10 +11,15 @@ const Marketplaceborder = () => {
     <div className='bannerimagetextboxformarketplace'>
     <h3>Have a Unique & Exceptional Idea For Fiverr Clone App?</h3>
     <h2>We Can Turn Your Vision into an Interactive & fully Functional app like fiverr</h2>
-    
+    <button style={{
+      marginTop:"2%"
+    }} className='marketplacebutton'>Get Started</button>
     </div>
     </div>
   )
 }
 
 export default Marketplaceborder
+
+
+
