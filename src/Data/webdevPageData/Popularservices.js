@@ -185,3 +185,65 @@ export const javawebDevServices = {
     },
   ],
 };
+
+
+
+
+export const pythonwebDevServices = {
+  title: "Python Development",
+  description:
+    "We have developed years of expertise in creating world-class websites and apps using Python. We offer comprehensive services that include application design, coding, testing, deployment, and maintenance so you can sleep easy knowing your website will be up and running smoothly day after day.",
+  serviceCard: [
+    {
+      icon: "Images/pythonpage/uidesign.png",
+      alt: "uidesign.png",
+      serviceTitle: "Python UI Design",
+      serviceDesc:
+        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+    },
+    {
+      icon: "Images/pythonpage/webcrawl.png",
+      alt: "webcrawl",
+      serviceTitle: "Python Web Crawler Development",
+      serviceDesc:
+        "We use Python and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
+    },
+    {
+      icon: "Images/pythonpage/desktopapp.png",
+      alt: "desktopapp.png",
+      serviceTitle: "Python Desktop Application Development",
+      serviceDesc:
+        "With Python, you can easily create web applications that run smoothly on any device without causing any errors. From backend to frontend, everything is organized in such a way that it'll be easy for you to understand how the whole system works.",
+    },
+    {
+      icon: "Images/pythonpage/websitedev.png",
+      alt: "websitedev.png",
+      serviceTitle: "Python Dynamic Website Development",
+      serviceDesc:
+        "Bottom Funnel is the best Python development company that offers migration services for your existing Python application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+    },
+    {
+      icon: "Images/pythonpage/content.png",
+      alt: "content.png",
+      serviceTitle: "Python Content Parsing",
+      serviceDesc:
+        "A quick way to build app is using Python and its frameworks. Python is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
+    },
+
+    {
+      icon: "Images/pythonpage/filterdata.png",
+      alt: "filterdata.png",
+      serviceTitle: "Python Data Extraction",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+    {
+      icon: "Images/pythonpage/Responsive.png",
+      alt: "responsive.png",
+      serviceTitle: "Responsive Web Development",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+  ],
+};
+

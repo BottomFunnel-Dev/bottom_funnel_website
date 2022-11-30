@@ -3,7 +3,7 @@ import React from 'react'
 const LaundryPageBanner = () => {
   return (
     <div style={{
-        
+        marginTop:"10%"
     }} className='laundrypagebannercontainer'>
     <div className='laundryPagebannersubcontainer'>
 

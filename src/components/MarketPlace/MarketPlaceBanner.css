@@ -325,14 +325,7 @@ position: relative;
  
    }
 
-   .marketplacebannerborderdivmain{
-  
-margin-top: 100px;
-    background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/b.png");
-    height: fit-content;
-    background-repeat: no-repeat;
-   }
-
+ 
 
    .marketplacefooterdiv{
     height: 400px;
@@ -385,31 +378,10 @@ padding: 10px;
     margin-left: 20%;
 }
 
-.marketplaceborderbannerdivformobile{
-   
-    height: 300px;
-    width: 300px;
-    position: relative;
-    z-index: 0;
 
-}
 
-.bannerimagesmarketplace{
-   
-    margin-left: 30px;
-}
 
-.bannerimagetextboxformarketplace{
-    position: relative;
-   
-    height: 50%;
-    width: 50%;
-    margin-left: 40%;
- z-index: 1;
 
- left: -10%;
- color: white;
-}
 
 
 

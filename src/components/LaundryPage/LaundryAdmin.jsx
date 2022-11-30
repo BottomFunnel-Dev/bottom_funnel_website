@@ -1,19 +1,16 @@
 import React from 'react'
 import { useState } from 'react'
-import "./LaundryPage.css"
+import "./LaundryAdmin.css"
 
 const LaundryAdmin = () => {
-
-
-    const[imageChange,setImageChange] = useState("Images/Laundrypage/Adminpanelscreens/Admininterface.png")
+    const[imageChange,setImageChange] = useState("Images/Marketplaceapp/Adminappscreens/dashboard.png")
 
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
-        console.log(imagepath)
+     
      }
 
-
-    const LaundryAdminrData = [
+  const LaundryAdminrData = [
         {
             img: "/Images/Laundrypage/icons/dashboard1.png",
             Htxt:"Easy to use Super Admin Interface",
@@ -43,43 +40,50 @@ const LaundryAdmin = () => {
     
     ]
     return (
-        <div className='adminpannelLaundrydivmainbox'>
-        <div className='marketplaceadmindisplayflex'>
-        <div className='marketplaceadmindisplayfleximage1'> <img className='flexboximage1'  src='Images/Laundrypage/Bannersbackgrounds/Rectangle4231.png' alt='image' />
-        </div>
-    <div className='laundrypageadmindisplayfleximage2'><img className='laundrypageflexboximage2' src={imageChange} alt='image' /></div>
-    </div>
-    <div className='admintext3rdsection'>
+    <div className='laundrypageadminmainbox'>
+    <div className='laundrypageflexboxforadmin'>
+    <div className='laundrypageadminbackgroundimagebanner'>
+   <div className='laundrypageadminbackgroundimagebannertextbox'>
+   <h2>Admin's Pannel</h2>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed nulla arcu. Integer hendrerit mauris nec justo tempor dapibus.</p>
+   </div>
+   <div className='laundrypageadminboxingfordoingflex'>
+   <div className='laundrypageadminflexboxing'>{LaundryAdminrData.map((el)=>{
+return (
+    <div className='laundrypageadminflexboxingforimageandtxtcontain'
     
-    <div className='freelancerflexboxright2'>
-    <h2>Admin Pannel</h2>
-    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue facilisis nisi in facilisis. Curabitur eget mauris at tortor</h6>
-    
-    <div className='adminmaindivrightlaundryapp'>
-    
-    <div className='marketplaceadmin2ndchildlaundrypage'>{LaundryAdminrData.map((e)=>{
-        return (
-    
-         
-    <div className='flexboxadminagainlaundrypage'
-    
-    key={e.Htxt} onMouseEnter={() => {
-        console.log(e);
-        handleImageChange(e.tablet)
-    }}
+    key={el.Htxt} onMouseEnter={() => {
+            
+                handleImageChange(el.tablet)
+            }}
     
     >
-    <div className='imageboxflexboxinsiderimagelaundry'><img className='smalllogomarketplaceinner' src={e.img} alt='' /></div>
-    <div className='imageboxflexboxinsidertext'>
-    <h3>{e.Htxt}</h3>
-    <p>{e.stxt}</p>
-    
+    <div className='laundrypageadminflexboxingforimagecontain'><img className='marketplaceadminlogo' src={el.img} alt="" /></div>
+    <div className='laundrypageadminflexboxingfortxtcontain'><h5>{el.Htxt}</h5>
+    <p>{el.stxt}</p>
     </div>
     
     </div>
+
+)
+   })}
+  
+   </div>
+   
+   
+   
+   </div>
     
-        )
-    })}</div>
+    
+    </div>
+
+
+
+
+
+  
+    <div className='laundrypageadminchangableimagecontent'><img className='imageboxlaundrypageadmin' src={imageChange} alt='marketplacebanner' /></div>
+    
     
     
     
@@ -88,16 +92,10 @@ const LaundryAdmin = () => {
     
     
     
-    
     </div>
-    
-    
-    
-    
-    </div> 
-     </div>
      
       )
     }
 
 export default LaundryAdmin
+

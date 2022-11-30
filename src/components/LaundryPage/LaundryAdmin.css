@@ -1,0 +1,92 @@
+.laundrypageadminmainbox{
+    height: 600px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.laundrypageflexboxforadmin{
+   
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+
+.laundrypageadminbackgroundimagebanner{
+    height: 100%;
+    width: 90%;
+    background-image: url("/public/Images/Laundrypage/Bannersbackgrounds/Rectangle4231.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center; 
+}
+
+.laundrypageadminchangableimagecontent{
+
+    width: 50%;
+    margin-left: -20%;
+    height: 90%;
+    margin-top:2%;
+   
+}
+
+.imageboxlaundrypageadmin{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+
+}
+
+.laundrypageadminbackgroundimagebannertextbox{
+
+width: 70%;
+height: 30%;
+margin-left: 5%;
+margin-top: 2%;
+}
+
+.laundrypageadminboxingfordoingflex{
+
+height: 55%;
+width: 80%;
+margin-left:2% ;
+
+
+}
+
+.laundrypageadminflexboxing{
+display: flex;
+flex-wrap: wrap;
+
+margin-top: -50px;
+}
+
+.laundrypageadminflexboxingforimageandtxtcontain{
+height: 50%;
+width: 40%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin: 2%;
+display: flex;
+padding: 15px;
+
+}
+
+.laundrypageadminflexboxingforimagecontain{
+width: 15%;
+
+height: 50px;
+
+margin: auto;
+}
+.laundrypageadminflexboxingfortxtcontain{
+width: 80%;
+
+height: auto;
+}
+
+.marketplaceadminlogo{
+object-fit: contain;
+height: 100%;
+width: 100%;
+}

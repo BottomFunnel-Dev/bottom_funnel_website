@@ -74,3 +74,40 @@ export const whyJava = {
     },
   ],
 };
+export const whyPython = {
+  heading: "Python",
+  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+
+  cardData: [
+    {
+      title: "Easy to Use",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Widely Applicable",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Built-in Data Structures",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Object Oriented",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Lots of Libraries",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Highly Compatible",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+  ],
+};

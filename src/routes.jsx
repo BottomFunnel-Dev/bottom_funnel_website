@@ -110,7 +110,6 @@ import { AspNetPage } from "./components/ASP.NETpage/AspNetPage";
 import FlowerDelevry from "./components/FlowerDelevry/FlowerDelevry";
 import { NFTpage } from "./components/NFTpage/NFTpage";
 import { DataSciencePage } from "./components/DataSciencePage/DataSciencePage";
-import { LaundryPage } from "./components/LaundryPage/LaundryPage";
 import { Javapage } from "./components/JavaDevPage/Javapage";
 import { Marketplace } from "./components/Marketplace/Marketplace";
 import { PythonPage } from "./components/PythonPage/PythonPage";
@@ -118,6 +117,7 @@ import { CloudPage } from "./components/CloudPage/CloudPage";
 import { BIPages } from "./components/BIPages/BIPages";
 import { MetaversePage } from "./components/MetaversePage/MetaversePage";
 import { VettingPage } from "./components/VettingPage/VettingPage";
+import { LaundryPage } from "./components/LaundryPage/LaundryPage";
 
 export const ALLroutes = () => {
   return (
@@ -275,7 +275,7 @@ export const ALLroutes = () => {
       <Route path="/internet-of-things" element={<IOTPage />} />
       <Route path="/artificial-inteligence" element={<AIPage />} />
       <Route path="/mern-stack" element={<Mern />} />
-      {/* <Route path="/marketplace" element={<Marketplace/>} /> */}
+      <Route path="/marketplace" element={<Marketplace/>} />
       <Route path="/awards" element={<AwardsPage />} />
       <Route path="/PressAndMedia" element={<NewsEvent />} />
       <Route path="/machine-learning" element={<MLPages />} />
@@ -288,7 +288,7 @@ export const ALLroutes = () => {
       <Route path="/flower-delivery" element={<FlowerDelevry />} />\
       <Route path="/NFT-Development" element={<NFTpage />} />
       <Route path="/data-science" element={<DataSciencePage />} />
-      <Route path="/laundry" element={<LaundryPage />} />
+      <Route path="/laundry" element={<LaundryPage/>} />
       <Route path="/java-development" element={<Javapage />} />
       <Route path="/python-development" element={<PythonPage />} />
       <Route path="/cloud" element={<CloudPage />} />

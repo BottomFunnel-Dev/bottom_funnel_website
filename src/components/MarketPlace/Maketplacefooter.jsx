@@ -6,9 +6,7 @@ const Maketplacefooter = () => {
 
 
   return (
-    <div style={{
-      marginTop:"30px"
-    }}>
+    <div>
     <div className='marketplacefooterdiv'>
       <div className='marketplacefooterdivfortext'>
       <h2>Why Choose Bottom Funnel As Your Sports Betting App Development Company?</h2>
