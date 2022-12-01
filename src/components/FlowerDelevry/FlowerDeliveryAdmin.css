@@ -1,78 +1,61 @@
-.flowerdeliverypharmecyappdiv{
-    height: 800px;
-    width: 100%;
 
-    
-    margin-top: 100px;
-}
-.pharmecybutton{
-    width: 130px;
-    height: 35px;
-    background-color: #3A8C93 ;
-    color: white;
-    margin-left: 48%;
-}
-.pharmecytextupper{
-    margin-left: 45%;
-}
-.pharmecytextupper2{
-    margin-left: 40%;
-}
-.pharmecydivflexandgrid{
+.flowerdeliveryadminmainbox{
+    height: fit-content;
     display: flex;
-    height:700px;
-  
-    width: 100%;
-    margin-top: 90px;
+    margin-top: 5%;
+}
+.flowerdeliveryadminflexleftbox{
+    width: 45%;
+     margin: 2%;
 }
 
-.pharmecydivflexandgridleft{
-   
+.flowerdeliveryadminflexleftbox>h2{
+    margin-left: 3%;
+}
+
+.flowerdeliveryadmingboxmapping{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2%;
+    width: 80%;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.flowerdeliveryadmingboxmapping:hover{
+    transform: scale(1.02);
+}
+
+
+
+.flowerdeliveryadminflexrightbox{
+    position: relative;
+}
+
+.flowerdeliveryadminrightboxforimageone{
+    position: absolute;
+    height: 70%;
+    width: 700px;
+ top: 15%;
+   left: 210px;
+}
+
+.flowerdeliveryadminrightboxforimageone >img{
     height: 100%;
-    width: 50%;
-    
-}
-
- .pharmecydivflexandgridright2{
-   
-    height: 100%;
-    width: 50%;
-} 
-
-.pharmecydivflexandgridlefttxt{
-    margin-left: 25%;
-}
-
-.pharmecydivflexandgridleftbox{
-    height: 15%;
-    width: 70%;
-  
-    margin-left: 10%;
-    margin: 3%;
-    border-radius: 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-
-.pharmecydivflexandgridright2backgroundimg{
-    height: 80%;
     width: 100%;
-    border: 1px solid white;
-    margin-top: 80px;
-    background-image: url("Images/Flowerdeliverypage/Rectangle1947.png");
- 
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-fit: contain;
 }
 
-.pharmecydivflexandgridright2backgroundimg2{
-    height: 350%;
-    width: 110%;
-  
-     margin-top: -330px;
-    background-image: url("Images/Flowerdeliverypage/Businesscontrol.png");
- 
-    background-repeat: no-repeat;
-    background-size: contain;
-  margin-top: 1%;
-  margin-left: -130px;
+.flowerdeliveryadminrightboxforimagetwo{
+   position: absolute;
+    height: fit-content;
+    width: 700px;
+
+    top: 150px;
+    left: 50px;
+}
+
+.flowerdeliveryadminrightboxforimagetwo>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }

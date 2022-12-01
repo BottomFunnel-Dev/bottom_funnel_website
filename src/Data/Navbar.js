@@ -106,7 +106,7 @@ export const webservice = [
   {
     dropContent: "Javascript Development",
     navIcons: "Images/navbar/services/javascriptimage.png",
-    path: "",
+    path: "javascript-development",
   },
 ];
 
@@ -452,7 +452,7 @@ export const ondemand = [
   {
     dropContent: "Tool Delivery App",
     navIcons: "Images/navbar/industriesImage/tool.png",
-    path: "",
+    path: "tool-delivery",
   },
   {
     dropContent: "Icecream Delivery App",

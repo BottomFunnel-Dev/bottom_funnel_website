@@ -185,3 +185,40 @@ export const whyGolang = {
     },
   ],
 };
+export const whyJavascript = {
+  heading: "Javascript",
+  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+
+  cardData: [
+    {
+      title: "Rich Interfaces",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Versatility",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Interperability",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Easy to Understand",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Data Validation",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Built-in Functions",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+  ],
+};

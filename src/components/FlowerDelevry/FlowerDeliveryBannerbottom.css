@@ -9,17 +9,36 @@
     
 }
 
-.lowerbannerflowertext{
-    height: 150px;
-    
-    color: white;
-    text-align: center;
+.flowerdeliverybannerbuttonforlowerbanner{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+margin-left: 40%;
+
 }
 
-.flowerdeliverybannerbottombutton{
-    width: 130px;
-    height: 35px;
-    background-color: #11A5FF ;
+.flowerdeliverybannerbuttonforlowerbanner:hover {
+
+    background-color:white;
+    color:  #3380f2;
+
+}
+
+.lowerbannerflowertext >h2{
     color: white;
-    border-radius: 5PX;
+    text-align: center;
+padding: 5%;
+}
+
+.lowerbannerflowertext{
+    width: 60%;
+   margin: auto;
+
+  
 }

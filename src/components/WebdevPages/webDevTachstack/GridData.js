@@ -142,6 +142,41 @@ export const techStackright = [
         },
       ],
     },
+    {
+      stackname: "Javascript",
+      frameworks: [
+        {
+          stackName: "Angular.js",
+          stackImage: "Images/webdevmain/frameworkIcons/js/Angularjs.png",
+          alt: "Angularjs.png",
+        },
+        {
+          stackName: "Ember.js",
+          stackImage: "Images/webdevmain/frameworkIcons/js/Ember.png",
+          alt: "Ember.png",
+        },
+        {
+          stackName: "Jquery",
+          stackImage: "Images/webdevmain/frameworkIcons/js/Jquery.png",
+          alt: "Jquery.png",
+        },
+        {
+          stackName: "Next.js",
+          stackImage: "Images/webdevmain/frameworkIcons/js/nextjs.png",
+          alt: "nextjs.png",
+        },
+        {
+          stackName: "Node.js",
+          stackImage: "Images/webdevmain/frameworkIcons/js/node.png",
+          alt: "node.png",
+        },
+        {
+          stackName: "React",
+          stackImage: "Images/webdevmain/frameworkIcons/js/react.png",
+          alt: "react.png",
+        },
+      ],
+    },
   ];
 
   

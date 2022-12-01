@@ -7,7 +7,7 @@
   z-index: 100;
   background: transparent;
   align-items: center;
-  background-color: white;
+  background-color: transparent;
 }
 
 .navbarSection.active {

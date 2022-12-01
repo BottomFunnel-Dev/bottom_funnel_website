@@ -14,9 +14,6 @@ const Banner = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
-
-
-
   const style = {
     position: "absolute",
     top: "50%",
@@ -29,11 +26,11 @@ const Banner = () => {
     // boxShadow: 24,
     backgorund: "green",
     p: 1,
-    borderRadius: 2
+    borderRadius: 2,
   };
 
   var settings = {
-    autoplay: true,
+    // autoplay: true,
     dots: false,
     autoplaySpeed: 5000,
     cssEase: "linear",
@@ -79,26 +76,31 @@ const Banner = () => {
       title: "Mobile App Development",
       bannerImage: "Images/banner/app dev.gif",
       desc: "Connect to your customers in real time with the latest in mobile app development.",
+      backgorund: "Images/banner/mobilefull.png",
     },
     {
       title: "Custom Software Development",
       bannerImage: "Images/banner/customsde.gif",
       desc: "Turn your company’s opportunities into realities with enterprise-level custom software development.",
+      backgorund: "Images/banner/mobilefull.png",
     },
     {
       title: "Digital Marketing",
       bannerImage: "Images/banner/digitalmarketing.gif",
       desc: "Break through the noise and grow your business with the power of digital marketing",
+      backgorund: "Images/banner/mobilefull.png",
     },
     {
       title: "Web Development",
       bannerImage: "Images/banner/web dev.gif",
       desc: "Developing websites that develop your business",
+      backgorund: "Images/banner/mobilefull.png",
     },
     {
       title: "Software Product Development",
       bannerImage: "Images/banner/app dev.gif",
       desc: "Don’t settle for anything less, get the finest software product for you company.",
+      backgorund: "Images/banner/mobilefull.png",
     },
   ];
 
@@ -131,18 +133,18 @@ const Banner = () => {
                           component="h2"
                         >
                           <div className="popform">
-
-
-                            <PopupForm/>
+                            <PopupForm />
                           </div>
                         </Typography>
-                       
-                         
                       </Box>
                     </Modal>
                   </div>
                 </div>
-                <div className="imageContent">
+
+                <div
+                  className="imageContent"
+                 
+                >
                   <div className="imageInner">
                     <img src={item.bannerImage} alt="" />
                   </div>
@@ -150,48 +152,6 @@ const Banner = () => {
               </div>
             </div>
           ))}
-
-          {/* <div className="slideMainDiv">
-            <div className="slideInnerContent">
-              <div className="textContent">
-                <div>
-                  <h1>App Development</h1>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Optio commodi recusandae alias vero provident incidunt
-                    sapiente nisi repellendus ut officiis?
-                  </p>
-                  <button>Get Started</button>
-                </div>
-              </div>
-              <div className="imageContent">
-                <div className="imageInner">
-                  <img src="Images/image/1.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div> */}
-
-          {/* <div className="slideMainDiv">
-            <div className="slideInnerContent">
-              <div className="textContent">
-                <div>
-                  <h1>App Development</h1>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Optio commodi recusandae alias vero provident incidunt
-                    sapiente nisi repellendus ut officiis?
-                  </p>
-                  <button>Get Started</button>
-                </div>
-              </div>
-              <div className="imageContent">
-                <div className="imageInner">
-                  <img src="Images/image/1.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div> */}
         </Slider>
       </div>
     </div>

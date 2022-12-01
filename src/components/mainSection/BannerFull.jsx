@@ -1,0 +1,106 @@
+import React from "react";
+import "./bannerFull.css";
+import Slider from "react-slick";
+
+export const BannerFull = () => {
+  const banner = [
+    {
+      title: "Mobile App Development",
+      bannerImage: "Images/banner/app dev.gif",
+      desc: "Connect to your customers in real time with the latest in mobile app development.",
+      background: "Images/banner/mobilefull.png",
+    },
+    {
+      title: "Custom Software Development",
+      bannerImage: "Images/banner/customsde.gif",
+      desc: "Turn your company’s opportunities into realities with enterprise-level custom software development.",
+      background: "Images/banner/softwarefull.png",
+    },
+    {
+      title: "Digital Marketing",
+      bannerImage: "Images/banner/digitalmarketing.gif",
+      desc: "Break through the noise and grow your business with the power of digital marketing",
+      background: "Images/banner/dmfull.png",
+    },
+    {
+      title: "Web Development",
+      bannerImage: "Images/banner/web dev.gif",
+      desc: "Developing websites that develop your business",
+      background: "Images/banner/webdevfull.png",
+    },
+    {
+      title: "Software Product Development",
+      bannerImage: "Images/banner/app dev.gif",
+      desc: "Don’t settle for anything less, get the finest software product for you company.",
+      background: "Images/banner/mobilefull.png",
+    },
+  ];
+
+  var settings = {
+    autoplay: true,
+    dots: false,
+    autoplaySpeed: 5000,
+    cssEase: "linear",
+    speed: 300,
+    swipeToSlide: true,
+    slidesToShow: 1,
+    pauseOnHover: true,
+    slidesToScroll: 1,
+    arrows: false,
+    infinite: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 2,
+          initialSlide: 2,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: false,
+        },
+      },
+    ],
+  };
+
+  return (
+    <div className="banner-parent-div">
+      <Slider {...settings}>
+        {banner.map((item, i) => (
+          <div key={i} style={{ background: "blue" }}>
+            <div
+              className="banner-slide-background"
+              style={{
+                background: `url(${item.background})`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "100% 100%",
+              }}
+            >
+              <div className="banner-text-content-full">
+                <h1>{item.title}</h1>
+                <p>{item.desc}</p>
+                <button>Get Started</button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </Slider>
+    </div>
+  );
+};

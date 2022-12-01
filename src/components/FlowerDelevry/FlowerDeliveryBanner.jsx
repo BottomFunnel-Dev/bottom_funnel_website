@@ -3,28 +3,30 @@ import "./FlowerDelevrybanner.css"
 
 const FlowerDeliveryBanner = () => {
   return (
-    <div className='flowerdeleverybanner'>
+    <div className='flowerdeliverybannermaindiv'>
+    <div className='flowerdeliverybannerleftbox'>
+    <h2>On-Demand</h2>
+    <h3>Flower Delivery App</h3>
+    <p>Lorem ipsum dolor sit amet,laoreet. Vivamus ultrices In sodales odio sit amet quam varius In sodales odio sit amet quam varius erat ut felis commodo</p>
+    <button className='flowerdeliverybannerbutton'>Get Started</button>
+    
+    </div>
+
+
+
+
+
+
+      <div className='flowerdeliverybannerrightbox'>
       
-<div className='flowerdeleverybannerleftflex'>
-<h1 className='boldtext'>On-Demand</h1>
-<h2>Flower Delivery App</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-<br></br>
-<button className='flowerdeleverybannerleftflexbutton'><h4>Get Started</h4></button>
-
-</div>
-
-
-
-
-<div className='flowerdeleverybannerrightflex'>
-<img className='flowerdeleverybannerrightfleximage' src='Images/Flowerdeliverypage/Group339932.png' alt='flowerimage' />
-
-
-</div>
-
+      <div className='flowerdeliverybannerimageone'><img src='Images/Flowerdeliverypage/Rectangle 1954.png' alt='' /></div>
+      <div className='flowerdeliverybannerimagetwo'><img src='Images/Flowerdeliverypage/Bannerpicture.png' alt='' /></div>
+      
+      
+      </div>
     </div>
   )
 }
 
 export default FlowerDeliveryBanner
+

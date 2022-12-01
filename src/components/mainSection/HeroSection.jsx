@@ -2,7 +2,7 @@ import React from "react";
 import "./heroSection.css";
 import Slider from "react-slick";
 
-const HeroSection = () => {
+export const HeroSection = () => {
   var settings = {
     autoplay: true,
     dots: false,
@@ -81,4 +81,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+

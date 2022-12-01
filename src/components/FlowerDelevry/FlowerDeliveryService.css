@@ -1,49 +1,61 @@
-.flowerdeliveryservicemaindiv{
-    height: 1030px;
-    width: 100%;
+.flowerdeliveryservicemainbox{
+    height: fit-content;
 
-    background-image: url("Images/Flowerdeliverypage/Rectangle1947.png");
+}
+.flowerdeliveryservicetextbox{
  
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-.flexboxserviceflower{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
- 
-}
-.flexboxrealtimetopromote{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 10px;
-    width: 30%;
-    height: 45%;
-  margin-left: 35px;
-    /* margin: 10px; */
-    margin-top: 10px;
-   background-color: white;
-   border-radius: 10px;
-
-
-}
-.flexboxrealtimetopromoteimg{
-    height: 200px;
-    width: 280px;
-    margin-left: 10%;
-    margin-top: 10px;
-    object-fit: contain;
-}
-
-.flowertxtflexbox{
-    margin-left: 20px;
-    text-align: left;
-}
-
-.uppertetxt{
-    text-align: center;
    
+    width: 60%;
+    margin: auto;
+}
+.flowerdeliveryservicetextbox >h1{
+    text-align: center;
+  
+    font-size: 35px;
+}
+.flowerdeliveryservicetextbox>p{
+    text-align: center;
+}
 
+.flowerdeliveryservicebackgroundimagebox{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    background-image: url("/public/Images/Flowerdeliverypage/Rectangle1947.png");
+ 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  
+ 
+}
+.flowerdeliveryserviceboxesmap{
+ padding: 1%;
+    height: fit-content;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1% 1% 1% 2%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.flowerdeliveryserviceboxesmap:hover{
+transform: scale(1.02);
+
+}
+
+
+
+.flowerdeliveryserviceinnerboximagebox{
+    height: 200px;
+    width: fit-content;
+  
+    margin: auto;
+}
+
+.flowerdeliveryserviceinnerboximagebox >img{
+    height: 100%;
+
+    object-fit: contain;
 }

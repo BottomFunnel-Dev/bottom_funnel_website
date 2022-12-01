@@ -332,6 +332,79 @@ export const golangstackIntro = {
                   eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
                   sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
     },
-   
+  ],
+};
+export const javascriptstackIntro = {
+  heading: "Javascript",
+  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+      in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+      fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+      Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+      eaque.`,
+  aspstack: [
+    {
+      stackName: "React",
+      stackIcon: "Images/webdevmain/frameworkIcons/js/react.png",
+      alt: "react.png",
+      description: `
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+    {
+      stackName: "Angular",
+      stackIcon: "Images/webdevmain/frameworkIcons/js/Angularjs.png",
+      alt: "Angularjs.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  `,
+    },
+    {
+      stackName: "Node.js",
+      stackIcon: "Images/webdevmain/frameworkIcons/js/node.png",
+      alt: "node.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+    {
+      stackName: "Ember",
+      stackIcon: "Images/webdevmain/frameworkIcons/js/Ember.png",
+      alt: "Ember.png",
+      description: `
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+    },
+    {
+      stackName: "Jquery",
+      stackIcon: "Images/webdevmain/frameworkIcons/js/Jquery.png",
+      alt: "Jquery.png",
+      description: `
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+    },
+    {
+      stackName: "Next.js",
+      stackIcon: "Images/webdevmain/frameworkIcons/js/nextjs.png",
+      alt: "nextjs.png",
+      description: `
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+    },
   ],
 };

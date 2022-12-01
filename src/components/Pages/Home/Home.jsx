@@ -18,6 +18,7 @@ import PortFolio from "../../PortFolioSection/PortFolio";
 import { ParallexSection } from "../../Parallex/ParallexSection";
 import { Helmet } from "react-helmet";
 import EnquiryNow from "../../SEO/EnquiryNow/EnquiryNow";
+import { BannerFull } from "../../mainSection/BannerFull";
 
 export const HomePage = () => {
   return (
@@ -32,7 +33,8 @@ export const HomePage = () => {
           content="Bottom Funnel is a leading global mobile app development company in India, US, UAE & UK which offers innovative and customized digital on-demand solutions for cross-platform App and web Development"
         />
       </Helmet>
-      <Banner />
+      {/* <Banner /> */}
+      <BannerFull/>
       <CompanyLogo />
       <About />
       <Services />

@@ -1,64 +1,74 @@
-.flowerdeleverybanner{
-  
-    height: 600px;
-    width: 100%;
-    margin-top: 150px;
+.flowerdeliverybannermaindiv{
+    height: 550px;
+
+    margin-top: 120px;
     display: flex;
 }
-
-.flowerdeleverybannerleftflex{
-
-    height: 100%;
-    width: 30%;
-    margin-left: 5%;
-    margin-top: 150px;
-}
-
-.flowerdeleverybannerrightflex{
-
-
-    width: 70%;
-
-
-
-}
-
-.flowerdeleverybannerleftflexbutton{
-    border-radius: 30px;
-    width: 212px;
-    height: 47px;
-    background-color: #3A8C93 ;
-    color: white;
-    padding: 10px;
-    border:white;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-/* .flowerdeleverybannerleftflexbutton :hover{
+.flowerdeliverybannerleftbox{
  
-    background-color: white;
-    color: #3A8C93;
- 
-    
-  
-    
-} */
-
-button:hover{
-    background-color: white;
-    color: #3A8C93;
+    height: 50%;
+    width: 35%;
+    margin-left: 3%;
+    margin-top: 5%;
 }
 
-
-
-
-.flowerdeleverybannerrightfleximage{
-    height: 500px;
-    width: 50%;
-    object-fit: cover;
-    margin-left: 350px;
-  
-}
-.boldtext{
+.flowerdeliverybannerleftbox >h2{
     font-weight: bold;
+}
+
+
+
+.flowerdeliverybannerrightbox{
+
+    width: 52%;
+    margin-left: 2%;
+    position: relative;
+}
+
+.flowerdeliverybannerimageone{
+position: absolute;
+height: 100%;
+width: 100%;
+left: 10%;
+z-index: 0;
+}
+
+.flowerdeliverybannerimageone >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+.flowerdeliverybannerimagetwo{
+position: absolute;
+height: 90%;
+width: 70%;
+left: 25%;
+top: 5%;
+}
+.flowerdeliverybannerimagetwo >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.flowerdeliverybannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.flowerdeliverybannerbutton:hover {
+
+    background-color:white;
+    color:  #3380f2;
+
 }

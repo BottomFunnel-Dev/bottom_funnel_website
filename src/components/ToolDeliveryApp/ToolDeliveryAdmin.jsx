@@ -1,89 +1,84 @@
-import React from 'react'
-import { useState } from 'react';
-import "./ToolDelivery.css"
+import React, { useState } from 'react'
+import "./ToolDeliveryAdmin.css"
 
-const ToolDeliveryAdmin = () => {
+export const ToolDeliveryAdmin = () => {
+    let ToolDeliveryadmindata = [
+        {
+          img: {
+            src: "Images/tooldeliveryapp/control business admin panel.png",
+            alt: "Marketimage",
+          },
 
-  let Tooladmindata = [
-    {
-      img: {
-        src: "Images/tooldeliveryapp/control business admin panel.png",
-        alt: "control business admin pannel",
-      },
-     
-      icon: {
-        src: "Images/tooldeliveryapp/pie-chart.png",
-        alt: " Marketlogo",
-      },
+          icon: {
+            src: "Images/tooldeliveryapp/pie-chart.png",
+            alt: "Buisness Control",
+          },
 
-      title: "Business Control",
-     para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-    },
-
-    {
-      img: {
-        src: "Images/tooldeliveryapp/Reports & analytics.png",
-        alt: " ",
-      },
-      icon: {
-        src: "Images/tooldeliveryapp/Analytics & insights.png",
-        alt: "Product logo",
-      },
-         title: "Reports & Analytics",
+          title: "Buisness Control",
          para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-    },
-    {
-      img: {
-        src: "Images/tooldeliveryapp/Manage Payment.png",
-        alt: "",
-      },
-      icon: {
-        src: "Images/tooldeliveryapp/rupee.png",
-        alt: "Revenuelogo",
-      },
-        title: "Manage Payments",
-         para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-   
-     },
-    {
-      img: {
-        src: "Images/tooldeliveryapp/manage customers.png",
-        alt: "",
-      },
-      icon: {
-        src: "Images/tooldeliveryapp/manage customer.png",
-        alt: "Customer logo",
-      },
-      title: "Manage Customer",
-      para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-    },
-    
-  ];
+        },
+
+        {
+          img: {
+            src: "Images/tooldeliveryapp/Reports & analytics.png",
+            alt: "Report and analytics",
+          },
+          icon: {
+            src: "Images/tooldeliveryapp/Analytics & insights.png",
+            alt: "Reports Analytics",
+          },
+             title: "Report Analytics",
+             para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+        },
+        {
+          img: {
+            src: "Images/tooldeliveryapp/Manage Payment.png",
+            alt: "Manage Payments image",
+          },
+          icon: {
+            src: "Images/tooldeliveryapp/rupee.png",
+            alt: "Manage Payments",
+          },
+            title: "Manage Payments",
+             para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+       
+         },
+        {
+          img: {
+            src: "Images/tooldeliveryapp/manage customers.png",
+            alt: "manage Customer image",
+          },
+          icon: {
+            src: "Images/tooldeliveryapp/manage customer.png",
+            alt: "Customer logo",
+          },
+          title: "Manage Customer",
+          para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+        },
+        
+      ];
 
 
-  const [active, setActive] = useState(0);
-
+      const [active, setActive] = useState(0);
   return (
-    <div style={{
-      marginTop:"5%"
-    }} className='Tooladmin'> 
+    <div className='tooldeliveryadmin'> 
 
     <h1> Admin panel</h1>
-    <div className='tooladminsub'> 
+    <div className='tooldeliveryadminsub'> 
              
-            <div className='tooladminright'>
+            <div className='tooldeliveryadminright'>
 
             
-{Tooladmindata.map(({ title, icon }, idx) => {
+{ToolDeliveryadmindata.map(({ title, icon }, idx) => {
   return (
    
     <div
       key={title}
       onMouseOver={() => setActive(idx)}
-      className={`tooladmin-box-${idx}`}
+      className={`tools-box-${idx}`}
     >
       
-      <div className="tooladmin-logo">
+      <div className="tools-logo">
         <img src={icon.src} alt={icon.alt} />
       </div>
       <h3>{title}</h3>
@@ -97,12 +92,12 @@ const ToolDeliveryAdmin = () => {
 })}
 
     </div>
-            <div className='tooladminleft'>
+            <div className='tooldeliveryadminleft'>
                
-               <div className="pharmacy-admin-image">
+               <div className="tooldelivery-admin-image">
              <img
-                src={Tooladmindata[active].img.src}
-                alt={Tooladmindata[active].img.alt}
+                src={ToolDeliveryadmindata[active].img.src}
+                alt={ToolDeliveryadmindata[active].img.alt}
                 />
                  </div>
    
@@ -113,5 +108,3 @@ const ToolDeliveryAdmin = () => {
   </div>
   )
 }
-
-export default ToolDeliveryAdmin

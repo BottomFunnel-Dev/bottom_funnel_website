@@ -360,4 +360,61 @@ export const golangwebDevServices = {
     },
   ],
 };
+export const javascriptwebDevServices = {
+  title: "Javascript Development",
+  description:
+    "We have developed years of expertise in creating world-class websites and apps using Javascript. We offer comprehensive services that include application design, coding, testing, deployment, and maintenance so you can sleep easy knowing your website will be up and running smoothly day after day.",
+  serviceCard: [
+    {
+      icon: "Images/javascriptpage/presentation.png",
+      alt: "presentation.png",
+      serviceTitle: "Create Interactive Presentations",
+      serviceDesc:
+        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+    },
+    {
+      icon: "Images/javascriptpage/appdev.png",
+      alt: "appdev",
+      serviceTitle: "Mobile Apps Development",
+      serviceDesc:
+        "We use Javascript and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
+    },
+    {
+      icon: "Images/javascriptpage/Server.png",
+      alt: "Server.png",
+      serviceTitle: "Create web Servers",
+      serviceDesc:
+        "With Javascript, you can easily create web applications that run smoothly on any device without causing any errors. From backend to frontend, everything is organized in such a way that it'll be easy for you to understand how the whole system works.",
+    },
+    {
+      icon: "Images/javascriptpage/graphics.png",
+      alt: "graphics.png",
+      serviceTitle: "Rich Graphics for Games",
+      serviceDesc:
+        "Bottom Funnel is the best Javascript development company that offers migration services for your existing Javascript application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+    },
+    {
+      icon: "Images/javascriptpage/crossplatform.png",
+      alt: "crossplatform.png",
+      serviceTitle: "Cross-platform",
+      serviceDesc:
+        "A quick way to build app is using Javascript and its frameworks. Javascript is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
+    },
+
+    {
+      icon: "Images/javascriptpage/watch.png",
+      alt: "watch.png",
+      serviceTitle: "Wearable Apps",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+    {
+      icon: "Images/javascriptpage/cloud.png",
+      alt: "cloud.png",
+      serviceTitle: "Server Applications",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+  ],
+};
 

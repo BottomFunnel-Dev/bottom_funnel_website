@@ -120,6 +120,8 @@ import { VettingPage } from "./components/VettingPage/VettingPage";
 import { LaundryPage } from "./components/LaundryPage/LaundryPage";
 import { RubyPage } from "./components/Rubypage/RubyPage";
 import { GolangPage } from "./components/GolangPage/GolangPage";
+import { JavascriptPage } from "./components/JavascriptPage/JavascriptPage";
+import ToolDelivery from "./components/ToolDeliveryApp/ToolDelivery";
 
 export const ALLroutes = () => {
   return (
@@ -239,6 +241,8 @@ export const ALLroutes = () => {
       <Route path="/vetting-process" element={<VettingPage />} />
       <Route path="/ruby-development" element={<RubyPage/>} />
       <Route path="/golang-development" element={<GolangPage/>} />
+      <Route path="/javascript-development" element={<JavascriptPage/>} />
+      <Route path="/tool-delivery" element={<ToolDelivery/>} />
     </Routes>
   );
 };
