@@ -1,0 +1,105 @@
+.SalesforceWhyBF-main {
+  width: 90%;
+  margin: 3% auto;
+}
+
+.SalesforceWhyBF-main > h1 {
+  font-size: 32px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.SalesforceWhyBF-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SalesforceWhyBF-content {
+  width: 45%;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SalesforceWhyBF-content > div {
+  width: 45%;
+  height: 150px;
+  margin-bottom: 2%;
+  background-color: #f5f5f5;
+
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+
+  position: relative;
+}
+
+.SalesforceWhyBF-content > div > h4 {
+  font-size: 16px;
+  margin: 0;
+
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  transition: opacity 0.4s linear;
+
+  opacity: 1;
+}
+
+.SalesforceWhyBF-content > div:hover h4 {
+  opacity: 0;
+}
+
+.SalesforceWhyBF-content > div > div {
+  width: 30%;
+  height: 2%;
+  overflow: hidden;
+  background: #ef4c23;
+
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  border-radius: 10px;
+
+  transition: bottom 0.1s linear, height 0.2s linear 0.4s, width 0.3s linear;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.SalesforceWhyBF-content > div > div > p {
+  color: white;
+  font-size: 16px;
+
+  width: 90%;
+  margin: auto;
+  opacity: 0;
+
+  transition: opacity 0.5s linear;
+}
+
+.SalesforceWhyBF-content > div:hover div {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SalesforceWhyBF-content > div:hover div > p {
+  text-align: justify;
+  opacity: 1;
+}
+
+.SalesforceWhyBF-image {
+  width: 50%;
+  height: fit-content;
+}
+
+.SalesforceWhyBF-image > img {
+  width: 100%;
+}

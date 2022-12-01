@@ -122,6 +122,8 @@ import { RubyPage } from "./components/Rubypage/RubyPage";
 import { GolangPage } from "./components/GolangPage/GolangPage";
 import { JavascriptPage } from "./components/JavascriptPage/JavascriptPage";
 import ToolDelivery from "./components/ToolDeliveryApp/ToolDelivery";
+import { SalesforsePage } from "./components/SalesforsePage/SalesforsePage";
+import { EngagementPage } from "./components/EngagementPage/EngagementPage";
 
 export const ALLroutes = () => {
   return (
@@ -142,43 +144,103 @@ export const ALLroutes = () => {
       <Route path="/nodejs" element={<SkillsComPage allData={nodejsData} />} />
       <Route path="/php" element={<SkillsComPage allData={phpData} />} />
       <Route path="/dotnet" element={<SkillsComPage allData={DotnetData} />} />
-      <Route path="/laravel" element={<SkillsComPage allData={laravelData} />} />
+      <Route
+        path="/laravel"
+        element={<SkillsComPage allData={laravelData} />}
+      />
       <Route path="/django" element={<SkillsComPage allData={djangoData} />} />
-      <Route path="/cakephp" element={<SkillsComPage allData={cakePHPData} />} />
-      <Route path="/codeigniter"  element={<SkillsComPage allData={codeigniterData} />}/>
-      <Route path="/reactjs" element={<SkillsComPage allData={reactjsData} />}/>
-      <Route path="/angular"  element={<SkillsComPage allData={angularjsData} />}/>
+      <Route
+        path="/cakephp"
+        element={<SkillsComPage allData={cakePHPData} />}
+      />
+      <Route
+        path="/codeigniter"
+        element={<SkillsComPage allData={codeigniterData} />}
+      />
+      <Route
+        path="/reactjs"
+        element={<SkillsComPage allData={reactjsData} />}
+      />
+      <Route
+        path="/angular"
+        element={<SkillsComPage allData={angularjsData} />}
+      />
       <Route path="/vuejs" element={<SkillsComPage allData={vuejsData} />} />
-      <Route path="/springboot"  element={<SkillsComPage allData={springBootData} />}/>
-      <Route path="/hibernate"  element={<SkillsComPage allData={hiberateData} />} />
-      <Route  path="/emberjs" element={<SkillsComPage allData={emberjsData} />} />
+      <Route
+        path="/springboot"
+        element={<SkillsComPage allData={springBootData} />}
+      />
+      <Route
+        path="/hibernate"
+        element={<SkillsComPage allData={hiberateData} />}
+      />
+      <Route
+        path="/emberjs"
+        element={<SkillsComPage allData={emberjsData} />}
+      />
       <Route path="/jquery" element={<SkillsComPage allData={jqueryData} />} />
       <Route path="/nextjs" element={<SkillsComPage allData={nextjsData} />} />
-      <Route  path="/backbonejs"  element={<SkillsComPage allData={backbonejsData} />} />
+      <Route
+        path="/backbonejs"
+        element={<SkillsComPage allData={backbonejsData} />}
+      />
       <Route path="/svelte" element={<SkillsComPage allData={svelteData} />} />
-      <Route  path="/microsoftSQL"  element={<SkillsComPage allData={msSQLData} />} />
-      <Route  path="/mongodb"  element={<SkillsComPage allData={mongodbData} />} />
+      <Route
+        path="/microsoftSQL"
+        element={<SkillsComPage allData={msSQLData} />}
+      />
+      <Route
+        path="/mongodb"
+        element={<SkillsComPage allData={mongodbData} />}
+      />
       <Route path="/mySQL" element={<SkillsComPage allData={mysqlData} />} />
-      <Route path="/postgreSQL" element={<SkillsComPage allData={postgresqlData} />} />
+      <Route
+        path="/postgreSQL"
+        element={<SkillsComPage allData={postgresqlData} />}
+      />
       <Route path="/redis" element={<SkillsComPage allData={redisData} />} />
-      <Route  path="/wordpress"  element={<SkillsComPage allData={wordpressData} />}/>
+      <Route
+        path="/wordpress"
+        element={<SkillsComPage allData={wordpressData} />}
+      />
       <Route path="/wix" element={<SkillsComPage allData={wixData} />} />
       <Route path="/joomla" element={<SkillsComPage allData={joomlaData} />} />
-      <Route  path="/hubspot"  element={<SkillsComPage allData={hubspotData} />}/>
-      <Route  path="/woo-commerce"  element={<SkillsComPage allData={wooecommerceData} />}/>
+      <Route
+        path="/hubspot"
+        element={<SkillsComPage allData={hubspotData} />}
+      />
+      <Route
+        path="/woo-commerce"
+        element={<SkillsComPage allData={wooecommerceData} />}
+      />
       <Route path="/drupal" element={<SkillsComPage allData={drupalData} />} />
-      <Route  path="/bigcommerce"  element={<SkillsComPage allData={bigcommerceData} />} />
+      <Route
+        path="/bigcommerce"
+        element={<SkillsComPage allData={bigcommerceData} />}
+      />
       <Route path="/ibm-db" element={<SkillsComPage allData={ibmData} />} />
-      <Route  path="/elasticsearch"  element={<SkillsComPage allData={elasticData} />}/>
+      <Route
+        path="/elasticsearch"
+        element={<SkillsComPage allData={elasticData} />}
+      />
       <Route path="/SQLite" element={<SkillsComPage allData={sqliteData} />} />
-      <Route  path="/Cassandra"  element={<SkillsComPage allData={cassandraData} />} />
+      <Route
+        path="/Cassandra"
+        element={<SkillsComPage allData={cassandraData} />}
+      />
       <Route path="/flask" element={<SkillsComPage allData={flaskData} />} />
       <Route path="/golang" element={<SkillsComPage allData={golangData} />} />
       <Route path="/struts" element={<SkillsComPage allData={strutsData} />} />
-      <Route path="/symfony" element={<SkillsComPage allData={symfonyData} />} />
+      <Route
+        path="/symfony"
+        element={<SkillsComPage allData={symfonyData} />}
+      />
       <Route path="/grails" element={<SkillsComPage allData={grailsData} />} />
       <Route path="/jsf" element={<SkillsComPage allData={jsfData} />} />
-      <Route path="/phalcon"  element={<SkillsComPage allData={phalconData} />}/>
+      <Route
+        path="/phalcon"
+        element={<SkillsComPage allData={phalconData} />}
+      />
       <Route path="/beautycareapp" element={<Beautysection />} />
       <Route path="/digitalmarketing" element={<SeoDm />} />
       <Route path="/emailservices" element={<SeoEmail />} />
@@ -219,7 +281,7 @@ export const ALLroutes = () => {
       <Route path="/internet-of-things" element={<IOTPage />} />
       <Route path="/artificial-inteligence" element={<AIPage />} />
       <Route path="/mern-stack" element={<Mern />} />
-      <Route path="/marketplace" element={<Marketplace/>} />
+      <Route path="/marketplace" element={<Marketplace />} />
       <Route path="/awards" element={<AwardsPage />} />
       <Route path="/PressAndMedia" element={<NewsEvent />} />
       <Route path="/machine-learning" element={<MLPages />} />
@@ -232,17 +294,19 @@ export const ALLroutes = () => {
       <Route path="/flower-delivery" element={<FlowerDelevry />} />\
       <Route path="/NFT-Development" element={<NFTpage />} />
       <Route path="/data-science" element={<DataSciencePage />} />
-      <Route path="/laundry" element={<LaundryPage/>} />
+      <Route path="/laundry" element={<LaundryPage />} />
       <Route path="/java-development" element={<Javapage />} />
       <Route path="/python-development" element={<PythonPage />} />
       <Route path="/cloud" element={<CloudPage />} />
       <Route path="/Business-intelligence" element={<BIPages />} />
       <Route path="/metaverse" element={<MetaversePage />} />
       <Route path="/vetting-process" element={<VettingPage />} />
-      <Route path="/ruby-development" element={<RubyPage/>} />
-      <Route path="/golang-development" element={<GolangPage/>} />
-      <Route path="/javascript-development" element={<JavascriptPage/>} />
-      <Route path="/tool-delivery" element={<ToolDelivery/>} />
+      <Route path="/ruby-development" element={<RubyPage />} />
+      <Route path="/golang-development" element={<GolangPage />} />
+      <Route path="/javascript-development" element={<JavascriptPage />} />
+      <Route path="/tool-delivery" element={<ToolDelivery />} />
+      <Route path="/salesforce" element={<SalesforsePage />} />
+      <Route path="/engagement" element={<EngagementPage />} />
     </Routes>
   );
 };

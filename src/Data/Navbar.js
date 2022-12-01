@@ -53,7 +53,7 @@ export const process = [
   {
     dropContent: "Engagement Models",
     navIcons: "Images/navbar/aboutImage/engagementmodels.png",
-    path: "",
+    path: "engagement",
   },
   {
     dropContent: "Our Partners",
@@ -280,7 +280,7 @@ export const trendingTech = [
   {
     dropContent: "Salesforce",
     navIcons: "Images/navbar/services/salesforce.png",
-    path: "",
+    path: "salesforce",
   },
 ];
 
