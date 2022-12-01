@@ -7,6 +7,18 @@ import FlowerDeliverylast from './FlowerDeliverylast'
 import { FlowerDeliveryService } from './FlowerDeliveryService'
 import FlowerDeliverySolution from './FlowerDeliverySolution'
 
+
+// ----- Other requried react components -----
+import StoriesSection from "../StoriesSection/StoriesSection";
+import OndemandSection from "../OnDemandSection/OndemandSection";
+import PortFolio from "../PortFolioSection/PortFolio";
+import PlanProject from "../PlanProject/PlanProject";
+import Revamping from "../revamping/Revamping";
+import { SeoblogSection } from "../SeoBlogs/Seoblogs";
+import { TextDropdown } from "../faqSection/Faqs";
+import ContectForm from "../ContectForm/ContectForm";
+import MainFooter from "../FooterSection/MainFooter";
+
 const FlowerDelevry = () => {
   return (
     <div>
@@ -17,6 +29,19 @@ const FlowerDelevry = () => {
     <FlowerDeliveryAdmin />
     <FlowerDeliveryBannerbottom />
     <FlowerDeliverylast />
+
+     {/* Other react required components */}
+     <StoriesSection />
+      <OndemandSection />
+      <PortFolio />
+      <PlanProject />
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
+    
+
     </div>
   )
 }
