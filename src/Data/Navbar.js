@@ -96,12 +96,12 @@ export const webservice = [
   {
     dropContent: "Ruby on Rails Development",
     navIcons: "Images/navbar/services/ruby.png",
-    path: "",
+    path: "ruby-development",
   },
   {
     dropContent: "Golang Development",
     navIcons: "Images/navbar/services/golangimage.png",
-    path: "",
+    path: "golang-development",
   },
   {
     dropContent: "Javascript Development",

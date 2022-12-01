@@ -9,7 +9,7 @@ import { WebDevWhy } from "../WebdevPages/webDevWhy/WebDevWhy";
 import { aspnetWhyContent } from "../../Data/webdevPageData/whyBottomContent";
 import { WhyTechStack } from "../WebdevPages/whyTechStack/WhyTechStack";
 import { whyAspnet } from "../../Data/webdevPageData/whyTechStack";
-import { Techstackintro } from "./techStackintro/Techstackintro";
+import { Techstackintro } from "../WebdevPages/techStackintro/Techstackintro";
 import { aspstackIntro } from "../../Data/webdevPageData/StackData";
 export const AspNetPage = () => {
   return (

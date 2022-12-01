@@ -4,7 +4,7 @@ import { pythonstackIntro } from "../../Data/webdevPageData/StackData";
 import { pythonBanner } from "../../Data/webdevPageData/TechBannerData";
 import { pythonWhyContent } from "../../Data/webdevPageData/whyBottomContent";
 import { whyPython } from "../../Data/webdevPageData/whyTechStack";
-import { Techstackintro } from "../ASP.NETpage/techStackintro/Techstackintro";
+import { Techstackintro } from "../WebdevPages/techStackintro/Techstackintro";
 import { WebdevBanner } from "../WebdevPages/bannerWebdev/WebdevBanner";
 import { WebDevServices } from "../WebdevPages/webdevServices/WebDevServices";
 import { WebDevWhy } from "../WebdevPages/webDevWhy/WebDevWhy";

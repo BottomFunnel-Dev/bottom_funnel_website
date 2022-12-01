@@ -47,3 +47,15 @@ export const pythonBanner = {
   description:
     "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
 };
+export const rubyBanner = {
+  background: "Images/webdevmain/webbanner.png",
+  title: "Best Ruby Development Around the Globe",
+  description:
+    "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
+};
+export const golangBanner = {
+  background: "Images/webdevmain/webbanner.png",
+  title: "Best Golange Development Around the Globe",
+  description:
+    "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
+};

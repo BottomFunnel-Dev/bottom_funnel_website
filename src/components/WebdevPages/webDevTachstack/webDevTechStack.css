@@ -33,11 +33,11 @@
   box-sizing: border-box;
   background-color: white;
 }
-.techStack > button:hover {
+/* .techStack > button:hover {
   background: #ffe2da;
   border-left: 5px solid #ef4c23;
   color: #ef4c23;
-}
+} */
 
 .stackGrid {
   width: 80%;

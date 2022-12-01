@@ -10,6 +10,9 @@
     text-align: center;
     padding: 20px;
 }
+.techHeader span{
+    color: #ef4c23;
+}
 
 .whyTechFeaturesCard{
     width: 80%;

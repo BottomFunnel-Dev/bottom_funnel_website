@@ -118,3 +118,63 @@ export const pythonWhyContent = {
     },  
   ],
 };
+export const rubyWhyContent = {
+  intro:
+    "Bottom funnel is one of the most effective ways to get a hold on your web development. It offers an easy way for beginners to learn and understand the basics of Java, as well as for advanced users who want to take things to the next level.",
+  feature: [
+    {
+      title: "Agile",
+      description:
+        "If you're looking for a way to speed up your Ruby development process, look no further than bottom funnel. We have an agile team that is always striving to improve ourselves and our software, so that we can offer you the best possible experience.",
+      icon: "Images/mern/settings.png",
+    },
+    {
+      title: "Experienced and Talented Team",
+      description:
+        "We are a top-notch Ruby development firm that brings experience and expertise to work on your project. Our team has years of experience working on web applications and understands the needs of modern businesses. We use cutting-edge technologies to build efficient, scalable systems that are easy to maintain.",
+      icon: "Images/mern/group.png",
+    },
+    {
+      title: "Integrity and Transparency",
+      description:
+        "Bottom funnel is a leading web development company that believes in integrity and transparency. We offer top-notching Ruby development services to our clients to help them build an efficient website or app. Our team of highly skilled experts has vast experience in the field, so you can be sure that we will deliver quality work on time.",
+      icon: "Images/mern/integration.png",
+    },
+    {
+      title: "Flexible Engagement",
+      description:
+        "We're here with Ruby development in Bottom Funnel. We give our clients a flexible engagement so they can choose which technologies they want to use and get the desired results from their projects.",
+      icon: "Images/mern/direction.png",
+    },  
+  ],
+};
+export const golangWhyContent = {
+  intro:
+    "Bottom funnel is one of the most effective ways to get a hold on your web development. It offers an easy way for beginners to learn and understand the basics of Golang, as well as for advanced users who want to take things to the next level.",
+  feature: [
+    {
+      title: "Agile",
+      description:
+        "If you're looking for a way to speed up your Ruby development process, look no further than bottom funnel. We have an agile team that is always striving to improve ourselves and our software, so that we can offer you the best possible experience.",
+      icon: "Images/mern/settings.png",
+    },
+    {
+      title: "Experienced and Talented Team",
+      description:
+        "We are a top-notch Golang development firm that brings experience and expertise to work on your project. Our team has years of experience working on web applications and understands the needs of modern businesses. We use cutting-edge technologies to build efficient, scalable systems that are easy to maintain.",
+      icon: "Images/mern/group.png",
+    },
+    {
+      title: "Integrity and Transparency",
+      description:
+        "Bottom funnel is a leading web development company that believes in integrity and transparency. We offer top-notching Golang development services to our clients to help them build an efficient website or app. Our team of highly skilled experts has vast experience in the field, so you can be sure that we will deliver quality work on time.",
+      icon: "Images/mern/integration.png",
+    },
+    {
+      title: "Flexible Engagement",
+      description:
+        "We're here with Golang development in Bottom Funnel. We give our clients a flexible engagement so they can choose which technologies they want to use and get the desired results from their projects.",
+      icon: "Images/mern/direction.png",
+    },  
+  ],
+};

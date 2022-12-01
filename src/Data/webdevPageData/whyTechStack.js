@@ -111,3 +111,77 @@ export const whyPython = {
     },
   ],
 };
+export const whyRuby = {
+  heading: "Ruby",
+  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+
+  cardData: [
+    {
+      title: "Extremely Secure",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Easy changes",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Consistent in Nature",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Faster Processing",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Open Source",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Flexible",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+  ],
+};
+export const whyGolang = {
+  heading: "Golang",
+  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+
+  cardData: [
+    {
+      title: "Powerful Performance",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Easy Maintenance",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Fast Garbage Collection",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Simplified Code",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Open Source",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Industry Agnostic",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+  ],
+};

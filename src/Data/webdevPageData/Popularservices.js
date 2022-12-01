@@ -246,4 +246,118 @@ export const pythonwebDevServices = {
     },
   ],
 };
+export const rubywebDevServices = {
+  title: "Ruby Development",
+  description:
+    "We have developed years of expertise in creating world-class websites and apps using Ruby. We offer comprehensive services that include application design, coding, testing, deployment, and maintenance so you can sleep easy knowing your website will be up and running smoothly day after day.",
+  serviceCard: [
+    {
+      icon: "Images/rubypage/websiteDev.png",
+      alt: "websiteDev.png",
+      serviceTitle: "Web-based Applications",
+      serviceDesc:
+        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+    },
+    {
+      icon: "Images/rubypage/Ecommerce.png",
+      alt: "Ecommerce",
+      serviceTitle: "E-commerce Development",
+      serviceDesc:
+        "We use Ruby and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
+    },
+    {
+      icon: "Images/rubypage/automation.png",
+      alt: "automation.png",
+      serviceTitle: "Task Automation",
+      serviceDesc:
+        "With Ruby, you can easily create web applications that run smoothly on any device without causing any errors. From backend to frontend, everything is organized in such a way that it'll be easy for you to understand how the whole system works.",
+    },
+    {
+      icon: "Images/rubypage/scrapping.png",
+      alt: "scrapping.png",
+      serviceTitle: "Web Scrapping",
+      serviceDesc:
+        "Bottom Funnel is the best Ruby development company that offers migration services for your existing Ruby application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+    },
+    {
+      icon: "Images/rubypage/Database.png",
+      alt: "Database.png",
+      serviceTitle: "Database interaction",
+      serviceDesc:
+        "A quick way to build app is using Ruby and its frameworks. Ruby is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
+    },
+
+    {
+      icon: "Images/rubypage/dataprocess.png",
+      alt: "dataprocess.png",
+      serviceTitle: "Data Processing",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+    {
+      icon: "Images/rubypage/gamedev.png",
+      alt: "gamedev.png",
+      serviceTitle: "Game Development",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+  ],
+};
+export const golangwebDevServices = {
+  title: "Golang Development",
+  description:
+    "We have developed years of expertise in creating world-class websites and apps using Golang. We offer comprehensive services that include application design, coding, testing, deployment, and maintenance so you can sleep easy knowing your website will be up and running smoothly day after day.",
+  serviceCard: [
+    {
+      icon: "Images/golangpage/secure.png",
+      alt: "secure.png",
+      serviceTitle: "Safe and Secure Code",
+      serviceDesc:
+        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+    },
+    {
+      icon: "Images/golangpage/library.png",
+      alt: "library",
+      serviceTitle: "Smart Library Access",
+      serviceDesc:
+        "We use Golang and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
+    },
+    {
+      icon: "Images/golangpage/foldercustom.png",
+      alt: "foldercustom.png",
+      serviceTitle: "Easy Customisation",
+      serviceDesc:
+        "With Golang, you can easily create web applications that run smoothly on any device without causing any errors. From backend to frontend, everything is organized in such a way that it'll be easy for you to understand how the whole system works.",
+    },
+    {
+      icon: "Images/golangpage/dashboard.png",
+      alt: "dashboard.png",
+      serviceTitle: "Backend Dashboard Development",
+      serviceDesc:
+        "Bottom Funnel is the best Golang development company that offers migration services for your existing Golang application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+    },
+    {
+      icon: "Images/golangpage/crossplatform.png",
+      alt: "crossplatform.png",
+      serviceTitle: "Easy Cross-compiling",
+      serviceDesc:
+        "A quick way to build app is using Golang and its frameworks. Golang is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
+    },
+
+    {
+      icon: "Images/golangpage/api.png",
+      alt: "api.png",
+      serviceTitle: "Lightweight API Development",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+    {
+      icon: "Images/golangpage/Database.png",
+      alt: "Database.png",
+      serviceTitle: "Easy Database integration",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+  ],
+};
 

@@ -60,9 +60,9 @@
 }
 
 .stack-image {
-  width: 100px;
-  height: 100px;
-  margin: auto;
+  width: 150px;
+  height: 150px;
+  margin: 15px auto;
 }
 .stack-image > img {
   width: 100%;

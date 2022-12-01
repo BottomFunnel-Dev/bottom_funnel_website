@@ -1,7 +1,7 @@
 import React from "react";
 import { WebdevBanner } from "../WebdevPages/bannerWebdev/WebdevBanner";
 import { javaBanner } from "../../Data/webdevPageData/TechBannerData";
-import { Techstackintro } from "../ASP.NETpage/techStackintro/Techstackintro";
+import { Techstackintro } from "../WebdevPages/techStackintro/Techstackintro";
 import { javastackIntro } from "../../Data/webdevPageData/StackData";
 import { WebDevServices } from "../WebdevPages/webdevServices/WebDevServices";
 import {javawebDevServices } from "../../Data/webdevPageData/Popularservices";

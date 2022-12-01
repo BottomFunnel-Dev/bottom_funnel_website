@@ -47,11 +47,6 @@ export const aspstackIntro = {
   ],
 };
 
-
-
-
-
-
 export const javastackIntro = {
   heading: "Java",
   description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
@@ -138,69 +133,205 @@ export const javastackIntro = {
   ],
 };
 
-
-
 export const pythonstackIntro = {
-    heading: "Python",
-    description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+  heading: "Python",
+  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
       in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
       fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
       Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
       eaque.`,
-    aspstack: [
-      {
-        stackName: "Bottle",
-        stackIcon: "Images/webdevmain/frameworkIcons/python/bottle.png",
-        alt: "bottle.png",
-        description: `
+  aspstack: [
+    {
+      stackName: "Bottle",
+      stackIcon: "Images/webdevmain/frameworkIcons/python/bottle.png",
+      alt: "bottle.png",
+      description: `
                   sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
                   in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
                   fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
                   Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
                   eaque.`,
-      },
-      {
-        stackName: "CherryPy",
-        stackIcon: "Images/webdevmain/frameworkIcons/python/cherrypy.png",
-        alt: "cherrypy.png",
-        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+    },
+    {
+      stackName: "CherryPy",
+      stackIcon: "Images/webdevmain/frameworkIcons/python/cherrypy.png",
+      alt: "cherrypy.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
                   sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
                   in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
                   `,
-      },
-      {
-        stackName: "Django",
-        stackIcon: "Images/webdevmain/frameworkIcons/python/Django.png",
-        alt: "Django.png",
-        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+    },
+    {
+      stackName: "Django",
+      stackIcon: "Images/webdevmain/frameworkIcons/python/Django.png",
+      alt: "Django.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
                 
                   in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
                   fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
                   Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
                   eaque.`,
-      },
-      {
-        stackName: "Flask",
-        stackIcon: "Images/webdevmain/frameworkIcons/python/flask.png",
-        alt: "flask.png",
-        description: `
+    },
+    {
+      stackName: "Flask",
+      stackIcon: "Images/webdevmain/frameworkIcons/python/flask.png",
+      alt: "flask.png",
+      description: `
                   in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
                   fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
                   Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
                   eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
                   sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
-      },
-      {
-        stackName: "Web2Py",
-        stackIcon: "Images/webdevmain/frameworkIcons/python/web2py.png",
-        alt: "web2py.png",
-        description: `
+    },
+    {
+      stackName: "Web2Py",
+      stackIcon: "Images/webdevmain/frameworkIcons/python/web2py.png",
+      alt: "web2py.png",
+      description: `
                   in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
                   fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
                   Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
                   eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
                   sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
-      },
-     
-    ],
-  };
+    },
+  ],
+};
+
+export const rubystackIntro = {
+  heading: "Ruby",
+  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+      in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+      fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+      Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+      eaque.`,
+  aspstack: [
+    {
+      stackName: "Rails",
+      stackIcon: "Images/webdevmain/frameworkIcons/ruby/rails.png",
+      alt: "rails.png",
+      description: `
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+    {
+      stackName: "Cuba",
+      stackIcon: "Images/webdevmain/frameworkIcons/ruby/cuba.png",
+      alt: "cuba.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  `,
+    },
+    {
+      stackName: "Hanami",
+      stackIcon: "Images/webdevmain/frameworkIcons/ruby/Hanami.png",
+      alt: "Hanami.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+    {
+      stackName: "Padrino",
+      stackIcon: "Images/webdevmain/frameworkIcons/ruby/padrino.png",
+      alt: "padrino.png",
+      description: `
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+    },
+    {
+      stackName: "Roda",
+      stackIcon: "Images/webdevmain/frameworkIcons/ruby/roda.png",
+      alt: "roda.png",
+      description: `
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+    },
+    {
+      stackName: "Sinatra",
+      stackIcon: "Images/webdevmain/frameworkIcons/ruby/sinatra.png",
+      alt: "sinatra.png",
+      description: `
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+    },
+  ],
+};
+export const golangstackIntro = {
+  heading: "Golang",
+  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+      in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+      fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+      Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+      eaque.`,
+  aspstack: [
+    {
+      stackName: "Gin",
+      stackIcon: "Images/webdevmain/frameworkIcons/golang/gin.png",
+      alt: "gin.png",
+      description: `
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+    {
+      stackName: "Echo",
+      stackIcon: "Images/webdevmain/frameworkIcons/golang/echo.png",
+      alt: "echo.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  `,
+    },
+    {
+      stackName: "Gorilla",
+      stackIcon: "Images/webdevmain/frameworkIcons/golang/gorilla.png",
+      alt: "gorilla.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+    {
+      stackName: "Iris Golang",
+      stackIcon: "Images/webdevmain/frameworkIcons/golang/irisgolang.png",
+      alt: "irisgolang.png",
+      description: `
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+    },
+    {
+      stackName: "Revel",
+      stackIcon: "Images/webdevmain/frameworkIcons/golang/revel.png",
+      alt: "revel.png",
+      description: `
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+    },
+   
+  ],
+};

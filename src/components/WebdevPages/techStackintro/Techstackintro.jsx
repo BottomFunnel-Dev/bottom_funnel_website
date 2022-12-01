@@ -13,11 +13,9 @@ export const Techstackintro = ({ techContent }) => {
     <div className="aspTech-intro">
       <div className="headText">
         <h1>
-          What is <span>{techContent.heading}</span> and its frameworks{" "}
+          What is <span>{techContent.heading}</span> and its frameworks
         </h1>
-        <p>
-          {techContent.description}
-        </p>
+        <p>{techContent.description}</p>
       </div>
 
       <div className="asp-stack-main">
@@ -56,6 +54,8 @@ export const Techstackintro = ({ techContent }) => {
             </div>
           </div>
         </div>
+
+       
       </div>
     </div>
   );
