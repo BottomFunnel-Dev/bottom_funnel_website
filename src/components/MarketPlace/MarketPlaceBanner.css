@@ -1,12 +1,12 @@
 .marketplacebannerimage{
  background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png");
 
-height: 100vh;
+height: 85vh;
 width: 100%;
 background-repeat: no-repeat;
-background-size:  cover;
+background-size:  100%;
 background-position: top;
-margin-top: 90px;
+margin-top: 120px;
 position: relative;
 }
 

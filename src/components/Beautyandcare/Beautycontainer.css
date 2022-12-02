@@ -46,11 +46,11 @@
   justify-content: space-around;
   margin: auto;
   background-color: #fcdbd3;
-  margin-top: 80px;
+  /* margin-top: 80px; */
 }
 
 .mobile {
-  margin-top: 3%;
+  margin-top: 4%;
   padding: 30px 30px;
   height: 100%;
 }
