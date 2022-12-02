@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import Logiccustomer from "../Logistic/Logiccustomer";
 import { CarpoolingAction } from "./CarpoolingAction";
 import { CarpoolingBanner } from "./CarpoolingBanner";
@@ -25,6 +27,10 @@ import MainFooter from "../FooterSection/MainFooter";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { carpoolingLogo } from "../../Data/SeopartnerData";
 export const Carpooling = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
   return (
     <div>
       <CarpoolingBanner />

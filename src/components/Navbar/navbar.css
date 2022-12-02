@@ -9,7 +9,7 @@
   align-items: center;
   /* background-color: white; */
 
-  transition: top 0.4s linear;
+  transition: top 0.2s linear;
 }
 
 .navbarSection.active {
@@ -101,13 +101,11 @@
 
 .navbarSection.active .dropdownBar > div li {
   color: black;
-  /* background-color: #ef4c23; */
-  /* border: 1px solid #ef4c23; */
+
 }
 .navbarSection.active .dropdownBar > div li:hover {
-  color: #ef4c23;
-  /* background-color: #ef4c23; */
-  /* border: 1px solid #ef4c23; */
+  color: #ef4c23 !important;
+
 }
 
 .navbarSection.active .dropdownBar > div li:nth-child(8):hover {

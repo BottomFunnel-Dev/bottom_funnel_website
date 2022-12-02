@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import { Companystats } from "../CompanyStats/Companystats";
 import ContectForm from "../ContectForm/ContectForm";
 import { TextDropdown } from "../faqSection/Faqs";
@@ -18,6 +20,10 @@ import StoriesSection from "../StoriesSection/StoriesSection";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { homesolutionsLogo } from "../../Data/SeopartnerData";
 const OndemandHome = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
   return (
     <div>
       <OndemandHero />

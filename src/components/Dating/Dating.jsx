@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import Adminpannel from './Adminpannel'
 import Customerapp from './Customerapp'
 import Datingbrands from './Datingbrands'
@@ -21,6 +23,10 @@ import MainFooter from '../FooterSection/MainFooter'
 import Trusted from '../SEO/SeoTrustedCompanies/Seotrusted'
 import { datingLogo } from '../../Data/SeopartnerData'
 export default function Dating() {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
   return (
     <div> 
        <Datingcontainer/>

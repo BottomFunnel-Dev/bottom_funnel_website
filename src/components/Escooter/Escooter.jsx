@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import ContectForm from "../ContectForm/ContectForm";
 import { TextDropdown } from "../faqSection/Faqs";
 import MainFooter from "../FooterSection/MainFooter";
@@ -18,6 +20,10 @@ import Escooterthunder from "./Escooterthunder";
 import Keyarea from "./Keyarea";
 
 export default function Escooter() {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
   return (
     <div>
       <Escootersection />

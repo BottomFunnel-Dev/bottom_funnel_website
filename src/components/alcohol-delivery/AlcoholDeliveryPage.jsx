@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import ContectForm from "../ContectForm/ContectForm";
 import { TextDropdown } from "../faqSection/Faqs";
 import MainFooter from "../FooterSection/MainFooter";
@@ -17,6 +19,10 @@ import { AlcoholSuggestions } from "./AlcoholSuggestions/AlcoholSuggestions";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { alcoholLogo } from "../../Data/SeopartnerData";
 export const AlcoholDeliveryPage = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
   return (
     <div>
       <AlcoholBanner />

@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import ContectForm from '../ContectForm/ContectForm'
 import { TextDropdown } from '../faqSection/Faqs'
 import MainFooter from '../FooterSection/MainFooter'
@@ -16,6 +18,10 @@ import GroceryFeatures from './GroceryFeatures'
 import { groceryLogo } from '../../Data/SeopartnerData'
 
 const Grocery = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
   return (
     <div>
       <GroceryBanner/>

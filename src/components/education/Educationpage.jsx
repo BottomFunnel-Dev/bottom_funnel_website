@@ -1,4 +1,4 @@
-import React from "react";
+
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
 import { Industries } from "../industries/Industries";
@@ -16,7 +16,19 @@ import Solutionsection from "./Solutionsection";
 import Whychoose from "./Whychoose";
 import { educationLogo } from "../../Data/SeopartnerData";
 
+
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
+
 export default function Educationpage() {
+
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
+
+
   return (
     <div>
       <Educationcontainer />

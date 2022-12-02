@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
+
 import ContectForm from "../ContectForm/ContectForm";
 import { TextDropdown } from "../faqSection/Faqs";
 import MainFooter from "../FooterSection/MainFooter";
@@ -18,7 +21,15 @@ import { EcommerceComBanner } from "./EcommerceComBanner/EcommerceComBanner";
 import { EcommerceComFeatures } from "./EcommerceComFeturesSolutions/EcommerceComFeatures";
 import { EcommerceComSolutions } from "./EcommerceComFeturesSolutions/EcommerceComSolutions";
 import { EcommerceLogo } from "../../Data/SeopartnerData";
+
+
+
 export const EcommerceComPage = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
+  
   return (
     <div>
       <EcommerceComBanner />

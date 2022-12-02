@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 
 import { FlowerDeliveryBanner } from "./FlowerDeliveryBanner";
 import { FlowerDeliveryService } from "./FlowerDeliveryService";
@@ -17,13 +19,10 @@ import PlanProject from "../PlanProject/PlanProject";
 import Revamping from "../revamping/Revamping";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 
-import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
-import { useDispatch } from "react-redux";
-
 export const FlowerDelevry = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor("black"));
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
   }, []);
 
   return (

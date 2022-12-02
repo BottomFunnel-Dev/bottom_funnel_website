@@ -46,7 +46,7 @@ export const NavbarMain = () => {
   const [navbar, setNabvar] = useState(false);
   const [sidetoggle, setSidetoggle] = useState("Technologies");
 
-  const navColor = useSelector((state) => state.navbar.color);
+  const navredux = useSelector((state) => state.navbar);
 
   const sideBar = [
     { sidename: "Discover" },
@@ -135,12 +135,12 @@ export const NavbarMain = () => {
   window.addEventListener("scroll", navBackground);
 
   useEffect(() => {
-    console.log(navColor);
-  }, [navColor]);
+    console.log(navredux);
+  }, [navredux]);
 
   return (
-    <div >
-      <ContactMain bgcolor={navbar?"white":"transparent"} />
+    <div>
+      <ContactMain bgcolor={navbar ? "white" : "transparent"} textcolor={!navbar? navredux.color:"black"} />
       <nav
         className={navbar ? "navbarSection active" : "navbarSection"}
         style={{
@@ -151,8 +151,8 @@ export const NavbarMain = () => {
           <Link to="/" className="logoText">
             <img
               src={
-                navbar
-                  ? "Images/navbar/orangelogobottom.png"
+                navredux.logo && !navbar
+                  ? "Images/navbar/whitelogobottom.png"
                   : "Images/navbar/blacklogo.png"
               }
               alt=""
@@ -173,7 +173,7 @@ export const NavbarMain = () => {
             <li
               onMouseEnter={homeHoverIn}
               onMouseLeave={homeHoverOut}
-              style={{ color: navbar ? "black" : navColor }}
+              style={{ color: navbar ? "black" : navredux.color }}
             >
               ABOUT
               {aboutH ? <WhoWeAre /> : ""}
@@ -181,14 +181,14 @@ export const NavbarMain = () => {
             <li
               onMouseEnter={solHoverIn}
               onMouseLeave={solHoverOut}
-              style={{ color: navbar ? "black" : navColor }}
+              style={{ color: navbar ? "black" : navredux.color }}
             >
               SERVICES
             </li>
             <li
               onMouseEnter={serHoverIn}
               onMouseLeave={serHoverOut}
-              style={{ color: navbar ? "black" : navColor }}
+              style={{ color: navbar ? "black" : navredux.color }}
             >
               SOLUTIONS
             </li>
@@ -196,7 +196,7 @@ export const NavbarMain = () => {
               onMouseEnter={blogHoverIn}
               onMouseLeave={blogHoverOut}
               onClick={() => navigate("/Products")}
-              style={{ color: navbar ? "black" : navColor }}
+              style={{ color: navbar ? "black" : navredux.color }}
             >
               PRODUCTS
             </li>
@@ -204,21 +204,21 @@ export const NavbarMain = () => {
               onMouseEnter={skillHoverIn}
               onMouseLeave={skillHoverOut}
               onClick={() => navigate("/pricing")}
-              style={{ color: navbar ? "black" : navColor }}
+              style={{ color: navbar ? "black" : navredux.color }}
             >
               PRICING
             </li>
             <li
               onMouseEnter={blogHoverIn}
               onMouseLeave={blogHoverOut}
-              style={{ color: navbar ? "black" : navColor }}
+              style={{ color: navbar ? "black" : navredux.color }}
             >
               PORTFOLIO
             </li>
             <li
               onMouseEnter={blogHoverIn}
               onMouseLeave={blogHoverOut}
-              style={{ color: navbar ? "black" : navColor }}
+              style={{ color: navbar ? "black" : navredux.color }}
             >
               BLOGS
             </li>

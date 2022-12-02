@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import Videostreamingcontainer from './Videostreamingcontainer'
 import "./streamingcontainer.css"
 import Services from './Services'
@@ -17,6 +19,10 @@ import MainFooter from '../FooterSection/MainFooter'
 import Trusted from '../SEO/SeoTrustedCompanies/Seotrusted'
 import { videostreamLogo } from '../../Data/SeopartnerData'
 export default function Videostreaming() {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
   return (
     <div>
       <Videostreamingcontainer/>

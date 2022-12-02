@@ -26,7 +26,7 @@ import { useDispatch } from "react-redux";
 export const HomePage = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor("white"));
+    dispatch(ChnageNavbarColor({color:"white", logo:true}));
   }, []);
 
   return (

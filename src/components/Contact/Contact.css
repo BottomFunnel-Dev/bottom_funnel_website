@@ -51,7 +51,6 @@
 }
 
 .Contact-Above-Navbar-Main > div > div > span > a {
-  color: black;
   text-decoration: none;
   margin: 0px;
   padding: 0px;
@@ -70,12 +69,10 @@
 }
 
 .Contact-Above-Navbar-Main > div > span > svg {
-  color: black;
   cursor: pointer;
 }
 
 .Contact-Above-Navbar-Main > div > span > a {
-  color: black;
   text-decoration: none;
   margin: 0px;
   padding: 0px;

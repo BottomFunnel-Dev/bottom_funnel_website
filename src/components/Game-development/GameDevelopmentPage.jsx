@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
 import { GameDevBanner } from "./GameDevBanner/GameDevBanner";
@@ -10,6 +12,10 @@ import { GameDevSolutions } from "./GameDevSolutions/GameDevSolutions";
 import { GameDevType } from "./GameDevTypes/GameDevType";
 
 export const GameDevelopmentPage = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
   return (
     <div>
       <GameDevBanner />

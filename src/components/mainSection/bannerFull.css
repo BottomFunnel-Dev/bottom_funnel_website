@@ -40,9 +40,9 @@
     font-weight: 600;
     font-size: 18px;
     border: none; */
-  color: #ef4c23;
-  /* background-color: rgb(55, 55, 55);
+  color: white;
+  background-color: black;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    outline: none; */
+    outline: none;
 }
