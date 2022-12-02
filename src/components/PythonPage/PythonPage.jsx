@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import { pythonwebDevServices } from "../../Data/webdevPageData/Popularservices";
 import { pythonstackIntro } from "../../Data/webdevPageData/StackData";
 import { pythonBanner } from "../../Data/webdevPageData/TechBannerData";
@@ -12,6 +14,11 @@ import { GetStarted } from "../WebdevPages/webGetStartedCard/GetStarted";
 import { WhyTechStack } from "../WebdevPages/whyTechStack/WhyTechStack";
 
 export const PythonPage = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
+  
   return (
     <div>
       <WebdevBanner bannerContent={pythonBanner} />

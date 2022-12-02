@@ -124,6 +124,7 @@ import { JavascriptPage } from "./components/JavascriptPage/JavascriptPage";
 import ToolDelivery from "./components/ToolDeliveryApp/ToolDelivery";
 import { SalesforsePage } from "./components/SalesforsePage/SalesforsePage";
 import { EngagementPage } from "./components/EngagementPage/EngagementPage";
+import CryptoCurrency from "./components/CryptoCurrency/CryptoCurrency";
 
 export const ALLroutes = () => {
   return (
@@ -307,6 +308,7 @@ export const ALLroutes = () => {
       <Route path="/tool-delivery" element={<ToolDelivery />} />
       <Route path="/salesforce" element={<SalesforsePage />} />
       <Route path="/engagement" element={<EngagementPage />} />
+      <Route path="/cryptocurrency" element={<CryptoCurrency />} />
     </Routes>
   );
 };

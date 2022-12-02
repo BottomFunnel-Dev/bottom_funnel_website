@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import Getintouchcard from "../../SeoLink/Getintouch";
 import Seostats from "../../SEO/Seostats/Seostats";
 import Stories from "../../StoriesSection/StoriesSection";
@@ -24,6 +26,10 @@ import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
 import { dmpagesLogo } from "../../../Data/SeopartnerData";
 
 export default function Seolink() {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
   return (
     <div>
       <SeoLinkSection />

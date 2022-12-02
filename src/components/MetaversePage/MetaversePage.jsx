@@ -20,7 +20,6 @@ import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import Revamping from "../revamping/Revamping";
 import { TextDropdown } from "../faqSection/Faqs";
 import MainFooter from "../FooterSection/MainFooter";
-
 export const MetaversePage = () => {
   return (
     <div className="MetaversePage-container">

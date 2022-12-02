@@ -7,7 +7,7 @@
   background-position: bottom;
   background-origin: border-box;
   position: relative;
-  margin-top: 70px;
+  margin-top: 120px;
 
 }
 
@@ -17,7 +17,7 @@
     width: 370px;
     height: 430px;
     position: absolute;
-    top: 30%;
+    top: 28%;
     right: 31%;
 }
 .semgifDenote>img{
@@ -33,7 +33,7 @@
   display: flex;
   /* border: 1px solid green; */
   width: 100%;
-  height: 740px;
+  height: 87vh;
 }
 ._SeoSEMtext {
   /* border:1px solid white; */
@@ -41,7 +41,7 @@
   color: black;
   box-sizing: border-box;
   margin: auto;
-  margin-left: 80px;
+  margin-top: 7%;
   /* text-align: center; */
 }
 ._SeoSEMparagraph {

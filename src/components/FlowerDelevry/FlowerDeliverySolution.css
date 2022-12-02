@@ -19,6 +19,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-size: 18px;
     font-weight: 600;
+    color: white;
 }
 
 .flowerdeliverysolutionbutton:hover {
@@ -60,6 +61,7 @@ margin-left: 5%;
 
 .flexboxingmappingdivleftforserviceflower:hover{
     transform: scale(1.02);
+    background-color: #FFF8F9;
 }
 
 

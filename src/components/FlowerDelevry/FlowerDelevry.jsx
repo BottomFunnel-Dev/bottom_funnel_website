@@ -1,30 +1,24 @@
-import React, { useEffect } from "react";
-import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
-import { useDispatch } from "react-redux";
-
-import { FlowerDeliveryBanner } from "./FlowerDeliveryBanner";
+import React from "react";
+import FlowerDeliveryAdmin from "./FlowerDeliveryAdmin";
+import FlowerDeliveryBanner from "./FlowerDeliveryBanner";
+import FlowerDeliveryBannerbottom from "./FlowerDeliveryBannerbottom";
+import FlowerDeliveryDriver from "./FlowerDeliveryDriver";
+import FlowerDeliverylast from "./FlowerDeliverylast";
 import { FlowerDeliveryService } from "./FlowerDeliveryService";
-import { FlowerDeliverySolution } from "./FlowerDeliverySolution";
-import { FlowerDeliveryDriver } from "./FlowerDeliveryDriver";
-import { FlowerDeliveryAdmin } from "./FlowerDeliveryAdmin";
-import { FlowerDeliveryBannerbottom } from "./FlowerDeliveryBannerbottom";
-import { FlowerDeliverylast } from "./FlowerDeliverylast";
+import FlowerDeliverySolution from "./FlowerDeliverySolution";
 
-import ContectForm from "../ContectForm/ContectForm";
-import { TextDropdown } from "../faqSection/Faqs";
-import MainFooter from "../FooterSection/MainFooter";
+// ----- Other required react components -----
+
+import { Industries } from "../industries/Industries";
 import OndemandSection from "../OnDemandSection/OndemandSection";
 import PortFolio from "../PortFolioSection/PortFolio";
 import PlanProject from "../PlanProject/PlanProject";
-import Revamping from "../revamping/Revamping";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
+import Revamping from "../revamping/Revamping";
+import { TextDropdown } from "../faqSection/Faqs";
+import MainFooter from "../FooterSection/MainFooter";
 
 export const FlowerDelevry = () => {
-  const dispatch = useDispatch();
-  useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
-  }, []);
-
   return (
     <div>
       <FlowerDeliveryBanner />
@@ -34,19 +28,15 @@ export const FlowerDelevry = () => {
       <FlowerDeliveryAdmin />
       <FlowerDeliveryBannerbottom />
       <FlowerDeliverylast />
-
-      {/* Other react required components */}
-
+      {/* ----- End of main page. Now Further components ----- */}
+      <Industries />
       <OndemandSection />
       <PortFolio />
       <PlanProject />
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
-      <ContectForm />
       <MainFooter />
     </div>
   );
 };
-
-export default FlowerDelevry;

@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import { WebdevBanner } from "../WebdevPages/bannerWebdev/WebdevBanner";
 import { golangBanner } from "../../Data/webdevPageData/TechBannerData";
 import { Techstackintro } from "../WebdevPages/techStackintro/Techstackintro";
@@ -11,6 +13,11 @@ import { GetStarted } from "../WebdevPages/webGetStartedCard/GetStarted";
 import { WebDevWhy } from "../WebdevPages/webDevWhy/WebDevWhy";
 import { golangWhyContent } from "../../Data/webdevPageData/whyBottomContent";
 export const GolangPage = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
+  
   return (
     <div>
       <WebdevBanner bannerContent={golangBanner} />

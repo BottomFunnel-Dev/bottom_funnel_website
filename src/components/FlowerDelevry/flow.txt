@@ -1,9 +1,0 @@
-<div className='pharmecydivflexandgridleftbox' id='pharmecydivflexandgridleftbox2'>
-<h5>Buy Flowers</h5>
-<p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</small></p>
-
-</div>
-<div className='pharmecydivflexandgridleftbox' id='pharmecydivflexandgridleftbox3'>
-<h5>Multiple payment options</h5>
-<p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</small></p>
-</div>

@@ -477,7 +477,7 @@
 .sideNav {
   width: 10%;
   padding: 40px 0;
-  background-color: #ef4c23;
+  background-color: #ef4c23de;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -491,8 +491,8 @@
   /* background-color: white; */
   text-align: center;
   cursor: pointer;
-  border-right: 2px solid #ef4c23;
-  border-radius: 5px;
+  border-right: 1px solid #ef4c23de;
+  /* border-radius: 5px; */
   /* margin-top: 3px; */
   height: 40px;
 }

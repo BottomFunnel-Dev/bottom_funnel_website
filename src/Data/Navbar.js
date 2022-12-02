@@ -328,7 +328,7 @@ export const industries = [
   {
     dropContent: "Cryptocurrency",
     navIcons: "Images/navbar/industriesImage/crypto.png",
-    path: "",
+    path: "cryptocurrency",
   },
   {
     dropContent: "Social Media",

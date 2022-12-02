@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import { WebdevBanner } from "./bannerWebdev/WebdevBanner";
 import { webDevMain } from "../../Data/webdevPageData/TechBannerData";
 import { WebDevServices } from "./webdevServices/WebDevServices";
@@ -18,6 +20,11 @@ import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
 import { WebDevTechStack } from "./webDevTachstack/WebDevTechStack";
 export const WebdevMain = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+  }, []);
+  
   return (
     <div>
       <WebdevBanner bannerContent={webDevMain} />

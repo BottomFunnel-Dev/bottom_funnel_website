@@ -1,10 +1,10 @@
 .flowerdeliverylastdivstart{
 
-    height: 400px;
+    height: fit-content;
     width: 80%;
     margin-left: 10%;
    
-    margin-top: 5%;
+
     display: flex;
     flex-wrap: wrap;
 
@@ -17,6 +17,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 padding: 20px;
 margin: 3%;
 display: flex;
+
     
 }
 
@@ -34,4 +35,5 @@ display: flex;
 
 .flowerdeliverydisplayflex:hover{
     transform: scale(1.02);
+    background-color: #FFF8F9;
 }

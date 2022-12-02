@@ -1,0 +1,33 @@
+.CryptoCurrencyServicesmainboxes{
+    height: fit-content;
+
+    margin-top: 10%;
+}
+
+.cryptoservicetxtboxes{
+    height: 25%;
+    width: 100%;
+
+    text-align: center;
+}
+.cryptoserviceflexboxes{
+    height: 80%;
+    width: 90%;
+  
+    margin: 0% 5% 0% 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cryptoserviceflexboxmappingind{
+    height: 40%;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1% 2% 1% 2.5%;
+    padding: 1%;
+}
+
+.cryptoserviceflexboxmappingind:hover {
+    transform: scale(1.02);
+    background-color: #FBF9C6;
+}
