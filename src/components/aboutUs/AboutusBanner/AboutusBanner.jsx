@@ -9,15 +9,15 @@ export const AboutusBanner = () => {
       </div>
       <div className="about-us-banner-content">
         <h1>
-          Build Your Brands Pressence With{" "}
+          Build Your Brands presence With{" "}
           <span className="about-us-animated-title">BOTTOM FUNNEL</span>
         </h1>
         <hr />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-          quidem cupiditate in nesciunt sequi nulla repellendus hic itaque, quos
-          atque facere reiciendis dolor rem perferendis delectus optio?
-          Expedita, laborum voluptatem.
+          We are driven by the need to change and innovate. We help businesses
+          and individuals in adapting as well as adopting digital
+          transformation. Our aim is to change people's lives and improve
+          businesses with our progressive and innovative technology solutions.
         </p>
         <button>Get Started</button>
       </div>
