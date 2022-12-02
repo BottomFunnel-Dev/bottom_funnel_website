@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ContectForm from "../ContectForm/ContectForm";
 import { TextDropdown } from "../faqSection/Faqs";
 import MainFooter from "../FooterSection/MainFooter";
