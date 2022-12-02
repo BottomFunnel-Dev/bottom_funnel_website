@@ -29,6 +29,8 @@ import {
   cms,
 } from "../../Data/Navbar";
 import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
+import { ContactMain } from "../Contact/Contact";
+import zIndex from "@mui/material/styles/zIndex";
 
 export const NavbarMain = () => {
   const navigate = useNavigate();
@@ -105,12 +107,10 @@ export const NavbarMain = () => {
   };
 
   const blogHoverIn = () => {
-    // setAboutH(true);
     setNabvar(true);
   };
 
   const blogHoverOut = () => {
-    // setAboutH(false);
     if (window.scrollY == 0) {
       setNabvar(false);
     }
@@ -129,7 +129,8 @@ export const NavbarMain = () => {
   window.addEventListener("scroll", navBackground);
 
   return (
-    <div>
+    <div >
+      <ContactMain bgcolor={navbar?"white":"transparent"} />
       <nav
         className={navbar ? "navbarSection active" : "navbarSection"}
         style={{ top: scroll ? "0" : "40px" }}

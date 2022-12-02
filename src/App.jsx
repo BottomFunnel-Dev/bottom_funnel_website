@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <ContactMain />
+      {/* <ContactMain /> */}
       <NavbarMain />
       <ALLroutes />
 
