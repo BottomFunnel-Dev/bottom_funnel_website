@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Banner from "../../mainSection/Banner";
 import CompanyLogo from "../../CompanyLogos/CompanyLogo";
 import Services from "../../Services/Services";
@@ -20,7 +20,15 @@ import { Helmet } from "react-helmet";
 import EnquiryNow from "../../SEO/EnquiryNow/EnquiryNow";
 import { BannerFull } from "../../mainSection/BannerFull";
 
+import { ChnageNavbarColor } from "../../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
+
 export const HomePage = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor("white"));
+  }, []);
+
   return (
     <div>
       <Helmet>
@@ -34,7 +42,7 @@ export const HomePage = () => {
         />
       </Helmet>
       {/* <Banner /> */}
-      <BannerFull/>
+      <BannerFull />
       <CompanyLogo />
       <About />
       <Services />

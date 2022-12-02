@@ -30,6 +30,10 @@ import {
 } from "../../Data/Navbar";
 import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
 
+import { useSelector } from "react-redux";
+import { color } from "@mui/system";
+import { useEffect } from "react";
+
 export const NavbarMain = () => {
   const navigate = useNavigate();
   const [aboutH, setAboutH] = useState(false);
@@ -39,6 +43,8 @@ export const NavbarMain = () => {
   const [skill, setSkill] = useState(false);
   const [navbar, setNabvar] = useState(false);
   const [sidetoggle, setSidetoggle] = useState("Technologies");
+
+  const navColor = useSelector((state) => state.navbar.color);
 
   const sideBar = [
     { sidename: "Discover" },
@@ -128,11 +134,17 @@ export const NavbarMain = () => {
 
   window.addEventListener("scroll", navBackground);
 
+  useEffect(() => {
+    console.log(navColor);
+  }, [navColor]);
+
   return (
     <div>
       <nav
         className={navbar ? "navbarSection active" : "navbarSection"}
-        style={{ top: scroll ? "0" : "40px" }}
+        style={{
+          top: scroll ? "0" : "40px",
+        }}
       >
         <div className="logoSection">
           <Link to="/" className="logoText">
@@ -157,20 +169,33 @@ export const NavbarMain = () => {
 
         <div className="dropdownBar">
           <div>
-            <li onMouseEnter={homeHoverIn} onMouseLeave={homeHoverOut}>
+            <li
+              onMouseEnter={homeHoverIn}
+              onMouseLeave={homeHoverOut}
+              style={{ color: navbar ? "black" : navColor }}
+            >
               ABOUT
               {aboutH ? <WhoWeAre /> : ""}
             </li>
-            <li onMouseEnter={solHoverIn} onMouseLeave={solHoverOut}>
+            <li
+              onMouseEnter={solHoverIn}
+              onMouseLeave={solHoverOut}
+              style={{ color: navbar ? "black" : navColor }}
+            >
               SERVICES
             </li>
-            <li onMouseEnter={serHoverIn} onMouseLeave={serHoverOut}>
+            <li
+              onMouseEnter={serHoverIn}
+              onMouseLeave={serHoverOut}
+              style={{ color: navbar ? "black" : navColor }}
+            >
               SOLUTIONS
             </li>
             <li
               onMouseEnter={blogHoverIn}
               onMouseLeave={blogHoverOut}
               onClick={() => navigate("/Products")}
+              style={{ color: navbar ? "black" : navColor }}
             >
               PRODUCTS
             </li>
@@ -178,13 +203,22 @@ export const NavbarMain = () => {
               onMouseEnter={skillHoverIn}
               onMouseLeave={skillHoverOut}
               onClick={() => navigate("/pricing")}
+              style={{ color: navbar ? "black" : navColor }}
             >
               PRICING
             </li>
-            <li onMouseEnter={blogHoverIn} onMouseLeave={blogHoverOut}>
+            <li
+              onMouseEnter={blogHoverIn}
+              onMouseLeave={blogHoverOut}
+              style={{ color: navbar ? "black" : navColor }}
+            >
               PORTFOLIO
             </li>
-            <li onMouseEnter={blogHoverIn} onMouseLeave={blogHoverOut}>
+            <li
+              onMouseEnter={blogHoverIn}
+              onMouseLeave={blogHoverOut}
+              style={{ color: navbar ? "black" : navColor }}
+            >
               BLOGS
             </li>
           </div>

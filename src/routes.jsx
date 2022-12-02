@@ -107,7 +107,7 @@ import { StartupSolutions } from "./components/StartupSolutions/StartupSolutions
 import { CustomisedWebPage } from "./components/CustomisedWebPage/CustomisedWebPage";
 import { CryptoDevPage } from "./components/CryptoDevPage/CryptoDevPage";
 import { AspNetPage } from "./components/ASP.NETpage/AspNetPage";
-import FlowerDelevry from "./components/FlowerDelevry/FlowerDelevry";
+import { FlowerDelevry } from "./components/FlowerDelevry/FlowerDelevry";
 import { NFTpage } from "./components/NFTpage/NFTpage";
 import { DataSciencePage } from "./components/DataSciencePage/DataSciencePage";
 import { Javapage } from "./components/JavaDevPage/Javapage";

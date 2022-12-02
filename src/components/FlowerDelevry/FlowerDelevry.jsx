@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ContectForm from "../ContectForm/ContectForm";
 import { TextDropdown } from "../faqSection/Faqs";
 import MainFooter from "../FooterSection/MainFooter";
@@ -17,7 +17,15 @@ import FlowerDeliverylast from "./FlowerDeliverylast";
 import { FlowerDeliveryService } from "./FlowerDeliveryService";
 import FlowerDeliverySolution from "./FlowerDeliverySolution";
 
-const FlowerDelevry = () => {
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
+
+export const FlowerDelevry = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor("black"));
+  }, []);
+
   return (
     <div>
       <FlowerDeliveryBanner />
@@ -41,5 +49,3 @@ const FlowerDelevry = () => {
     </div>
   );
 };
-
-export default FlowerDelevry;
