@@ -3,7 +3,7 @@ import "./pickupBanner.css";
 export const PickupBanner = () => {
   return (
     <div className="pickupbanner">
-        <div className="leftback"> <img src="Images/pickup/backgrounds/ellipse1.png" alt="" /></div>
+        {/* <div className="leftback"> <img src="Images/pickup/backgrounds/ellipse1.png" alt="" /></div> */}
       <div className="pickuptextcontainer">
         <div>
           <h1>Set Up An Efficient Online Pickup & Delivery Business</h1>

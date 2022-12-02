@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import { SkillsComBanner } from "./SkillsComBanner";
 import { SkillsComBookCall } from "./SkillsComBookCall";
 import { SkillsComDes } from "./SkillsComDes";
@@ -37,6 +39,11 @@ export const SkillsComPage = ({ allData }) => {
     isRemarkable,
     RemarkableData,
   } = allData;
+
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "white", logo: true }));
+  }, []);
 
   return (
     <div>
