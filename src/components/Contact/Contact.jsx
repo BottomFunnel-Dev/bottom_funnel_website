@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 
-export const ContactMain = () => {
+export const ContactMain = ({ bgcolor }) => {
+  const [scroll, setScroll] = useState(false);
+  console.log(bgcolor);
+
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 1) {
+      setScroll(true);
+    } else {
+      setScroll(false);
+    }
+  });
+
   return (
-    <div className="Contact-Above-Navbar-Main">
+    <div
+      className="Contact-Above-Navbar-Main"
+      style={{ opacity: scroll ? "0" : "1", background: bgcolor }}
+    >
       <div>
         <div>
           <span>

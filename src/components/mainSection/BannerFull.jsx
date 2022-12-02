@@ -44,7 +44,7 @@ export const BannerFull = () => {
     speed: 300,
     swipeToSlide: true,
     slidesToShow: 1,
-    pauseOnHover: true,
+    pauseOnHover: false,
     slidesToScroll: 1,
     arrows: false,
     infinite: true,

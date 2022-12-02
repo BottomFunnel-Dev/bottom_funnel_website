@@ -29,6 +29,8 @@ import {
   cms,
 } from "../../Data/Navbar";
 import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
+import { ContactMain } from "../Contact/Contact";
+import zIndex from "@mui/material/styles/zIndex";
 
 import { useSelector } from "react-redux";
 import { color } from "@mui/system";
@@ -111,12 +113,10 @@ export const NavbarMain = () => {
   };
 
   const blogHoverIn = () => {
-    // setAboutH(true);
     setNabvar(true);
   };
 
   const blogHoverOut = () => {
-    // setAboutH(false);
     if (window.scrollY == 0) {
       setNabvar(false);
     }
@@ -139,7 +139,8 @@ export const NavbarMain = () => {
   }, [navColor]);
 
   return (
-    <div>
+    <div >
+      <ContactMain bgcolor={navbar?"white":"transparent"} />
       <nav
         className={navbar ? "navbarSection active" : "navbarSection"}
         style={{

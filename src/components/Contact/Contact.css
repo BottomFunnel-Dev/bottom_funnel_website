@@ -4,10 +4,11 @@
   background-color: transparent;
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   z-index: 1000;
   top: 0;
   align-items: center;
+  transition: opacity .4s linear .3s;
 }
 
 .Contact-Above-Navbar-Main > div {
