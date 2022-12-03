@@ -14,10 +14,10 @@ export const AboutusBanner = () => {
         </h1>
         <hr />
         <p>
-          We are driven by the need to change and innovate. We help businesses
-          and individuals in adapting as well as adopting digital
-          transformation. Our aim is to change people's lives and improve
-          businesses with our progressive and innovative technology solutions.
+          Welcome to Bottom Funnel, the world's leading app development company
+          for fintech and startup companies. We pride ourselves on delivering
+          unparalleled value to our partners, through our experience and
+          expertise in the field.
         </p>
         <button>Get Started</button>
       </div>

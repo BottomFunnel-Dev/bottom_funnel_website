@@ -4,20 +4,20 @@ import "./OurBlogs.css";
 export const OurBlogs = () => {
   const cardsData = [
     {
-      title: "Dummy text",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias ipsam dolores minus dolorem dolor mollitia, molestiae voluptates fugiat deserunt ullam rem fugit, corrupti, doloribus facilis! Commodi voluptas quam ullam.",
+      title: "How much does it cost to develop a mobile application",
+      body: "The cost of developing a mobile application can vary depending on the size and scope of the project.",
       image: "Images/aboutusImage/explaining.png",
       date: "Nov 21st, 2022",
     },
     {
-      title: "Dummy text",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias ipsam dolores minus dolorem dolor mollitia, molestiae voluptates fugiat deserunt ullam rem fugit, corrupti, doloribus facilis! Commodi voluptas quam ullam.",
+      title: "How much does it cost to web development services",
+      body: "Web development services can vary greatly in price, so it is important to do your research before making a decision.",
       image: "Images/aboutusImage/talking.png",
       date: "Nov 21st, 2022",
     },
     {
-      title: "Dummy text",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias ipsam dolores minus dolorem dolor mollitia, molestiae voluptates fugiat deserunt ullam rem fugit, corrupti, doloribus facilis! Commodi voluptas quam ullam.",
+      title: "Grab world best digital marketers for all your marketing needs",
+      body: "If you're looking for a reliable and affordable digital marketing team, then you should consider hiring world best digital marketers.",
       image: "Images/aboutusImage/meeting.png",
       date: "Nov 21st, 2022",
     },
@@ -28,13 +28,10 @@ export const OurBlogs = () => {
         Our Latest <span>Blog</span> Posts
       </h1>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aperiam
-        sit doloremque nostrum voluptatibus corporis iusto praesentium optio
-        neque, quos assumenda architecto atque mollitia expedita animi iste?
-        Quisquam, veritatis nemo? Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Maxime aperiam sit doloremque nostrum voluptatibus
-        corporis iusto praesentium optio neque, quos assumenda architecto atque
-        mollitia expedita animi iste? Quisquam, veritatis nemo?
+        Bottom Funnel's blog is a repository of information on a wide range of
+        topics. It offers an insight into different cultures and lifestyles,
+        from food to fashion and music, in addition to useful travel tips for
+        travelers.
       </p>
       <div className="OurBlogs-main">
         {cardsData.map(({ title, body, image, date }, idx) => {

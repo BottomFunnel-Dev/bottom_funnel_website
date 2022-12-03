@@ -9,22 +9,20 @@ export const OurAchievements = () => {
           Our <span>Achievements</span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, et
-          itaque. Excepturi, laborum quod repellendus placeat soluta a maiores
-          consequuntur numquam. At ratione ab repudiandae iste obcaecati quam ad
-          dicta.
+          Bottom Funnel is an IT company that goes the extra mile for its
+          clients. We understand your business and deliver solutions that solve
+          problems, not add more work.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nostrum
-          blanditiis quidem nobis, eveniet, officia ipsa aperiam odit nisi
-          laboriosam dolorem quas ad nam officiis consequatur placeat possimus.
-          Numquam.
+          Our expertise in end-to-end services means you get a complete solution
+          to your business needs - from fixing software glitches to providing
+          training on new technologies. We partner with companies big and small,
+          so we have experience working with every type of company.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          harum accusantium ipsam. Cum laudantium excepturi explicabo voluptatem
-          commodi eaque voluptate accusamus vero optio molestiae, eos
-          voluptatibus.
+          If you're looking for a partner who will put their customers' needs
+          before their own, then look no further - Bottom Funnel is just the
+          agency you've been searching for!
         </p>
         <button>Read More</button>
       </div>

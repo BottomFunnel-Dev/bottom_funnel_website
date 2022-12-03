@@ -22,10 +22,10 @@ export const WorkLifeBalance = () => {
         <h1>Balance</h1>
       </div>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. In, reiciendis,
-        quisquam perspiciatis doloremque aliquid quasi repellendus illum numquam
-        eaque vitae rerum sed quos fugit perferendis deserunt provident
-        doloribus ipsam explicabo.
+        Getting to a work-life balance is an increasingly important goal for
+        many professionals these days, and perhaps the biggest reason why so
+        many of us find ourselves saying yes to those crazy late nights and
+        weekend projects.
       </p>
       <div className="WorkLifeBalance-cards">
         {cardsData.map((elem, idx) => {

@@ -20,6 +20,7 @@ import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import { TextDropdown } from "../faqSection/Faqs";
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
+import { Helmet } from "react-helmet";
 
 export const AboutUS = () => {
   const dispatch = useDispatch();
@@ -29,6 +30,16 @@ export const AboutUS = () => {
 
   return (
     <div className="AboutUS-main">
+      <Helmet>
+        <title>About us | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Welcome to Bottom Funnel, the world's leading app development company
+          for fintech and startup companies. We pride ourselves on delivering
+          unparalleled value to our partners, through our experience and
+          expertise in the field."
+        />
+      </Helmet>
       <AboutusBanner />
       <OurProcess />
       <OurAchievements />
