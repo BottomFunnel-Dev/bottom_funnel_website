@@ -37,7 +37,7 @@ export const BannerFull = () => {
   ];
 
   var settings = {
-    // autoplay: true,
+    autoplay: true,
     dots: false,
     autoplaySpeed: 5000,
     cssEase: "linear",
