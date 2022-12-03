@@ -1,7 +1,7 @@
 .ContactUSForm-main {
   width: 80%;
   height: fit-content;
-  margin: auto;
+  margin: 3% auto;
   margin-top: -4%;
   z-index: 2;
   background: #f3f3f3;
@@ -44,8 +44,8 @@
 }
 
 .ContactUSForm-info {
-  width: 70%;
-  margin: 2% auto 2% auto;
+  width: 80%;
+  margin: 2% auto;
 
   display: flex;
   flex-wrap: wrap;

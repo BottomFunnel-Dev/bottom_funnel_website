@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
+
 import "./VettingPage.css";
 
 // ----- React main sub components -----
@@ -22,6 +25,11 @@ import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
 
 export const VettingPage = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+  }, []);
+
   return (
     <div className="VettingPage-container">
       <VettingBanner />

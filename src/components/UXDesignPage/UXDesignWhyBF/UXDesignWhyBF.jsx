@@ -1,0 +1,50 @@
+import React from "react";
+import "./UXDesignWhyBF.css";
+
+export const UXDesignWhyBF = () => {
+  return (
+    <div className="UXDesignWhyBF-container">
+      <h1>
+        What we do at <span>Bottom Funnel</span>
+      </h1>
+      <p>
+        Our experience team of Design Strategists visualize creative ideas and
+        materialize them into end designs for our customers. They dig deep and
+        draft a visual language that the user understands.
+      </p>
+      <div>
+        <hr />
+        <div className="UXDesignWhyBF-main">
+          <div className="UXDesignWhyBF-images">
+            <img src="Images/UIDesignPhotos/phone.png" alt="phone.png" />
+            <img src="Images/UIDesignPhotos/macbook.png" alt="macbook.png" />
+            <img
+              src="Images/UIDesignPhotos/designing.png"
+              alt="designing.png"
+            />
+          </div>
+          <ul>
+            <li>
+              With <span>design interventions</span> addressing key challenges
+              of our clients, we have developer a way of working that is
+              strategic, creative & technical at the same time.
+            </li>
+            <li>
+              Our <span>Product</span> encourage a solutions-based approach to
+              solving problems.
+            </li>
+            <li>
+              It cuts the <span>User interface</span>, Controls the bigh egos in
+              the room and gives space to shy people to express their ideas.
+            </li>
+            <li>
+              Our workshops are the <span>best in every way</span>, Budget
+              friendly, Various time zones and flexible hours.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h2>Check our Design Workshop Now -</h2>
+    </div>
+  );
+};

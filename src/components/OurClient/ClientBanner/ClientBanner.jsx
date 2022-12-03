@@ -7,8 +7,10 @@ export const ClientBanner = () => {
       <div className="OurClientBanner-content">
         <h1>Our Client</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quas
-          veniam delectus iste impedit sed id nisi corrupti
+          Bottom Funnel is such a transparent name for them. It has become the
+          synonym of trust when it comes to buying and selling products online.
+          Bottom Funnel becomes the first choice of customers in this digital
+          age.
         </p>
         <button>Become Client</button>
       </div>

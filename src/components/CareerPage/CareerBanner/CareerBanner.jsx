@@ -7,10 +7,10 @@ export const CareerBanner = () => {
       <div className="Career-banner-content">
         <h1>Career</h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
-          maiores corrupti eaque veritatis quod obcaecati. Voluptate id
-          architecto recusandae rem magnam in alias impedit, nulla porro, vero
-          ullam exercitationem nemo.
+          Welcome to Bottom Funnel, the world's leading app development company
+          for fintech and startup companies. We pride ourselves on delivering
+          unparalleled value to our partners, through our experience and
+          expertise in the field.
         </p>
       </div>
       <div className="Career-Banner-image">

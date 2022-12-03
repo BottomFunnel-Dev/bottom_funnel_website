@@ -1,0 +1,40 @@
+.UXDesignMidBanner-main {
+  padding: 3% 3% 10px;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/public/Images/UIDesignPhotos/mid-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+  text-align: center;
+}
+
+.UXDesignMidBanner-main > h1 {
+  font-size: 32px;
+}
+
+.UXDesignMidBanner-main > p {
+  font-size: 16px;
+}
+
+.UXDesignMidBanner-main > button {
+  font-size: 18px;
+  font-weight: 600;
+
+  padding: 10px 50px;
+  margin: 2% auto;
+  cursor: pointer;
+
+  border: 2px solid white;
+  background: white;
+  color: #ef4c23;
+  outline: 0;
+  border-radius: 40px;
+}
+
+.UXDesignMidBanner-main > button:hover {
+  background-color: #ef4c23;
+  color: white;
+}

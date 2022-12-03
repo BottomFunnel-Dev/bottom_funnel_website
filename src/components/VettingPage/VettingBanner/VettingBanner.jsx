@@ -17,13 +17,11 @@ export const VettingBanner = () => {
         </h1>
         <hr />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-          illo sequi ad corporis commodi libero rem, perspiciatis molestiae vero
-          odit voluptatum ea ipsam officia sint eum dolorum dolor asperiores
-          reiciendis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Doloremque illo sequi ad corporis commodi libero rem, perspiciatis
-          molestiae vero odit voluptatum ea ipsam officia sint eum dolorum dolor
-          asperiores reiciendis.
+          Bottom Funilling is the process of thoroughly investigating an
+          individual, company, or other entity before making a decision to go
+          forward with a joint project. A background review is an example of a
+          vetting process for a potential employee. Once the vetting process is
+          concluded, a well-informed hiring decision can be made.
         </p>
         <button>Get Started</button>
       </div>

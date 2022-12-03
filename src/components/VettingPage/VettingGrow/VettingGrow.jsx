@@ -25,23 +25,18 @@ export const VettingGrow = () => {
           ))}
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sapiente
-          at consectetur laboriosam iure voluptas. Esse error amet
-          exercitationem atque id temporibus corporis harum magnam laudantium
-          voluptate iure, alias quidem. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ab sapiente at consectetur laboriosam iure voluptas.
-          Esse error amet exercitationem atque id temporibus corporis harum
-          magnam laudantium voluptate iure, alias quidem. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Ab sapiente at consectetur
-          laboriosam iure voluptas. Esse error amet exercitationem atque id
-          temporibus corporis harum magnam laudantium voluptate iure, alias
-          quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-          sapiente at consectetur laboriosam iure voluptas. Esse error amet
-          exercitationem atque id temporibus corporis harum magnam laudantium
-          voluptate iure, alias quidem. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ab sapiente at consectetur laboriosam iure voluptas.
-          Esse error amet exercitationem atque id temporibus corporis harum
-          magnam laudantium voluptate iure, alias quidem.
+          Want to know about the project before committing resources? We do 95%
+          of our business in less than 24 hours. Take a second and let us know a
+          bit about yours. We will respond within 1 business day, and we will be
+          happy to discuss your requirements with you in detail! Bottom Funnel
+          is an upcoming venture that aims at providing comprehensive services
+          for startups across the globe. Our team comprises of experienced and
+          knowledgeable professionals who are well-versed on all aspects of
+          startup operations. In addition to this, we have access to
+          best-in-class technologies and systems that help startups grow rapidly
+          and efficiently. So, if you're looking for someone who can help you
+          scale up your business quickly without compromising on quality, look
+          no further than Bottom Funnel!
         </p>
       </div>
     </div>

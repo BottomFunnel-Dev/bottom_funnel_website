@@ -13,14 +13,11 @@ export const VettingProcess = () => {
           network.
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sequi
-          reiciendis magnam aliquam possimus molestiae esse deleniti nisi
-          dolores delectus? Explicabo perferendis distinctio aliquam eveniet
-          corrupti esse error eaque dolore. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Enim sequi reiciendis magnam aliquam
-          possimus molestiae esse deleniti nisi dolores delectus? Explicabo
-          perferendis distinctio aliquam eveniet corrupti esse error eaque
-          dolore.
+          Surveys show that more and more companies are turning to brand-new
+          vetting methods in order to make a hiring decision. But you know what
+          they say? A thorough background check is the best way to find out
+          everything you need to know about your new employee before you hire
+          them.
         </p>
         <div>
           <img

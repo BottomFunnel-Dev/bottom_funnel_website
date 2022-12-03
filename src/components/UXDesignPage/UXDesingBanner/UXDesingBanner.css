@@ -1,0 +1,88 @@
+.UXDesingBanner-container {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background: linear-gradient(to Right, #ef4c23, #fed490);
+}
+
+.UXDesingBanner-content {
+  width: 45%;
+  color: white;
+}
+
+.UXDesingBanner-content > h1 {
+  font-size: 40px;
+}
+
+.UXDesingBanner-content > p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.UXDesingBanner-content > button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 50px;
+  margin-top: 3%;
+  cursor: pointer;
+
+  border-radius: 50px;
+  border: 2px solid white;
+  outline: none;
+  color: #ef4c23;
+}
+
+.UXDesingBanner-content > button:hover {
+  color: white;
+  background: #ef4c23;
+}
+
+.UXDesingBanner-main {
+  position: relative;
+  width: 45%;
+  height: 650px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.UXDesingBanner-main > img {
+  position: absolute;
+  width: 90%;
+}
+
+.UXDesingBanner-main > img:nth-child(1) {
+  z-index: 0;
+}
+
+.UXDesingBanner-main > img:nth-child(2) {
+  width: 100px;
+  left: 5%;
+  top: 43%;
+  z-index: 2;
+}
+
+.UXDesingBanner-main > img:nth-child(3) {
+  width: 80px;
+  z-index: 2;
+  right: 5%;
+  bottom: 5%;
+}
+
+.UXDesingBanner-main > img:nth-child(4) {
+  width: 80px;
+  z-index: 2;
+  left: 3%;
+  bottom: 3%;
+}
+
+.UXDesingBanner-main > img:nth-child(5) {
+  width: 100px;
+  z-index: 2;
+  right: 8%;
+  top: 10%;
+}

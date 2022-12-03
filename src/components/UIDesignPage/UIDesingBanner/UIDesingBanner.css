@@ -1,0 +1,64 @@
+.UIDesingBanner-container {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background: linear-gradient(to Right, #ef4c23, #fed490);
+}
+
+.UIDesingBanner-content {
+  width: 45%;
+  color: white;
+}
+
+.UIDesingBanner-content > h1 {
+  font-size: 40px;
+}
+
+.UIDesingBanner-content > p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.UIDesingBanner-content > button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 50px;
+  margin-top: 3%;
+  cursor: pointer;
+
+  border-radius: 50px;
+  border: 2px solid white;
+  outline: none;
+  color: #ef4c23;
+}
+
+.UIDesingBanner-content > button:hover {
+  color: white;
+  background: #ef4c23;
+}
+
+.UIDesingBanner-main {
+  position: relative;
+  width: 45%;
+  height: fit-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.UIDesingBanner-main > img {
+  position: absolute;
+  width: 90%;
+}
+
+.UIDesingBanner-main > img:nth-child(2) {
+  z-index: 0;
+}
+
+.UIDesingBanner-main > img:nth-child(1) {
+  z-index: 1;
+}
