@@ -125,6 +125,11 @@ import ToolDelivery from "./components/ToolDeliveryApp/ToolDelivery";
 import { SalesforsePage } from "./components/SalesforsePage/SalesforsePage";
 import { EngagementPage } from "./components/EngagementPage/EngagementPage";
 import CryptoCurrency from "./components/CryptoCurrency/CryptoCurrency";
+import { GameDevelopment } from "./components/GameDevelopment/GameDevelopment";
+import { MeanPage } from "./components/MeanPage/MeanPage";
+import { PhpPage } from "./components/PhpPage/PhpPage";
+import { UIDesignPage } from "./components/UIDesignPage/UIDesignPage";
+import { UXDesignPage } from "./components/UXDesignPage/UXDesignPage";
 
 export const ALLroutes = () => {
   return (
@@ -249,7 +254,7 @@ export const ALLroutes = () => {
       <Route path="/education" element={<Educationpage />} />
       <Route path="/fitness" element={<Fitness />} />
       <Route path="/ecommerce" element={<EcommerceComPage />} />
-      <Route path="/gameDevelopment" element={<GameDevelopmentPage />} />
+      <Route path="/gameDevelopment" element={<GameDevelopment />} />
       <Route path="/grocery" element={<Grocery />} />
       <Route path="/travel" element={<Travel />} />
       <Route path="/videostreaming" element={<Videostreaming />} />
@@ -309,6 +314,10 @@ export const ALLroutes = () => {
       <Route path="/salesforce" element={<SalesforsePage />} />
       <Route path="/engagement" element={<EngagementPage />} />
       <Route path="/cryptocurrency" element={<CryptoCurrency />} />
+      <Route path="/mean-stack-development" element={<MeanPage />} />
+      <Route path="/php-development" element={<PhpPage />} />
+      <Route path="/user-experience" element={<UXDesignPage />} />
+      <Route path="/user-interface" element={<UIDesignPage />} />
     </Routes>
   );
 };

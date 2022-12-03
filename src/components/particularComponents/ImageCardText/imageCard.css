@@ -20,3 +20,6 @@
 .card_text {
   width: 80%;
 }
+.card_text>h5 {
+ cursor: pointer;
+}

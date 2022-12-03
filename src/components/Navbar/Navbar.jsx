@@ -529,7 +529,7 @@ export const NavbarMain = () => {
               <div className="discoverleft">
                 <div className="discoverlefttop">
                   {designContent.map((item, index) => (
-                    <ImageCard key={index} cardContent={item} />
+                    <ImageCard key={index} cardContent={item}  />
                   ))}
                 </div>
                 <div className="discoverleftbottom">

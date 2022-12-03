@@ -66,7 +66,7 @@ export const webservice = [
   {
     dropContent: "PHP Development",
     navIcons: "Images/navbar/services/php.png",
-    path: "",
+    path: "php-development",
   },
   {
     dropContent: "MERN Stack Development",
@@ -76,7 +76,7 @@ export const webservice = [
   {
     dropContent: "MEAN Stack Development",
     navIcons: "Images/navbar/services/angular.png",
-    path: "",
+    path: "mean-stack-development",
   },
   {
     dropContent: "ASP.NET Development",
@@ -459,6 +459,42 @@ export const ondemand = [
     navIcons: "Images/navbar/industriesImage/icecream.png",
     path: "Icecream",
   },
+  {
+    dropContent: "Plant Based Meat Delivery App",
+    navIcons: "Images/navbar/industriesImage/plantmeat.png",
+    path: "",
+  },
+  {
+    dropContent: "Car Rental Delivery App",
+    navIcons: "Images/navbar/industriesImage/carrental.png",
+    path: "",
+  },
+  {
+    dropContent: "Agriculture App Solutions",
+    navIcons: "Images/navbar/industriesImage/agriculture.png",
+    path: "",
+  },
+  {
+    dropContent: "Car Service App Solutions",
+    navIcons: "Images/navbar/industriesImage/carrepair.png",
+    path: "",
+  },
+  {
+    dropContent: "Trading App Solutions",
+    navIcons: "Images/navbar/industriesImage/trading.png",
+    path: "",
+  },
+  
+  {
+    dropContent: "RealState Apps Solutions",
+    navIcons: "Images/navbar/industriesImage/realestate.png",
+    path: "",
+  },
+  {
+    dropContent: "Meat Delivery App",
+    navIcons: "Images/navbar/industriesImage/meat.png",
+    path: "Icecream",
+  },
 ];
 
 export const backend = [
@@ -754,16 +790,19 @@ export const designContent = [
     title: "User Experience Design",
     description: `Seamlessly integrate branding, functionality, usability and accessibility into your product. We enhance user interaction and deliver experiences that are meaningful and delightful.`,
     cardImg: "Images/navbar/designicons/user-interface.png",
+    path: "user-experience"
   },
   {
     title: "User Interface Design",
     description: `We enhance usability and craft designs that are unconventional and intuitively guides users into a splendid visual journey.`,
     cardImg: "Images/navbar/designicons/vector.png",
+    path:"user-interface"
   },
   {
     title: "User Experience Review",
     description: `Identify usability issues, discuss UX improvements, and radically improve your digital product with our UX review sessions.`,
     cardImg: "Images/navbar/designicons/writing.png",
+    path: ""
   },
 ];
 

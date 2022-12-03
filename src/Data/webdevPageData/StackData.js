@@ -408,3 +408,153 @@ export const javascriptstackIntro = {
     },
   ],
 };
+export const meanstackIntro = {
+  heading: "MEAN Stack",
+  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+      in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+      fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+      Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+      eaque.`,
+  aspstack: [
+    {
+      stackName: "MongoDB",
+      stackIcon: "Images/webdevmain/frameworkIcons/mean/mongodb.png",
+      alt: "mongodb.png",
+      description: `
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+    {
+      stackName: "Express",
+      stackIcon: "Images/webdevmain/frameworkIcons/mean/express.png",
+      alt: "Express.png",
+      description: `
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+    },
+    {
+      stackName: "Angular",
+      stackIcon: "Images/webdevmain/frameworkIcons/mean/Angular.png",
+      alt: "Angularjs.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  `,
+    },
+    {
+      stackName: "Node.js",
+      stackIcon: "Images/webdevmain/frameworkIcons/mean/nodejs.png",
+      alt: "node.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+   
+  ],
+};
+export const phpstackIntro = {
+  heading: "PHP",
+  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+      in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+      fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+      Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+      eaque.`,
+  aspstack: [
+    {
+      stackName: "Cakephp",
+      stackIcon: "Images/webdevmain/frameworkIcons/php/cackphp.png",
+      alt: "cackphp.png",
+      description: `
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+    {
+      stackName: "CodeIgniter",
+      stackIcon: "Images/webdevmain/frameworkIcons/php/CodeIgniter.png",
+      alt: "CodeIgniter.png",
+      description: `
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+    },
+    {
+      stackName: "Laravel",
+      stackIcon: "Images/webdevmain/frameworkIcons/php/Laravel.png",
+      alt: "Laravel.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  `,
+    },
+    {
+      stackName: "Phpixie",
+      stackIcon: "Images/webdevmain/frameworkIcons/php/phpixie.png",
+      alt: "phpixie.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+    {
+      stackName: "Slim",
+      stackIcon: "Images/webdevmain/frameworkIcons/php/Slim.png",
+      alt: "Slim.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+    {
+      stackName: "Symfony",
+      stackIcon: "Images/webdevmain/frameworkIcons/php/Symfony.png",
+      alt: "Symfony.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+    {
+      stackName: "Yii",
+      stackIcon: "Images/webdevmain/frameworkIcons/php/Yii.png",
+      alt: "Yii.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+    {
+      stackName: "Zend",
+      stackIcon: "Images/webdevmain/frameworkIcons/php/zend.png",
+      alt: "zend.png",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                
+                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
+                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
+                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
+                  eaque.`,
+    },
+   
+  ],
+};

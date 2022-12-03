@@ -1,0 +1,61 @@
+import React from 'react'
+import "./GameWhyChoose.css"
+
+export const GameWhyChoose = () => {
+  return (
+    <div className='gamewhychoosemainbox'>
+    
+    <div className='whychoosegameflexingleftboxing'>
+    
+    <img src='Images/gamedevelopmentpage/Mask group.png' alt='image' />
+    
+    <div className='positionabsoulteboxinnerwhychoose1'>
+    <div className='positionabsoulteboxinnerwhychoose1logo'>
+    <img src='Images/gamedevelopmentpage/Agile Iteration.png' alt='image' />
+   </div>
+   <h4 className='colorwhite'>Agile</h4>
+    </div>
+    <div className='positionabsoulteboxinnerwhychoose2'>
+    <div className='positionabsoulteboxinnerwhychoose2logo'>
+    <img src='Images/gamedevelopmentpage/Vector.png' alt='image' />
+    </div>
+    <h4 className='colorwhite'>Customer Satisfaction</h4>
+    </div>
+    <div className='positionabsoulteboxinnerwhychoose3'>
+    <div className='positionabsoulteboxinnerwhychoose3logo'>
+    <img src='Images/gamedevelopmentpage/Team.png' alt='image' />
+    
+    </div>
+    <h4 className='colorwhite'>Experience and Talanted Team</h4>
+    </div>
+    <div className='positionabsoulteboxinnerwhychoose4'>
+    <div className='positionabsoulteboxinnerwhychoose4logo'>
+    <img src='Images/gamedevelopmentpage/Curved Arrow.png' alt='image' />
+    </div>
+    <h4 className='colorwhite'>Flexible Engagement</h4>
+    </div>
+    <div className='positionabsoulteboxinnerwhychoose5'>
+    <div className='positionabsoulteboxinnerwhychoose5logo'>
+    <img src='Images/gamedevelopmentpage/support.png' alt='image' />
+    </div>
+    <h4 className='colorwhite'>We are always here for you</h4>
+    </div>
+   
+    
+    </div>
+
+<div className='whychoosegamingflexboxrightdiv'>
+
+<h2>Why you Should consider <a className='colorred'>Bottom Funnel</a> For Game Development</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mollis dui non augue rutrum, eu fringilla ante ultrices. Praesent id est porttitor purus hendrerit maximus vitae vel felis. Nulla eget molestie dui, ut consectetur felis. Aenean cursus mollis metus, ac varius augue</p>
+
+</div>
+
+
+
+    
+    </div>
+  )
+}
+

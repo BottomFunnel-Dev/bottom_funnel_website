@@ -186,9 +186,6 @@ export const javawebDevServices = {
   ],
 };
 
-
-
-
 export const pythonwebDevServices = {
   title: "Python Development",
   description:
@@ -417,4 +414,117 @@ export const javascriptwebDevServices = {
     },
   ],
 };
+export const meanDevServices = {
+  title: "MEAN Stack Development",
+  description:
+    "We have developed years of expertise in creating world-class websites and apps using MEAN Stack. We offer comprehensive services that include application design, coding, testing, deployment, and maintenance so you can sleep easy knowing your website will be up and running smoothly day after day.",
+  serviceCard: [
+    {
+      icon: "Images/meanpage/api.png",
+      alt: "api.png",
+      serviceTitle: "API Integration",
+      serviceDesc:
+        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+    },
+    {
+      icon: "Images/meanpage/cms.png",
+      alt: "cms",
+      serviceTitle: "Custom CMS Development",
+      serviceDesc:
+        "We use MEAN Stack and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
+    },
+    {
+      icon: "Images/meanpage/Ecommerce.png",
+      alt: "Ecommerce.png",
+      serviceTitle: "E-commerce Applications",
+      serviceDesc:
+        "With MEAN Stack, you can easily create web applications that run smoothly on any device without causing any errors. From backend to frontend, everything is organized in such a way that it'll be easy for you to understand how the whole system works.",
+    },
+    {
+      icon: "Images/meanpage/Company.png",
+      alt: "Company.png",
+      serviceTitle: "Enterprise App Solutions",
+      serviceDesc:
+        "Bottom Funnel is the best MEAN Stack development company that offers migration services for your existing MEAN Stack application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+    },
+    {
+      icon: "Images/meanpage/website.png",
+      alt: "website.png",
+      serviceTitle: "Interactive Website Solutions",
+      serviceDesc:
+        "A quick way to build app is using MEAN Stack development. MEAN Stack is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
+    },
 
+    {
+      icon: "Images/meanpage/migration.png",
+      alt: "migration.png",
+      serviceTitle: "MEAN Stack Migration",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+    {
+      icon: "Images/meanpage/landingpage.png",
+      alt: "landingpage.png",
+      serviceTitle: "SPA Development",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+  ],
+};
+export const phpDevServices = {
+  title: "PHP Development",
+  description:
+    "We have developed years of expertise in creating world-class websites and apps using PHP. We offer comprehensive services that include application design, coding, testing, deployment, and maintenance so you can sleep easy knowing your website will be up and running smoothly day after day.",
+  serviceCard: [
+    {
+      icon: "Images/phppage/website.png",
+      alt: "website.png",
+      serviceTitle: "Web-based Applications",
+      serviceDesc:
+        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+    },
+    {
+      icon: "Images/phppage/cms.png",
+      alt: "cms",
+      serviceTitle: "CMS Development",
+      serviceDesc:
+        "We use PHP and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
+    },
+    {
+      icon: "Images/phppage/Ecommerce.png",
+      alt: "Ecommerce.png",
+      serviceTitle: "E-commerce Applications",
+      serviceDesc:
+        "With PHP, you can easily create web applications that run smoothly on any device without causing any errors. From backend to frontend, everything is organized in such a way that it'll be easy for you to understand how the whole system works.",
+    },
+    {
+      icon: "Images/phppage/graphics.png",
+      alt: "graphics.png",
+      serviceTitle: "GUI Based Applications",
+      serviceDesc:
+        "Bottom Funnel is the best PHP development company that offers migration services for your existing PHP application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+    },
+    {
+      icon: "Images/phppage/library.png",
+      alt: "library.png",
+      serviceTitle: "Create Flash",
+      serviceDesc:
+        "A quick way to build app is using PHP development. PHP is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
+    },
+
+    {
+      icon: "Images/phppage/process.png",
+      alt: "process.png",
+      serviceTitle: "Image Processing",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+    {
+      icon: "Images/phppage/representation.png",
+      alt: "representation.png",
+      serviceTitle: "Data Representation",
+      serviceDesc:
+        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+    },
+  ],
+};

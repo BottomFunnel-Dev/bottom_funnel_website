@@ -1,6 +1,9 @@
 import React from "react";
 import "./bannerFull.css";
 import Slider from "react-slick";
+import { MobileBanner } from "./BannerAnimations/MobileBanner";
+import { SoftwareBanner } from "./BannerAnimations/SoftwareBanner";
+import { DigitalMarketing } from "./BannerAnimations/DigitalMarketing";
 
 export const BannerFull = () => {
   const banner = [
@@ -11,7 +14,7 @@ export const BannerFull = () => {
       background: "Images/banner/mobilefull.png",
     },
     {
-      title: "Custom Software Development",
+      title: "Software Product Development",
       bannerImage: "Images/banner/customsde.gif",
       desc: "Turn your company’s opportunities into realities with enterprise-level custom software development.",
       background: "Images/banner/softwarefull.png",
@@ -28,16 +31,11 @@ export const BannerFull = () => {
       desc: "Developing websites that develop your business",
       background: "Images/banner/webdevfull.png",
     },
-    {
-      title: "Software Product Development",
-      bannerImage: "Images/banner/app dev.gif",
-      desc: "Don’t settle for anything less, get the finest software product for you company.",
-      background: "Images/banner/mobilefull.png",
-    },
+   
   ];
 
   var settings = {
-    autoplay: true,
+    // autoplay: true,
     dots: false,
     autoplaySpeed: 5000,
     cssEase: "linear",
@@ -92,6 +90,10 @@ export const BannerFull = () => {
                 backgroundSize: "100% 100%",
               }}
             >
+             {item.title ==="Mobile App Development" && <MobileBanner/>}
+             {item.title ==="Software Product Development" && <SoftwareBanner/>}
+             {item.title ==="Digital Marketing" && <DigitalMarketing/>}
+
               <div className="banner-text-content-full">
                 <h1>{item.title}</h1>
                 <p>{item.desc}</p>

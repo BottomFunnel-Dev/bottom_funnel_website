@@ -222,3 +222,77 @@ export const whyJavascript = {
     },
   ],
 };
+export const whyMEAN = {
+  heading: "MEAN Stack",
+  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+
+  cardData: [
+    {
+      title: "Mobile Compatibility",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Compnent Based",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Seamless Experience",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Fast Performance",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Cost Efficient",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "User Friendly",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+  ],
+};
+export const whyPHP = {
+  heading: "PHP",
+  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+
+  cardData: [
+    {
+      title: "Good Flexibility",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Cheaper Hosting",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Improved Loading Speed",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Plentiful Documentation",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Wide Selection of Databases",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+    {
+      title: "Cheaper Hosting Services",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+    },
+  ],
+};
