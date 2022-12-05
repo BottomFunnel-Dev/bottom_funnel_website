@@ -1,12 +1,12 @@
 .AIwhyBF-Container {
   margin: auto;
-  height: 140vh;
+  height: 130vh;
   position: relative;
 }
 
 .AIwhyBF-Background-rectangle {
   position: absolute;
-  height: 85%;
+  height: 90%;
   width: 100%;
   bottom: 0;
   z-index: 0;
@@ -24,8 +24,8 @@
 
 .AIwhyBF-Background-rectangle > img:nth-child(2) {
   align-self: flex-end;
-  height: 50%;
-  width: 50%;
+  height: 47%;
+  width: 45%;
 }
 
 .AIwhyBF-main {
@@ -50,7 +50,7 @@
 
 .AIwhyBF-Cards-main {
   background-color: #f5f5f5;
-  width: 45%;
+  width: 47%;
   border-radius: 10px;
   margin-bottom: 2%;
   padding: 2%;

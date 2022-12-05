@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
+
 import "./CloudPage.css";
 
 // ----- React main page sub components ----
@@ -22,6 +25,11 @@ import { TextDropdown } from "../faqSection/Faqs";
 import MainFooter from "../FooterSection/MainFooter";
 
 export const CloudPage = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "white", logo: true }));
+  }, []);
+
   return (
     <div className="CloudPage-Container">
       <CloudBanner />

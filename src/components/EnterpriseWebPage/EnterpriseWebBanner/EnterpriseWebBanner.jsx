@@ -11,10 +11,11 @@ export const EnterpriseWebBanner = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ipsam
-        facere recusandae ratione excepturi, sunt iusto provident explicabo quos
-        cum temporibus beatae quasi ipsum quisquam accusantium sint officia
-        consectetur quia!
+        Enterprise Web Services (EWS) is a system of reference that enables
+        enterprises to scale their applications, access commonly shared source
+        data in real-time and highly available architecture. The goal of EWS is
+        to enable enterprises to access commonly required source data and make
+        them more productive with it.
       </p>
       <button>Request A Quote</button>
     </div>

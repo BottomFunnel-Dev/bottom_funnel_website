@@ -6,16 +6,18 @@ export const BigDataServiceHandling = () => {
     <div className="BigDataServiceHandling-main">
       <h1>Handling and Compilation of Big Data</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad quis
-        facilis dicta veritatis tenetur quia in dignissimos recusandae
-        voluptatem exercitationem repellendus quo, fuga autem debitis tempore
-        sed consequuntur aliquid. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Animi expedita sed tempore modi alias praesentium
-        aliquam similique doloremque ipsa et, consectetur magnam dolor facere
-        earum totam, commodi, saepe perferendis. Sint! Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Quas corrupti sed et eligendi, vel
-        laboriosam omnis consequuntur ducimus error modi neque quod! Molestias
-        harum magni inventore voluptas cupiditate vitae animi?
+        Our cloud-based services enable organizations to quickly deploy and
+        scale frameworks for managing, processing, analyzing and visualizing big
+        data. With our scalable platform, organizations can also implement
+        advanced analytical techniques that harness the power of big data. A
+        quick glance at Bottom Funnel's website reveals why we're one of the
+        most preferred providers in this space: we offer an extensive range of
+        services to meet all your big data needs - from customer relationship
+        management (CRM) tools through social media analytics, marketing
+        automation, web analytics and more - everything you need to make sense
+        of your growing digital footprint. Plus, our friendly team is happy to
+        help answer any questions you might have about how our products work or
+        what they can do for you. So give us a call and let's get started!
       </p>
     </div>
   );

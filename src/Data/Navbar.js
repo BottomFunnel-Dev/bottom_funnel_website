@@ -48,7 +48,7 @@ export const process = [
   {
     dropContent: "Our Development Process",
     navIcons: "Images/navbar/aboutImage/ourdevelopmentprocess.png",
-    path: "",
+    path: "Our-development",
   },
   {
     dropContent: "Engagement Models",
@@ -484,7 +484,7 @@ export const ondemand = [
     navIcons: "Images/navbar/industriesImage/trading.png",
     path: "",
   },
-  
+
   {
     dropContent: "RealState Apps Solutions",
     navIcons: "Images/navbar/industriesImage/realestate.png",
@@ -493,7 +493,47 @@ export const ondemand = [
   {
     dropContent: "Meat Delivery App",
     navIcons: "Images/navbar/industriesImage/meat.png",
-    path: "Icecream",
+    path: "",
+  },
+  {
+    dropContent: "Eyewear Delivery App ",
+    navIcons: "Images/navbar/industriesImage/eyewear.png",
+    path: "",
+  },
+  {
+    dropContent: "Baby & KidsWear App ",
+    navIcons: "Images/navbar/industriesImage/baby-wear.png",
+    path: "",
+  },
+  {
+    dropContent: "Online Payment App ",
+    navIcons: "Images/navbar/industriesImage/online-payemnt.png",
+    path: "",
+  },
+  {
+    dropContent: "Fintech App Solutions",
+    navIcons: "Images/navbar/industriesImage/fintech.png",
+    path: "",
+  },
+  {
+    dropContent: "Webiste Builder App",
+    navIcons: "Images/navbar/industriesImage/website-builder.png",
+    path: "",
+  },
+  {
+    dropContent: "App Builder Solutions",
+    navIcons: "Images/navbar/industriesImage/app-builder.png",
+    path: "",
+  },
+  {
+    dropContent: "AI Content App Solutions",
+    navIcons: "Images/navbar/industriesImage/ai-ont.png",
+    path: "",
+  },
+  {
+    dropContent: "OTT App Solutions",
+    navIcons: "Images/navbar/industriesImage/ott.png",
+    path: "",
   },
 ];
 
@@ -790,19 +830,19 @@ export const designContent = [
     title: "User Experience Design",
     description: `Seamlessly integrate branding, functionality, usability and accessibility into your product. We enhance user interaction and deliver experiences that are meaningful and delightful.`,
     cardImg: "Images/navbar/designicons/user-interface.png",
-    path: "user-experience"
+    path: "user-experience",
   },
   {
     title: "User Interface Design",
     description: `We enhance usability and craft designs that are unconventional and intuitively guides users into a splendid visual journey.`,
     cardImg: "Images/navbar/designicons/vector.png",
-    path:"user-interface"
+    path: "user-interface",
   },
   {
     title: "User Experience Review",
     description: `Identify usability issues, discuss UX improvements, and radically improve your digital product with our UX review sessions.`,
     cardImg: "Images/navbar/designicons/writing.png",
-    path: ""
+    path: "",
   },
 ];
 

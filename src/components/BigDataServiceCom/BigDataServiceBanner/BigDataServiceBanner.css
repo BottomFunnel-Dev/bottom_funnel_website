@@ -29,19 +29,25 @@
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .BigDataServiceBanner-main > div > div {
   border: 2px solid white;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 20px;
 }
 
-.BigDataServiceBanner-main > div > hr {
+.BigDataServiceBanner-main > div > span {
   width: 45%;
+  height: 2px;
   background-color: white;
+  color: white;
+
+  border: none;
+  outline: none;
+  border-radius: 2px;
 }
 
 .BigDataServiceBanner-main > p {

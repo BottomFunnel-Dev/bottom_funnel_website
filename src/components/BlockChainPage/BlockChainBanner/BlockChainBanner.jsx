@@ -14,10 +14,10 @@ export const BlockChainBanner = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ipsam
-        facere recusandae ratione excepturi, sunt iusto provident explicabo quos
-        cum temporibus beatae quasi ipsum quisquam accusantium sint officia
-        consectetur quia!
+        Bottom Funnel believes in a decentralized world. They want to change the
+        way people perceive blockchain technology and its various applications.
+        Rather than just associating it with cryptocurrencies, they want to make
+        people realize its actual potential.
       </p>
       <button>Request A Quote</button>
     </div>

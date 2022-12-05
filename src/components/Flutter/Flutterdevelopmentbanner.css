@@ -2,61 +2,42 @@
   width: 100%;
   height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .flutterText {
-  width: 50%;
+  width: 45%;
   position: relative;
 }
 
-.flutterText > div {
-  width: 90%;
-  padding: 10px;
-  /* background-color: green; */
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-}
-
-.flutterText > div > button {
+.flutterText > button {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px 60px;
   border: 2px solid #ef4c23;
   color: white;
   background-color: #ef4c23;
-  border-radius: 25px;
+  border-radius: 50px;
 }
 
-.flutterText > div > button:hover {
-  font-weight: 600;
+.flutterText > h1 {
+  font-size: 37px;
+}
+
+.flutterText > p {
   font-size: 18px;
-  padding: 10px 60px;
-  border: 2px solid #ef4c23;
+}
+
+.flutterText > button:hover {
   background-color: white;
   color: #ef4c23;
-  border-radius: 25px;
 }
 
 .flutterImage {
-  width: 50%;
-  /* background-color: red; */
-  position: relative;
+  width: 45%;
 }
 
-.flutterMobile {
-  position: absolute;
-  width: 90%;
-  height: 90%;
-  transform: translate(-50%, -50%);
-  top: 54%;
-  left: 50%;
-  /* background-color: pink; */
-}
-
-.flutterMobile > img {
+.flutterImage > img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
 }

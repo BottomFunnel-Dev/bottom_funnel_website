@@ -7,12 +7,15 @@ export const CloudStats = () => {
       <h2>
         600+ <br /> cloud developer
       </h2>
+      <div></div>
       <h2>
         100+ <br /> certified professionals
       </h2>
+      <div></div>
       <h2>
         200+ <br /> cloud architectures design & managed
       </h2>
+      <div></div>
       <h2>
         200+ <br /> cloud-based applications delivere
       </h2>

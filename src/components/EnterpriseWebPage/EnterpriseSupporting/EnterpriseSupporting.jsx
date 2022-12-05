@@ -17,30 +17,34 @@ export const EnterpriseSupporting = () => {
           <span></span>
         </div>
         <p>
-          Enterprise and organizations are taking their heritage portfolios
-          beyond the digital frontier. Enbracing innovations and trends are no
-          longer enough. To stay ahead of the game, companies have to act upon
-          the future by working methodically to sense new innlovations and
-          possibilities. And here is where Bottom Funnel becomes your backbone.
+          Enterprise and organizations are defying convention by taking their
+          heritage portfolios beyond the digital frontier in order to stay ahead
+          of the game. They're embracing innovations and trends by working
+          methodically behind the scenes to sense new possibilities - just like
+          you have done with Bottom Funnel!
         </p>
         <p>
-          Bottom Funnel empowers enterprises by reengineering technology's full
-          life cucle with next-generation processes defined by macro forces like
-          speed, efficiency, and resilience. We shape and enhance digital
-          transformaiton by adopting an agile approach to web application
-          development.
+          Bottom Funnel was founded to empower enterprises by reengineering
+          technology's full life cycle with next-generation processes. We shape
+          and enhance digital transformation by adopting an agile approach to
+          web application development.
         </p>
         <p>
-          We are a trusted company tu a host of Fortune 500 and medium to large
-          enterprises that proffers high end web development services ranging
-          from Custom Web Development, SaaS Product Development, eCommerce
-          Development , CMS Development and more.
+          Sometime, knowing that you are visiting a website or checking it out
+          from your desktop application is not enough. You have to check if the
+          website looks sleek and modern. Or maybe you want to know about its
+          security, speed, and other factors which determine its user
+          experience.
         </p>
         <p>
-          Our modern, robust and customized Web Appliction Development Services
-          developed on top technology frameworks and platforms helps companies
-          improve user experience, drive scalability, and reduce operational
-          costs while maximizing efficiency.
+          From custom web development to eCommerce solutions, we have a wide
+          range of skills and expertise that will enable us to exceed your
+          expectations on every project. From our friendly team members who can
+          answer any questions you might have about using WordPress or another
+          CMS system, all the way through to our talented designers who can
+          transform even the simplest of ideas into eye-catching online
+          experiences, we have everything it takes to create a fantastic online
+          presence for your business.
         </p>
       </div>
     </div>

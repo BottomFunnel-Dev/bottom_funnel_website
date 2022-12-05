@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
+
 import "./CryptoDevPage.css";
 
 // ----- Importing react components -----
@@ -23,6 +26,11 @@ import { CustomWebForm } from "../CustomisedWebPage/CustomWebForm/CustomWebForm"
 import { CryptoDevSlider } from "./CryptoDevSlider/CryptoDevSlider";
 
 export const CryptoDevPage = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "white", logo: true }));
+  }, []);
+
   return (
     <div className="CryptoDevPage-container">
       <CryptoDevBanner />

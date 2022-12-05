@@ -17,32 +17,31 @@ export const EnterpriseWhyBF = () => {
           <div>
             <h2>Agile Development Approach</h2>
             <p>
-              Client satisfaction is the most vital element of our services, and
-              so, we strictle adhere to agile principles to develop enterprise
-              apps.
+              Customer satisfaction is the most important factor of our service,
+              which is why we adhere strictly to Agile principles to develop
+              enterprise apps.
             </p>
           </div>
           <div>
             <h2>Cost-effective and Time Saving</h2>
             <p>
-              With Matellio for enterprise app development, businesses can
-              leverage services cost-effectively while saving time with expert
-              resources.
+              With Bottom Funnel for enterprise application development allows
+              companies to save time by leveraging expert resources while
+              leveraging services in a cost-effective manner.
             </p>
           </div>
           <div>
             <h2>Solutions that best fit your business</h2>
             <p>
-              We brainstorm with you to understand the needs of your market and
-              users to offer the most feasible solution that aligns with your
-              market needs
+              Brainstorm to understand market and user needs in order to provide
+              the most viable solutions that meet market needs.
             </p>
           </div>
           <div>
             <h2>Automate Processes</h2>
             <p>
-              Cutting-edge enterprise apps to automate your business processes
-              to enable rapidactions with minimal human intervention.
+              Leading enterprise apps that automate business processes and
+              enable rapid action with minimal human intervention.
             </p>
           </div>
         </div>

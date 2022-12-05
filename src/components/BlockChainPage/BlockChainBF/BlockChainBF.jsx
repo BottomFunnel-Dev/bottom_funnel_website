@@ -27,14 +27,14 @@ export const BlockChainBF = () => {
               Summary<span>.</span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-              architecto quam sunt consequuntur, facilis aperiam, aliquam
-              corporis minus fugiat error accusamus optio? Nulla exercitationem
-              qui id reprehenderit, amet sapiente quasi! Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Magnam, architecto quam sunt
-              consequuntur, facilis aperiam, aliquam corporis minus fugiat error
-              accusamus optio? Nulla exercitationem qui id reprehenderit, amet
-              sapiente quasi!
+              Bottom Funnel is a renowned blockchain development company that
+              specialises in solving the actual challenges encountered by big
+              enterprises and startups globally. From integrating applications
+              to deploying the product over a cloud environment, our team of
+              senior developers is well capable of handling it from scratch to
+              the finished product. We understand the importance of blockchain
+              in today's world and how its technology can disrupt an industry or
+              business model.
             </p>
           </div>
           <div className="BlockChainBF-cards-hr-line">

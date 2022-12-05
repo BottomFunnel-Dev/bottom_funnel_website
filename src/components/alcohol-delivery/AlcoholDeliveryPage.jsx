@@ -18,11 +18,13 @@ import { AlcoholSolutions } from "./AlcoholSolutions/AlcoholSolutions";
 import { AlcoholSuggestions } from "./AlcoholSuggestions/AlcoholSuggestions";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { alcoholLogo } from "../../Data/SeopartnerData";
+
 export const AlcoholDeliveryPage = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
+
   return (
     <div>
       <AlcoholBanner />

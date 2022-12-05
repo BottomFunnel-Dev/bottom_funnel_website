@@ -13,10 +13,10 @@ export const AIBanner = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ipsam
-        facere recusandae ratione excepturi, sunt iusto provident explicabo quos
-        cum temporibus beatae quasi ipsum quisquam accusantium sint officia
-        consectetur quia!
+        Bottom Funnel has harnessed the potential of AI with its powerful
+        predictive analytics tools that identify new and emerging trends before
+        they take off. And because we know you can't keep your mind off numbers,
+        we're offering discounts on selected products every month.
       </p>
       <button>Request A Quote</button>
     </div>

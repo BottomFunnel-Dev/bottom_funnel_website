@@ -140,7 +140,10 @@ export const NavbarMain = () => {
 
   return (
     <div>
-      <ContactMain bgcolor={navbar ? "white" : "transparent"} textcolor={!navbar? navredux.color:"black"} />
+      <ContactMain
+        bgcolor={navbar ? "white" : "transparent"}
+        textcolor={!navbar ? navredux.color : "black"}
+      />
       <nav
         className={navbar ? "navbarSection active" : "navbarSection"}
         style={{
@@ -500,7 +503,11 @@ export const NavbarMain = () => {
               <div className="discoverleft">
                 <div className="discoverlefttop">
                   {discoverContent.map((item, index) => (
-                    <ImageCard key={index} cardContent={item} />
+                    <ImageCard
+                      key={index}
+                      cardContent={item}
+                      closeDisplay={solHoverOut}
+                    />
                   ))}
                 </div>
                 <div className="discoverleftbottom">
@@ -515,7 +522,7 @@ export const NavbarMain = () => {
               <div className="discoverright">
                 {discoverRightContent.map((item, index) => (
                   <div key={index}>
-                    <ImageCard cardContent={item} />
+                    <ImageCard cardContent={item} closeDisplay={solHoverOut} />
                     <h5 className="knowmore">
                       Know More <BsArrowRight />
                     </h5>
@@ -529,7 +536,11 @@ export const NavbarMain = () => {
               <div className="discoverleft">
                 <div className="discoverlefttop">
                   {designContent.map((item, index) => (
-                    <ImageCard key={index} cardContent={item}  />
+                    <ImageCard
+                      key={index}
+                      closeDisplay={solHoverOut}
+                      cardContent={item}
+                    />
                   ))}
                 </div>
                 <div className="discoverleftbottom">
@@ -544,7 +555,7 @@ export const NavbarMain = () => {
               <div className="discoverright">
                 {discoverRightContent.map((item, index) => (
                   <div key={index}>
-                    <ImageCard cardContent={item} />
+                    <ImageCard cardContent={item} closeDisplay={solHoverOut} />
                     <h5 className="knowmore">
                       Know More <BsArrowRight />
                     </h5>
@@ -718,7 +729,11 @@ export const NavbarMain = () => {
               <div className="discoverleft">
                 <div className="discoverlefttop">
                   {scaleContent.map((item, index) => (
-                    <ImageCard key={index} cardContent={item} />
+                    <ImageCard
+                      key={index}
+                      closeDisplay={solHoverOut}
+                      cardContent={item}
+                    />
                   ))}
                 </div>
                 <div className="discoverleftbottom">
@@ -733,7 +748,7 @@ export const NavbarMain = () => {
               <div className="discoverright">
                 {discoverRightContent.map((item, index) => (
                   <div key={index}>
-                    <ImageCard cardContent={item} />
+                    <ImageCard cardContent={item} closeDisplay={solHoverOut} />
                     <h5 className="knowmore">
                       Know More
                       <BsArrowRight />{" "}

@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
+
 import "./BIPages.css";
 
 // ----- React main Components of this page ------
@@ -23,6 +26,11 @@ import { TextDropdown } from "../faqSection/Faqs";
 import MainFooter from "../FooterSection/MainFooter";
 
 export const BIPages = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "white", logo: true }));
+  }, []);
+
   return (
     <div className="BIPages-container">
       <BIBanner />

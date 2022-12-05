@@ -5,22 +5,22 @@ export const BigDataServicePopular = () => {
   const cardsData = [
     {
       title: "Data Management",
-      body: "We partner with client to set up large scale data management. Our Engineers have hands-on experience in creating, managing, and migrating petabyte-scale data lakes and warehouses using the latest advances in tachnology. Businesses can therefore get optimized storage costs, maintainability, and retrieval.",
+      body: "Bottom funnel is an ultimate partner to handle that data massive. We are experts in creating, managing, and migrating petabyte-scale data lakes and warehouses using the latest advances in technology. Businesses can therefore get optimized storage costs, maintainability, and retrieval. Moreover, our Engineers have hands-on experience in creating large scale distributed systems with efficient storage and retrieval mechanisms.",
       image: "Images/BigDataServicePhotos/data-management.png",
     },
     {
       title: "DataOps in Big Data Services",
-      body: "Our DataOps services bring in automatino and agile development methodologies to Big Data Engineering. We bring in efficiencies to the entire data lifecycle to improve data quality and integration, thereby breaking down silos that exist across various units within the lifecycle. This also allows for better data access for the entire organization.",
+      body: "Big data is an absolute boon for organizations looking to gain ground on the competition. Data analytics and Big Data has become a critical component in how companies make decisions, providing insights that other can't. But as the popularity of this technology continues to grow, it's essential we bring in automation and agile development methodologies to help us optimize our data lifecycle and break down silos across various units within the company.",
       image: "Images/BigDataServicePhotos/dataOps.png",
     },
     {
       title: "BI & Analytics for Robust Analytics Solutions",
-      body: "Business intelligence & Alalytics practice at cuelogec helps stakeholders to derive insights from data. Our Big Data teams help build customized dashboards, set up enterprise search, and engineer real-time visualizaiton of data streams. We leverage popular BI tools and build custom platforms using open source technologies to maximize customization and reduce licensing costs.",
+      body: "Bottom Funnel's Business Intelligence & Analytics practice is helping stakeholders to derive insights from data. Our Big Data teams help build customized dashboards, set up enterprise search, and engineer real-time visualization of data streams. We leverage popular BI tools and build custom platforms using open source technologies to maximize customization and reduce licensing costs.",
       image: "Images/BigDataServicePhotos/robust.png",
     },
     {
       title: "Data Science",
-      body: "Our Data Scientists help organizations with features engineering, data analysis, model validations, and building custom intelligence platforms. Clients leverage our data science practice by utilizing data to better understand their customers, optimize operaions, and uncover new business opportunities.",
+      body: "Bottom Funnel is a top data science firm that has the expertise, skills, and resources to help you get results quickly. We combine cutting-edge analytics with creative design thinking to create intelligent solutions that achieve your goals. So whether you're looking for insights on customer behavior or want to build a predictive model, we have the skill set you need.",
       image: "Images/BigDataServicePhotos/data-science.png",
     },
   ];
@@ -34,9 +34,9 @@ export const BigDataServicePopular = () => {
         <span></span>
       </div>
       <p>
-        Maintaining a high level of user engagement is how companies stay
-        relevant. Our advances in technology and design thinking help you
-        achieve it.
+        Maintaining a high level of user engagement keeps your business
+        relevant. Our technology and design thinking advancements help make this
+        happen.
       </p>
       <div className="BigDataServicePopular-Content">
         {cardsData.map(({ title, body, image }) => {

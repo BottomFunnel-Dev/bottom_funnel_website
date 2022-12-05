@@ -4,10 +4,11 @@
   /* background-color: green; */
   display: flex;
   column-gap: 20px;
+  cursor: pointer;
   /* border: 1px solid black; */
 }
 
-.cardImageSection{
+.cardImageSection {
   width: 45px;
   height: 45px;
 }
@@ -20,6 +21,6 @@
 .card_text {
   width: 80%;
 }
-.card_text>h5 {
- cursor: pointer;
+.card_text > h5 {
+  cursor: pointer;
 }

@@ -1,5 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
+
 import "./CustomisedWebPage.css";
+
 import { Industries } from "../industries/Industries";
 import OndemandSection from "../OnDemandSection/OndemandSection";
 import PortFolio from "../PortFolioSection/PortFolio";
@@ -19,10 +23,25 @@ import { CustomWebMidBanner } from "./CustomWebMidBanner/CustomWebMidBanner";
 import { CustomWebForm } from "./CustomWebForm/CustomWebForm";
 import { CustomWebWhyBF } from "./CustomWebWhyBF/CustomWebWhyBF";
 import { CustomWebSlider } from "./CustomWebSlider/CustomWebSlider";
+import { Helmet } from "react-helmet";
 
 export const CustomisedWebPage = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "white", logo: true }));
+  }, []);
+
   return (
     <div className="CustomisedWebPage-container">
+      <Helmet>
+        <title>Customized web development service | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Bottom Funnel is the best option for organizations that require
+        brand-new and creative designs. Our team of experts will help you figure
+        out your online presence, from strategy to execution."
+        />
+      </Helmet>
       <CustomisedWebBanner />
       <CustomisedWebUnique />
       <CustomisedWebServices />

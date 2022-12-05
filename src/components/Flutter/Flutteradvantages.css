@@ -1,93 +1,96 @@
-._Flutteradvantagesmaindiv{
-    display: flex;
-    /* border: 1px solid fuchsia; */
-    width: 88%;
-    margin: auto;
-    margin-top: 50px;
+._Flutteradvantagesmaindiv {
+  display: flex;
+  /* border: 1px solid fuchsia; */
+  width: 88%;
+  margin: auto;
+  margin-top: 50px;
 }
-._Flutteradvantages{
-    /* border:1px solid green; */
-    width:35%;
-    height: 50%;
-    margin: auto;
-    /* text-align: center; */
+._Flutteradvantages {
+  /* border:1px solid green; */
+  width: 35%;
+  height: 50%;
+  margin: auto;
+  /* text-align: center; */
 }
-._Flutteradvantages1{
-    /* border: 1px solid forestgreen; */
-    width:65%;
-    display: flex;
-    flex-wrap: wrap;
-    gap:12px;
-    column-gap: 20px;
-    justify-content: right;
- 
+._Flutteradvantages1 {
+  /* border: 1px solid forestgreen; */
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  column-gap: 20px;
+  justify-content: right;
 }
-._Flutteradvantages1>div{
-    /* border:1px solid red; */
-    width:40%;
-    height:150px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    /* background-color:#ffd497; */
+._Flutteradvantages1 > div {
+  /* border:1px solid red; */
+  width: 40%;
+  height: 180px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  /* background-color:#ffd497; */
 }
-._Fluttergray{
-    background-color: #EEEEEE;
-    transition: 0.2s ease-in-out;
+._Fluttergray {
+  background-color: #eeeeee;
+  transition: 0.2s ease-in-out;
 }
-._Fluttergray:hover{
-    transition: 0.2s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+._Fluttergray:hover {
+  transition: 0.2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-._Flutterpeach{
-    transition: 0.2s ease-in-out;
-    background-color: #ffd497;
-    
+._Flutterpeach {
+  transition: 0.2s ease-in-out;
+  background-color: #ffd497;
 }
-._Flutterpeach:hover{
-    transition: 0.2s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+._Flutterpeach:hover {
+  transition: 0.2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-._Flutterhi{
-    background-color: white;
-    border-radius: 20px;
-    font-size: 27px;
-    color:#EF4C23;
-    display: block;
-    width:40px;
-    text-align: center;
+._Flutterhi {
+  background-color: white;
+  border-radius: 20px;
+  font-size: 27px;
+  color: #ef4c23;
+  display: block;
+  width: 40px;
+  text-align: center;
 }
-._Flutterlogotext{
-    margin-left:10px;
-    display: flex;
-    padding-top:9px;
-    justify-content: left;
-    gap: 5px;
+._Flutterlogotext {
+  margin-left: 10px;
+  display: flex;
+  padding-top: 9px;
+  justify-content: left;
+  gap: 5px;
 }
-._Flutteradtext{
-    display: block;
-    text-align: center;
-    padding-top: 6px;
-    font-size: 17px;
-    font-weight: 500;
+._Flutteradtext {
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
 }
-._Flutterlogo{
-   margin: auto;
-   margin-bottom: 20%;
+._Flutterlogo {
+  margin: auto;
+  margin-bottom: 20%;
 }
-._Flutterpeach>div:nth-child(2){
-    text-align: center;
-    width:90%;
-    margin: auto;
-    box-sizing: border-box;
-    padding-top: 5px;
-    color: black;
- 
+._Flutterpeach > div:nth-child(2) {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+  box-sizing: border-box;
+  padding-top: 5px;
+  color: black;
 }
-._Fluttergray>div:nth-child(2){
-    text-align: center;
-    width:90%;
-    margin: auto;
-    color: gray;
-    box-sizing: border-box;
-    padding-top: 5px;
+._Fluttergray > div:nth-child(2) {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+  color: gray;
+  box-sizing: border-box;
+  padding-top: 5px;
 }

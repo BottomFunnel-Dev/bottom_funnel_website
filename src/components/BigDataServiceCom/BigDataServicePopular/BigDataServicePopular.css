@@ -91,9 +91,8 @@
   margin-bottom: 0;
 
   display: flex;
-  gap: 3%;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 
   border-radius: 100px;
   padding-left: 3%;
@@ -111,7 +110,7 @@
 .BigDataServicePopular-Button > div {
   height: fit-content;
   width: fit-content;
-  padding: 8px;
+  padding: 5px;
 
   background: linear-gradient(to Bottom, #ef4c23, #fed200);
   border-radius: 100px;
@@ -127,7 +126,7 @@
   height: fit-content;
 
   background: linear-gradient(to Bottom, #fed200, #ef4c23);
-  padding: 8px;
+  padding: 5px;
   border-radius: 100px;
 
   display: flex;
@@ -136,7 +135,7 @@
 }
 
 .BigDataServicePopular-Button > div > div > svg {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   color: white;
 }

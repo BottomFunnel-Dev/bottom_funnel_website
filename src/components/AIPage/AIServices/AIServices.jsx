@@ -50,10 +50,10 @@ export const AIServices = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-        reiciendis veniam magni soluta nam ab omnis possimus odit dolore
-        officiis adipisci, ratione iusto iste inventore quia animi iure. Eos,
-        earum!
+        Bottom Funnel offers various classification systems for artificial
+        intelligence, including reactive AI, limited memory AI, theory of mind
+        (ToM) AI, and self-aware AI. The categorization is based on the method
+        used for identifying patterns in data and forecasting future behavior.
       </p>
       <div className="AIServices-Content">
         {cardsData.map(({ title, body, image }) => {

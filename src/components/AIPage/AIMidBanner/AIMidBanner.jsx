@@ -6,16 +6,17 @@ export const AIMidBanner = () => {
     <div className="AIMidBanner-main">
       <h1>Artificial Intellegence Consultancy Services</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad quis
-        facilis dicta veritatis tenetur quia in dignissimos recusandae
-        voluptatem exercitationem repellendus quo, fuga autem debitis tempore
-        sed consequuntur aliquid. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Animi expedita sed tempore modi alias praesentium
-        aliquam similique doloremque ipsa et, consectetur magnam dolor facere
-        earum totam, commodi, saepe perferendis. Sint! Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Quas corrupti sed et eligendi, vel
-        laboriosam omnis consequuntur ducimus error modi neque quod! Molestias
-        harum magni inventore voluptas cupiditate vitae animi?
+        Artificial intelligence is the simulation of human intelligence
+        processes by machines, especially computer systems. Specific
+        applications of AI include expert systems, natural language processing,
+        speech recognition and machine vision. We all know how reliable AI is
+        and how much it can help in automating complex tasks and decision-making
+        process. With more and more professionals turning to AI for their needs,
+        there are many benefits that come with it. From assisting you with your
+        work to completing certain tasks on your own, AI is giving us a
+        trustworthy way forward in our digital world! This was why we got on
+        board with them when Bottom Funnel saw their expansion opportunities in
+        the market.
       </p>
     </div>
   );

@@ -9,15 +9,15 @@ export const BigDataServiceBanner = () => {
         with our Comprehensive Big Data Services
       </h1>
       <div>
-        <hr />
+        <span></span>
         <div></div>
-        <hr />
+        <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis animi
-        soluta debitis ipsa voluptatum illo reprehenderit dolore nisi cumque
-        pariatur cum delectus dolorum iste fuga, temporibus aut atque. Esse,
-        deleniti.
+        Your business is growing, and so is its data. The only problem? There's
+        no end to the amount of data that needs to be processed and analyzed,
+        but with big data as a service from Bottom Funnel, you can process and
+        analyze large-scale data in a simple manner.
       </p>
       <button>Request A Quote</button>
     </div>

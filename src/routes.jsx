@@ -130,6 +130,7 @@ import { MeanPage } from "./components/MeanPage/MeanPage";
 import { PhpPage } from "./components/PhpPage/PhpPage";
 import { UIDesignPage } from "./components/UIDesignPage/UIDesignPage";
 import { UXDesignPage } from "./components/UXDesignPage/UXDesignPage";
+import { OurDevPage } from "./components/OurDevPage/OurDevPage";
 
 export const ALLroutes = () => {
   return (
@@ -318,6 +319,7 @@ export const ALLroutes = () => {
       <Route path="/php-development" element={<PhpPage />} />
       <Route path="/user-experience" element={<UXDesignPage />} />
       <Route path="/user-interface" element={<UIDesignPage />} />
+      <Route path="/Our-development" element={<OurDevPage />} />
     </Routes>
   );
 };

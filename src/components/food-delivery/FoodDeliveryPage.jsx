@@ -25,16 +25,14 @@ import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 export const FoodDelivery = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
   return (
     <div>
       {<FoodDeliveryBanner />}
-      {/* <div className="food-delivery-content"> */}
-<Trusted partnerLogo={fooddeliveryLogo}/>
+      <Trusted partnerLogo={fooddeliveryLogo} />
       {<FoodDeliveryBookCall />}
       {<FoodDeliveryExluciveApp />}
-
       {<FoodDeliveryAdvanceTech />}
       {<FoodDeliveryAdminPanel />}
       {<FoodDeliveryPartnerApp />}

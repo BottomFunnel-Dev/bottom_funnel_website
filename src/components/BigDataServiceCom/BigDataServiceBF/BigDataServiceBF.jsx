@@ -5,22 +5,22 @@ export const BigDataServiceBF = () => {
   const cardsData = [
     {
       title: "Advnaceed Analytics & Insights",
-      body: "We have cast experience dealing with multipule data visualization and analytics tools like QlikSense, Tableau & QlikView. Our analytics solutions include inferential statistical analysis, data modeling, and predictive and prescriptive analytics.",
+      body: "Our team has helped companies across a wide spectrum of industries to understand their data in new ways, helping them to make informed decisions that improve their business processes.",
       image: "Images/BigDataServicePhotos/stairs.png",
     },
     {
       title: "Strategy Consulting",
-      body: "We help our clients formulate Big Data strategies and choose the right technology tools and processes. Our other consulting services include proof of concept, data assessment, architecture recommendation and technology identification.",
+      body: "Bottom Funnel provides consulting services for Big Data analytics and technology selection. We understand the importance of data and its role in enabling a successful business.",
       image: "Images/BigDataServicePhotos/horse.png",
     },
     {
       title: "Hadoop Services",
-      body: "The services we provide for hadoop clusters include installation, integration, configuration for ideal performance and monitoring. Our experienced coders also adoptly eradicate the complexities of writing and maintaining Apache Hadoop code.",
+      body: "Top-notch development is the key to success in any industry. When it comes down to Hadoop Cluster management, we have the expertise and skills of coders to make your project a complete success.",
       image: "Images/BigDataServicePhotos/elephant.png",
     },
     {
       title: "Development, Support & maintenance",
-      body: "We successfully manage the entire life cycle of Big Data implementation i.e. deployment, development, maintenance and support. Our experts have created solutions and frameworks that address all the key functional Big Data components.",
+      body: "Bottom Funnel is the global leader in managing the life cycle of Big Data implementation. We have experts who have created solutions and frameworks that address all the key functional components of Big Data.",
       image: "Images/BigDataServicePhotos/setting.png",
     },
   ];
@@ -44,10 +44,10 @@ export const BigDataServiceBF = () => {
           <span></span>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ullam
-          dignissimos, non temporibus, impedit aliquid laboriosam distinctio
-          mollitia suscipit facilis, fugiat ratione consequatur voluptatem!
-          Delectus ratione ut soluta adipisci autem!
+          Bottom Funnel is here to help. We offer big data as a service so that
+          you can process, manage and analyze large volumes of data in order to
+          generate insights that will help your organization improve business
+          operations and gain a competitive advantage.
         </p>
         <div className="BigDataServiceBF-Cards-Container">
           {cardsData.map(({ title, image, body }) => {

@@ -24,10 +24,10 @@ export const EnterpriseWebSolutions = () => {
             Web <span>UI/UX</span> Development
           </h2>
           <p>
-            Our Team of web designs' enhance, shape and improve customer
+            Our web designer team enhances, shapes and enhances the customer
             experience by developing customer-centric, user-friendly and
-            intuitive web interfaces aligned with your organizations' business
-            strategies and enterprise architecture.
+            intuitive web interfaces that align with your business strategy and
+            enterprise architecture.
           </p>
         </div>
         <div className="EnterpriseWebSolutions-card">
@@ -41,10 +41,10 @@ export const EnterpriseWebSolutions = () => {
             Custom <span>Web</span> Development
           </h2>
           <p>
-            We empower our clients to deliver better customer emperiences by
-            providing highly scalable, secured and high-performance websites
-            added with avant-grade features and functionalities using the latest
-            technologies and frameworks.
+            We help our clients create a better customer experience by providing
+            highly scalable, secure and performant websites enhanced with
+            cutting-edge features and functionality using the latest
+            technologies and frameworks. so that we can provide
           </p>
         </div>
         <div className="EnterpriseWebSolutions-card">
@@ -58,11 +58,10 @@ export const EnterpriseWebSolutions = () => {
             <span>SaaS</span> Product Development
           </h2>
           <p>
-            Get developed quick processing, scalable and custom software as a
-            service SaaS product deverlopment services. With a strong
-            development portfolio, we provide custom SaaS development with a
-            rangeof solutions like SaaS CMS development, SaaS-based eCommerce
-            solution.
+            Get SaaS product development services designed for rapid turnaround,
+            scalable custom software as a service. With a strong development
+            portfolio, we provide custom SaaS development with various solutions
+            such as SaaS CMS development, SaaS-based e-commerce solutions.
           </p>
         </div>
         <div className="EnterpriseWebSolutions-card">
@@ -76,10 +75,10 @@ export const EnterpriseWebSolutions = () => {
             <span>eCommerce</span> Development
           </h2>
           <p>
-            Launch your scalable, secured high-performance eCommerce store with
-            our forte in engaging, customer-centric eCommerce website
-            development services. Our offerings include custom eCommerce website
-            design.
+            Leverage the strength of our responsive, customer-centric e-commerce
+            website development services to launch a scalable, secure, and
+            performant e-commerce store. Our products include custom e-commerce
+            website designs.
           </p>
         </div>
         <div className="EnterpriseWebSolutions-card">
@@ -93,10 +92,10 @@ export const EnterpriseWebSolutions = () => {
             Support & <span>Maintenance</span>
           </h2>
           <p>
-            To ensure that your web solutions remain operational at all times,
-            our system developers experts assist you round the clock to maintain
-            your software's optimum performance. We identify and take quick
-            action to resolve issues immediately after they are reported.
+            To keep your web solution ready to go, our system development
+            experts provide round-the-clock support to maintain optimal software
+            performance. We will identify the problem as soon as it is reported
+            and take prompt action to resolve it.
           </p>
         </div>
         <div className="EnterpriseWebSolutions-request-quote">

@@ -54,11 +54,12 @@
 .BlockChainBF-Cards-summary {
   width: 45%;
   height: 90%;
-  padding: 3% 2%;
+  padding: 2% 2%;
 }
 
 .BlockChainBF-Cards-summary > h1 {
   font-size: 32px;
+  margin-top: 0;
 }
 
 .BlockChainBF-Cards-summary > h1 > span {

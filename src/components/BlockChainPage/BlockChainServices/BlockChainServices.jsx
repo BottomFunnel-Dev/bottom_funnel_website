@@ -6,16 +6,14 @@ export const BlockChainServices = () => {
     <div className="BlockChainServices-main">
       <h1>Block Chain Services</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad quis
-        facilis dicta veritatis tenetur quia in dignissimos recusandae
-        voluptatem exercitationem repellendus quo, fuga autem debitis tempore
-        sed consequuntur aliquid. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Animi expedita sed tempore modi alias praesentium
-        aliquam similique doloremque ipsa et, consectetur magnam dolor facere
-        earum totam, commodi, saepe perferendis. Sint! Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Quas corrupti sed et eligendi, vel
-        laboriosam omnis consequuntur ducimus error modi neque quod! Molestias
-        harum magni inventore voluptas cupiditate vitae animi?
+        BottomFunnel is a Blockchain-based company that seeks to aggregate
+        knowledge, wisdom, and experience of various stakeholders in a community
+        for the purpose of decision-making. The aim is to foster productivity
+        and trust across communities with no central authority. BottomFunnel was
+        founded by an experienced team with deep understanding of technical
+        aspects and business principles. We have worked on projects related to
+        blockchain technology ranging from tokenization to smart contracts
+        development.
       </p>
     </div>
   );

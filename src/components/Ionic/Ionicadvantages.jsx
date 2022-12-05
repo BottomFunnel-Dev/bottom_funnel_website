@@ -24,13 +24,12 @@ export const Ionicadvantages = () => {
             <span className="_Ionichi">
               <HiOutlineDocumentText className="_Ioniclogo" />
             </span>
-            <span className="_Ionicadtext">
-              Single Codebase and Reusable Code
-            </span>
+            <span className="_Ionicadtext">Developer-friendly</span>
           </div>
           <div>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-            beatae quidem corporis eveniet repellendus
+            We have experience building custom apps, but leveraging Ionic's
+            framework is easier and faster than starting each project from
+            scratch.
           </div>
         </div>
         <div className="_Ionicgray">
@@ -38,11 +37,12 @@ export const Ionicadvantages = () => {
             <span className="_Ionichi">
               <IoIosPaper className="_Ioniclogo" />
             </span>
-            <span className="_Ionicadtext">Documentation</span>
+            <span className="_Ionicadtext">Equipped with an entire suite</span>
           </div>
           <div>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-            beatae quidem corporis eveniet repellendus
+            In addition to frameworks, the Ionic team is constantly testing,
+            perfecting, and releasing new Ionic development APIs that work
+            across platforms.
           </div>
         </div>
         <div className="_Ionicgray">
@@ -86,11 +86,11 @@ export const Ionicadvantages = () => {
             <span className="_Ionichi">
               <MdOutlineArchitecture className="_Ioniclogo" />
             </span>
-            <span className="_Ionicadtext">Modular Architecture</span>
+            <span className="_Ionicadtext">Text-to-speech</span>
           </div>
           <div>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-            beatae quidem corporis eveniet repellendus
+            The Ionic plugin can read blog posts, sections, or entire pages to
+            users. All they have to do is click play.
           </div>
         </div>
       </div>

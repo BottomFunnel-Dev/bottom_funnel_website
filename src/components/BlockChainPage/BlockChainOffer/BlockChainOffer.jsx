@@ -5,22 +5,22 @@ export const BlockChainOffer = () => {
   const cardsData = [
     {
       title: "Blockchain networks",
-      body: "Secure and scalable permission-based or permissionless decentralized ecosystems with minimized downtime. Secure and scalable permission-based or permissionless decentralized ecosystems with minimized downtime. Secure and scalable permission-based or permissionless decentralized ecosystems with minimized downtime. Secure and scalable permission-based or permissionless decentralized ecosystems with minimized downtime.",
+      body: "Bottom Funnel is a scalable permission-based or permissionless decentralized ecosystem with minimized downtime, which secures data and applications to be available at all times. You can use it for both personal and professional purposes, as the platform is easy to use and understand. Furthermore, they offer a wide range of features such as monitoring, analytics, backup services and more that help you keep an eye on your data.",
       image: "Images/BlockChainPhotos/networks.png",
     },
     {
       title: "Blockchain-based market platforms",
-      body: "Peer-to-peer platforms (e.g., Defi lending platforms, blockchain-based marketplaces, etc.) for transparent, fraud-free transactions between the transactions between the parties. Peer-to-peer platforms (e.g., Defi lending platforms, blockchain-based marketplaces, etc.) for transparent, fraud-free transactions between the transactions between the parties.",
+      body: "Bottom Funnel is a peer to peer platform where you can get loans and other services at an affordable rate irrespective of your credit history. Peer-to-peer platforms (e.g., Defi lending platforms, blockchain-based marketplaces, etc.) for transparent, fraud-free transactions between the parties. Peer-to-peer platforms (e.g., Defi lending platforms, blockchain-based marketplaces, etc.) for transparent, fraud-free transactions between the parties.",
       image: "Images/BlockChainPhotos/stock-market.png",
     },
     {
       title: "Decentralized autonomous organizations (DAOs)",
-      body: "Blockchain-based platforms for collaborative decision-making that drive productivity and trust across communities with no central authority. Blockchain-based platforms for collaborative decision-making that drive productivity and trust across communities with no central authority.",
+      body: "BottomFunnel was founded by an experienced team with deep understanding of technical aspects and business principles. We have worked on projects related to blockchain technology ranging from tokenization to smart contracts development. Our vision is clear: we want to create platforms that empower all stakeholders in a community and drive productivity and trust across them!",
       image: "Images/BlockChainPhotos/dao.png",
     },
     {
       title: "Crypto wallets & crypto assets",
-      body: "We provide custom cryptocurrencies, cryto tokers utility, governance, reward and NFT. Digital wallets for storing and transacting various types of cryto assets. We provide custom cryptocurrencies, cryto tokers utility, governance, reward and NFT. Digital wallets for storing and transacting various types of cryto assets.",
+      body: "There is a growing craze for cryptocurrencies these days and with new entrants entering the arena every day, it's becoming increasingly difficult to choose your favorite coin. The ultimate solution to this problem has been found by Bottom Funnel! They provide custom cryptocurrencies, cryto tockers utility, governance, reward and NFT. Digital wallets for storing and transacting various types of cryto assets.",
       image: "Images/BlockChainPhotos/crypto.png",
     },
   ];
@@ -34,9 +34,9 @@ export const BlockChainOffer = () => {
         <span></span>
       </div>
       <p>
-        Maintaining a high level of user engagement is how companies stay
-        relevant. Our advances in technology and design thinking help you
-        achieve it.
+        Maintaining a high level of user engagement keeps your business
+        relevant. Our technology and design thinking advancements help make this
+        happen.
       </p>
       <div className="BlockChainOffer-Content">
         {cardsData.map(({ title, body, image }) => {
