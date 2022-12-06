@@ -17,17 +17,14 @@
   width: 65%;
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
-  column-gap: 20px;
-  justify-content: right;
+  justify-content: space-between;
 }
 ._Ionicadvantages1 > div {
-  /* border:1px solid red; */
-  width: 40%;
-  height: 170px;
+  width: 48%;
+  height: 180px;
   border-radius: 10px;
+  margin-bottom: 2%;
   box-sizing: border-box;
-  /* background-color:#ffd497; */
 }
 ._Ionicgray {
   background-color: #eeeeee;
@@ -74,11 +71,9 @@
 }
 ._Ionicpeach > div:nth-child(2) {
   text-align: center;
-  width: 90%;
+  width: 95%;
   margin: auto;
-  box-sizing: border-box;
-  padding-top: 5px;
-  color: black;
+  text-align: justify;
 }
 ._Ionicgray > div:nth-child(2) {
   text-align: center;

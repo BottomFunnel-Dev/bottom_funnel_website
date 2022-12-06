@@ -1,7 +1,8 @@
 .IOTwhyBF-Container {
   margin: auto;
-  height: 140vh;
+  height: 145vh;
   position: relative;
+  margin-top: 1%;
 }
 
 .IOTwhyBF-Background-rectangle {
@@ -18,19 +19,19 @@
 
 .IOTwhyBF-Background-rectangle > img:nth-child(1) {
   align-self: flex-start;
-  height: 50%;
-  width: 33%;
+  height: 45%;
+  width: 40%;
 }
 
 .IOTwhyBF-Background-rectangle > img:nth-child(2) {
   align-self: flex-end;
-  height: 50%;
-  width: 33%;
+  height: 45%;
+  width: 40%;
 }
 
 .IOTwhyBF-main {
   width: 90%;
-  margin: auto;
+  margin: 1% auto;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,7 +42,6 @@
 .IOTwhyBF-Cards-Container {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
 
   width: 85%;
@@ -50,14 +50,14 @@
 
 .IOTwhyBF-Cards-main {
   background-color: #f5f5f5;
-  width: 45%;
+  width: 48%;
   border-radius: 10px;
   margin-bottom: 2%;
   padding: 2%;
 }
 
 .IOTwhyBF-Cards-main > div {
-  height: 70px;
+  height: 60px;
   width: fit-content;
 }
 

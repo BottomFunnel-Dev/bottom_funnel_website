@@ -50,11 +50,12 @@ export const Ionicadvantages = () => {
             <span className="_Ionichi">
               <TbPlug className="_Ioniclogo" />
             </span>
-            <span className="_Ionicadtext">Third-Party Plugin Support</span>
+            <span className="_Ionicadtext">Front-end agnostic</span>
           </div>
           <div>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-            beatae quidem corporis eveniet repellendus
+            Ionic 3 forces us to use Angular and restricts React, but that's a
+            no-go. We have all heard these buzz words in the market, but before
+            we say something about this let us understand something more.
           </div>
         </div>
         <div className="_Ionicpeach">
@@ -62,11 +63,15 @@ export const Ionicadvantages = () => {
             <span className="_Ionichi">
               <AiTwotoneSetting className="_Ioniclogo" />
             </span>
-            <span className="_Ionicadtext">Pre-Built Components</span>
+            <span className="_Ionicadtext">
+              Trusted by companies small and large
+            </span>
           </div>
           <div>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-            beatae quidem corporis eveniet repellendus
+            Ionic is a name that you probably have heard of these days, and for
+            good reason. It's one of the most trusted names in marketing
+            automation software and its powerful features make it ideal for any
+            size business.
           </div>
         </div>
         <div className="_Ionicpeach">
@@ -74,11 +79,15 @@ export const Ionicadvantages = () => {
             <span className="_Ionichi">
               <FaPencilRuler className="_Ioniclogo" />
             </span>
-            <span className="_Ionicadtext">Simple UI</span>
+            <span className="_Ionicadtext">
+              Fueled by a developer-centric community
+            </span>
           </div>
           <div>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-            beatae quidem corporis eveniet repellendus
+            Ionic is an open source platform, meaning the original source code
+            is made freely available. And, because it's open source, the
+            developer community has embraced helping each other, solving
+            challenges, and sharing ideas.
           </div>
         </div>
         <div className="_Ionicgray">
@@ -89,8 +98,9 @@ export const Ionicadvantages = () => {
             <span className="_Ionicadtext">Text-to-speech</span>
           </div>
           <div>
-            The Ionic plugin can read blog posts, sections, or entire pages to
-            users. All they have to do is click play.
+            Ionic is a powerful platform that allows you to build online
+            experiences that are intuitive, engaging, and immersive. It has been
+            used by leading brands like Lyft, GMail, and Apple.
           </div>
         </div>
       </div>

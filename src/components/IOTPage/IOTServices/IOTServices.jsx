@@ -5,22 +5,22 @@ export const IOTServices = () => {
   const cardsData = [
     {
       title: "Preventive equipment maintenance",
-      body: "Remote monitouring of equipment perfromance metrics and early detection of potential mailfunctioning. Prevents equipment breakage and production interruptions. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      body: "Our cloud-based solution automatically collects information about your equipment, programs, and processes to provide you with real-time insight into your business operations. With our powerful analytics capabilities, you can quickly identify issues that could impact your business operation and get the answers you need to make informed decisions.",
       image: "Images/IOTPhotos/equipment.png",
     },
     {
       title: "Remote operations",
-      body: "Automating manual actions based on comands sent from control apps to actutors. Applicable to simple acctions like switching on/off, opening/closing, and complicated industrial processes, like robotic order picking. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      body: "The world is rapidly changing, and automation is one of the most anticipated ways to change it. We are connected now to smart devices that can sense our presence, understand our needs, and act on them intelligently. This new age has brought in a completely new way of life where machines work around us and make things happen as we wish.",
       image: "Images/IOTPhotos/remote.png",
     },
     {
       title: "Product quality management",
-      body: "Monitoring product paramenters and process compliance during manufacturing. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      body: "The manufacturing process is monitored to ensure product compliance and process adherence. However, it's hard to know exactly what's going on in that industrial yet automated environment. IoT isn't just for big companies anymore - it's for everyone who wants to be more efficient with their time and resources.",
       image: "Images/IOTPhotos/quality.png",
     },
     {
       title: "Hands-off inventory management",
-      body: "Remote tracking of assets geoposition and movements. Intant indication of low stock. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      body: "With IoT development, you can now do so with relative ease. All you need is an internet connection and a few minutes of your time to track down where your asset has gone. Not only will this be an efficient use of your precious time and resources, but it will also help save you from investing in replacement parts or finding their location again.",
       image: "Images/IOTPhotos/inventory.png",
     },
   ];
@@ -34,10 +34,11 @@ export const IOTServices = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
-        numquam unde cumque minus reprehenderit pariatur vitae adipisci harum
-        doloremque non molestiae veritatis magni sit officiis molestias, quia
-        natus, tenetur beatae.
+        IoT is becoming more and more popular. Where your house automation
+        systems are making your life easier, businesses are adopting smart
+        technologies that make their operations more efficient. And, where
+        people are increasingly turning to online platforms to buy goods and
+        services.
       </p>
       <div className="IOTServices-Content">
         {cardsData.map(({ title, body, image }) => {
@@ -55,7 +56,7 @@ export const IOTServices = () => {
         })}
       </div>
       <div className="IOTServices-Button">
-        <h3>Talk with our experts in Big Data to get started</h3>
+        <h3>Talk with our experts in IoT to get started</h3>
         <div>
           <div>
             <svg

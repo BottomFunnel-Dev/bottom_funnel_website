@@ -15,10 +15,10 @@ export const IOTBanner = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ipsam
-        facere recusandae ratione excepturi, sunt iusto provident explicabo quos
-        cum temporibus beatae quasi ipsum quisquam accusantium sint officia
-        consectetur quia!
+        Bottom Funnel IoT development can be a challenging process. However,
+        when you partner with Us, it becomes an easy one. We have the expertise
+        and experience to help you build successful IoT solutions that will
+        change the way your customers do business.
       </p>
       <button>Request A Quote</button>
     </div>

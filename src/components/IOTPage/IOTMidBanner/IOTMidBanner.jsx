@@ -6,16 +6,15 @@ export const IOTMidBanner = () => {
     <div className="IOTMidBanner-main">
       <h1>Internet Of Things Services</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad quis
-        facilis dicta veritatis tenetur quia in dignissimos recusandae
-        voluptatem exercitationem repellendus quo, fuga autem debitis tempore
-        sed consequuntur aliquid. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Animi expedita sed tempore modi alias praesentium
-        aliquam similique doloremque ipsa et, consectetur magnam dolor facere
-        earum totam, commodi, saepe perferendis. Sint! Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Quas corrupti sed et eligendi, vel
-        laboriosam omnis consequuntur ducimus error modi neque quod! Molestias
-        harum magni inventore voluptas cupiditate vitae animi?
+        Bottom funnel is an IoT solution that combines hardware parts and
+        software programs. This final product could monitor specific values,
+        collect and transfer data, analyze given data and cause the physical
+        device to act correspondingly. Creating such systems is a true
+        challenge, but not for us! We know how to create systems that are
+        fault-tolerant, secure and reliable. Our engineers have created a robust
+        architecture so that your system can withstand any kind of failure or
+        attack. And our experts in software development will ensure that you get
+        only the best quality software for your device.
       </p>
     </div>
   );
