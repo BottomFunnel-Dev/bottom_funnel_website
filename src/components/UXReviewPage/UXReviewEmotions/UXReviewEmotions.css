@@ -1,0 +1,113 @@
+.UXReviewEmotions {
+  background: #f5f5f5;
+  margin-top: 0;
+  padding: 10px 2%;
+}
+
+.UXReviewEmotions-container {
+  width: 95%;
+  margin: 0 auto 3%;
+  text-align: center;
+}
+
+.UXReviewEmotions-container > h1 {
+  font-size: 32px;
+}
+
+.UXReviewEmotions-container > h1 > span {
+  color: #ef4c23;
+}
+
+.UXReviewEmotions-container > p,
+.UXReviewEmotions-content > p {
+  font-size: 16px;
+}
+
+.UXReviewEmotions-points-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.UXReviewEmotions-points > div:last-child {
+  flex-direction: row-reverse;
+}
+
+.UXReviewEmotions-points-main > div {
+  display: flex;
+  gap: 1%;
+  align-items: flex-start;
+  width: 45%;
+}
+
+.UXReviewEmotions-points-main > div > span {
+  width: 15px;
+  height: 15px;
+  background-color: #fed490;
+  color: #fed490;
+  border: 5px solid #ef4c23;
+  border-radius: 30px;
+}
+
+.UXReviewEmotions-points-main > div > p {
+  width: 90%;
+  font-size: 17px;
+  text-align: justify;
+  margin: 0;
+}
+
+.UXReviewEmotions-points-main > img {
+  width: 35%;
+}
+
+.UXReviewEmotions-main {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin: 3% auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.UXReviewEmotions-content {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  width: 55%;
+  background: white;
+
+  border: 5px solid #ef4c23;
+  border-radius: 20px;
+}
+
+.UXReviewEmotions-content > h2 {
+  font-size: 25px;
+}
+
+.UXReviewEmotions-content > h2 > span {
+  color: #ef4c23;
+}
+
+.UXReviewEmotions-content > div {
+  height: 140px;
+  margin: 4% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.UXReviewEmotions-content > div > img {
+  height: 100%;
+}
+
+.UXReviewEmotions-image {
+  position: absolute;
+  left: 0;
+  width: 50%;
+}
+
+.UXReviewEmotions-image > img {
+  width: 100%;
+}

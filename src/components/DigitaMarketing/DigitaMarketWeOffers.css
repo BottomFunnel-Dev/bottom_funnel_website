@@ -1,0 +1,93 @@
+.digitalmarketingweoffersmainboxes{
+    height: fit-content;
+    
+    margin: 2%;
+
+    
+}
+
+.marketplaceboxerflex{
+    height: 120px;
+    width: 95%;
+   margin: 3%;
+ 
+    display: flex;
+}
+
+.marketplacenumberingbox{
+    height: 100%;
+    width: fit-content;
+ 
+    margin-left: 0.4%;
+font-size: 90px;
+font-weight: 700;
+opacity: 0.4;
+border-right: 3px solid #ef4c23;
+
+}
+
+.marketplaceiconbox{
+    height: 100%;
+    width: 20%;
+ 
+    margin-left: 2%;
+    padding: 30px;
+ 
+}
+
+.marketplacetxtbox{
+    width: 65%;
+  
+    margin-left: 2%;
+    padding: 10px;
+
+}
+
+.marketplacetxtbox >h4 {
+    text-align: justify;
+}
+
+
+
+.digitalmarketingwhybutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+   background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: #ef4c23 0px 0.5px 2px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #ef4c23;
+    margin-top: 30%;
+    margin-left: 5%;
+  
+}
+
+.digitalmarketingwhybutton:hover {
+
+    background-color:#ef4c23;
+    color:  white;
+
+}
+
+
+.colorred{
+    color: #ef4c23;
+}
+
+.weofferbesttextbox{
+    margin-top: 5%;
+    height: 100px;
+    width: 80%;
+
+    margin-left: 3%;
+  
+}
+
+.weofferbesttextbox >h1  {
+
+    font-weight: bold;
+}
+

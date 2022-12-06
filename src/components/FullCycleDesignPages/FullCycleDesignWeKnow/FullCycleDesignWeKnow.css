@@ -1,0 +1,35 @@
+.FullCycleDesignWeKnow-container {
+  width: 90%;
+  margin: 2% auto;
+}
+
+.FullCycleDesignWeKnow-container > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.FullCycleDesignWeKnow-container > div > div {
+  width: 35%;
+}
+
+.FullCycleDesignWeKnow-container > div > div > h2 {
+  text-align: center;
+  background: #ef4c23;
+  color: #f5f5f5;
+  margin: 0;
+  padding: 3% 0;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+.FullCycleDesignWeKnow-container > div > div > p {
+  font-size: 18px;
+}
+
+.FullCycleDesignWeKnow-container > div > div > span {
+  font-size: 16px;
+  color: #ef4c23;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}

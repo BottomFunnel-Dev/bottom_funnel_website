@@ -1,0 +1,51 @@
+.FullCycleDesignShape-container {
+  margin: 0;
+  padding: 2% 5%;
+  background: #f5f5f5;
+}
+
+.FullCycleDesignShape-container > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.FullCycleDesignShape-container > h1 > span {
+  color: #ef4c23;
+}
+
+.FullCycleDesignShape-container > p {
+  font-size: 17px;
+}
+
+.FullCycleDesignShape-container > div {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.FullCycleDesignShape-container > div > div {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.FullCycleDesignShape-container > div > div > p {
+  font-size: 18px;
+  width: 94%;
+  margin-top: 0;
+}
+
+.FullCycleDesignShape-container > div > div > span {
+  width: 15px;
+  height: 15px;
+  background: #fb7405;
+  border: 5px solid #ef4c23;
+  border-radius: 20px;
+}
+
+.FullCycleDesignShape-container > div > img {
+  width: 30%;
+}

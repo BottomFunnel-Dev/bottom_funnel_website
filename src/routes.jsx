@@ -32,6 +32,7 @@ import { ProductPage } from "./components/ProductsPage/ProductPage";
 import { Icecream } from "./components/Icecream/Icecream";
 import Escooter from "./components/Escooter/Escooter";
 import Wellness from "./components/Wellness/Wellness";
+import { DigitalMarketing } from "./components/DigitaMarketing/DigitalMarketing";
 
 import {
   angularjsData,
@@ -131,6 +132,11 @@ import { PhpPage } from "./components/PhpPage/PhpPage";
 import { UIDesignPage } from "./components/UIDesignPage/UIDesignPage";
 import { UXDesignPage } from "./components/UXDesignPage/UXDesignPage";
 import { OurDevPage } from "./components/OurDevPage/OurDevPage";
+import { EyeWearDelivery } from "./components/EyeWearDeliveryPage/EyeWearDelivery";
+import { SocialMedia } from "./components/SocialMedia/SocialMedia";
+import { BusinessAnalysis } from "./components/BusinessAnalysis/BusinessAnalysis";
+import { FullCycleDesignPages } from "./components/FullCycleDesignPages/FullCycleDesignPages";
+import { UXReviewPage } from "./components/UXReviewPage/UXReviewPage";
 
 export const ALLroutes = () => {
   return (
@@ -320,6 +326,15 @@ export const ALLroutes = () => {
       <Route path="/user-experience" element={<UXDesignPage />} />
       <Route path="/user-interface" element={<UIDesignPage />} />
       <Route path="/Our-development" element={<OurDevPage />} />
+      <Route path="/Digital-marketing" element={<DigitalMarketing />} />
+      <Route path="/Eyewear-Delivery-App" element={<EyeWearDelivery />} />
+      <Route path="/Business-Anylysis" element={<BusinessAnalysis />} />
+      <Route path="/Social-Media" element={<SocialMedia />} />
+      <Route
+        path="/Full-Cycle-Poduct-Design"
+        element={<FullCycleDesignPages />}
+      />
+      <Route path="/UX-Review" element={<UXReviewPage />} />
     </Routes>
   );
 };

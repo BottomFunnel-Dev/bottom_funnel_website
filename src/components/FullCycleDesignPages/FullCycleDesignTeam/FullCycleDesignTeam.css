@@ -1,0 +1,61 @@
+.FullCycleDesignTeam-container {
+  width: 90%;
+  margin: 2% auto;
+}
+
+.FullCycleDesignTeam-container > h1 {
+  width: 100%;
+  font-size: 32px;
+  text-align: center;
+  margin: 1% auto;
+}
+
+.FullCycleDesignTeam-container > h1 > span {
+  color: #ef4c23;
+}
+
+.FullCycleDesignTeam-container > p {
+  font-size: 17px;
+  text-align: center;
+  margin: 1% auto;
+}
+
+.FullCycleDesignTeam-container > div {
+  margin: 2% auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.FullCycleDesignTeam-container > div > div {
+  width: 50%;
+}
+
+.FullCycleDesignTeam-cardmain {
+  margin-bottom: 4%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.FullCycleDesignTeam-cardmain > svg {
+  color: #ef4c23;
+  margin-top: 1.5%;
+}
+
+.FullCycleDesignTeam-cardmain > span {
+  width: 96%;
+  text-align: left;
+  padding: 0;
+}
+
+.FullCycleDesignTeam-cardmain > span > h2 {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.FullCycleDesignTeam-cardmain > span > p {
+  font-size: 18px;
+}

@@ -427,8 +427,14 @@ export const NavbarMain = () => {
                 </div>
               </div>
               <div className="serviceDropdownContent">
-                <Link to="digitalmarketing" className="noStyle">
-                  <h5>Digital Marketing</h5>
+                <Link to="Digital-marketing" className="noStyle">
+                  <h5
+                    onClick={() => {
+                      solHoverOut();
+                    }}
+                  >
+                    Digital Marketing
+                  </h5>
                 </Link>
                 <div className="listItems">
                   {digitalmarket.map((item, l) => (

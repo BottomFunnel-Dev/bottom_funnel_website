@@ -1,0 +1,54 @@
+.socialmediaadminmainboxing{
+    height: fit-content;
+
+    margin-top: 150px;
+    display: flex;
+}
+
+.socialmedialeftboxafterflexing{
+    width: 50%;
+
+    margin-left: 3%;
+}
+
+.socialmediainsiderflexboxadminpannel{
+    height: 70%;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.socialmediaadminmaperbox{
+    height: fit-content;
+    width: 42%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    margin: 2%;
+    padding: 1%;
+}
+
+.socialmediaadminmaperbox:hover{
+    transform: scale(1.02);
+    background-color: #EEF1FF;
+}
+
+.socialmeditxtmapperbox{
+   
+margin-left: 2%;
+}
+
+.afterflexingsocialmediarightbox{
+    height: 400px;
+ 
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.afterflexingsocialmediarightbox >img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

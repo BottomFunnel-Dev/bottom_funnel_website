@@ -1,0 +1,41 @@
+.digitalmarketingbannermainboxes {
+  height: 100vh;
+  background: url("/public/Images/digitalmarket/HeroSection.png");
+  background-size: contain;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.digitalmarketingbannerspacefortext {
+  height: 45%;
+  width: 40%;
+
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  text-align: justify;
+}
+
+.digitalmarketingbannerspacefortext > h1 {
+  font-weight: bold;
+}
+
+.digitalmarketingbannerbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: 250px;
+  background-color: #ef4c23;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 5%;
+}
+
+.digitalmarketingbannerbutton:hover {
+  background-color: white;
+  color: #ef4c23;
+}

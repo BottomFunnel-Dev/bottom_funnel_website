@@ -1,0 +1,45 @@
+.digitalmarketwhyconsidermainboxes{
+    height: fit-content;
+ 
+    text-align: center;
+    margin-top: 50px;
+}
+
+.flexingboxwhyshouldconsiderdigitalmarket{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: fit-content;
+    margin-left: 20%;
+   
+
+}
+
+.aftermappingflexboxwhychoosemarket{
+    display: flex;
+    height: 60%;
+    width: 30%;
+
+    margin: 2%;
+
+}
+
+.divforimagedigitalmarketwhychoose{
+    height: 80%;
+    width: 50%;
+   
+    padding: 10px;
+   
+  
+}
+
+.divforimagedigitalmarketwhychoose >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.divforimagedigitalmarketwhychoosetextbox{
+    margin: 2%;
+    text-align: justify;
+}

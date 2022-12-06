@@ -1,0 +1,123 @@
+.UXReviewWhyBF-container {
+  margin: 2% auto;
+  text-align: center;
+}
+
+.UXReviewWhyBF-container > h1 {
+  font-size: 32px;
+}
+
+.UXReviewWhyBF-container > h1 > span,
+.UXReviewWhyBF-main > ul > li > span {
+  color: #ef4c23;
+}
+
+.UXReviewWhyBF-container > p {
+  width: 80%;
+  margin: 2% auto;
+}
+
+.UXReviewWhyBF-container > div {
+  position: relative;
+}
+
+.UXReviewWhyBF-container > div > hr {
+  width: 100%;
+  height: 50px;
+  background: #ffe3dc;
+  border: none;
+  position: absolute;
+  top: 48%;
+  left: 0;
+  right: 0;
+  transform: translateY(-48%);
+}
+
+.UXReviewWhyBF-main {
+  width: 80%;
+  margin: 2% auto;
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.UXReviewWhyBF-main > ul {
+  width: 70%;
+  height: 460px;
+  text-align: left;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.UXReviewWhyBF-main > ul > li {
+  list-style-type: none;
+  margin-bottom: 2%;
+}
+
+.UXReviewWhyBF-main > ul > li > h3 {
+  font-size: 18px;
+  color: #ef4c23;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.UXReviewWhyBF-main > ul > li > p {
+  font-size: 15px;
+  margin-top: 1%;
+  margin-bottom: 0;
+}
+
+.UXReviewWhyBF-main > ul > li:nth-child(1),
+.UXReviewWhyBF-main > ul > li:nth-child(4) {
+  width: 100%;
+  align-items: flex-start;
+}
+
+.UXReviewWhyBF-main > ul > li:nth-child(2),
+.UXReviewWhyBF-main > ul > li:nth-child(3) {
+  width: 73%;
+  align-self: flex-end;
+}
+
+.UXReviewWhyBF-images {
+  position: relative;
+  z-index: 0;
+  width: 45%;
+
+  height: 490px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.UXReviewWhyBF-images > img {
+  height: 45%;
+  position: absolute;
+}
+
+.UXReviewWhyBF-images > img:nth-child(1) {
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+.UXReviewWhyBF-images > img:nth-child(2) {
+  z-index: 1;
+  right: 0;
+}
+
+.UXReviewWhyBF-images > img:nth-child(3) {
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+}

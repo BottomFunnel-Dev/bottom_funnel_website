@@ -1,0 +1,24 @@
+.RGcontainer {
+    width: 90%;
+    margin: auto;
+    border: 1px soild red;
+    text-align: left;
+}
+
+
+
+.RGspanText {
+    color: #ef4c23;
+    font-size: 40px;
+
+}
+
+.RGhead {
+    font-size: 40px;
+}
+
+.RGpara {
+    font-size: 20px;
+    margin-top: 1%;
+}
+

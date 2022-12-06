@@ -1,0 +1,52 @@
+.whatsdigitalmarketmainbox{
+    height: 500px;
+
+    display: flex;
+    margin-top: 5%;
+}
+
+.whatsdigitalmarketleftbox{
+    width: 40%;
+
+    margin-left: 3%;
+}
+
+.whatsdigitalmarketrightbox{
+    width: 55%;
+    height: 100%;
+ 
+    margin: 0% 3% 0% 2%;
+}
+
+.whatsdigitalmarketrightbox >h1 {
+    font-weight: bold;
+}
+
+
+.whatsdigitalmarketleftbox>img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.innerflexboxfordigitalmarketing{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60%;
+    width: 65%;
+   margin-top: 10%;
+    margin-left: 10%;
+    
+}
+
+.flexingsideboxmarket {
+ margin-left: 10%;
+    display: flex;
+ flex-wrap: wrap;
+
+}
+
+.flexingsideboxmarket >h6 {
+    margin: 10px;
+}
+

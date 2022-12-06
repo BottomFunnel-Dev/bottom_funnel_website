@@ -333,7 +333,7 @@ export const industries = [
   {
     dropContent: "Social Media",
     navIcons: "Images/navbar/industriesImage/social media.png",
-    path: "",
+    path: "Social-Media",
   },
   {
     dropContent: "Logistics",
@@ -498,7 +498,7 @@ export const ondemand = [
   {
     dropContent: "Eyewear Delivery App ",
     navIcons: "Images/navbar/industriesImage/eyewear.png",
-    path: "",
+    path: "Eyewear-Delivery-App",
   },
   {
     dropContent: "Baby & KidsWear App ",
@@ -804,6 +804,7 @@ export const discoverContent = [
     title: "Business analysis",
     description: `We elicit business needs, study the competitive landscape, perform strategic analysis, and provide bespoke solutions.`,
     cardImg: "Images/navbar/discovericons/line-chart.png",
+    path: "Business-Anylysis",
   },
   {
     title: "Product discovery workshop & design sprints",
@@ -842,7 +843,7 @@ export const designContent = [
     title: "User Experience Review",
     description: `Identify usability issues, discuss UX improvements, and radically improve your digital product with our UX review sessions.`,
     cardImg: "Images/navbar/designicons/writing.png",
-    path: "",
+    path: "UX-Review",
   },
 ];
 
@@ -851,6 +852,7 @@ export const designRightContent = [
     title: "Full cycle product development",
     description: `We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
     cardImg: "Images/card/anywhate",
+    path: "Full-Cycle-Poduct-Design",
   },
   {
     title: "Innovation Lab",
