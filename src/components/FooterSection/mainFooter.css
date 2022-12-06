@@ -6,7 +6,7 @@
   display: flex;
 }
 .mainFooterSection li {
-list-style: none;
+  list-style: none;
 }
 
 .leftFooter {
@@ -157,18 +157,20 @@ list-style: none;
   object-fit: contain;
 }
 .footerAddress {
+  position: relative;
+  height: fit-content;
   width: 45%;
 }
 .logoBottom {
   width: 45%;
   position: relative;
 }
-.taglinefooter{
-position: absolute;
-top: 93px;
-width: 100%;
-left: 50px;
-color: white;
+.taglinefooter {
+  position: absolute;
+  top: 93px;
+  width: 100%;
+  left: 50px;
+  color: white;
 }
 .startWith {
   display: flex;
@@ -227,4 +229,45 @@ color: white;
 .footerAddress > p {
   width: 100%;
   color: white;
+}
+
+.MainFooter-whatsapp-container {
+  position: fixed;
+  bottom: 0;
+  right: 30%;
+  height: fit-content;
+  width: 450px;
+  z-index: 999999999999999999999999;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  padding: 10px;
+  cursor: default;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+}
+
+.MainFooter-whatsapp-container > div {
+  width: 45%;
+  margin-bottom: 2%;
+}
+
+.MainFooter-whatsapp-container > div > h1 {
+  font-size: 25px;
+  margin: 2px;
+  color: #ef4c23;
+}
+
+.MainFooter-whatsapp-container > div > h3 {
+  font-size: 18px;
+  margin: 5px;
+  margin-left: 10px;
+  color: #393939;
+  text-decoration: underline;
+  cursor: pointer;
+  padding-left: 10px;
 }

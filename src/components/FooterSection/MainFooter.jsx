@@ -26,6 +26,7 @@ const MainFooter = () => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const [whatsapp, setWhatsapp] = React.useState(false);
   const style = {
     position: "absolute",
     top: "50%",
@@ -38,9 +39,8 @@ const MainFooter = () => {
     // boxShadow: 24,
     backgorund: "green",
     p: 1,
-    borderRadius: 2
+    borderRadius: 2,
   };
-
 
   const [more, setMore] = useState(false);
   const address = [
@@ -106,13 +106,49 @@ const MainFooter = () => {
                 <FaPhoneAlt /> +91 8209366227
               </li>
               <li></li>
+              <li
+                onMouseEnter={() => setWhatsapp(() => true)}
+                onMouseLeave={() => setWhatsapp(() => false)}
+              >
+                <FaWhatsapp
+                  fontSize="30px"
+                  color="#ef4c34"
+                  cursor={"pointer"}
+                />
+              </li>
               <li>
-                <FaWhatsapp fontSize="20px" /> +91 7877680588
+                <FaWhatsapp fontSize="20px" /> +254 787 213 522
               </li>
               <li>
                 {" "}
                 <AiOutlineMail fontSize="20px" /> hr@bottomfunnel.net
               </li>
+            </div>
+            <div
+              style={{ display: whatsapp ? "flex" : "none" }}
+              onMouseEnter={() => setWhatsapp(true)}
+              onMouseLeave={() => setWhatsapp(false)}
+              className="MainFooter-whatsapp-container"
+            >
+              <div>
+                <h1>UAE</h1>
+                <h3>+971553070316</h3>
+                <h3>+971585978776</h3>
+                <h3>+971 -56 566 4624</h3>
+              </div>
+              <div>
+                <h1>India</h1>
+                <h3>+918209366227</h3>
+                <h3>+917877680588</h3>
+              </div>
+              <div>
+                <h1>USA</h1>
+                <h3>+19176956550</h3>
+              </div>
+              <div>
+                <h1>Kenya</h1>
+                <h3>+254 787 213 522</h3>
+              </div>
             </div>
 
             <div className="footerSocialMediaSection">
@@ -174,29 +210,19 @@ const MainFooter = () => {
           <button onClick={handleOpen}>Plan Project</button>
 
           <Modal
-                      open={open}
-                      onClose={handleClose}
-                      aria-labelledby="modal-modal-title"
-                      aria-describedby="modal-modal-description"
-                    >
-                      <Box sx={style}>
-                        <Typography
-                          id="modal-modal-title"
-                          variant="h6"
-                          component="h2"
-                        >
-                          <div className="popform">
-
-
-                            <PopupForm/>
-                          </div>
-                        </Typography>
-                       
-                         
-                      </Box>
-                    </Modal>
-
-
+            open={open}
+            onClose={handleClose}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+          >
+            <Box sx={style}>
+              <Typography id="modal-modal-title" variant="h6" component="h2">
+                <div className="popform">
+                  <PopupForm />
+                </div>
+              </Typography>
+            </Box>
+          </Modal>
         </div>
 
         <div className="footerServices">
