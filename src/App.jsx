@@ -18,7 +18,6 @@ function App() {
       {/* <ContactMain /> */}
       <NavbarMain />
       <ALLroutes />
-
     </div>
   );
 }

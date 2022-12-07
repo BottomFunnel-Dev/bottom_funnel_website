@@ -24,8 +24,16 @@ export const Marketplace = () => {
   useEffect(function () {
     dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
+
   return (
-    <div>
+    <div style={{ color: "#393939" }}>
+      <Helmet>
+        <title>Marketplace app development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Boost your Marketplace business with Bottom Funnel's Marketplace app development services that offer intuitive software and app development solutions to clients around the globe"
+        />
+      </Helmet>
       <MarketplaceBanner />
       <MarketplaceFreelancer />
       <MarketPlaceAdmin />

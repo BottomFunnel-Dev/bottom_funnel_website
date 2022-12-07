@@ -11,6 +11,7 @@ import {
   discoverRightContent,
   designContent,
   scaleContent,
+  designRightContent,
 } from "../../Data/Navbar";
 import {
   company,
@@ -559,7 +560,7 @@ export const NavbarMain = () => {
                 </div>
               </div>
               <div className="discoverright">
-                {discoverRightContent.map((item, index) => (
+                {designRightContent.map((item, index) => (
                   <div key={index}>
                     <ImageCard cardContent={item} closeDisplay={solHoverOut} />
                     <h5 className="knowmore">

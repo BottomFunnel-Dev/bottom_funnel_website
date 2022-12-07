@@ -5,22 +5,22 @@ export const MetaverseOffers = () => {
   const cardsData = [
     {
       title: "Decentralized Platforms",
-      body: "We proved decentralized platforms for gaming, socializing, and Trading based on the needs of your project. Our services cover UI/UX desing, frontend and backend programming, smart contracts, Oracle implementation, and everything in between. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae provident eligendi commodi, qui laudantium ea ullam temporibus at saepe. Alias ipsum corporis impedit, laborum assumenda veritatis aspernatur vero molestiae excepturi.",
+      body: "Bottom Funnel is the one-stop solution for all your gaming, social, and trading needs. With our UI/UX design, frontend and backend programming, smart contracts, Oracle implementation and everything in between, we prove decentralized platforms for gaming, socializing, and trading based on the needs of your project. We understand that creating a successful dApp requires a lot more than just coding.",
       image: "Images/metaversePhotos/decentralized.png",
     },
     {
       title: "Metaverse Applications",
-      body: "Bottom Funnel Technologies develop user-friendly apps with blockchain-specific qualities such a automation privacy, transaparency, and user sovereignty to give users a premium interface to experience your Metaverse. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae provident eligendi commodi, qui laudantium ea ullam temporibus at saepe. Alias ipsum corporis impedit, laborum assumenda veritatis aspernatur vero molestiae excepturi.",
+      body: "Bottom Funnel Technologies is a venture of the blockchain community dedicated to bringing user-friendly apps with blockchain-specific qualities. From automation privacy, transparency, and user sovereignty, to premium interfaces for users to experience their Metaverse, we're committed to creating the next generation of applications that make using blockchain easy and intuitive.",
       image: "Images/metaversePhotos/virtual-reality.png",
     },
     {
       title: "3D Spaces",
-      body: "We provide Metaverse projects scalable 3D space design and development services, extending their use-cases through new concepts. Our offering include 3D visualization, 3D modeling and interoperability. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae provident eligendi commodi, qui laudantium ea ullam temporibus at saepe. Alias ipsum corporis impedit, laborum assumenda veritatis aspernatur vero molestiae excepturi.",
+      body: "Metaverse is a great idea, but it's hard to build one that works for everyone. That's why we're breaking new ground in the world of virtual reality by providing scalable 3D space design and development services. Through Metaverse projects, you can extend your use-cases through new concepts, and our offering includes 3D visualization, 3D modeling, and interoperability.",
       image: "Images/metaversePhotos/space.png",
     },
     {
       title: "Integration Services",
-      body: "We provide Metaverse projects scalable 3D space design and development services, extending their use-cases through new concepts. Our offering include 3D modeling, and interoperability. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae provident eligendi commodi, qui laudantium ea ullam temporibus at saepe. Alias ipsum corporis impedit, laborum assumenda veritatis aspernatur vero molestiae excepturi.",
+      body: "We understand that the Metaverse is a long-term project; something that will take time, patience and understanding to grasp. That's why Bottom Funnel offers scalable 3D space design and development services. Our team can help you extend the use-cases of your Metaverse project through new concepts. We offer services such as 3D modeling, and interoperability.",
       image: "Images/metaversePhotos/collaboration.png",
     },
   ];
@@ -34,10 +34,9 @@ export const MetaverseOffers = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
-        provident eligendi commodi, qui laudantium ea ullam temporibus at saepe.
-        Alias ipsum corporis impedit, laborum assumenda veritatis aspernatur
-        vero molestiae excepturi.
+        Bottom Funnel is a metaverse offering that will help your business adapt
+        to emerging market trends by creating a virtual reality of their
+        operations.
       </p>
       <div className="MetaverseOffers-main">
         {cardsData.map(({ title, body, image }) => (
@@ -53,7 +52,7 @@ export const MetaverseOffers = () => {
         ))}
       </div>
       <div className="MetaverseOffers-Button">
-        <h3>Talk with our experts in Big Data to get started</h3>
+        <h3>Talk with our experts in Metaverse to get started</h3>
         <div>
           <div>
             <svg

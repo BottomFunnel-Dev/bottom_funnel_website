@@ -513,7 +513,7 @@ export const ondemand = [
   {
     dropContent: "Fintech App Solutions",
     navIcons: "Images/navbar/industriesImage/fintech.png",
-    path: "",
+    path: "Fintech-solution",
   },
   {
     dropContent: "Webiste Builder App",
@@ -799,6 +799,7 @@ export const discoverContent = [
     title: "Scoping sessions",
     description: `Enlighten our tech experts about your breakthrough idea in an intensive session. We characterise your product idea and define the Scope of work.`,
     cardImg: "Images/navbar/discovericons/training.png",
+    path: "Scoping-session",
   },
   {
     title: "Business analysis",
@@ -851,13 +852,13 @@ export const designRightContent = [
   {
     title: "Full cycle product development",
     description: `We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
-    cardImg: "Images/card/anywhate",
+    cardImg: "Images/navbar/discovericons/lifecycle.png",
     path: "Full-Cycle-Poduct-Design",
   },
   {
     title: "Innovation Lab",
     description: `We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
-    cardImg: "Images/card/anywhate",
+    cardImg: "Images/navbar/discovericons/graduation-cap.png",
   },
 ];
 

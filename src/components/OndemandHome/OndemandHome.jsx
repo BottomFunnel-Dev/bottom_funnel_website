@@ -19,15 +19,25 @@ import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { homesolutionsLogo } from "../../Data/SeopartnerData";
+import { Helmet } from "react-helmet";
+
 const OndemandHome = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
+
   return (
-    <div>
+    <div style={{ color: "#393939" }}>
+      <Helmet>
+        <title>On-Demand Solutions app development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Boost your On-Demand Solutions business with Bottom Funnel's On-Demand Solutions app development services that offer intuitive software and app development solutions to clients around the globe"
+        />
+      </Helmet>
       <OndemandHero />
-      <Trusted partnerLogo={homesolutionsLogo}/>
+      <Trusted partnerLogo={homesolutionsLogo} />
       <OndemandQuote />
       <HomeServices />
       <ExclusiveFeature />

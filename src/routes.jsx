@@ -137,6 +137,9 @@ import { SocialMedia } from "./components/SocialMedia/SocialMedia";
 import { BusinessAnalysis } from "./components/BusinessAnalysis/BusinessAnalysis";
 import { FullCycleDesignPages } from "./components/FullCycleDesignPages/FullCycleDesignPages";
 import { UXReviewPage } from "./components/UXReviewPage/UXReviewPage";
+import { Products } from "./components/Products-Page/Products";
+import { Scoping } from "./components/Scoping-Session-Page/Scoping";
+import { FintechSolution } from "./components/FintexhSolution/FintechSolution";
 
 export const ALLroutes = () => {
   return (
@@ -335,6 +338,8 @@ export const ALLroutes = () => {
         element={<FullCycleDesignPages />}
       />
       <Route path="/UX-Review" element={<UXReviewPage />} />
+      <Route path="/Scoping-session" element={<Scoping />} />
+      <Route path="/Fintech-solution" element={<FintechSolution />} />
     </Routes>
   );
 };

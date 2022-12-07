@@ -1,5 +1,4 @@
 .mernBanner {
-  width: 100%;
   /* margin-top: 90px; */
   height: 100vh;
   position: relative;
@@ -24,8 +23,8 @@
   border-radius: 10px;
 }
 .mernButton:hover {
- background-color: #0FB2E8;
- color: white;
+  background-color: #0fb2e8;
+  color: white;
 }
 
 .bannerIcons {

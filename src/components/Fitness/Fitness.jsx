@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
 import { useDispatch } from "react-redux";
+
 import ContectForm from "../ContectForm/ContectForm";
 import { TextDropdown } from "../faqSection/Faqs";
 import MainFooter from "../FooterSection/MainFooter";
@@ -23,8 +24,9 @@ import { fitnessLogo } from "../../Data/SeopartnerData";
 export const Fitness = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
+
   return (
     <div>
       <Fitnesscontainer />

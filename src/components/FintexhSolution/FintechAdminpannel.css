@@ -1,0 +1,68 @@
+.fintechsolutionadminpannelmainbox{
+    height: fit-content;
+margin-top: 100px;
+    display: flex;
+
+}
+
+.fintechsolutionadminpannelleftbox{
+    height: fit-content;
+    width: 65%;
+
+}
+
+.fintechsolutionadminpannelrightboxes{
+    height: 50%;
+    width: 45%;
+ background: url("/public/Images/fintechsolutionpage/Rectangle 18529.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+    position: relative;
+   margin-top: 10%;
+
+}
+
+.fintechsolutionadminpannelrightboxes >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+.fintechsolutionadminpannelleftboxfortext{
+    height: fit-content;
+    width: 55%;
+   
+    position: absolute;
+text-align: justify;
+    left: 3%;
+}
+
+.adminpannelfintechsolutionwheremap{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+    .fintechsolutionmappingdataadminpannel{
+    width: 44%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: fit-content;
+    border-radius: 10px;
+    margin: 3%;
+    display: flex;
+    padding: 10px;
+}
+
+.fintechsolutionmappingdataadminpannel:hover{
+    transform: scale(1.02);
+  
+}
+
+
+
+.fintechadminlogo{
+    margin: 1%;
+    padding: 1%;
+}

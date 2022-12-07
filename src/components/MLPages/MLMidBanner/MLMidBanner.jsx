@@ -6,16 +6,16 @@ export const MLMidBanner = () => {
     <div className="MLMidBanner-main">
       <h1>Machine Learning Services</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad quis
-        facilis dicta veritatis tenetur quia in dignissimos recusandae
-        voluptatem exercitationem repellendus quo, fuga autem debitis tempore
-        sed consequuntur aliquid. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Animi expedita sed tempore modi alias praesentium
-        aliquam similique doloremque ipsa et, consectetur magnam dolor facere
-        earum totam, commodi, saepe perferendis. Sint! Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Quas corrupti sed et eligendi, vel
-        laboriosam omnis consequuntur ducimus error modi neque quod! Molestias
-        harum magni inventore voluptas cupiditate vitae animi?
+        All the things we love about AI, in one machine that's smart enough to
+        do our homework for us. Bottom Funnel is an AI system designed to help
+        you tackle your toughest assignments with ease. By analyzing your
+        writing style and learning from your past work, it'll be able to provide
+        you with accurate feedback on every essay you upload. Not only that, but
+        it'll also learn from the way you approach a new topic over time, so
+        it'll be able to provide even more helpful insights in the future. AI is
+        changing everything we know about teaching and learning, and Bottom
+        Funnel is leading the way by making sure we have access to this
+        incredible technology everywhere school is taking place!
       </p>
     </div>
   );

@@ -127,7 +127,7 @@ const MainFooter = () => {
             <div
               style={{ display: whatsapp ? "flex" : "none" }}
               onMouseEnter={() => setWhatsapp(true)}
-              onMouseLeave={() => setWhatsapp(false)}
+              onMouseLeave={() => setWhatsapp(true)}
               className="MainFooter-whatsapp-container"
             >
               <div>

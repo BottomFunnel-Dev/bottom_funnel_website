@@ -11,8 +11,9 @@ export const MLApproach = () => {
         <span></span>
       </div>
       <p>
-        Our programmers and machine learning developers have a deep insight into
-        advanced projects. Get to know how they think and execute solutions.
+        Our programmers and machine learning developers have deep insight into
+        advanced projects. Find out how they think and implement their
+        solutions.
       </p>
       <div className="MLApproach-image">
         <img

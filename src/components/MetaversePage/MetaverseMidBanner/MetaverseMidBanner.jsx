@@ -6,16 +6,16 @@ export const MetaverseMidBanner = () => {
     <div className="MetaverseMidBanner-main">
       <h1>Metaverse Services</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad quis
-        facilis dicta veritatis tenetur quia in dignissimos recusandae
-        voluptatem exercitationem repellendus quo, fuga autem debitis tempore
-        sed consequuntur aliquid. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Animi expedita sed tempore modi alias praesentium
-        aliquam similique doloremque ipsa et, consectetur magnam dolor facere
-        earum totam, commodi, saepe perferendis. Sint! Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Quas corrupti sed et eligendi, vel
-        laboriosam omnis consequuntur ducimus error modi neque quod! Molestias
-        harum magni inventore voluptas cupiditate vitae animi?
+        The world is changing rapidly and finding a way to fast-track innovation
+        has become a necessary strategy. The Bottom Funnel Metaverse Foundry
+        converges domain expertise, platforms and digital accelerators in a rich
+        creator-partner economy to help enterprises optimize agility while
+        leveraging their digital assets. With services on-tap, enterprises can
+        flexibly ramp up and down their explorations as they explore new ideas.
+        And with strong relationships in a rich ecosystem of partners, partners
+        can be confident that they are getting the best possible outcomes from
+        their investments in the metaverse foundry. We look forward to working
+        with you!
       </p>
     </div>
   );

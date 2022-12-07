@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
+
 import "./NFTpage.css";
 
 // ----- Importing react components -----
@@ -21,6 +24,11 @@ import MainFooter from "../FooterSection/MainFooter";
 import { TextDropdown } from "../faqSection/Faqs";
 
 export const NFTpage = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "white", logo: true }));
+  }, []);
+
   return (
     <div style={{ color: "#393939" }}>
       <NFTDevBanner />

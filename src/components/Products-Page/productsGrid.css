@@ -1,0 +1,140 @@
+.flexwrap {
+  margin-top: 100px;
+}
+  .RGdiv {
+    border-radius: 10px;
+ 
+   }
+
+.RGdivHead {
+  
+}
+
+.RGbuttonsPannel {
+  width: 99%;
+  border-radius:  0 10px 10px 0 ;
+  padding: 2px;
+  border-top: 1px  solid #d6d6d6;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+
+.flexwrap > div {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  margin-top: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.RGfirstColumnsDivHead {
+  justify-content:left; 
+  width:70%;
+  height:40px;
+  background:#ef4c23;
+  color: white;
+  border-radius:  0 10px 10px 0 ;
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.RGsecondColumnsDivHead {
+   height:40px;
+   background:#ef4c23;
+  color: white;
+  width: 100%;
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RGthirdColumnsDivHead {
+  margin-left:35%;
+  height:40px;
+  background:#ef4c23;
+  color: white;
+  width: 70%;
+  border-radius:  10px 0 0 10px ;
+  margin-top: 18px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  
+}
+
+.RGtitlePTagFirstCols {
+  margin-left: 8px;
+}
+
+.RGtitlePTagThirdCols {
+  margin-left: 5%;
+}
+
+
+
+
+/* common claSSES IN ALL BOXEXS -> */
+
+
+
+.RGsignINButton {
+ color:black;
+ background:transparent;
+ border:none;
+ cursor:pointer;
+ margin-left: 2%;
+}
+
+.RGfreeTrailButton {
+  color:white;
+  background:#ef4c23;
+  border-radius:5px;
+  border:none;
+   width:'25%';
+   cursor:pointer;
+   margin-right:3%;
+    margin-top:1%;
+}
+
+
+.RGeffortlessParagraph{
+  font-size:15px;
+  margin-left:10px
+}
+
+.RGtryNowTab {
+  background: #ef4c23;
+  color: white;
+  width: 600px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content:space-between;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.RGtryNowTabPtag {
+  margin-left: 80px;
+}
+
+.RGtryNowTabButton {
+background: white;
+color: black;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+padding: 8px 40px;
+margin-right: 20px;
+}
+
+

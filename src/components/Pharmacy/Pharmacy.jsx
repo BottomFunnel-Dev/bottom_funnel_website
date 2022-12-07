@@ -19,13 +19,21 @@ import Pharmacydelivery from "./Pharmacydelivery";
 import Pharmacydrive from "./Pharmacydrive";
 import Pharmacysneak from "./Pharmacysneak";
 import { pharmacyLogo } from "../../Data/SeopartnerData";
+import { Helmet } from "react-helmet";
 export default function Pharmacy() {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
   return (
-    <div>
+    <div style={{ color: "#393939" }}>
+      <Helmet>
+        <title>Pharmacy app development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Boost your Pharmacy business with Bottom Funnel's Pharmacy app development services that offer intuitive software and app development solutions to clients around the globe"
+        />
+      </Helmet>
       <Pharmacycontainer />
       <Trusted partnerLogo={pharmacyLogo} />
       <Pharmacydelivery />

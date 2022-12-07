@@ -1,45 +1,43 @@
 .RGmainContaier {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .RGheaderText {
-    width: 40%;
-    text-align: left;
-    margin-left: 60px;
-    padding-left: 10px;
+  width: 40%;
+  text-align: left;
+  margin-left: 60px;
+  padding-left: 10px;
 }
 
-
 .RGimageDiv {
-    width: 55%;
+  width: 50%;
 }
 
 .RGheaderTitle {
-    font-size: 40px;
-    color: #ef4c23;
+  font-size: 40px;
+  color: #ef4c23;
 }
 
 .RGheaderButton {
-    background: #393939;
-    color: white;
-    padding: 10px 50px;
-    border-radius: 50px;
-    font-size: 18px;
-    font-weight: 600;
-    border: 2px solid #393939 ;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #ef4c23;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #ef4c23;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .RGheaderButton:hover {
-    background-color: white;
-    color: #393939;
+  background-color: white;
+  color: #ef4c23;
 }
 
-
 .RGheadertext {
-    font-size: 20px;
+  font-size: 20px;
 }

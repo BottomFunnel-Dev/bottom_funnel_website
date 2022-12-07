@@ -6,7 +6,7 @@
 
 .MLwhyBF-Background-rectangle {
   position: absolute;
-  height: 89%;
+  height: 93%;
   width: 100%;
   bottom: 0;
   z-index: 0;
@@ -18,8 +18,8 @@
 
 .MLwhyBF-Background-rectangle > img:nth-child(1) {
   align-self: flex-start;
-  height: 50%;
-  width: 27%;
+  height: 44%;
+  width: 40%;
 }
 
 .MLwhyBF-Background-rectangle > img:nth-child(2) {
@@ -45,12 +45,12 @@
   justify-content: space-between;
 
   width: 85%;
-  margin: auto;
+  margin: 2% auto;
 }
 
 .MLwhyBF-Cards-main {
   background-color: #f5f5f5;
-  width: 45%;
+  width: 48%;
   border-radius: 10px;
   margin-bottom: 2%;
   padding: 2%;

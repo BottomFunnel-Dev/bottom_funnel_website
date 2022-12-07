@@ -5,27 +5,27 @@ export const MLPopular = () => {
   const cardsData = [
     {
       title: "Natural Language Processing",
-      body: "We aim to deliver advanced solutions that derive semantic information-entities, keywords, relations, emotions, and concepts from human language and speech on web apps and social platforms. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio natus nisi modi delectus blanditiis mollitia, eius incidunt eaque.",
+      body: "Frustrated with websites that just don't understand you and your business? Meet Bottom Funnel - a leading provider of all-in-one semantic solutions for web apps and social platforms. We aim to deliver advanced solutions that derive semantic information from human language and speech on the web.",
       image: "Images/MLPhotos/language.png",
     },
     {
       title: "Robotic Process Automation",
-      body: "Our team of machine learning developers and programmers are experts in createing effective bots that are capable of performing rule-based routine tasks, mimicking human interaction, and allowing you to focus on high-level tasks. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio natus nisi modi delectus blanditiis mollitia, eius incidunt eaque.",
+      body: "We are experts in machine learning and programming, and we understand the complexities involved in creating a bot that can be effective at tasks like driving sales or customer service. Not only that, our team is also capable of understanding your business needs and offering strategic solutions based on them.",
       image: "Images/MLPhotos/rpa.png",
     },
     {
       title: "Data Mining",
-      body: "We use statistical and mathematical techniquies to develop algorithms for analyzing a variety of row data sources and help in descovering meaningful corrections and patterns and help you in making devesions related to your business.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio natus nisi modi delectus blanditiis mollitia, eius incidunt eaque.",
+      body: "Bottom Funnel is the answer to all your data analysis questions. We use statistical and mathematical techniques to develop algorithms for analyzing a variety of row data sources and helping in discovering meaningful corrections and patterns. In addition, we help you in making diversions related to your business.",
       image: "Images/MLPhotos/mining.png",
     },
     {
       title: "Enterprise Security",
-      body: "We at Appventurez, know that enterprise data security is a crucial factor. We utilize the power of machine learning to analyze the huge volume of data for spotting signs and vulnerablities of an enterprise security breach.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio natus nisi modi delectus blanditiis mollitia, eius incidunt eaque.",
+      body: "We utilize the power of machine learning to analyze the huge volume of data for spotting signs and vulnerabilities of an enterprise security breach. Our advanced algorithms allow us to spot patterns and anomalies in your organization's infrastructure that will help you assess potential vulnerabilities.",
       image: "Images/MLPhotos/security.png",
     },
     {
       title: "Deep Learning",
-      body: "Our machine learning developers, as a leading mobile app development company, are proficient in using the latest learning algorithm for creating tools and platforms that help you to adopt new challenges and grab opportunites with the available data.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio natus nisi modi delectus blanditiis.",
+      body: "Our machine learning developers have forged strong relationships with leading universities and universities worldwide to ensure they are on pace with changing AI trends. Our team members are constantly working to improve their skills by attending conferences and workshops that focus on deep learning techniques and AI application development.",
       image: "Images/MLPhotos/learning.png",
     },
   ];
@@ -39,8 +39,9 @@ export const MLPopular = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio natus nisi
-        modi delectus blanditiis mollitia, eius incidunt eaque
+        Machine learning is a subfield of artificial intelligence that involves
+        mimicking intelligent human behavior. AI systems are now used to perform
+        complex tasks in a way that is similar to how humans solve problems.
       </p>
       <div className="MLPopular-Content">
         {cardsData.map(({ title, body, image }) => {
@@ -58,7 +59,7 @@ export const MLPopular = () => {
         })}
       </div>
       <div className="MLPopular-Button">
-        <h3>Talk with our experts in Big Data to get started</h3>
+        <h3>Talk with our experts in Machine Learning to get started</h3>
         <div>
           <div>
             <svg

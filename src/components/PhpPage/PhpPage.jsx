@@ -12,22 +12,28 @@ import { PHPWhyContent } from "../../Data/webdevPageData/whyBottomContent";
 import { phpBanner } from "../../Data/webdevPageData/TechBannerData";
 import { WebdevBanner } from "../WebdevPages/bannerWebdev/WebdevBanner";
 import { Techstackintro } from "../WebdevPages/techStackintro/Techstackintro";
-
+import { Helmet } from "react-helmet";
 
 export const PhpPage = () => {
-    const dispatch = useDispatch();
-    useEffect(function () {
-      dispatch(ChnageNavbarColor({color: "black", logo: false}));
-    }, []);
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+  }, []);
   return (
-    <div>
- <WebdevBanner bannerContent={phpBanner} />
+    <div style={{ color: "#393939" }}>
+      <Helmet>
+        <title>PHP Development Company India | Konstantinfo</title>
+        <meta
+          name="description"
+          content="Bottom Funnel is a top rated PHP Development Company in India provides custom PHP web development services across the globe. Get in touch for creative PHP applications."
+        />
+      </Helmet>
+      <WebdevBanner bannerContent={phpBanner} />
       <Techstackintro techContent={phpstackIntro} />
       <WebDevServices webservicesContent={phpDevServices} />
       <WhyTechStack techData={whyPHP} />
       <GetStarted />
       <WebDevWhy whyDevContent={PHPWhyContent} />
-
     </div>
-  )
-}
+  );
+};

@@ -13,11 +13,10 @@ export const MetaverseServices = () => {
         <span></span>
       </div>
       <p>
-        In futurism and science fiction, the metaverse is a hypothetical
-        iteration of the internet as a single, universal and immersive virtual
-        world that is facilitated by the use of virtual reality and augmented
-        reality headsets. In colloquial use, a metaverse is a network of 3D
-        virtual worlds focused on social connection.
+        The metaverse is an upcoming network where people can meet and socialise
+        in a single shared space. And now that it's available, we're sure you'll
+        be hooked! Explore places and things like never before with this
+        immersive technology.
       </p>
       <div className="MetaverseServices-image">
         <img src="Images/metaversePhotos/process.png" alt="Process flowchart" />

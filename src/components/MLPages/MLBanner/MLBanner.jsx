@@ -11,10 +11,11 @@ export const MLBanner = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ipsam
-        facere recusandae ratione excepturi, sunt iusto provident explicabo quos
-        cum temporibus beatae quasi ipsum quisquam accusantium sint officia
-        consectetur quia!
+        Bottom Funnel is one such machine learning system that uses artificial
+        intelligence to make predictions for the future based on historical
+        data. By assessing user preferences and analyzing their online behavior,
+        the company builds a model that predicts the next action users are
+        likely to take after visiting their website.
       </p>
       <button>Request A Quote</button>
     </div>
