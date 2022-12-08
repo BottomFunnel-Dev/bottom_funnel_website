@@ -17,6 +17,7 @@ import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import Revamping from "../revamping/Revamping";
 import { TextDropdown } from "../faqSection/Faqs";
 import MainFooter from "../FooterSection/MainFooter";
+import { Helmet } from "react-helmet";
 
 export const SocialMedia = () => {
   const dispatch = useDispatch();
@@ -25,7 +26,16 @@ export const SocialMedia = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ color: "#393939" }}>
+      <Helmet>
+        <title>
+          Social Media Mobile App Development Company | Bottom Funnel
+        </title>
+        <meta
+          name="description"
+          content="Social media app development needs the inculcation of the updated and smart technological software's. Avail your app now."
+        />
+      </Helmet>
       <SocialMediaBanner />
       <SocialMediaSuggestion />
       <SocialMediaApproch />

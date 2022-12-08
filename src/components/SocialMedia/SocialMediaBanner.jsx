@@ -1,17 +1,18 @@
-import React from 'react'
-import "./SocialMediaBanner.css"
+import React from "react";
+import "./SocialMediaBanner.css";
 
 export const SocialMediaBanner = () => {
   return (
-    <div className='socialmediabannermainbox'>
-    <div className='socialmediabannerinnertextboxes'>
-    <h1>Build A freelancer Marketplace Like Upwork & Fiverr</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mollis dui non augue rutrum, eu fringilla ante ultrices. Praesent id est porttitor purus hendrerit maximus vitae vel felis. Nulla eget molestie dui, ut consectetur felis. Aenean cursus mollis metus, ac varius augue</p>
-    <button className="socialmediabannerbutton">Get Started</button>
+    <div className="socialmediabannermainbox">
+      <div className="socialmediabannerinnertextboxes">
+        <h1>Build A freelancer Marketplace Like Upwork & Fiverr</h1>
+        <p>
+          Bottom Funnel saas is the perfect solution for you if you're looking
+          to launch your own social networking app. We provide advanced features
+          and tech so that you can focus on building a successful business.
+        </p>
+        <button className="socialmediabannerbutton">Get Started</button>
+      </div>
     </div>
-    
-    
-    </div>
-  )
-}
-
+  );
+};

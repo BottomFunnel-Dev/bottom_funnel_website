@@ -11,15 +11,17 @@ const RoundIconsText = () => {
       <div className="RGtextDiv">
         <h1>We help shape your vision</h1>
         <p>
-          We deliver the right product by asking the right question. Here a
-          glimpse into how <br /> we conduct a scoping session.
+          Bottom Funnel is world's first and only company that asks the right
+          question before making a purchase. We believe in the power of asking
+          questions to help our customers take informed decisions about their
+          purchases, and find what they need.
         </p>
         <p>
-          Before we deploy our team and kickstart the development process, we
-          would want you to communicate your requirements, goals <br /> and
-          vision. After spending a considerable amount of time on your idea, we
-          shape your vision by offering you insights on tech <br /> expertise,
-          user experience, and business know-how.{" "}
+          We understand that every project is different, but by coming together
+          to brainstorm and discuss your idea, we can bring out the best of your
+          company. From our experience as a software development agency, we know
+          how important it is to approach things thoughtfully and with a
+          long-term perspective.
         </p>
       </div>
 
@@ -38,9 +40,7 @@ const RoundIconsText = () => {
             alt=""
           />{" "}
         </div>
-        <div className="RGtext1">
-          Getting to know <br /> you
-        </div>
+        <div className="RGtext1">Getting to know you</div>
         <div className="RGlongText1">
           We believe in setting the right foundation. The
           <br />
