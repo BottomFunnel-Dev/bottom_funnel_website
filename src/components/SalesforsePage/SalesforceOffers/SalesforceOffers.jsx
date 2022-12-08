@@ -5,37 +5,37 @@ export const SalesforceOffers = () => {
   const cardsData = [
     {
       title: "Service CLoud Implementation",
-      body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, reiciendis nulla natus laboriosam sit facere tempora mollitia harum sunt non ex hic incidunt voluptate beatae sequi vitae ullam, dolores ad!",
+      body: "When you work with Salesforce, you are working with a leader in cloud computing and business software. Our Service Cloud is the platform that powers our customers' businesses",
       image: "Images/salesforcePhotos/cloud.png",
     },
     {
       title: "Marketing CLoud Implementation",
-      body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, reiciendis nulla natus laboriosam sit facere tempora mollitia harum sunt non ex hic incidunt voluptate beatae sequi vitae ullam, dolores ad!",
+      body: "Marketing is a key part of your company's growth, so you can't afford to overlook it. With Salesforce, you have a complete marketing solution that covers all aspects of your marketing strategy.",
       image: "Images/salesforcePhotos/social-media.png",
     },
     {
       title: "Sales CLoud Implementation",
-      body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, reiciendis nulla natus laboriosam sit facere tempora mollitia harum sunt non ex hic incidunt voluptate beatae sequi vitae ullam, dolores ad!",
+      body: "Salesforce has been ruling the digital marketing world for years. Their cloud-based CRM system helps in keeping track of all your prospects, leads, and contacts by syncing with other tools.",
       image: "Images/salesforcePhotos/graph.png",
     },
     {
       title: "Pordot CLoud Implementation",
-      body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, reiciendis nulla natus laboriosam sit facere tempora mollitia harum sunt non ex hic incidunt voluptate beatae sequi vitae ullam, dolores ad!",
+      body: "Get more out of Salesforce by also getting acquainted with its prebuilt apps for customer relationship management, sales force automation, marketing and customer service.",
       image: "Images/salesforcePhotos/b-to-b.png",
     },
     {
       title: "IoT CLoud Implementation",
-      body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, reiciendis nulla natus laboriosam sit facere tempora mollitia harum sunt non ex hic incidunt voluptate beatae sequi vitae ullam, dolores ad!",
+      body: "It's a system of interconnected devices that are connected to the internet. It also refers to the process by which these devices send and receive data from each other in real time.",
       image: "Images/salesforcePhotos/shopping.png",
     },
     {
       title: "CPQ CLoud Implementation",
-      body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, reiciendis nulla natus laboriosam sit facere tempora mollitia harum sunt non ex hic incidunt voluptate beatae sequi vitae ullam, dolores ad!",
+      body: "Ability to organize data from across the business and its broad set of tools for online collaboration, Salesforce is an invaluable tool for businesses looking to streamline their processes.",
       image: "Images/salesforcePhotos/setting.png",
     },
     {
       title: "Lighting Solution Implementation",
-      body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, reiciendis nulla natus laboriosam sit facere tempora mollitia harum sunt non ex hic incidunt voluptate beatae sequi vitae ullam, dolores ad!",
+      body: "Salesforce is leading the pack with its platform as a service. The Lightning platform is the first PaaS for developers and has proved to be immensely popular among enterprises.",
       image: "Images/salesforcePhotos/design.png",
     },
   ];
@@ -49,12 +49,10 @@ export const SalesforceOffers = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, reiciendis
-        nulla natus laboriosam sit facere tempora mollitia harum sunt non ex hic
-        incidunt voluptate beatae sequi vitae ullam, dolores ad! Lorem ipsum
-        dolor sit, amet consectetur adipisicing elit. At, reiciendis nulla natus
-        laboriosam sit facere tempora mollitia harum sunt non ex hic incidunt
-        voluptate beatae sequi vitae ullam, dolores ad!
+        Bottom Funnel is one such service that helps companies in creating a
+        strong digital marketing strategy with SaaS tools like Facebook Ads
+        Mastery and Google Analytics proficiency to get their business ahead of
+        the competition.
       </p>
       <div className="SalesforceOffers-main">
         {cardsData.map(({ title, body, image }, idx) => (

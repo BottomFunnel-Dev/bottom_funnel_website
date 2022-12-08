@@ -13,10 +13,12 @@ export const SaleforceBanner = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ipsam
-        facere recusandae ratione excepturi, sunt iusto provident explicabo quos
-        cum temporibus beatae quasi ipsum quisquam accusantium sint officia
-        consectetur quia!
+        Bottom Funnel is here to help you improve your entire company processes
+        and find answers to crucial business problems. We will assist you in
+        managing your company operations by designing and developing salesforce
+        applications that are both extremely functional and beautiful. As a
+        salesforce development company, we have experience in delivering
+        expertise in everything we do.
       </p>
       <button>Request A Quote</button>
     </div>

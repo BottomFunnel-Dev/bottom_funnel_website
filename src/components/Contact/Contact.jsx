@@ -1,8 +1,8 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import "./Contact.css";
 
-export const ContactMain = ({ bgcolor,textcolor }) => {
+export const ContactMain = ({ bgcolor, textcolor }) => {
   const [scroll, setScroll] = useState(false);
 
   window.addEventListener("scroll", function () {
@@ -13,10 +13,6 @@ export const ContactMain = ({ bgcolor,textcolor }) => {
     }
   });
 
-
-
-
-
   return (
     <div
       className="Contact-Above-Navbar-Main"
@@ -24,17 +20,23 @@ export const ContactMain = ({ bgcolor,textcolor }) => {
     >
       <div>
         <div>
-          <span >
+          <span>
             <img src="Images/contactNavbar/india.png" alt="India flag" />
-            <a style={{color:textcolor}} href="tel:+918209366227">+918209366227</a>
+            <a style={{ color: textcolor }} href="tel:+918209366227">
+              +918209366227
+            </a>
           </span>
           <span>
             <img src="Images/contactNavbar/usa.png" alt="USA flag" />
-            <a style={{color:textcolor}} href="tel:+19176726964 ">+19176726964 </a>
+            <a style={{ color: textcolor }} href="tel:+19176956550 ">
+              +19176956550{" "}
+            </a>
           </span>
           <span>
             <img src="Images/contactNavbar/uae.png" alt="UAE flag" />
-            <a style={{color:textcolor}} href="tel:+971 58 597 8776">+971 58 597 8776</a>
+            <a style={{ color: textcolor }} href="tel:+971 58 597 8776">
+              +971 58 597 8776
+            </a>
           </span>
         </div>
         <span>
@@ -43,7 +45,7 @@ export const ContactMain = ({ bgcolor,textcolor }) => {
               display: "flex",
               alignItems: "center",
               marginRight: "10px",
-              color:textcolor
+              color: textcolor,
             }}
             href="whatsapp://send?abid=+917877680588&text=Hello%2C%20World!"
           >
@@ -59,7 +61,7 @@ export const ContactMain = ({ bgcolor,textcolor }) => {
             </svg>
           </a>
           <svg
-          color= {textcolor}
+            color={textcolor}
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -72,7 +74,9 @@ export const ContactMain = ({ bgcolor,textcolor }) => {
           >
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
           </svg>
-          <a style={{color:textcolor}} href="mailto:info@bottomfunnel.net">info@bottomfunnel.net</a>
+          <a style={{ color: textcolor }} href="mailto:info@bottomfunnel.net">
+            info@bottomfunnel.net
+          </a>
         </span>
       </div>
     </div>

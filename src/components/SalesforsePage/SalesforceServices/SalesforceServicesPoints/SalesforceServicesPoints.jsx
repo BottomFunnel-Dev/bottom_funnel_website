@@ -5,19 +5,19 @@ export const SalesforceServicesPoints = () => {
   const cardsData = [
     {
       title: "Better Time management",
-      body: "Time management is a huge benefit of Salesforce and one of the best ways to allow a business to grow and thrive.",
+      body: "Time management is a huge advantage of Salesforce and one of the best ways to help your business grow and thrive.",
     },
     {
       title: "Ultimate Accessbility",
-      body: "Since Salesforce is cloud software, it's accessible anywhere and everywhere you have access to the internet.",
+      body: "Salesforce is cloud software, so you can access it anywhere you have internet access.",
     },
     {
       title: "Increased Revenue",
-      body: "Without Salesforce, running a busniess in today's world can cost you money. On any given day, your team might produce a ton of data that has to be stored.",
+      body: "Running a business in today's world can be expensive without Salesforce. On any given day, your team may generate a large amount of data that needs to be stored.",
     },
     {
       title: "Greater Customer Satisfaction",
-      body: "Similar to increased revenue, it's safe to assume customers are more satisfied when they interact with a business that knows their needs and the state of their relationship with you (thanks to your CRM tool).",
+      body: "As well as increased revenue, it's safe to assume that your customers will be happier when you work with a company that understands their needs and the state of their relationship.",
     },
   ];
   return (

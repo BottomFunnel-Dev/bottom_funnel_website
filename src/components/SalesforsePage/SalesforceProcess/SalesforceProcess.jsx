@@ -11,13 +11,11 @@ export const SalesforceProcess = () => {
         <span></span>
       </div>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-        excepturi vitae ad aut atque, delectus consectetur quis sequi maiores,
-        distinctio porro! Sed labore in animi ad, officia nemo inventore
-        officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Dignissimos excepturi vitae ad aut atque, delectus consectetur quis
-        sequi maiores, distinctio porro! Sed labore in animi ad, officia nemo
-        inventore officiis.
+        With Salesforce, no sales process is too big or too small for its
+        powerful adoption software. That means that regardless of whether you
+        have a few folks who are new to the field or standing on the cusp of
+        greatness, your company can benefit from best practices and an organized
+        approach to growing sales.
       </p>
       <div className="SalesforceProcess-main">
         <div className="SalesforceProcess-image">
@@ -79,7 +77,7 @@ export const SalesforceProcess = () => {
         </div>
       </div>
       <div className="SalesforceProcess-Button">
-        <h3>Talk with our experts in Big Data to get started</h3>
+        <h3>Talk with our experts in salesforce to get started</h3>
         <div>
           <div>
             <svg

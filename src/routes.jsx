@@ -140,6 +140,7 @@ import { UXReviewPage } from "./components/UXReviewPage/UXReviewPage";
 import { Products } from "./components/Products-Page/Products";
 import { Scoping } from "./components/Scoping-Session-Page/Scoping";
 import { FintechSolution } from "./components/FintexhSolution/FintechSolution";
+import { CarService } from "./components/Car-Service-page/CarService";
 
 export const ALLroutes = () => {
   return (
@@ -272,7 +273,7 @@ export const ALLroutes = () => {
       <Route path="/alcohol" element={<AlcoholDeliveryPage />} />
       <Route path="/cannabis" element={<Cannabis />} />
       <Route path="/Icecream" element={<Icecream />} />
-      <Route path="/Products" element={<ProductPage />} />
+      <Route path="/Products" element={<Products />} />
       <Route path="/eScooter" element={<Escooter />} />
       <Route path="/taxi-booking" element={<Taxibooking />} />
       <Route path="/Logistics" element={<Logicstic />} />
@@ -340,6 +341,7 @@ export const ALLroutes = () => {
       <Route path="/UX-Review" element={<UXReviewPage />} />
       <Route path="/Scoping-session" element={<Scoping />} />
       <Route path="/Fintech-solution" element={<FintechSolution />} />
+      <Route path="/Car-services" element={<CarService />} />
     </Routes>
   );
 };

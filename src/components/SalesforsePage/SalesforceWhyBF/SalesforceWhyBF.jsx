@@ -4,28 +4,28 @@ import "./SalesforceWhyBF.css";
 export const SalesforceWhyBF = () => {
   const cardData = [
     {
-      title: "Supreme Quality",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+      title: "Lightning Components",
+      body: "With our brand new app front-end development, you can quickly build user-friendly apps that are easy to navigate and understand.",
     },
     {
-      title: "Seamless Communication",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+      title: "System Integration Services",
+      body: "Bottom Funnel is a full-service Salesforce integration company that develops custom salesforce integrations that connect multiple database and services with Force.com apps in real-time.",
     },
     {
-      title: "Transparency & Accountability",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+      title: "Development Services",
+      body: "Bottom Funnel has harnessed this power and used it to create customized Force.com-based web and mobile applications that help them automate their business processes.",
     },
     {
-      title: "Deep Tech Expertise",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+      title: "App Personalization",
+      body: "Our team is experienced and specialized in creating and customizing salesforce apps. We understand how to integrate powerful features and functions that add value to your organization.",
     },
     {
-      title: "Top-Tier Talent",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+      title: "Managed Services",
+      body: "Bottom Funnel is your perfect partner for managing Salesforce, it provides an all solution that enables you to work with the knowledge and expertise of Salesforce administrator.",
     },
     {
-      title: "Post-Release Support",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+      title: "Migration Services",
+      body: "Bottom Funnel is the go-to company for enterprises that need help migrating their business solutions and databases to Force.com-based automation solutions.",
     },
   ];
   return (

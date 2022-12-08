@@ -1,140 +1,154 @@
-.flexwrap {
-  margin-top: 100px;
-}
-  .RGdiv {
-    border-radius: 10px;
- 
-   }
+.RGofferTab {
+  background: #ef4c23;
+  color: white;
 
-.RGdivHead {
-  
+  width: fit-content;
+  height: fit-content;
+
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  padding: 1% 5%;
+  margin: auto;
+  margin-top: -2%;
+  margin-bottom: 3%;
+}
+
+.RGflexContainer {
+  width: 90%;
+  margin: 2% auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.RGflexContainer > div {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 200px;
+  margin-bottom: 3%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
 }
 
 .RGbuttonsPannel {
-  width: 99%;
-  border-radius:  0 10px 10px 0 ;
-  padding: 2px;
-  border-top: 1px  solid #d6d6d6;
+  width: 100%;
+  padding: 1%;
+  border-top: 1px solid #d6d6d6;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8px;
-}
-
-
-.flexwrap > div {
-  display: inline-flex;
-  flex-wrap: wrap;
-  width: 400px;
-  height: 200px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-left: 80px;
-  margin-top: 20px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
 }
 
 .RGfirstColumnsDivHead {
-  justify-content:left; 
-  width:70%;
-  height:40px;
-  background:#ef4c23;
+  width: 80%;
+  height: 40px;
+  background: #ef4c23;
   color: white;
-  border-radius:  0 10px 10px 0 ;
-  margin-top: 18px;
+  border-radius: 0 10px 10px 0;
+  margin-top: 2%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .RGsecondColumnsDivHead {
-   height:40px;
-   background:#ef4c23;
+  height: 40px;
+  background: #ef4c23;
   color: white;
   width: 100%;
-  margin-top: 18px;
+  margin-top: 2%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .RGthirdColumnsDivHead {
-  margin-left:35%;
-  height:40px;
-  background:#ef4c23;
+  margin-left: 20%;
+  margin-top: 2%;
+  width: 80%;
+  height: 40px;
+  background: #ef4c23;
   color: white;
-  width: 70%;
-  border-radius:  10px 0 0 10px ;
-  margin-top: 18px;
+  border-radius: 10px 0 0 10px;
   display: flex;
-  justify-content: left;
   align-items: center;
-  
+  justify-content: center;
 }
 
 .RGtitlePTagFirstCols {
-  margin-left: 8px;
+  font-size: 18px;
+  margin: 0;
+}
+
+.RGtitlePTagSecondCols {
+  font-size: 18px;
+  margin: 0;
 }
 
 .RGtitlePTagThirdCols {
-  margin-left: 5%;
+  font-size: 18px;
+  margin: 0;
 }
 
-
-
+.RGeffortlessParagraph {
+  font-size: 16px;
+  width: 95%;
+  margin: 3% auto;
+}
 
 /* common claSSES IN ALL BOXEXS -> */
 
-
-
 .RGsignINButton {
- color:black;
- background:transparent;
- border:none;
- cursor:pointer;
- margin-left: 2%;
+  color: black;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 2%;
 }
 
 .RGfreeTrailButton {
-  color:white;
-  background:#ef4c23;
-  border-radius:5px;
-  border:none;
-   width:'25%';
-   cursor:pointer;
-   margin-right:3%;
-    margin-top:1%;
-}
-
-
-.RGeffortlessParagraph{
-  font-size:15px;
-  margin-left:10px
+  color: white;
+  background: #ef4c23;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+  margin-right: 3%;
 }
 
 .RGtryNowTab {
   background: #ef4c23;
   color: white;
-  width: 600px;
+  width: 50%;
   border-radius: 10px;
+  padding: 1%;
   text-align: center;
   display: flex;
-  justify-content:space-between;
-  margin: auto;
-  margin-top: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2% auto;
   align-items: center;
 }
 
 .RGtryNowTabPtag {
-  margin-left: 80px;
+  font-size: 20px;
+  margin: 0;
+  width: 70%;
+  text-align: center;
 }
 
 .RGtryNowTabButton {
-background: white;
-color: black;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-padding: 8px 40px;
-margin-right: 20px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 40px;
+  font-size: 20px;
+  font-weight: 600;
 }
-
-

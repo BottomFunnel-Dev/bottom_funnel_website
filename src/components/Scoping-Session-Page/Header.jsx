@@ -8,9 +8,10 @@ const Header = () => {
           <h1 className="RGheaderTitle">Scoping Session</h1>
 
           <p className="RGheadertext">
-            Unleash your product faster in the market cost-effectively by <br />{" "}
-            conveying your breakthrough idea to us in an intensive <br />{" "}
-            session.
+            Bottom Funnel is a marketing agency that specializes in conveying
+            breakthrough ideas to the market cost-effectively. We understand
+            your product inside out and will work tirelessly to make it a
+            success.
           </p>
 
           <button className="RGheaderButton"> Get Started</button>

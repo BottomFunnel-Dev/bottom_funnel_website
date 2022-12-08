@@ -9,11 +9,13 @@ export const Pickuprequire = () => {
           Requirements
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          dolorum reiciendis odit. Veniam minima quaerat molestiae totam
-          perspiciatis sunt. Necessitatibus eum rem odio, blanditiis nam nobis
-          minus quaerat dolorem. Maiores iure praesentium nam accusantium animi
-          laudantium facere temporibus ipsa suscipit.
+          Bottom Funnel is a resounding success because we understand how hard
+          it can be to make ends meet in this ever-changing world. We know how
+          important it is to have reliable and efficient transportation options
+          so you can focus on growing your business instead of worrying about
+          getting from point A to B. With that in mind, we've created an app for
+          both couriers and customers alike that will help everyone get where
+          they need to be more quickly and easily than ever before.
         </p>
       </div>
     </div>

@@ -6,31 +6,31 @@ export const PickupCustomer = () => {
       pickupicon: "Images/pickup/icons/customisedapp.png",
       title: "Easy App Onboarding",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet vitae",
+        "Bottom Funnel is a powerful tool that allows you to identify the strengths and weaknesses of your app.",
     },
     {
       pickupicon: "Images/pickup/icons/customersupport.png",
       title: "Order Services",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet vitae",
+        "It's as easy as ordering from your favorite restaurant or asking a friend to pick up some groceries on the way home.",
     },
     {
       pickupicon: "Images/pickup/icons/pickupdelivery.png",
-      title: "Offers & Discounts",
+      title: "Track Order",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet vitae",
+        "With Delivery, you can have your orders delivered right to your doorstep by a fleet of autonomous cars or scooters.",
     },
     {
       pickupicon: "Images/pickup/icons/trackingapp.png",
-      title: "Multiple Payment Options",
+      title: "In-app Navigation",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet vitae",
+        "Using In-app navigation, they can find the shortest possible route and reach the customers to hand over the package.",
     },
     {
       pickupicon: "Images/pickup/icons/analysisdashboard.png",
-      title: "Track Order",
+      title: "Companies Growth",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet vitae",
+        "Most companies offer a limited number of options for scheduling pickup and delivery services. Branding yourself as one of the best.",
     },
   ];
 
@@ -38,7 +38,7 @@ export const PickupCustomer = () => {
     <div className="pickupcustomer">
       <div className="pickupcustomerSols">
         <div className="pickupcustomerright">
-      <h1>Customer App</h1>
+          <h1>Customer App</h1>
           <div className="pickupcustomerText">
             {pickupcustomer.map((item, index) => (
               <div key={index} className="pickupcustomercard">

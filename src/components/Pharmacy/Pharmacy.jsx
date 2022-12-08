@@ -25,6 +25,7 @@ export default function Pharmacy() {
   useEffect(function () {
     dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
+
   return (
     <div style={{ color: "#393939" }}>
       <Helmet>

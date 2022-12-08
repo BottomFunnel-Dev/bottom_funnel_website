@@ -20,13 +20,21 @@ import { Pickuprequire } from "./Pickuprequire";
 import { PickupSolutions } from "./PickupSolutions";
 import { pickupanddeliveryLogo } from "../../Data/SeopartnerData";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
+import { Helmet } from "react-helmet";
 export const PickupDelivery = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>Pick and delivery app development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Boost your Pick and delivery business with Bottom Funnel's Pick and delivery app development services that offer intuitive software and app development solutions to clients around the globe"
+        />
+      </Helmet>
       <PickupBanner />
       <Trusted partnerLogo={pickupanddeliveryLogo} />
       <PickupSolutions />

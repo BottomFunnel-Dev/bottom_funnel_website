@@ -3,14 +3,15 @@ import "./pickupBanner.css";
 export const PickupBanner = () => {
   return (
     <div className="pickupbanner">
-        {/* <div className="leftback"> <img src="Images/pickup/backgrounds/ellipse1.png" alt="" /></div> */}
+      {/* <div className="leftback"> <img src="Images/pickup/backgrounds/ellipse1.png" alt="" /></div> */}
       <div className="pickuptextcontainer">
         <div>
           <h1>Set Up An Efficient Online Pickup & Delivery Business</h1>
           <p>
-            Provide services to your customers at the comfort of their home with
-            an app! Boost efficiency and drive more business with our
-            industry-leading on demand home services app development services.
+            We all know that managing a business is no easy task, especially
+            when it grows and requires more attention. When you have to attend
+            to every little detail of it, life gets hectic. And if there's
+            shipping involved, things can get even more complicated.
           </p>
           <button>Get Started </button>
         </div>

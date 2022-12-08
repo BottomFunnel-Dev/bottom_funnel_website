@@ -13,10 +13,10 @@ export const SalesforceServices = () => {
         <span></span>
       </div>
       <p>
-        Salesforce is the world's #1 customer relationship management (CRM)
-        platform. We help your marketing, sales, commerce, service and IT teams
-        work as one from anywhere - so you can keeep your customers happy
-        everywhere. Watch demos.
+        Salesforce is the world's leading CRM (customer relationship management)
+        platform. Help your marketing, sales, commercial, service, and IT teams
+        work together from anywhere. This keeps your customers happy wherever
+        they are. Watch demo.
       </p>
       <div className="SalesforceServices-main">
         <div className="SalesforceServices-vector">

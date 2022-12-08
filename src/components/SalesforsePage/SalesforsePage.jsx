@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import "./SalesforsePage.css";
 
 // ----- React main sub components -----
@@ -21,10 +23,23 @@ import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import { TextDropdown } from "../faqSection/Faqs";
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
+import { Helmet } from "react-helmet";
 
 export const SalesforsePage = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "white", logo: true }));
+  }, []);
+
   return (
     <div className="SalesforsePage-container">
+      <Helmet>
+        <title>Best Salesforce Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Bottom Funnel is here to help you improve your entire company processes and find answers to crucial business problems."
+        />
+      </Helmet>
       <SaleforceBanner />
       <SalesforceServices />
       <SalesforceOffers />

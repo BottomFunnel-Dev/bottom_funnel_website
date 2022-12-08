@@ -110,14 +110,7 @@ const MainFooter = () => {
                 onMouseEnter={() => setWhatsapp(() => true)}
                 onMouseLeave={() => setWhatsapp(() => false)}
               >
-                <FaWhatsapp
-                  fontSize="30px"
-                  color="#ef4c34"
-                  cursor={"pointer"}
-                />
-              </li>
-              <li>
-                <FaWhatsapp fontSize="20px" /> +254 787 213 522
+                <FaWhatsapp fontSize="20px" cursor={"pointer"} /> +971553070316
               </li>
               <li>
                 {" "}
@@ -127,7 +120,7 @@ const MainFooter = () => {
             <div
               style={{ display: whatsapp ? "flex" : "none" }}
               onMouseEnter={() => setWhatsapp(true)}
-              onMouseLeave={() => setWhatsapp(true)}
+              onMouseLeave={() => setWhatsapp(false)}
               className="MainFooter-whatsapp-container"
             >
               <div>

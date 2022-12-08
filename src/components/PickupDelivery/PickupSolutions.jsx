@@ -34,12 +34,11 @@ export const PickupSolutions = () => {
         <h1>Pickup and Delivery Software Solutions</h1>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quas
-          fuga, id libero asperiores ut inventore itaque nostrum fugit velit
-          voluptatum voluptate maiores, rem labore provident vitae! Illo ad
-          veniam, sapiente velit vitae quaerat quam. Molestias dolores qui,
-          suscipit vel voluptatibus iure minima quae eum asperiores nobis,
-          dolorum a laudantium!
+          Bottom Funnel is a software solution that helps restaurants and other
+          businesses to manage the on-demand delivery of their products and
+          services. With this software, businesses can stay updated on all
+          orders placed online, track their delivery status, and take control of
+          the entire process.
         </p>
       </div>
 
