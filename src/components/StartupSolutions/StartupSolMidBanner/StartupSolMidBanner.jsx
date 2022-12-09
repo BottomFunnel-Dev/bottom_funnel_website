@@ -6,16 +6,15 @@ export const StartupSolMidBanner = () => {
     <div className="StartupSolMidBanner-main">
       <h1>Startup Solutions</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad quis
-        facilis dicta veritatis tenetur quia in dignissimos recusandae
-        voluptatem exercitationem repellendus quo, fuga autem debitis tempore
-        sed consequuntur aliquid. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Animi expedita sed tempore modi alias praesentium
-        aliquam similique doloremque ipsa et, consectetur magnam dolor facere
-        earum totam, commodi, saepe perferendis. Sint! Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Quas corrupti sed et eligendi, vel
-        laboriosam omnis consequuntur ducimus error modi neque quod! Molestias
-        harum magni inventore voluptas cupiditate vitae animi?
+        Bottom Funnel is one of the most recognized names when it comes to
+        consulting services for startups. With our vast experience and
+        knowledge, we know how to help you with your startup from beginning to
+        end. Create a lasting business that thrives in the long run with our
+        assistance. Our team is comprised of experts who are well-versed in
+        various aspects of startups and have an expertise in Marketing, Growth
+        Hacking, Customer Development etc. From marketing growth hacks to
+        engaging users on social media channel we can help you out with all
+        these aspects in order for your business to grow quickly.
       </p>
     </div>
   );

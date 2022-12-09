@@ -1,0 +1,50 @@
+.IOSAppDevelopmentbannermainbox {
+  height: 100vh;
+  width: 100%;
+  border: 3px solid white;
+  /* margin-top: 120px; */
+  background-image: url("/public/Images/iosappdevelopmentphotos/Group 339997.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.IOSAppDevelopmentbannermainboxinnertextdiv {
+  height: 50%;
+  width: 37%;
+
+  margin-top: 18%;
+  margin-left: 3%;
+  /* text-align: center; */
+}
+
+.IOSAppDevelopmentbannermainboxinnertextdiv > h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+.IOSAppDevelopmentbannermainboxinnertextdiv > p {
+  color: white;
+  margin-top: 7%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.IOSAppDevelopmentbannerbutton {
+  padding: 10px 50px;
+  border-radius: 10px;
+  width: 220px;
+  background-color: #3380f2;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 22px;
+}
+
+.IOSAppDevelopmentbannerbutton:hover {
+  background-color: white;
+  color: #3380f2;
+}

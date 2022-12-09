@@ -4,30 +4,31 @@ import "./StartupSolWhyBF.css";
 export const StartupSolWhyBF = () => {
   const cardData = [
     {
-      title: "Supreme Quality",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+      title: "Research",
+      body: "Our marketing strategy, you will be able to choose products that your startup needs and then prioritize them properly while keeping the long-term goals in mind.",
     },
     {
-      title: "Seamless Communication",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+      title: "Startup formation",
+      body: "Bottom Funnel is here to help you start a successful business. We have the expertise and experience to guide you through the process & plan that suits your needs.",
     },
     {
-      title: "Transparency & Accountability",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+      title: "Startup branding",
+      body: "Bottom Funnel is a business startup consulting firm. We collaborate with you and your team to establish a unified brand identity that expresses your company's vision.",
     },
     {
-      title: "Deep Tech Expertise",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+      title: "Scaling",
+      body: "Bottom Funnel is here to help you navigate the shark-infested waters of entrepreneurship with its certified engineering team and management consulting professionals.",
     },
     {
-      title: "Top-Tier Talent",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+      title: "Monetization",
+      body: "BottomFunnel is a consulting business that helps startups and small businesses leverage their marketing strategies through a consultative approach.",
     },
     {
-      title: "Post-Release Support",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae odio tempore magnam obcaecati et ipsa aut",
+      title: "Unprecedented challenges",
+      body: "If you're looking for an advisor who will work hard to help your new venture succeed, Bottom Funnel is the company for you.",
     },
   ];
+
   return (
     <div className="StartupSolWhyBF-main">
       <h1>Why Bottom Funnel For Startup Solutions</h1>

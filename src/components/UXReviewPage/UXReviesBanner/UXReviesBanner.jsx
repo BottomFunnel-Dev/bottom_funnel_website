@@ -7,8 +7,10 @@ export const UXReviesBanner = () => {
       <div className="UXReviesBanner-content">
         <h1>Mobile app UX Review</h1>
         <p>
-          Helping Businesses tackle usability and user experience challenges and
-          craft better solutions.
+          Bottom Funnel is a company that embodies innovation and creativity.
+          We're driven by a vision to create cutting-edge products and services
+          that exceed expectations. With our team of experts, we craft
+          brilliance together and deliver experiences that are ever-evolving.
         </p>
         <button>Book a Free Consultation</button>
       </div>

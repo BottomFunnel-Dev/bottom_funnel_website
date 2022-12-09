@@ -8,12 +8,11 @@ import Dating from "./components/Dating/Dating";
 import { EcommerceComPage } from "./components/EcommerceCom/EcommerceComPage";
 import Educationpage from "./components/education/Educationpage";
 import { Fitness } from "./components/Fitness/Fitness";
-import { Flutter } from "./components/Flutter/Flutter";
+import { FlutterAppDevelopment } from "./components/FlutterAppDevelopment/FlutterAppDevelopment";
 import { FoodDelivery } from "./components/food-delivery/FoodDeliveryPage";
-import { GameDevelopmentPage } from "./components/Game-development/GameDevelopmentPage";
 import Grocery from "./components/Grocery/Grocery";
 import { Ionic } from "./components/Ionic/Ionic";
-import { Iphonepage } from "./components/Iphonedevelopmentpage/Iphonepage";
+import { IOSAppDevelopmentPage } from "./components/IOSAppDevelopmentPage/IOSAppDevelopmentPage";
 import OndemandHome from "./components/OndemandHome/OndemandHome";
 import { HomePage } from "./components/Pages/Home/Home";
 import SeoEmail from "./components/Pages/SEO/SeoEmail";
@@ -28,7 +27,6 @@ import { SeoDm } from "./components/SeoDigitalmarketing/SeoDm";
 import { SkillsComPage } from "./components/skillsPageCom/SkillsComPage";
 import Travel from "./components/Travel/Travel";
 import Videostreaming from "./components/Videostreaming/Videostreaming";
-import { ProductPage } from "./components/ProductsPage/ProductPage";
 import { Icecream } from "./components/Icecream/Icecream";
 import Escooter from "./components/Escooter/Escooter";
 import Wellness from "./components/Wellness/Wellness";
@@ -141,6 +139,9 @@ import { Products } from "./components/Products-Page/Products";
 import { Scoping } from "./components/Scoping-Session-Page/Scoping";
 import { FintechSolution } from "./components/FintexhSolution/FintechSolution";
 import { CarService } from "./components/Car-Service-page/CarService";
+import { XamarinAppDevelopment } from "./components/XamarinAppDevelopment/XamarinAppDevelopment";
+import { Aviation } from "./components/Aviation/Aviation";
+import { AiContentServices } from "./components/AiContentService/AiContentServices";
 
 export const ALLroutes = () => {
   return (
@@ -152,9 +153,12 @@ export const ALLroutes = () => {
       <Route path="/seo-guest-post" element={<Seoguest />} />
       <Route path="/seo-link-building" element={<Seolink />} />
       <Route path="/seo-sem" element={<SeoSEM />} />
-      <Route path="/flutter" element={<Flutter />} />
+      <Route path="/flutter" element={<FlutterAppDevelopment />} />
       <Route path="/ionic" element={<Ionic />} />
-      <Route path="/ios" element={<Iphonepage />} />
+      <Route path="/Aviation" element={<Aviation />} />
+      <Route path="/Ai-content" element={<AiContentServices />} />
+      <Route path="/ios" element={<IOSAppDevelopmentPage />} />
+      <Route path="/Xamarin-Development" element={<XamarinAppDevelopment />} />
       <Route path="/reactNative" element={<Reactnative />} />
       <Route path="/android" element={<AndroidDevelopmentPage />} />
       <Route path="/ondemandHomeServices" element={<OndemandHome />} />

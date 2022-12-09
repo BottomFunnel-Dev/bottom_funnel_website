@@ -1,54 +1,49 @@
-.socialmediaadminmainboxing{
-    height: fit-content;
-
-    margin-top: 150px;
-    display: flex;
+.socialmediaadminmainboxing {
+  width: 90%;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
 }
 
-.socialmedialeftboxafterflexing{
-    width: 50%;
-
-    margin-left: 3%;
+.socialmedialeftboxafterflexing {
+  width: 55%;
 }
 
-.socialmediainsiderflexboxadminpannel{
-    height: 70%;
-    width: 100%;
-
-    display: flex;
-    flex-wrap: wrap;
+.socialmediainsiderflexboxadminpannel {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
-.socialmediaadminmaperbox{
-    height: fit-content;
-    width: 42%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    display: flex;
-    margin: 2%;
-    padding: 1%;
+.socialmediaadminmaperbox {
+  height: fit-content;
+  width: 42%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 2%;
+  margin-bottom: 2%;
 }
 
-.socialmediaadminmaperbox:hover{
-    transform: scale(1.02);
-    background-color: #EEF1FF;
+.socialmediaadminmaperbox:hover {
+  transform: scale(1.02);
 }
 
-.socialmeditxtmapperbox{
-   
-margin-left: 2%;
+.socialmeditxtmapperbox {
+  width: 80%;
 }
 
-.afterflexingsocialmediarightbox{
-    height: 400px;
- 
-    width: 40%;
-    margin-top: 5%;
-    margin-left: 5%;
-
+.afterflexingsocialmediarightbox {
+  width: 40%;
+  height: fit-content;
 }
 
-.afterflexingsocialmediarightbox >img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.afterflexingsocialmediarightbox > img {
+  width: 100%;
 }

@@ -2,32 +2,32 @@ import React from "react";
 import "./StartupSolOfferCard.css";
 
 export const StartupSolOfferCard = () => {
-  const cardsData = [
+  const cardData = [
     {
       title: "Startup Tech Consulting/Ideation",
-      body: "We help Startups evaluate, select & leverage cutting-edge technology stack-web, mobile, or cloud-for their products & applications. After analyzing the pros and cons of the technology stack, we select the best framework for develoment.",
+      body: "We help startups evaluate, select and use cutting-edge technology stacks such as web, mobile and cloud for their products and applications. After analyzing the pros and cons of your technology stack, choose the best framework for your development.",
       image: "Images/startupSolPhotos/rocket.png",
     },
     {
       title: "Startup MVP Development",
-      body: "Exhausting all your funds in building the perfect product is a risky move. The wise way is to start small with a minimum viable product. With startup MVP development services, we help you build the first version of your product faster.",
+      body: "Spending all your resources developing the perfect product is a risky move. A smart move is to start small with a minimum viable product. Startup MVP development services help you build the first version of your product faster.",
       image: "Images/startupSolPhotos/mvp.png",
     },
     {
       title: "Startup Product Development",
-      body: "Right from identifying a market opportunity to the launch, every startup goes through a new product develoment process. Classic informatics offers end-to-end startup productr development services to get your idea into the market faster.",
+      body: "From identifying market opportunities to bringing it to market, every startup goes through a new product development process. Classic Informatics provides end-to-end startup product development services to bring ideas to market faster.",
       image: "Images/startupSolPhotos/release.png",
     },
     {
       title: "Startup Growth Hacking",
-      body: "By scoping your present, we anticipate your future to help your startup reach great heights. Just launching a product in the market is never enought; you also need to market it right. We continue our assistance to analyze your product's performance.",
+      body: "By defining your present, we predict your future and help your startup reach great heights.Launching a product is not enough. It also needs to be marketed properly. We will continue to support you to analyze product performance.",
       image: "Images/startupSolPhotos/growth.png",
     },
   ];
   return (
     <div className="StartupSolOfferCard-container">
       <div className="StartupSolOfferCard-main">
-        {cardsData.map(({ title, body, image }, idx) => {
+        {cardData.map(({ title, body, image }, idx) => {
           return (
             <div>
               <div>

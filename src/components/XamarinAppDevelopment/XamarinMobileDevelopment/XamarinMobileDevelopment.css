@@ -1,0 +1,40 @@
+.xamarinMobileDevelopmentMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+.xamarinMobileDevelopmentHeading{
+    /* border: 2px solid red; */
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.xamarinMobileDevelopmentContent{
+    /* border: 2px solid gold; */
+    width: 100%;
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: row;
+}
+.xamarinMobileDevelopmentContentText{
+    /* border: 2px solid red; */
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.xamarinMobileDevelopmentContentText p{
+    font-size: 20px;
+}
+.xamarinMobileDevelopmentContentImage{
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 70vh;
+    object-fit: cover;
+    background-size: cover;
+    margin-left: 3%;
+}
+.xamarinMobileDevelopmentContentImage img{
+    width: 100%;
+    height: 100%;
+}

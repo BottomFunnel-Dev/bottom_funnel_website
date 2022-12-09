@@ -47,10 +47,10 @@ export default function Travelfeature() {
           <div>
             <h1>Features</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-              porro mollitia quisquam sed odio minima optio consectetur eligendi
-              magnam explicabo eos debitis odit, ipsam adipisci animi error
-              veritatis dolore hic.
+              Your business depends on understanding your customers and their
+              needs. Bottom Funnel is an all-in-one travel app solution that
+              offers you a comprehensive set of tools to make sure the customer
+              experience is seamless and enjoyable for both parties.
             </p>
           </div>
         </div>

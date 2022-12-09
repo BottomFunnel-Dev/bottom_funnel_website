@@ -7,10 +7,10 @@ export const UXDesingBanner = () => {
       <div className="UXDesingBanner-content">
         <h1>User Experience Design</h1>
         <p>
-          Bottom Funnel is a tried and tested company that has been around for
-          quite some time. They have delivered countless products, services and
-          solutions to multiple businesses worldwide. With their expertise, they
-          are able to come up with the best solution possible for every client.
+          Bottom Funnel is a company that embodies innovation and creativity.
+          We're driven by a vision to create cutting-edge products and services
+          that exceed expectations. With our team of experts, we craft
+          brilliance together and deliver experiences that are ever-evolving.
         </p>
         <button>Book a Free Consultation</button>
       </div>

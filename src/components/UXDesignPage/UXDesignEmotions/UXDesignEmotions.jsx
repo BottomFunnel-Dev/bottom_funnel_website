@@ -26,9 +26,8 @@ export const UXDesignEmotions = () => {
             </h2>
             <p>
               Bottom Funnel is a startup you can trust. We combine our team's
-              depth of experience in design, our client's intimate knowledge of
-              the industries they serve and insights uncovered through the
-              discoveries we make.
+              deep experience in design, deep knowledge of the industries our
+              clients serve, and insight gained from our discoveries.
             </p>
             <div>
               {cardsData.map((elem) => (

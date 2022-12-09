@@ -1,0 +1,70 @@
+.xamarinDevelopmentExpertiseMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+.xamarinDevelopmentExpertiseIconContainer{
+    /* border: 2px solid red; */
+    width: 50%;
+    /* height: 70vh; */
+    border-right: 1px solid black;
+}
+.xamarinDevelopmentExpertiseContent{
+    /* border: 2px solid red; */
+    width: 50%;
+    /* height: 70vh; */
+}
+.xamarinDevelopmentExpertiseContentHeading{
+    /* border: 2px solid red; */
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.xamarinDevelopmentExpertiseContentText{
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 80%;
+}
+.xamarinDevelopmentExpertiseIconOuterBox{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 30vh; */
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.xamarinDevelopmentExpertiseContainerDiv{
+    /* border: 2px solid green; */
+    width: 45%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+}
+.xamarinDevelopmentExpertiseIconText{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 40%; */
+    display: flex;
+    flex-direction: row;
+}
+.xamarinDevelopmentExpertiseIcon{
+    width: 20%;
+    /* height: 80%; */
+    /* border: 2px solid blue; */
+}
+.xamarinDevelopmentExpertiseIconHeading{
+    width: 75%;
+    /* height: 80%; */
+    /* border: 2px solid salmon; */
+    padding-left: 10%;
+    padding-top: 4%;
+}
+.xamarinDevelopmentExpertiseText{
+    width: 80%;
+    /* height:40%; */
+    margin: auto;
+    /* border: 2px solid red; */
+}

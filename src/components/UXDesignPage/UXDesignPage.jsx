@@ -33,13 +33,10 @@ export const UXDesignPage = () => {
   return (
     <div className="UXDesignPage-container">
       <Helmet>
-        <title>User Experience | Bottom Funnel</title>
+        <title>User Experience Design | Bottom Funnel</title>
         <meta
           name="description"
-          content="Bottom Funnel is a tried and tested company that has been around for
-          quite some time. They have delivered countless products, services and
-          solutions to multiple businesses worldwide. With their expertise, they
-          are able to come up with the best solution possible for every client."
+          content="Seamlessly integrate branding, functionality, usability and accessibility into your product. We enhance user interaction and deliver experiences that are meaningful and delightful."
         />
       </Helmet>
       <UXDesingBanner />

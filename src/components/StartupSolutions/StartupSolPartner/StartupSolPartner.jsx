@@ -13,11 +13,12 @@ export const StartupSolPartner = () => {
         <span></span>
       </div>
       <p>
-        With 90% of the startups ending up as failures, getting a business off
-        the ground isn't a cakewalk. Some ideas are no longer a market-fit while
-        some run out of funds; and there are others that get outcompeted. With a
-        startup solutions partner, you can make fast-track your wqay to becoming
-        the next startup unicorn.
+        Getting a business off the ground is no cakewalk. It requires a lot of
+        hard work and dedication, but if you do everything right, then surely
+        you will see success. After all, it's not easy to be one on the
+        Blockchain and make millions in return! But with the help of Startup
+        solutions partner, you can get your idea up and running quickly while
+        getting the support you need to succeed.
       </p>
       <ul>
         <li>Powerful product in ther first launch</li>

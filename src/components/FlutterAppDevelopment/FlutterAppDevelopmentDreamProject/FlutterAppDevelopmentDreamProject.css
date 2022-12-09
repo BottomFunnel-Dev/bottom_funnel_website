@@ -1,0 +1,45 @@
+.flutterAppDevDreamProjectmainbox {
+    height: 40vh;
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 2%;
+    background-image: url("/public/Images/FlutterDevelopment/div.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .flutterAppDevDreamProjectmainboxinnertextdiv {
+    margin-top: 5%;
+    text-align: center;
+  }
+  
+  .flutterAppDevDreamProjectmainboxinnertextdiv > h1 {
+    color: white;
+  }
+  .flutterAppDevDreamProjectmainboxinnertextdiv > p {
+    color: white;
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: auto;
+  }
+  
+  .flutterAppDevDreamProjectbutton {
+    padding: 10px 50px;
+    border-radius: 5px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2%;
+    color: white;
+  }
+  
+  .flutterAppDevDreamProjectbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+  

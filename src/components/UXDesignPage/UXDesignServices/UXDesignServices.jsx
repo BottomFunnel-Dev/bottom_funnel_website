@@ -5,19 +5,19 @@ export const UXDesignServices = () => {
   const cardsData = [
     {
       title: "Interactive Prototypes",
-      body: "To make sure you approve of it, first, we provide you with a dummy so that we can deliver an optimum quality product at a cost-efficient rate.",
+      body: "To make sure there is no problem with this, we provide dummies first so that we can deliver the optimum quality product at a cost-effective price.",
     },
     {
       title: "Wireframing",
-      body: "You can choose a variety of designs, be it a logo or a theme, from our broad range as per your liking in the form of mockups.",
+      body: "In the form of a mockup, you can choose from a wide variety of logos, motifs, etc. according to your wishes.",
     },
     {
       title: "Motion Design",
-      body: "We pick out design elements that will make your product stand out. With best-in-class ideas and unique minds, you will be thrilled to get the top-notch graphics.",
+      body: "Choose design elements that make your product stand out. With top-notch ideas and a unique mind, you'll be amazed to receive top-notch graphics.",
     },
     {
       title: "Graphic Design",
-      body: "We create designs that are intuitive and soothing to eyes. Our professionals are always excited to serve you with top-notch designs.",
+      body: "Create designs that are intuitive and easy on the eyes. Our experts are always happy to provide the highest quality designs.",
     },
   ];
   return (

@@ -6,16 +6,14 @@ export const UIDesignMidBanner = () => {
     <div className="UIDesignMidBanner-main">
       <h1>Hire the Best Team For you Product Design</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad quis
-        facilis dicta veritatis tenetur quia in dignissimos recusandae
-        voluptatem exercitationem repellendus quo, fuga autem debitis tempore
-        sed consequuntur aliquid. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Animi expedita sed tempore modi alias praesentium
-        aliquam similique doloremque ipsa et, consectetur magnam dolor facere
-        earum totam, commodi, saepe perferendis. Sint! Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Quas corrupti sed et eligendi, vel
-        laboriosam omnis consequuntur ducimus error modi neque quod! Molestias
-        harum magni inventore voluptas cupiditate vitae animi?
+        We always aim to deliver the best possible experience for our customers,
+        so we're excited that this partnership will bring you more innovation
+        and new ways to get things done. Bottom Funnel delivers a variety of
+        services that can help you accomplish your goals and reach your business
+        goals. We provide the tools you need to succeed, so you can concentrate
+        on what's important - growing your business! This partnership is just
+        the beginning, and we look forward to many more creative collaborations
+        in the future.
       </p>
       <button>Book a Free Consultation</button>
     </div>

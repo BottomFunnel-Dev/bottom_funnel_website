@@ -1,112 +1,110 @@
-.taxioccasioncontainer{
-    width: 100%;
-    height: 650px;
-    /* background-color: aqua; */
-    
+.taxioccasioncontainer {
+  width: 100%;
+  height: 650px;
+  /* background-color: aqua; */
 }
-.taxioccasionsub{
-    width: 90%;
-    /* background-color: blue; */
-    height: 630px;
-    margin: auto;
-    /* justify-content: center; */
+.taxioccasionsub {
+  width: 90%;
+  /* background-color: blue; */
+  height: 630px;
+  margin: auto;
+  /* justify-content: center; */
 }
-.sztaxi{
-    width: 55%;
-    height: 620px;
-    /* background-color: rgb(34, 148, 197); */
-    background: url("/public/Images/Taxibooking/Rectangle.png");
-    background-repeat: no-repeat;
-    background-size: 100% 620px;
-    margin:auto;
-    /* display: grid;
+.sztaxi {
+  width: 55%;
+  height: 620px;
+  /* background-color: rgb(34, 148, 197); */
+  background: url("/public/Images/Taxibooking/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 100% 620px;
+  margin: auto;
+  /* display: grid;
      grid-template-areas:
      'sztaxiheader sztaxiheader sztaxiheader sztaxiheader sztaxiheader sztaxiheader'
      'sztaxioccasion1 sztaxioccasion1  sztaxioccasion2 sztaxioccasion2 sztaxioccasion3 sztaxioccasion3'
      'sztaxioccasion1 sztaxioccasion1  sztaxioccasion2 sztaxioccasion2 sztaxioccasion3 sztaxioccasion3'
      ; */
-     /* position: relative; */
-     padding: 10px;
-    
+  /* position: relative; */
+  padding: 10px;
 }
-.sztaxicard{
-    width: 100%;
-    height: 430px;
-    position: relative;
-    /* position: absolute; */
-    /* background-color: aqua; */
-    z-index: 1;
-    margin-top: 2%;
-    padding-top: 5%;
-    display: flex;
+.sztaxicard {
+  width: 100%;
+  height: 430px;
+  position: relative;
+  /* position: absolute; */
+  /* background-color: aqua; */
+  z-index: 1;
+  margin-top: 2%;
+  padding-top: 5%;
+  display: flex;
   /* justify-content: space-around; */
 }
-.sztaxihead{
-    text-align: center;
-     /* padding: 10px 0px; */
-  
+.sztaxihead {
+  text-align: center;
+  /* padding: 10px 0px; */
 }
-.sztaxicard>div{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.sztaxicard > div {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: white;
-  width: 42%;
-  height: 425px;  
+  width: 43%;
+  height: 425px;
   /* position: absolute; */
   /* z-index: 2; */
   text-align: left;
 }
-.sztaxicard>div>h4{
-    padding-left: 10px;
+.sztaxicard > div > h4 {
+  padding-left: 10px;
 }
-.sztaxicard>div>p{
-    padding: 2px 10px;
-    font-size: 17px;
+.sztaxicard > div > p {
+  padding: 2px 10px;
+  font-size: 16px;
 }
- .sztaxioccasion1{
-margin-left: -15%;
-position: absolute;
-z-index: 2;
- } 
- .sztaxioccasion2{
-    position: absolute;
-    margin-left: 34%;
-    z-index: 4;
- }
-.sztaxioccasion3{
-    position: absolute;
-    z-index: 4;
-    margin-left: 83%;
+.sztaxioccasion1 {
+  margin-left: -15%;
+  position: absolute;
+  z-index: 2;
+}
+.sztaxioccasion2 {
+  position: absolute;
+  margin-left: 34%;
+  z-index: 4;
+}
+.sztaxioccasion3 {
+  position: absolute;
+  z-index: 4;
+  margin-left: 83%;
 }
 
-.szoccassionimage{
-    width: 100%;
-    margin-top: -8px;
-    height: 200px;
-
+.szoccassionimage {
+  width: 100%;
+  margin-top: -8px;
+  height: 200px;
 }
-.szoccassionimage>img{
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
+.szoccassionimage > img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
-.sztaxiride{
-    width: 100%;
-    height: 70px;
-    /* background-color: tan; */
-    display: flex;
-    justify-content: space-between;
+.sztaxiride {
+  width: 95%;
+  height: fit-content;
+  margin: auto;
+  /* background-color: tan; */
+  display: flex;
+  justify-content: space-between;
 }
-.sztaxiride>div{
-    width: 30%;
-    /* background-color: rgb(31, 65, 65); */
-    display: flex;
-    padding: 10px  ;
-    height: 70px;
-    text-align: center;
-    font-size: 13px;
+.sztaxiride > div {
+  width: 30%;
+  /* background-color: rgb(31, 65, 65); */
+  display: flex;
+  height: 50px;
+  display: flex;
+  gap: 4%;
+  align-items: center;
 }
-.sztaxiride>div>p{
-    padding:0px 2px;
+.sztaxiride > div > p {
+  font-size: 13px;
+  margin: 0;
 }
 /* .sztaxiac{
     width: 40%;
@@ -152,4 +150,3 @@ z-index: 2;
     height: 100%;
     object-fit: contain;
 } */
- 

@@ -17,16 +17,24 @@ import { Bettingwhy } from "./Bettingwhy";
 import { SportsBanner } from "./SportsBanner";
 import { SportsPanels } from "./SportsPanels";
 import { sportsBettingLogo } from "../../Data/SeopartnerData";
+import { Helmet } from "react-helmet";
 
 export const SportsBetting = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>Sports betting app development company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Sports Betting App Development services to bring your game betting application idea to life. Look no further, contact Bottom Funnel today and get going."
+        />
+      </Helmet>
       <SportsBanner />
-      <Trusted partnerLogo={sportsBettingLogo}/>
+      <Trusted partnerLogo={sportsBettingLogo} />
       <SportsPanels />
       <BettingSpecial />
       <Bettingwhy />

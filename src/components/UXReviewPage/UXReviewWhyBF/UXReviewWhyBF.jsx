@@ -8,9 +8,9 @@ export const UXReviewWhyBF = () => {
         Our UX Review <span>Framework</span>
       </h1>
       <p>
-        Our experience team of Design Strategists visualize creative ideas and
-        materialize them into end designs for our customers. They dig deep and
-        draft a visual language that the user understands.
+        Our experienced team of design strategists visualizes creative ideas and
+        transforms them into the client's final design. They dig deep and design
+        a visual language that users can understand.
       </p>
       <div>
         <hr />

@@ -18,14 +18,22 @@ import Taxicustomer from "./Taxicustomer";
 import Taxidrive from "./Taxidrive";
 import Taxioccasion from "./Taxioccasion";
 import Taxiourcycle from "./Taxiourcycle";
+import { Helmet } from "react-helmet";
 
 export const Taxibooking = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
   return (
-    <div>
+    <div style={{ color: "#393939" }}>
+      <Helmet>
+        <title>Taxi Booking App Development Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Bottom Funnel is a leading taxi app development company that provides taxi dispatch software that helps to run your taxi cab business smoothly."
+        />
+      </Helmet>
       <Taxibookingcontainer />
       <Taxioccasion />
       <Taxibuild />

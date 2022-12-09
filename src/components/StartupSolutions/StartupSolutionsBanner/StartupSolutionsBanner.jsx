@@ -13,10 +13,10 @@ export const StartupSolutionsBanner = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ipsam
-        facere recusandae ratione excepturi, sunt iusto provident explicabo quos
-        cum temporibus beatae quasi ipsum quisquam accusantium sint officia
-        consectetur quia!
+        Bottom Funnel is a startup consulting firm that helps new enterprises to
+        grow and flourish. We believe in giving back, so we provide our clients
+        with access to our vast network of experts who are passionate about
+        helping businesses succeed.
       </p>
       <button>Request A Quote</button>
     </div>

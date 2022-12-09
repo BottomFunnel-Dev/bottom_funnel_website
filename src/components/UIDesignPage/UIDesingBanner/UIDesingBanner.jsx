@@ -7,10 +7,9 @@ export const UIDesingBanner = () => {
       <div className="UIDesingBanner-content">
         <h1>User Interface Design</h1>
         <p>
-          Bottom Funnel is a startup company that helps startups and business
-          build their brand visually. We have built an interface that renders a
-          visually-stimulating experience to the end users, so you can create
-          the best possible user experience for your customers.
+          Bottom funnel knows how important it is to design interfaces that are
+          visually-stimulating, so they made sure that every application they
+          built offers an experience worth your time.
         </p>
         <button>Book a Free Consultation</button>
       </div>

@@ -20,14 +20,24 @@ import ToolDeliveryFooter from "./ToolDeliveryFooter";
 import ToolDeliveryLowerBanner from "./ToolDeliveryLowerBanner";
 import ToolDeliveryService from "./ToolDeliveryService";
 import ToolDeliverysneak from "./ToolDeliverysneak";
+import { Helmet } from "react-helmet";
 
 const ToolDelivery = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
   return (
-    <div>
+    <div style={{ color: "#393939" }}>
+      <Helmet>
+        <title>
+          Tool Delivery App Development - App Developement | Bottom Funnel
+        </title>
+        <meta
+          name="description"
+          content="Tool delivery app is a smart solution which makes your life as an entrepreneur much easier. It helps you deliver tools faster than ever before without any hassles or complications of any sort."
+        />
+      </Helmet>
       <TooDeliveryBanner />
       <ToolDeliveryService />
       <ToolDeliverysneak />

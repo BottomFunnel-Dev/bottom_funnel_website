@@ -10,11 +10,11 @@ export const UXReviewEmotions = () => {
 
   const pointData = [
     {
-      body: "Our experienced team of UX Designers take data, insights, and business requirements into account to asses the quality of user experience. With a defined process, we counter any UX challenges-big or small, provide a realistic roadmap for future developments.",
+      body: "Our experienced team of UX designers considers data, insights and business needs to assess the quality of user experience. A defined process addresses all UX challenges, big and small, and provides a realistic roadmap for future development.",
       image: "Images/UXReviewPhotos/design.png",
     },
     {
-      body: "WX Review can radically improve a digital product and expand its market reach. It is affordable, takes less time and provides guaranteed results. Over the past few years, we have identified a vast range of usability issues, discussed UX improvements, substaintiated design changes and scaled businesses to new height.",
+      body: "UX reviews can radically improve a digital product and expand its market reach. Affordable, fast, and guaranteed results. Over the past few years, we've identified a variety of usability issues, discussed UX improvements, justified design changes, and taken companies to new heights.",
       image: "Images/UXReviewPhotos/uxui.png",
     },
   ];
@@ -26,8 +26,8 @@ export const UXReviewEmotions = () => {
           Create design that <span>evoke emotions</span>
         </h1>
         <p>
-          We build interfaces that are effortless, intuitive, immersive and
-          seamlessly guide users in performing the desired action.
+          UX is all about creating an experience for users that is engaging and
+          enjoyable by design.
         </p>
 
         <div className="UXReviewEmotions-points">
@@ -53,9 +53,9 @@ export const UXReviewEmotions = () => {
               Bottom Funnel <span>UI</span> Practices
             </h2>
             <p>
-              Bottom Funnel is an online store that crafts brilliance together
-              and delivers experience that are even evolving. We have a wide
-              range of products.
+              Bottom Funnel is an online store that co-creates brilliance and
+              delivers an ever-evolving experience. We have a wide range of
+              products.
             </p>
             <div>
               {cardsData.map((elem) => (

@@ -139,7 +139,7 @@ export const appservice = [
   {
     dropContent: "Xamarian App Development",
     navIcons: "Images/navbar/services/xamarian.png",
-    path: "",
+    path: "Xamarin-Development",
   },
   {
     dropContent: "Ionic App Development",
@@ -375,11 +375,11 @@ export const industries = [
     navIcons: "Images/navbar/industriesImage/travel.png",
     path: "travel",
   },
-  // {
-  //   dropContent: "Finance",
-  //   navIcons: "Images/navbar/industriesImage/finance.png",
-  //   path: "",
-  // },
+  {
+    dropContent: "Aviation",
+    navIcons: "Images/navbar/industriesImage/travel.png",
+    path: "Aviation",
+  },
 ];
 
 export const ondemand = [
@@ -528,7 +528,7 @@ export const ondemand = [
   {
     dropContent: "AI Content App Solutions",
     navIcons: "Images/navbar/industriesImage/ai-ont.png",
-    path: "",
+    path: "Ai-content",
   },
   {
     dropContent: "OTT App Solutions",

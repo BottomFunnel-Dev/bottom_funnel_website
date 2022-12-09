@@ -74,10 +74,10 @@ export const ProductsGrid = () => {
 
         <div className="RGdiv">
           <div className="RGsecondColumnsDivHead">
-            <p className="RGtitlePTagSecondCols ">Bottom Funnel Omnichannel</p>
+            <p className="RGtitlePTagSecondCols ">Bottom Funnel sales</p>
           </div>
           <p className="RGeffortlessParagraph">
-            Delight your customer with effortless omichannel
+            Delight your customer with effortless sales
             <br />
             service
           </p>
@@ -89,7 +89,7 @@ export const ProductsGrid = () => {
 
         <div className="RGdiv">
           <div className="RGthirdColumnsDivHead">
-            <p className="RGtitlePTagThirdCols">Bottom Funnel Omnichannel</p>
+            <p className="RGtitlePTagThirdCols">Bottom Funnel Sales Suite</p>
           </div>
           <p className="RGeffortlessParagraph">
             Delight your customer with effortless service
@@ -104,10 +104,10 @@ export const ProductsGrid = () => {
 
         <div className="RGdiv">
           <div className="RGfirstColumnsDivHead">
-            <p className="RGtitlePTagFirstCols">Bottom Funnel Omnichannel</p>
+            <p className="RGtitlePTagFirstCols">Bottom Funnel Marketer</p>
           </div>
           <p className="RGeffortlessParagraph">
-            Delight your customer with effortless omichannel
+            Delight your customer with effortless marketer
             <br />
             service
           </p>
@@ -119,10 +119,10 @@ export const ProductsGrid = () => {
 
         <div className="RGdiv">
           <div className="RGsecondColumnsDivHead">
-            <p className="RGtitlePTagSecondCols ">Bottom Funnel Omnichannel</p>
+            <p className="RGtitlePTagSecondCols ">Bottom Funnel Team</p>
           </div>
           <p className="RGeffortlessParagraph">
-            Delight your customer with effortless omichannel
+            Delight your customer with effortless team
             <br />
             service
           </p>

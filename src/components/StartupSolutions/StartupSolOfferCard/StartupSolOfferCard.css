@@ -4,7 +4,7 @@
 }
 
 .StartupSolOfferCard-Button {
-  width: 600px;
+  width: 580px;
   height: fit-content;
   margin: auto;
   cursor: pointer;
@@ -14,7 +14,7 @@
   display: flex;
   gap: 3%;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 
   border-radius: 100px;
   padding-left: 3%;
@@ -49,7 +49,7 @@
   height: fit-content;
 
   background: linear-gradient(to Bottom, #fa00ff, #ee0a26);
-  padding: 8px;
+  padding: 5px;
   border-radius: 100px;
 
   display: flex;
@@ -58,8 +58,8 @@
 }
 
 .StartupSolOfferCard-Button > div > div > svg {
-  width: 23px;
-  height: 23px;
+  width: 20px;
+  height: 20px;
   color: white;
 }
 

@@ -1,41 +1,40 @@
-.SocialMediaSuggestionmainboxes{
-    height: fit-content;
-margin-top: 5%;
-
+.SocialMediaSuggestionmainboxes {
+  height: fit-content;
+  margin-top: 5%;
 }
 
-.socialmediasuggestionmainboxfortext{
-    height: 20%;
+.socialmediasuggestionmainboxfortext {
+  height: 20%;
 
-    text-align: center;
+  text-align: center;
 }
 
-.socialmediaflexingbox{
-    display: flex;
+.socialmediaflexingbox {
+  width: 90%;
+  margin: 2% auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
 }
 
-.socialmediaaftermappingbox{
-    height: 30%;
-    width: 25%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 1%;
-    padding: 1%;
+.socialmediaaftermappingbox {
+  width: 23%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  padding: 1%;
 }
 
-.socialmediaaftermappingbox:hover{
-    background-color: #EEF1FF;
-    transform: scale(1.02);
+.socialmediaaftermappingbox:hover {
+  transform: scale(1.02);
 }
 
-
-.logodivforsocialmediasuggestion{
-    height: 200px;
-    width: 100%;
-    
+.logodivforsocialmediasuggestion {
+  height: 200px;
+  width: 100%;
 }
 
-.logodivforsocialmediasuggestion >img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.logodivforsocialmediasuggestion > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }

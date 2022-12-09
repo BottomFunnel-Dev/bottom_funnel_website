@@ -15,8 +15,8 @@ export const UIDesignEmotions = () => {
           Create design that <span>evoke emotions</span>
         </h1>
         <p>
-          We build interfaces that are effortless, intuitive, immersive and
-          seamlessly guide users in performing the desired action.
+          We create effortless, intuitive, and immersive interfaces that
+          seamlessly guide users through their desired actions.
         </p>
 
         <div className="UIDesignEmotions-main">
