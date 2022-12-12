@@ -1,0 +1,84 @@
+.mobileDevMainCardsouterDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 100vh; */
+}
+.mobileDevMainCardsContainer{
+    /* border: 2px solid gold; */
+    width: 90%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.mobileDevMainCardsBox1{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 300px; */
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mobileDevMainCardsContent{
+    border: 1px solid black;
+    width: 30%;
+    height: 39vh;
+    border-radius: 17px;
+    background-color: #5185C1;
+    display: flex;
+    flex-direction: column;
+}
+.mobileDevMainCardsContent1{
+    border: 1px solid black;
+    width: 30%;
+    height: 38vh;
+    border-radius: 17px;
+    background-color: #5CBAFF;
+    /* background-color: #0E7AC2; */
+    display: flex;
+    flex-direction: column;
+}
+.mobileDevMainCardsContent2{
+    border: 1px solid black;
+    width: 30%;
+    height: 38vh;
+    border-radius: 17px;
+    /* background-color: #5CBAFF; */
+    background-color: #0E7AC2;
+    display: flex;
+    flex-direction: column;
+}
+.mobileDevMainCardsContentHeading{
+    color: white;
+    margin-top: -25%;
+    text-align: center;
+    z-index: 1;
+    /* position: absolute; */
+}
+.mobileDevMainCardsContentHeading1{
+    color: #EF4C23;
+    margin-top: -25%;
+    text-align: center;
+    z-index: 1;
+    /* position: absolute; */
+}
+.mobileDevMainCardsContentImage{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    z-index: 0;
+}
+
+.mobileDevMainCardsContentText{
+    width: 100%;
+    height:10vh;
+    position:relative;
+    margin-top: 15%;
+    /* border: 2px solid red; */
+    border-radius: 0px 0px 17px 17px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}

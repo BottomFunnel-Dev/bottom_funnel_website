@@ -1,37 +1,37 @@
 export const whyAspnet = {
   heading: "ASP.NET",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+  desc: "ASP.NET is a popular framework for developing web applications that uses Microsoft's .NET platform. As a result, it offers many features and benefits that make it an excellent choice for developers who are looking to create high-quality websites. These include: ASP.NET provides modularity - This allows you to divide your code into separate files so that it is easier to maintain and update.",
 
   cardData: [
     {
-      title: "Object oriented",
+      title: "Extremely High Performance",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "With ASP.NET Core, you can now build and run high performance web applications with ease. Kestrel is the web server that powers ASP.NET Core, and it provides fast page load times by serving your website assets from a local cache. This gives your applications the responsiveness they need without weighing them down with unnecessary baggage.",
     },
     {
-      title: "Visual Studio IDE",
+      title: "Support for Cross-Platform",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "The latest is ASP.NET which supports Windows, macOS and Linux. It also has great support for cross-platform development which allows you to develop an application across different desktop operating systems.",
     },
     {
-      title: "Cross-Platform Design",
+      title: "Comprehensive Development Environments",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "ASP.NET development is a powerful and complex way to build web applications, but it takes a lot of time to get up and running with the basics. We are using Visual Studio as an integrated development environment (IDE), so we can quickly drag and drop components into our app. ",
     },
     {
-      title: "Flexible Deployment",
+      title: "Support for Web Sockets",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Sockets have been widely used in recent years to develop client-server applications that communicate with one another. For example, standard socket programming allows us to create web-based, client-server applications. These are responsible for the browser’s back and forth communication. It is also used for creating the most common chat applications.",
     },
     {
-      title: "Easy Maintenance",
+      title: "Security",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        " ASP.NET is compatible with the .net framework, meaning it will ensure the security of our app. Because each application has its unique identification before letting it run, .net will verify the objects’ authenticity. It will also assess how secure your operating system is to make sure that your programs are running in a safe and secure environment.",
     },
     {
-      title: "Cost-Effective",
+      title: "use of Async/Await",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Asynchronous programming patterns have been supported by all of the.net framework’s classes and 3rd-party libraries and frameworks since kestrel 2.0. However, you may not be as familiar with them when it comes to asp.net development. That's because a lot of programs spend a significant amount of time waiting for database queries, web services calls. ",
     },
   ],
 };

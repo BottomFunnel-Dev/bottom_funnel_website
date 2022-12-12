@@ -397,9 +397,12 @@ export const NavbarMain = () => {
                 </div>
               </div>
               <div className="serviceDropdownContent">
-                <Link className="noStyle">
-                  <h5>Mobile App Development</h5>
-                </Link>
+               
+                  <h5 className="noStyle" onClick={() => {
+                        navigate(`/mobile-app-development`);
+                        solHoverOut();
+                      }}>Mobile App Development</h5>
+              
                 <div className="listItems">
                   {appservice.map((item, j) => (
                     <div

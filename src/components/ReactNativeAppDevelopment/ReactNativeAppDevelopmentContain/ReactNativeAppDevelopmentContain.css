@@ -1,0 +1,30 @@
+.ReactNativeAppDevelopmentContain{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    
+}
+.ReactNativeAppDevelopmentContain-heading{
+    /* border: 2px solid yellow; */
+    justify-content: left;
+    width: 60%;
+    padding-left: 3%;
+  
+
+}
+.ReactNativeAppDevelopmentContain-heading h1{
+    font-size: 40px;
+}
+.ReactNativeAppDevelopmentContain-heading p{
+    font-size: 18px;
+    margin-top: 3%;
+}
+
+
+
+.ReactNativeAppDevelopmentContain-image{
+    /* border: 2px solid green; */
+    width: 40%;
+   
+}

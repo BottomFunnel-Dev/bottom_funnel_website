@@ -455,6 +455,8 @@
 .noStyle {
   text-decoration: none;
   color: #ef4c23;
+  cursor: pointer;
+  
 }
 
 .noStyle:hover {

@@ -143,6 +143,8 @@ import { CarService } from "./components/Car-Service-page/CarService";
 import { XamarinAppDevelopment } from "./components/XamarinAppDevelopment/XamarinAppDevelopment";
 import { Aviation } from "./components/Aviation/Aviation";
 import { AiContentServices } from "./components/AiContentService/AiContentServices";
+import { ReactNativeAppDevelopment } from "./components/ReactNativeAppDevelopment/ReactNativeAppDevelopment";
+import { MobileDevMain } from "./components/MobileDevMain/MobileDevMain";
 
 export const ALLroutes = () => {
   return (
@@ -160,7 +162,7 @@ export const ALLroutes = () => {
       <Route path="/Ai-content" element={<AiContentServices />} />
       <Route path="/ios" element={<IOSAppDevelopmentPage />} />
       <Route path="/Xamarin-Development" element={<XamarinAppDevelopment />} />
-      <Route path="/reactNative" element={<Reactnative />} />
+      <Route path="/reactNative" element={<ReactNativeAppDevelopment />} />
       <Route path="/android" element={<AndroidDevelopmentPage />} />
       <Route path="/ondemandHomeServices" element={<OndemandHome />} />
       <Route path="/nodejs" element={<SkillsComPage allData={nodejsData} />} />
@@ -348,6 +350,7 @@ export const ALLroutes = () => {
       <Route path="/Scoping-session" element={<Scoping />} />
       <Route path="/Fintech-solution" element={<FintechSolution />} />
       <Route path="/Car-services" element={<CarService />} />
+      <Route path="/mobile-app-development" element={<MobileDevMain />} />
     </Routes>
   );
 };

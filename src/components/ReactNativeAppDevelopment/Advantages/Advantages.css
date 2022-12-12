@@ -1,0 +1,183 @@
+.reactnativePageCards-innermaindiv4{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid blue; */
+    height: 70vh;
+
+
+}
+.rnativeinnermaindiv4-1stdiv{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+     margin-left: 1%;
+    width: 40%;
+    margin-top: 3%;
+}
+.rnativeinnermaindiv4-1stdivbox{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green ; */
+    /* margin-top: 7%; */
+    /* width: 100%; */
+    /* margin-left: 12%; */
+
+}
+.rnativeinnermaindiv4-1stdivbox h3{
+    font-size: 18px;
+    margin-left: 10%;
+}
+.rnativeinnermaindiv4-1stdivbox p{
+    font-size: 14px;
+   margin-top: 10%;
+   margin-left: 10%;
+}
+.rn1stdivbox{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 3%;
+    /* width: 45%; */
+}
+.rnativeinnermaindiv4-2nddiv{
+    border-left: 2px solid gray;
+   width: 60%;
+   margin-left: 2%;
+   margin-top: 4%;
+   padding-left: 3%;
+
+}
+.rnativeinnermaindiv4-2nddiv h1{
+    font-size: 40px;
+
+}
+.rnativeinnermaindiv4-2nddiv p{
+    font-size: 20px;
+    margin-top: 3%;
+
+}
+.rnlogo{
+    /* border: 2px solid pink ; */
+    width: 60%;
+    height: 50px;
+}
+.rnlogoimg{
+    width: 90%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+.nativeinnermaindiv5-boxdiv{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    background-image:url("/public/Images/reactnativephotos/Rectangle 2.png") ;
+    /* width: 95%; */
+    /* margin-left: 4%; */
+    /* margin-right: 4%; */
+    margin-top: 2%;
+    /* margin-bottom: 4%; */
+    border-radius: 5px;
+    /* column-gap: 2%; */
+}
+
+.nativeinnermaindiv4-boxdiv1stcolum{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    width: 97%;
+    height: 40vh;
+    /* row-gap: 2%; */
+    /* padding-left: 4%; */
+    /* padding-right: 4%; */
+    /* padding-bottom: 4%; */
+    /* padding-top: 4%; */
+}
+.reactnativeinnermaindiv4-row{
+    justify-content: left;
+    text-align: left;
+    /* border: 2px solid red; */
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 3%;
+    
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-left: 1%;
+    border-radius: 10px;
+   
+
+}
+.reactnativePageCards-innermaindiv5{
+/* border: 2px solid greenyellow; */
+
+margin-top: 4%;
+
+}
+.reactnativeinnermaindiv4-row h4{
+    margin-top: 4%;
+    font-size: 25px;
+}
+.reactnativeinnermaindiv4-row p{
+    margin-top: 4%;
+    font-size: 16px;
+}
+.reactnativePageCards-innermaindiv5 h2{
+font-size: 30px;
+
+}
+.innermaindiv2box h3{
+    margin-top: 3%;
+}
+
+.nativereactheading{
+    /* border: 2px solid red; */
+    justify-content: left;
+    text-align: left;
+    width: 75%;
+    margin-left: 3%;
+}
+.nativereactheading p{
+    margin-top: 3%;
+    font-size: 18px;
+    }
+
+.rnimag{
+    /* border: 2px solid green; */
+    width:80% ;
+}
+
+.rndivbox{
+    /* border: 2px solid yellow; */
+    width: 20%;
+}
+
+.middlebannerdiv{
+    /* border: 2px solid red; */
+    background-image: url("/public/Images/ReactNativeDevelopement/aerial-view-business-team 2.png");
+    color: white;
+    margin-top: 3%;
+    height: 40vh;
+    object-fit: cover;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+
+
+}
+
+.middlebannerdiv h2{
+    font-size: 35px;
+}
+.middlebannerdiv p{
+    font-size: 18px;
+    margin-top: 3%;
+}
