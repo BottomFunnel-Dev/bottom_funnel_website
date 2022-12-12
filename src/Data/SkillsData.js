@@ -41,6 +41,7 @@
 // JSF -
 // Phalcon -
 
+
 export const nodejsData = {
   title: "Best nodejs developers in the market | Bottom Funnel",
   description:
@@ -5973,6 +5974,154 @@ export const phalconData = {
   isRemarkable: false,
   RemarkableData: {
     title: "Remarkable phalcon Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+export const semanticData = {
+  title: "Best Semantic Ui developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced Semantic Ui developers. Our Semantic Ui development services can support you for all your different types of application development needs.",
+  isBanner: true,
+  BannerData: {
+    image: "Images/semanticphotos/banner.png",
+    title: "Semantic Ui Development Services",
+    description:
+      "Delivering on your business vision with quality Semantic UI web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Semantic UI",
+    image: "Images/semanticphotos/logo.png",
+    description:
+      "Semantic UI is a design system that was created to make creating beautiful, user-friendly websites easier. The system offers an intuitive drag-and-drop interface that makes it easy to create fluid and organized designs. Semantic UI also includes features such as components, modules, views, routes, models and stores. This allows you to quickly build dynamic pages with complex layouts without having to worry about the code behind them.Semantic UI is free and available on both Mac and PC platforms. It can be used standalone or in conjunction with another frontend framework like Bootstrap or Foundation.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "WHY SEMANTIC UI FOR APPLICATION DEVELOPMENT ?",
+    cardsData: [
+      {
+        img: {
+          src: "Images/semanticphotos/Frame-5.png",
+          alt: "Improved SEO performance logo",
+        },
+        title: "Lightweight and Minimal",
+
+        description:
+          "We understand that a lightweight and minimal UI is important for all sorts of business applications. With Semantic UI Development, there's no need to compromise on style and substance.",
+      },
+      {
+        img: {
+          src: "Images/semanticphotos/Frame-4.png",
+          alt: "Security logo",
+        },
+        title: "Multiple Themes",
+        description:
+          "With Semantic's rich set of theming variables and rules for inheritance, you can build complex UIs without having to worry about the limitations of pre-processor-based approaches.",
+      },
+      {
+        img: {
+          src: "Images/semanticphotos/Frame-3.png",
+          alt: "Fast performance logo",
+        },
+        title: "Intutive Javascript",
+        description:
+          "It makes it easy for developers to modify any arbitrary decision in a component. From deciding what an app should do when you get a call or email to showing weather data, this intuitive approach is changing the way we build interfaces.",
+      },
+      {
+        img: {
+          src: "Images/semanticphotos/Frame-1.png",
+          alt: "Autoloader logo",
+        },
+        title: "Varying Prototypes",
+        description:
+          "Semantic UI, a new way of thinking about web interfaces has taken over, and it's transforming how we work with websites. Like every new ideas.",
+      },
+      {
+        img: {
+          src: "Images/semanticphotos/Frame-2.png",
+          alt: "Independent framework logo",
+        },
+        title: "Easy to Understand",
+        description:
+          "Semantic UI Development, you don't have to worry about that. It makes the code simple and easy to understand so that you can build your app faster. ",
+      },
+      {
+        img: {
+          src: "Images/semanticphotos/fastrun.png",
+          alt: "Fastest framework for PHP logo",
+        },
+        title: "Fast Performance",
+        description:
+          "Semantic UI Development you get a fast, lightweight and responsive framework that will help you power up your website. It brings with it all the tooling required for SEO friendly development so that you can focus on building something awesome."
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel For Semantic UI",
+    image: "Images/semanticphotos/Frame.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive phalcon solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our Semantic UI developers to build your application?",
+    btn: "Book a call now",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Semantic UI Services",
     description:
       "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
     cardsData: [

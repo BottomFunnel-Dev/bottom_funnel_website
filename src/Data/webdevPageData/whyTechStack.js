@@ -261,38 +261,38 @@ export const whyMEAN = {
 };
 export const whyPHP = {
   heading: "PHP",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+  desc: "There are a lot of reasons why you should use a PHP framework. We'll outline some of the most common ones below: - to speed up development with access to application architecture, templates, utilities, and other features. - to make your website or app more secure by following security best practices. - to avoid reinventing the wheel for every application and reduce errors in your PHP code.",
 
   cardData: [
     {
-      title: "Good Flexibility",
+      title: "Easy to Use",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "PHP is one of the most popular languages for web development. This is because it's very simple to get started with and provides you with powerful tools to create web pages. So, if you want to learn web development and want a cost-effective way to do so, then PHP should be your go-to language.",
     },
     {
-      title: "Cheaper Hosting",
+      title: "Open Source",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "There are many reasons for why you should be using php development. Some of them include getting started quickly, zero-cost installation, and access to a range of frameworks. This is appealing to companies because it helps control web development costs.",
     },
     {
-      title: "Improved Loading Speed",
+      title: "Versatility",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "PHP is a powerful open source programming language that works on all major web servers and platforms. It supports most browsers and web applications and comes at a very reasonable price, making it an apt choice for developers who are looking to deploy complex projects while maintaining cost effectiveness.",
     },
     {
-      title: "Plentiful Documentation",
+      title: "Strong Community Support",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "The PHP development community is made up of some of the most talented and dedicated individuals on the planet. They make our software faster, more efficient, and more secure because they understand what it takes to build a successful product. We know that you will be successful with us because our team is here to support you every step of the way.",
     },
     {
-      title: "Wide Selection of Databases",
+      title: "Fast and Secure",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "PHP is not more or less secure than any other programming language. You can develop websites securely with this programming language because there are many tools available on the market which will help you do so easily and effectively. But the most important reason why we want our website to be developed in PHP is because it just works!",
     },
     {
-      title: "Cheaper Hosting Services",
+      title: "Well Connected with Databases",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "PHP gives you the freedom to choose which database is best suited for your application. This makes it easier to create secure and reliable applications, without having to worry about compatibility or extra costs. With PHP, you can be sure that your data will be stored securely and efficiently wherever a database is available. Connecting with a database is as easy as installing the right plugin!",
     },
   ],
 };

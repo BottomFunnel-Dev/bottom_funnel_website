@@ -67,13 +67,13 @@ export const javascriptBanner = {
 };
 export const meanBanner = {
   background: "Images/webdevmain/webbanner.png",
-  title: "Best MEAN Stack Development Around the Globe",
+  title: "Best MEAN Stack Development Service",
   description:
-    "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
+    "We provide best mean stack solutions including web development, mobile development, eCommerce development, back-end development, front-end development, branding and design, and more.",
 };
 export const phpBanner = {
   background: "Images/webdevmain/webbanner.png",
-  title: "Best PHP Development Around the Globe",
+  title: "Best PHP Development Service",
   description:
-    "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
+    "We are the top  php development company accross the world and we have built many successful websites for our clients. Our team has years of experience in developing projects across various domains, and we know how to deliver quality work on time. We also offer cost-effective pricing plans so that you don't have to spend a fortune on our services. Give us a chance and see how we can change your fortunes forever!",
 };

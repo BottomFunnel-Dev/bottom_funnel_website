@@ -410,11 +410,7 @@ export const javascriptstackIntro = {
 };
 export const meanstackIntro = {
   heading: "MEAN Stack",
-  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-      in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-      fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-      Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-      eaque.`,
+  description: `MEAN stack development is a style of software development that emphasizes using best practices from multiple different programming languages and frameworks together. MEAN stands for MongoDb, Express.js, Angular.js and Node.js. This approach can be helpful when speed and flexibility are important factors, as it allows developers to use the right tools for the job. It also encourages collaboration between team members, since everyone on the team will have knowledge of at least one language and framework.`,
   aspstack: [
     {
       stackName: "MongoDB",
@@ -463,97 +459,68 @@ export const meanstackIntro = {
 };
 export const phpstackIntro = {
   heading: "PHP",
-  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-      in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-      fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-      Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-      eaque.`,
+  description: `PHP is an open-source server-side scripting language that many developers use for web development. It is also a general-purpose language that you can use to make lots of projects, including graphical user interfaces (GUIs). With extensive support for object-oriented programming and modern web standards, PHP powers some of the most popular websites on the Internet today.`,
   aspstack: [
     {
       stackName: "Cakephp",
       stackIcon: "Images/webdevmain/frameworkIcons/php/cackphp.png",
       alt: "cackphp.png",
-      description: `
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `CakePHP is a PHP framework for developing web applications. Its easy installation and user-friendly nature makes it one of the most preferred frameworks. 
+
+      With CakePHP, you can build robust, secure, and efficient web applications. It provides all the necessary features like security and validation to make your application more reliable.
+      
+      CakePHP is a good choice for commercial as well as personal applications because of its security features that include SQL injection prevention, input validation, CSRF protection, etc.`,
     },
     {
       stackName: "CodeIgniter",
       stackIcon: "Images/webdevmain/frameworkIcons/php/CodeIgniter.png",
       alt: "CodeIgniter.png",
-      description: `
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `When you're working on a project that requires heavy lifting, CodeIgniter is the best option out there. It's easy to install and uses MVC architecture, which gives your app a sturdy foundation. Moreover, it's packed with features like in-built error handling and authentication tools so that you can build secure apps in no time.
+
+      It’s lightweight, easy to learn and use, and incredibly powerful. That makes CodeIgniter an excellent investment for your business--whether you're looking for something simple and straightforward or something more complex.`,
     },
     {
       stackName: "Laravel",
       stackIcon: "Images/webdevmain/frameworkIcons/php/Laravel.png",
       alt: "Laravel.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  `,
+      description: `Laravel is a powerful PHP framework that helps you build high-converting apps in no time. With its MVC architecture, it's easy to work with Laravel, and you can create complex apps by supporting various features like data migration, MVC (Model-View-Controller) approach, etc.
+
+      Building on top of everything the framework offers, Laravel gives your app a professional look and feel. Also, with its powerful security features and authentication system in place, your app is sure to be secure from all angles.`,
     },
     {
       stackName: "Phpixie",
       stackIcon: "Images/webdevmain/frameworkIcons/php/phpixie.png",
       alt: "phpixie.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `PHPixie is a full-fledged, standard framework for building rich and scalable applications. It comes with all the features that you need to build successful web or mobile applications. PHPixie also has modules that allow you to add your own custom components to the app. With its flexible architecture and easy-to-use APIs, PHPixie is perfect for building social apps, eCommerce platforms, CMSes, and more! With companies like Facebook using PHPixie in their everyday operations, there’s no doubt that this new platform will be making waves soon enough! Get onboard now before it’s too late!`,
     },
     {
       stackName: "Slim",
       stackIcon: "Images/webdevmain/frameworkIcons/php/Slim.png",
       alt: "Slim.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `Slim is another popular PHP micro-framework that helps developers quickly create simple but high-performing web applications and APIs. Web services and applications created with Slim have a minimalist architecture. It comes with a powerful HTTP router and supports dependency injection and PSR-7 HTTP message implementations.
+
+      Like other micro-frameworks, Slim is easy to learn. PHP developers use Slim to develop RESTful APIs and microservices. It's also an excellent solution for rapid prototyping of complex applications since it requires little code changes over the existing codebase!`,
     },
     {
       stackName: "Symfony",
       stackIcon: "Images/webdevmain/frameworkIcons/php/Symfony.png",
       alt: "Symfony.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `When it comes to large-scale enterprise projects, Symfony is the perfect choice. It's easy to install and configure on most platforms, and features a huge community of developers who are committed to making it the best that it can be. One of the key features is its reusable PHP components, which means you can build things once and have them work in any number of environments - from production deployments to development servers.
+      Also impressive is its database-engine independence, stability, complies with most web best practices, and allows for integration with other vendor libraries. But did we mention that Symfony has a strong emphasis on consistency? That's right - if your project follows best practices, then you can rest assured that your code will be aligned as well!`,
     },
     {
       stackName: "Yii",
       stackIcon: "Images/webdevmain/frameworkIcons/php/Yii.png",
       alt: "Yii.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `Yii is a universal web programming framework. It's suitable for all kinds of PHP projects - but it's especially recommended for the rapid development of large-scale web applications. Why choose Yii? The answer is simple: because it works!
+
+      Do you want to create a responsive website, or build an e-commerce platform that can handle millions of users? Yii has you covered. Whether you're looking for a framework to power your next customer-facing website or that next great mobile app, Yiu should consider using this technology today.`,
     },
     {
       stackName: "Zend",
       stackIcon: "Images/webdevmain/frameworkIcons/php/zend.png",
       alt: "zend.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `The Zend Framework is an open-source framework for creating object-oriented Web applications using PHP 5. The goal of the framework is to simplify the development of Web 2.0 services and applications by promoting best practices for building scalable, extensible classes and objects. With the Zend Framework, you can quickly create modern Web applications that are both secure and efficient. The framework includes a vast array of features that make it easy to build scalable and maintainable applications. And with its powerful extensibility model, you can easily add new functionality without rewriting existing code.`,
     },
    
   ],

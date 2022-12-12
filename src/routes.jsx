@@ -73,6 +73,7 @@ import {
   wixData,
   wooecommerceData,
   wordpressData,
+  semanticData,
 } from "./Data/SkillsData";
 import { Taxibooking } from "./components/Taxibooking/Taxibooking";
 import Logicstic from "./components/Logistic/Logicstic";
@@ -206,6 +207,7 @@ export const ALLroutes = () => {
         element={<SkillsComPage allData={backbonejsData} />}
       />
       <Route path="/svelte" element={<SkillsComPage allData={svelteData} />} />
+      <Route path="/semanticui" element={<SkillsComPage allData={semanticData} />} />
       <Route
         path="/microsoftSQL"
         element={<SkillsComPage allData={msSQLData} />}

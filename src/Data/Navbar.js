@@ -658,6 +658,11 @@ export const frontend = [
     navIcons: "Images/navbar/skills/svelte.png",
     path: "svelte",
   },
+  {
+    dropContent: "Semantic UI",
+    navIcons: "Images/navbar/skills/semantic.png",
+    path: "semanticui",
+  },
 ];
 
 export const mobile = [

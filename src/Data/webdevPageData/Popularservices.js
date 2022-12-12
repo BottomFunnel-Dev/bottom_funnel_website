@@ -481,35 +481,35 @@ export const phpDevServices = {
       alt: "website.png",
       serviceTitle: "Web-based Applications",
       serviceDesc:
-        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+        "PHP is a widely used language that can be used to build web-based applications using a variety of frameworks and libraries. It's easy to learn, versatile, and fast - making it a great option when choosing an appropriate language for your project.",
     },
     {
       icon: "Images/phppage/cms.png",
       alt: "cms",
       serviceTitle: "CMS Development",
       serviceDesc:
-        "We use PHP and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
+        "PHP  has the ability to create content management systems (CMS). These programs allow users to update their websites and add content without having any in-depth knowledge of HTML and CSS. You can create a CMS that looks beautiful on all devices and is also SEO friendly.",
     },
     {
       icon: "Images/phppage/Ecommerce.png",
       alt: "Ecommerce.png",
       serviceTitle: "E-commerce Applications",
       serviceDesc:
-        "With PHP, you can easily create web applications that run smoothly on any device without causing any errors. From backend to frontend, everything is organized in such a way that it'll be easy for you to understand how the whole system works.",
+        "PHP is a popular language for developing e-commerce websites. From a small business level to an enterprise level, businesses are always looking to use e-commerce platforms. It is a great language for developing e-commerce websites because it is versatile and easy to use.",
     },
     {
       icon: "Images/phppage/graphics.png",
       alt: "graphics.png",
       serviceTitle: "GUI Based Applications",
       serviceDesc:
-        "Bottom Funnel is the best PHP development company that offers migration services for your existing PHP application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+        "PHP is a powerful and flexible programming language that can be used to create all sorts of applications. With the use of  best PHP extensions that will help you to create GUI applications in no time. ",
     },
     {
       icon: "Images/phppage/library.png",
       alt: "library.png",
-      serviceTitle: "Create Flash",
+      serviceTitle: "Building an Online Community",
       serviceDesc:
-        "A quick way to build app is using PHP development. PHP is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
+        "With php's flexibility and speed we are sure you will be able to build up your online community quickly. And if you choose from available scripts that are already available on the web, then it would be even easier for you.",
     },
 
     {
@@ -517,14 +517,14 @@ export const phpDevServices = {
       alt: "process.png",
       serviceTitle: "Image Processing",
       serviceDesc:
-        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+        "PHP is the right choice if you want to do more than just output HTML. You can output images in different file types including jpeg, png, and gif. This feature of PHP is useful because it allows you to create thumbnails pictures, add watermarks, resize and crop images.",
     },
     {
       icon: "Images/phppage/representation.png",
       alt: "representation.png",
       serviceTitle: "Data Representation",
       serviceDesc:
-        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+        "PHP is a popular web development language that allows you to create your own applications. It's easy to learn, and it has powerful features like MySQL database support and Ajax. With PHP, you can make any website you want, from a simple blog to an e-commerce store.",
     },
   ],
 };
