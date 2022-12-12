@@ -228,34 +228,34 @@ export const whyMEAN = {
 
   cardData: [
     {
-      title: "Mobile Compatibility",
+      title: "Open-Source",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "The MEAN stack is a popular choice for web development because it reduces the development costs. Additionally, their communities offer ready-to-use boilerplate codes that can facilitate the development of incredible UIs.",
     },
     {
-      title: "Compnent Based",
+      title: "Based on Javascript",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "The complete MEAN web development works and is applied to the JavaScript language. The backing for MVC architecture tells the whole story of how JS is the foundation for MEAN.js.",
     },
     {
-      title: "Seamless Experience",
+      title: "Effective prototyping abilities",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Minimum Viable Product (MVP) is a helpful and cost-effective approach for prototyping. It assists businesses in estimating the user-friendly nature of their application ideas and concepts. MEAN stack technologies lend a hand to enable enterprises with the MVP processes.",
     },
     {
       title: "Fast Performance",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "MEAN stack has high-performing JavaScript technologies that can help build innovative web applications. It offers web applications with native containers that further deliver platform-oriented experiences and enhance performance levels",
     },
     {
       title: "Cost Efficient",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "MEAN JS can assist them in being open-source and free. A team of professional developers can enable MEAN stack development and trim down your project costs.", 
     },
     {
       title: "User Friendly",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "MEAN stack facilitates the formation of UIs that offer a user-friendly experience. It backs the MVC (Model-View-Controller) architecture. So, you can generate native-type web applications.",
     },
   ],
 };

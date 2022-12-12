@@ -1,6 +1,5 @@
 .RGbannerContainer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/public/Images/Products-page-Images/banner/Component\ 1.png");
+  background-image:url("/public/Images/Products-page-Images/banner/Component\ 1.png");
   width: 100%;
   height: 70vh;
   background-size: cover;

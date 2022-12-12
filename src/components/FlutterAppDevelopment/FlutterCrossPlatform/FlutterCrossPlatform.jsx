@@ -21,7 +21,9 @@ export const FlutterCrossPlatform = () => {
                           <img src="Images/FlutterDevelopment/Icons/lightbulb.png"/>
                         </div>
                         <div className="flutterCrossPlatformDataContent">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci et ut laborum illum fuga rerum, tempore eveniet recusandae accusantium quos, aspernatur in? Totam, aliquid perferendis. Nemo, perferendis? Alias, iure. Vitae.
+                           <p>
+                             <b>Flutter Apps</b> are built out of single code base, compiled directly make use of GPU and access platform API and services.
+                           </p>
                         </div>
                     </div>
                     <div className="flutterCrossPlatformDataBoxes">
@@ -29,7 +31,9 @@ export const FlutterCrossPlatform = () => {
                           <img src="Images/FlutterDevelopment/Icons/best-employee.png"/>
                         </div>
                         <div className="flutterCrossPlatformDataContent">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente nemo exercitationem id esse harum, architecto consectetur, delectus vel obcaecati provident dignissimos numquam fugit nesciunt expedita, necessitatibus natus et cupiditate?
+                            <p>
+                             <b>Flutter</b> also established a primary method of creating applications for Google Fuschia.
+                           </p>
                         </div>
                     </div>
                     <div className="flutterCrossPlatformDataBoxes">
@@ -37,7 +41,9 @@ export const FlutterCrossPlatform = () => {
                           <img src="Images/FlutterDevelopment/Icons/security.png"/>
                         </div>
                         <div className="flutterCrossPlatformDataContent">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam error neque possimus excepturi libero ducimus voluptates, dicta vel quasi asperiores laudantium debitis rem corporis quos hic nemo modi omnis veniam!
+                            <p>
+                              <b>Data Share</b> similiar features like many modern langusge like kotlin and swift and can ve transcompiled into javaScript code.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +53,9 @@ export const FlutterCrossPlatform = () => {
                           <img src="Images/FlutterDevelopment/Icons/agile-team.png"/>
                         </div>
                         <div className="flutterCrossPlatformDataContent">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo impedit voluptates cum inventore, accusantium dolores libero pariatur, ab officiis totam incidunt eaque quisquam eveniet similique, modi repellendus aliquam doloremque. Ipsam.
+                           <p>
+                             <b>It make use</b> of compiled programming language called Dart which compiles ahead of time into the native code for multiple platforms.
+                           </p>
                         </div>
                     </div>
                     <div className="flutterCrossPlatformDataBoxes">
@@ -55,7 +63,9 @@ export const FlutterCrossPlatform = () => {
                           <img src="Images/FlutterDevelopment/Icons/platform 2.png"/>
                         </div>
                         <div className="flutterCrossPlatformDataContent">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quaerat autem! Aperiam, illo eos? Ullam reprehenderit perferendis beatae architecto tenetur adipisci dolor quibusdam libero eius aliquid, odio et, vitae maxime?
+                           <p>
+                             <b>Flutter</b> (Google's SDK) resembles the react native cross platform framework closely allowing for a reactive and declarative style of programming.
+                           </p>
                         </div>
                     </div>
                     <div className="flutterCrossPlatformDataBoxes">
@@ -63,7 +73,9 @@ export const FlutterCrossPlatform = () => {
                           <img src="Images/FlutterDevelopment/Icons/worldwide-1.png"/>
                         </div>
                         <div className="flutterCrossPlatformDataContent">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas vitae placeat in repudiandae asperiores, illo tempore optio dolores nesciunt, qui deleniti accusamus aliquid quo nam sed a dolorum quod.
+                           <p>
+                             <b>Data Archieves</b> this by using ahead of time or AOT compilation and Just-In-Time or JIT Compilation.
+                           </p>
                         </div>
                     </div>
                 </div>

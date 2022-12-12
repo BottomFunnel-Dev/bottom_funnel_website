@@ -134,7 +134,7 @@ export const ProductsGrid = () => {
 
         <div className="RGdiv">
           <div className="RGthirdColumnsDivHead">
-            <p className="RGtitlePTagThirdCols">Bottom Funnel Omnichannel</p>
+            <p className="RGtitlePTagThirdCols">Bottom Funnel Service</p>
           </div>
           <p className="RGeffortlessParagraph">
             Delight your customer with effortless omichannel

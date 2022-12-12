@@ -417,42 +417,42 @@ export const javascriptwebDevServices = {
 export const meanDevServices = {
   title: "MEAN Stack Development",
   description:
-    "We have developed years of expertise in creating world-class websites and apps using MEAN Stack. We offer comprehensive services that include application design, coding, testing, deployment, and maintenance so you can sleep easy knowing your website will be up and running smoothly day after day.",
+    "With MEAN stack, you'll be able to build interfaces that are responsive, extensible, and efficient. The result will be a site that works well on mobile devices as well as desktop computers. In addition, it will be easy for you to add new features in the future without worrying about how these changes will affect your existing functionality.",
   serviceCard: [
     {
       icon: "Images/meanpage/api.png",
       alt: "api.png",
       serviceTitle: "API Integration",
       serviceDesc:
-        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+        "Mean stack is a cloud-native, open-source application development platform. The integrated API makes it easy for us to integrate with your app, allowing you to take advantage of all the great features mean stack has to offer. We can't wait to see what your next big idea will be!",
     },
     {
       icon: "Images/meanpage/cms.png",
       alt: "cms",
       serviceTitle: "Custom CMS Development",
       serviceDesc:
-        "We use MEAN Stack and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
+        "MEAN stack is a powerful combination of MongoDB, Express, AngularJS and Node.js that has proved its true worth in the field of e-commerce, content management systems (CMS), social media websites, etc.",
     },
     {
       icon: "Images/meanpage/Ecommerce.png",
       alt: "Ecommerce.png",
       serviceTitle: "E-commerce Applications",
       serviceDesc:
-        "With MEAN Stack, you can easily create web applications that run smoothly on any device without causing any errors. From backend to frontend, everything is organized in such a way that it'll be easy for you to understand how the whole system works.",
+        "When it comes to e-commerce, there isn't much room for error. We understand the ins and outs of website maintenance, security updates, and more. From building new features to fixing bugs, our team can handle any challenge with ease.",
     },
     {
       icon: "Images/meanpage/Company.png",
       alt: "Company.png",
       serviceTitle: "Enterprise App Solutions",
       serviceDesc:
-        "Bottom Funnel is the best MEAN Stack development company that offers migration services for your existing MEAN Stack application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+        "ERP solutions using the MEAN stack is a popular solution for many businesses because it is both fast and easy to use. Here are a few reasons why the MEAN stack is a good choice. Because it is fast, easy to use and it is scalable. ",
     },
     {
       icon: "Images/meanpage/website.png",
       alt: "website.png",
       serviceTitle: "Interactive Website Solutions",
       serviceDesc:
-        "A quick way to build app is using MEAN Stack development. MEAN Stack is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
+        "The MEAN stack makes it simple to create dynamic pages that responding quickly to user interactions. Plus, the combination of these technologies makes it possible to develop complex applications with ease.",
     },
 
     {
@@ -460,14 +460,14 @@ export const meanDevServices = {
       alt: "migration.png",
       serviceTitle: "MEAN Stack Migration",
       serviceDesc:
-        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+        "You can easily migrate from MEAN stack to a different stack without any problems. There are no steep learning curves or difficult configurations. It also uses the best practices, making it easy to understand how things work together.",
     },
     {
       icon: "Images/meanpage/landingpage.png",
       alt: "landingpage.png",
       serviceTitle: "SPA Development",
       serviceDesc:
-        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+        "Mean stack is an effective tool for developing SPAs. It allows developers to build powerful front-end applications using the latest web development technologies. ",
     },
   ],
 };

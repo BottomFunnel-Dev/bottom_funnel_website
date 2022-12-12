@@ -7,7 +7,7 @@ export const WhyFlutter = () => {
       <>
         <div className="whyFlutterMainDiv">
             <div className="whyFlutterContent">
-                <h5>Why is Flutter Preferable for mobile App Development</h5>
+                <h2>Why is Flutter Preferable for mobile App Development</h2>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error minus laudantium similique nam iusto, eveniet hic voluptas officiis modi quaerat dolorem autem amet quam quo nulla ipsa! Voluptates, architecto.
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus atque ea assumenda similique nisi voluptates, qui aperiam praesentium tempore, neque ad vero? Qui ea itaque odit omnis, enim dolorem ducimus?
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum architecto, optio vel doloribus aspernatur, ea eius libero provident incidunt ullam animi pariatur nam molestias quo quibusdam! Nostrum maxime consectetur velit! </p>

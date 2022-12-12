@@ -8,61 +8,45 @@ export const FluterDevelopmentExpertise = () => {
       <div className='flutterDevelopmentExpertiseMainDiv'>
         <div className='flutterDevelopmentExpertiseIconContainer'>
             <div className='flutterDevelopmentExpertiseIconOuterBox'>
-                <div className='flutterDevelopmentExpertiseContainerDiv'>
-                    <div className='flutterDevelopmentExpertiseIconText'>
-                        <div className='flutterDevelopmentExpertiseIcon'>
-                        <img src="Images/FlutterDevelopment/Icons/platform 2.png"/>
-                        </div>
-                        <div className='flutterDevelopmentExpertiseIconHeading'>
-                            <h4>Cross-Platform App Development</h4>
-                        </div>
+                    <div className='flutterDevelopmentExpertiseContainerDiv'>
+                            <div className='flutterDevelopmentExpertiseIcon'>
+                                <img src='Images/FlutterDevelopment/icons/platform 2.png'/>
+                            </div>
+                            <div className='flutterDevelopmentExpertiseIconHeading'>
+                                <h4>Cross-Platform App Development</h4>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis perferendis aperiam voluptas. </p>
+                            </div>
                     </div>
-                    <div className='flutterDevelopmentExpertiseText'>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis perferendis aperiam voluptas. </p>
+                    <div className='flutterDevelopmentExpertiseContainerDiv'>
+                            <div className='flutterDevelopmentExpertiseIcon'>
+                                <img src='Images/FlutterDevelopment/icons/approved 2.png'/>
+                            </div>
+                            <div className='flutterDevelopmentExpertiseIconHeading'>
+                                <h4>Hire Developers</h4>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis perferendis aperiam voluptas. </p>
+                            </div>
                     </div>
-                </div>
-                <div className='flutterDevelopmentExpertiseContainerDiv'>
-                    <div className='flutterDevelopmentExpertiseIconText'>
-                        <div className='flutterDevelopmentExpertiseIcon'>
-                        <img src="Images/FlutterDevelopment/Icons/approved 2.png"/>
-                        </div>
-                        <div className='flutterDevelopmentExpertiseIconHeading'>
-                            <h4>Hire Flutter Developer</h4>
-                        </div>
-                    </div>
-                    <div className='flutterDevelopmentExpertiseText'>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis perferendis aperiam voluptas. </p>
-                    </div>
-                </div>
             </div>
-            <div className='flutterDevelopmentExpertiseIconOuterBox'>
-                <div className='flutterDevelopmentExpertiseContainerDiv'>
-                    <div className='flutterDevelopmentExpertiseIconText'>
-                        <div className='flutterDevelopmentExpertiseIcon'>
-                        <img src="Images/FlutterDevelopment/Icons/lightbulb.png"/>
-                        </div>
-                        <div className='flutterDevelopmentExpertiseIconHeading'>
-                            <h4>Industry Specific Solution</h4>
-                        </div>
+                <div className='flutterDevelopmentExpertiseIconOuterBox'>
+                    <div className='flutterDevelopmentExpertiseContainerDiv'>
+                            <div className='flutterDevelopmentExpertiseIcon'>
+                            <img src='Images/FlutterDevelopment/icons/bulb.png'/>
+                            </div>
+                            <div className='flutterDevelopmentExpertiseIconHeading'>
+                                <h4>Industry-Specific Solutions</h4>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis perferendis aperiam voluptas. </p>
+                            </div>
                     </div>
-                    <div className='flutterDevelopmentExpertiseText'>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis perferendis aperiam voluptas. </p>
-                    </div>
-                </div>
-                <div className='flutterDevelopmentExpertiseContainerDiv'>
-                    <div className='flutterDevelopmentExpertiseIconText'>
-                        <div className='flutterDevelopmentExpertiseIcon'>
-                        <img src="Images/FlutterDevelopment/Icons/technical-support 2.png"/>
-                        </div>
-                        <div className='flutterDevelopmentExpertiseIconHeading'>
-                            <h4> End-to-End Support and Maintenance</h4>
-                        </div>
-                    </div>
-                    <div className='flutterDevelopmentExpertiseText'>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis perferendis aperiam voluptas. </p>
+                    <div className='flutterDevelopmentExpertiseContainerDiv'>
+                            <div className='flutterDevelopmentExpertiseIcon'>
+                                <img src='Images/FlutterDevelopment/icons/technical-support 2.png'/>
+                            </div>
+                            <div className='flutterDevelopmentExpertiseIconHeading'>
+                                <h4>End-to-End Support and Maintenance</h4>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis perferendis aperiam voluptas. </p>
+                            </div>
                     </div>
                 </div>
-            </div>
         </div>
         <div className='flutterDevelopmentExpertiseContent'>
           <h1 className='flutterDevelopmentExpertiseContentHeading'>Flutter App Development Expertise</h1>

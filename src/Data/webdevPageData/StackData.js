@@ -416,43 +416,26 @@ export const meanstackIntro = {
       stackName: "MongoDB",
       stackIcon: "Images/webdevmain/frameworkIcons/mean/mongodb.png",
       alt: "mongodb.png",
-      description: `
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `MongoDB is a cross-platform database that uses the JSON document format. It can be used to store data in an easy-to-use, flat file format. MongoDB also offers features such as scalability, concurrency, and distributed architecture. This means that it can handle large amounts of data with ease.`,
     },
     {
       stackName: "Express",
       stackIcon: "Images/webdevmain/frameworkIcons/mean/express.png",
       alt: "Express.png",
-      description: `
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `Express.js is a powerful and lightweight web development framework that makes it easy to build fast, responsive websites with minimal code. Express provides full CRUD (create, read, update, delete) support for models via popular JavaScript libraries like Mongoose or Jurassic as well as form validation and Ajax callback handling for submit buttons.`,
     },
     {
       stackName: "Angular",
       stackIcon: "Images/webdevmain/frameworkIcons/mean/Angular.png",
       alt: "Angularjs.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  `,
+      description: `Angular.js is a popular JavaScript front-end framework that helps developers create efficient, scalable web applications. It has been widely used by major companies such as Twitter and Bank of America to build their website interfaces.
+      AngularJS combines the best features of both HTML and JS, making it an ideal tool for building user interfaces.`,
     },
     {
       stackName: "Node.js",
       stackIcon: "Images/webdevmain/frameworkIcons/mean/nodejs.png",
       alt: "node.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `Node.js is a platform-independent JavaScript runtime environment that enables developers to build high-performance, scalable network applications. It's also used for building web servers and making it easy to create lightning fast clients with minimal effort. Node.js is built on Chrome’s V8 library and exposes the same APIs as regular JavaScript.`,
     },
    
   ],

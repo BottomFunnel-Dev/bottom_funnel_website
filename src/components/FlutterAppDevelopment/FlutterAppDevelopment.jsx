@@ -8,16 +8,20 @@ import { FlutterCrossPlatform } from "./FlutterCrossPlatform/FlutterCrossPlatfor
 import { FlutterServices } from "./FlutterServices/FlutterServices";
 import { WhyFlutter } from "./WhyFlutter/WhyFlutter";
 
-// ----- Other required react components -----
-
-import { Industries } from "../industries/Industries";
+// ----- Other requried react components -----
+import StoriesSection from "../StoriesSection/StoriesSection";
 import OndemandSection from "../OnDemandSection/OndemandSection";
 import PortFolio from "../PortFolioSection/PortFolio";
 import PlanProject from "../PlanProject/PlanProject";
-import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import Revamping from "../revamping/Revamping";
+import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import { TextDropdown } from "../faqSection/Faqs";
+import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
+import { Helmet } from "react-helmet";
+
+
+
 
 export const FlutterAppDevelopment = () => {
   const dispatch = useDispatch();
@@ -25,25 +29,29 @@ export const FlutterAppDevelopment = () => {
     dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
 
+
   return (
-    <>
-      <div>
-        <FlutterAppDevelopmentBanner />
-        <FlutterServices />
-        <WhyFlutter />
-        <FlutterCrossPlatform />
-        <FlutterAppDevelopmentDreamProject />
-        <FluterDevelopmentExpertise />
-        {/* ----- End of main page. Now Further components ----- */}
-        <Industries />
-        <OndemandSection />
-        <PortFolio />
-        <PlanProject />
-        <SeoblogSection />
-        <Revamping />
-        <TextDropdown />
-        <MainFooter />
-      </div>
-    </>
+      <>
+        <div>
+          <FlutterAppDevelopmentBanner/>
+          <FlutterServices/>
+          <WhyFlutter/>
+          <FlutterCrossPlatform/>
+          <FlutterAppDevelopmentDreamProject/>
+          <FluterDevelopmentExpertise/>
+
+
+          {/* Other react required components */}
+       <StoriesSection />
+      <OndemandSection />
+      <PortFolio />
+      <PlanProject />
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
+        </div>
+      </>
   );
 };
