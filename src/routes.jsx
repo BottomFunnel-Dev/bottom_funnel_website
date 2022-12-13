@@ -357,7 +357,7 @@ export const ALLroutes = () => {
       <Route path="/Scoping-session" element={<Scoping />} />
       <Route path="/Fintech-solution" element={<FintechSolution />} />
       <Route path="/Car-services" element={<CarService />} />
-      {/* <Route path="/mobile-app-development" element={<MobileDevMain />} /> */}
+      <Route path="/mobile-app-development" element={<MobileDevMain />} />
     </Routes>
   );
 };

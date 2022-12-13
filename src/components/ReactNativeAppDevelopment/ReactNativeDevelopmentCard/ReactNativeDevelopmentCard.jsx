@@ -21,7 +21,7 @@ export const ReactNativeDevelopmentCard = () => {
             </div>
         <div className='newReactNativeAppDevelopmentdivdiv2-1stcontaindiv'>
                 <div className='imagsectionreact'>
-                        <img src="/public/Images/ReactNativeDevelopement/Component 67.png" className='imagsectionr1'></img>
+                        <img src="Images/ReactNativeDevelopement/Component 67.png" className='imagsectionr1'></img>
                     </div>
                     <div className='stcontaindiv-containreact' >
                         <h2>Mobile Application Development</h2>
@@ -47,14 +47,14 @@ export const ReactNativeDevelopmentCard = () => {
 
                     </div>
                     <div className='imagsectionreact'>
-                        <img src="/public/Images/ReactNativeDevelopement/Component 67.png" className='imagsectionr1'></img>
+                        <img src="Images/ReactNativeDevelopement/Component 67.png" className='imagsectionr1'></img>
                     </div>
                    
                 </div>
 
                 <div className='newReactNativeAppDevelopmentdivdiv2-1stcontaindiv'>
                 <div className='imagsectionreact'>
-                        <img src="/public/Images/ReactNativeDevelopement/Component 67.png" className='imagsectionr1'></img>
+                        <img src="Images/ReactNativeDevelopement/Component 67.png" className='imagsectionr1'></img>
                     </div>
                     <div className='stcontaindiv-containreact' >
                         <h2>Mobile App Migration</h2>
@@ -80,7 +80,7 @@ export const ReactNativeDevelopmentCard = () => {
 
                     </div>
                     <div className='imagsectionreact'>
-                        <img src="/public/Images/ReactNativeDevelopement/Component 67.png" className='imagsectionr1'></img>
+                        <img src="Images/ReactNativeDevelopement/Component 67.png" className='imagsectionr1'></img>
                     </div>
                    
                 </div>
