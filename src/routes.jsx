@@ -74,6 +74,8 @@ import {
   wooecommerceData,
   wordpressData,
   semanticData,
+  GhostData,
+  WeeblyData,
 } from "./Data/SkillsData";
 import { Taxibooking } from "./components/Taxibooking/Taxibooking";
 import Logicstic from "./components/Logistic/Logicstic";
@@ -209,7 +211,10 @@ export const ALLroutes = () => {
         element={<SkillsComPage allData={backbonejsData} />}
       />
       <Route path="/svelte" element={<SkillsComPage allData={svelteData} />} />
-      <Route path="/semanticui" element={<SkillsComPage allData={semanticData} />} />
+      <Route
+        path="/semanticui"
+        element={<SkillsComPage allData={semanticData} />}
+      />
       <Route
         path="/microsoftSQL"
         element={<SkillsComPage allData={msSQLData} />}
@@ -266,6 +271,8 @@ export const ALLroutes = () => {
         path="/phalcon"
         element={<SkillsComPage allData={phalconData} />}
       />
+      <Route path="/ghost" element={<SkillsComPage allData={GhostData} />} />
+      <Route path="/weebly" element={<SkillsComPage allData={WeeblyData} />} />
       <Route path="/beautycareapp" element={<Beautysection />} />
       <Route path="/digitalmarketing" element={<SeoDm />} />
       <Route path="/emailservices" element={<SeoEmail />} />

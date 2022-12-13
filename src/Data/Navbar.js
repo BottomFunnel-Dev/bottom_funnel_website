@@ -797,6 +797,16 @@ export const cms = [
     navIcons: "Images/navbar/skills/bigcommerce.png",
     path: "bigcommerce",
   },
+  {
+    dropContent: "Ghost website builder",
+    navIcons: "Images/navbar/skills/ghost.png",
+    path: "ghost",
+  },
+  {
+    dropContent: "Weebly",
+    navIcons: "Images/navbar/skills/weebly.png",
+    path: "weebly",
+  },
 ];
 
 export const discoverContent = [

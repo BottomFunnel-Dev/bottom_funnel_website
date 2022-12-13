@@ -41,7 +41,6 @@
 // JSF -
 // Phalcon -
 
-
 export const nodejsData = {
   title: "Best nodejs developers in the market | Bottom Funnel",
   description:
@@ -3056,8 +3055,7 @@ export const postgresqlData = {
   desData: {
     title: "PostgreSQL",
     image: "Images/postgresqlSkillsPhotos/postgresql-logo.png",
-    description:
-      `Companies worldwide are turning to PostgreSQL as a powerful, open source database system with over 35 years of active development. With a reputation for stability and reliability, PostgreSQL has earned its place as one of the most trusted database systems in the industry.
+    description: `Companies worldwide are turning to PostgreSQL as a powerful, open source database system with over 35 years of active development. With a reputation for stability and reliability, PostgreSQL has earned its place as one of the most trusted database systems in the industry.
       PostgreSQL offers an unmatched level of functionality and extensibility, making it an ideal choice for any enterprise looking to modernize their data infrastructure. Plus, thanks to its commitment to community development, you're always getting new features and bug fixes that make your app more efficient and reliable.
       `,
   },
@@ -6097,7 +6095,7 @@ export const semanticData = {
         },
         title: "Fast Performance",
         description:
-          "Semantic UI Development you get a fast, lightweight and responsive framework that will help you power up your website. It brings with it all the tooling required for SEO friendly development so that you can focus on building something awesome."
+          "Semantic UI Development you get a fast, lightweight and responsive framework that will help you power up your website. It brings with it all the tooling required for SEO friendly development so that you can focus on building something awesome.",
       },
     ],
   },
@@ -6122,6 +6120,306 @@ export const semanticData = {
   isRemarkable: false,
   RemarkableData: {
     title: "Remarkable Semantic UI Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
+export const GhostData = {
+  title: "Ghost Website Development | Hire web developer | Bottom Funnel",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    image: "Images/ghostPhotos/banner.png",
+    title: "Ghost Development Services",
+    description:
+      "Delivering on your business vision with quality ghost website builder experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "Ghost",
+    image: "Images/ghostPhotos/ghost-logo.png",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR GHOST WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/ghostPhotos/leafs.png",
+          alt: "Lightweight and minimal logo",
+        },
+        title: "Lightweight and minimal",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "Images/ghostPhotos/aritficial.png",
+          alt: "Integrations logo",
+        },
+        title: "Integrations",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "Images/ghostPhotos/setting.png",
+          alt: "Easy to customize and themes logo",
+        },
+        title: "Easy to customize and themes",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "Images/ghostPhotos/stars.png",
+          alt: "Membership management logo",
+        },
+        title: "SEO friendly",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "Images/ghostPhotos/document.png",
+          alt: "Good documentation logo",
+        },
+        title: "Good documentation",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "Images/ghostPhotos/fast-run.png",
+          alt: "Fast performance logo",
+        },
+        title: "Fast performance",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for ghost",
+    image: "Images/ghostPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive ghost solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our ghost developers to build your application?",
+    btn: "Book a call now",
+    image: "Images/ghostPhotos/mid-banner.png",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
+    description:
+      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    cardsData: [
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/open-source.png",
+          alt: "Open-source logo",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          alt: "Easy complex component handling logo",
+        },
+        title: "Easy complex component handling",
+      },
+      {
+        img: {
+          src: "Images/angularjsSKillsPhotos/time-saving.png",
+          alt: "Time-Saving Process logo",
+        },
+        title: "Time-Saving Process",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          alt: "Effective Framework logo",
+        },
+        title: "Effective Framework",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          alt: "Reusable code logo",
+        },
+        title: "Reusable code",
+      },
+      {
+        img: {
+          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          alt: "Enables Testing Now and Then logo",
+        },
+        title: "Enables Testing Now and Then",
+      },
+    ],
+  },
+};
+
+export const WeeblyData = {
+  title: "Weebly Web hosting services | Hire web developer | Bottom Funnel",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    image: "Images/weeblyPhotos/banner.png",
+    title: "Weebly Development Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "Weebly",
+    image: "Images/weeblyPhotos/weebly-logo.png",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR WEEBLY WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "Images/weeblyPhotos/setting.png",
+          alt: "Flexible logo",
+        },
+        title: "Flexible",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "Images/weeblyPhotos/document.png",
+          alt: "Smart Content logo",
+        },
+        title: "Smart Content",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "Images/weeblyPhotos/custom.png",
+          alt: "Easy Personalization logo",
+        },
+        title: "Easy Personalization",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "Images/weeblyPhotos/seo.png",
+          alt: "SEO is Easy logo",
+        },
+        title: "SEO is Easy",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "Images/weeblyPhotos/secure.png",
+          alt: "High Security & Protected logo",
+        },
+        title: "High Security & Protected",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "Images/weeblyPhotos/checked.png",
+          alt: "Easy to use logo",
+        },
+        title: "Easy to use",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for weebly",
+    image: "Images/weeblyPhotos/big-left-image.png",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive weebly solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our weebly developers to build your application?",
+    btn: "Book a call now",
+    image: "Images/ghostPhotos/mid-banner.png",
+  },
+  isRemarkable: false,
+  RemarkableData: {
+    title: "Remarkable Angularjs Services",
     description:
       "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
     cardsData: [
