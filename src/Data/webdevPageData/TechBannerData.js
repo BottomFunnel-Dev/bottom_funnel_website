@@ -37,27 +37,27 @@ export const aspnetBanner = {
 };
 export const javaBanner = {
   background: "Images/webdevmain/webbanner.png",
-  title: "Best Java Development Around the Globe",
+  title: "Best Java Development Service",
   description:
-    "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
+    "We apply the latest Java-related technologies to help our clients build sustainable Java-based software fast and cost-effectively. Our team has great expertise in building out applications that are both robust and scalable, thanks to their use of modern frameworks like Spring Boot and RESTful APIs.",
 };
 export const pythonBanner = {
   background: "Images/webdevmain/webbanner.png",
-  title: "Best Python Development Around the Globe",
+  title: "Best Python Development Service",
   description:
-    "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
+    "Bottom Funnel Python Development offers you top-notch python development services to help you achieve your business goals with ease. With our extensive experience, we know what it takes to build robust, secure python apps and software that are adaptable and scalable in the long run. We pride ourselves on our ability to deliver quality work on time and at a price that fits your budget.",
 };
 export const rubyBanner = {
   background: "Images/webdevmain/webbanner.png",
-  title: "Best Ruby Development Around the Globe",
+  title: "Best Ruby Development Service",
   description:
-    "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
+    "We offer a wide range of services that will help you get the most out of your project, from data management to user experience design. We are  an amazing Ruby on Rails Development service that you can't afford to miss. With world-class support, you'll feel confident and in control as you build your next digital masterpiece. ",
 };
 export const golangBanner = {
   background: "Images/webdevmain/webbanner.png",
-  title: "Best Golange Development Around the Globe",
+  title: "Best Golange Development Service",
   description:
-    "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
+    "We offer a wide range of services that will help you find exactly what you need. Whether you're new to the world of software or an experienced pro, we have a solution that's perfect for your needs. With our expertise in golang development, we can ensure your project runs smoothly from start to finish.",
 };
 export const javascriptBanner = {
   background: "Images/webdevmain/webbanner.png",

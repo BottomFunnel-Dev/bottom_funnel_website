@@ -1,37 +1,30 @@
 .RGtank {
-  margin-top: 300px;
-  margin-bottom: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 20%;
 }
 
 .RGfooterImg {
   position: absolute;
-  z-index: 0;
 }
 
 .RGfooterText {
   position: absolute;
   z-index: 1;
   color: white;
-  margin-top: 100px;
+  margin-top: 4%;
   font-size: 20px;
   text-align: center;
   padding: 2% 8%;
   border-radius: 10px;
-  background: linear-gradient(
-    to Right,
-    rgba(239, 77, 37, 0.7),
-    rgba(239, 77, 37, 0.7)
-  );
 }
 
 .RGfbtn {
   background: white;
   color: rgb(239, 77, 37);
   padding: 10px 50px;
-  border-radius: 50px;
+  border-radius: 5%;
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;

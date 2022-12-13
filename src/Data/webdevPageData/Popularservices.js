@@ -138,14 +138,14 @@ export const javawebDevServices = {
       alt: "mobiledev.png",
       serviceTitle: "Java mobile Applications",
       serviceDesc:
-        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+        "Java is a popular programming language that can be used to develop mobile apps. The programming language is supported by Android Studio and facilitates secure and efficient development for a wide range of mobile applications. ",
     },
     {
       icon: "Images/javapage/Desktop.png",
       alt: "desktop",
       serviceTitle: "Desktop GUI Applictions",
       serviceDesc:
-        "We use Java and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
+        "We are your one-stop solution for creating amazing Java apps quickly and easily. The intuitive user interface lets you focus on coding while the built-in tools streamline development efforts. With tools like code analysis, error checking, and auto-completion.",
     },
     {
       icon: "Images/javapage/appdev.png",
@@ -159,14 +159,14 @@ export const javawebDevServices = {
       alt: "server.png",
       serviceTitle: "Java Web Servers",
       serviceDesc:
-        "Bottom Funnel is the best Java development company that offers migration services for your existing Java application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+        "We all know how important it is to choose the best when it comes to java web servers. And that's why we are here! We have been in this domain for a long time, and we have mastered it as well. That's why our product is the best in market.",
     },
     {
       icon: "Images/javapage/Company.png",
       alt: "company.png",
       serviceTitle: "Enterprise Applications",
       serviceDesc:
-        "A quick way to build app is using Java and its frameworks. Java is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
+        "Bottom funnel java development is the cusp of a new age for enterprise applications. Bottom funnel java development encompasses a wide gamut of platforms that allow users to access computing power from any kind of device, be it a PC, tablet, or smartphone.",
     },
 
     {
@@ -174,14 +174,14 @@ export const javawebDevServices = {
       alt: "molecule.png",
       serviceTitle: "Java Scientific Applications",
       serviceDesc:
-        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+        "Java scientific applications with ease so that you do not face any difficulty while developing or using such application. The platform offers all necessary software and tools to develop an app from scratch, including interactive features like real-time analytics, fraud detection etc.",
     },
     {
       icon: "Images/javapage/Database.png",
       alt: "database.png",
       serviceTitle: "Java Big Data Technologies",
       serviceDesc:
-        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+        "Java technologies like Java big data and analytics help businesses gain insights about their customers, predict future trends, and develop scalable systems. Bottom funnel offers comprehensive training courses on Java technologies that teach how to build large-scale real-time apps.",
     },
   ],
 };
@@ -189,42 +189,42 @@ export const javawebDevServices = {
 export const pythonwebDevServices = {
   title: "Python Development",
   description:
-    "We have developed years of expertise in creating world-class websites and apps using Python. We offer comprehensive services that include application design, coding, testing, deployment, and maintenance so you can sleep easy knowing your website will be up and running smoothly day after day.",
+    "Bottom funnel is a Python development platform that has everything you need to rapidly build high-quality web and mobile applications. Whether you're new to programming or an experienced professional, bottom funnel's extensive features and tools will help you achieve your goals. We offer the latest in web technologies, so your applications are always up-to-date and forward-thinking. With our comprehensive documentation and support team, you can be sure that your projects will run smoothly from start to finish.",
   serviceCard: [
     {
       icon: "Images/pythonpage/uidesign.png",
       alt: "uidesign.png",
       serviceTitle: "Python UI Design",
       serviceDesc:
-        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+        "It has a wide range of features that make it suitable for this type of work, such as its powerful graphical interface and robust library of modules. Additionally, its modularity makes it easy to use different libraries for specific tasks, making it easier to create tailored designs.",
     },
     {
       icon: "Images/pythonpage/webcrawl.png",
       alt: "webcrawl",
       serviceTitle: "Python Web Crawler Development",
       serviceDesc:
-        "We use Python and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
+        "Our team is made up of experts in their respective fields, who are committed to providing our clients with world-class service. Which allows us to capture data from every page on the Internet. ",
     },
     {
       icon: "Images/pythonpage/desktopapp.png",
       alt: "desktopapp.png",
       serviceTitle: "Python Desktop Application Development",
       serviceDesc:
-        "With Python, you can easily create web applications that run smoothly on any device without causing any errors. From backend to frontend, everything is organized in such a way that it'll be easy for you to understand how the whole system works.",
+        "We offer the latest in desktop application development Our team of experts has years of experience working with Python, so you can rest assured that your project will be handled with care.",
     },
     {
       icon: "Images/pythonpage/websitedev.png",
       alt: "websitedev.png",
       serviceTitle: "Python Dynamic Website Development",
       serviceDesc:
-        "Bottom Funnel is the best Python development company that offers migration services for your existing Python application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+        "Our team of seasoned Python developers understands the importance of user-friendly software. We use Python Dynamic Website Development to create websites that are easy to navigate,also generating sales through mobile traffic.",
     },
     {
       icon: "Images/pythonpage/content.png",
       alt: "content.png",
       serviceTitle: "Python Content Parsing",
       serviceDesc:
-        "A quick way to build app is using Python and its frameworks. Python is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
+        "Our teams of experts develops python content parsing libraries! With its comprehensive support for all major formats like JSON and XML files as well as text files, this library saves you time on implementation and maintenance.",
     },
 
     {
@@ -232,56 +232,56 @@ export const pythonwebDevServices = {
       alt: "filterdata.png",
       serviceTitle: "Python Data Extraction",
       serviceDesc:
-        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+        "We provide end-to-end data extraction services that enable you to easily leverage insights from your data. Our team of experienced professionals understands the importance of extracting valuable information from your database.",
     },
     {
       icon: "Images/pythonpage/Responsive.png",
       alt: "responsive.png",
-      serviceTitle: "Responsive Web Development",
+      serviceTitle: "Automation or scripting",
       serviceDesc:
-        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+        "Bottom funnel web development can help you do just that. With this new internet marketing strategy, you can easily become a true leader in your niche by automating boring tasks and streamlining processes with scripting or coding knowledge.",
     },
   ],
 };
 export const rubywebDevServices = {
   title: "Ruby Development",
   description:
-    "We have developed years of expertise in creating world-class websites and apps using Ruby. We offer comprehensive services that include application design, coding, testing, deployment, and maintenance so you can sleep easy knowing your website will be up and running smoothly day after day.",
+    "Ruby is becoming more and more popular these days. This development language has some of the best apps and frameworks that help you build awesome things. And when it comes to installing them, you don't have to worry about it. We make sure that there are tracks for your app to run on by adding rails support in the app itself.",
   serviceCard: [
     {
       icon: "Images/rubypage/websiteDev.png",
       alt: "websiteDev.png",
       serviceTitle: "Web-based Applications",
       serviceDesc:
-        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+        "We provides you comprehensive and comprehensive services in Ruby on Rails. You can easily develop complex web-based applications with the help of this platform. It is also easy to modify the existing code and add new features.",
     },
     {
       icon: "Images/rubypage/Ecommerce.png",
       alt: "Ecommerce",
       serviceTitle: "E-commerce Development",
       serviceDesc:
-        "We use Ruby and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
+        "Ruby on Rails development service by us ensures that your e-commerce website gets installed in no time at all. We offer best possible solutions to your problems, and deliver what you want within shortest possible time frames.",
     },
     {
       icon: "Images/rubypage/automation.png",
       alt: "automation.png",
       serviceTitle: "Task Automation",
       serviceDesc:
-        "With Ruby, you can easily create web applications that run smoothly on any device without causing any errors. From backend to frontend, everything is organized in such a way that it'll be easy for you to understand how the whole system works.",
+        "With our expertise, we'll take care of all the stages from project planning to release management and automation. We partner with the best in the industry so that you get the best possible output.",
     },
     {
       icon: "Images/rubypage/scrapping.png",
       alt: "scrapping.png",
       serviceTitle: "Web Scrapping",
       serviceDesc:
-        "Bottom Funnel is the best Ruby development company that offers migration services for your existing Ruby application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+        "Our web scraping in ruby is a classy process. It is done on the basis of real-time changes, and it never fails to return results. We have exceptional expertise with this scripting language, and we use it regularly for any project that requires frequent data access.",
     },
     {
       icon: "Images/rubypage/Database.png",
       alt: "Database.png",
       serviceTitle: "Database interaction",
       serviceDesc:
-        "A quick way to build app is using Ruby and its frameworks. Ruby is a platform for building web applications that run on Windows or IOS devices. It uses C# programming language which is easy for beginners but powerful enough for experts as well!",
+        "We have extensive experience with both MySQL and PostgreSQL, and can help you scale your database interaction quickly and accurately. We offer a range of services, from basic installation through complex ad hoc queries, including monitoring for errors or performance issues.",
     },
 
     {
@@ -289,7 +289,7 @@ export const rubywebDevServices = {
       alt: "dataprocess.png",
       serviceTitle: "Data Processing",
       serviceDesc:
-        "With the help of experts like us, you can be sure that your project will be handled by professionals who understand the ins and outs of this technology. We have years of experience working with clients to build their dreams in the form of websites, apps, and more.",
+        "We are the authority on Ruby development and help organizations harness the power of this language for their data processing needs. With the help of our experienced ruby Developers data Processing in ruby can be so simple that you wonder how it can be as effective as it is.",
     },
     {
       icon: "Images/rubypage/gamedev.png",
@@ -303,19 +303,19 @@ export const rubywebDevServices = {
 export const golangwebDevServices = {
   title: "Golang Development",
   description:
-    "We have developed years of expertise in creating world-class websites and apps using Golang. We offer comprehensive services that include application design, coding, testing, deployment, and maintenance so you can sleep easy knowing your website will be up and running smoothly day after day.",
+    "Go is becoming a favorite programming language these days by startups, big companies, and everyone in-between. At Bout, we think that's great news for our clients! We've assembled a team of Golang experts who can help you build your next big idea. From customer signups to sending real-time updates on Instagram, we're there every step of the way - with expertise and speed to match.",
   serviceCard: [
     {
       icon: "Images/golangpage/secure.png",
       alt: "secure.png",
-      serviceTitle: "Safe and Secure Code",
+      serviceTitle: "Distributed Network Services",
       serviceDesc:
-        "With our sophisticated database development framework and expertise, your site will be up and running in no time. We have experience working with all major databases including MySQL, SQL Server, Oracle, PostgreSQL, and more.",
+        "With the emergence of new technologies and ideas, now is the time for us all to understand what makes distributed systems tick. By diving into the world of bottom funnel software development, you can get an edge on future trends as they progress and evolve.",
     },
     {
       icon: "Images/golangpage/library.png",
       alt: "library",
-      serviceTitle: "Smart Library Access",
+      serviceTitle: "Cloud-Native Development",
       serviceDesc:
         "We use Golang and its frameworks to develop web applications and websites for our clients. With years of experience, we have built robust applications that support all types of requirements, from small shops to large enterprises.",
     },

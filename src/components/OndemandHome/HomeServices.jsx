@@ -25,7 +25,7 @@ const HomeServices = () => {
       serviceimage: "Images/ondemandHome/cleaning.png",
       serviceDescription:
         "Increase profits and grow your business with customizable, on-demand home services of cleaning through an App",
-      serviceName: " Cleaning",
+      serviceName: "Cleaning",
     },
     {
       serviceimage: "Images/ondemandHome/washing.png",

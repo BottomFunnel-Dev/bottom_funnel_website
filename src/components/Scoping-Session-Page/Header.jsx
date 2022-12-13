@@ -20,7 +20,7 @@ const Header = () => {
         <div className="RGimageDiv">
           <img
             width="100%"
-            src="Images/Scoping-Session-Page/Banners-&-Background/banner.png"
+            src="Images/Scoping-Session/Banners-&-Background/Component77.png"
             alt=""
           />
         </div>

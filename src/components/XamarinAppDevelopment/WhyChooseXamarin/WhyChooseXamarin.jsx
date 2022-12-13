@@ -19,7 +19,7 @@ export const WhyChooseXamarin = () => {
                 </p>
              </div>
              <div className="whyChooseContentImage">
-                <img src="Images/Xamarin/group.png"/>
+                <img src="Images/Xamarin/Group.png"/>
              </div>
            </div>
        {/* </div> */}

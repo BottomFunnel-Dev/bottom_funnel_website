@@ -39,112 +39,112 @@ export const whyAspnet = {
 
 export const whyJava = {
   heading: "Java",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+  desc: "Java is a popular programming language that has been used to develop websites for over two decades. It offers readability, robustness, and versatility, which makes it an ideal choice for web development. Additionally, Java is known for its stability and cross-platform compatibility – making it a great option whether you are developing on a Mac or PC. Java also offers fast performance due to its engineered architecture, so your website will load quickly no matter what device or browser is being used. And lastly, Java provides developers with tools and libraries that make development easier overall.",
 
   cardData: [
     {
-      title: "Lightweight",
+      title: "Platform Independent",  
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Java is one of the most used languages for web development. The reason behind this is that, it's cross-platform and highly portable. So, you can use the same code in different platforms with ease. This makes Java an excellent choice for automation projects as well!",
     },
     {
-      title: "Powerful Abstraction",
+      title: "Highly Secure",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Java is one of the most secure programming languages. It has inbuilt security features like advanced authentication, cryptography and access control which made it highly useful for web development. With these features, a developer can use its comprehensive API including secure login mechanisms, digital signatures, cyphers and more. ",
     },
     {
-      title: "Easy to Test",
+      title: "Supports Multi-threading",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Java not only can you write apps that run faster, they're also better protected against attacks and errors thanks to its multi-threading capabilities. Plus, when you use tools like Vertabelo Studio, your development process becomes smoother and more efficient!",
     },
     {
-      title: "Loose Coupling",
+      title: "Scalable",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "With the help of Java, you can build scalable solutions for demanding projects without sacrificing performance or scalability. Thanks to the versatile nature of Java, you can adapt your solution to meet any new requirements that arise.",
     },
     {
-      title: "Open Source",
+      title: "Rich Set of APIs",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Java is one language which has rich set of APIs that can be used by developers. This makes java programming easier and more efficient than any other language. With top java web development firm, you will never have to worry about finding any APIs as they are freely available to many of the Java developers.",
     },
     {
-      title: "Provides Rich Libraries",
+      title: "Strong Community Support",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Being a part of the Java community is surely an experience to cherish. With its huge database where people share their knowledge, discuss and help each other, it is a boon for any beginner or intermediate Java developer. Not just that, there are forums, groups and meetups where they can improve their skills while interacting with like-minded people.",
     },
   ],
 };
 export const whyPython = {
   heading: "Python",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+  desc: "Python can be a powerful tool for web development because it is versatile, efficient, and has an expansive ecosystem of libraries and tools that make developing digital applications easier. Additionally, Python supports object-oriented programming (OOP), which makes code more modular and organized. This makes it easy to maintain your codebase as well as develop new features. Python also has a high performance profile when compared to other languages, so you can be sure that your websites will run quickly without wasting time on unnecessary processing tasks.",
 
   cardData: [
     {
       title: "Easy to Use",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Python is an easy to use, easy to learn, intuitive, and well structured language. It uses spaces in place of special characters and uses braces to indicate the start and end of a block of code. The enhancements make it possible to access the syntax, options, and parameters of the code easily. ",
     },
     {
-      title: "Widely Applicable",
+      title: "Supports SEO",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Python is one of the most human-readable programming languages, which makes it a great choice for your website’s SEO. Django is helpful in terms of building hyperlinks that are relevant to the keywords that are being used and which follow best SEO practices.",
+    },
+    { 
+      title: "Open-Source",
+      description:
+        "Python is an open-source language that enables you to use the language freely and change its code along with distributing it to other developers. Python is considered one of the most popular programming languages of all time and its popularity is only increasing day by day.",
     },
     {
-      title: "Built-in Data Structures",
+      title: "Scalability",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "When choosing a programming language, scalability is a key consideration for both enterprises and start-ups. Python is a high-scalability language that allows for easy addition, removal, alteration, and modification of codes. Because of the large traffic loads that your applications can handle, they will be very scalable.",
     },
     {
-      title: "Object Oriented",
+      title: "Community & Libraries",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
-    },
-    {
-      title: "Lots of Libraries",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Python comes with a large and active community, which offers speedy support whenever developers run into any issues. Python offers a wealth of libraries that offer quick and easy support for developers in the event they encounter any difficulties.",
     },
     {
       title: "Highly Compatible",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Python is widely considered to be a popular choice for application development because it is compatible with many major systems and platforms. It is possible to run Python code on several platforms and tools because it supports many different operating systems and platforms. because it supports many different operating systems and platforms.",
     },
   ],
 };
 export const whyRuby = {
   heading: "Ruby",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+  desc: "Ruby is a versatile, high-performance language that excels in web development. This language was specifically designed for developing websites and has many features that make it stand out from other languages. Some of the benefits of using Ruby include its ease of use, readability, speed, and snappiness. Additionally, Ruby is known to be robust when it comes to security and performance. In fact, it has been ranked as the fifth most popular programming language on GitHub by users. As such, developers who are looking for a versatile and fast platform should consider picking up this language in their arsenal.",
 
   cardData: [
     {
       title: "Extremely Secure",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Ruby is considered to be one of the best programming languages and is trusted by developers for this very reason. The focus of Ruby is on ensuring that the solutions created on its platform are secure. The secure environment on Ruby allows organizations to protect all forms of sensitive data and make sure that it is not accessible to unauthorized users.",
     },
     {
       title: "Easy changes",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Ruby is a simple programming language that makes it easy for developers to make changes to their codes. It is common for developers to know that most projects require a lot of changes, which are easy to work with in ruby. It can be a valuable tool for businesses that are attempting to do more with their resources.",
     },
     {
       title: "Consistent in Nature",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Perhaps the biggest benefit of using Ruby is that it is generally consistent in nature. The syntax for Ruby is generally consistent and allows you to build skills and solutions without learning a lot of new things. You can create programs in the language without going through a significant learning curve.",
     },
     {
       title: "Faster Processing",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "It is a lot easier for developers to configure and develop solutions on Ruby. The programming language comes with multi-threading or native thread support, which can allow the solution to operate multiple programs at one time without slowing down your system at any time. ",
     },
     {
       title: "Open Source",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Ruby is open source in nature, which gives developers the feasibility to share their codes with other programmers. The open-source network can help make programming easier for new beginners. All users can gain access to helpful codes and can use them in their solutions.",
     },
     {
       title: "Flexible",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "It is extremely flexible to use and comes with an open-source library. The flexibility offered by Ruby helps give developers the option to add multiple objects and methods to the solution. ROR developers can add objects to all existing classes without disrupting stability in any way. This can help developers make flexible APIs.",
     },
   ],
 };

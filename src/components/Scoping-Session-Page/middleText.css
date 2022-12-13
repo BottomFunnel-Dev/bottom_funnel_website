@@ -1,13 +1,13 @@
 .RGcontainer {
     width: 90%;
     margin: auto;
-    border: 1px soild red;
     text-align: left;
+    margin-bottom: 5%;
 }
 
 
 
-.RGspanText {
+.RGspanTextScoping {
     color: #ef4c23;
     font-size: 40px;
 
@@ -15,10 +15,11 @@
 
 .RGhead {
     font-size: 40px;
+    width: 55%;
 }
 
 .RGpara {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 1%;
+    width: 57%;
 }
-

@@ -26,290 +26,185 @@ export const aspstackIntro = {
   ],
 };
 
-export const javastackIntro = {
+export const javastackIntro = { 
   heading: "Java",
-  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-    in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-    fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-    Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-    eaque.`,
+  description: `Java is a computer programming language that enables developers to create sophisticated applications quickly and easily.  Java is one of the most common languages used today for developing web apps, desktop applications, mobile apps, and gaming platforms.
+
+  Java provides a well-defined structure for code organization that makes it easy to read and maintain. Additionally, Java inherently supports object-oriented design principles which make your software more manageable and reusable.`,
   aspstack: [
     {
       stackName: "Grails",
       stackIcon: "Images/webdevmain/frameworkIcons/java/Grails.png",
       alt: "grails.png",
-      description: `
-                sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                eaque.`,
+      description: `Grails is a framework that makes developing web applications much simpler and faster. It provides developers with all the essentials they need to build Java-based websites, including an intuitive domain model, comprehensive routing system, efficient batch processing capabilities, and rich multimedia support. Grail supports MVC frameworks such as Spring and Hibernate but can be used with any JVM-based project architecture that you are comfortable with. Additionally, Grails provides a rich set of tools for dependency management, testing, deployment automation, monitoring, mapping/referencing resources across multiple applications or tiers in your infrastructure.`,
     },
     {
       stackName: "GWT",
       stackIcon: "Images/webdevmain/frameworkIcons/java/gwt.png",
       alt: "gwt.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                `,
+      description: `GWT stands for Google Web Toolkit, and it is a Java-based tool that allows developers to create mobile apps using HTML, CSS, and JavaScript. GWT makes it easy to create hybrid projects that integrate web content with native applications. This means that you can take advantage of the great user experience that has been developed on Android and iOS devices while still maintaining complete control over the look and feel of your app.
+      GWT also includes tools for testing your apps on various platforms so you can be confident they will work well when released to the public. And lastly, GWT provides ancilliary functions like data binding and animation which can help make your development process smoother overall.`,
     },
     {
       stackName: "Hibernate",
       stackIcon: "Images/webdevmain/frameworkIcons/java/hibernate.png",
       alt: "hibernate.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-              
-                in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                eaque.`,
+      description: `Hibernate is a Java development tool that allows you to store and access data in the database across multiple applications. This can be useful for developing large-scale applications or web apps that need to stay synced with changes made in other parts of the system. It provides an API so that you can write code using standard JDBC techniques and have Hibernate handle all the messy details of managing your data.
+
+      Hibernates ability to package up your application's dependencies into JAR files also makes deployment much easier. `,
     },
     {
       stackName: "JSF",
       stackIcon: "Images/webdevmain/frameworkIcons/java/jsf.png",
       alt: "jsf.png",
-      description: `
-                in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `JavaServer Faces (JSF) is a component-based technology for building user interfaces in Java. It provides a modular, extension-oriented framework that makes it easy to develop composable components using standard reusable API's.
+
+      JSF enables you to build uniform and optimized user interfaces across multiple platforms by treating the presentation layer as just another container provider like HTTP or JDBC. This allows your applications to be flexible and easily adapted to new workflows, devices, or web browsers without having to rewrite any code.`,
     },
     {
       stackName: "Spring",
       stackIcon: "Images/webdevmain/frameworkIcons/java/Spring.png",
       alt: "spring.png",
-      description: `
-                in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `Spring provides a platform for developing robust web applications that can be easily scalable. It also has features such as MVC (Model View Controller) frameworks and Dependency Injection which make it ideal for building modular, loosely coupled architectures. Additionally, Spring supports various languages including Java and JavaScript which makes it well-suited for both enterprise-level applications as well as small single page apps (SPAs).
+
+      `,
     },
     {
       stackName: "Play",
       stackIcon: "Images/webdevmain/frameworkIcons/java/play.png",
       alt: "play.png",
-      description: `
-                in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `Play is a library for developing reactive applications in Java. It makes it easy to handle asynchronous operations and events, provides tooling for testing your code, and integrates with various software development tools. By using Play, you can easily create stateful components that are triggered by various events or user interactions. This makes it easier to write maintainable and testable apps that are responsive and interactive. Additionally, Play offers an event-driven model for exchanging data between different parts of the application without having to use any heavyweight messaging systems. `,
     },
     {
       stackName: "Quarkus",
       stackIcon: "Images/webdevmain/frameworkIcons/java/Quarkus.png",
       alt: "Quarkus.png",
-      description: `
-                in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `Quarkus is a JVM-based toolkit for creating, managing, and deploying distributed systems. It provides developers with an intuitive environment for developing applications that require reliability, scalability, and fault tolerance. Quarkus helps to automate many common tasks such as system administration tasks (such as deployment), monitoring, logging/ tracing, streaming data processing (including real-time analysis), and messaging orchestration.`,
     },
   ],
 };
 
 export const pythonstackIntro = {
   heading: "Python",
-  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-      in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-      fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-      Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-      eaque.`,
+  description: `Python is a high-level, interpreted, general-purpose programming language. It has a wide variety of applications, including web development and data science. Tt is considered to be one of the most versatile languages available today because it can be used for complex tasks as well as simple ones.
+
+  Python also allows you to write code more efficiently than many other programming languages due to its concise syntax and powerful built-in libraries. This makes Python an ideal choice for developers who want easy access to all the functionality that exists within software systems.`,
   aspstack: [
     {
       stackName: "Bottle",
       stackIcon: "Images/webdevmain/frameworkIcons/python/bottle.png",
       alt: "bottle.png",
-      description: `
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `Bottle Framework is a library for building custom automated test suites in Python. It makes it easy to write reusable tests that exercise your codebase from the perspective of various inputs and outputs. This can be helpful when you want to ensure that your code works as expected under different conditions or when you need to verify certain business rules.`,
     },
     {
       stackName: "CherryPy",
       stackIcon: "Images/webdevmain/frameworkIcons/python/cherrypy.png",
       alt: "cherrypy.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  `,
+      description: `CherryPy is a Python web framework that makes it easy to build, deploy, and manage dynamic websites. It runs on top of the powerful WSGI interface and provides an intuitive toolkit for developing well- behaved Web applications. CherryPy also has plenty of features so you can easily optimize your website for performance and ease of use.`,
     },
     {
       stackName: "Django",
       stackIcon: "Images/webdevmain/frameworkIcons/python/Django.png",
       alt: "Django.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `Django is a Python web development framework that allows you to create high-performance, scalable websites. It provides an easy-to-use modular architecture that makes it suitable for both beginner and experienced developers. Additionally, Django has been proven to be reliable and secure, making it ideal for online businesses.
+      One of the main advantages of using Django is its ease of use. You can quickly create robust websites without having to learn complicated coding techniques.`,
     },
     {
       stackName: "Flask",
       stackIcon: "Images/webdevmain/frameworkIcons/python/flask.png",
       alt: "flask.png",
-      description: `
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `Flask is a microframework for Python that helps you to build web applications in a more concise and easier way. It provides an easy-to-use object oriented API, supports multiple backends (SQLAlchemy, Memcache, NGINX), and has an extensible design. Additionally, Flask offers various tools that make it ideal for developing interactive websites such as React or AngularJS applications.`,
     },
     {
       stackName: "Web2Py",
       stackIcon: "Images/webdevmain/frameworkIcons/python/web2py.png",
       alt: "web2py.png",
-      description: `
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `Web2Py is a Python web development framework. It makes it easy to build dynamic and interactive websites using the Python language. Web2Py helps you create reusable components, sequences of commands that can be executed as a script or deployed as an application, and services that can receive requests from clients and respond in ways convenient for your business.`,
     },
   ],
 };
 
 export const rubystackIntro = {
   heading: "Ruby",
-  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-      in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-      fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-      Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-      eaque.`,
+  description: `Ruby is a versatile and powerful programming language that makes it easy to develop web applications, desktop apps, and mobile apps. It is one of the most popular languages for developing robust web applications. Additionally, because it supports Object Oriented Programming (OOP),Ruby can be used to create sophisticated software systems.`,
   aspstack: [
     {
       stackName: "Rails",
       stackIcon: "Images/webdevmain/frameworkIcons/ruby/rails.png",
       alt: "rails.png",
-      description: `
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `Rails is a web development framework that makes it easy to build dynamic web applications. ruby on rails uses an MVC (model/view/controller) structure for developing websites. This means that you'll need to design your website in three separate layers – the model (containing data), the view (which displays the data), and the controller (which manages user interaction).`,
     },
     {
       stackName: "Cuba",
       stackIcon: "Images/webdevmain/frameworkIcons/ruby/cuba.png",
       alt: "cuba.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  `,
+      description: `Cuba is a Ruby micro framework for web development. It is light, small and fast. Like other frameworks, it allows you to speed up the creation of custom applications. It can be extended by integration of templates and test libraries. Using Tilt, it integrates many templates with each other, and thanks to Cutest and Capybara, it enables testing.`,
     },
     {
       stackName: "Hanami",
       stackIcon: "Images/webdevmain/frameworkIcons/ruby/Hanami.png",
       alt: "Hanami.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `Hanami consists of simple and small Ruby libraries. The main advantage of this framework is to simplify the creation of custom web applications. This is done by forcing an appropriate code structure and delivering ready-made libraries. The aim of the Hanami authors was to develop a framework for creating web applications that uses less memory than other Ruby frameworks. Hanami is built on the principle of separation in the file structure - between what happens in the front-end and back-end.`,
     },
     {
       stackName: "Padrino",
       stackIcon: "Images/webdevmain/frameworkIcons/ruby/padrino.png",
       alt: "padrino.png",
-      description: `
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `padrino is an open - source web framework based on another framework - Sinatra. it depends on the interface of the Rack network server. Padrino is primarily intended for mounting many applications. It is characterized by a simple and light construction. This framework accelerates the creation of custom web applications. With the use of it, developers can work with many tests and database libraries.`,
     },
     {
       stackName: "Roda",
       stackIcon: "Images/webdevmain/frameworkIcons/ruby/roda.png",
       alt: "roda.png",
-      description: `
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `Roda is a lightweight and productive framework for building web applications using Ruby. as mentioned in Roda’s website ,Roda is designed to be simple, both internally and externally, reducing cognitive overhead. Roda uses a routing tree which means At any point during routing, it allows you to operate on the current request.`,
     },
     {
       stackName: "Sinatra",
       stackIcon: "Images/webdevmain/frameworkIcons/ruby/sinatra.png",
       alt: "sinatra.png",
-      description: `
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `Sinatra is also used to create web applications. It depends on the interface of the Rack network server. It is not based on the MVC model, which differs this framework from the abovementioned Ruby on Rails. Sinatra is based on the general principle of fast application development while maintaining the minimum effort.`,
     },
   ],
 };
 export const golangstackIntro = {
   heading: "Golang",
-  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-      in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-      fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-      Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-      eaque.`,
+  description: `Golang is a programming language that was designed to be efficient and fast. It has many features that make it stand out from other languages, such as dynamic typing and nil values. golang also supports goroutines (a type of parallel processing), which makes it ideal for high-performance applications. It runs on different platforms such as Linux, MacOS, and Windows.`,
   aspstack: [
     {
       stackName: "Gin",
       stackIcon: "Images/webdevmain/frameworkIcons/golang/gin.png",
       alt: "gin.png",
-      description: `
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `Git is the top framework of Golang. It is the best choice if you have a small team and want to build a single-page application. It's easy to use, modern, and scalable. With its excellent documentation available on GitHub, it's perfect for beginners and uses HTTP routers to handle Golang traffic. It is the best Golang framework for creating high-performance REST APIs since it supports the most crucial libraries and features.`,
     },
     {
       stackName: "Echo",
       stackIcon: "Images/webdevmain/frameworkIcons/golang/echo.png",
       alt: "echo.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  `,
+      description: `Echo framework has been around for some time now and gained a lot of popularity because of its lightweight nature and high-performance. This makes it perfect for quick prototyping without any code repetition. With Echo framework, you can create your own navigable API using HTTP/2 support, efficient router which intelligently prioritizes routes, auto-installs TLS certificates and more! Plus it's easy to configure with many built-in middlewares so you can create a dependable application quickly!`,
     },
     {
       stackName: "Gorilla",
       stackIcon: "Images/webdevmain/frameworkIcons/golang/gorilla.png",
       alt: "gorilla.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `With Gorilla, Golang is the new D. You don't have to worry about tradeoffs or compromises anymore. Regularly used features are supported by Gorilla, so your code will be semantically correct and stable from day one. The framework has a modular structure that allows developers to easily swap out parts of the application without affecting other modules. The advanced scalability feature also comes in handy here, because it enables you to add more servers and database servers as your application grows.`,
     },
     {
       stackName: "Iris Golang",
       stackIcon: "Images/webdevmain/frameworkIcons/golang/irisgolang.png",
       alt: "irisgolang.png",
-      description: `
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `Iris is a cross-platform web framework that makes it easy to build high-performance web applications. Build your own high-performance web applications and APIs powered by unlimited potentials and portability.
+
+      Consider Iris to be express.js for the Go Programming Language. With a rich set of features, superior performance, and ability to deploy as a serverless application on AWS and Netlify, Iris is poised to become the next big thing in website development!`,
     },
     {
       stackName: "Revel",
       stackIcon: "Images/webdevmain/frameworkIcons/golang/revel.png",
       alt: "revel.png",
-      description: `
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: ` easy for developers to handle HTTP requests in a more efficient and scalable way. Specifically, Revel.In offers several features that make it easier than ever to process requests and reduce the amount of traffic your website experiences. These features include:
+      Revel.In uses modular architecture which makes it easy to add new functionality without affecting the rest of the software
+      It provides support for Goroutines, allowing them to run in parallel on multi-core machines
+      It supports streaming responses from backend servers, so there is no need to wait until all requests are processed before responding dynamically
+      `,
     },
   ],
 };
