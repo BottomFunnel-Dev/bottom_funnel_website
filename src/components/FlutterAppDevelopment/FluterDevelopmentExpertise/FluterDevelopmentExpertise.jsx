@@ -10,7 +10,7 @@ export const FluterDevelopmentExpertise = () => {
             <div className='flutterDevelopmentExpertiseIconOuterBox'>
                     <div className='flutterDevelopmentExpertiseContainerDiv'>
                             <div className='flutterDevelopmentExpertiseIcon'>
-                                <img src='Images/FlutterDevelopment/icons/platform 2.png'/>
+                                <img src='Images/FlutterDevelopment/Icons/platform 2.png'/>
                             </div>
                             <div className='flutterDevelopmentExpertiseIconHeading'>
                                 <h4>Cross-Platform App Development</h4>
@@ -19,7 +19,7 @@ export const FluterDevelopmentExpertise = () => {
                     </div>
                     <div className='flutterDevelopmentExpertiseContainerDiv'>
                             <div className='flutterDevelopmentExpertiseIcon'>
-                                <img src='Images/FlutterDevelopment/icons/approved 2.png'/>
+                                <img src='Images/FlutterDevelopment/Icons/approved2.png'/>
                             </div>
                             <div className='flutterDevelopmentExpertiseIconHeading'>
                                 <h4>Hire Developers</h4>
@@ -30,7 +30,7 @@ export const FluterDevelopmentExpertise = () => {
                 <div className='flutterDevelopmentExpertiseIconOuterBox'>
                     <div className='flutterDevelopmentExpertiseContainerDiv'>
                             <div className='flutterDevelopmentExpertiseIcon'>
-                            <img src='Images/FlutterDevelopment/icons/bulb.png'/>
+                            <img src='Images/FlutterDevelopment/Icons/bulb.png'/>
                             </div>
                             <div className='flutterDevelopmentExpertiseIconHeading'>
                                 <h4>Industry-Specific Solutions</h4>
@@ -39,7 +39,7 @@ export const FluterDevelopmentExpertise = () => {
                     </div>
                     <div className='flutterDevelopmentExpertiseContainerDiv'>
                             <div className='flutterDevelopmentExpertiseIcon'>
-                                <img src='Images/FlutterDevelopment/icons/technical-support 2.png'/>
+                                <img src='Images/FlutterDevelopment/Icons/technical-support 2.png'/>
                             </div>
                             <div className='flutterDevelopmentExpertiseIconHeading'>
                                 <h4>End-to-End Support and Maintenance</h4>

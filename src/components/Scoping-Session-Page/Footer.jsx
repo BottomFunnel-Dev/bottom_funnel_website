@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="RGfooterImg">
         <img
           width="100%"
-          src="Images/Scoping-Session-Page/Banners-&-Background/mid-banner.png"
+          src="Images/Scoping-Session/Banners-&-Background/Group340060.png"
           alt=""
         />
       </div>

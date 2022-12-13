@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import { Advantages } from './Advantages/Advantages'
 import { ReactNativeAppDevelopmentBanner } from './ReactNativeAppDevelopmentBanner/ReactNativeAppDevelopmentBanner'
 import { ReactNativeAppDevelopmentContain } from './ReactNativeAppDevelopmentContain/ReactNativeAppDevelopmentContain'
@@ -18,6 +20,10 @@ import MainFooter from "../FooterSection/MainFooter";
 import { Helmet } from "react-helmet";
 
 export const ReactNativeAppDevelopment = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+  }, []);
   return (
     <div>
         <ReactNativeAppDevelopmentBanner/>

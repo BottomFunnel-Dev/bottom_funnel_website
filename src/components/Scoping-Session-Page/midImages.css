@@ -1,4 +1,4 @@
-.RGmain {
+/* .RGmain {
   display: flex;
   margin-top: 50px;
   position: relative;
@@ -24,4 +24,38 @@
   text-align: left;
   font-size: 20px;
   width: 50%;
+} */
+
+.RGMidImgContainer {
+  display: flex;
+   position: relative;
+   align-items: center;
+   width: 100%;
 }
+
+.RGleftImgDiv {
+   width: 60%;
+}
+
+
+.RGrightImgDiv  {
+    width: 50%;
+   position: absolute;
+   right: 3%;
+}
+
+
+img {
+width: 100%;
+}
+
+.RGimgText {
+   position: absolute;
+   left: 5%;
+   font-size: 20px;
+   color: white;
+   line-height: 30px;
+   word-spacing: 2px;
+}
+
+

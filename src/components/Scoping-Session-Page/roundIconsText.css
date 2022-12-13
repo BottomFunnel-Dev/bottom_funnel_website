@@ -1,10 +1,191 @@
-.RGbox {
-  margin-top: 50px;
+.RGroundIconsBoxContainer {
+ margin-top: 10%;
+}
+
+
+
+.RGroundIconsBoxContainer {
+ position: relative;
+}
+
+.RGtextDiv {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  right: 12%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.RGroundIconTextMainBox {
+  width: 90%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+ 
+ 
+}
+
+.RGroundIconTextMainBox > div {
+  width: 22%;
+  height: 390px;
+}
+
+.RGRoundIconTextDivOne {
+  position: relative;
+}
+
+.RGRoundIconTextDivTwo {
+  position: relative;
+}
+
+.RGRoundIconTextDivThree {
+  position: relative;
+}
+
+.RGRoundIconTextDivFour {
+  position: relative;
+}
+
+
+.RGbackgroundIcon1 {
+ display: flex;
+ justify-content: center;
+}
+
+.RGbackgroundIcon1 > img {
+  width: 75%;
+}
+
+.RGbackgroundIcon2 {
+  display: flex;
+  justify-content: center;
+ }
+
+ .RGbackgroundIcon2 > img {
+  width: 75%;
+}
+
+ .RGbackgroundIcon3 {
+  display: flex;
+  justify-content: center;
+ }
+
+ .RGbackgroundIcon3 > img {
+  width: 75%;
+}
+
+ .RGbackgroundIcon4 {
+  display: flex;
+  justify-content: center;
+ }
+
+ .RGbackgroundIcon4 > img {
+  width: 75%;
+}
+
+
+.RGiconImg1 {
+ position: absolute;
+  top: 8%;
+  right: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.RGiconImg2 {
+  position: absolute;
+   top: 8%;
+   right: 35%;
+   display: flex;
+   justify-content: center;
+}
+
+.RGiconImg3 {
+  position: absolute;
+   top: 8%;
+   right: 35%;
+   display: flex;
+   justify-content: center;
+}
+
+.RGiconImg4 {
+  position: absolute;
+   top: 8%;
+   right: 35%;
+   display: flex;
+   justify-content: center;
+}
+
+.RGsmalltext1 {
+  width: 20%;
+  position: absolute;
+  top: 35%;
+  left:37%;
+  color: white;
+  text-align: center;
+  
+}
+
+.RGsmalltext2 {
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    left:35%;
+    color: white;
+    text-align: center;
+}
+  
+.RGsmalltext3 {
+      width: 35%;
+      position: absolute;
+      top: 35%;
+      left:33%;
+      color: white;
+      text-align: center;
+      }
+
+.RGsmalltext4 {
+        width: 30%;
+        position: absolute;
+        top: 35%;
+        left:36%;
+        color: white;
+        text-align: center;
+ }
+
+ .RGlongText1 {
+  padding-top: 5%;
+  text-align: center;
+ }
+
+ .RGlongText2 {
+  padding-top: 5%;
+  text-align: center;
+ }
+
+ .RGlongText3 {
+  padding-top: 5%;
+  text-align: center;
+ }
+ .RGlongText4 {
+  padding-top: 5%;
+  text-align: center;
+ }
+
+ /* .RGbox {
+  position: relative;
+  border: 5px solid red;
 }
 
 .RGlinesDiv {
-  position: absolute;
   display: flex;
+  position: absolute;
   width: 100%;
   height: 800px;
 }
@@ -40,9 +221,8 @@
   position: absolute;
   top: 90px;
   left: 140px;
-  /* text-align: justify; */
+  text-align: justify; 
 }
-
 .RGiconImg2 {
   position: absolute;
   top: 90px;
@@ -118,4 +298,39 @@
   right: 20px;
   text-align: center;
   font-size: 15px;
-}
+}  */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
