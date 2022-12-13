@@ -147,6 +147,7 @@ import { Aviation } from "./components/Aviation/Aviation";
 import { AiContentServices } from "./components/AiContentService/AiContentServices";
 import { ReactNativeAppDevelopment } from "./components/ReactNativeAppDevelopment/ReactNativeAppDevelopment";
 import { MobileDevMain } from "./components/MobileDevMain/MobileDevMain";
+import { ImageAnalysisSoftwarePage } from "./components/ImageAnalysisSoftwarePage/ImageAnalysisSoftwarePage";
 
 export const ALLroutes = () => {
   return (
@@ -358,6 +359,10 @@ export const ALLroutes = () => {
       <Route path="/Fintech-solution" element={<FintechSolution />} />
       <Route path="/Car-services" element={<CarService />} />
       <Route path="/mobile-app-development" element={<MobileDevMain />} />
+      <Route
+        path="/image-analysis-software"
+        element={<ImageAnalysisSoftwarePage />}
+      />
     </Routes>
   );
 };

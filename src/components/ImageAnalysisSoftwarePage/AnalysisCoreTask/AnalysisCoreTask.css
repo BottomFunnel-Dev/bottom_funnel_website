@@ -1,0 +1,108 @@
+.AnalysisCoreTask-container {
+  margin: 2% auto;
+  overflow: hidden;
+}
+
+.AnalysisCoreTask-container > h1 {
+  font-size: 32px;
+  width: 90%;
+  margin: 1% auto;
+}
+
+.AnalysisCoreTask-container > h1 > span {
+  color: #ef4c23;
+}
+
+.AnalysisCoreTask-main {
+  width: 95%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AnalysisCoreTask-cards {
+  width: 55%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.AnalysisCoreTask-cards > div {
+  border: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.AnalysisCoreTask-cards > div > p {
+  width: 75%;
+  text-align: justify;
+  font-size: 16px;
+  padding: 1%;
+  margin: 0;
+  border-left: 2px solid #d9d9d9;
+}
+
+.AnalysisCoreTask-cards > div > div {
+  width: 20%;
+  text-align: center;
+  padding: 1%;
+}
+
+.AnalysisCoreTask-cards > div > div > h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.AnalysisCoreTask-cards > div > div > div {
+  height: 50px;
+  width: fit-content;
+  margin: auto;
+  background: white;
+  padding: 2%;
+  margin-top: -25%;
+}
+
+.AnalysisCoreTask-cards > div > div > div > img {
+  height: 100%;
+}
+
+.AnalysisCoreTask-image {
+  width: 40%;
+  padding: 0;
+  text-align: left;
+}
+
+.AnalysisCoreTask-image > img {
+  width: 100%;
+}
+
+.AnalysisCoreTask-hr-line {
+  width: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AnalysisCoreTask-hr-line > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.AnalysisCoreTask-hr-line > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}

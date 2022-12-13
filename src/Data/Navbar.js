@@ -282,6 +282,11 @@ export const trendingTech = [
     navIcons: "Images/navbar/services/salesforce.png",
     path: "salesforce",
   },
+  {
+    dropContent: "Image analysis software",
+    navIcons: "Images/navbar/services/iasoft.png",
+    path: "image-analysis-software",
+  },
 ];
 
 export const industries = [
