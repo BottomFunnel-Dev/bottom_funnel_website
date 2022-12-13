@@ -16,30 +16,18 @@ export const MobileDevMainWhyChoose = () => {
             </div>
             <div className="mobileDevMainWhyChooseImageContainer">
                 <img className="mobileDevMainWhyChooseImage" src="Images/MobileDevMain/Group 340026.png"/>
-                <h4 className="mobileDevMainWhyChooseheading1">Cost Saving</h4>
-                <p className="mobileDevMainWhyChooseText1">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum reiciendis modi ea dolor.
-                </p>
-                <h4 className="mobileDevMainWhyChooseheading2">Hire Experts</h4>
-                <p className="mobileDevMainWhyChooseText2">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum reiciendis modi ea dolor.
-                </p>
-                <h4 className="mobileDevMainWhyChooseheading3">Tech Consultancy</h4>
-                <p className="mobileDevMainWhyChooseText3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum reiciendis modi ea dolor.
-                </p>
-                <h4 className="mobileDevMainWhyChooseheading4">Culture Fitment</h4>
-                <p className="mobileDevMainWhyChooseText4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum reiciendis modi ea dolor.
-                </p>
-                <h4 className="mobileDevMainWhyChooseheading5">Diligent Kotlin Developrs</h4>
-                <p className="mobileDevMainWhyChooseText5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum reiciendis modi ea dolor.
-                </p>
-                <h4 className="mobileDevMainWhyChooseheading6">Accountable Developers</h4>
-                <p className="mobileDevMainWhyChooseText6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum reiciendis modi ea dolor.
-                </p>
+                <h3 className="mobileDevMainWhyChooseheading1">Cost Saving</h3>
+                
+                <h3 className="mobileDevMainWhyChooseheading2">Hire Experts</h3>
+                
+                <h3 className="mobileDevMainWhyChooseheading3">Tech Consultancy</h3>
+                
+                <h3 className="mobileDevMainWhyChooseheading4">Culture Fitment</h3>
+                
+                <h3 className="mobileDevMainWhyChooseheading5">Diligent Kotlin Developrs</h3>
+               
+                <h3 className="mobileDevMainWhyChooseheading6">Accountable Developers</h3>
+                
             </div>
         </div>
       </>

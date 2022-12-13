@@ -147,6 +147,13 @@ import { Aviation } from "./components/Aviation/Aviation";
 import { AiContentServices } from "./components/AiContentService/AiContentServices";
 import { ReactNativeAppDevelopment } from "./components/ReactNativeAppDevelopment/ReactNativeAppDevelopment";
 import { MobileDevMain } from "./components/MobileDevMain/MobileDevMain";
+import { KotlinAppDevelopment } from "./components/KotlinAppDevelopment/KotlinAppDevelopment";
+import { Telecommunication } from "./components/Telecommunication/Telecommunication";
+import { WebsiteBuilderApp } from "./components/WebsiteBuilderApp/WebsiteBuilderApp";
+import { AndriodAppDevelopment } from "./components/AndriodAppDevelopment/AndriodAppDevelopment";
+import { MeatDeliveryApp } from "./components/Meat-Delivery-App/MeatDeliveryApp";
+import { AppBuilderSoltion } from "./components/AppBuilderSoltion/AppBuilderSoltion";
+import { WearableAppDevelopment } from "./components/WearableAppDevelopment/WearableAppDevelopment";
 
 export const ALLroutes = () => {
   return (
@@ -165,7 +172,7 @@ export const ALLroutes = () => {
       <Route path="/ios" element={<IOSAppDevelopmentPage />} />
       <Route path="/Xamarin-Development" element={<XamarinAppDevelopment />} />
       <Route path="/reactNative" element={<ReactNativeAppDevelopment />} />
-      <Route path="/android" element={<AndroidDevelopmentPage />} />
+      <Route path="/android" element={<AndriodAppDevelopment />} />
       <Route path="/ondemandHomeServices" element={<OndemandHome />} />
       <Route path="/nodejs" element={<SkillsComPage allData={nodejsData} />} />
       <Route path="/php" element={<SkillsComPage allData={phpData} />} />
@@ -358,6 +365,12 @@ export const ALLroutes = () => {
       <Route path="/Fintech-solution" element={<FintechSolution />} />
       <Route path="/Car-services" element={<CarService />} />
       <Route path="/mobile-app-development" element={<MobileDevMain />} />
+      <Route path="/kotlin-development" element={<KotlinAppDevelopment/>} />
+      <Route path="/telecommunication" element={<Telecommunication/>} />
+      <Route path="/website-builder-app" element={<WebsiteBuilderApp/>} />
+      <Route path="/meat-delivery-app" element={<MeatDeliveryApp/>} />
+      <Route path="/app-builder-solutions" element={<AppBuilderSoltion/>} />
+      <Route path="/wearable-app-development" element={<WearableAppDevelopment/>} />
     </Routes>
   );
 };

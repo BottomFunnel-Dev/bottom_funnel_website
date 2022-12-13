@@ -1,0 +1,28 @@
+.andriodCustomMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    background-color: #F5F5F5;
+}
+.andriodCustomContentText{
+    /* border: 2px solid red; */
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.andriodCustomContentImage{
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 70vh;
+    object-fit: cover;
+    background-size: cover;
+    margin-left: 3%;
+}
+.andriodCustomContentImage img{
+    width: 100%;
+    height: 100%;
+}

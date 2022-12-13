@@ -1,0 +1,57 @@
+.wearablebannermainbox {
+    height: 100vh;
+    width: 100%;
+    border: 3px solid white;
+    /* margin-top: 120px; */
+    background-image: url("/public/Images/wearable/Component 64.png");
+
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+    background-position: right;
+  }
+
+
+  
+  .wearablebannermainboxinnertextdiv {
+    height: 50%;
+    width: 37%;
+  
+    margin-top: 18%;
+    margin-left: 3%;
+    /* padding-top: 10.5%; */
+    /* text-align: center; */
+  }
+  
+  .wearablebannermainboxinnertextdiv > h1 {
+    color: black;
+    font-size: 40px;
+    /* margin-left: %; */
+    /* font-weight: 600; */
+
+  }
+  .wearablebannermainboxinnertextdiv > p {
+    color: black;
+    margin-top: 7%;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .wearablebannerbutton {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 35px;
+  }
+  
+  .wearablebannerbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+  

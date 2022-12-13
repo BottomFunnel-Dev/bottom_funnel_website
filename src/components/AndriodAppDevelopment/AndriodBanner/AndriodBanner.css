@@ -1,0 +1,47 @@
+.andriodAppDevbannermainbox {
+    height: 100vh;
+    width: 100%;
+    border: 1px solid white;
+    /* margin-top: 120px; */
+    background-image: url("/public/Images/AndriodDevImages/27263 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .andriodAppDevbannermainboxinnertextdiv {
+    /* height: 50%; */
+    width: 37%;
+    margin-top: 20%;
+    margin-left: 4%;
+    text-align: left;
+    /* border: 2px solid red; */
+  }
+  
+  .andriodAppDevbannermainboxinnertextdiv > h1 {
+    color: white;
+  }
+  .andriodAppDevbannermainboxinnertextdiv > p {
+    color: white;
+    margin-top: 2%;
+  }
+  
+  .andriodAppDevbannerbutton {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 220px;
+    background-color: #3380F2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 1%;
+  }
+  
+  .andriodAppDevbannerbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+  

@@ -1,0 +1,107 @@
+.appbuilderdiscoverappmainboxes{
+    height: fit-content;
+   
+    display: flex;
+    background: url("/public/Images/Appbuildersolutions/Bannersbackgrounds/Rectangle\ 4741.png");
+   margin-top: 5%;
+position: relative;
+}
+
+.appbuilderdiscoverleftbox{
+    height: 100%;
+margin: 3% 1% 3% 3%;
+    width: 40%;
+
+
+
+}
+
+.appbuilderdiscoverleftbox >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.appbuilderdiscoverrightbox{
+    height: 100%;
+    width: 58%;
+
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.appbuildermappingdatasome{
+    height: 400px;
+    width: 70%;
+    margin-top: 5%;
+
+
+}
+
+.xttmapperdatafromappbuilder{
+    height:25%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    margin: 2%;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+   
+}
+
+.xttmapperdatafromappbuilder:hover{
+    transform: scale(1.02);
+}
+
+
+.leftboxfortextappbuilder{
+    margin-left:3%;
+    
+}
+
+.svgimages{
+    color: #3380f2;
+}
+
+.lowerbuttonandsomeiconsappbuilderdiscover{
+    height: 15%;
+    width: 80%;
+   margin-left: 5%;
+    display: flex;
+}
+
+
+.appbuilderdiscoversomeimageandbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 5%;
+  
+}
+
+.appbuilderdiscoversomeimageandbutton:hover {
+
+    background-color:white;
+    color:  #3380f2;
+
+}
+
+.playstoreboxforappbuilderdiscover{
+    height: 5%;
+    width: 50%;
+  
+}
+
+.playstoreboxforappbuilderdiscover>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

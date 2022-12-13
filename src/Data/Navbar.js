@@ -124,7 +124,7 @@ export const appservice = [
   {
     dropContent: "Kotlin App Development",
     navIcons: "Images/navbar/services/kotlinimage.png",
-    path: "",
+    path: "kotlin-development",
   },
   {
     dropContent: "Flutter App Development",
@@ -149,7 +149,7 @@ export const appservice = [
   {
     dropContent: "Wearable App Development",
     navIcons: "Images/navbar/services/wearable.png",
-    path: "",
+    path: "wearable-app-development",
   },
   {
     dropContent: "Mobile UI UX ",
@@ -380,6 +380,11 @@ export const industries = [
     navIcons: "Images/navbar/industriesImage/travel.png",
     path: "Aviation",
   },
+  {
+    dropContent: "Telecommunication",
+    navIcons: "Images/navbar/industriesImage/travel.png",
+    path: "telecommunication",
+  },
 ];
 
 export const ondemand = [
@@ -493,7 +498,7 @@ export const ondemand = [
   {
     dropContent: "Meat Delivery App",
     navIcons: "Images/navbar/industriesImage/meat.png",
-    path: "",
+    path: "meat-delivery-app",
   },
   {
     dropContent: "Eyewear Delivery App ",
@@ -518,12 +523,12 @@ export const ondemand = [
   {
     dropContent: "Webiste Builder App",
     navIcons: "Images/navbar/industriesImage/website-builder.png",
-    path: "",
+    path: "website-builder-app",
   },
   {
     dropContent: "App Builder Solutions",
     navIcons: "Images/navbar/industriesImage/app-builder.png",
-    path: "",
+    path: "app-builder-solutions",
   },
   {
     dropContent: "AI Content App Solutions",

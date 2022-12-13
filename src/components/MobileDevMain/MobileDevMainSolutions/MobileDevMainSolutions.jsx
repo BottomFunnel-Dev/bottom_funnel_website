@@ -14,26 +14,31 @@ export const MobileDevMainSolutions = () => {
                 </p>
             </div>
             <div className="mobileDevMainSolutionsContent">
-                <img className="mobileDevMainSolutionsContentImage" src="Images/MobileDevMain/Component 115.png"/>
+               
+              <div className="mobileDevMainSolutionsContentBox1">
+                <img className="mobileDevMainSolutionsIcons" src="Images/MobileDevMain/prototyping.png"/>
+                <h5 className="mobileDevMainSolutionsContentHeading">Custom Mobile App Development</h5>
+                <p className="mobileDevMainSolutionsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci unde similique aspernatur sapiente fugit, facere fugiat repellat sit quisquam iusto delectus?</p>
+              </div>
 
-                <img className="mobileDevMainSolutionsAppDev" src="Images/MobileDevMain/prototyping.png"/>
-                <h5 className="mobileDevMainSolutionsAppDevHeading">Custom Mobile App Development</h5>
-                <p className="mobileDevMainSolutionsAppDevText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci unde similique aspernatur sapiente fugit, facere fugiat repellat sit quisquam iusto delectus?</p>
-                
-                
-                <img className="mobileDevMainSolutionsPrototype" src="Images/MobileDevMain/coding (3).png"/>
-                <h5 className="mobileDevMainSolutionsPrototypeHeading">Mobile App Prototyping</h5>
-                <p className="mobileDevMainSolutionsPrototypeText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci unde similique aspernatur sapiente fugit, facere fugiat repellat sit quisquam iusto delectus?</p>
+              <div className="mobileDevMainSolutionsContentBox1">
+                <img className="mobileDevMainSolutionsIcons" src="Images/MobileDevMain/coding (3).png"/>
+                <h5 className="mobileDevMainSolutionsContentHeading">Custom Mobile App Development</h5>
+                <p className="mobileDevMainSolutionsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci unde similique aspernatur sapiente fugit, facere fugiat repellat sit quisquam iusto delectus?</p>
+              </div>
 
-                <img className="mobileDevMainSolutionsUIUX" src="Images/MobileDevMain/ui.png"/>
-                <h5 className="mobileDevMainSolutionsUIUXHeading">Mobile App UI UX Design</h5>
-                <p className="mobileDevMainSolutionsUIUXText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci unde similique aspernatur sapiente fugit, facere fugiat repellat sit quisquam iusto delectus?</p>
+              <div className="mobileDevMainSolutionsContentBox1">
+                <img className="mobileDevMainSolutionsIcons" src="Images/MobileDevMain/ui.png"/>
+                <h5 className="mobileDevMainSolutionsContentHeading">Custom Mobile App Development</h5>
+                <p className="mobileDevMainSolutionsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci unde similique aspernatur sapiente fugit, facere fugiat repellat sit quisquam iusto delectus?</p>
+              </div>
+
+              <div className="mobileDevMainSolutionsContentBox1">
+                <img className="mobileDevMainSolutionsIcons" src="Images/MobileDevMain/solutions.png"/>
+                <h5 className="mobileDevMainSolutionsContentHeading">Custom Mobile App Development</h5>
+                <p className="mobileDevMainSolutionsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci unde similique aspernatur sapiente fugit, facere fugiat repellat sit quisquam iusto delectus?</p>
+              </div>
                 
-                
-                <img className="mobileDevMainSolutionsParty" src="Images/MobileDevMain/solutions.png"/>
-                <h5 className="mobileDevMainSolutionsPartyHeading">Mobile App Third Party Integration</h5>
-                <p className="mobileDevMainSolutionsPartyText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci unde similique aspernatur sapiente fugit, facere fugiat repellat sit quisquam iusto delectus?</p>
-            
             </div>
          </div>
       </>

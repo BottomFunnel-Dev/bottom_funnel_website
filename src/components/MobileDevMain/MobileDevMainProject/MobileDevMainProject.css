@@ -1,0 +1,48 @@
+.mobileDevMainProjectmainbox {
+    height: 40vh;
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 2%;
+    background: url("/public/Images/mobileDevMain/Component 114.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .mobileDevMainProjectmainboxinnertextdiv {
+    margin-top: 5%;
+    margin-left: 7%;
+    text-align: left;
+    /* border: 2px solid red; */
+    width: 60%;
+  }
+  
+  .mobileDevMainProjectmainboxinnertextdiv > h1 {
+    color: white;
+  }
+  .mobileDevMainProjectmainboxinnertextdiv > p {
+    color: white;
+    /* border: 2px solid red; */
+    /* width: 60%; */
+    /* margin: auto; */
+  }
+  
+  .mobileDevMainProjectbutton {
+    padding: 10px 50px;
+    border-radius: 5px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2%;
+    color: white;
+  }
+  
+  .mobileDevMainProjectbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+  

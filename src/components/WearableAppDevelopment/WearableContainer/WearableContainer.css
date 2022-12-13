@@ -1,0 +1,77 @@
+
+
+
+.wearablecompanydiv{
+    /* border: 2px solid blue; */
+    width: 75%;
+    margin-left: 3%;
+    margin-top: 5%;
+    text-align: left;
+
+}
+
+.wearablecompanydiv h1{
+    font-size: 40px;
+    /* text-decoration: underline; */
+}
+
+.wearablecompanydiv p{
+ font-size: 16px;
+ margin-top: 3%;
+}
+.wearablegenerationdiv{
+    /* border: 2px solid green; */
+    width: 73%;
+    margin-left: 3%;
+    margin-top: 4%;
+    text-align: left;
+}
+.wearablegenerationdiv h1{
+    font-size: 40px;
+}
+.wearablegenerationdiv p{
+    font-size: 15px;
+    margin-top: 2.5%;
+}
+
+
+.wearableservice{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+}
+.wearableservice h4{
+    font-size: 35px;
+}
+
+
+.wearableservicecard{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 2.5%;
+}
+.wearableservice-innercard{
+    /* border: 2px solid gold; */
+    margin-left: 2%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 28vh;
+    padding-top: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* text-align: left; */
+
+}
+.wearableservice-innercard p{
+    font-size: 14px;
+}
+.wearableservice-innercard h5{
+    font-size: 20px;
+}

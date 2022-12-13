@@ -1,0 +1,72 @@
+.KotlinIntegrationMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+}
+.KotlinIntegrationContainer{
+    border: 3px dashed black;
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.KotlinIntegrationHeading{
+    background: linear-gradient(to left ,#FED200, #EF4c23);
+    
+    color: white;
+    width: 36%;
+    padding:1%;
+    margin: auto;
+    height: 75px;
+    border-radius:15px;
+    margin-top: -3%;
+    padding-left: 3%;
+}
+.KotlinIntegrationBox{
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.kotlinIntegrationOptionsDiv{
+    width: 45%;
+    /* height: 70vh; */
+    /* border: 2px solid gold; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+.kotlinIntegrationOptionsDiv1{
+    width: 45%;
+    height: 70vh;
+    /* border: 2px solid gold; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+}
+.kotlinIntegrationOptions{
+    border: 3px solid red;
+    width: 80%;
+    height: 80px;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.kotlinIntegrationIcon{
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 78px;
+    padding: 3.5%;
+}
+.kotlinIntegrationText{
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 78px;
+    padding: 2.5%;
+    padding-top: 5%;
+}

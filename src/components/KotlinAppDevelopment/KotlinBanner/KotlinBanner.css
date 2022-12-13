@@ -1,0 +1,47 @@
+.kotlinbannermainbox {
+    height: 100vh;
+    width: 100%;
+    border: 1px solid white;
+    /* margin-top: 120px; */
+    background-image: url("/public/Images/Kotlin/Kotlin_Icon 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .kotlinbannermainboxinnertextdiv {
+    /* height: 50%; */
+    width: 37%;
+    margin-top: 20%;
+    margin-left: 3%;
+    text-align: left;
+    /* border: 2px solid red; */
+  }
+  .kotlinChange{
+   color: #EF4C23;
+  }
+  .kotlinbannermainboxinnertextdiv{
+    color: black;
+  }
+  .kotlinbannermainboxinnertextdiv > p {
+    color: black;
+  }
+  
+  .kotlinbannerbutton {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 220px;
+    background-color: black;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .kotlinbannerbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+  

@@ -1,0 +1,86 @@
+.appbuildermakermainboxes{
+    height: fit-content;
+
+    position: relative;
+    
+}
+
+.appbuildermakeruppertxtbox{
+    height: fit-content;
+    width: 50%;
+   position: absolute;
+    top: 5%;
+    left: 30%;
+}
+
+.appbuilderbackgroundimagehavetoset{
+    height: fit-content;
+    width: 100%;
+   
+    position: absolute;
+    top: 20%;
+    background: url("/public/Images/Appbuildersolutions/Bannersbackgrounds/Rectangle 4749.png");
+}
+
+.appbuildermakerspecialtypeflexboxtypeA{
+    display: flex;
+    height: 30%;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 2%;
+    margin-left: 3%;
+    background-color: white;
+}
+
+.appbuildermakerspecialtypeflexboxtypeAfortextA{
+height: fit-content;
+width: 40%;
+text-align: justify;
+margin: auto;
+background-color: white;
+}
+
+.appbuildermakerspecialtypeflexboxtypeAforimageA{
+    height: 100%;
+    width: 20%;
+
+
+}
+
+.appbuildermakerspecialtypeflexboxtypeB{
+    display: flex;
+    height: 30%;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 2%;
+    margin-left: 3%;
+    background-color: white;
+}
+
+.appbuildermakerspecialtypeflexboxtypeAforimageB{
+    
+    height: 100%;
+    width: 20%;
+
+}
+
+.appbuildermakerspecialtypeflexboxtypeAfortextB{
+    height: fit-content;
+width: 40%;
+text-align: justify;
+background-color: white;
+margin: auto;
+
+}
+
+.appbuildermakerspecialtypeflexboxtypeAforimageA >img{
+    height: 150%;
+    width: 120%;
+    object-fit: contain;
+}
+
+.appbuildermakerspecialtypeflexboxtypeAforimageB >img{
+    height: 150%;
+    width: 120%;
+    object-fit: contain;
+}

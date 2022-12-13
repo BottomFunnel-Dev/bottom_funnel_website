@@ -1,6 +1,7 @@
 import React from "react";
 import { MobileDevMainBanner } from "./MobileDevMainBanner/MobileDevMainBanner";
 import { MobileDevMainCards } from "./MobileDevMainCards/MobileDevMainCards";
+import { MobileDevMainProject } from "./MobileDevMainProject/MobileDevMainProject";
 import { MobileDevMainServices } from "./MobileDevMainServices/MobileDevMainServices";
 import { MobileDevMainSolutions } from "./MobileDevMainSolutions/MobileDevMainSolutions";
 import { MobileDevMainWhyChoose } from "./MobileDevMainWhyChoose/MobileDevMainWhyChoose";
@@ -15,7 +16,6 @@ import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import { TextDropdown } from "../faqSection/Faqs";
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
-import { Helmet } from "react-helmet";
 
 export const MobileDevMain = () => {
   return (
@@ -25,6 +25,7 @@ export const MobileDevMain = () => {
         <MobileDevMainServices />
         <MobileDevMainCards />
         <MobileDevMainSolutions />
+        <MobileDevMainProject />
         <MobileDevMainWhyChoose />
 
         {/* Other react required components */}

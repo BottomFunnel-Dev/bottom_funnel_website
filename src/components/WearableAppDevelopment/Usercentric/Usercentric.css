@@ -1,0 +1,35 @@
+.Usercentric-maindiv{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+
+}
+.Usercentric-contain{
+    /* border: 2px solid green; */
+    text-align: center;
+    justify-content: center;
+    width: 75%;
+    margin-left: 11%;
+
+}
+.Usercentric-sticker{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 11%;
+    margin-top: 3%;
+}
+
+.wearablelogos{
+    margin-left: 3%;
+}
+
+
+.wearablelogos h4{
+    margin-top: 10%;
+}
+.wearablelogos-div{
+    width: 80%;
+}

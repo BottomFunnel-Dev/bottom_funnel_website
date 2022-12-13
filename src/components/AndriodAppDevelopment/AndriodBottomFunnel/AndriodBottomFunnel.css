@@ -1,0 +1,82 @@
+.andriodBottomFunnelMainDiv{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+.andriodBottomFunnelheading{
+    color: black;
+    width: 100%;
+    height: 20vh;
+    margin-top: 3%;
+    font-weight: 500;
+    padding:2%;
+    background-color: #F5F5F5;
+    /* border: 2px solid red; */
+}
+.andriodBottomFunnelDescription{
+    color: black;
+    font-size: 25px;
+    /* border: 2px solid red; */
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 80%;
+}
+.andriodBottomFunnelContainerDiv{
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 5px;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+}
+.andriodServiceBox{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+}
+.andriodBottomFunnelContainerBoxes{
+    width: 30%;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+    background-color: white;
+    margin-left: 3%;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+}
+.andriodServiceBoxIcon{
+    border: 1px solid lightgray;
+    width: 25%;
+    height: 70px;
+    padding-left: 6px;
+    border-radius: 5px;
+    margin-top: 2%;
+    object-fit: cover;
+    background-size: cover;
+}
+.andriodServiceBoxHeading{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 3%;
+    font-weight: 500;
+}
+.andriodServiceBoxContent{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 3%;
+    font-size: 13px;
+}
+.andriodServiceImage{
+    padding: 4%;
+    padding-top: 8%;
+    width: 60px;
+    height: 60px;
+}
