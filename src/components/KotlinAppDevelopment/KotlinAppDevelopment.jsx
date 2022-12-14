@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import { KotlinBanner } from "./KotlinBanner/KotlinBanner";
 import { KotlinCards } from "./KotlinCards/KotlinCards";
 import { KotlinDevelopment } from "./KotlinDevelopment/KotlinDevelopment";
@@ -22,6 +24,11 @@ import { Helmet } from "react-helmet";
 
 
 export const KotlinAppDevelopment = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+  }, []);
+
 
   return (
       <>
