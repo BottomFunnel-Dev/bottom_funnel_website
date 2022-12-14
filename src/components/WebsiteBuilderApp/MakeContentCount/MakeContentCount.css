@@ -10,7 +10,7 @@
 .makeContentCountContentMainDiv {
   /* border: 1px solid red; */
   width: 50%;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .makeContentCountContentMainDiv h1 {
@@ -21,7 +21,7 @@
 
 .makeContentCountContentMainDiv p {
   margin-top: 3%;
-  font-size: 23px;
+  /* font-size: 23px; */
   margin-left: 3%;
 }
 
@@ -58,6 +58,7 @@
 .makeContentCountOptionsDiv {
   /* border: 1px solid black; */
   margin-top: 6%;
+  margin-left: 3%;
 }
 
 .makeContentCountOptionInnerDiv1 {

@@ -19,7 +19,7 @@ export const XamarinMobileDevelopment = () => {
                 </p>
              </div>
              <div className="xamarinMobileDevelopmentContentImage">
-                <img src="Images/Xamarin/Frame.png"/>
+                <img src="Images/Xamarin/frame.png"/>
              </div>
            </div>
        {/* </div> */}

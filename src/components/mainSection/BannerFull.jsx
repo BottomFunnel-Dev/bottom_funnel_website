@@ -31,11 +31,10 @@ export const BannerFull = () => {
       desc: "Developing websites that develop your business",
       background: "Images/banner/webdevfull.png",
     },
-   
   ];
 
   var settings = {
-    autoplay: true,
+    // autoplay: true,
     dots: false,
     autoplaySpeed: 5000,
     cssEase: "linear",
@@ -90,9 +89,12 @@ export const BannerFull = () => {
                 backgroundSize: "100% 100%",
               }}
             >
-             {item.title ==="Mobile App Development" && <MobileBanner/>}
-             {item.title ==="Software Product Development" && <SoftwareBanner/>}
-             {item.title ==="Digital Marketing" && <DigitalMarketing/>}
+              {item.title === "Mobile App Development" && <MobileBanner />}
+              {item.title === "Software Product Development" && (
+                <SoftwareBanner />
+              )}
+
+              {item.title === "Digital Marketing" && <DigitalMarketing />}
 
               <div className="banner-text-content-full">
                 <h1>{item.title}</h1>

@@ -49,22 +49,22 @@
 }
 .kotlinSolutionsBoxIcon{
     border: 1px solid lightgray;
-    width: 65px;
-    height: 65px;
+    width: 30%;
+    padding-left: 6px;
     border-radius: 5px;
-    
+    margin-top: 2%;
+    object-fit: cover;
+    background-size: cover;
 }
 .KotlinSolutionImage{
     /* border: 2px solid red; */
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    padding: 9%;
+    width: 60px;
+    height: 60px;
+    padding: 2%;
 }
 .kotlinSolutionsBoxHeading{
     /* border: 2px solid red; */
     width: 100%;
-    height: 100%;
     margin-top: 3%;
     /* font-weight: 500; */
 }

@@ -41,14 +41,20 @@
 }
 
 .xamarinDevelopmentExpertiseIcon{
-    width: 25%;
+    width: 70px;
+    height: 70px;
     margin-top: 5%;
     /* border: 2px solid blue; */
+}
+.xamarinDevelopmentExpertiseIcon>img{
+    width: 100%;
+    height: 100%;
 }
 .xamarinDevelopmentExpertiseIconHeading{
     width: 75%;
     /* border: 2px solid salmon; */
     padding-top: 4%;
+    margin-left: 4%;
     display: flex;
     flex-direction: column;
 }

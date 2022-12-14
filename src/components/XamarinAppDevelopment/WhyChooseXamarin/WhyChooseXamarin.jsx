@@ -6,10 +6,6 @@ export const WhyChooseXamarin = () => {
   return (
       <>
        <div className="whyChooseMainDiv">
-           {/* <div className="whyChooseHeading">
-             <h1>Why You Must Choose Xamarin For Cross-Platform App Development </h1>
-           </div>
-           <div className="whyChooseContent"> */}
              <div className="whyChooseContentText">
                 <h1>Why You Must Choose Xamarin For Cross-Platform App Development </h1>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis et adipisci, harum porro, suscipit numquam corrupti dolorum minus alias sint rem reiciendis eaque sunt. Autem facilis id similique architecto doloremque! 
@@ -19,10 +15,9 @@ export const WhyChooseXamarin = () => {
                 </p>
              </div>
              <div className="whyChooseContentImage">
-                <img src="Images/Xamarin/Group.png"/>
+                <img src="Images/Xamarin/group.png"/>
              </div>
            </div>
-       {/* </div> */}
       </>
   );
 };

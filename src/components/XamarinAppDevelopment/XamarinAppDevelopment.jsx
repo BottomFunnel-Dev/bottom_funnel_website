@@ -19,7 +19,6 @@ import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import { TextDropdown } from "../faqSection/Faqs";
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
-import { Helmet } from "react-helmet";
 
 export const XamarinAppDevelopment = () => {
   const dispatch = useDispatch();
@@ -28,27 +27,27 @@ export const XamarinAppDevelopment = () => {
   }, []);
 
   return (
-      <>
-        <div>
-          <XamarinAppDevelopmentBanner/>
-          <XamarinMobileDevelopment/>
-          <XamarinSolutions/>
-          <WhyChooseXamarin/>
-          <XamarinDevelopers/>
-          <XamarinApproach/>
-          <XamarinDevelopmentExpertise/>
+    <>
+      <div>
+        <XamarinAppDevelopmentBanner />
+        <XamarinMobileDevelopment />
+        <XamarinSolutions />
+        <WhyChooseXamarin />
+        <XamarinDevelopers />
+        <XamarinApproach />
+        <XamarinDevelopmentExpertise />
 
-           {/* Other react required components */}
-       <StoriesSection />
-      <OndemandSection />
-      <PortFolio />
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-        </div>
-      </>
+        {/* Other react required components */}
+        <StoriesSection />
+        <OndemandSection />
+        <PortFolio />
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </div>
+    </>
   );
 };

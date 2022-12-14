@@ -47,3 +47,7 @@ h6 {
   }
   
 }
+
+img{
+  width: none !important;
+}

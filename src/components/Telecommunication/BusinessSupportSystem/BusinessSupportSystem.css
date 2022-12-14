@@ -61,7 +61,7 @@
   width: 35%;
 }
 
-.businessServicesImageDiv img {
+.businessServicesImageDiv > img {
   width: 100%;
   /* margin-left: 5%; */
   /* height: 400px; */

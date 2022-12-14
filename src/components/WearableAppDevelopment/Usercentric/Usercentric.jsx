@@ -13,37 +13,37 @@ export const Usercentric = () => {
 
     <div className='Usercentric-sticker'>
         <div className='wearablelogos'>
-            <img src="public/Images/wearable/photoshop.png" alt="logo" className='wearablelogos-div' />
+            <img src="Images/wearable/photoshop.png" alt="logo" className='wearablelogos-div' />
             <h4>Google Glass</h4>
         </div>
 
         <div className='wearablelogos'>
-            <img src="public/Images/wearable/illustrator.png" alt="logo" className='wearablelogos-div' />
+            <img src="Images/wearable/illustrator.png" alt="logo" className='wearablelogos-div' />
             <h4>Google Glass</h4>
         </div>
 
         <div className='wearablelogos'>
-            <img src="public/Images/wearable/flash.png" alt="logo" className='wearablelogos-div' />
+            <img src="Images/wearable/flash.png" alt="logo" className='wearablelogos-div' />
             <h4>Google Glass</h4>
         </div>
 
         <div className='wearablelogos'>
-            <img src="public/Images/wearable/sketch.png" alt="logo"  className='wearablelogos-div'/>
+            <img src="Images/wearable/sketch.png" alt="logo"  className='wearablelogos-div'/>
             <h4>Google Glass</h4>
         </div>
 
         <div className='wearablelogos'>
-            <img src="public/Images/wearable/Zeplin.png" alt="logo"  className='wearablelogos-div'/>
+            <img src="Images/wearable/Zeplin.png" alt="logo"  className='wearablelogos-div'/>
+            <h4>Google Glass</h4>   
+        </div>
+
+        <div className='wearablelogos'>
+            <img src="Images/wearable/material_design.png" alt="logo"  className='wearablelogos-div'/>
             <h4>Google Glass</h4>
         </div>
 
         <div className='wearablelogos'>
-            <img src="public/Images/wearable/material_design.png" alt="logo"  className='wearablelogos-div'/>
-            <h4>Google Glass</h4>
-        </div>
-
-        <div className='wearablelogos'>
-            <img src="public/Images/wearable/coreldrow.png" alt="logo"  className='wearablelogos-div'/>
+            <img src="Images/wearable/coreldrow.png" alt="logo"  className='wearablelogos-div'/>
             <h4>Google Glass</h4>
         </div>
     </div>

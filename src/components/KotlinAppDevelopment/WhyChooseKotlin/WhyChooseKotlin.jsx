@@ -10,7 +10,7 @@ export const WhyChooseKotlin = () => {
             <div className='whyChooseKotlinIconOuterBox'>
                     <div className='whyChooseKotlinContainerDiv'>
                             <div className='whyChooseKotlinIcon'>
-                                <img src='Images/kotlin/icons/insignia (1)-1.png'/>
+                                <img src='Images/kotlin/Icons/insignia (1)-1.png'/>
                             </div>
                             <div className='whyChooseKotlinIconHeading'>
                                 <h4>Simpler than Java</h4>
@@ -19,7 +19,7 @@ export const WhyChooseKotlin = () => {
                     </div>
                     <div className='whyChooseKotlinContainerDiv'>
                             <div className='whyChooseKotlinIcon'>
-                                <img src='Images/kotlin/icons/cyber-security.png'/>
+                                <img src='Images/kotlin/Icons/cyber-security.png'/>
                             </div>
                             <div className='whyChooseKotlinIconHeading'>
                                 <h4>Safe and Secure</h4>
@@ -30,7 +30,7 @@ export const WhyChooseKotlin = () => {
                 <div className='whyChooseKotlinIconOuterBox'>
                     <div className='whyChooseKotlinContainerDiv'>
                             <div className='whyChooseKotlinIcon'>
-                                <img src='Images/Kotlin/icons/platform-1.png'/>
+                                <img src='Images/Kotlin/Icons/platform-1.png'/>
                             </div>
                             <div className='whyChooseKotlinIconHeading'>
                                 <h4>Streamline development process</h4>
@@ -39,7 +39,7 @@ export const WhyChooseKotlin = () => {
                     </div>
                     <div className='whyChooseKotlinContainerDiv'>
                             <div className='whyChooseKotlinIcon'>
-                                <img src='Images/Kotlin/icons/technical-support 2-1.png'/>
+                                <img src='Images/Kotlin/Icons/technical-support 2-1.png'/>
                             </div>
                             <div className='whyChooseKotlinIconHeading'>
                                 <h4>Ensure Compatibility</h4>

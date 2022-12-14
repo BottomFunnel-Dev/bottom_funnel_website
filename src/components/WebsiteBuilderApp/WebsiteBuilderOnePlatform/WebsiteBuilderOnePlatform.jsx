@@ -4,7 +4,7 @@ import "./WebsiteBuilderOnePlatform.css";
 export const WebsiteBuilderOnePlatform = () => {
     return (
         <div className='onePlatformParentDiv'>
-            <h1> One platorfm, infinite possibilities </h1>
+            <h1> One platform, infinite possibilities </h1>
 
             <div className='onePlatformContentMainDiv'>
                 <div className='onePlatformContentInnerDiv1'>

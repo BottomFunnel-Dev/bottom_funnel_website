@@ -59,7 +59,7 @@
   width: 35%;
 }
 
-.operationServicesImageDiv img {
+.operationServicesImageDiv >img {
   width: 100%;
   /* margin-left: 5%; */
   object-fit: cover;
@@ -100,7 +100,7 @@
   width: 35%;
 }
 
-.operatioMonitoringImageDiv img {
+.operatioMonitoringImageDiv >img {
   width: 100%;
   /* margin-left: 5%; */
   object-fit: cover;

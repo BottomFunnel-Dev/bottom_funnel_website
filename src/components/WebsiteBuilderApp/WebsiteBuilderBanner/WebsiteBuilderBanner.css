@@ -22,6 +22,7 @@
   /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
+  margin-top: 4%;
 }
 
 .websiteBuilderBannerTopImageComp {
@@ -42,8 +43,8 @@
   /* border: 2px solid red; */
   position: absolute;
   z-index: 2;
-  top: 30%;
-  left: 3%;
+  top: 35%;
+  left: 5%;
   width: 45%;
 }
 
@@ -55,20 +56,31 @@
 .websiteBuilderBannerContentDiv p {
   color: white;
   margin-top: 3%;
-  font-size: 21px;
+  /* font-size: 21px; */
 }
 
 .websiteBuilderBannerContentDiv button {
-  border-radius: 7px;
+  /* border-radius: 7px;
   border: 1px solid white;
   width: 22%;
   height: 40px;
   margin-top: 3%;
+  font-weight: 600; */
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
   font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .websiteBuilderBannerContentDiv button:hover {
-  background-color: #ef4c23;
+  /* background-color: #ef4c23;
   color: white;
-  border: 1px solid #ef4c23;
+  border: 1px solid #ef4c23; */
+  color: #ef4c23;
+  /* border: 1px solid #ef4c23; */
+  background-color: white;
 }

@@ -23,7 +23,7 @@
 
 .createWebsiteContentMainDiv p {
   margin-top: 3%;
-  font-size: 23px;
+  /* font-size: 16px; */
   margin-left: 3%;
 }
 
@@ -60,6 +60,7 @@
 .createWebsiteOptionsDiv {
   /* border: 1px solid black; */
   margin-top: 6%;
+  margin-left: 4%;
 }
 
 .createWebsiteOptionInnerDiv1 {

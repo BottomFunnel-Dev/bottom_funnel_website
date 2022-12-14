@@ -10,19 +10,31 @@
   margin: auto;
   justify-content: center;
   text-align: center;
+  padding: 15px;
 }
 
 .middleCompHeadingButton {
-  background-color: black;
+  /* background-color: black;
   border-radius: 7px;
   width: 10%;
   height: 40px;
+  color: white; */
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #ef4c23;
+  border: none;
   color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .middleCompHeadingButton:hover {
+  /* background-color: white;
+  color: black; */
+  color: #ef4c23;
+  /* border: 1px solid #ef4c23; */
   background-color: white;
-  color: black;
 }
 
 .middleCompImageSliderOuterDiv {
@@ -49,14 +61,15 @@
 .middleCompWebsiteImageSlider > div > img {
   /* border: 1px solid red; */
   width: 100%;
+  height: 400px;
   /* height: 50%; */
-  object-fit: cover;
+  object-fit: fill;
   overflow: hidden;
 }
 
-.slick-slide img {
+/* .slick-slide img {
   height: 400px;
-}
+} */
 
 /* .middleCompWebsiteImageSlider > div > h5 {
   margin-top: 5px;
