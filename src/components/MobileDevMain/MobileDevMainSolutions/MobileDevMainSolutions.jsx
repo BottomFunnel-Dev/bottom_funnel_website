@@ -22,7 +22,7 @@ export const MobileDevMainSolutions = () => {
               </div>
 
               <div className="mobileDevMainSolutionsContentBox1">
-                <img className="mobileDevMainSolutionsIcons" src="Images/MobileDevMain/coding (3).png"/>
+                <img className="mobileDevMainSolutionsIcons" src="Images/MobileDevMain/code.png"/>
                 <h5 className="mobileDevMainSolutionsContentHeading">Custom Mobile App Development</h5>
                 <p className="mobileDevMainSolutionsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci unde similique aspernatur sapiente fugit, facere fugiat repellat sit quisquam iusto delectus?</p>
               </div>

@@ -15,7 +15,7 @@ export const MobileDevMainWhyChoose = () => {
                 </p>
             </div>
             <div className="mobileDevMainWhyChooseImageContainer">
-                <img className="mobileDevMainWhyChooseImage" src="Images/MobileDevMain/Group 340026.png"/>
+                <img className="mobileDevMainWhyChooseImage" src="Images/MobileDevMain/bottom.png"/>
                 <h3 className="mobileDevMainWhyChooseheading1">Cost Saving</h3>
                 
                 <h3 className="mobileDevMainWhyChooseheading2">Hire Experts</h3>
