@@ -154,7 +154,7 @@ export const appservice = [
   {
     dropContent: "Mobile UI UX ",
     navIcons: "Images/navbar/services/mobileuxui.png",
-    path: "",
+    path: "mobile-user-experience",
   },
 ];
 
@@ -472,7 +472,7 @@ export const ondemand = [
   {
     dropContent: "Plant Based Meat Delivery App",
     navIcons: "Images/navbar/industriesImage/plantmeat.png",
-    path: "",
+    path: "plant-based-meat-delivery-app",
   },
   {
     dropContent: "Car Rental Delivery App",
@@ -482,7 +482,7 @@ export const ondemand = [
   {
     dropContent: "Agriculture App Solutions",
     navIcons: "Images/navbar/industriesImage/agriculture.png",
-    path: "",
+    path: "agriculture-solution-app",
   },
   {
     dropContent: "Car Service App Solutions",

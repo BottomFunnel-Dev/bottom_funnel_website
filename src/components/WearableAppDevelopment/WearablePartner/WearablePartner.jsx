@@ -127,7 +127,7 @@ export const WearablePartner = () => {
                 <div className='wearableinnermaindiv4-1stdivbox'>
                     <div className='wearable1stdivbox'>
                 <div className='wearablelogo'>
-                    <img src='public/Images/wearable/platform 2.png' alt='logo' className='wearablelogoimg'></img>
+                    <img src='Images/wearable/platform 2.png' alt='logo' className='wearablelogoimg'></img>
                     </div>
                  <div><h3>Cross Platform App Development</h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam cupiditate 
@@ -136,7 +136,7 @@ export const WearablePartner = () => {
                  </div>
                  <div className='wearable1stdivbox'>
                  <div className='wearablelogo'>
-                    <img src='public/Images/wearable/approved 2.png' alt='logo' className='wearablelogoimg'></img>
+                    <img src='Images/wearable/approved 2.png' alt='logo' className='wearablelogoimg'></img>
                     </div>
                  <div><h3>Hire  developers</h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam cupiditate 
@@ -147,7 +147,7 @@ export const WearablePartner = () => {
                  <div className='wearableinnermaindiv4-1stdivbox'>
                  <div className='wearable1stdivbox'>
                  <div className='wearablelogo'>
-                    <img src='public/Images/wearable/app-development (2) 2.png' alt='logo' className='wearablelogoimg'></img>
+                    <img src='Images/wearable/app-development (2) 2.png' alt='logo' className='wearablelogoimg'></img>
                     </div>
                  <div><h3>Industry-Specific Solutions</h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam cupiditate 
@@ -156,7 +156,7 @@ export const WearablePartner = () => {
                  </div>
                  <div className='wearable1stdivbox'>
                  <div className='wearablelogo'>
-                    <img src='public/Images/wearable/technical-support 2.png' alt='logo' className='wearablelogoimg'></img>
+                    <img src='Images/wearable/technical-support 2.png' alt='logo' className='wearablelogoimg'></img>
                     </div>
                  <div><h3>End-to-End Support and Maintenance</h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam cupiditate 

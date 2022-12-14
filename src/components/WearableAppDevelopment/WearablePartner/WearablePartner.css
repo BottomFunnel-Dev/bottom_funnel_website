@@ -1,8 +1,8 @@
 .wearablePageCards-innermaindiv4{
     display: flex;
     flex-direction: row;
-    border: 2px solid blue;
-    height: 70vh;
+    /* border: 2px solid blue; */
+    height: 60vh;
 
 
 }
@@ -29,7 +29,7 @@
 }
 .wearableinnermaindiv4-1stdivbox p{
     font-size: 14px;
-   margin-top: 10%;
+   /* margin-top: 10%; */
    margin-left: 10%;
 }
 .wearable1stdivbox{
@@ -53,7 +53,7 @@
 
 }
 .wearableinnermaindiv4-2nddiv p{
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 3%;
 
 }
@@ -61,6 +61,7 @@
     /* border: 2px solid pink ; */
     width: 60%;
     height: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .wearablelogoimg{
     width: 90%;
@@ -74,12 +75,14 @@
 
 
 
-.nativeinnermaindiv5-boxdiv{
+.wearableinnermaindiv5-boxdiv{
     /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
    
-   
+    background: url("/public/Images/wearable/Rectangle 4559.png");
+background-size: 100% 50%;
+background-position: center;
     margin-top: 2%;
    
     border-radius: 5px;
@@ -90,9 +93,7 @@
     display: flex;
     flex-direction: row;
     /* border: 2px solid black; */
-    background: url("/public/Images/wearable/Rectangle 4559.png");
-background-size: 100% 50%;
-background-position: center;
+   
     width: 97%;
     height: 40vh;
   
@@ -105,6 +106,7 @@ background-position: center;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-left: 3%;
+    /* margin-right: 3%; */
     
     margin-top: 2%;
     padding-top: 1%;
@@ -119,7 +121,7 @@ background-position: center;
 
 
 
-margin-top: 7%;
+margin-top: 4%;
 
 
 }
@@ -128,7 +130,7 @@ margin-top: 7%;
     font-size: 23px;
 }
 .wearableinnermaindiv4-row p{
-    margin-top: 4%;
+    margin-top: 1%;
     font-size: 15px;
 }
 .reactnativePageCards-innermaindiv5 h2{

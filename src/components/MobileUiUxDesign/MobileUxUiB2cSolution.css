@@ -1,0 +1,79 @@
+.mobileuxuib2csolutionmainboxes{
+    height: fit-content;
+   
+    margin-top: 5%;
+}
+
+.mobileuxuib2csolutionmainboxes >h1{
+    margin-left: 3%;
+}
+
+.mobileuxuib2csolutionmainboxes >p {
+    margin-left: 3%;
+    width: 60%;
+    text-align: justify;
+}
+
+
+.mobilesolutionuxuib2bb2cbanner {
+    height: fit-content;
+    width: 100%;
+    border: 1px solid white;
+
+    background: url("/public/Images/MobileUIUXDesign/BannerBackgrounds/Component 65.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+
+
+.mobilesoulutionb2bb2cbannermiddlediv {
+
+margin-top: 10%;
+display: flex;
+justify-content: center;
+color: white;
+}
+
+.mobilesoulutionb2bb2cbannermiddlediv >h1{
+  font-size: 50px;
+  
+}
+
+
+.mobileb2bb2cuibox{
+    height: 10%;
+    width: 20%;
+
+    text-align: center;
+}
+
+
+
+
+.mobileb2bb2cuxbox{
+    height: 10%;
+    width: 20%;
+    text-align: center;
+    
+    margin-left: 2%;
+}
+
+
+.mobiledatapublishb2bb2c{
+    height: 50%;
+    width: 60%;
+ 
+    display: flex;
+    flex-wrap: wrap;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.mobiledatapublishb2bb2caftermappingbox{
+    width: fit-content;
+
+    height: fit-content;
+  margin: 1%;
+    padding: 5px;
+}

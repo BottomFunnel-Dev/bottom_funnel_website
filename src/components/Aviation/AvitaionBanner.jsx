@@ -8,7 +8,7 @@ export const AvitaionBanner = () => {
     <h1>Aviation Softwere Development Services</h1>
     </div>
      <div className='aviationboxsmalltextbox'>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus viverra lectus ut dui accumsan, vitae tincidunt enim tempus. Vivamus</p>
+     <p>Let us be your trusted technology partner and help you solve complex challenges in your Aviation business.</p>
     
     <button className='aviationbannerbutton'>Book a free Cunsulatncy</button>
      </div>

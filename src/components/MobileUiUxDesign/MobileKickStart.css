@@ -1,0 +1,38 @@
+.mobilekickstartbannerfootermainbox{
+    height: 280px;
+    border: 1px solid white;
+    margin-top: 5%;
+    background: url("/public/Images/MobileUIUXDesign/BannerBackgrounds/aerial-view-business-team 3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  background-size: cover;
+    position: relative;
+}
+
+.mobilekickstartbannerfootertext{
+    height: 60%;
+  
+    color: white;
+    width: 50%;
+text-align: center;
+    margin:3% 0% 0% 30% ;
+}
+
+
+.mobileuiuxdesignlowerbannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #3380f2;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.mobileuiuxdesignlowerbannerbutton:hover{
+    background-color:white;
+    color:  #3380f2;
+}

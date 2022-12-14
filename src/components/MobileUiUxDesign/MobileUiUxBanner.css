@@ -1,0 +1,19 @@
+.mobileuxuidesignbannermainboxes{
+    height: 100vh;
+    background: url("/public/Images/MobileUIUXDesign/BannerBackgrounds/Component 67.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    position: relative;
+}
+
+.mobileuxuidesigntextbox{
+    height: fit-content;
+    width: 35%;
+text-align: justify;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    color: white;
+}

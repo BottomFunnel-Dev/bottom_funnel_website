@@ -34,7 +34,7 @@ export const KotlinAppDevelopment = () => {
       <>
         <div>
             <KotlinBanner/>
-            <KotlinDevelopment/>
+            {/* <KotlinDevelopment/> */}
             <KotlinSolutions/>
             <KotlinProject/>
             <KotlinIntegration/>

@@ -11,6 +11,9 @@ export const WearableBanner = () => {
     
     <button className='wearablebannerbutton'>Get Started</button>
     </div>
+    <div className='wearablebannermainbox-image'>
+      <img src='Images/wearable/Component 120.png'></img>
+    </div>
   </div>
     </div>
   )

@@ -155,6 +155,10 @@ import { MeatDeliveryApp } from "./components/Meat-Delivery-App/MeatDeliveryApp"
 import { AppBuilderSoltion } from "./components/AppBuilderSoltion/AppBuilderSoltion";
 import { WearableAppDevelopment } from "./components/WearableAppDevelopment/WearableAppDevelopment";
 import { ImageAnalysisSoftwarePage } from "./components/ImageAnalysisSoftwarePage/ImageAnalysisSoftwarePage";
+import { IonicAppDevelopment } from "./components/IonicAppDevelopment/IonicAppDevelopment";
+import { Agriculture } from "./components/Agriculture/Agriculture";
+import { PlantBasedMeat } from "./components/PlantBaseMeat/PlantBasedMeat";
+import { MobileUiUxDesign } from "./components/MobileUiUxDesign/MobileUiUxDesign";
 
 export const ALLroutes = () => {
   return (
@@ -167,7 +171,7 @@ export const ALLroutes = () => {
       <Route path="/seo-link-building" element={<Seolink />} />
       <Route path="/seo-sem" element={<SeoSEM />} />
       <Route path="/flutter" element={<FlutterAppDevelopment />} />
-      <Route path="/ionic" element={<Ionic />} />
+      <Route path="/ionic" element={<IonicAppDevelopment />} />
       <Route path="/Aviation" element={<Aviation />} />
       <Route path="/Ai-content" element={<AiContentServices />} />
       <Route path="/ios" element={<IOSAppDevelopmentPage />} />
@@ -372,6 +376,9 @@ export const ALLroutes = () => {
       <Route path="/meat-delivery-app" element={<MeatDeliveryApp/>} />
       <Route path="/app-builder-solutions" element={<AppBuilderSoltion/>} />
       <Route path="/wearable-app-development" element={<WearableAppDevelopment/>} />
+      <Route path="/agriculture-solution-app" element={<Agriculture/>} />
+      <Route path="/plant-based-meat-delivery-app" element={<PlantBasedMeat/>} />
+      <Route path="/mobile-user-experience" element={<MobileUiUxDesign/>} />
       <Route
         path="/image-analysis-software"
         element={<ImageAnalysisSoftwarePage />}

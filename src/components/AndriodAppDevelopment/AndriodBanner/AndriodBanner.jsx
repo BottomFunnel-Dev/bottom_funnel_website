@@ -8,7 +8,7 @@ export const AndriodBanner = () => {
         <div className='andriodAppDevbannermainbox'>
             <div className='andriodAppDevbannermainboxinnertextdiv'>
                 <h1>Andriod App Development</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed quam est. Nunc vestibulum odio blandit, aliquam metus nec, eleifend eros . Sed sed efficitur lectus, sed vehicula est. Donec feugiat non ex a molestie. Nullam</p>
+                <p>If you're looking for a reliable and affordable android app development service, you've come to the right place. At Bottom funnel, we understand the importance of delivering high-quality apps on time and at a fraction of the cost of other developers. So whether you're looking for a simple Android app or a more complex project, we can help. We take pride in our extensive experience and track record of success, so you can be sure that your project will be handled with care. Contact us today to get started!</p>
                 
                 <button className='andriodAppDevbannerbutton'>Get Started</button>
             </div>

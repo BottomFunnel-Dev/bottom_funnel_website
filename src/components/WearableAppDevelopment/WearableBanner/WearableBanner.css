@@ -1,13 +1,15 @@
 .wearablebannermainbox {
     height: 100vh;
     width: 100%;
-    border: 3px solid white;
+    /* border: 3px solid blue; */
     /* margin-top: 120px; */
-    background-image: url("/public/Images/wearable/Component 64.png");
+    /* background-image: url("/public/Images/wearable/Component 120.png"); */
 
-    background-repeat: no-repeat;
-    background-size: 60% 100%;
+    /* background-repeat: no-repeat; */
+    /* background-size: 60% 100%; */
     background-position: right;
+    display: flex;
+    flex-direction: row;
   }
 
 
@@ -15,13 +17,24 @@
   .wearablebannermainboxinnertextdiv {
     height: 50%;
     width: 37%;
+    /* border: 2px solid red; */
   
     margin-top: 18%;
     margin-left: 3%;
     /* padding-top: 10.5%; */
     /* text-align: center; */
   }
-  
+  .wearablebannermainbox-image{
+    /* border: 2px solid red; */
+    height: 97vh;
+    width: 56%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2%;
+    margin-left: 2%;
+    background-position: right;
+    
+  }
   .wearablebannermainboxinnertextdiv > h1 {
     color: black;
     font-size: 40px;
@@ -33,7 +46,7 @@
     color: black;
     margin-top: 7%;
     font-size: 18px;
-    font-weight: 500;
+    /* font-weight: 500; */
   }
   
   .wearablebannerbutton {
@@ -48,10 +61,15 @@
     font-weight: 600;
     color: white;
     margin-top: 35px;
+    /* border: 2px solid green; */
   }
   
   .wearablebannerbutton:hover {
     background-color: white;
     color: #3380f2;
+  }
+  .wearablebannermainbox-image img{
+    width: 100%;
+    height: 100%;
   }
   

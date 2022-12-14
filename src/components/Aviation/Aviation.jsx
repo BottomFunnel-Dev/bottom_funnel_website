@@ -21,7 +21,7 @@ import MainFooter from "../FooterSection/MainFooter";
 export const Aviation = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+    dispatch(ChnageNavbarColor({ color: "white", logo: true }));
   }, []);
 
   return (

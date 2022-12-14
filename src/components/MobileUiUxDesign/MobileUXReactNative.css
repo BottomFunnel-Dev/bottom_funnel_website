@@ -1,0 +1,50 @@
+.mobileuxreactnativemainbox{
+    height: fit-content;
+
+    display: flex;
+    margin-top: 5%;
+}
+
+.mobileuxreactnativeleftbox{
+    height: 80%;
+    width: 50%;
+    margin-left: 3%;
+   border-right: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobileuxreactnativerightbox{
+    height: 80%;
+    width: 50%;
+
+    text-align: justify;
+  margin: 0% 3% 0% 5%;
+}
+
+.mobileuxreactnativeleftboxindivisalyy{
+    height: fit-content;
+    width: 47%;
+  
+    margin-right: 3%;
+    padding: 10px;
+
+}
+
+
+.mobileuxreactnativeleftboxindivisalyy:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.02);
+}
+
+
+
+.mobileuxuireacthtxtandimageflexparagraph{
+    text-align: justify;
+}
+
+.mobileuxuireacthtxtandimageflex{
+    height: 30%;
+    display: flex;
+
+}

@@ -1,0 +1,40 @@
+.ionicAppBannermainbox {
+    height: 100vh;
+    width: 100%;
+    border: 1px solid white;
+    /* margin-top: 120px; */
+    background-image: url("/public/Images/IonicAppDevelopment/Component 64.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .ionicAppBannermainboxinnertextdiv {
+    /* height: 50%; */
+    width: 37%;
+    margin-top: 20%;
+    margin-left: 3%;
+    text-align: left;
+    color: white;
+    /* border: 2px solid red; */
+  }
+
+  
+  .ionicAppBannerbutton {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 220px;
+    background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3380f2;
+  }
+  
+  .ionicAppBannerbutton:hover {
+    background-color: #3380f2;
+    color: white;
+  }
+  

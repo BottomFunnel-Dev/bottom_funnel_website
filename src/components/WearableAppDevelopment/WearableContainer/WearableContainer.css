@@ -4,7 +4,7 @@
 .wearablecompanydiv{
     /* border: 2px solid blue; */
     width: 75%;
-    margin-left: 3%;
+    margin-left: 4%;
     margin-top: 5%;
     text-align: left;
 
@@ -17,12 +17,12 @@
 
 .wearablecompanydiv p{
  font-size: 16px;
- margin-top: 3%;
+ margin-top: 1%;
 }
 .wearablegenerationdiv{
     /* border: 2px solid green; */
     width: 73%;
-    margin-left: 3%;
+    margin-left: 4%;
     margin-top: 4%;
     text-align: left;
 }
@@ -31,7 +31,7 @@
 }
 .wearablegenerationdiv p{
     font-size: 15px;
-    margin-top: 2.5%;
+    margin-top: 1%;
 }
 
 
@@ -54,7 +54,7 @@
     flex-direction: row;
     justify-content: center;
     width: 80%;
-    margin-left: 7%;
+    margin-left: 9%;
     margin-top: 2.5%;
 }
 .wearableservice-innercard{
@@ -75,3 +75,23 @@
 .wearableservice-innercard h5{
     font-size: 20px;
 }
+
+.wearablebannerbutton1 {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 65px;
+  }
+  
+  .wearablebannerbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+  

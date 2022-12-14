@@ -22,17 +22,19 @@ const whyshoulddata = [
 
   return (
     <div className='appbuilderwhyshouldmainboxes'>
-    <div className='appbuilderwhyshouldtxtboxes'><h1>Why Should You Choose a No-Code App Development Platform like Bottom Funnel?</h1></div>
+    <div className='appbuilderwhyshouldtxtboxes'><h1>Why Should You Choose a No-Code App Development Platform like Bottom Funnel?</h1> </div>
   <div className='appbuilderwhyshouldmappingbox'>{whyshoulddata.map((e)=>{
     return(
         <div className='appbuildermapperdata'><h3>{e.htxt}</h3>
         <p>{e.stxt}</p>
         </div>
+        
     )
   })}</div>
   
   
     </div>
+   
   )
 }
 

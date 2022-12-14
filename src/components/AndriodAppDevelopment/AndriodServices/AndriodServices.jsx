@@ -8,10 +8,7 @@ export const AndriodServices = () => {
         <div className="andriodServicesMainDiv">
             <div className="andriodServicesheading">
                <h1> Andriod Application Development Services </h1>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, saepe laborum mollitia deleniti eos reprehenderit eligendi incidunt adipisci vitae velit veniam molestias, at tempore quisquam molestiae consequatur maxime commodi voluptate!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut quos laudantium. Eaque vitae amet similique dicta minus, neque nihil voluptas, voluptatibus ipsam repellendus non deserunt eveniet placeat officiis dolorem?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati amet nesciunt totam aspernatur accusantium, fuga adipisci perferendis nihil, illum quidem consequatur dignissimos ab nam rerum modi deserunt doloremque, rem inventore.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab maiores iure perspiciatis vero molestiae atque repudiandae distinctio facilis eum rem sequi, fugiat quae velit natus nihil est! Dolor, eligendi.
+              <p>Bottom funnel android app development service can help you to design, develop and deploy the best Android app for your business. Our team of experienced and qualified developers will work with you to create an app that meets your specific needs while ensuring timely delivery and maximum user satisfaction. We understand that your time is valuable, which is why we offer a range of affordable options that are tailored to meet your precise needs. Contact us today to learn more about our bottom funnel android app development service!
               </p>
             </div>
             <div className="andriodServicesContainerDiv">
@@ -25,7 +22,7 @@ export const AndriodServices = () => {
                         </div>
                         <div className="andriodServiceBoxContent">
                           <p>
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aut voluptatem quae magnam cum pariatur laudantium ducimus, enim ipsam, fugit quasi accusamus voluptatibus omnis exercitationem nemo totam tempore sed veniam.
+                          Our experience with Android helps us to scale your Android applications with various integrations in order to meet your business development needs.
                           </p> 
                         </div>
                     </div>
@@ -37,7 +34,7 @@ export const AndriodServices = () => {
                              <h6>Andriod UI/UX Design</h6>
                         </div>
                         <div className="andriodServiceBoxContent">
-                           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aut voluptatem quae magnam cum pariatur laudantium ducimus, enim ipsam, fugit quasi accusamus voluptatibus omnis exercitationem nemo totam tempore sed veniam.</p>
+                           <p> Our creative Android UI/UX designers can create interactive UI designs that enhance the user experience of Android applications.</p>
                         </div>
                     </div>
                     <div className="andriodServicesContainerBoxes">
@@ -48,7 +45,7 @@ export const AndriodServices = () => {
                             <h6>Custom Andriod App Development</h6>
                         </div>
                         <div className="andriodServiceBoxContent">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aut voluptatem quae magnam cum pariatur laudantium ducimus, enim ipsam, fugit quasi accusamus voluptatibus omnis exercitationem nemo totam tempore sed veniam.</p>
+                            <p>Our team of Android app developers are experienced and skilled in providing customizable Android app solutions that are tailored to your specific needs.</p>
                         </div>
                     </div>
                     
@@ -59,11 +56,11 @@ export const AndriodServices = () => {
                             <img className="andriodServiceImage" src="Images/AndriodDevImages/icons/android 2.png"/>
                         </div>
                         <div className="andriodServiceBoxHeading">
-                           <h6>Andriod App Testing</h6>
+                           <h6>Android Consulting</h6>
                         </div>
                         <div className="andriodServiceBoxContent">
                           <p>
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aut voluptatem quae magnam cum pariatur laudantium ducimus, enim ipsam, fugit quasi accusamus voluptatibus omnis exercitationem nemo totam tempore sed veniam.
+                          We are able to provide validation for your business idea by conducting an in-depth analysis and providing well-researched forecasts.
                           </p> 
                         </div>
                     </div>
@@ -75,7 +72,7 @@ export const AndriodServices = () => {
                              <h6>Support and Maintenance</h6>
                         </div>
                         <div className="andriodServiceBoxContent">
-                           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aut voluptatem quae magnam cum pariatur laudantium ducimus, enim ipsam, fugit quasi accusamus voluptatibus omnis exercitationem nemo totam tempore sed veniam.</p>
+                           <p>Our Android app maintenance services keep your application supported and running smoothly by monitoring it and providing support for app store issues.</p>
                         </div>
                     </div>
                     <div className="andriodServicesContainerBoxes">
@@ -83,10 +80,10 @@ export const AndriodServices = () => {
                             <img className="andriodServiceImage" src="Images/AndriodDevImages/icons/app-development 2.png"/>
                         </div>
                         <div className="andriodServiceBoxHeading">
-                            <h6> AI Powered Andriod App Development</h6>
+                            <h6>Android App Modernization</h6>
                         </div>
                         <div className="andriodServiceBoxContent">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aut voluptatem quae magnam cum pariatur laudantium ducimus, enim ipsam, fugit quasi accusamus voluptatibus omnis exercitationem nemo totam tempore sed veniam.</p>
+                            <p>Our Android app modernization services can help you to update your apps with the latest version of Android, language, hardware, and software.</p>
                         </div>
                     </div>
                     

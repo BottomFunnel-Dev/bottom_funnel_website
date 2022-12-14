@@ -20,7 +20,8 @@ export const WearableContainer = () => {
             <h1> Next generation of wearable services for frontline, innovative business group</h1>
             <p> simply put,our core strength lie in the simplicity  Lorem ipsum dolor sit amet consectetur
                  adipisicing elit. Veritatis id dolorum ea, molestiae ipsum impedit dignissimos beatae sit 
-                nam assumenda error tempora nesciunt incidunt ullam vero et illo praesentium mollitia.</p>
+                nam assumenda error tempora nesciunt incidunt ullam vero et illo praesentium mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nam, explicabo doloribus est reiciendis facilis consectetur voluptate assumenda impedit illo pariatur, 
+                quam sit corporis laboriosam adipisci. Fuga repellat nobis sed.</p>
         </div>
         <div className='wearableservice'>
             <h4> Service That We Offer</h4>
@@ -32,22 +33,22 @@ export const WearableContainer = () => {
                      </p>
                 </div> 
                 <div className='wearableservice-innercard' >
-                  <h5><FcApproval/> Wearable Solution Design</h5>
+                  <h5><FcApproval/> Wearable Device App Development </h5>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, non expedita nam ipsum dolorem distinctio
                      </p>
                 </div>
                <div className='wearableservice-innercard' >
-                  <h5> <FcApproval/> Wearable Solution Design</h5>
+                  <h5> <FcApproval/> Multi-Platform Integration</h5>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, non expedita nam ipsum dolorem distinctio
                       </p>
                 </div>
                 <div className='wearableservice-innercard' >
-                  <h5><FcApproval/> Wearable Solution Design</h5>
+                  <h5><FcApproval/> Seamless Deployment</h5>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, non expedita nam ipsum dolorem distinctio
                      </p>
                 </div> 
             </div>
-            <div><button className='wearablebannerbutton'>Get Started</button></div>
+            <div><button className='wearablebannerbutton1'>Get Started</button></div>
             
 
         </div>

@@ -1,20 +1,14 @@
 .mobileDevMainCardsouterDiv{
-    /* border: 2px solid red; */
     width: 100%;
-    /* height: 100vh; */
 }
 .mobileDevMainCardsContainer{
-    /* border: 2px solid gold; */
     width: 90%;
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     margin: auto;
 }
 .mobileDevMainCardsBox1{
-    /* border: 2px solid red; */
     width: 100%;
-    /* height: 300px; */
     margin-top: 2%;
     display: flex;
     flex-direction: row;

@@ -1,0 +1,35 @@
+.mobileuiuxtopnotchedmainboxes{
+    height: fit-content;
+
+    margin-left: 3%;
+    width: 70%;
+    text-align: justify;
+}
+
+.mobileuiuxtopnotchedmainboxes >h1 {
+
+    width: 60%;
+
+    text-align: justify;
+}
+
+.mobileuiuxtopnotchedmainboxes >p {
+    font-weight: 500;
+}
+
+.topnotchedmobileuxuianothertextbox{
+    height: 50%;
+    width: 100%;
+    margin-top: 5%;
+
+}
+
+.topnotchedmobileuxuianothertextbox >h1 {
+
+
+    text-align: justify;
+}
+
+.topnotchedmobileuxuianothertextbox >p {
+    font-weight: 500;
+}

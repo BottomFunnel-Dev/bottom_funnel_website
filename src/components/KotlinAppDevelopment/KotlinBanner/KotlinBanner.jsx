@@ -8,7 +8,7 @@ export const KotlinBanner = () => {
         <div className='kotlinbannermainbox'>
             <div className='kotlinbannermainboxinnertextdiv'>
                 <h1 className="kotlinChange">Kotlin</h1><h1> App Development Services</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed quam est. Nunc vestibulum odio blandit, aliquam metus nec, eleifend eros . Sed sed efficitur lectus, sed vehicula est. Donec feugiat non ex a molestie. Nullam</p>
+                <p>We have been providing the best kotlin app development services to our clients since long. We are experts in this domain and we can make any kind of app with a single click. Our team consists of highly proficient professionals who have years of experience in developing apps. They know their stuff and they will make sure that your app is error-free and user-friendly too. Don't waste your time, order our kotlin app development services right away!</p>
                 
                 <button className='kotlinbannerbutton'>Get Started</button>
             </div>
