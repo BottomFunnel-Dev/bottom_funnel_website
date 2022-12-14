@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import { WhyChooseXamarin } from "./WhyChooseXamarin/WhyChooseXamarin";
 import { XamarinAppDevelopmentBanner } from "./XamarinAppDevelopmentBanner/XamarinAppDevelopmentBanner";
 import { XamarinApproach } from "./XamarinApproach/XamarinApproach";
@@ -20,6 +22,10 @@ import MainFooter from "../FooterSection/MainFooter";
 import { Helmet } from "react-helmet";
 
 export const XamarinAppDevelopment = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+  }, []);
 
   return (
       <>
