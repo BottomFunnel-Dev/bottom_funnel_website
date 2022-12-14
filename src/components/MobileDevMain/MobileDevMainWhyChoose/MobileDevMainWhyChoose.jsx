@@ -1,7 +1,8 @@
-import React from "react";
+
 import "./MobileDevMainWhyChoose.css";
 
 export const MobileDevMainWhyChoose = () => {
+   
 
   return (
       <>

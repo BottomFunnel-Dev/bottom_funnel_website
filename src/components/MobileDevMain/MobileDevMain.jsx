@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 import { MobileDevMainBanner } from "./MobileDevMainBanner/MobileDevMainBanner";
 import { MobileDevMainCards } from "./MobileDevMainCards/MobileDevMainCards";
 import { MobileDevMainProject } from "./MobileDevMainProject/MobileDevMainProject";
@@ -18,6 +20,11 @@ import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
 
 export const MobileDevMain = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+  }, []);
+
   return (
     <>
       <div>
