@@ -26,7 +26,7 @@ export const aspstackIntro = {
   ],
 };
 
-export const javastackIntro = { 
+export const javastackIntro = {
   heading: "Java",
   description: `Java is a computer programming language that enables developers to create sophisticated applications quickly and easily.  Java is one of the most common languages used today for developing web apps, desktop applications, mobile apps, and gaming platforms.
 
@@ -168,117 +168,81 @@ export const rubystackIntro = {
 };
 export const golangstackIntro = {
   heading: "Golang",
-  description: `Golang is a programming language that was designed to be efficient and fast. It has many features that make it stand out from other languages, such as dynamic typing and nil values. golang also supports goroutines (a type of parallel processing), which makes it ideal for high-performance applications. It runs on different platforms such as Linux, MacOS, and Windows.`,
+  description: `Go is a programming language that runs on the Linux operating system and can be used to develop applications with high performance.
+
+Bottom Funnel uses this programming language extensively to build robust cloud-native applications that can leverage IoT, big data, AI, machine learning, blockchain.`,
   aspstack: [
     {
-      stackName: "Gin",
+      stackName: "Git",
       stackIcon: "Images/webdevmain/frameworkIcons/golang/gin.png",
       alt: "gin.png",
-      description: `Git is the top framework of Golang. It is the best choice if you have a small team and want to build a single-page application. It's easy to use, modern, and scalable. With its excellent documentation available on GitHub, it's perfect for beginners and uses HTTP routers to handle Golang traffic. It is the best Golang framework for creating high-performance REST APIs since it supports the most crucial libraries and features.`,
+      description: `Git is the top framework of Golang. It is the best choice if you have a small team and want to build a single-page application. It's easy to use, modern, and scalable. With its excellent documentation available on GitHub, it's perfect for beginners and uses HTTP routers to handle Golang traffic.`,
     },
     {
       stackName: "Echo",
       stackIcon: "Images/webdevmain/frameworkIcons/golang/echo.png",
       alt: "echo.png",
-      description: `Echo framework has been around for some time now and gained a lot of popularity because of its lightweight nature and high-performance. This makes it perfect for quick prototyping without any code repetition. With Echo framework, you can create your own navigable API using HTTP/2 support, efficient router which intelligently prioritizes routes, auto-installs TLS certificates and more! Plus it's easy to configure with many built-in middlewares so you can create a dependable application quickly!`,
+      description: `Echo framework has been around for some time now and gained a lot of popularity because of its lightweight nature and high-performance. This makes it perfect for quick prototyping without any code repetition. With Echo framework, you can create your own navigable API using HTTP/2 support, efficient router which intelligently prioritizes routes, auto-installs TLS certificates and more!`,
     },
     {
       stackName: "Gorilla",
       stackIcon: "Images/webdevmain/frameworkIcons/golang/gorilla.png",
       alt: "gorilla.png",
-      description: `With Gorilla, Golang is the new D. You don't have to worry about tradeoffs or compromises anymore. Regularly used features are supported by Gorilla, so your code will be semantically correct and stable from day one. The framework has a modular structure that allows developers to easily swap out parts of the application without affecting other modules. The advanced scalability feature also comes in handy here, because it enables you to add more servers and database servers as your application grows.`,
+      description: `With Gorilla, Golang is the new D. You don't have to worry about tradeoffs or compromises anymore. Regularly used features are supported by Gorilla, so your code will be semantically correct and stable from day one. The framework has a modular structure that allows developers to easily swap out parts of the application without affecting other modules.`,
     },
     {
       stackName: "Iris Golang",
       stackIcon: "Images/webdevmain/frameworkIcons/golang/irisgolang.png",
       alt: "irisgolang.png",
-      description: `Iris is a cross-platform web framework that makes it easy to build high-performance web applications. Build your own high-performance web applications and APIs powered by unlimited potentials and portability.
-
-      Consider Iris to be express.js for the Go Programming Language. With a rich set of features, superior performance, and ability to deploy as a serverless application on AWS and Netlify, Iris is poised to become the next big thing in website development!`,
+      description: `Iris is a cross-platform web framework that makes it easy to build high-performance web applications. Build your own high-performance web applications and APIs powered by unlimited potentials and portability. Consider Iris to be express.js for the Go Programming Language.`,
     },
     {
       stackName: "Revel",
       stackIcon: "Images/webdevmain/frameworkIcons/golang/revel.png",
       alt: "revel.png",
-      description: ` easy for developers to handle HTTP requests in a more efficient and scalable way. Specifically, Revel.In offers several features that make it easier than ever to process requests and reduce the amount of traffic your website experiences. These features include:
-      Revel.In uses modular architecture which makes it easy to add new functionality without affecting the rest of the software
-      It provides support for Goroutines, allowing them to run in parallel on multi-core machines
-      It supports streaming responses from backend servers, so there is no need to wait until all requests are processed before responding dynamically
-      `,
+      description: `Revel is one of the first and fully featured Go web frameworks. It is a self-sufficient framework that does not require any third-party plugins or middleware. The reason why developers love Revel is that it is a one-stop-shop for API development regardless of the complex task.`,
     },
   ],
 };
 export const javascriptstackIntro = {
   heading: "Javascript",
-  description: ` sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-      in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-      fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-      Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-      eaque.`,
+  description: `Javascript is the most popular language for web development these days. Leveraging the power of Javascript, you can build an application in no time. Bottom Funnel has everything from Bootstrap libraries, APIs and more to make your life easier.`,
   aspstack: [
     {
       stackName: "React",
       stackIcon: "Images/webdevmain/frameworkIcons/js/react.png",
       alt: "react.png",
-      description: `
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `The modern world is all about using cutting-edge technologies to build things that are quick and easy to understand. There's nothing better than React.js to build these modern applications and websites, because it makes them more intuitive and easier for the users.`,
     },
     {
       stackName: "Angular",
       stackIcon: "Images/webdevmain/frameworkIcons/js/Angularjs.png",
       alt: "Angularjs.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit,
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  `,
+      description: `Angular is a free, open-source web application framework based on TypeScript led by the Angular team at Google and a community of individuals and businesses. Angular has been completely rewritten by the same team that developed AngularJS.`,
     },
     {
       stackName: "Node.js",
       stackIcon: "Images/webdevmain/frameworkIcons/js/node.png",
       alt: "node.png",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.`,
+      description: `Node.js is an open source server environment. Node.js is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is the backend JavaScript runtime environment. Node.js runs on the V8 JavaScript engine and executes JavaScript code outside the web browser.`,
     },
     {
       stackName: "Ember",
       stackIcon: "Images/webdevmain/frameworkIcons/js/Ember.png",
       alt: "Ember.png",
-      description: `
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `Ember.js is an open source JavaScript web framework that uses the Component Services pattern. Developers can build scalable single-page web applications by incorporating common idioms, best practices, and patterns from other single-page app ecosystem patterns into the framework.`,
     },
     {
       stackName: "Jquery",
       stackIcon: "Images/webdevmain/frameworkIcons/js/Jquery.png",
       alt: "Jquery.png",
-      description: `
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `jQuery is a JavaScript library designed to simplify HTML DOM structure traversal and manipulation, event handling, CSS animations, and Ajax. This is free and open source software under the permissive MIT license.`,
     },
     {
       stackName: "Next.js",
       stackIcon: "Images/webdevmain/frameworkIcons/js/nextjs.png",
       alt: "nextjs.png",
-      description: `
-                  in, fuga dolorum eum recusandae dignissimos quaerat hic quam. Totam
-                  fuga numquam ex quod ab illum! Sed recusandae itaque praesentium!
-                  Repellat veritatis ipsum tempore, commodi nam quos corrupti inventore
-                  eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
-                  sed eos corporis, adipisci illum labore. Fugit quos assumenda impedit, `,
+      description: `Next.js is a full-fledged framework that lets you build React-based web applications with server-side rendering and static websites. It's created by Vercel, the company behind some of the most popular open source projects like React, Next.js, Angular, and others.`,
     },
   ],
 };
@@ -311,7 +275,6 @@ export const meanstackIntro = {
       alt: "node.png",
       description: `Node.js is a platform-independent JavaScript runtime environment that enables developers to build high-performance, scalable network applications. It's also used for building web servers and making it easy to create lightning fast clients with minimal effort. Node.js is built on Chrome’s V8 library and exposes the same APIs as regular JavaScript.`,
     },
-   
   ],
 };
 export const phpstackIntro = {
@@ -379,6 +342,5 @@ export const phpstackIntro = {
       alt: "zend.png",
       description: `The Zend Framework is an open-source framework for creating object-oriented Web applications using PHP 5. The goal of the framework is to simplify the development of Web 2.0 services and applications by promoting best practices for building scalable, extensible classes and objects. With the Zend Framework, you can quickly create modern Web applications that are both secure and efficient. The framework includes a vast array of features that make it easy to build scalable and maintainable applications. And with its powerful extensibility model, you can easily add new functionality without rewriting existing code.`,
     },
-   
   ],
 };

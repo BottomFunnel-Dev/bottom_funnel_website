@@ -57,13 +57,13 @@ export const golangBanner = {
   background: "Images/webdevmain/webbanner.png",
   title: "Best Golange Development Service",
   description:
-    "We offer a wide range of services that will help you find exactly what you need. Whether you're new to the world of software or an experienced pro, we have a solution that's perfect for your needs. With our expertise in golang development, we can ensure your project runs smoothly from start to finish.",
+    "Bottom Funnel is all about making your software development process smooth, efficient, and effective. We offer a wide range of services that will help you find exactly what you need. Whether you're new to the world of software or an experienced pro, we have a solution that's perfect for your needs.",
 };
 export const javascriptBanner = {
   background: "Images/webdevmain/webbanner.png",
   title: "Best Javascript Development Around the Globe",
   description:
-    "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
+    "Bottom Funnel is a new and young company with a team of versatile developers. We have extensive experience in web development and can construct your project with ease. Our expertise lies in JavaScript and Angular, two most popular web frameworks which are used to build web apps.",
 };
 export const meanBanner = {
   background: "Images/webdevmain/webbanner.png",

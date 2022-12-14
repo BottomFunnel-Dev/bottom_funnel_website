@@ -303,7 +303,7 @@ export const rubywebDevServices = {
 export const golangwebDevServices = {
   title: "Golang Development",
   description:
-    "Go is becoming a favorite programming language these days by startups, big companies, and everyone in-between. At Bout, we think that's great news for our clients! We've assembled a team of Golang experts who can help you build your next big idea. From customer signups to sending real-time updates on Instagram, we're there every step of the way - with expertise and speed to match.",
+    "Golang is going from strength to strength, and that's great news for our clients! With a team of Golang experts on hand, we can help you take your next big idea from idea to launch. From customer signups to sending real-time updates on Instagram, we're there every step of the way - with expertise and speed to match.",
   serviceCard: [
     {
       icon: "Images/golangpage/secure.png",
@@ -331,7 +331,7 @@ export const golangwebDevServices = {
       alt: "dashboard.png",
       serviceTitle: "Backend Dashboard Development",
       serviceDesc:
-        "Bottom Funnel is the best Golang development company that offers migration services for your existing Golang application, website or API. We have years of experience in this domain and our team of experts can handle any kind of migration problem quickly and efficiently ",
+        "Bottom Funnel is the best Golang development company that offers migration services for your existing Golang application, website or API. Years of experience in this domain, our team of experts can handle any kind of migration problem quickly and efficiently ",
     },
     {
       icon: "Images/golangpage/crossplatform.png",

@@ -36,14 +36,13 @@ export const whyAspnet = {
   ],
 };
 
-
 export const whyJava = {
   heading: "Java",
   desc: "Java is a popular programming language that has been used to develop websites for over two decades. It offers readability, robustness, and versatility, which makes it an ideal choice for web development. Additionally, Java is known for its stability and cross-platform compatibility – making it a great option whether you are developing on a Mac or PC. Java also offers fast performance due to its engineered architecture, so your website will load quickly no matter what device or browser is being used. And lastly, Java provides developers with tools and libraries that make development easier overall.",
 
   cardData: [
     {
-      title: "Platform Independent",  
+      title: "Platform Independent",
       description:
         "Java is one of the most used languages for web development. The reason behind this is that, it's cross-platform and highly portable. So, you can use the same code in different platforms with ease. This makes Java an excellent choice for automation projects as well!",
     },
@@ -89,7 +88,7 @@ export const whyPython = {
       description:
         "Python is one of the most human-readable programming languages, which makes it a great choice for your website’s SEO. Django is helpful in terms of building hyperlinks that are relevant to the keywords that are being used and which follow best SEO practices.",
     },
-    { 
+    {
       title: "Open-Source",
       description:
         "Python is an open-source language that enables you to use the language freely and change its code along with distributing it to other developers. Python is considered one of the most popular programming languages of all time and its popularity is only increasing day by day.",
@@ -150,75 +149,76 @@ export const whyRuby = {
 };
 export const whyGolang = {
   heading: "Golang",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+  desc: "Bottom Funnel is a full-stack web development service provider with deep domain expertise in Golang. Our team has in-depth knowledge of the entire software development lifecycle, and we have a keen understanding of client needs. We are committed to providing quality solutions that match your business requirements.",
 
   cardData: [
     {
-      title: "Powerful Performance",
+      title: "Consulting and strategy",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "While consulting is one way to get the vital information, strategizing and developing your idea with the help of experts is another option worth considering. And that's where Bottom Funnel comes in.",
     },
     {
-      title: "Easy Maintenance",
+      title: "Golang integration services",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Bottom Funnel Technologies is a global software development company that seamlessly integrates front-end and backend technologies. Our Golang developers can also help you integrate with cloud architectures for better scalability.",
     },
     {
-      title: "Fast Garbage Collection",
+      title: "AI development",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Golang is a wonderful language choice for web and mobile app development. It offers great capabilities for AI programming as well. Bottom Funnel, we provide Golang development along with AI programming to keep up with the trends.",
     },
     {
-      title: "Simplified Code",
+      title: "Microservices development",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "We combine expertise in application development with a deep understanding of Golang's strengths and weaknesses, so we are able to offer tailored solutions that will help your business achieve its goals.",
     },
     {
-      title: "Open Source",
+      title: "Cloud app development",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Our Golang developers are dedicated to tackling and building complex cloud applications and helping you with the seamless development of concurrent applications.",
     },
     {
-      title: "Industry Agnostic",
+      title: "Support & maintenance",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Our team of expert Golang developers will work hand-in-hand with you to ensure that your website or app remains up-to-date with the latest trends and technologies.",
     },
   ],
 };
+
 export const whyJavascript = {
   heading: "Javascript",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+  desc: "Bottom Funnel was founded with a vision of providing the best possible user experience for users working with Javascript.",
 
   cardData: [
     {
-      title: "Rich Interfaces",
+      title: "Frontend Development",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "Our talented developers are ready to bring your idea to life with modern technology like React.js or Vue.js. Whether it's a new application or website update, we're here to help make your vision a reality.",
     },
     {
-      title: "Versatility",
+      title: "Backend Development",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "we're choosing a frontend stack that allows us to build our backend with JavaScript, Node.js, PHP, Python or Ruby. This will give us a comprehensive understanding of how modern web applications are being built today.",
     },
     {
-      title: "Interperability",
+      title: "API Integration",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "No matter how complex your network architecture is, we're prepared for anything. From setting up a new server to making sure everything is running smoothly, our specialists will be there every step of the way with expert advice and assistance.",
     },
     {
-      title: "Easy to Understand",
+      title: "Database Design",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "We've developed a database that is error-free, secure, and efficient. Plus, our team of database designers ensure that your data is correctly saved and duplicated.",
     },
     {
-      title: "Data Validation",
+      title: "Web Development",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "With a team of javascript developers and application design experts, we produce scalable, resilient, and well-optimized websites for every one of our clients.",
     },
     {
-      title: "Built-in Functions",
+      title: "Development Of Mobile Applications",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed quae pariatur modi, dolor quam nam sit accusantium reiciendis qui.",
+        "With our Javascript-based development approach, you can be sure that your app will run smoothly on any device - no matter which operating system it's running on.",
     },
   ],
 };
@@ -250,7 +250,7 @@ export const whyMEAN = {
     {
       title: "Cost Efficient",
       description:
-        "MEAN JS can assist them in being open-source and free. A team of professional developers can enable MEAN stack development and trim down your project costs.", 
+        "MEAN JS can assist them in being open-source and free. A team of professional developers can enable MEAN stack development and trim down your project costs.",
     },
     {
       title: "User Friendly",

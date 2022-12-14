@@ -44,6 +44,7 @@ export const AnalysisOffer = () => {
       image: "Images/AnalysisSoftwarePhotos/alarm.png",
     },
   ];
+
   return (
     <div className="AnalysisOffer-container">
       <h1>
