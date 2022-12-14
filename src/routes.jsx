@@ -154,6 +154,7 @@ import { AndriodAppDevelopment } from "./components/AndriodAppDevelopment/Andrio
 import { MeatDeliveryApp } from "./components/Meat-Delivery-App/MeatDeliveryApp";
 import { AppBuilderSoltion } from "./components/AppBuilderSoltion/AppBuilderSoltion";
 import { WearableAppDevelopment } from "./components/WearableAppDevelopment/WearableAppDevelopment";
+import { ImageAnalysisSoftwarePage } from "./components/ImageAnalysisSoftwarePage/ImageAnalysisSoftwarePage";
 
 export const ALLroutes = () => {
   return (
@@ -371,6 +372,10 @@ export const ALLroutes = () => {
       <Route path="/meat-delivery-app" element={<MeatDeliveryApp/>} />
       <Route path="/app-builder-solutions" element={<AppBuilderSoltion/>} />
       <Route path="/wearable-app-development" element={<WearableAppDevelopment/>} />
+      <Route
+        path="/image-analysis-software"
+        element={<ImageAnalysisSoftwarePage />}
+      />
     </Routes>
   );
 };

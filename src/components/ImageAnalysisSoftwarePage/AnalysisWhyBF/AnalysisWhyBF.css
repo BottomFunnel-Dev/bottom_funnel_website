@@ -1,0 +1,76 @@
+.AnalysisWhyBF-container {
+  margin: 2% auto;
+}
+
+.AnalysisWhyBF-container > h1 {
+  font-size: 32px;
+  width: 90%;
+  margin: 1% auto;
+}
+
+.AnalysisWhyBF-main {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AnalysisWhyBF-cards {
+  width: 55%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.AnalysisWhyBF-cards > div {
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
+  width: 47%;
+  padding: 2%;
+}
+
+.AnalysisWhyBF-cards > div > h2 {
+  font-size: 25px;
+  width: 90%;
+  margin: 2% auto;
+}
+
+.AnalysisWhyBF-cards > div > ul > li {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.AnalysisWhyBF-cards > div > ul > li::marker {
+  content: "\220E";
+  color: blue;
+}
+
+.AnalysisWhyBF-cards > div > p {
+  font-size: 16px;
+  width: 90%;
+  margin: 2% auto;
+}
+
+.AnalysisWhyBF-cards > div > div {
+  width: fit-content;
+  height: 100px;
+  background: white;
+  margin-top: -15%;
+  margin-left: -15%;
+}
+
+.AnalysisWhyBF-cards > div > div > img {
+  height: inherit;
+}
+
+.AnalysisWhyBF-image {
+  width: 40%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AnalysisWhyBF-image > img {
+  width: 100%;
+}
