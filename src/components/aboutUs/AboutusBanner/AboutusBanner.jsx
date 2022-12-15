@@ -5,7 +5,7 @@ export const AboutusBanner = () => {
   return (
     <div className="about-us-Banner">
       <div className="about-us-banner-image">
-        <img src="/Images/aboutusImage/banner.png" alt="About us banner" />
+        <img src="/Images/aboutusImage/banner.jpg" alt="About us banner" />
       </div>
       <div className="about-us-banner-content">
         <h1>

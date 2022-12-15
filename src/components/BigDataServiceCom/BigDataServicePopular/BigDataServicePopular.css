@@ -76,6 +76,13 @@
 
 .BigDataServicePopular-Cards-Images {
   width: 25%;
+  padding: 3px;
+  border-radius: 5px;
+  background: #ffece7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .BigDataServicePopular-Cards-Images > img {
