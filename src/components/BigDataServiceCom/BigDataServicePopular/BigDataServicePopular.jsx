@@ -47,7 +47,11 @@ export const BigDataServicePopular = () => {
                 <p>{body}</p>
               </div>
               <div className="BigDataServicePopular-Cards-Images">
-                <img src={image} alt={title} />
+                <img
+                  src={image}
+                  alt={title}
+                  data-src="https://via.placeholder.com/365x500.png"
+                />
               </div>
             </div>
           );
