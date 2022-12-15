@@ -18,7 +18,7 @@ export const KotlinIntegration = () => {
                                 <img src="Images/Kotlin/Icons/check 2.png"/>
                             </div>
                             <div className="kotlinIntegrationText">
-                                <h4>Payment GateWay Integration</h4>
+                                <h4>Payment Gateway Integration</h4>
                             </div>
                         </div>
                         <div className="kotlinIntegrationOptions">
@@ -26,7 +26,7 @@ export const KotlinIntegration = () => {
                                 <img src="Images/Kotlin/Icons/check 2.png"/>
                             </div>
                             <div className="kotlinIntegrationText">
-                                <h4>Payment GateWay Integration</h4>
+                                <h4>Mobile App Development</h4>
                             </div>
                         </div>
                         <div className="kotlinIntegrationOptions">
@@ -34,7 +34,7 @@ export const KotlinIntegration = () => {
                                 <img src="Images/Kotlin/Icons/check 2.png"/>
                             </div>
                             <div className="kotlinIntegrationText">
-                                <h4>Payment GateWay Integration</h4>
+                                <h4>Kotlin App Optimization</h4>
                             </div>
                         </div>
                         <div className="kotlinIntegrationOptions">
@@ -42,7 +42,7 @@ export const KotlinIntegration = () => {
                                 <img src="Images/Kotlin/Icons/check 2.png"/>
                             </div>
                             <div className="kotlinIntegrationText">
-                                <h4>Payment GateWay Integration</h4>
+                                <h4>Upgrading The Kotlin App</h4>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ export const KotlinIntegration = () => {
                                 <img src="Images/Kotlin/Icons/check 2.png"/>
                             </div>
                             <div className="kotlinIntegrationText">
-                                <h4>Payment GateWay Integration</h4>
+                                <h4>Kotlin App Maintenance</h4>
                             </div>
                         </div>
                         <div className="kotlinIntegrationOptions">
@@ -60,7 +60,7 @@ export const KotlinIntegration = () => {
                                 <img src="Images/Kotlin/Icons/check 2.png"/>
                             </div>
                             <div className="kotlinIntegrationText">
-                                <h4>Payment GateWay Integration</h4>
+                                <h4>Kotlin Migration</h4>
                             </div>
                         </div>
                         <div className="kotlinIntegrationOptions">
@@ -68,7 +68,7 @@ export const KotlinIntegration = () => {
                                 <img src="Images/Kotlin/Icons/check 2.png"/>
                             </div>
                             <div className="kotlinIntegrationText">
-                                <h4>Payment GateWay Integration</h4>
+                                <h4>Independent Testing</h4>
                             </div>
                         </div>
                         <div className="kotlinIntegrationOptions">
@@ -76,7 +76,7 @@ export const KotlinIntegration = () => {
                                 <img src="Images/Kotlin/Icons/check 2.png"/>
                             </div>
                             <div className="kotlinIntegrationText">
-                                <h4>Payment GateWay Integration</h4>
+                                <h4>Kotlin Cross Platform Services</h4>
                             </div>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 .kotlinCardsMainDiv{
     /* border: 2px solid red; */
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-image: url("/public/Images/Kotlin/Component 64.png");
     object-fit: cover;
     background-size: cover;

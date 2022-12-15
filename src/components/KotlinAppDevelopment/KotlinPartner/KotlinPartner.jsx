@@ -7,8 +7,8 @@ export const KotlinPartner = () => {
       <>
         <div className="kotlinPartnerMainDiv">
             <h1>Benefits of Choosing Us as Your OutSourcing Partner</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quo facere non alias. Delectus beatae animi eius neque odit voluptates quibusdam illo dicta commodi pariatur quia perspiciatis, suscipit laboriosam repellat.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quibusdam minus quas officia, quia vitae! Ea, nemo. Molestias, possimus explicabo nesciunt molestiae minima dicta dolorum ratione officiis dolorem illum sapiente.
+            <p>Choosing a bottom funnel as your outsourcing partner can be a great decision for several reasons. First of all, it allows you to focus on what you do best while the outsourced work is handled by someone else. This way, you can keep your focus and energy on marketing and business operations rather than having to manage everything yourself. 
+Furthermore, using a bottom funnel offers some significant advantages over traditional outsourcing models. For one, it reduces the risk of communication errors or miscommunications between both parties.
             </p>
         </div>
       </>

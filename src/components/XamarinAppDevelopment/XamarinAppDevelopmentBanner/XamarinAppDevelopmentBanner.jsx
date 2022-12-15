@@ -8,7 +8,7 @@ export const XamarinAppDevelopmentBanner = () => {
         <div className='XamarinAppDevbannermainbox'>
             <div className='XamarinAppDevbannermainboxinnertextdiv'>
                 <h1>Xamarin App Development</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed quam est. Nunc vestibulum odio blandit, aliquam metus nec, eleifend eros . Sed sed efficitur lectus, sed vehicula est. Donec feugiat non ex a molestie. Nullam</p>
+                <p>Bottom Fountains is a leading software development company in the world. We provide best xamarin app development services to our clients which ensures that they get quality code at affordable prices. We are experts in mobile application development and have years of experience working on various types of applications.</p>
                 
                 <button className='XamarinAppDevbannerbutton'>Get Started</button>
             </div>

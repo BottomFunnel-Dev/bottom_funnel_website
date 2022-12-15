@@ -8,9 +8,8 @@ export const WhyFlutter = () => {
         <div className="whyFlutterMainDiv">
             <div className="whyFlutterContent">
                 <h2>Why is Flutter Preferable for mobile App Development</h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error minus laudantium similique nam iusto, eveniet hic voluptas officiis modi quaerat dolorem autem amet quam quo nulla ipsa! Voluptates, architecto.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus atque ea assumenda similique nisi voluptates, qui aperiam praesentium tempore, neque ad vero? Qui ea itaque odit omnis, enim dolorem ducimus?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum architecto, optio vel doloribus aspernatur, ea eius libero provident incidunt ullam animi pariatur nam molestias quo quibusdam! Nostrum maxime consectetur velit! </p>
+                <p>Flutter is a new mobile development platform that allows for faster and more responsive app development. This technology was developed by Google, and it boasts some impressive features including fast performance, cross-platform compatibility, easy deployment, and low latency.
+One of the key reasons why Flutter has become so popular is because developers can develop apps using Dart instead of Objective C or Java. Dart is a better language for developing hybrid systems since it runs well on both iOS and Android platforms. </p>
             </div>
             <div className="whyFlutterContentScroller">
                 <div className="whyFlutterContentScrollerDiv">
@@ -24,7 +23,7 @@ export const WhyFlutter = () => {
                             </div>
                         </div>
                         <div className="whyFlutterContentDataText">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ea voluptas itaque dolores quo molestias aut doloribus ut beatae ipsa, quibusdam dignissimos consequuntur repudiandae quis omnis iure sunt magnam quos
+                        Bottom funnel flutter app development services provide custom-made mobile apps that are designed according to your specifications. We build these apps with love and care, so they look refreshingly beautiful and engaging.
                         </div>
                     </div>
                     <div className="whyFlutterContentScrollerDivContainer">
@@ -37,7 +36,7 @@ export const WhyFlutter = () => {
                             </div>
                         </div>
                         <div className="whyFlutterContentDataText">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ea voluptas itaque dolores quo molestias aut doloribus ut beatae ipsa, quibusdam dignissimos consequuntur repudiandae quis omnis iure sunt magnam quos
+                        Flutter is a new front end development platform enabling native cross-platform apps. It brings modern UI techniques and tools to web developers, while making it easy for them to create engaging and functional mobile apps.
                         </div>
                     </div>
                     <div className="whyFlutterContentScrollerDivContainer">
@@ -50,7 +49,7 @@ export const WhyFlutter = () => {
                             </div>
                         </div>
                         <div className="whyFlutterContentDataText">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ea voluptas itaque dolores quo molestias aut doloribus ut beatae ipsa, quibusdam dignissimos consequuntur repudiandae quis omnis iure sunt magnam quos
+                        Flutter is becoming more popular at a rapid pace, and for good reason. The platform offers quick and easy way of building native apps that look and feel like their web counterparts.
                         </div>
                     </div>
                     <div className="whyFlutterContentScrollerDivContainer">
@@ -63,7 +62,7 @@ export const WhyFlutter = () => {
                             </div>
                         </div>
                         <div className="whyFlutterContentDataText">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ea voluptas itaque dolores quo molestias aut doloribus ut beatae ipsa, quibusdam dignissimos consequuntur repudiandae quis omnis iure sunt magnam quos
+                        Flutter application is a fun and interactive app. At the same time, it should be user friendly as well. By branding bottom funnel, you can easily manage your app's look & feel while ensuring its usability.
                         </div>
                     </div>
                     <div className="whyFlutterContentScrollerDivContainer">
@@ -76,7 +75,7 @@ export const WhyFlutter = () => {
                             </div>
                         </div>
                         <div className="whyFlutterContentDataText">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ea voluptas itaque dolores quo molestias aut doloribus ut beatae ipsa, quibusdam dignissimos consequuntur repudiandae quis omnis iure sunt magnam quos
+                        We use a bottom-up approach that starts with building the user interface and flows all the way down to testing, deployment, and maintenance. This ensures that your app is stable and secure from day one.
                         </div>
                     </div>
                     <div className="whyFlutterContentScrollerDivContainer">
@@ -89,7 +88,7 @@ export const WhyFlutter = () => {
                             </div>
                         </div>
                         <div className="whyFlutterContentDataText">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ea voluptas itaque dolores quo molestias aut doloribus ut beatae ipsa, quibusdam dignissimos consequuntur repudiandae quis omnis iure sunt magnam quos
+                        Flutter is a service that will help you reduce quality assurance time by 80% or more. Flutter works on your existing code base and does not add any additional overhead to your project.
                         </div>
                     </div>
                 </div>

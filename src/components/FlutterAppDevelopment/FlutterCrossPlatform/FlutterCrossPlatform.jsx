@@ -10,8 +10,9 @@ export const FlutterCrossPlatform = () => {
                 Flutter as the Best Framework for Cross-Platform App Development 
             </div>
             <div className="flutterCrossPlatformtext">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero error aliquam ullam obcaecati a harum architecto sunt rerum sed! Eaque nihil ipsam pariatur dolor recusandae iure eum maiores adipisci fugiat.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae odit temporibus magni, iste reprehenderit accusamus nulla dolorem dolore exercitationem eveniet aspernatur eum libero debitis voluptatum, asperiores ipsam, porro repudiandae doloremque?
+            Flutter is a mobile app development framework that allows developers to create high-quality native apps for all major platforms in just few seconds. Flutter's intuitive development tools and the possibility of working with both Android and iOS makes it an ideal choice for cross-platform app creation.
+
+With Flutter, you can create natively-looking apps for both Android and iOS devices quickly and efficiently, without having to worry about compatibility or platform issues. 
 
             </div>
             <div className="flutterCrossPlatformCardBoxDiv">

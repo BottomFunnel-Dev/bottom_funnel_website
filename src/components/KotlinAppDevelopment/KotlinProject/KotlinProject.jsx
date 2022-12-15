@@ -8,7 +8,7 @@ export const KotlinProject = () => {
         <div className='kotlinProjectmainbox'>
             <div className='kotlinProjectmainboxinnertextdiv'>
                 <h1>Kick Start Your Dream Project With Us</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed quam est. Nunc vestibulum odio blandit, aliquam metus nec, eleifend eros . Sed sed efficitur lectus, sed vehicula est. Donec feugiat non ex a molestie. Nullam</p>
+                <p>We understand what it takes to make your project shine from every angle, so let us be your partner in success!</p>
                 
                 <button className='kotlinProjectbutton'>Get Started</button>
             </div>

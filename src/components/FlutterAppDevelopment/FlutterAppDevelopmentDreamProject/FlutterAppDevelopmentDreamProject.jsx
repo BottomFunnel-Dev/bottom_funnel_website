@@ -8,7 +8,7 @@ export const FlutterAppDevelopmentDreamProject = () => {
         <div className='flutterAppDevDreamProjectmainbox'>
             <div className='flutterAppDevDreamProjectmainboxinnertextdiv'>
                 <h1>Kick Start Your Dream Project With Us</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed quam est. Nunc vestibulum odio blandit, aliquam metus nec, eleifend eros . Sed sed efficitur lectus, sed vehicula est. Donec feugiat non ex a molestie. Nullam</p>
+                <p>We know that you have a dream project in mind, something that will change your life forever! If so, let us help you turn it into reality with our bottom funnel flutter app development services! </p>
                 
                 <button className='flutterAppDevDreamProjectbutton'>Get Started</button>
             </div>
