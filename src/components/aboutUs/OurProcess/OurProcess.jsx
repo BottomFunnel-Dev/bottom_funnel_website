@@ -27,7 +27,7 @@ export const OurProcess = () => {
           <button>Read More</button>
         </div>
         <div className="OurProcess-aboutUs-image">
-          <img src="Images/aboutusImage/meeting.png" alt="about us main div" />
+          <img src="Images/aboutusImage/meeting.jpg" alt="about us main div" />
         </div>
       </div>
       <OurProcessPush />

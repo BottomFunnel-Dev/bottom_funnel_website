@@ -28,7 +28,7 @@ export const OurAchievements = () => {
       </div>
       <div className="OurAchievements-image">
         <img
-          src="Images/aboutusImage/our-achievements.png"
+          src="Images/aboutusImage/our-achievements.jpg"
           alt="Our Achievement"
         />
       </div>
