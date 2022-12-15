@@ -8,8 +8,7 @@ export const XamarinSolutions = () => {
         <div className="xamarinSolutionsMainDiv">
           <div className="xamarinSolutionsHeading">
             <h1>Our Xamarin Cross-Platform App Development Solutions</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatib
-                us explicabo sequi optio possimus non nemo aliquam, iure laborum mollitia aperiam neque vero temporibus dolore sapiente doloremque consequuntur. Fuga, ea!</p>
+            
           </div>
 
           <div className="xamarinSolutionsImage">
