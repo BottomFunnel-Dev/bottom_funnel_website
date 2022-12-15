@@ -1,0 +1,94 @@
+.consultingTechTools-container {
+  width: 90%;
+  margin: 2% auto 0;
+}
+
+.consultingTechTools-container > h1 {
+  margin: 1% auto;
+  font-size: 32px;
+}
+
+.consultingTechTools-container > h1 > span {
+  color: #ef4c23;
+}
+
+.consultingTechTools-main {
+  margin: 5% auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.consultingTechTools-main > div {
+  border: 1px solid #d9d9d9;
+  width: 23%;
+  height: 250px;
+  text-align: center;
+  margin-bottom: 5%;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.consultingTechTools-main > div > span > p {
+  width: 90%;
+  margin: 3% auto;
+  font-size: 16px;
+}
+
+.consultingTechTools-main > div > span > h2 {
+  width: 90%;
+  margin: 3% auto;
+  font-size: 20px;
+}
+
+.consultingTechTools-main > div > hr {
+  width: 85%;
+  background: #ef4c23;
+  color: #ef4c23;
+  height: 4px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  margin-top: 10%;
+}
+
+.consultingTechTools-main > div > span > div {
+  width: fit-content;
+  height: 100px;
+  margin: auto;
+  margin-top: -10%;
+  background: white;
+}
+
+.consultingTechTools-main > div > span > div > img {
+  height: 100%;
+}
+
+.consultingTechTools-hr-line {
+  width: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.consultingTechTools-hr-line > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.consultingTechTools-hr-line > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}

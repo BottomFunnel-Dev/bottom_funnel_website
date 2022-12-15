@@ -229,7 +229,12 @@ export const NavbarMain = () => {
           </div>
 
           <button className="callToAction">Hire a Talent</button>
-          <button className="callToAction">Apply as a Talent</button>
+          <button
+            className="callToAction"
+            onClick={() => navigate("/Apply-new-talent")}
+          >
+            Apply as a Talent
+          </button>
         </div>
       </nav>
       {aboutH ? (
@@ -397,12 +402,16 @@ export const NavbarMain = () => {
                 </div>
               </div>
               <div className="serviceDropdownContent">
-               
-                  <h5 className="noStyle" onClick={() => {
-                        navigate(`/mobile-app-development`);
-                        solHoverOut();
-                      }}>Mobile App Development</h5>
-              
+                <h5
+                  className="noStyle"
+                  onClick={() => {
+                    navigate(`/mobile-app-development`);
+                    solHoverOut();
+                  }}
+                >
+                  Mobile App Development
+                </h5>
+
                 <div className="listItems">
                   {appservice.map((item, j) => (
                     <div

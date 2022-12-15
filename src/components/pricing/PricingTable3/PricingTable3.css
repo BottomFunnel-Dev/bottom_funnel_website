@@ -1,0 +1,185 @@
+.Pricing-Table-main3 {
+  width: 70%;
+  height: 800px;
+  margin: auto;
+  margin-top: 6%;
+  /* border: 2px solid red; */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.Pricing-Table-main3 > div {
+  width: 25%;
+  height: 100%;
+  border: 1px solid #d3d3d3;
+}
+
+.Pricing-Table-main3 > div:nth-child(1) {
+  border-top-left-radius: 20px;
+}
+
+.Pricing-Table-main3 > div:nth-child(4) {
+  border-top-right-radius: 20px;
+}
+
+.Pricing-Table-plan3 {
+  border-bottom: 1px solid #e1e0e0;
+  height: 120px;
+}
+
+.Pricing-Table-plan3 > h2 {
+  font-size: 26px;
+  margin: 0px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.Pricing-Table-plan3 > p {
+  font-size: 16px;
+  width: 90%;
+  margin: auto;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.Pricing-Table-content3 {
+  color: #464646;
+  text-align: center;
+}
+
+.Pricing-Table-content3 > h1 {
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.Pricing-Table-content3 > h2 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.Pricing-Table-content3 > p {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.Pricing-Table-content3 > button {
+  font-size: 17px;
+  margin-bottom: 10%;
+  padding: 10px 25px;
+  background: transparent;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Pricing-Table-content3 > button:hover {
+  border: 1px solid black;
+}
+
+.Pricing-Table-content3 > hr {
+  width: 60%;
+  margin: auto;
+  background-color: #464646;
+}
+
+.Pricing-Table-features3 {
+  width: 90%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.Pricing-Table-features3 > span {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  height: 30px;
+  font-size: 16px;
+  color: #464646;
+}
+
+.pricingAdsOnsOption3MainDiv{
+  /* border: 2px solid red; */
+  background-color: white;
+  width: 100%;
+  /* height: 550px; */
+}
+.pricingAdsOnsOption3Heading{
+  /* border: 2px solid red; */
+  width: 100%;
+  text-align: center;
+  /* height: 50px; */
+  margin-top: 2%;
+}
+.pricingAdsOnsOption3Container{
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.pricingAdsOnsOption3Options1{
+  /* border: 2px solid red; */
+  width: 40%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.pricingAdsOnsOption3Options3{
+  /* border: 2px solid red; */
+  width: 60%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.pricingAdsOnsOption3Options1Content{
+  border: 2px solid rgb(138, 138, 250);
+  width: 90%;
+  /* height: 120px; */
+  margin-left: 5%;
+  margin-top:4%;
+  border-radius:15px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.pricingAdsOnsOption3Options3Content{
+  border: 1px solid lightgray;
+  width: 90%;
+  height: 350px;
+  margin-left: 5%;
+  margin-top:2%;
+  border-radius:15px;
+  display: flex;
+  flex-direction: column;
+}
+.pricingAdsOnsOption3Options1Button{
+  /* border: 2px solid black; */
+  width: 20%;
+  border-radius: 5px;
+}
+.pricingAdsOnsOption3Options3ContentHeading{
+  /* border: 2px solid saddlebrown; */
+  padding: 2%;
+  text-align: center;
+  border-bottom:1px solid lightgray;
+}
+.pricingAdsOnsOption3Options3Contentdata{
+  /* border: 2px solid red; */
+  width: 95%; 
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+}
+.pricingAdsOnsOption3Options3Button{
+  width: 25%;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+}

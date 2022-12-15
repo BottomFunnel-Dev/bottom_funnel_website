@@ -2,6 +2,11 @@
   border-bottom: 1px solid gray;
   background-color: rgb(239, 237, 237);
   height: 50px;
+  width: 95%;
+  margin: auto;
+  /* border: 2px solid red; */
+  border-radius:15px;
+  margin-top: -1.5%;
 }
 
 .Pricing-Other-main > div {

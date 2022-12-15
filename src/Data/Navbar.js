@@ -892,11 +892,13 @@ export const scaleContent = [
     title: "IT Consulting Services",
     description: `Our IT consulting services provide you the gears necessary for overcoming technological challenges.`,
     cardImg: "Images/navbar/scaleicons/technical-support.png",
+    path: "IT-consulting",
   },
   {
     title: "Digital Transformation",
     description: `We help you digitally transform and scale your business through the power of technology and innovation.`,
     cardImg: "Images/navbar/scaleicons/digitalization.png",
+    path: "Digital-transformation",
   },
   {
     title: `Product Launch and Growth Hacking`,

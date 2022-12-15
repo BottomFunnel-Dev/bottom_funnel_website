@@ -159,6 +159,9 @@ import { IonicAppDevelopment } from "./components/IonicAppDevelopment/IonicAppDe
 import { Agriculture } from "./components/Agriculture/Agriculture";
 import { PlantBasedMeat } from "./components/PlantBaseMeat/PlantBasedMeat";
 import { MobileUiUxDesign } from "./components/MobileUiUxDesign/MobileUiUxDesign";
+import { DigitalTransformation } from "./components/DigitalTransformation/DigitalTransformation";
+import { ApplyAsTalent } from "./components/ApplyAsTalent/ApplyAsTalent";
+import { ItConsultingWebsite } from "./components/ITConsultingWebsite/ItConsultingWebsite";
 
 export const ALLroutes = () => {
   return (
@@ -370,19 +373,31 @@ export const ALLroutes = () => {
       <Route path="/Fintech-solution" element={<FintechSolution />} />
       <Route path="/Car-services" element={<CarService />} />
       <Route path="/mobile-app-development" element={<MobileDevMain />} />
-      <Route path="/kotlin-development" element={<KotlinAppDevelopment/>} />
-      <Route path="/telecommunication" element={<Telecommunication/>} />
-      <Route path="/website-builder-app" element={<WebsiteBuilderApp/>} />
-      <Route path="/meat-delivery-app" element={<MeatDeliveryApp/>} />
-      <Route path="/app-builder-solutions" element={<AppBuilderSoltion/>} />
-      <Route path="/wearable-app-development" element={<WearableAppDevelopment/>} />
-      <Route path="/agriculture-solution-app" element={<Agriculture/>} />
-      <Route path="/plant-based-meat-delivery-app" element={<PlantBasedMeat/>} />
-      <Route path="/mobile-user-experience" element={<MobileUiUxDesign/>} />
+      <Route path="/kotlin-development" element={<KotlinAppDevelopment />} />
+      <Route path="/telecommunication" element={<Telecommunication />} />
+      <Route path="/website-builder-app" element={<WebsiteBuilderApp />} />
+      <Route path="/meat-delivery-app" element={<MeatDeliveryApp />} />
+      <Route path="/app-builder-solutions" element={<AppBuilderSoltion />} />
+      <Route
+        path="/wearable-app-development"
+        element={<WearableAppDevelopment />}
+      />
+      <Route path="/agriculture-solution-app" element={<Agriculture />} />
+      <Route
+        path="/plant-based-meat-delivery-app"
+        element={<PlantBasedMeat />}
+      />
+      <Route path="/mobile-user-experience" element={<MobileUiUxDesign />} />
       <Route
         path="/image-analysis-software"
         element={<ImageAnalysisSoftwarePage />}
       />
+      <Route
+        path="/Digital-transformation"
+        element={<DigitalTransformation />}
+      />
+      <Route path="/Apply-new-talent" element={<ApplyAsTalent />} />
+      <Route path="/IT-consulting" element={<ItConsultingWebsite />} />
     </Routes>
   );
 };
