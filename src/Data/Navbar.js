@@ -492,7 +492,7 @@ export const ondemand = [
   {
     dropContent: "Trading App Solutions",
     navIcons: "Images/navbar/industriesImage/trading.png",
-    path: "",
+    path: "trading-investing",
   },
 
   {
@@ -513,12 +513,12 @@ export const ondemand = [
   {
     dropContent: "Baby & KidsWear App ",
     navIcons: "Images/navbar/industriesImage/baby-wear.png",
-    path: "",
+    path: "kids-wear",
   },
   {
     dropContent: "Online Payment App ",
     navIcons: "Images/navbar/industriesImage/online-payemnt.png",
-    path: "",
+    path: "online-paymentapp-solution",
   },
   {
     dropContent: "Fintech App Solutions",

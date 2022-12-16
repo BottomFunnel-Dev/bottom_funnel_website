@@ -162,6 +162,9 @@ import { MobileUiUxDesign } from "./components/MobileUiUxDesign/MobileUiUxDesign
 import { DigitalTransformation } from "./components/DigitalTransformation/DigitalTransformation";
 import { ApplyAsTalent } from "./components/ApplyAsTalent/ApplyAsTalent";
 import { ItConsultingWebsite } from "./components/ITConsultingWebsite/ItConsultingWebsite";
+import { OnlinePaymentAppSolution } from "./components/OnlinePaymentAppSolution/OnlinePaymentAppSolution";
+import { TradingInvesting } from "./components/Trading-Investing-App-Page/Trading&Investing";
+import { KidsWear } from "./components/KidsWear/KidsWear";
 
 export const ALLroutes = () => {
   return (
@@ -378,6 +381,8 @@ export const ALLroutes = () => {
       <Route path="/website-builder-app" element={<WebsiteBuilderApp />} />
       <Route path="/meat-delivery-app" element={<MeatDeliveryApp />} />
       <Route path="/app-builder-solutions" element={<AppBuilderSoltion />} />
+      <Route path="/online-paymentapp-solution" element={<OnlinePaymentAppSolution />} />
+
       <Route
         path="/wearable-app-development"
         element={<WearableAppDevelopment />}
@@ -398,6 +403,9 @@ export const ALLroutes = () => {
       />
       <Route path="/Apply-new-talent" element={<ApplyAsTalent />} />
       <Route path="/IT-consulting" element={<ItConsultingWebsite />} />
+      <Route path="/trading-investing" element={<TradingInvesting />} />
+      <Route path="/kids-wear" element={<KidsWear />} />
+
     </Routes>
   );
 };

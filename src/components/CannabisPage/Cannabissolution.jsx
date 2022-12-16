@@ -4,27 +4,27 @@ import "./Cannabissolution.css";
 export default function Cannabissolution() {
   const cannabisSolution = [
     {
-      //    img:"Images/cannabisPhotos/Socialmedia.png",
+      //    img:"Images/cannabisPhotos/icons/Socialmedia.png",
       p: " Social media Integration",
     },
     {
-      img: "Images/cannabisPhotos/payment.png",
+      img: "Images/cannabisPhotos/icons/payment.png",
       p: "Documents sharing",
     },
     {
-      img: "Images/cannabisPhotos/reportsanalytics.png",
+      img: "Images/cannabisPhotos/icons/reportsanalytics.png",
       p: "Sign up/log in",
     },
     {
-      img: "Images/cannabisPhotos/option.png",
+      img: "Images/cannabisPhotos/icons/option.png",
       p: "Ratings",
     },
     {
-      img: "Images/cannabisPhotos/CoininHand.png",
+      img: "Images/cannabisPhotos/icons/Hand.png",
       p: " Parental control",
     },
     {
-      img: "Images/cannabisPhotos/Speaker.png",
+      img: "Images/cannabisPhotos/icons/Speaker.png",
       p: "Live Streaming",
     },
   ];
@@ -32,10 +32,10 @@ export default function Cannabissolution() {
   return (
     <div className="szmedicalsolution">
       <div className="szmedicalheading">
-        <div className="szrectanglebg">
+        {/* <div className="szrectanglebg">
           {" "}
-          <img src="Images/cannabisPhotos/solutionrectanglebg.png" />{" "}
-        </div>
+          <img src="Images/CannabisDevApp/icons/solutionrectanglebg.png" />{" "}
+        </div> */}
         <h2> Medical Cannabis Delivery Solution</h2>
         <p>
           Deliver Medical Cannabis to users all around the world and make
@@ -46,7 +46,7 @@ export default function Cannabissolution() {
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src=" Images/cannabisPhotos/Location.png" />{" "}
+              <img src=" Images/CannabisDevApp/icons/Location.png" />{" "}
             </div>
             <h5>Real-Time Tracking</h5>
           </div>
@@ -58,9 +58,9 @@ export default function Cannabissolution() {
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src="Images/cannabisPhotos/payment.png" />{" "}
+              <img src="Images/CannabisDevApp/icons/DebitCard.png" />{" "}
             </div>
-            <h5>Real-Time Tracking</h5>
+            <h5>Multiple Payment Option</h5>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -70,9 +70,9 @@ export default function Cannabissolution() {
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src=" Images/cannabisPhotos/reportsanalytics.png" />{" "}
+              <img src=" Images/CannabisDevApp/icons/ConclusionContract.png" />{" "}
             </div>
-            <h5>Real-Time Tracking</h5>
+            <h5>Reports and Analytics</h5>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -82,9 +82,9 @@ export default function Cannabissolution() {
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src="Images/cannabisPhotos/order.png" />{" "}
+              <img src="Images/CannabisDevApp/icons/List.png" />{" "}
             </div>
-            <h5>Real-Time Tracking</h5>
+            <h5>Manage Orders</h5>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -94,9 +94,9 @@ export default function Cannabissolution() {
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src="Images/cannabisPhotos/CoininHand.png" />{" "}
+              <img src="Images/CannabisDevApp/icons/Hand.png" />{" "}
             </div>
-            <h5>Real-Time Tracking</h5>
+            <h5>Bettter ROI</h5>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -106,9 +106,9 @@ export default function Cannabissolution() {
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src="Images/cannabisPhotos/Speaker.png" />{" "}
+              <img src="Images/CannabisDevApp/icons/Speaker.png" />{" "}
             </div>
-            <h5>Real-Time Tracking</h5>
+            <h5>Promotes Bussiness Effectively</h5>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -119,3 +119,4 @@ export default function Cannabissolution() {
     </div>
   );
 }
+

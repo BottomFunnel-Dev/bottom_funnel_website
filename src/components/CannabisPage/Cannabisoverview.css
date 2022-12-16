@@ -21,13 +21,14 @@
     font-weight: 600;
     font-size: 18px;
     border: none;
-    background-color: #ef4c23;
+    background-color: #5BA068;
     color:white;
-    border-radius: 25px;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .szoverviewbtn:hover{
-     color: #ef4c23;
+     color: #5BA068;
      background-color:white;
+     border: 2px solid #5BA068;
 }

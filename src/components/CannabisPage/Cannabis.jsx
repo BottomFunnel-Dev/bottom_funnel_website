@@ -28,13 +28,13 @@ export default function Cannabis() {
   return (
     <div>
       <Cannabiscontainer />
-      <Trusted partnerLogo={CannabisLogo}/>
+      {/* <Trusted partnerLogo={CannabisLogo}/> */}
       <Cannabissolution />
       <Cannabisoverview />
       <Cannabiscustomersection />
       <Cannabisadmin />
       <Cannabisdrive />
-      <PortFolio />
+      {/* <PortFolio /> */}
       <StoriesSection />
       <Industries />
       <PlanProject />
