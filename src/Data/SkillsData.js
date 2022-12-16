@@ -50,14 +50,14 @@ export const nodejsData = {
     image: "Images/nodejsphotos/bsnner.png",
     title: "Node.js Development Services",
     description:
-      "Get the most out of your technology with the help of the best NodeJS development services in the business. Node.js (Node) is an open-source development platform for executing JavaScript code server-side. Node is useful for developing applications that require a persistent connection from the browser to the server and is often used for real-time applications such as chat, news feeds and web push notifications.",
+      `Brand your new app with BottomFunnel's NodeJS development services and clients will be flocking in like moths to a flame! Our team has years of experience working with the platform, so we'll be able to help you quickly build out your application while maintaining a high level of quality throughout the process.`,
   },
   isDes: true,
   desData: {
     title: "Node js",
     image: "Images/nodejsphotos/js-logo-new.png",
     description:
-      "Node.js (Node) is an open-source development platform for executing JavaScript code server-side. Node is useful for developing applications that require a persistent connection from the browser to the server and is often used for real-time applications such as chat, news feeds and web push notifications. Explore our exclusive and top class node.js solutions developed by experienced developers to fulfil all your app requirements.",
+      `Node.js (Node) is a server-side JavaScript framework that's gaining popularity among developers for its scalability and ease of use, especially for real-time applications. Like any other tool, it has its pros and cons, but when it comes to building scalable and high-performance web applications, the advantages of Node are simply too big to ignore.`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -70,7 +70,7 @@ export const nodejsData = {
         },
         title: "The fast suit",
         description:
-          "Node.js is fast, agile and lightweight which allows for lightning-fast development of web applications. Node.js offers developers the ability to use JavaScript into native machine code, making it more efficient and faster.",
+          `Node.js is fast, agile, and lightweight--and it allows for lightning-fast development of web applications. Node.js offers developers the ability to use JavaScript into native machine code, making it more efficient and faster. Now you can power your next big idea with a scalable solution that's ready for any challenge!`,
       },
       {
         img: {
@@ -79,7 +79,7 @@ export const nodejsData = {
         },
         title: "Real time web application",
         description:
-          "Node.js is the leading platform for supporting real-time web applications. Its apps are easily scalable and reliable, making them perfect for businesses that need to handle high traffic volumes.",
+          `Node.js is an incredibly popular platform for developing real-time web applications. It's easy to scale and reliable, which makes it perfect for handling high traffic volumes. But Node isn't just for large businesses - even if you're on a budget or want to learn more about it, Node is perfect for you! Node.js so that your next app can be as scalable and reliable as possible!`,
       },
       {
         img: {
@@ -88,7 +88,7 @@ export const nodejsData = {
         },
         title: "Extreme data streaming agilty",
         description:
-          "Extreme data streaming ability allows for quick processing of large files. Node.js allows you to create readable and writable streams of data, making it ideal for data streaming applications.",
+          `BottomFunnel's powerful node.js based streaming platform lets you write readable and writable streams of data, making it ideal for any application where unstructured or structured data needs to be streamed in real-time. The scalability and availability of the cloud-based system allows you to process large volumes of data without having to worry about hardware or software constraints.`,
       },
       {
         img: {
@@ -97,7 +97,7 @@ export const nodejsData = {
         },
         title: "Single code based",
         description:
-          "Node.js is a provider of data synchronization services between the server and the client. It provides a single code for an app, which can be used for different platforms, making it coder as well as platform friendly language.",
+          `Node.js is rapidly gaining popularity because it promises to make your apps scalable and simple at heart. The ability to quickly deploy new features while maintaining existing functionality makes Node.js more attractive in today's world where speed and agility are key requirements for success in any industry or business endeavor`,
       },
       {
         img: {
@@ -106,7 +106,7 @@ export const nodejsData = {
         },
         title: "Rich ecosystem",
         description:
-          "Node Package Manager offers a fast and reliable platform for developing, testing and deploying Node.js applications. It offers prewritten, reusable code snippets and templates to build app more creative, faster and cheaper.",
+          `Node.js is quickly becoming the de-facto standard for building scalable and performant web applications, and Node Package Manager is by far the most popular way to develop with it. But what if you want to build an app that's more creative or requires faster development?`,
       },
       {
         img: {
@@ -115,7 +115,7 @@ export const nodejsData = {
         },
         title: "Community driven",
         description:
-          "Be a part of node.js community and gain access to reliable, experienced, and friendly developers who can help you with your projects and receive latest updates and innovations on this technology.",
+          `Node.js is a powerful and versatile server-side framework that allows developers to build scalable and lightning-fast applications. It is gaining popularity on the global scale because of its unique features and high scalability, which makes it a perfect choice for all types of projects.`,
       },
     ],
   },
@@ -141,7 +141,7 @@ export const nodejsData = {
   RemarkableData: {
     title: "Exclusive Node.js solutions",
     description:
-      "Hire Node JS Developers to Pinnacle your Business with The Latest Technology. You deserve the best-in-class services, powered by an expert Node JS team who knows how to deliver quality solutions with speed and precision.",
+      `BottomFunnel is here to help you pamper your clients with the latest technology. Hire us today and our expert Node JS developers will craft elegant solutions that are sure to impress. We understand how important it is to deliver quality work on time, every time, so we'll do everything we can to meet your deadlines.`,
     cardsData: [
       {
         img: {
@@ -198,14 +198,15 @@ export const phpData = {
     image: "Images/phpskillsphotos/banner.png",
     title: "PHP Development Services",
     description:
-      "Make your web presence live up to its full potential with our PHP development services.",
+      `It's important that you get your web presence maintained with a reliable team who can provide you with the best possible services.`,
   },
   isDes: true,
   desData: {
     title: "PHP",
     image: "Images/phpskillsphotos/php-logo.png",
     description:
-      "PHP is an open-source language many developers use for server-side web development. It is also used to create Graphical User Interfaces (GUIs) or numerous other things such as generating dynamic content, controlling access to users, encryption and more. With PHP you are not limited to outputting plain text - rather you can create different types of outputs such as HTML, images, PDFs or even Flash animations!",
+      `PHP is a server-side language that is used to develop websites and graphical user interfaces (GUIs). It is also used to create dynamic content, security measures, and many other things. With PHP you can make your site look great by implementing templates and formatting.
+      You will not only be able to output plain text but you can also create different types of outputs such as HTML, images, PDFs or even Flash animations! PHP gives you the freedom to choose how your website should look like.`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -218,7 +219,9 @@ export const phpData = {
         },
         title: "Open Source",
         description:
-          "PHP is an open-source server-side scripting language, i.e., the original code is made available to everyone who wants to build upon it. You can access source code without copyright problem.",
+          `PHP is an open source server-side programming language. You can access the source code without any copyright problem. Also, you can build upon it to create new applications and services.
+
+          With PHP, you can build web applications easily that are secure and scalable. It's also a great tool for integrating third-party software and services into your website or application.`,
       },
       {
         img: {
@@ -227,7 +230,7 @@ export const phpData = {
         },
         title: "Dynamic & Flexible",
         description:
-          "PHP generates dynamic content for webpages. It is easy to use and versatile enough to handle a wide range of tasks. PHP has an extensive array of functions that make it a highly versatile language.",
+          `PHP generates dynamic content for webpages and is easy to use and versatile enough to handle a wide range of tasks. With PHP, you can create an app or website in minutes without writing any code. That's why so many people are switching over from other languages like Python, Ruby, and more!`,
       },
       {
         img: {
@@ -236,7 +239,7 @@ export const phpData = {
         },
         title: "Scalable & Web documented",
         description:
-          "PHP development is scalable and web documented, which makes it easy to maintain and update. It is most suitable for developing websites that require high traffic and a lot of users.",
+          `PHP is an easy choice for developers who want to build scalable, web-documented applications. Maybe you're new to PHP and want to try it out before committing resources to a project, or maybe you're scaling your site and want something reliable. Whatever your reason, BottomFunnel is the perfect solution.`,
       },
       {
         img: {
@@ -245,7 +248,7 @@ export const phpData = {
         },
         title: "Effective Frameworks",
         description:
-          "PHP development is an effective framework that can help you tackle various tasks with ease. Its scalable frameworks help developers create robust web applications faster and with less effort.",
+        `PHP development is one of the most effective frameworks you can use for developing robust web applications. Its scalable frameworks help developers create robust web applications faster and with less effort. With PHP, you have everything you need to build a powerful website or app.`,
       },
       {
         img: {
@@ -254,7 +257,7 @@ export const phpData = {
         },
         title: "Better hosting options",
         description:
-          "PHP development possess better hosting options that offer faster site loads and more reliable performance. It offers great hosting options that include scalability, security, perfromance, and more.",
+          `Performance and security are key factors that influence web hosting capability. BottomFunnel offers the best hosting options for PHP development because it provides faster site loads, more reliable performance, scalability, security, and other features that can meet any demand of a modern website.`,
       },
       {
         img: {
@@ -263,7 +266,7 @@ export const phpData = {
         },
         title: "Easy Support & Updates",
         description:
-          "PHP development is easy to find and requires minimal support. All you need is a web browser and an internet connection. Updates are released regularly and bug fixes are made quickly.",
+          `One of the biggest advantages of using PHP is that it is easy to install and use. Want to develop a website in PHP? It's as simple as visiting your favorite web browser, opening a URL and enjoying. Updates are released regularly, bug fixes are made quickly, and many more features are added to make your life easier.`,
       },
     ],
   },
@@ -289,7 +292,7 @@ export const phpData = {
   RemarkableData: {
     title: "Useful PHP solutions",
     description:
-      "PHP solutions ensures a successful and hassle-free exprience for the users. Our solution includes everything from design and development to deployment and support.",
+      `PHP is the most widely-used language for web development. No wonder why it's so easy to find and requires minimal support. All you need is a web browser and an internet connection, and you're ready to go. Updates are released regularly, and bug fixes are made quickly. If this sounds good to you, sign up today!`,
     cardsData: [
       {
         img: {
@@ -502,7 +505,7 @@ export const laravelData = {
     title: "Laravel",
     image: "Images/larvelskillsphotos/laravel-logo.png",
     description:
-      "Laravel is a free, cross-platform, open-source developer platform that has been designed support many different types of application development needs. It uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. Bottom Funnel is among the leading Laravel web application development country in Asia, USA, middle-east and Africa which provides the best Laravel web application development services by experienced and best Laravel web developers.",
+      `Laravel is one of the most popular PHP frameworks and Laravel web application development companies are hiring for new software engineers to help out with their rapidly growing team. Why choose us? We'll help you master all the framework's features so you can build powerful, engaging websites quickly. Plus, our Laravel developers are top-notch experts with years of experience building cutting-edge applications using this framework. You'll be in good hands as we work together to create amazing things!`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -516,7 +519,7 @@ export const laravelData = {
         title: "Bundled Features",
 
         description:
-          "Laravel web application development has bundled features already available for easy addition to applications. Bundles provide a modular packaging system which enables our Laravel web developers to create an interactive and robust web applications for you.",
+          `We at BottomFunnel understand how important it is to be up and running quickly so we have made it a priority to pack our Laravel web application development services with features that will help you get things rolling fast. We also understand that quality of code matters when building an app, which is why we use best practices while writing code for your project.`,
       },
       {
         img: {
@@ -525,7 +528,7 @@ export const laravelData = {
         },
         title: "Automated Testing",
         description:
-          "Laravel doesn't let any session or cache data be persisted while testing for web development as it automatically configures the session and cache to the array driver testing making your web application error and cache free.",
+          `BottomFunnel is an easy-to-install package that will make sure your application runs error-free and cache-free while testing. It configures the session and cache to the array driver, making sure that no data is persisted in memory. This saves you from potential issues, including leaks or errors.`,
       },
       {
         img: {
@@ -534,7 +537,7 @@ export const laravelData = {
         },
         title: "Reusable code",
         description:
-          "Laravel lets the web application developers use high-quality code for reusability purpose for a new function and software so that you will be able to use the same codes which are already developed by our developers, saving your time and cost.",
+          `BottomFunnel is one such company that uses Laravel to create customized software for its clients. With a rich history of working with large companies, it's no surprise they've mastered Laravel. They're experts in Laravel, providing high-quality, reusable code so you can get the most out of your app development project.`,
       },
       {
         img: {
@@ -543,7 +546,7 @@ export const laravelData = {
         },
         title: "Agile development",
         description:
-          "Laravel provides the flexibility of using agile development method to the web application developers which enables them to constantly improve quality in sprints with short-term deliverables, making the web application adaptable to any changes you suggest.",
+        `Laravel is perfectly fitting when it comes to agile web development. It brings the flexibility of using the agile development method to web application developers, enabling them to constantly improve quality in sprints with short-term deliverables, making the web application adaptable to any changes you suggest.`,
       },
       {
         img: {
@@ -552,7 +555,7 @@ export const laravelData = {
         },
         title: "AJAX-enabled widgets",
         description:
-          "Laravel provides AJAX-enabled widgets for creating fast and dynamic web pages. Our Laravel web application developers utilize many web technologies used on the client-side to create asynchronous Web applications with the help of AJAX-enabled widgets of Laravel.",
+          `Laravel is the go-to choice for web developers who want to work with a framework that offers them the flexibility of using agile development method. It also enables them to constantly improve quality in sprints with short-term deliverables, making their web application adaptable to any changes they suggest.`,
       },
       {
         img: {
@@ -561,7 +564,7 @@ export const laravelData = {
         },
         title: "Build in tools",
         description:
-          "Laravel has certain built-in web application development tools like phpstorm, bitbucket, etc. to assist our Laravel web application developers in catering to all your technical requirements for the web application and to build an attractive and robust web application.",
+        `With Laravel, you can add new features and updates whenever you like by just updating your app's code on your local machine. On top of that, Laravel provides advanced tools like caching and authentication so that your site remains fast and secure even after multiple updates.`,
       },
     ],
   },
@@ -644,14 +647,15 @@ export const djangoData = {
     image: "Images/djangoPhotos/banner.png",
     title: "Django Development Services",
     description:
-      "Develop web applications quicker and cost efficient by using less codes with our Django web application development services.",
+      `Want to build a web application quickly, cost-efficiently, and with less code? Our Django web development services can help!`,
   },
   isDes: true,
   desData: {
     title: "Django",
     image: "Images/djangoPhotos/django-logo.png",
     description:
-      "Django is a free and open-source, Python-based web framework that follows the template and views architectural pattern. It is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Bottom Funnel is among the leading Django web application development company in Asia, USA, middle-east and Africa which provides the best Django web application development services by experienced and best Django web developers.",
+      `Django is the leading framework for building web apps in Python. It follows a clean architecture, encourages rapid development and provides you with clean and pragmatic design patterns. Bottom Funnel is among the top Django web application development company in Asia, USA, middle-east and Africa which provides the best Django web application development services by experienced and best Django web developers.
+      BottomFunnel believes that every app should be built with love. With an eye for detail and a dedication to quality, we work hard to exceed your expectations. From our start to finish process, you can be sure that your project will be delivered on time and with quality!`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -665,7 +669,7 @@ export const djangoData = {
         title: "Django application development",
 
         description:
-          "Hire our Django app developers to design and develop robust and secure apps for you. Get clean and practical apps rapidly for your business through our Django application development services.",
+          `BottomFunnel is the leading Django app development company which provides you with powerful and secure solutions that help your business grow. With our years of experience in this domain, we know what works and what fails when it comes to building apps for businesses.`,
       },
       {
         img: {
@@ -674,7 +678,7 @@ export const djangoData = {
         },
         title: "Django website Development ",
         description:
-          "Our Django web development services provide best Django web developers who can build engaging, interesting, informative and highly responsive website for you with the help of highly versatile framework of Django.",
+          `Django is one of the most versatile web development frameworks out there, and it offers an incredible amount of flexibility when it comes to creating complex sites. That's why BottomFunnel uses it to build responsive, engaging websites for our clients. Whether you're looking for an ecommerce site or a relationship management system!`,
       },
       {
         img: {
@@ -683,7 +687,7 @@ export const djangoData = {
         },
         title: "Django Web Interface Design",
         description:
-          "Create backend as well as frontend codes with a single framework of Django to create interactive and attractive webpage interfaces through our customized Django interface design services by expert web developers.",
+          `BottomFunnel lets you create backend as well as frontend codes with a single framework of Django. With our customized Django interface design services, by developers, we'll help you create interactive and attractive webpage interfaces through our cutting-edge frameworks and software.`,
       },
       {
         img: {
@@ -692,7 +696,7 @@ export const djangoData = {
         },
         title: "Django Template Design",
         description:
-          "Django is a Python-based web framework for web application development that enables our web application developers to design and create variety of beautiful templates for your website, app or software.",
+          `BottomFunnel is a top company in the world of web development. We have built our reputation on delivering high-quality work and providing clients with the best possible service. We understand the importance of building solid foundations, so we always start by laying down a strong foundation for your website with Django.`,
       },
       {
         img: {
@@ -701,7 +705,7 @@ export const djangoData = {
         },
         title: "Django REST framework",
         description:
-          "Django enables our Django web developers to use REST framework for delivering simple and flexible RESTfull APIs to our clients. We provides quality web application APIs through our Django REST framework services.",
+          `Django REST framework is here to help! With Django REST framework, you can build efficient, scalable APIs that are easy to use. Our talented team of web developers will work with you to create a custom API that fits your unique business needs. We'll deliver quality code that works across many different platforms and devices.`,
       },
       {
         img: {
@@ -710,7 +714,7 @@ export const djangoData = {
         },
         title: "Django Support and Maintenance",
         description:
-          "The Django support and maintenance services identify the gaps and repair the module to make it sound in terms of performance. Let our Django web application developers take care of the good performance of your app.",
+          `Django is a powerful and flexible web application framework, but it can be tricky to work with because of its large community and growing feature set. That's where Bottom Funnel comes in! We know Django inside out, so we're confident our Django web application developers can make your website run smoothly without any issues.`,
       },
     ],
   },
@@ -736,7 +740,7 @@ export const djangoData = {
   RemarkableData: {
     title: "BENEFITS OF USING DJANGO FOR APPLICATION DEVELOPMENT",
     description:
-      "Empower your business with rapid development and clean, pragmatic designs. Connect with Bottom funnel's Django web application developers to develop hybrid high quality web applications and avail the following benefits:",
+      `Django is a powerful and flexible web application framework, but it can be tricky to work with because of its large community and growing feature set. That's where Bottom Funnel comes in! We know Django inside out, so we're confident our Django web application developers can make your website run smoothly without any issues. And if they encounter any trouble, we'll be there to help them fix it quickly!`,
     cardsData: [
       {
         img: {
@@ -793,14 +797,16 @@ export const cakePHPData = {
     image: "Images/cakephpPhotos/banner.png",
     title: "Cakephp Development Services",
     description:
-      "Delivering on your business vision with quality CakePHP web development.",
+      "Trust us when we say that CakePHP will be your perfect partner as you bring your vision to life!",
   },
   isDes: true,
   desData: {
     title: "CakePHP",
     image: "Images/cakephpPhotos/cakephp-logo.png",
     description:
-      "CakePHP is a free and open-source development framework! The programmers enjoy the functional structures that help in creating a beautiful application flexibly. If there is monotony in the group of Framework, CakePHP offers that platform for web development. We offer all the functionality and tools required to start the coding process to the functions require to maintain the development.",
+      `CakePHP framework allows us to create elegant, functional, and stable applications. What makes Cake so special? Let's find out!- Cake PHP offers easy to understand paradigms that help you build your app. Also, it is easy to integrate with other frameworks/libraries. Lastly, its shortcommings are also good for newbies.
+
+      If you're still undecided about CakePHP or thinking about switching over from another Framework, then think no more! Onward with cake funnels!`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -813,7 +819,7 @@ export const cakePHPData = {
         },
         title: "Compatible",
         description:
-          "The framework is compatible with different versions of PHP as well as with the popular website directories.  ",
+          `The framework is compatible with different versions of PHP as well as with popular website directories, so you can start building your site right away. And since the platform is built on WordPress, it's easy to install and uses the same tools and SEO strategies that you're already familiar with.`,
       },
       {
         img: {
@@ -822,7 +828,7 @@ export const cakePHPData = {
         },
         title: "Code reusability",
         description:
-          "Coding from scratch isn't required as code-written can be used multiple times in the project reducing time and effort.",
+          `Coding from scratch isn't required as code-written can be used multiple times in the project reducing time and effort. Bottom Funnel is an extremely user-friendly UI kit for developers that allows you to build any kind of app in minutes. It's responsive, retina ready, and has a mobile menu which enables users to access your site on the go.`,
       },
       {
         img: {
@@ -831,7 +837,7 @@ export const cakePHPData = {
         },
         title: "Facile database management",
         description:
-          "Apart from basic database handling, CakePHP web development helps in managing the database in a much more effective way.",
+          `You do know how to handle the database in a smart way, but is CakePHP web development helping you extract maximum value from your databases? Not only does it provide strong support for handling databases, but it also ensures that you're using them efficiently.`,
       },
       {
         img: {
@@ -1566,7 +1572,7 @@ export const springBootData = {
     title: "SpringBoot",
     image: "Images/springbootSkillsPhotos/springboot-logo.png",
     description:
-      "Spring Boot is an open source Java-based framework used to create a micro Service. It is developed by Pivotal Team and is used to build stand-alone and production ready spring applications. Spring Boot provides a good platform for Java developers to develop a stand-alone and production-grade spring application that you can just run. You can get started with minimum configurations without the need for an entire Spring configuration setup.",
+      `Planning to build a new project in the spring framework? Or you have an existing application and would like to upgrade it to be more robust and scalable? Then, this is the right time! Spring Boot is gaining popularity day by day. This framework helps developers develop stand-alone, production-grade micro services without requiring an entire Spring configuration setup. In today's world of huge apps, where everyone wants their own department to work independently but still share data seamlessly without any glitches, that's not just a dream anymore but reality now!`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -1580,7 +1586,7 @@ export const springBootData = {
         title: "Easy Development",
 
         description:
-          "To speed up the dependency management process, Spring Boot implicitly packages the required third-party dependencies for each type of Spring-based application and provides them through so-called starter packages.",
+          `Spring Boot is a remarkably powerful framework that simplifies the development of web-based applications. One of its most anticipated features is implicit dependency management, which allows you to add external libraries and classes without having to manually add them to the application classpath.`,
       },
       {
         img: {
@@ -1589,7 +1595,7 @@ export const springBootData = {
         },
         title: "No war files develoyment",
         description:
-          "While Spring Boot can use WAR (web application resource) files, they are not necessary. Instead, Spring Boot can rely on JAR (Java resource). JAR has a shorter, simpler structure that makes them useful for developers and users.",
+          `Spring Boot is the most preferred option. Its lightweight structure makes it easier to understand and use while its dependency injection feature helps in promoting code-reuse and higher level of abstraction. BottomFunnel is here with an easy solution for this problem by explaining how JAR files are different from WAR files.`,
       },
       {
         img: {
@@ -1598,7 +1604,7 @@ export const springBootData = {
         },
         title: "No XML configuration",
         description:
-          "Spring project developers can choose to use annotations or XML configurations. The option to avoid XML configurations appeals to a lot of software engineers who don't want to go through the extra steps required.",
+          `Spring project developers can choose to use annotations or XML configurations. The option to avoid XML configurations appeals to a lot of software engineers who don't want to go through the extra steps required.`,
       },
       {
         img: {
@@ -1607,7 +1613,7 @@ export const springBootData = {
         },
         title: "Standalone Applications",
         description:
-          "Spring Boot makes it easy to create stand-alone, production-grade Spring-based applications. Spring Boot provides various starters for building standalone or more traditional war deployments. We will create Spring Boot standalone application.",
+          `SaaS projects rely on automation to save time and resources, but not everyone has the expertise or background to write code. That's why we've made it easy for project developers to use annotations or XML configurations. BottomFunnel gives you the best of both worlds--the convenience of using annotations without sacrificing control over your project.`,
       },
       {
         img: {
@@ -1616,7 +1622,7 @@ export const springBootData = {
         },
         title: "Simple setup and management",
         description:
-          "Spring Boot applications are spring bases web applications. So, it is secure by default with basic authentication on all HTTP endpoints. A rich set of Endpoints is available to develop a secure Spring Boot application.",
+          `Spring Boot apps are secure by default because they use basic HTTP authentication and HTTPS transport to protect your data from unauthorized access. Plus, the rich set of endpoints available will let you develop a secure Spring Boot application in no time.`,
       },
       {
         img: {
@@ -1625,7 +1631,7 @@ export const springBootData = {
         },
         title: "Easy to start",
         description:
-          "Spring Boot Starters is one of the major key features or components of Spring Boot Framework. The main responsibility of Spring Boot Starter is to combine a group of common or related dependencies into single dependencies.",
+          `Spring boot is one of the best ways to get started with a new web project. By using Spring Boot, you can take advantage of the many benefits offered by this framework, such as auto-configuration and code sharing. The starter pack helps you quickly assemble everything you need so that your website can be up and running in no time at all.`,
       },
     ],
   },
@@ -1715,7 +1721,8 @@ export const hiberateData = {
     title: "Hibernate",
     image: "Images/hibernateSkillsPhotos/hiberate-logo.png",
     description:
-      "Hibernate is a Java framework that simplifies the development of Java application to interact with the database. It is an open source, lightweight, ORM (Object Relational Mapping) tool. Hibernate implements the specifications of JPA (Java Persistence API) for data persistence. It was started in 2001 by Gavin King as an alternative to EJB2 style entity bean.",
+      `Hibernate is the perfect tool for developers who want a lightweight, open-source solution to manage their Java data. It implements the specifications of JPA (Java Persistence API) for data persistence, so you can rely on it to take care of your database requirements.
+      Start working with Hibernate today and enjoy the benefits of its simple, flexible approach to database interaction.`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -1729,7 +1736,7 @@ export const hiberateData = {
         title: "Open source and Lightweight",
 
         description:
-          "Hibernate provides a SQL inspired language called Hibernate Query Language (HQL) for writing SQL-like queries against Hibernate's data objects. Criteria Queries are provided as an object-oriented alternative to HQL.",
+          `With Hibernate Query Language (HQL) and Criteria Queries as the primary tools for querying your data, you can write SQL-like queries against your database objects. Or if you're an object-oriented developer, then you can use BottomFunnel's own Object Query language (OQL) which is inspired by SQL!`,
       },
       {
         img: {
@@ -1738,7 +1745,7 @@ export const hiberateData = {
         },
         title: "Fast Performance",
         description:
-          "The performance of hibernate framework is fast because cache is internally used in hibernate framework. There are two types of cache in hibernate framework first level cache and second level cache. First level cache is enabled by default.",
+          `Hibernate has always been known for its performance but this release takes it to another level by making use of leading-edge improvements in memory management and caching. You'll notice a dramatic improvement in application performance as well as reduced resource usage – all without incurring any extra development complexity or maintenance cost."`,
       },
       {
         img: {
@@ -1747,7 +1754,7 @@ export const hiberateData = {
         },
         title: "Database Independent Query",
         description:
-          "It generates the database independent queries. So you don't need to write database specific queries. Before Hibernate, if database is changed for the project, we need to change the SQL query as well that leads to the maintenance problem.",
+          `With Hibernate, we don't have to write database-specific queries anymore. Before Hibernate, if the database is changed for the project, we need to change the SQL query as well which leads to the maintenance problem. BottomFunnel gives us convenient and uniform way to generate database independent queries which makes our life easier `,
       },
       {
         img: {
@@ -1756,7 +1763,7 @@ export const hiberateData = {
         },
         title: "Automatic Table Creation",
         description:
-          "Hibernate framework provides the facility to create the tables of the database automatically. So there is no need to create tables in the database manually.",
+          `Creating tables in database can be a tedious task, especially when you have to do it every time you start working with a new database. With Hibernate Framework, this task becomes extremely easy and convenient. The framework provides the facility to create the tables of your database automatically, saving on valuable time.`,
       },
       {
         img: {
@@ -1765,7 +1772,7 @@ export const hiberateData = {
         },
         title: "Simplifies Complex Join",
         description:
-          "Hibernate framework support Auto DDL operations. In JDBC manually we have to create table and declare the data-type for each and every column.",
+          `Hibernate framework support Auto DDL operations so you can create tables with ease and get started with your data-driven business savvy today. Add in our simple yet powerful database management system, and you've got everything you need to manage your database confidently.`,
       },
       {
         img: {
@@ -1774,7 +1781,7 @@ export const hiberateData = {
         },
         title: "Provides Query Statistics",
         description:
-          "Hibernate framework is independent of Database because it supports HQL which is not specific to any database, whereas JDBC is database dependent.",
+          `Data consistency is important in any application, and Hibernate makes sure your data stays up-to-date by mapping changes to the database automatically. Best of all, all of this happens behind the scenes so you don't have to worry about it at all. You'll be able to focus on what matters most - building your app!`,
       },
     ],
   },
@@ -5278,8 +5285,7 @@ export const strutsData = {
 
 export const golangData = {
   title: "Best golang developers in the market | Bottom Funnel",
-  description:
-    "Bottom Funnel is a globally dominant company having highly experienced golang developers. Our golang development services can support you for all your different types of application development needs.",
+  description: `This compiled language offers the stability and security of C with memory safety, garbage collection, and type safety. Structured typing makes it easy to write clear and concise code that's easy to follow and maintain. And its concurrent programming model gives you the freedom to write scalable solutions in a manner that suits your needs best.`,
   isBanner: true,
   BannerData: {
     image: "Images/golangSkillsPhotos/banner.png",
@@ -5292,7 +5298,7 @@ export const golangData = {
     title: "Golang",
     image: "Images/golangSkillsPhotos/golang-logo.png",
     description:
-      "Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson.It is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.It is often referred to as Golang because of its former domain name, golang.org, but its proper name is Go.",
+    `Golang is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. It is syntactically similar to C but with memory safety, garbage collection, structural typing and concurrency support. Go is often referred to as Golang because of its former domain name golang.org but its proper name is Go.`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -5306,7 +5312,7 @@ export const golangData = {
         title: "Open Source",
 
         description:
-          "Golang was created to combine the C programming language's punctuation features and integrate elements from dialects of the present. Go offers capabilities such as pointer number-crunching, type legacy and administrators over-burdening.",
+          `Golang is the latest programming language that has gained a lot of attention in recent times. It is being adopted by companies as it offers great productivity improvements over other languages and platforms. With its modern features such as pointer number-crunching, type legacy and administrators over-burdening, Golang is an apt choice to turn your application into a robust one.`,
       },
       {
         img: {
@@ -5315,7 +5321,7 @@ export const golangData = {
         },
         title: "Cross-platform development",
         description:
-          "Golang provides a basic structure and sentence structure that doesn't have any kind of legacy for types or classes. This means that Golang doesn't hold classes, and so the legacy is handled via inline structures.",
+          `Golang is quickly becoming a top contender in the language world because of its speed, reliability, and most importantly, its ability to scale. No matter how big or small your project is, Golang has you covered.And when you're new to a language like Golang and its basics are still a bit foggy for you.`,
       },
       {
         img: {
@@ -5324,7 +5330,7 @@ export const golangData = {
         },
         title: "Testing capabilities",
         description:
-          "Golang is an assembly language, it is unnecessary to understand it as it aids applications by opening up drives and ensuring better execution. The clients get the most efficient experience due to the fact that distributed memory is used efficiently.",
+          `Golang's distributed memory architecture and simple syntax make it easy for developers to understand and use, while its powerful tooling ensures that applications run efficiently. And since Golang is an open source project, there are plenty of resources available online if you want to learn more.`,
       },
       {
         img: {
@@ -5333,16 +5339,16 @@ export const golangData = {
         },
         title: "Static typing",
         description:
-          "Golang is a secure static information language, which means that the whole structure remains secure. It is recommended that engineers clearly determine the type of data to be transferred.",
+          `Golang has been growing in popularity over the last few years and it seems like everyone's talking about it now! So why not give it a try and see how different it can make your application development process!`,
       },
       {
         img: {
           src: "Images/golangSkillsPhotos/books.png",
           alt: "Powerful standard liberary logo",
         },
-        title: "Powerful standard liberary",
+        title: "Powerful standard library",
         description:
-          "It has a rich library and packages that make programming seamless, meaning engineers don’t have to use other tools. It provides software bundles that will help you manage I/O, cryptography web servers, and the list goes on.",
+          `Golang is a programming language that provides software bundles and packages that make it easy for engineers to manage their I/O, cryptography, web servers and more. As the popularity of Golang increases, so does its library. TravelFlap is a golang package used to create automated web applications with ease.`,
       },
       {
         img: {
@@ -5351,7 +5357,7 @@ export const golangData = {
         },
         title: "Concurrency support",
         description:
-          "Golang offers the GoDoc tool that will aid you in analyzing the code needed to create documentation pages. With Golang, it is not necessary to use various dialects, for example, JSDoc, PHPDoc, and JavaDoc.",
+          `Golang is a programming language that has taken the world by storm. It offers exceptional performance, scalability, and lightweight nature. It is perfect for building large-scale applications or scaling existing ones. In this post, we are going to explore how you can make use of GoDoc tool in Golang for documentation creation using Golang.`
       },
     ],
   },
