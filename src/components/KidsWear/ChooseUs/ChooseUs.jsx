@@ -19,7 +19,10 @@ export const ChooseUs = () => {
                 </div>
             </div>  
             <div  className='ChooseUs-maindivboxcontaininnerimageheadingcontain'>
-            <p>Upload in bulk, organize content in categories, add custom filters & upload extras.</p>
+            <p>Upload in bulk, organize content in categories, add custom filters & upload extras.
+            Upload in bulk, organize content in categories, add custom filters & upload extras.
+            
+            </p>
             </div>
         </div>
         <div className='ChooseUs-maindivboxcontain'>
@@ -31,7 +34,10 @@ export const ChooseUs = () => {
                 </div>
             </div>  
             <div  className='ChooseUs-maindivboxcontaininnerimageheadingcontain'>
-            <p>Upload in bulk, organize content in categories, add custom filters & upload extras.</p>
+            <p>Upload in bulk, organize content in categories, add custom filters & upload extras.
+            Upload in bulk, organize content in categories, add custom filters & upload extras.
+           .
+            </p>
             </div>
         </div>
        </div>
@@ -48,7 +54,10 @@ export const ChooseUs = () => {
                 </div>
             </div>  
             <div  className='ChooseUs-maindivboxcontaininnerimageheadingcontain'>
-            <p>Upload in bulk, organize content in categories, add custom filters & upload extras.</p>
+            <p>Upload in bulk, organize content in categories, add custom filters & upload extras.
+            Upload in bulk, organize content in categories, add custom filters & upload extras.
+           
+            </p>
             </div>
         </div>
         <div className='ChooseUs-maindivboxcontain'>
@@ -60,7 +69,10 @@ export const ChooseUs = () => {
                 </div>
             </div>  
             <div  className='ChooseUs-maindivboxcontaininnerimageheadingcontain'>
-            <p>Upload in bulk, organize content in categories, add custom filters & upload extras.</p>
+            <p>Upload in bulk, organize content in categories, add custom filters & upload extras.
+            Upload in bulk, organize content in categories, add custom filters & upload extras.
+            
+            </p>
             </div>
         </div>
        </div>

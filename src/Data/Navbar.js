@@ -382,12 +382,12 @@ export const industries = [
   },
   {
     dropContent: "Aviation",
-    navIcons: "Images/navbar/industriesImage/travel.png",
+    navIcons: "Images/navbar/industriesImage/avaitions.png",
     path: "Aviation",
   },
   {
     dropContent: "Telecommunication",
-    navIcons: "Images/navbar/industriesImage/travel.png",
+    navIcons: "Images/navbar/industriesImage/telecom.png",
     path: "telecommunication",
   },
 ];
