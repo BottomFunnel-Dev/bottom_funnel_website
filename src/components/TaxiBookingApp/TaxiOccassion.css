@@ -2,14 +2,14 @@
 
 .taxioccasioncontainer {
     width: 100%;
-    height: 650px;
+    height: fit-content;
     margin-top: 5%;
 
   }
   .taxioccasionsub {
     width: 100%;
     
-    height: 630px;
+    height: fit-content;
     margin: auto;
 
   }
@@ -30,7 +30,7 @@
     position: relative;
 
     z-index: 1;
-  margin: auto;
+ margin-left: 10%;
     padding-top: 1%;
     display: flex;
    
@@ -85,7 +85,7 @@
   .szoccassionimage {
     width: 100%;
   padding: 2px;
-    height: 200px;
+    height: fit-content;
 
 
   }

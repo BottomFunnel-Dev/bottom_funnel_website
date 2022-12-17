@@ -18,7 +18,7 @@ export const TaxiBookingCustomerApp = () => {
             images:"Images/Taxibooking/Customerscreens/Component 117.png",
             icon:"Images/Taxibooking/icons/Group 340238.png",
             htxt:"Easy To Choose Your Ride",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi volutpat ornare dapibus sit amet felis. Sed vel aliquam sem. Donec dignissim sed libero et faucibus. Pellentesque eu elementum lorem. Quisque laoreet, massa id dictum porttitor, metus ante",
+            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi ",
         },
   
         
@@ -26,21 +26,21 @@ export const TaxiBookingCustomerApp = () => {
             images:"Images/Taxibooking/Customerscreens/Component 125.png",
             icon:"Images/Taxibooking/icons/Group 340235.png",
             htxt:"Track Your Driver",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi volutpat ornare dapibus sit amet felis. Sed vel aliquam sem. Donec dignissim sed libero et faucibus. Pellentesque eu elementum lorem. Quisque laoreet, massa id dictum porttitor, metus ante",
+            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi ",
         },
 
         {
             images:"Images/Taxibooking/Customerscreens/Component 126.png",
             icon:"Images/Taxibooking/icons/Group 340236.png",
             htxt:" Easy Pick Up",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi volutpat ornare dapibus sit amet felis. Sed vel aliquam sem. Donec dignissim sed libero et faucibus. Pellentesque eu elementum lorem. Quisque laoreet, massa id dictum porttitor, metus ante",
+            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi ",
         },
 
         {
             images:"Images/Taxibooking/Customerscreens/Component 127.png",
             icon:"Images/Taxibooking/icons/Component 131.png",
             htxt:"Booking History",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi volutpat ornare dapibus sit amet felis. Sed vel aliquam sem. Donec dignissim sed libero et faucibus. Pellentesque eu elementum lorem. Quisque laoreet, massa id dictum porttitor, metus ante",
+            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi ",
         },
     ]
 

@@ -34,11 +34,11 @@ export const BannerFull = () => {
   ];
 
   var settings = {
-    // autoplay: true,
+    autoplay: true,
     dots: false,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
-    speed: 300,
+    speed: 3000,
     swipeToSlide: true,
     slidesToShow: 1,
     pauseOnHover: false,

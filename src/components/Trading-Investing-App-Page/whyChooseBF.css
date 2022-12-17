@@ -1,15 +1,14 @@
 .RG-whyChoose-BF-Container {
     display: flex;
     justify-content: space-between;
-    width: 96%;
+    width: 98%;
     margin: auto;
     margin-top: 5%;
     height: fit-content;
 }
 .RG-whyChoose-BF-Right-Main-Div {
-    width: 55%;
-    margin-left: 5%;
-
+    width: 45%;
+    /* border: 1px solid red; */
 }
 
 .RG-whyChoose-BF-Left-Main-Div{
@@ -19,6 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     border-right: 1px solid grey;
+    /* border: 1px solid red; */
 }
 
 .RG-whyChoose-BF-Left-Boxes-Div {

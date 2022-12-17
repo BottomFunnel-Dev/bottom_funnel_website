@@ -13,9 +13,6 @@ export const TradingInvestingFooter = () => {
             <button>Get Started</button>
         </div>
         
-
-       
-        
     </div>
   )
 }

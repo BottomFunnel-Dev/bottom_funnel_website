@@ -3,7 +3,7 @@ import "./TaxiBookingAdminpannel.css"
 
 export const TaxiBookingAdminpannel = () => {
 
-    const [imageChange, setImageChange] = useState("Images/Taxibooking/Adminscreens/Dahboard.png")
+    const [imageChange, setImageChange] = useState("Images/Taxibooking/Adminscreens/Driver management.png")
 
 
     const handleImageChange = (imagepath) => {
@@ -15,10 +15,10 @@ export const TaxiBookingAdminpannel = () => {
     const adminpanneltaxibookingdata= [
 
         {
-            images:"Images/Taxibooking/Adminscreens/Dahboard.png",
+            images:"Images/Taxibooking/Adminscreens/Driver management.png",
             icon:"Images/Taxibooking/icons/Component 132.png",
             htxt:"Dashboard",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi volutpat ornare dapibus sit amet felis. Sed vel aliquam sem. Donec dignissim sed libero et faucibus. Pellentesque eu elementum lorem. Quisque laoreet, massa id dictum porttitor, metus ante",
+            stxt:"The taxi booking applications are a solution to several problems like reducing the waiting time on the road, looking out for cabs under the sun, and several other things.,",
         },
        
         
@@ -26,14 +26,14 @@ export const TaxiBookingAdminpannel = () => {
             images:"Images/Taxibooking/Adminscreens/Driver management.png",
             icon:"Images/Taxibooking/icons/Component 133.png",
             htxt:"Driver Management",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi volutpat ornare dapibus sit amet felis. Sed vel aliquam sem. Donec dignissim sed libero et faucibus. Pellentesque eu elementum lorem. Quisque laoreet, massa id dictum porttitor, metus ante",
+            stxt:"Mobile app development companies are playing a vital role in catering to this ever evolving technology needs of new-age smartphone users. Taxi app development specialization .",
         },
 
         {
             images:"Images/Taxibooking/Adminscreens/Reports & analytics.png",
             icon:"Images/Taxibooking/icons/Group 340228.png",
             htxt:"Reports",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi volutpat ornare dapibus sit amet felis. Sed vel aliquam sem. Donec dignissim sed libero et faucibus. Pellentesque eu elementum lorem. Quisque laoreet, massa id dictum porttitor, metus ante",
+            stxt:"These traditional days are gone where we go physical for the taxi booking and all. However, the new different ways of booking a taxi have come in. The application stores.",
         },
 
 
@@ -41,7 +41,7 @@ export const TaxiBookingAdminpannel = () => {
             images:"Images/Taxibooking/Adminscreens/Cashback Map1600.png",
             icon:"Images/Taxibooking/icons/Component 134.png",
             htxt:"Customer Management",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi volutpat ornare dapibus sit amet felis. Sed vel aliquam sem. Donec dignissim sed libero et faucibus. Pellentesque eu elementum lorem. Quisque laoreet, massa id dictum porttitor, metus ante",
+            stxt:"A Taxi booking app development is a strong application that ought to have the option to work well on all devices and platforms. One must be extremely cautious about the.",
         },
 
 
