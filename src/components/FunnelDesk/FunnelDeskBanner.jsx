@@ -13,7 +13,7 @@ export const FunnelDeskBanner = () => {
       <div className="main-content-banner">
         <div className="image-part">
           <img
-            src="Images/bottomFunnelDeskPhotos/human-vector.png"
+            src="Images/BottomFunnelDeskPhotos/human.png"
             alt="human"
           />
         </div>
