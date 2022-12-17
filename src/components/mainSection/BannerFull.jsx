@@ -36,9 +36,9 @@ export const BannerFull = () => {
   var settings = {
     autoplay: true,
     dots: false,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     cssEase: "linear",
-    speed: 3000,
+    speed: 300,
     swipeToSlide: true,
     slidesToShow: 1,
     pauseOnHover: false,
