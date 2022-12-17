@@ -1,7 +1,9 @@
 import React from "react";
 import "./productsGrid.css";
+import { useNavigate } from "react-router-dom";
 
 export const ProductsGrid = () => {
+  const navigate = useNavigate();
   return (
     <div className="RGflexMainContainer">
       <div className="RGofferTab">
@@ -37,7 +39,15 @@ export const ProductsGrid = () => {
             service
           </p>
           <div className="RGbuttonsPannel">
-            <button className="RGsignINButton">Sign in</button>
+            <button
+              className="RGsignINButton"
+              onClick={() => {
+                navigate(`/funnel-desk`);
+                
+              }}
+            >
+              Sign in
+            </button>
             <button className="RGfreeTrailButton">Free Trial</button>
           </div>
         </div>

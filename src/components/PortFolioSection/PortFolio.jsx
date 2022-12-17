@@ -43,6 +43,20 @@ const PortFolio = () => {
         "http://play.google.com/store/apps/details?id=yanbal.colombia2",
     },
     {
+      leftimg: "Images/portfolio/physicsfunshop.png",
+      rightImg: "Images/portfolio/physicsfunshop1.png",
+      title: "Physics Fun Shop",
+      tagline: "Educational Brand",
+      description:
+        "physicsfun is my ongoing attempt to create and sustain a museum on social media, one where I can share my vast collection of curious objects of science",
+      frontend: " React, jquery, Mordenizr",
+      backend: " Java, ASP.NET,",
+      database: " CloudFront",
+      website: "https://www.physicsfunshop.com/",
+      playStore:
+        "http://play.google.com/store/apps/details?id=",
+    },
+    {
       leftimg: "Images/portfolio/bbgroup.png",
       rightImg: "Images/portfolio/blueberrygroup.png",
       title: "BlueBerry Group",
@@ -192,6 +206,18 @@ const PortFolio = () => {
       backend: "Node, Javascript",
       database: "MongoDB",
       website: "https://www.amydus.com/",
+    },
+    {
+      leftimg: "Images/portfolio/aanandam.png",
+      rightImg: "Images/portfolio/aanandam1.png",
+      title: "The Aanandam",
+      tagline: "Hotel and Resorts Brand",
+      description:
+        "The Aanandam Hotel Resort offers four broad categories of accommodations - Deluxe Rooms, Suites, Penthouse and Dormitory. Designed keeping the comfort of our guests in mind, these accommodations come fitted with a myriad of state-of-the-art amenities and favourable facilities. Our rooms and suites open up to the beautiful views of the city, ensuring an elevated stay at our luxury resort in Itarsi.",
+      frontend: "React, Bootstrap,",
+      backend: "Node, Javascript",
+      database: "MongoDB",
+      website: "https://www.theaanandam.in/",
     },
   ];
   return (

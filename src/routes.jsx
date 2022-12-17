@@ -165,6 +165,7 @@ import { ItConsultingWebsite } from "./components/ITConsultingWebsite/ItConsulti
 import { OnlinePaymentAppSolution } from "./components/OnlinePaymentAppSolution/OnlinePaymentAppSolution";
 import { TradingInvesting } from "./components/Trading-Investing-App-Page/Trading&Investing";
 import { KidsWear } from "./components/KidsWear/KidsWear";
+import { FunnelDesk } from "./components/FunnelDesk/FunnelDesk";
 
 export const ALLroutes = () => {
   return (
@@ -405,6 +406,7 @@ export const ALLroutes = () => {
       <Route path="/IT-consulting" element={<ItConsultingWebsite />} />
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
+      <Route path="/funnel-desk" element={<FunnelDesk />} />
 
     </Routes>
   );

@@ -1,0 +1,70 @@
+.last-Component-service{
+    width: 100%;
+    height: 500px;
+   position: relative;
+    
+}
+
+.backWires{
+    width: 30%;
+    height: 433px;
+    position: absolute;
+    left: -28%;
+    
+
+}
+.backWires>img{
+    /* width: 100%; */
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.rightContent{
+    width: 70%;
+    /* background-color: green; */
+    height: 433px;
+    position: absolute;
+    left: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+
+.right-content-side{
+    width: 56%;
+    /* background-color: green; */
+    text-align: left;
+    padding: 3% 3%;
+}
+.right-content-side >p{
+  font-size: 20px;
+}
+.right-content-side >button{
+ background-color: #ef4c23;
+ padding: 5px 20px;
+ color: white;
+ font-weight: 500;
+ border: none;
+ border-radius: 15px;
+ font-size: 18px;
+}
+.right-content-side >h5{
+ color: #ef4c23;
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.right-gif-side{
+    width: 34%;
+    /* height: 100%; */
+    /* background-color: red; */
+    padding: 2%;
+}
+.right-gif-side>img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+   border-radius: 5px;
+}

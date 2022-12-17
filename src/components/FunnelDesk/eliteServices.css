@@ -1,0 +1,76 @@
+.eliteservice{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    height: fit-content;
+    padding: 2%;
+
+}
+
+.eliteservice>h1{
+    width: 100%;
+    /* background-color: green; */
+    margin: 1% auto;
+  font-size: 40px;
+}
+.eliteservice>p{
+    width: 100%;
+    font-size: 25px;
+   margin: auto;
+   font-weight: 500;
+   color: #393939;
+}
+
+.funnel-elite-service{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+
+}
+.field-elite-service{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.content-side{
+    width: 50%;
+    /* background-color: green; */
+    text-align: left;
+    padding: 3% 3%;
+}
+.content-side >p{
+  font-size: 20px;
+}
+.content-side >button{
+ background-color: #ef4c23;
+ padding: 5px 20px;
+ color: white;
+ font-weight: 500;
+ border: none;
+ border-radius: 15px;
+ font-size: 18px;
+}
+.content-side >h5{
+ color: #ef4c23;
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.gif-side{
+    width: 50%;
+    /* background-color: red; */
+    padding: 2%;
+}
+.gif-side>img{
+    width: 100%;
+   border-radius: 5px;
+}
+
+
+
+
