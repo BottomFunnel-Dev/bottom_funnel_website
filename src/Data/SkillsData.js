@@ -1101,12 +1101,7 @@ export const reactjsData = {
   desData: {
     title: "Reactjs",
     image: "Images/reactjsSkillsPhotos/reactjs-logo.png",
-    description: `React is a free and open-source front-end JavaScript library for building user interfaces
-      based on UI components. It builds encapsulated components that manage their own state,
-      then compose them to make complex UIs. Bottom Funnel is among the leading React.js web
-      application development company in Asia, USA, middle-east and Africa which provides the
-      best React.js web application development services by experienced and best React.js web
-      developers.`,
+    description: `When it comes to building a user-friendly website, React is the way to go. This library for building encapsulated components manages its own state and then composes them to make complex UIs. Bottom Funnel is among the leading React.js web application development company in Asia, USA, middle-east and Africa which provides the best React web application development services by experienced and best React web developers.`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -1119,10 +1114,7 @@ export const reactjsData = {
         },
         title: "Portal Development",
 
-        description: `We have a team of expert ReactJS developers who can help you build your perfect portal so
-          that you can get the most out of your website by optimizing it for performance and
-          usability.
-          `,
+        description: `When it comes to building a user-friendly website, React is the way to go. This library for building encapsulated components manages its own state and then composes them to make complex UIs. Bottom Funnel is among the leading React.js web application development company in Asia, USA, middle-east and Africa.`,
       },
       {
         img: {
@@ -1140,10 +1132,7 @@ export const reactjsData = {
           alt: "A Big Timesaver logo",
         },
         title: "React.js migration service",
-        description: `You can be assured of a smooth and error-free migration process. Our experienced and
-          qualified React.js developers take care of migrating all your current websites while
-          preserving all your current information.
-          `,
+        description: `We are proficient in creating responsive and adaptive designs for your React.js web application, which means you will get an app that looks good on all devices, from smartphones to tablets. We use the latest technologies to ensure that your UI runs smoothly on all browsers without any issues or errors.`,
       },
       {
         img: {
@@ -1151,9 +1140,7 @@ export const reactjsData = {
           alt: "Performance Leveraging Ecosystem logo",
         },
         title: "Custom React.Js Development",
-        description: `Our ReactJS developers are familiar with various front-end development frameworks such
-          as Bootstrap, Material Design, and Foundation to facilitate you with custom react.js
-          development services.`,
+        description: `BottomFunnel is a world-class ReactJS development company that specializes in crafting engaging, user-friendly websites. We understand the importance of making your website easy to navigate, and we use the latest techniques to make your site look great.`,
       },
       {
         img: {
@@ -1161,9 +1148,7 @@ export const reactjsData = {
           alt: "Great Developer Tools logo",
         },
         title: "Ajax Development",
-        description: `We specialize in developing Ajax applications that are both user friendly and efficient. Our
-          react.js developers can design, develop, and deploy ajax applications that can improve your
-          work flow and make your life easier`,
+        description: `BottomFunnel is your partner in creating ajax-powered websites. We have years of experience developing Ajax applications and know how to make them user-friendly and efficient. Our react.js developers can design, develop, and deploy ajax applications that can improve your workflow and make your life easier.`,
       },
       {
         img: {
@@ -5151,7 +5136,7 @@ export const strutsData = {
     title: "Struts",
     image: "Images/strutsSkillsPhotos/struts-logo.png",
     description:
-      "Apache Struts 1 is an open-source web application framework for developing Java EE web applications. It uses and extends the Java Servlet API to encourage developers to adopt a model-view-controller(MVC) architecture. It was originally created by Craig McClanahan and donated to the Apache Foundation in May 2000. Formerly located under the Apache Jakarta Project and known as Jakarta Struts, it became a top-level Apache project in 2005.",
+      `Apache Struts 1 is an open-source web application framework for developing Java EE web applications. It uses and extends the Java Servlet API to encourage developers to adopt a model-view-controller(MVC) architecture. It was originally created by Craig McClanahan and donated to the Apache Foundation in May 2000. Formerly located under the Apache Jakarta Project, it became a top-level Apache project in 2005. In 2015, it was renamed from Struts 1 to Struts 2 on account of several significant changes (e.g., JSF 2 support; tag libraries; and several MVC improvements). After more than 15 years, Struts is still going strong with millions of downloads every year!`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -5165,7 +5150,7 @@ export const strutsData = {
         title: "Tag support",
 
         description:
-          "Struts encourages good design practices and modeling because the framework is designed with time-proven design patterns.",
+          `Struts is here to change the way you think about frameworks and code architecture. It's a powerful framework that follows modeling best practices, and it's designed from the ground up with usability in mind. That means no more headache-inducing bugs and user confusion; Struts will make your life easier every step of the way.`,
       },
       {
         img: {
@@ -5174,7 +5159,7 @@ export const strutsData = {
         },
         title: "Teplate support",
         description:
-          "It takes much of the complexity out as instead of building your own MVC framework, you can use struts.",
+          `There are many reasons why you should use a MVC framework for your next project. But if you're already an expert in struts, then you know how powerful it is. BottomFunnel is one of the best struts frameworks available today that takes care of every important aspect of building a website from database to server to front-end views.`,
       },
       {
         img: {
@@ -5183,7 +5168,7 @@ export const strutsData = {
         },
         title: "Intigration support",
         description:
-          "It is flexible and extensible, it is easy for the existing web applications to adapt the struts framework.",
+          `Struts is here to change the way you think about frameworks and code architecture. It's a powerful framework that follows modeling best practices, and it's designed from the ground up with usability in mind. That means no more headache-inducing bugs and user confusion; Struts will make your life easier every step of the way.`,
       },
       {
         img: {
@@ -5192,7 +5177,7 @@ export const strutsData = {
         },
         title: "Ajax support",
         description:
-          "It supports many convenient features such as input validation and internationalization.",
+          `Struts is a powerful framework designed to encourage good design practices and modeling. It's built upon time-proven design patterns, so you know it will work for your application. Struts comes with out of the box support for MVC and RESTful APIs, so you can get started quickly.`,
       },
       {
         img: {
@@ -5201,7 +5186,7 @@ export const strutsData = {
         },
         title: "Open Source",
         description:
-          "It allows capturing input form data into javabean objects called Action forms.",
+          `Easy-to-use struts framework that adapts web applications to it in no time. It comes with tons of features that help you build a robust and responsive website. Plus, it is flexible and extensible so that you can easily modify or replace its components with your requirements. Try it out today!`,
       },
       {
         img: {
@@ -5210,7 +5195,7 @@ export const strutsData = {
         },
         title: "Various result types",
         description:
-          "It also hand over standard error handling both programmatically and declaratively.",
+          `Creating forms for capturing input from data into JavaBean objects is simple with BottomFunnel. The processing of Data into Action forms is easy and requires minimum effort, yet it delivers accurate output.`,
       },
     ],
   },
@@ -5448,7 +5433,7 @@ export const symfonyData = {
     title: "Symfony",
     image: "Images/symfonySkillsPhotos/symfony-logo.png",
     description:
-      "Symfony is an open-source PHP web application framework, designed for developers who need a simple and elegant toolkit to create full-featured web applications. Symfony is sponsored by SensioLabs. It was developed by Fabien Potencier in 2005. This tutorial will give you a quick introduction to Symfony framework and make you comfortable with its various components.",
+      `There are multiple reasons why Symfony is the go-to choice for developers. Whether you're looking to build a simple solution or an enterprise-grade application, its powerful features will help you achieve your goals. In this tutorial, we'll introduce you to the basics of Symfony and give you an overview of its key features. By the end of it, you'll feel confident enough to move on to more advanced topics!`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -5462,7 +5447,7 @@ export const symfonyData = {
         title: "Stable and Sustainable",
 
         description:
-          "Symfony is one of the few commercially supported frameworks. Developed and sponsored by SensioLabs, it offers 3-year support for all the major versions. Moreover, the company also provides lifetime support for security-related issues and offers official tutorials and certification.",
+          `With Symfony being one of the few commercially supported frameworks, you can rest assured that your company's product is backed by an experienced team. SensioLabs has been following Symfony development since its inception and offers up to 3-year support for all major versions. They also provide lifetime support for security-related issues, so you can be sure that your project will be secure from the start.`,
       },
       {
         img: {
@@ -5471,7 +5456,7 @@ export const symfonyData = {
         },
         title: "Refined MVC Architecture",
         description:
-          "The MVC architecture of the Symfony framework is ideal for systematic and scalable web development projects. Utilizing MVC as the core of its web development, the Symfony framework makes sure that the project has an organized structure.",
+          `The Symfony framework is the perfect solution for you - it has all the features and tools you need to develop a professional-grade website. With MVC architecture in place, your project will have an organized structure and be easy to work on. And because Symfony is built on top of Laravel, you also get access to all of Laravel's powerful tools and libraries.`,
       },
       {
         img: {
@@ -5480,7 +5465,7 @@ export const symfonyData = {
         },
         title: "Flexible",
         description:
-          " Symfony PHP framework is a well-organized, feature-rich PHP framework whose architecture paves the way for developers to build sustainable web applications in the easiest way possible which further enhances the users' experience.",
+          `The world is going digital as we speak and Symfony has gone a great way in making coding easier for every developer. The framework ensures that your application is structured well, thus enabling you to focus on the real business logic. With its clean architecture, it also helps you write sustainable code that is easy to manage.`,
       },
       {
         img: {
@@ -5489,7 +5474,7 @@ export const symfonyData = {
         },
         title: "Customization",
         description:
-          "Symfony framework is packed with exclusive custom features and functionalities for developers and businesses. With Symfony as your PHP framework, you can make your web application as user-oriented as you aim for.",
+          `Symfony framework packs in an array of exclusive custom features to offer businesses and developers a more effective way to build their online presence. With it, they can enhance their site's usability and make it easier for users to navigate around it.`,
       },
       {
         img: {
@@ -5498,7 +5483,7 @@ export const symfonyData = {
         },
         title: "Excellent support",
         description:
-          "Symfony PHP framework is an open-source framework giving liberty to PHP experts from all corners of the world to take part in making the code better for everybody. In the community, people cooperate in building new components.",
+          `Using Symfony as the core of its web development, the Symfony framework makes sure that your project follows a systematic approach. This means that you will have a clear idea about how everything is connected and where each part fits into the overall picture!`,
       },
       {
         img: {
@@ -5507,7 +5492,7 @@ export const symfonyData = {
         },
         title: "Large community",
         description:
-          "This is one of the critical aspects that define the framework's survivability and stands good. Symfony's official website declares 3000+ contributors with a passionate group of over 600,000 developers from more than 120 countries.",
+          `Symfony is one of the most talked-about frameworks today. It has thousands of contributors, a passionate group of over 600,000 developers from more than 120 countries, and its official website declares that 3000+ people contributed to Symfony's success.`,
       },
     ],
   },
@@ -5597,7 +5582,7 @@ export const grailsData = {
     title: "Grails",
     image: "Images/grailsSkillsPhotos/grails-logo.png",
     description:
-      "Grails is an open source web application framework that uses the Apache Groovy programming language. It is intended to be a high-productivity framework by following the 'coding by convention' paradigm, providing a stand-alone development environment and hiding much of the configuration detail from the developer.",
+      `Grails is perfect for building high-productivity web apps that follow the 'coding by convention' paradigm. It provides a stable development environment and hides much of the configuration detail from the developer so they can focus on the code! Plus, compared to other frameworks such as Angular or React, Grails is easier to learn and use because it uses plain old JavaScript instead of its own language (Groovy).`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -5611,16 +5596,16 @@ export const grailsData = {
         title: "Pragmatic Strategy",
 
         description:
-          "Groovy code is considered to be much more concise, expressive and DRY in comparison to Java code. A developer has to write less code to develop a software application as compared to other web frameworks.",
+          `BottomFunnel uses Groovy as its programming language, and compiles the code into Java bytecode so it can run on any Java enabled platform. This means you don't have to worry about learning new frameworks or languages when building your next amazing app.`,
       },
       {
         img: {
           src: "Images/grailsSkillsPhotos/printing.png",
-          alt: "Build-in testing frameworkd logo",
+          alt: "Build-in testing framework logo",
         },
         title: "Build-in testing frameworkd",
         description:
-          "The Grails community provides extensive assistance and support for both novice and advanced programmers. Almost, all questions and queries get answered by the active Grails community.",
+          `The Grails community provides extensive assistance and support for both novice and advanced programmers. Almost, all questions and queries get answered by the active Grail community. This is how we develop software at Hoodline, so we know a thing or two about making Development Efficient!`,
       },
       {
         img: {
@@ -5629,7 +5614,7 @@ export const grailsData = {
         },
         title: "Seamless java integration",
         description:
-          "Grails web application framework supports Scaffolding, which helps developers to quickly create an application with CRUD functionalities (Create, Read, Update and Delete). Scaffolding is highly useful in creating the “wow” effect.",
+          `Grails is a web application framework that supports scaffolding of CRUD (Create, Read, Update and Delete) functionality. Why is this so important? Well, it's because the more user-friendly your website or app is, the higher chances of gaining traffic and thus growing your business.`,
       },
       {
         img: {
@@ -5638,7 +5623,7 @@ export const grailsData = {
         },
         title: "Dynamic doman class reloading",
         description:
-          "Grails offers 700+ plugins, which have been collaboratively developed by the core development team and enthusiastic Grails app developers. The plugins offered by Grails improves the integration for software developers.",
+          `Grails is very much in demand these days as it offers 700+ plugins that have been collaboratively developed by the core development team and enthusiastic Grail users. These plugins improve the integration for software developers and provide them with all the tools they need to build complex apps quickly and easily. `,
       },
       {
         img: {
@@ -5647,7 +5632,7 @@ export const grailsData = {
         },
         title: "Plugin liberary",
         description:
-          "Grails supports Locale, which allows software developers to easily convert their existing software application to other languages. This saves a lot of time and cost of rewriting the software application into another language.",
+          `Grails plugin that makes internationalization (i18n) simpler. It provides a way to automatically convert existing software into another language via locale files. This saves time and money by avoiding the costs of rewriting the software on an already-maintained platform.`,
       },
       {
         img: {
@@ -5656,7 +5641,7 @@ export const grailsData = {
         },
         title: "Spring boot foundation",
         description:
-          "Developers find it relatively easy to commence working on Grails, especially programmers familiar with the Java language. Grails web application framework brings a whole new level of excitement to web oriented application development.",
+          `With Grails, developers find it relatively easy to commence working on a new project. They are familiar with the Java language, and they know how to work with a modular approach. Grails web application framework brings a whole new level of excitement to web-oriented application development.`,
       },
     ],
   },
@@ -5746,7 +5731,7 @@ export const jsfData = {
     title: "JSF",
     image: "Images/jsfSkillsPhotos/jsf-logo.png",
     description:
-      "Jakarta Faces, formerly Jakarta Server Faces and JavaServer Faces (JSF) is a Java specification for building component-based user interfaces for web applications and was formalized as a standard through the Java Community Process being part of the Java Platform, Enterprise Edition. It is also an MVC web framework that simplifies the construction of user interfaces(UI) for server-based applications by using reusable UI components in a page.",
+      `Jakarta Faces is a Java specification for building component-based user interfaces for web applications and was formalized as a standard through the Java Community Process. It is also an MVC web framework that simplifies the construction of user interfaces(UI) for server-based applications by using reusable UI components on a page. In this tutorial, we will cover some of its more popular features, like Ajax based communication, data binding with change detection etc.`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -5760,7 +5745,7 @@ export const jsfData = {
         title: "Default exception handling",
 
         description:
-          "There is default exception handling provided by JavaServer Faces to develop bug-free applications.",
+          `When it comes to bug-free applications, JavaServer Faces offers a default exception handling mechanism. However, this might not be enough for you in case of complex situations where multiple pages and components need to be handled in different ways.`,
       },
       {
         img: {
@@ -5769,7 +5754,7 @@ export const jsfData = {
         },
         title: "Support HTML5",
         description:
-          "JSF2.2 provides a way to include attributes of HTML5 to JSF components.",
+          `With JSF2.2, you can now easily add these features with ease. By including attributes of HTML5 to your components, you will be able to take full advantage of all its awesome capabilities. For example, using video and audio tags, and CSS3 animations, etc.`,
       },
       {
         img: {
@@ -5778,7 +5763,7 @@ export const jsfData = {
         },
         title: "Ease and rapid web development",
         description:
-          "It offers a rich collection of inbuilt libraries which can be used to develop web app rapidly.",
+          `When it comes to bug-free applications, JavaServer Faces offers a default exception handling mechanism. However, this might not be enough for you in case of complex situations where multiple pages and components need to be handled in different ways.`,
       },
       {
         img: {
@@ -5787,7 +5772,7 @@ export const jsfData = {
         },
         title: "Security",
         description:
-          "Expression Language offers a significant mechanism for making the UI (web pages) communicate with the application logic.",
+          `Expression Languages have been making waves in the web development world over the past few years. Here's a brief explanation of what they are, why you should consider using them and how they can help improve your projects.`,
       },
       {
         img: {
@@ -5796,7 +5781,7 @@ export const jsfData = {
         },
         title: "Inbuilt AJAX support",
         description:
-          "Ajax is a technique to use HTTP XML object of JavaScript to send data to the server and receive data from the server asynchronously.",
+          `Ajax is an HTML5 technique where data is exchanged between the client and server using HTTP XML messages. With this rapid approach, it becomes possible for your website to load data faster without compromising on the response time.`,
       },
       {
         img: {
@@ -5805,7 +5790,7 @@ export const jsfData = {
         },
         title: "Templating",
         description:
-          "Annotations feature is provided by this which helps in validating tasks in the Managed Bean, rather than in the HTML page.",
+          `While annotating a to-do list on your browser, you'll think that it's not possible to do it any other way. But with BottomFunnel, you can now validate tasks using annotations in your Managed Bean rather than through HTML page.`,
       },
     ],
   },
@@ -5895,7 +5880,9 @@ export const phalconData = {
     title: "Phalcon",
     image: "Images/phalconSkillsPhotos/phalcon-logo.png",
     description:
-      "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high performance. Its unique architecture allows the framework to always be memory resident, offering its functionality whenever it's needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
+      `Phalcon is the perfect foundation for your next big idea. Rapidly becoming the defacto standard in PHP development, this lightweight framework is ideal for building scalable, high-performant websites. With its unique architecture, Phalcon always stays resident in memory, meaning that it's always ready to provide functionality when you need it.
+
+      And with over 6 million downloads already and counting, there's no doubt that people are recognizing its value and power. Why not give it a try today?`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -5909,7 +5896,7 @@ export const phalconData = {
         title: "Improved SEO performance",
 
         description:
-          "Engage in web page design and development that is dynamic, rich, responsive and offers multiple languages for your B2B and B2C website. .Net uses asynchronous programming to make sure your pages load quickly.",
+          `Phalcon is the perfect foundation for your next big idea. Rapidly becoming the defacto standard in PHP development, this lightweight framework is ideal for building scalable, high-performant websites. With its unique architecture, Phalcon always stays resident in memory, meaning that it's always ready to provide functionality when you need it.`,
       },
       {
         img: {
@@ -5918,7 +5905,7 @@ export const phalconData = {
         },
         title: "Security",
         description:
-          "The view is a visual representation of models, interacts with the model, and gets the necessary data. It includes data what the end-user sees which is achieved by sending requests and receiving responses.",
+          `Phalcon puts all its effort into making your site run as smoothly as possible so you can focus on the business at hand instead of worrying about technicalities. With its innovative architecture, advanced caching techniques, fault-tolerance strategies, and much more; it will surely provide your website with the performance you need!`,
       },
       {
         img: {
@@ -5927,7 +5914,7 @@ export const phalconData = {
         },
         title: "Fast performance",
         description:
-          "The controller is the intermediary for model and view. On accepting requests from users, through a view is send to model. The model transforms and sends a response to the controller, which is displayed to end-users in the view layer.",
+          `With Phalcon, you'll enjoy lightning-fast speed and blazing-fast memory efficiency - making your app responsive and agile. Plus, the unique architecture of this framework means that it always stays in memory - so you can get access to its full functionality whenever you need it.`,
       },
       {
         img: {
@@ -5936,7 +5923,7 @@ export const phalconData = {
         },
         title: "Autoloader",
         description:
-          "Phalcon being a loosely coupled framework hence allowing its objects to be treated as glue components based on applications need.",
+          `Whether you're new to phalcon or an experienced user looking for ways to improve your application's performance, we have something for you. From getting started with routing and views through tips on implementing authentication and caching.`,
       },
       {
         img: {
@@ -5945,7 +5932,7 @@ export const phalconData = {
         },
         title: "Independent framework",
         description:
-          "For using Phalcon, the developer having knowledge on Model View Controller or Object Relational Modeling will be a plus.",
+          `Phalcon is one of the most popular and widely used MVC frameworks in the world. This makes it perfect for large-scale enterprise applications that need stability and scalability. With support for both relational and non-relational databases, Phalcon excels in whatever field you're working on.`,
       },
       {
         img: {
@@ -5954,7 +5941,8 @@ export const phalconData = {
         },
         title: "Fastest framework for PHP",
         description:
-          "Developer Tools with CRUD features are used for developing web applications. C-Create R-Read U-Update D-Delete.",
+          `Phalcon is a lightweight but an advanced framework that is suitable for a wide range of applications. It offers support for MVC, SPA, RPC and numerous other types of architectures.
+          The Phalcon components are described as 'glue' components which can be used on the basis of applicability.`,
       },
     ],
   },
@@ -6027,6 +6015,7 @@ export const phalconData = {
     ],
   },
 };
+
 export const semanticData = {
   title: "Best Semantic Ui developers in the market | Bottom Funnel",
   description:

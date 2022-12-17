@@ -23,7 +23,7 @@ import { beautyLogo } from "../../Data/SeopartnerData";
 export default function Beautysection() {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
   return (
     <div>
@@ -36,7 +36,7 @@ export default function Beautysection() {
       <Whysection />
       <StoriesSection />
       <Industries />
-      <Revamping/>
+      <Revamping />
       <OndemandSection />
       <PortFolio />
       <PlanProject />

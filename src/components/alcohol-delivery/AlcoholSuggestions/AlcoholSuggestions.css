@@ -41,6 +41,7 @@
   justify-content: space-between;
 }
 
+
 .alcohol-exlucive-app-content > div {
   width: 24%;
   height: 100%;
@@ -48,7 +49,13 @@
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
+.alcohol-exlucive-app-content >div:hover{
+  cursor: pointer;
+  margin-top: 0;
+  transition: all .3s linear;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -56,6 +63,7 @@
   font-size: 22px;
   margin-top: 5px;
   margin-bottom: 5px;
+  
 }
 
 .alcohol-exlucive-app-content > div > p {
