@@ -11,12 +11,12 @@ export const PricingTable4 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Free</h2>
-          <p>Get going for free</p>
+          <p>For getting started</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
+          <h1>$9,99</h1>
           <p>up to 10 agents, billed annually</p>
-          <h4>$90</h4>
+          <h4>$1,499</h4>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -45,12 +45,12 @@ export const PricingTable4 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Growth</h2>
-          <p>Intuitive, industry-leading support for growing businesses</p>
+          <p>For growing businesses across their LOBs</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
+          <h1>$2,499</h1>
           <p>up to 10 agents, billed annually</p>
-          <h4>$90</h4>
+          <h4>$2,999</h4>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -82,12 +82,12 @@ export const PricingTable4 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Pro</h2>
-          <p>Advanced automation for high performance</p>
+          <p>ITSM + ITOM + Project Management for large organizations</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
+          <h1>$3,999</h1>
           <p>up to 10 agents, billed annually</p>
-          <h4>$90</h4>
+          <h4>$4,999</h4>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -119,12 +119,12 @@ export const PricingTable4 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Supreme</h2>
-          <p>Fully featured with bots for enterprise-level support</p>
+          <p>Service management solution for enterprises</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
+          <h1>$4,999</h1>
           <p>up to 10 agents, billed annually</p>
-          <h4>$90</h4>
+          <h4>$5,999</h4>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -157,19 +157,34 @@ export const PricingTable4 = () => {
 
     <div className="pricingAdsOnsOption4MainDiv">
           <div className="pricingAdsOnsOption4Heading">
-            <h1>Get add-ons that help you do more with Freshservice</h1>
+            <h1>Get add-ons that help you do more with Bottom Funnel Service</h1>
           </div>
           <div className="pricingAdsOnsOption4Container">
             <div className="pricingAdsOnsOption4Options1">
-                <div className="pricingAdsOnsOption4Options1Content">
-                    <button className="pricingAdsOnsOption4Options1Button">Freedy</button>
-                    <h5>Additional Bot Sessions</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iure, sint vitae vel beatae, explicabo.</p>
+                <div className="pricingAdsOnsOption4Options1ActiveContent">
+                    <button className="pricingAdsOnsOption4Options1Button">Ads-On</button>
+                    <h5>Orchestration Transaction Pack</h5>
+                    <p>Starter,Growth,Pro,Enterprise</p>
                 </div>
                 <div className="pricingAdsOnsOption4Options1Content">
                     <button className="pricingAdsOnsOption4Options1Button">Add-On</button>
-                    <h5>Additional Bot Sessions</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iure, sint vitae vel beatae, explicabo.</p>
+                    <h5>Assests Pack</h5>
+                    <p>Pro,Enterprise</p>
+                </div>
+                <div className="pricingAdsOnsOption4Options1Content">
+                    <button className="pricingAdsOnsOption4Options1Button">Ads-On</button>
+                    <h5>Project Management</h5>
+                    <p>Pro,Enterprise</p>
+                </div>
+                <div className="pricingAdsOnsOption4Options1Content">
+                    <button className="pricingAdsOnsOption4Options1Button">Add-On</button>
+                    <h5>SaaS Management</h5>
+                    <p>Pro,Enterprise</p>
+                </div>
+                <div className="pricingAdsOnsOption4Options1Content">
+                    <button className="pricingAdsOnsOption4Options1Button">Ads-On</button>
+                    <h5>Bussiness Agents</h5>
+                    <p>Pro,Enterprise</p>
                 </div>
             </div>
             <div className="pricingAdsOnsOption4Options4">
@@ -178,10 +193,11 @@ export const PricingTable4 = () => {
                         <h1>Orchestration Transaction Pack</h1>
                     </div>
                     <div className="pricingAdsOnsOption4Options4Contentdata">
-                        <h4>$5400 for 1000</h4>
-                        <p>bot sessions/Months</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus reprehenderit possimus ad odit! Ut ullam rerum non corporis ducimus nostrum excepturi nulla amet! Accusantium alias ad culpa consequatur vitae.</p>
-                        <button className="pricingAdsOnsOption4Options4Button">Add to Trial</button>
+                        <h1>₹ 16589</h1>
+                        <p> 1000 Transactions per pack </p>
+                        <p> Starter, Growth, Pro, Enterprise</p>
+                        <p> Validity: End of Billing cycle </p>
+                        <p> Transaction: Any action taken via the App node in the Workflow Automator</p>
                     </div>
                 </div>
             </div>

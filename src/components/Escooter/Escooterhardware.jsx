@@ -25,13 +25,13 @@ export const Escooterhardware = () => {
         <div className='szescooterhardwaresub'>
         <div className='szescooterhardwareleft'>
         <div className='szescooterhardwarscooter'>
-               <img src="Images/Escooter/e scooter.png"/>
+               <img src="Images/Escooter/escooters.png"/>
                </div>
              
       </div>
                <div className='szescooterhardwareright'>
-               <div className='szscootertriangle'><img src='Images/Escooter/triangle.png'/></div>  
-               <h2>What hardware do you need for E-scooter App Development</h2>
+               
+               <h1>What hardware do you need for E-scooter App Development</h1>
     
       <div className='szEscooterhardwarediv'>
         {  

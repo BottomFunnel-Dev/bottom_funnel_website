@@ -165,6 +165,7 @@ import { ItConsultingWebsite } from "./components/ITConsultingWebsite/ItConsulti
 import { OnlinePaymentAppSolution } from "./components/OnlinePaymentAppSolution/OnlinePaymentAppSolution";
 import { TradingInvesting } from "./components/Trading-Investing-App-Page/Trading&Investing";
 import { KidsWear } from "./components/KidsWear/KidsWear";
+import { TaxiBookingApp } from "./components/TaxiBookingApp/TaxiBookingApp";
 
 export const ALLroutes = () => {
   return (
@@ -308,7 +309,9 @@ export const ALLroutes = () => {
       <Route path="/Icecream" element={<Icecream />} />
       <Route path="/Products" element={<Products />} />
       <Route path="/eScooter" element={<Escooter />} />
-      <Route path="/taxi-booking" element={<Taxibooking />} />
+      {/* <Route path="/taxi-booking" element={<Taxibooking />} /> */}
+      <Route path="/taxi-booking" element={ <TaxiBookingApp/> } />
+
       <Route path="/Logistics" element={<Logicstic />} />
       <Route path="/wellness" element={<Wellness />} />
       <Route path="/politics" element={<Politics />} />

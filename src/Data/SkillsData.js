@@ -1248,12 +1248,8 @@ export const angularjsData = {
   desData: {
     title: "Angularjs",
     image: "Images/angularjsSkillsPhotos/angularjs-logo.png",
-    description: `AngularJS is a discontinued free and open-source JavaScript-based web framework for
-      developing single-page applications. AngularJS is a toolset for building the framework most
-      suited to your application development. Bottom Funnel is among the leading Angular.js web
-      application development company in Asia, USA, middle-east and Africa which provides the
-      best Angular.js web application development services by experienced and best Angular.js
-      web developers.`,
+    description: `When it comes to building the framework most suited to your application development needs, AngularJS is hard to beat. Bottom Funnel is one of the leading providers of Angular.js web app development services in Asia, USA, Middle East and Africa -- and we have a reputation for delivering world-class quality in every project we undertake.
+    We take pride in our work and consider ourselves stewards of a powerful new technology that will continue to transform the way people interact with the internet. We believe in providing cutting-edge solutions that are tailored to meet our clients' needs, while also adhering to industry best practices and security standards.`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -1266,9 +1262,7 @@ export const angularjsData = {
         },
         title: "Custom AngularJS Development",
 
-        description: `Our custom AngularJS development services provides various Angular.js web application
-          development options customized specifically to serve your business needs which can speed up your
-          ability to deliver products.`,
+        description: `That's the future of customer-centric businesses. With AngularJS development services from BottomFunng, you can build and deliver applications that delight your users and increase their ongoing engagement with your brand.`,
       },
       {
         img: {
@@ -1276,9 +1270,7 @@ export const angularjsData = {
           alt: "Trouble-Free Testing logo",
         },
         title: "Portal development",
-        description: `Our angular.js portal development services will provide you a web app portal that is easy to
-          use, visually appealing, function smoothly and innovative by utilizing the most up-to-date
-          tools and technologies`,
+        description: `Our angular.js portal development services will provide you a web app portal that is easy to use, visually appealing, function smoothly and innovative by utilizing the most up-to-date tools and technologies.`,
       },
       {
         img: {
@@ -1286,9 +1278,7 @@ export const angularjsData = {
           alt: "A Complete Client-Side Solution logo",
         },
         title: `Single page application development`,
-        description: `Let our Angular.js single page application developers help you build the best quality Single
-          Page Applications in a very short period of time that will power your business to the next
-          level.`,
+        description: `Our SPA developers are experts in Angular.js and know exactly how to create quality SPA's that seamlessly integrate with your site's architecture. We offer a range of services that will help you get your SPA up and running quickly, including project management.`,
       },
       {
         img: {
@@ -1296,9 +1286,7 @@ export const angularjsData = {
           alt: "Captivating Support Services logo",
         },
         title: "Angular.js support and maintenance",
-        description: `our angular.js support and maintenance services clear out the outdated coding and improve
-          user experience with the latest tools and technology ensuring constant quality and timely
-          services to avoid any inconvenience.`,
+        description: `With our AngularJS support and maintenance services, you can easily clear out outdated coding and improve user experience with the latest tools and technology. We ensure constant quality and timely services so that you never face any inconvenience.`,
       },
       {
         img: {
@@ -1306,9 +1294,7 @@ export const angularjsData = {
           alt: "Features to Get Excited About logo",
         },
         title: "UI/UX Development",
-        description: `Our angular.js UI/UX development services offer appealing user interface and user
-          experience with customizable and responsive designs which are user feedback integrated to
-          enhance the visuals of the web application.`,
+        description: `Their angular.js UI/UX development services offer an appealing user interface and user experience with customizable and responsive designs which are user feedback integrated to enhance the visuals of the web application!.`,
       },
       {
         img: {

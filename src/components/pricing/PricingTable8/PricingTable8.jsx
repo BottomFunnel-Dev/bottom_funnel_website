@@ -10,14 +10,14 @@ export const PricingTable8 = () => {
     <div className="Pricing-Table-main">
       <div>
         <div className="Pricing-Table-plan">
-          <h2>Free</h2>
-          <p>Get going for free</p>
+          <h2>Growth Omnichannel</h2>
+          <p>Unified solution with bots & automations for growing businesses</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
-          <p>up to 10 agents, billed annually</p>
-          <h2>$90</h2>
-          <p>up to 10 agents, billed annually</p>
+          <h1>$1999</h1>
+          <p>/agent/month, billed annually</p>
+          <h2>$2399</h2>
+          <p>/agent/month, billed monthly</p>
           <button>START TRAIL</button>
           <hr />
         </div>
@@ -44,14 +44,14 @@ export const PricingTable8 = () => {
       </div>
       <div>
         <div className="Pricing-Table-plan">
-          <h2>Growth</h2>
-          <p>Intuitive, industry-leading support for growing businesses</p>
+          <h2>Pro Omnichannel</h2>
+          <p>Full channel coverage with custom reporting for high performance</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
-          <p>up to 10 agents, billed annually</p>
-          <h2>$90</h2>
-          <p>up to 10 agents, billed annually</p>
+          <h1>$4299</h1>
+          <p>/agent/month, billed annually</p>
+          <h2>$5159</h2>
+          <p>/agent/month, billed annually</p>
           <button>START TRAIL</button>
           <hr />
         </div>
@@ -86,9 +86,9 @@ export const PricingTable8 = () => {
         </div>
         <div className="Pricing-Table-content">
           <h1>$100</h1>
-          <p>up to 10 agents, billed annually</p>
+          <p>/agent/month, billed annually</p>
           <h2>$90</h2>
-          <p>up to 10 agents, billed annually</p>
+          <p>/agent/month, billed montlhy</p>
           <button>START TRAIL</button>
           <hr />
         </div>
@@ -118,14 +118,14 @@ export const PricingTable8 = () => {
       </div>
       <div>
         <div className="Pricing-Table-plan">
-          <h2>Supreme</h2>
-          <p>Fully featured with bots for enterprise-level support</p>
+          <h2>Enterprise</h2>
+          <p>Full channel coverage with AI & bots for enterprise-level support</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
-          <p>up to 10 agents, billed annually</p>
-          <h2>$90</h2>
-          <p>up to 10 agents, billed annually</p>
+          <h1>$7199</h1>
+          <p>/agent/month, billed annually</p>
+          <h2>$8699</h2>
+          <p>/agent/month, billed monthly</p>
           <button>START TRAIL</button>
           <hr />
         </div>
@@ -161,15 +161,15 @@ export const PricingTable8 = () => {
           </div>
           <div className="pricingAdsOnsContainer">
             <div className="pricingAdsOnsOptions1">
-                <div className="pricingAdsOnsOptions1Content">
+                <div className="pricing6AdsOnsOptions1ActiveContent">
                     <button className="pricingAdsOnsOptions1Button">Freedy</button>
                     <h5>Additional Bot Sessions</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iure, sint vitae vel beatae, explicabo.</p>
+                    <p>Use bots to Automate the resolution of the issues</p>
                 </div>
-                <div className="pricingAdsOnsOptions1Content">
+                <div className="pricing6AdsOnsOptions1Content">
                     <button className="pricingAdsOnsOptions1Button">Add-On</button>
-                    <h5>Additional Bot Sessions</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iure, sint vitae vel beatae, explicabo.</p>
+                    <h5>Field Service Management</h5>
+                    <p>Add fild employees, manage appointments and schedule and deliver stellar supports in person too.</p>
                 </div>
             </div>
             <div className="pricingAdsOnsOptions2">
@@ -178,7 +178,7 @@ export const PricingTable8 = () => {
                         <h1>Additional Bot Sessions</h1>
                     </div>
                     <div className="pricingAdsOnsOptions2Contentdata">
-                        <h4>$5400 for 1000</h4>
+                        <h1>$5400 for 1000</h1>
                         <p>bot sessions/Months</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus reprehenderit possimus ad odit! Ut ullam rerum non corporis ducimus nostrum excepturi nulla amet! Accusantium alias ad culpa consequatur vitae.</p>
                         <button className="pricingAdsOnsOptions2Button">Add to Trial</button>

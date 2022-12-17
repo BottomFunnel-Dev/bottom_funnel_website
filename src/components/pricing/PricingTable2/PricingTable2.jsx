@@ -11,12 +11,12 @@ export const PricingTable2 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Free</h2>
-          <p>Get going for free</p>
+          <p>For getting started</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$1500</h1>
+          <h1>$0</h1>
           <p>up to 10 agents, billed annually</p>
-          <h2>$959</h2>
+          <h2>$0</h2>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -45,12 +45,12 @@ export const PricingTable2 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Growth</h2>
-          <p>Intuitive, industry-leading support for growing businesses</p>
+          <p>For fast growth</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$1850</h1>
+          <h1>$999</h1>
           <p>up to 10 agents, billed annually</p>
-          <h2>$490</h2>
+          <h2>$1199</h2>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -82,12 +82,12 @@ export const PricingTable2 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Pro</h2>
-          <p>Advanced automation for high performance</p>
+          <p>For high performance</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$2560</h1>
+          <h1>$2799</h1>
           <p>up to 10 agents, billed annually</p>
-          <h2>$790</h2>
+          <h2>$3599</h2>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -119,10 +119,10 @@ export const PricingTable2 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Supreme</h2>
-          <p>Fully featured with bots for enterprise-level support</p>
+          <p>For enterprise-grade support</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
+          <h1>$5999</h1>
           <p>up to 10 agents, billed annually</p>
           <h2>$90</h2>
           <p>up to 10 agents, billed annually</p>
@@ -168,8 +168,8 @@ export const PricingTable2 = () => {
                 </div>
                 <div className="pricingAdsOnsOption2Options1Content">
                     <button className="pricingAdsOnsOption2Options1Button">Add-On</button>
-                    <h5>Additional Bot Sessions</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iure, sint vitae vel beatae, explicabo.</p>
+                    <h5>Marketing Contacts</h5>
+                    {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iure, sint vitae vel beatae, explicabo.</p> */}
                 </div>
             </div>
             <div className="pricingAdsOnsOption2Options2">
