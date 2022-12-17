@@ -44,10 +44,10 @@ export const SolutionFrame = () => {
           <h1>SOLUTIONS FOR YOUR TRADING & INVESTMENT APP</h1>
           </div>
 
+        
           <div className='solution-Frame-Content-Box-Heading'>
             <h1> Customer's App</h1>
           </div> 
-
          
     <div className='solution-Frame-Sub-Container'>
 

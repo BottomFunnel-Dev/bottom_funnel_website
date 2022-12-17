@@ -29,7 +29,7 @@ import { carpoolingLogo } from "../../Data/SeopartnerData";
 export const Carpooling = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
   return (
     <div>
@@ -40,7 +40,7 @@ export const Carpooling = () => {
       <Logiccustomer customerData={carpoolCustomer} />
       <Logicdrive driveData={carpoolDrive} />
       <Logisticadmin adminData={carpoolAdmin} />
-      
+
       <CarpoolingAction />
       <CarpoolingWhy />
 

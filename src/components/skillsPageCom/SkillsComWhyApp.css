@@ -16,7 +16,7 @@
 
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
 }
 
@@ -25,7 +25,6 @@
   text-align: left;
   padding: 15px;
   margin-top: 20px;
-height: 260px;
   border-radius: 10px;
   display: flex;
   row-gap: 5px;
@@ -33,7 +32,6 @@ height: 260px;
   align-items: flex-start;
   justify-content: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
 }
 
 .skills-why-application-content > div > h3 {

@@ -105,6 +105,7 @@
   text-underline-offset: 5px;
   text-decoration-thickness: 2px;
   cursor: pointer;
+  color: #393939;
   list-style: none;
 }
 .supportableDevices li:hover {
@@ -147,6 +148,7 @@
   display: block;
   margin: 15px 0;
   font-size: 15px;
+  color: #393939;
 }
 
 .serviceDescriptionVisible p:nth-child(2):hover {

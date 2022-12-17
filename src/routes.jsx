@@ -77,7 +77,6 @@ import {
   GhostData,
   WeeblyData,
 } from "./Data/SkillsData";
-import { Taxibooking } from "./components/Taxibooking/Taxibooking";
 import Logicstic from "./components/Logistic/Logicstic";
 import Politics from "./components/Politics/Politics";
 import { SaasPage } from "./components/SaasPage/SaasPage";
@@ -166,6 +165,7 @@ import { OnlinePaymentAppSolution } from "./components/OnlinePaymentAppSolution/
 import { TradingInvesting } from "./components/Trading-Investing-App-Page/Trading&Investing";
 import { KidsWear } from "./components/KidsWear/KidsWear";
 import { FunnelDesk } from "./components/FunnelDesk/FunnelDesk";
+import { TaxiBookingApp } from "./components/TaxiBookingApp/TaxiBookingApp.jsx";
 
 export const ALLroutes = () => {
   return (
@@ -309,7 +309,11 @@ export const ALLroutes = () => {
       <Route path="/Icecream" element={<Icecream />} />
       <Route path="/Products" element={<Products />} />
       <Route path="/eScooter" element={<Escooter />} />
-      <Route path="/taxi-booking" element={<Taxibooking />} />
+      {/* <Route path="/taxi-booking" element={<Taxibooking />} /> */}
+      <Route path="/taxi-booking" element={<TaxiBookingApp />} />
+
+
+
       <Route path="/Logistics" element={<Logicstic />} />
       <Route path="/wellness" element={<Wellness />} />
       <Route path="/politics" element={<Politics />} />

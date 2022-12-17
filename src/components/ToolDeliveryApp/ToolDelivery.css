@@ -2,7 +2,7 @@
 
 .tdtooldeliverycontainer {
   width: 100%;
-  height: 650px;
+  /* height: 650px; */
 
   margin-top: 6%;
 }
@@ -60,11 +60,11 @@
 
 .tddeliveryservice {
   width: 100%;
-  height: 660px;
+  /* height: 660px; */
 }
 .tddeliveryservicesub {
   width: 100%;
-  height: 650px;
+  /* height: 650px; */
 }
 .tddeliverypara {
   width: 70%;
@@ -74,7 +74,7 @@
 }
 .tddeliveryservicediv {
   width: 100%;
-  height: 650px;
+  /* height: 650px; */
   background-image: url("Images/tooldeliveryapp/Rectangle40.png");
   background-repeat: no-repeat;
   background-size: 75% 500px;
@@ -82,7 +82,7 @@
 }
 .tddeliverytop {
   width: 90%;
-  height: 250px;
+  /* height: 250px; */
   margin: auto;
   display: flex;
 
@@ -107,6 +107,16 @@
 
   margin-top: 2%;
 }
+
+.tddeliverysolution:hover {
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .tddeliverysolutionapp {
   display: flex;
 }
@@ -129,7 +139,7 @@
 .tdtooldeliverysneak {
   /* background-color: aqua; */
   width: 100%;
-  height: 300px;
+  /* height: 300px; */
 }
 .tdtooldeliverysneaksub {
   /* background-color: rgb(34, 0, 255); */
@@ -617,7 +627,14 @@
 
 .tooladminright > div:hover {
   background-color: #e1f9f6;
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .tooladminright > div > h3 {
   font-size: 18px;
 }

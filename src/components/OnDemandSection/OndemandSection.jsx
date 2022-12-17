@@ -4,6 +4,7 @@ import { IconContext } from "react-icons/lib";
 import { MdOutlineMobileFriendly } from "react-icons/md";
 import { NavItem } from "react-bootstrap";
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const OndemandSection = () => {
   const ondemandSol = [
@@ -15,6 +16,7 @@ const OndemandSection = () => {
       description:
         "Our mobility solutions allow people to connect and share information from the most remote of places, even if they're on the move.",
       actionArrow: <BsArrowRight />,
+      link: "/mobile-app-development"
     },
     {
       solutionName: "Software Solutions",
@@ -25,6 +27,7 @@ const OndemandSection = () => {
       description:
         "our software solutions allow us to perform all the time-consuming tasks and automate regular tasks to cater to your needs and make your life easier.",
       actionArrow: <BsArrowRight />,
+      link:"/website-builder-app",
     },
     {
       solutionName: "UI UX Designs",
@@ -34,6 +37,7 @@ const OndemandSection = () => {
       description:
         "Our UI UX designs are designed to make interacting with products easy. We reduce cognitive load by making interfaces consistent.",
       actionArrow: <BsArrowRight />,
+      link:"/user-interface",
     },
     {
       solutionName: "Food Delivery App",
@@ -43,6 +47,7 @@ const OndemandSection = () => {
       description:
         "With our branded food delivery app, your customers will be able to order and have delicious meals delivered to them at any time.",
       actionArrow: <BsArrowRight />,
+      link:"/food-delivery",
     },
     {
       solutionName: "Beauty & Salon App",
@@ -52,6 +57,7 @@ const OndemandSection = () => {
       description:
         "With our on-demand beauty and salon app development services, you’ll get your own beautiful and user-friendly app for your clients.",
       actionArrow: <BsArrowRight />,
+      link:"/beautycareapp",
     },
     {
       solutionName: "Marketplace App",
@@ -61,6 +67,7 @@ const OndemandSection = () => {
       description:
         "Create various types of marketplace platforms like B2B and multi-vendor with our on-demand marketplace app development solutions.",
       actionArrow: <BsArrowRight />,
+      link:"/marketplace",
     },
     {
       solutionName: "Cannabis Delivery App",
@@ -70,6 +77,7 @@ const OndemandSection = () => {
       description:
         "Let your users order Cannabis using a feature-rich mobile app and website with our on-demand cannabis delivery app development solutions. ",
       actionArrow: <BsArrowRight />,
+      link:"/cannabis",
     },
     {
       solutionName: "Digital Marketing Solutions",
@@ -79,6 +87,7 @@ const OndemandSection = () => {
       description:
         "Step-up your game, reach your target audience and maximise your ROI with our unique ondemand digital marketing solutions.",
       actionArrow: <BsArrowRight />,
+      linkk:"/digitalmarketing"
     },
     {
       solutionName: "Pharmacy Delivery App",
@@ -88,6 +97,7 @@ const OndemandSection = () => {
       description:
         "Provide your customers hassle free experience of ordering medicines online with our ondemand pharmacy app development solutions.",
       actionArrow: <BsArrowRight />,
+      link:"/pharmacy",
     },
     {
       solutionName: "Taxi Booking App",
@@ -97,6 +107,7 @@ const OndemandSection = () => {
       description:
         "Level up your cab business with an easy to use and attractive taxi booking app through our ondemand taxi app development solutions.",
       actionArrow: <BsArrowRight />,
+      link:"/taxi-booking",
     },
   ];
   return (
@@ -105,23 +116,25 @@ const OndemandSection = () => {
       <div className="mainOndemand">
         {ondemandSol.map((item, index) => (
           <div key={index} className="ondemandInner">
-            <img className="solImage" src={item.bg} alt="" />
-            <div className="solText">
-              <div className="solLogos">
-                <img
-                  className="orangeImage"
-                  src={item.logoImgageOrange}
-                  alt=""
-                />
-                <img className="whiteImage" src={item.logoImgageWhite} alt="" />
-              </div>
+            <Link to={item.link}>
+              <img className="solImage" src={item.bg} alt="" />
+              <div className="solText">
+                <div className="solLogos">
+                  <img
+                    className="orangeImage"
+                    src={item.logoImgageOrange}
+                    alt=""
+                  />
+                  <img className="whiteImage" src={item.logoImgageWhite} alt="" />
+                </div>
 
-              <h4>{item.solutionName}</h4>
-              <p>{item.description}</p>
-              <IconContext.Provider value={{ className: "arrowIcon" }}>
-                {item.actionArrow}
-              </IconContext.Provider>
-            </div>
+                <h4>{item.solutionName}</h4>
+                <p>{item.description}</p>
+                <IconContext.Provider value={{ className: "arrowIcon" }}>
+                  {item.actionArrow}
+                </IconContext.Provider>
+              </div>
+            </Link>
           </div>
         ))}
       </div>

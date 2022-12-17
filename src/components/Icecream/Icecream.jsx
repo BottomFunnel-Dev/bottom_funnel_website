@@ -15,30 +15,29 @@ import Icecreamcustomer from './Icecreamcustomer'
 import { Icecreamdrive } from './Icecreamdrive'
 import { Icecreamsection } from './Icecreamsection'
 import { Icecreamsolution } from './Icecreamsolution'
- import { icecreamLogo } from '../../Data/SeopartnerData'
- 
- export const Icecream = () => {
+import { icecreamLogo } from '../../Data/SeopartnerData'
+
+export const Icecream = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
-   return (
-     <div >
-       <Icecreamsection/>
-       <Trusted partnerLogo={icecreamLogo}/>
-       <Icecreamsolution/>
-       <Icecreamcustomer/>
-       <Icecreamadminpanel/>
-       <Icecreamdrive/>
-       <StoriesSection/>
-       <PlanProject/>
-       <Industries/>
-       <Revamping/>
-       <SeoblogSection/>
-       <TextDropdown/>
-       <ContectForm/>
-       <MainFooter/>
-     </div>
-   )
- }
- 
+  return (
+    <div >
+      <Icecreamsection />
+      <Trusted partnerLogo={icecreamLogo} />
+      <Icecreamsolution />
+      <Icecreamcustomer />
+      <Icecreamadminpanel />
+      <Icecreamdrive />
+      <StoriesSection />
+      <PlanProject />
+      <Industries />
+      <Revamping />
+      <SeoblogSection />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
+    </div>
+  )
+}

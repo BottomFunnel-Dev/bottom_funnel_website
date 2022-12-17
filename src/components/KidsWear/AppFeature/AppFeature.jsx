@@ -59,7 +59,7 @@ export const AppFeature = () => {
     
     <div className='AppFeature-innermaindiv1admin'>
        
-        <h1><span style={{color: "orangered"}}>Admin</span>Panel</h1>
+        <h1><span style={{color: "orangered"}}>Admin</span> Panel</h1>
         <h1>Features </h1>
         <div className='AppFeature-innermaindivboxadmin'>
             <div className='AppFeature-innermaindivboxcontain1admin' >

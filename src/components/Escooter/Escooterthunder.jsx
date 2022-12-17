@@ -24,7 +24,7 @@ export default function Escooterthunder() {
     <div className='Escooterdivcontainer'>
            
        { <div className='Escooterthundersub'>
-      <div> <h1>Why E-Scooters Apps Stealing the Thunder ?</h1> </div>
+      <div> <h1>Why Bottom Funnel for an E-Scooter App Development ?</h1> </div>
         
         <div className='szEscooterthunderdiv'>
         {  

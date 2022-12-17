@@ -1,0 +1,39 @@
+.taxibookingbannermainboxes{
+    height: 100vh;
+    border: 1px solid white;
+    margin-top: 120px;
+background: url("/public/Images/Taxibooking/Bannersbackgrounds/Taxi booking app.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: right;
+}
+
+.taxibookingappboxfortext{
+    height: fit-content;
+    width: 45%;
+
+    margin-top: 15%;
+    margin-left: 3%;
+    text-align: justify;
+}
+
+.taxibookingappbannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  
+}
+
+.taxibookingappbannerbutton:hover {
+
+    background-color:white;
+    color:  #3380f2;
+
+}

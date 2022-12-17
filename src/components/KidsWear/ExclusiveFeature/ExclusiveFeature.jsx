@@ -4,7 +4,7 @@ import './ExclusiveFeature.css';
 export const ExclusiveFeature = () => {
   return (
     <div className='ExclusiveFeature-maindiv'>
-       <h1><span style={{color:"orangered"}}>Exclusive</span>Features</h1>
+       <h1><span style={{color:"orangered"}}>Exclusive</span> Features</h1>
         <div className='ExclusiveFeature-innermaindiv'>
             <div className='ExclusiveFeature-innerdivcontain'>
              <h2>Store Locator</h2>
@@ -33,6 +33,10 @@ export const ExclusiveFeature = () => {
              <p>Now, your coustomers can locate you from any place on the globe. this feature helps redirect traffic from web to store and vise versa. </p>
             </div>
         </div>
+
+
+
+
 
     </div>
   )

@@ -95,6 +95,14 @@
   box-shadow: rgba(136, 249, 234, 0.5) 0px 3px 8px;
 }
 
+.alcohol-customer-app-content > div > div:hover {
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  transform: scale(1.1);
+  /* transform: translateY(-5px); */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .alcohol-customer-app-content > div > div > h4,
 .alcohol-customer-app-content > div > div > p {
   font-size: 16px;

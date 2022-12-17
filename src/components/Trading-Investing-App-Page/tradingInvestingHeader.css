@@ -2,12 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2%;
+    margin: 10% 0 5% 0;
 }
 
 .RGtradingInvestingLeftContainer {
-    
-    
     justify-content: center;
     width: 50%;
 }

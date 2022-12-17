@@ -72,7 +72,7 @@
 .providedServices > div:hover {
   margin-top: 0;
   /* height: 300px; */
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .providedServices > div > p {
@@ -80,7 +80,7 @@
   margin-bottom: 45px;
 }
 .providedServices > div > h5 {
-  color: #ef4c23;
+  color: #ef4c23 !important;
   margin-top: 60px;
 }
 
@@ -92,7 +92,7 @@
   top: -30px;
   right: 25px;
 }
-.industryImage>img {
+.industryImage > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
