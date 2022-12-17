@@ -66,6 +66,10 @@
   justify-content: space-between;
 }
 
+.food-delivery-partner-app-content > div:hover{
+  cursor: pointer;
+}
+
 .food-delivery-partner-app-content > div > div {
   width: 45%;
   height: 170px;
@@ -82,10 +86,11 @@
   box-shadow: rgba(136, 249, 234, 0.5) 0px 3px 8px;
   margin-top: 10px;
 }
+
 .food-delivery-partner-app-content > div > div:hover {
+  cursor: pointer;
   margin-top: 0;
   transition: all .3s linear;
-  
 }
 
 .food-delivery-partner-app-content > div > div > h4,

@@ -11,13 +11,13 @@ export const PricingTable7 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Free</h2>
-          <p>Get going for free</p>
+          <p>For getting started</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$1000</h1>
-          <p>up to 10 agents, billed annually</p>
-          <h2>$900</h2>
-          <p>up to 10 agents, billed annually</p>
+          <h1>$0</h1>
+          <p>/agent/month + pay/min, billed annually</p>
+          <h2>$0</h2>
+          <p>/agent/month + pay/min, billed monthly</p>
           <button>START TRAIL</button>
           <hr />
         </div>
@@ -45,13 +45,13 @@ export const PricingTable7 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Growth</h2>
-          <p>Intuitive, industry-leading support for growing businesses</p>
+          <p>For fast growth</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$1000</h1>
-          <p>up to 10 agents, billed annually</p>
-          <h2>$900</h2>
-          <p>up to 10 agents, billed annually</p>
+          <h1>$999</h1>
+          <p>/agent/month + pay/min, billed annually</p>
+          <h2>$1199</h2>
+          <p>/agent/month + pay/min, billed monthly</p>
           <button>START TRAIL</button>
           <hr />
         </div>
@@ -82,13 +82,13 @@ export const PricingTable7 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Pro</h2>
-          <p>Advanced automation for high performance</p>
+          <p>For high performance</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$1000</h1>
-          <p>up to 10 agents, billed annually</p>
-          <h2>$900</h2>
-          <p>up to 10 agents, billed annually</p>
+          <h1>$2799</h1>
+          <p>/agent/month + pay/min, billed annually</p>
+          <h2>$3399</h2>
+          <p>/agent/month + pay/min, billed monthly</p>
           <button>START TRAIL</button>
           <hr />
         </div>
@@ -119,13 +119,13 @@ export const PricingTable7 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Supreme</h2>
-          <p>Fully featured with bots for enterprise-level support</p>
+          <p>For enterprise-grade support</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$1000</h1>
-          <p>up to 10 agents, billed annually</p>
-          <h2>$900</h2>
-          <p>up to 10 agents, billed annually</p>
+          <h1>$4999</h1>
+          <p>/agent/month + pay/min, billed annually</p>
+          <h2>$5999</h2>
+          <p>/agent/month + pay/min, billed monthly</p>
           <button>START TRAIL</button>
           <hr />
         </div>

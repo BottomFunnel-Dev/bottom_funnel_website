@@ -108,7 +108,7 @@
   /* border: 2px solid red; */
   background-color: white;
   width: 100%;
-  /* height: 550px; */
+  height: auto;
 }
 .pricingAdsOnsOption4Heading{
   /* border: 2px solid red; */
@@ -120,7 +120,7 @@
 .pricingAdsOnsOption4Container{
   /* border: 2px solid red; */
   width: 80%;
-  height: 500px;
+  /* height: 500px; */
   display: flex;
   flex-direction: row;
   margin: auto;
@@ -128,7 +128,7 @@
 .pricingAdsOnsOption4Options1{
   /* border: 2px solid red; */
   width: 40%;
-  height: 400px;
+  /* height: 400px; */
   display: flex;
   flex-direction: column;
 }
@@ -139,16 +139,30 @@
   display: flex;
   flex-direction: column;
 }
-.pricingAdsOnsOption4Options1Content{
-  border: 2px solid rgb(138, 138, 250);
+.pricingAdsOnsOption4Options1ActiveContent{
+  border: 1px solid rgb(138, 138, 250);
   width: 90%;
-  /* height: 120px; */
+  height: 120px;
   margin-left: 5%;
   margin-top:4%;
   border-radius:15px;
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  padding: 20px;
+}
+.pricingAdsOnsOption4Options1Content{
+  border: 1px solid #d9d9d9;
+  width: 90%;
+  height: 120px;
+  margin-left: 5%;
+  margin-top:4%;
+  border-radius:15px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.pricingAdsOnsOption4Options1Content:hover{
+  border: 1px solid black;
 }
 .pricingAdsOnsOption4Options4Content{
   border: 1px solid lightgray;
@@ -161,9 +175,12 @@
   flex-direction: column;
 }
 .pricingAdsOnsOption4Options1Button{
-  /* border: 2px solid black; */
-  width: 20%;
+  border: 1px solid black;
+  width: 15%;
+  background-color: white;
   border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500;
 }
 .pricingAdsOnsOption4Options4ContentHeading{
   /* border: 2px solid saddlebrown; */

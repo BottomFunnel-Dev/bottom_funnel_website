@@ -5,28 +5,37 @@ export default function Escooterstealing() {
     const thunder=[
         {
           img:"Images/Escooter/eco friendly.png",
-          p:"On Time Delivery"
+          p:"Environment-Friendly"
         },
+
+        
         {
           img:"Images/Escooter/cost.png",
-          p:"24*7 Supports"
+          p:"Inexpensive"
         },
         {
           img:"Images/Escooter/Sustainability.png",
-          p:"Flexibilety"
+          p:"A Sustainable subtitute"
         },
         {
-          img:"Images/Escooter/Kick Scooter.png",
-           p:"Customer Satisfaction"
+          img:"Images/Escooter/traffic.png",
+           p:" Keep from traffic congetion"
         },
+
+        {
+          img:"Images/Escooter/Kick Scooter.png",
+          p:"Easy maintenance"
+         },
          {
          img:"Images/Escooter/Parking.png",
-         p:"Customer Satisfaction"
+         p:" Easy Parking "
          },
          {
           img:"Images/Escooter/Happy.png",
-          p:"Customer Satisfaction"
+          p:"Fun to ride"
          },
+
+       
      ]
 
   return (
@@ -37,7 +46,7 @@ export default function Escooterstealing() {
             {  
              thunder.map((item)=> {
                 return (
-                    <div>
+                    <div className='indivisualmappingboxescooterstealing'>
                         
                     <div className='szthunderimages'> <img src={item.img}/> </div>
                      <p>{item.p}</p>

@@ -1,109 +1,21 @@
-.szescootersection{
-width: 100%;
-height: 85vh;
-margin-top: 40px;
-/* background-color: aqua; */
-}
-.szescootersub{
- width: 100%;
- height: 590px;
- /* background-color: red; */
- margin: auto;
- display: flex;
- background: url("/public/Images/Escooter/Background.png");
- background-repeat: no-repeat;
- background-size: 100% 550px;
- position: relative;
- 
-}
-.szescooterleft{
-    width: 50%;
-    /* background-color: blue; */
-    height: 450px;
-    position: relative
-}
-.szescooterleft>div{
-    color: white;
-    width: 50%;
-    padding: 30px 20px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 70%;
-    left: 60%;
-}
-.szescooterleft>div>p{
-    font-size: 18px;
- 
-}
-.szescooterright{
-    width: 50%;
-    /* background-color: burlywood; */
-    height:450px;
-    position: relative
-    
-}
-.escooterblue{
- width:100% ;
- height:250px ;
- position: absolute;
- margin-top: 43%;
- margin-left: -20%;
- z-index: 2;
-}
-.escooterblue>img{
-    width:100% ;
-    height:100% ;
-    object-fit: contain;
-}
-.segway{
-    width:100% ;
-    height:400px ;
-    margin-top: 17%;
-    position: absolute;
-    z-index: 1;
-}
-.segway>img{
-    width:100% ;
-    height:100% ;
-    object-fit: contain;
-}
-.goodriding{
-    width:50% ;
-    margin: 24% 50%;
-    height:385px ;
-    position: absolute;
-    z-index: 0;
-}
-.goodriding>img{
-    width:100% ;
-    height:100% ;
-    object-fit: contain;
-}
-.szskyblueeffect{
-    width: 40%;
-    height: 100px;
-    
-    margin: 69% 12%;
-}
-.szskyblueeffect>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-.szescooterbtn{
-
-
-    padding:10px 60px;
-    font-weight: 600;
-    font-size: 18px;
-    border: none;
-    background-color: #ef4c23;
-    color:white;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.escootersectionbannermainboxes{
+    height: 100vh;
+  border: 1px solid white;
+ margin-top: 120px;
+    background: url("/public/Images/Escooterchanges/BannersBackgrounds/Group 340243 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
 }
 
-.szescooterbtn:hover{
-     color: #ef4c23;
-     background-color:white;
+.escooterbannersometextboxes{
+    height: fit-content;
+    width: 50%;
+    margin: 15% 0% 0% 3%;
+text-align: justify;
+
+}
+
+.escooterbannersometextboxes >p {
+    width: 90%;
 }

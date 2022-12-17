@@ -49,7 +49,7 @@ export const FoodDeliveryExluciveApp = () => {
                 <img src={img.src} alt={img.alt} />
               </div>
               <div className="food-text" ><h4>{title}</h4>
-              <p>{description}</p></div>
+                <p>{description}</p></div>
             </div>
           );
         })}

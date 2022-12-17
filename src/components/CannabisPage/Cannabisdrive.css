@@ -30,24 +30,31 @@
     top: 50%;
     left: 50%;
   }
+  .szCannabisdriveright h1{
+    margin-left: 3%;
+    /* border: 2px solid red; */
+  }
   .triangle{
       width:90%;
-      height: 500px;
+      height: 600px;
       margin-top: 5%;
       position: absolute;
       z-index: 0;
+      /* border: 2px solid red; */
   }
   .triangle>img{
       width: 100%;
       height: 100%;
       object-fit: contain;
+      /* border: 2px solid red; */
   }
   .category{
       width:100%;
-      margin-top: 1%;
-      height: 500px;
+      /* margin-top: 1%; */
+      height: 450px;
       position: absolute;
       z-index: 1;
+      /* border: 2px solid yellow; */
   }
   .category>img{
       width: 100%;
@@ -59,14 +66,42 @@
     font-weight: 600;
     font-size: 18px;
     border: none;
-    background-color: #ef4c23;
+    background-color: #5BA068;
     color:white;
-    border-radius: 25px;
+    margin-top: 5%;
+    margin-left: 32%;
+    border-radius:8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .cannabisdrivebtn:hover{
-     color: #ef4c23;
+     color: #5BA068;
      background-color:white;
+     border: 2px solid #5BA068;
 }
   
+
+.cannabisDriverContent{
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 200px;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.cannabisDriverContentDiv{
+    /* border: 2px solid red; */
+    width: 48%;
+    height: 200px;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cannabisDriverContentDiv>img{
+    width: 40px;
+    height: 40px;
+}

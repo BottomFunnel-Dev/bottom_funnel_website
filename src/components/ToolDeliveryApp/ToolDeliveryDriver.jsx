@@ -15,7 +15,7 @@ const ToolDeliveryDriver = () => {
         alt: " registerlogo",
       },
       title: "Manage Profile",
-     para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
     },
     {
       img: {
@@ -26,8 +26,8 @@ const ToolDeliveryDriver = () => {
         src: "Images/tooldeliveryapp/analytics.png",
         alt: "notification logo",
       },
-         title: "Reports",
-         para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      title: "Reports",
+      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
     },
     {
       img: {
@@ -38,10 +38,10 @@ const ToolDeliveryDriver = () => {
         src: "Images/tooldeliveryapp/checkout.png",
         alt: "order",
       },
-        title: "Get order Details",
-         para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-   
-     },
+      title: "Get order Details",
+      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+
+    },
     {
       img: {
         src: "Images/tooldeliveryapp/Pickup location.png",
@@ -52,9 +52,9 @@ const ToolDeliveryDriver = () => {
         alt: "Navigationimage",
       },
       title: "Track Pickup Location",
-      para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
     },
-    
+
   ];
 
 
@@ -65,53 +65,53 @@ const ToolDeliveryDriver = () => {
   return (
     <div>
 
-    <div className='tooldrive'> 
-    <h1>Drive app</h1>
-  
-    <div className='tooldeliverydrivesub'> 
-             
-            <div className='tooldeliverydriveleft'>
-               
-               <div className="tooldelivery-drive-image">
-             <img 
-             src={TooDeliverydrivedata[active].img.src}
-             alt={TooDeliverydrivedata[active].img.alt}
-             
-                />
-                 </div>
-   
-               </div>
+      <div className='tooldrive'>
+        <h1>Drive app</h1>
 
-            <div  className='tooldeliverydriveright'>
+        <div className='tooldeliverydrivesub'>
 
-            
-        {TooDeliverydrivedata.map(({ title, icon }, idx) => {
-          return (
-           
-            <div
-              key={title}
-              onMouseOver={() => setActive(idx)}
-              className={`tooldelivery-box-${idx}`}
-            >
-              
-              <div className="tooldelivery-logo">
-                <img src={icon.src} alt={icon.alt} />
-              </div>
-              <h3>{title}</h3>
-               
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev</p>
-              </div>
-          
-        
-          );
-        })}
-      
+          <div className='tooldeliverydriveleft'>
+
+            <div className="tooldelivery-drive-image">
+              <img
+                src={TooDeliverydrivedata[active].img.src}
+                alt={TooDeliverydrivedata[active].img.alt}
+
+              />
             </div>
- 
-      </div>
-  </div>
 
-   
+          </div>
+
+          <div className='tooldeliverydriveright'>
+
+
+            {TooDeliverydrivedata.map(({ title, icon }, idx) => {
+              return (
+
+                <div
+                  key={title}
+                  onMouseOver={() => setActive(idx)}
+                  className={`tooldelivery-box-${idx}`}
+                >
+
+                  <div className="tooldelivery-logo">
+                    <img src={icon.src} alt={icon.alt} />
+                  </div>
+                  <h3>{title}</h3>
+
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev</p>
+                </div>
+
+
+              );
+            })}
+
+          </div>
+
+        </div>
+      </div>
+
+
 
 
 

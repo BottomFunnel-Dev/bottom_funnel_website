@@ -59,6 +59,7 @@ export const golangBanner = {
   description:
     "Bottom Funnel is all about making your software development process smooth, efficient, and effective. We offer a wide range of services that will help you find exactly what you need. Whether you're new to the world of software or an experienced pro, we have a solution that's perfect for your needs.",
 };
+
 export const javascriptBanner = {
   background: "Images/webdevmain/webbanner.png",
   title: "Best Javascript Development Around the Globe",

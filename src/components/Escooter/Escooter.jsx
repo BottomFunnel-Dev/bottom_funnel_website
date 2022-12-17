@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
-import { useDispatch } from "react-redux";
+import React from "react";
 import ContectForm from "../ContectForm/ContectForm";
 import { TextDropdown } from "../faqSection/Faqs";
 import MainFooter from "../FooterSection/MainFooter";
@@ -12,27 +10,29 @@ import Revamping from "../revamping/Revamping";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
 import { EscooterAdmin } from "./EscooterAdmin";
-import Escooterbusiness from "./Escooterbusiness";
+import { EscooterAdminpannel } from "./EscooterAdminpannel";
+
 import { Escooterhardware } from "./Escooterhardware";
-import Escootersection from "./Escootersection";
+import { EscooterKeyAreaAgain } from "./EscooterKeyAreaAgain";
+import { Escootersection } from "./Escootersection";
+
 import Escooterstealing from "./Escooterstealing";
 import Escooterthunder from "./Escooterthunder";
-import Keyarea from "./Keyarea";
+import { Keyarea } from "./Keyarea";
+
 
 export default function Escooter() {
-  const dispatch = useDispatch();
-  useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
-  }, []);
   return (
     <div>
       <Escootersection />
-      <Escooterbusiness />
+   
       <Escooterstealing />
       <Escooterthunder />
       <Keyarea />
+      <EscooterKeyAreaAgain />
+      <EscooterAdminpannel />
       <Escooterhardware />
-      <EscooterAdmin />
+    
       <StoriesSection />
       <Industries />
       <PlanProject />

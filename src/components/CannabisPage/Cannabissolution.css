@@ -54,9 +54,9 @@
 }
 .greybg{
     width: 100%;
-    border-radius: 18px;
+    border-radius: 8px;
     height: 90px;
-    background-color:#C6D6CE;
+    background-color:#5BA068;
 }
 .szlocation{
     width: 30%;
@@ -67,9 +67,11 @@
 width: 100%;
 height: 100%;
 object-fit: contain;
+/* border: 2px solid red; */
 }
 .greybg>h5{
     padding-left: 20px;
+    color: white;
 }
 .szmedicalsub>div>p{
     padding: 10px 20px;

@@ -11,12 +11,12 @@ export const PricingTable5 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Free</h2>
-          <p>Get going for free</p>
+          <p>For startups that want powerful email marketing combined with contact management</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$1000</h1>
+          <h1>$0</h1>
           <p>up to 10 agents, billed annually</p>
-          <h2>$900</h2>
+          <h2>$0</h2>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -45,12 +45,12 @@ export const PricingTable5 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Growth</h2>
-          <p>Intuitive, industry-leading support for growing businesses</p>
+          <p>For growing businesses that need to measure, analyze, and understand.</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$1000</h1>
+          <h1>$1,299</h1>
           <p>up to 10 agents, billed annually</p>
-          <h2>$900</h2>
+          <h2>$1,599</h2>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -82,12 +82,12 @@ export const PricingTable5 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Pro</h2>
-          <p>Advanced automation for high performance</p>
+          <p>For advanced businesses that need seamless multichannel marketing with personalization</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$1000</h1>
+          <h1>$10,499</h1>
           <p>up to 10 agents, billed annually</p>
-          <h2>$900</h2>
+          <h2>$12,599</h2>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -119,12 +119,12 @@ export const PricingTable5 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Supreme</h2>
-          <p>Fully featured with bots for enterprise-level support</p>
+          <p>For businesses that require governance, customization, and advanced metrics</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$1000</h1>
+          <h1>$20,999</h1>
           <p>up to 10 agents, billed annually</p>
-          <h2>$900</h2>
+          <h2>$25,199</h2>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -156,33 +156,40 @@ export const PricingTable5 = () => {
     </div>
 
 
-    <div className="pricingAdsOnsMainDiv">
+    <div className="pricing5AdsOnsMainDiv">
           <div className="pricingAdsOnsHeading">
-            <h1>Supercharge Freshmarketer with add-ons</h1>
+            <h1>Supercharge Marketer with add-ons</h1>
           </div>
-          <div className="pricingAdsOnsContainer">
-            <div className="pricingAdsOnsOptions1">
-                <div className="pricingAdsOnsOptions1Content">
-                    <button className="pricingAdsOnsOptions1Button">Freedy</button>
+          <div className="pricing5AdsOnsContainer">
+            <div className="pricing5AdsOnsOptions1">
+                <div className="pricing5AdsOnsOptions1ActiveContent">
+                    <button className="pricing5AdsOnsOptions1Button">Ads-On</button>
                     <h5>Additional Bot Sessions</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iure, sint vitae vel beatae, explicabo.</p>
                 </div>
-                <div className="pricingAdsOnsOptions1Content">
-                    <button className="pricingAdsOnsOptions1Button">Add-On</button>
+                <div className="pricing5AdsOnsOptions1Content">
+                    <button className="pricing5AdsOnsOptions1Button">Add-On</button>
                     <h5>Additional Bot Sessions</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iure, sint vitae vel beatae, explicabo.</p>
+                </div>
+                <div className="pricing5AdsOnsOptions1Content">
+                    <button className="pricing5AdsOnsOptions1Button">Add-On</button>
+                    <h5>Additional Bot Sessions</h5>
+                </div>
+                <div className="pricing5AdsOnsOptions1Content">
+                    <button className="pricing5AdsOnsOptions1Button">Add-On</button>
+                    <h5>Additional Bot Sessions</h5>
                 </div>
             </div>
-            <div className="pricingAdsOnsOptions2">
+            <div className="pricing5AdsOnsOptions2">
                 <div className="pricingAdsOnsOptions2Content">
                     <div className="pricingAdsOnsOptions2ContentHeading">
                         <h1>Marketing Contacts</h1>
                     </div>
                     <div className="pricingAdsOnsOptions2Contentdata">
-                        <h4>$5400 for 1000</h4>
-                        <p>bot sessions/Months</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus reprehenderit possimus ad odit! Ut ullam rerum non corporis ducimus nostrum excepturi nulla amet! Accusantium alias ad culpa consequatur vitae.</p>
-                        <button className="pricingAdsOnsOptions2Button">Add to Trial</button>
+                        <p>Purchase additional contact records to expand your marketing outreach.</p>
+                        <p>Select the number of Marketing Contacts per month</p>
+                        <h1>₹7,500/month</h1>
+                        <p>Available on Growth, Pro, and Enterprise plan</p>
+                        <button className="pricingPage5AdsOnsOptions2Button">Sign up</button>
                     </div>
                 </div>
             </div>

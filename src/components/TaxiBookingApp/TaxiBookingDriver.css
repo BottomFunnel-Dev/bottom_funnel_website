@@ -1,0 +1,68 @@
+.taxibookingdriverappmainboxes{
+    height: fit-content;
+ margin-top: 1%;
+    display: flex;
+}
+
+.taxibookingappdriverappleftbox{
+    height: fit-content;
+    width: 50%;
+ 
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-top: 3%;
+  
+}
+
+.taxibookingappdriverapprightbox{
+    height: 530px;
+    width: 40%;
+
+ margin-left: 10%;
+    background: url("/public/Images/Taxibooking/Bannersbackgrounds/Rectangle 4866.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  background-position-y:bottom ;
+  
+}
+
+.taxibookingappdriverrightboxinnermobile{
+    height: 90%;
+    width: 60%;
+
+    margin: 7% 0% 0% 10%;
+}
+
+.taxibookingappdriverrightboxinnermobile >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.taxibookingdriverflexingboxesindi{
+    height: fit-content;
+    width: 48%;
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   margin: 1%;
+   text-align: justify;
+   border-radius: 10px;
+}
+
+.taxibookingdriverflexingboxesindi:hover{
+    transform: scale(1.02);
+}
+
+.taxibookingflexingboxesdriverindiforlogo{
+    height: 25%;
+    width: 25%;
+ 
+}
+
+.driverapptaxibookingboxfortxt >h1{
+    width: 50%;
+ 
+    margin-top: 1%;
+    margin-left: 3%;
+}

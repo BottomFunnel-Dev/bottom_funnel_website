@@ -19,6 +19,8 @@ import MarketPlaceClients from "./MarketPlaceClients";
 
 import MarketplaceFreelancer from "./MarketplaceFreelancer";
 
+import { Helmet } from "react-helmet";
+
 export const Marketplace = () => {
   const dispatch = useDispatch();
   useEffect(function () {

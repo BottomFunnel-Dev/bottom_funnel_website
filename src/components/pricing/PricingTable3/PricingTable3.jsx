@@ -11,12 +11,12 @@ export const PricingTable3 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Free</h2>
-          <p>Get going for free</p>
+          <p>Get sales teams organized and engage leads fast with built-in chat, email, and phone</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$1500</h1>
+          <h1>$0</h1>
           <p>up to 10 agents, billed annually</p>
-          <h3>$959</h3>
+          <h3>$0</h3>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -45,12 +45,12 @@ export const PricingTable3 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Growth</h2>
-          <p>Intuitive, industry-leading support for growing businesses</p>
+          <p>Powerful CRM automation to help growing sales teams avoid repetitive work.</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$1850</h1>
+          <h1>$999</h1>
           <p>up to 10 agents, billed annually</p>
-          <h3>$490</h3>
+          <h3>$1,199</h3>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -82,12 +82,12 @@ export const PricingTable3 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Pro</h2>
-          <p>Advanced automation for high performance</p>
+          <p>Everything you need to manage multiple sales teams and grow revenue like a pro</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$3560</h1>
+          <h1>$27,99</h1>
           <p>up to 10 agents, billed annually</p>
-          <h3>$790</h3>
+          <h3>$3,299</h3>
           <p>up to 10 agents, billed annually</p>
           <button>START TRAIL</button>
           <hr />
@@ -122,7 +122,7 @@ export const PricingTable3 = () => {
           <p>Fully featured with bots for enterprise-level support</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
+          <h1>$4,499</h1>
           <p>up to 10 agents, billed annually</p>
           <h3>$90</h3>
           <p>up to 10 agents, billed annually</p>
@@ -157,7 +157,7 @@ export const PricingTable3 = () => {
 
     <div className="pricingAdsOnsOption3MainDiv">
           <div className="pricingAdsOnsOption3Heading">
-            <h1>Enhance Your Products With add-ons</h1>
+            <h1>Supercharge Freshsales with add-ons</h1>
           </div>
           <div className="pricingAdsOnsOption3Container">
             <div className="pricingAdsOnsOption3Options1">
@@ -175,13 +175,15 @@ export const PricingTable3 = () => {
             <div className="pricingAdsOnsOption3Options3">
                 <div className="pricingAdsOnsOption3Options3Content">
                     <div className="pricingAdsOnsOption3Options3ContentHeading">
-                        <h1>Additional Bot Sessions</h1>
+                        <h1>Configure, Price, Quote (Beta)</h1>
+                        <p>Generate branded documents like invoices, quotes, onboarding documents, and contracts.</p>
                     </div>
                     <div className="pricingAdsOnsOption3Options3Contentdata">
-                        <h4>$5400 for 1000</h4>
-                        <p>bot sessions/Months</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus reprehenderit possimus ad odit! Ut ullam rerum non corporis ducimus nostrum excepturi nulla amet! Accusantium alias ad culpa consequatur vitae.</p>
-                        <button className="pricingAdsOnsOption3Options3Button">Add to Trial</button>
+                      <p>Generate branded documents like invoices, quotes, onboarding documents, and contracts.</p>
+                        <h4>₹1,299 per user per month</h4>
+                        {/* <p>bot sessions/Months</p> */}
+                        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus reprehenderit possimus ad odit! Ut ullam rerum non corporis ducimus nostrum excepturi nulla amet! Accusantium alias ad culpa consequatur vitae.</p> */}
+                        <button className="pricingAdsOnsOption3Options3Button">Sign Up</button>
                     </div>
                 </div>
             </div>

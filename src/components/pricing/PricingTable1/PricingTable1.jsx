@@ -11,10 +11,10 @@ export const PricingTable1 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Free</h2>
-          <p>Get going for free</p>
+          <p>Basic plan to set up your HR processes</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
+          <h1>0</h1>
           <p>up to 10 agents, billed annually</p>
           <h2>$90</h2>
           <p>up to 10 agents, billed annually</p>
@@ -45,10 +45,10 @@ export const PricingTable1 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Growth</h2>
-          <p>Intuitive, industry-leading support for growing businesses</p>
+          <p>Essential HR for growing businesses</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
+          <h1>$86</h1>
           <p>up to 10 agents, billed annually</p>
           <h2>$90</h2>
           <p>up to 10 agents, billed annually</p>
@@ -82,10 +82,10 @@ export const PricingTable1 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Pro</h2>
-          <p>Advanced automation for high performance</p>
+          <p>Everything you need to streamline your HR</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
+          <h1>$136</h1>
           <p>up to 10 agents, billed annually</p>
           <h2>$90</h2>
           <p>up to 10 agents, billed annually</p>
@@ -119,10 +119,10 @@ export const PricingTable1 = () => {
       <div>
         <div className="Pricing-Table-plan">
           <h2>Supreme</h2>
-          <p>Fully featured with bots for enterprise-level support</p>
+          <p>Advanced HR for complex business needs</p>
         </div>
         <div className="Pricing-Table-content">
-          <h1>$100</h1>
+          <h1>$336</h1>
           <p>up to 10 agents, billed annually</p>
           <h2>$90</h2>
           <p>up to 10 agents, billed annually</p>
