@@ -5,6 +5,12 @@ import { MobileBanner } from "./BannerAnimations/MobileBanner";
 import { SoftwareBanner } from "./BannerAnimations/SoftwareBanner";
 import { DigitalMarketing } from "./BannerAnimations/DigitalMarketing";
 
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Modal from "@mui/material/Modal";
+import { PopupForm } from "../PopupForm/PopupForm";
+
 export const BannerFull = () => {
 
   const [open, setOpen] = useState(false);
@@ -121,7 +127,27 @@ export const BannerFull = () => {
               <div className="banner-text-content-full">
                 <h1>{item.title}</h1>
                 <p>{item.desc}</p>
-                <button>Get Started</button>
+                <button onClick={handleOpen}>Get Started</button>
+
+                <Modal
+                      open={open}
+                      onClose={handleClose}
+                      aria-labelledby="modal-modal-title"
+                      aria-describedby="modal-modal-description"
+                    >
+                      <Box sx={style}>
+                        <Typography
+                          id="modal-modal-title"
+                          variant="h6"
+                          component="h2"
+                        >
+                          <div className="popform">
+                            <PopupForm />
+                          </div>
+                        </Typography>
+                      </Box>
+                    </Modal>
+
               </div>
             </div>
           </div>
