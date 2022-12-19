@@ -7,6 +7,7 @@
 
 .skills-remarkable-main > h1 {
   color: #ef4c23;
+  text-transform: uppercase;
 
   font-size: 32px;
   margin: 0px;
@@ -46,7 +47,7 @@
 }
 .skills-remarkable-solutions > div:hover {
   margin-top: 5px;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 .skills-remarkable-solutions > div > h4 {
   margin: 0px;
