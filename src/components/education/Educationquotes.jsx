@@ -7,15 +7,17 @@ export default function Educationquotes() {
 
       <div className='szproduct'>
         <div className='szproductleft'>
-          <h1>Student Application</h1>
-          <p> Enhance your students’ learning journey with an easy-to-understand education app.</p>
-          <div className='quotesflex'>
-
-            <div className='quotescircle'>
-              <div className="correct"><img src="Images/education/correct.png" /> </div>
+           <h1>Student Application</h1>
+           <p> Enhance your students’ learning journey with an easy-to-understand education app.</p>
+            <div className='quotesflex'>
+              
+              <div className='quotescircle'>
+               <div  className="correct"><img src="Images/education/correct.png"/> </div> 
+                
+                 
+              </div>
+              <p>Recorded/Live lectures and study notes </p>
             </div>
-            <p>Recorded/Live lectures and study notes </p>
-          </div>
 
           {/* ///////////2//////// */}
           <div className='quotesflex'>
@@ -39,23 +41,23 @@ export default function Educationquotes() {
 
         <div className='szproductright'>
 
-          <div> <img className="circletop" src="Images/education/circle.png" /></div>
+          <div> <img className="circletop"src="Images/education/circle.png" /></div>
           <div> <img className="szphone" src="Images/education/phone.png" /></div>
           <div>   <img className="homepage" src="Images/education/homepage.png" /></div>
-
-
-
+             
+             
+           
         </div>
 
       </div>
 
       {/* //////tab/////// */}
 
-      <div className='szproduct'>
-        <div className='szproductright'>
-          <div className="szpolygon"> <img src="Images/education/polygonimage.png" /></div>
-          <div className='sztabletcase'>    <img src="Images/education/teblate.png" /></div>
-          <div className="szteblateadmin"> <img src='Images/education/teblateadmin.png' /></div>
+        <div className='szproduct'>
+          <div className='szproductright'>
+             <div className="szpolygon"> <img  src="Images/education/polygonimage.png" /></div> 
+             <div  className='sztabletcase'>    <img  src="Images/education/teblate.png"/></div>
+             <div className="szteblateadmin"> <img src='Images/education/teblateadmin.png' /></div>    
         </div>
         <div className='szproductleft'>
           <h1>Tutor dashboard</h1>
@@ -126,8 +128,8 @@ export default function Educationquotes() {
         <div className='szproductright'>
           <div>
             <img className="phonecase" src="Images/education/phone.png" />
-            <img className='landingimg' src="Images/education/landing.png" />
-            <img className="rectangleimg" src="Images/education/rectanglebox.png" />
+            <img className='landingimg' src="Images/education/landing.png"/>
+            <img className="rectangleimg" src="Images/education/rectanglebox.png"/>
           </div>
         </div>
 

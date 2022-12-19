@@ -1,0 +1,87 @@
+.wellnessPatientMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 800px;
+}
+.wellnessPatientheading{
+    /* border: 2px solid red; */
+    /* color: #393939; */
+    text-align: center;
+}
+.wellnessPatientContainer{
+    /* border: 2px solid gold; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.wellnessPatientImage{
+    /* border: 2px solid green; */
+    width: 50%;
+    text-align: center;
+    /* background: url("/Images/WellnessDevApp/Banners/banner2.png"); */
+}
+.wellnessPatientImage1{
+    z-index: 0;
+    position: relative;
+    width: 85%;
+    /* height: 200px; */
+    margin-left: 8%;
+    /* border: 2px solid red; */
+}
+.wellnessPatientImage1>img{
+    width: 100%;
+    height: 70%;
+}
+.wellnessPatientImage2{
+    z-index: 1;
+    position: absolute;
+    left: 66%;
+    height: 470px;
+    width: 18%;
+    top: 130%;
+    /* border:2px solid firebrick; */
+}
+.wellnessPatientImage2>img{
+    width: 100%;
+    height: 100%;
+}
+.wellnessPatientContent{
+    /* border: 2px solid black; */
+    width: 50%;
+    /* height: 200px; */
+    /* margin-top: 2%; */
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+}
+.wellnessPatientContent>h1{
+    color: #03ACF2;
+    margin-left: 5%;
+}
+.wellnessPatientContentdata{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 90%;
+    margin-top:5%;
+    /* margin-left: 5%; */
+    flex-direction: row;
+}
+.wellnessPatientContentDiv{
+    /* border: 2px solid red; */
+    width: 48%;
+    /* height: 200px; */
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.wellnessPatientContentDiv>img{
+    width: 40px;
+    height: 40px;
+}

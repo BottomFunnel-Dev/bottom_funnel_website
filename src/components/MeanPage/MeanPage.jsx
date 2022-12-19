@@ -14,6 +14,18 @@ import { meanBanner } from "../../Data/webdevPageData/TechBannerData";
 import { WebdevBanner } from "../WebdevPages/bannerWebdev/WebdevBanner";
 import { Techstackintro } from "../WebdevPages/techStackintro/Techstackintro";
 
+// ----- Other requried react components -----
+import StoriesSection from "../StoriesSection/StoriesSection";
+import OndemandSection from "../OnDemandSection/OndemandSection";
+import PortFolio from "../PortFolioSection/PortFolio";
+import PlanProject from "../PlanProject/PlanProject";
+import Revamping from "../revamping/Revamping";
+import { SeoblogSection } from "../SeoBlogs/Seoblogs";
+import { TextDropdown } from "../faqSection/Faqs";
+import ContectForm from "../ContectForm/ContectForm";
+import MainFooter from "../FooterSection/MainFooter";
+import { Helmet } from "react-helmet";
+
 export const MeanPage = () => {
   const dispatch = useDispatch();
   useEffect(function () {
@@ -21,14 +33,22 @@ export const MeanPage = () => {
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>
+          Best Ruby Development Company | Hire Mean stack Developer | Bottom
+          Funnel
+        </title>
+        <meta
+          name="description"
+          content="Bottom Funnel is one of the most affordable mean stack development company. Hire our dedicated ruby developers for your web and app development."
+        />
+      </Helmet>
       <WebdevBanner bannerContent={meanBanner} />
       <Techstackintro techContent={meanstackIntro} />
       <WebDevServices webservicesContent={meanDevServices} />
       <WhyTechStack techData={whyMEAN} />
       <GetStarted />
       <WebDevWhy whyDevContent={MEANWhyContent} />
-
-      
     </div>
   );
 };

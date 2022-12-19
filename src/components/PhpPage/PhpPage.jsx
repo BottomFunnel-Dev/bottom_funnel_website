@@ -13,16 +13,6 @@ import { phpBanner } from "../../Data/webdevPageData/TechBannerData";
 import { WebdevBanner } from "../WebdevPages/bannerWebdev/WebdevBanner";
 import { Techstackintro } from "../WebdevPages/techStackintro/Techstackintro";
 import { Helmet } from "react-helmet";
-import StoriesSection from "../StoriesSection/StoriesSection";
-import { Industries } from "../industries/Industries";
-import PlanProject from "../PlanProject/PlanProject";
-import OndemandSection from "../OnDemandSection/OndemandSection";
-import PortFolio from "../PortFolioSection/PortFolio";
-import { SeoblogSection } from "../SeoBlogs/Seoblogs";
-import Revamping from "../revamping/Revamping";
-import { TextDropdown } from "../faqSection/Faqs";
-import ContectForm from "../ContectForm/ContectForm";
-import MainFooter from "../FooterSection/MainFooter";
 
 export const PhpPage = () => {
   const dispatch = useDispatch();
@@ -44,17 +34,6 @@ export const PhpPage = () => {
       <WhyTechStack techData={whyPHP} />
       <GetStarted />
       <WebDevWhy whyDevContent={PHPWhyContent} />
-
-      <StoriesSection />
-      <Industries />
-      <PlanProject />
-      <OndemandSection />
-      <PortFolio />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
     </div>
   );
 };

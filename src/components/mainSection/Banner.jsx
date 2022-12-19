@@ -141,10 +141,7 @@ const Banner = () => {
                   </div>
                 </div>
 
-                <div
-                  className="imageContent"
-                 
-                >
+                <div className="imageContent">
                   <div className="imageInner">
                     <img src={item.bannerImage} alt="" />
                   </div>
