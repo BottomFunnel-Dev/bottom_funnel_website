@@ -47,14 +47,14 @@ export const nodejsData = {
     "When it comes to node.js web development, there is no-one better than Bottom Funnel node.js developers, who develop robust applications and websites that will meet your exact needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/nodejsphotos/banner.webp",
+    image: "Images/skillsPhotos/nodejsphotos/banner.webp",
     title: "Node.js Development Services",
     description: `Brand your new app with BottomFunnel's NodeJS development services and clients will be flocking in like moths to a flame! Our team has years of experience working with the platform, so we'll be able to help you quickly build out your application while maintaining a high level of quality throughout the process.`,
   },
   isDes: true,
   desData: {
     title: "Node js",
-    image: "Images/nodejsphotos/js-logo-new.webp",
+    image: "Images/skillsPhotos/nodejsphotos/js-logo-new.webp",
     description: `Node.js (Node) is a server-side JavaScript framework that's gaining popularity among developers for its scalability and ease of use, especially for real-time applications. Like any other tool, it has its pros and cons, but when it comes to building scalable and high-performance web applications, the advantages of Node are simply too big to ignore.`,
   },
   isWhyApp: true,
@@ -63,7 +63,7 @@ export const nodejsData = {
     cardsData: [
       {
         img: {
-          src: "Images/nodejsphotos/fast-run.webp",
+          src: "Images/skillsPhotos/nodejsphotos/fast-run.webp",
           alt: "The fast suit logo",
         },
         title: "The fast suit",
@@ -71,7 +71,7 @@ export const nodejsData = {
       },
       {
         img: {
-          src: "Images/nodejsphotos/clock.webp",
+          src: "Images/skillsPhotos/nodejsphotos/clock.webp",
           alt: "Real time web application logo",
         },
         title: "Real time web application",
@@ -79,7 +79,7 @@ export const nodejsData = {
       },
       {
         img: {
-          src: "Images/nodejsphotos/extreme-data.webp",
+          src: "Images/skillsPhotos/nodejsphotos/extreme-data.webp",
           alt: "Extreme data streaming agilty logo",
         },
         title: "Extreme data streaming agilty",
@@ -87,7 +87,7 @@ export const nodejsData = {
       },
       {
         img: {
-          src: "Images/nodejsphotos/data.webp",
+          src: "Images/skillsPhotos/nodejsphotos/data.webp",
           alt: "Single code based logo",
         },
         title: "Single code based",
@@ -95,7 +95,7 @@ export const nodejsData = {
       },
       {
         img: {
-          src: "Images/nodejsphotos/dynamic.webp",
+          src: "Images/skillsPhotos/nodejsphotos/dynamic.webp",
           alt: "Rich ecosystem logo",
         },
         title: "Rich ecosystem",
@@ -103,7 +103,7 @@ export const nodejsData = {
       },
       {
         img: {
-          src: "Images/nodejsphotos/community.webp",
+          src: "Images/skillsPhotos/nodejsphotos/community.webp",
           alt: "Community driven logo",
         },
         title: "Community driven",
@@ -114,7 +114,7 @@ export const nodejsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom funnel For Node.js",
-    image: "Images/nodejsphotos/nodejs-big-logo.webp",
+    image: "Images/skillsPhotos/nodejsphotos/nodejs-big-logo.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -128,7 +128,7 @@ export const nodejsData = {
   BookCallData: {
     title: "Need node.js developers to build your application?",
     btn: "Book a call now",
-    image: "Images/nodejsphotos/mid-banner.webp",
+    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -137,42 +137,42 @@ export const nodejsData = {
     cardsData: [
       {
         img: {
-          src: "Images/nodejsphotos/bar-chart.webp",
+          src: "Images/skillsPhotos/nodejsphotos/bar-chart.webp",
           alt: "Business application development logo",
         },
         title: "Business application development",
       },
       {
         img: {
-          src: "Images/nodejsphotos/nodejs.webp",
+          src: "Images/skillsPhotos/nodejsphotos/nodejs.webp",
           alt: "Advance Node.js Programming logo",
         },
         title: "Advance Node.js Programming",
       },
       {
         img: {
-          src: "Images/nodejsphotos/crm.webp",
+          src: "Images/skillsPhotos/nodejsphotos/crm.webp",
           alt: "CRM or Backend System for Data Management logo",
         },
         title: "CRM or Backend System for Data Management",
       },
       {
         img: {
-          src: "Images/nodejsphotos/mean-2.webp",
+          src: "Images/skillsPhotos/nodejsphotos/mean-2.webp",
           alt: "MEAN stack development logo",
         },
         title: "MEAN stack development",
       },
       {
         img: {
-          src: "Images/nodejsphotos/collab.webp",
+          src: "Images/skillsPhotos/nodejsphotos/collab.webp",
           alt: "Custom Collaborative Tools logo",
         },
         title: "Custom Collaborative Tools",
       },
       {
         img: {
-          src: "Images/nodejsphotos/iot-3.webp",
+          src: "Images/skillsPhotos/nodejsphotos/iot-3.webp",
           alt: "Internet of Things logo",
         },
         title: "Internet of Things(IOT)",
@@ -187,14 +187,14 @@ export const phpData = {
     "Bottom funnel's php web development services are the best way to start your website development journey. Get in touch with the best php developers in the market to develop robust applications and websites that look great. ",
   isBanner: true,
   BannerData: {
-    image: "Images/phpskillsphotos/banner.webp",
+    image: "Images/skillsPhotos/phpskillsphotos/banner.webp",
     title: "PHP Development Services",
     description: `It's important that you get your web presence maintained with a reliable team who can provide you with the best possible services.`,
   },
   isDes: true,
   desData: {
     title: "PHP",
-    image: "Images/phpskillsphotos/php-logo.webp",
+    image: "Images/skillsPhotos/phpskillsphotos/php-logo.webp",
     description: `PHP is a server-side language that is used to develop websites and graphical user interfaces (GUIs). It is also used to create dynamic content, security measures, and many other things. With PHP you can make your site look great by implementing templates and formatting.
       You will not only be able to output plain text but you can also create different types of outputs such as HTML, images, PDFs or even Flash animations! PHP gives you the freedom to choose how your website should look like.`,
   },
@@ -204,7 +204,7 @@ export const phpData = {
     cardsData: [
       {
         img: {
-          src: "Images/phpskillsphotos/open-source.webp",
+          src: "Images/skillsPhotos/phpskillsphotos/open-source.webp",
           alt: "Open Source logo",
         },
         title: "Open Source",
@@ -214,7 +214,7 @@ export const phpData = {
       },
       {
         img: {
-          src: "Images/phpskillsphotos/scalable.webp",
+          src: "Images/skillsPhotos/phpskillsphotos/scalable.webp",
           alt: "Dynamic & Flexible logo",
         },
         title: "Dynamic & Flexible",
@@ -222,7 +222,7 @@ export const phpData = {
       },
       {
         img: {
-          src: "Images/phpskillsphotos/dynamic2.webp",
+          src: "Images/skillsPhotos/phpskillsphotos/dynamic2.webp",
           alt: "Scalable & Web documented logo",
         },
         title: "Scalable & Web documented",
@@ -230,7 +230,7 @@ export const phpData = {
       },
       {
         img: {
-          src: "Images/phpskillsphotos/frameworks.webp",
+          src: "Images/skillsPhotos/phpskillsphotos/frameworks.webp",
           alt: "Effective Frameworks logo",
         },
         title: "Effective Frameworks",
@@ -238,7 +238,7 @@ export const phpData = {
       },
       {
         img: {
-          src: "Images/phpskillsphotos/hosting.webp",
+          src: "Images/skillsPhotos/phpskillsphotos/hosting.webp",
           alt: "Better hosting options logo",
         },
         title: "Better hosting options",
@@ -246,7 +246,7 @@ export const phpData = {
       },
       {
         img: {
-          src: "Images/phpskillsphotos/support.webp",
+          src: "Images/skillsPhotos/phpskillsphotos/support.webp",
           alt: "Easy Support & Updates logo",
         },
         title: "Easy Support & Updates",
@@ -257,7 +257,7 @@ export const phpData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom funnel For PHP",
-    image: "Images/phpskillsphotos/php-big-logo.webp",
+    image: "Images/skillsPhotos/phpskillsphotos/php-big-logo.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -271,7 +271,7 @@ export const phpData = {
   BookCallData: {
     title: "Need our PHP developers to build your application?",
     btn: "Book a call now",
-    image: "Images/nodejsphotos/mid-banner.webp",
+    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -280,42 +280,42 @@ export const phpData = {
     cardsData: [
       {
         img: {
-          src: "Images/phpskillsphotos/cms.webp",
+          src: "Images/skillsPhotos/phpskillsphotos/cms.webp",
           alt: "CMS Development logo",
         },
         title: "CMS Development",
       },
       {
         img: {
-          src: "Images/phpskillsphotos/custom.webp",
+          src: "Images/skillsPhotos/phpskillsphotos/custom.webp",
           alt: "Custom Applications logo",
         },
         title: "Custom Applications",
       },
       {
         img: {
-          src: "Images/phpskillsphotos/CLOUD.webp",
+          src: "Images/skillsPhotos/phpskillsphotos/CLOUD.webp",
           alt: "Programming Interface Integration logo",
         },
         title: "Programming Interface Integration",
       },
       {
         img: {
-          src: "Images/phpskillsphotos/php-web-portals.webp",
+          src: "Images/skillsPhotos/phpskillsphotos/php-web-portals.webp",
           alt: "PHP Web Portals logo",
         },
         title: "PHP Web Portals",
       },
       {
         img: {
-          src: "Images/phpskillsphotos/clound-solutions.webp",
+          src: "Images/skillsPhotos/phpskillsphotos/clound-solutions.webp",
           alt: "Cloud Solutions logo",
         },
         title: "Cloud Solutions",
       },
       {
         img: {
-          src: "Images/phpskillsphotos/community-driven.webp",
+          src: "Images/skillsPhotos/phpskillsphotos/community-driven.webp",
           alt: "Community driven logo",
         },
         title: "Community driven",
@@ -330,7 +330,7 @@ export const DotnetData = {
     "Bottom Funnel gets you the best .NET developers in the market who can develop robust applications and websites using the latest technologies like ASP.net and VB.net on an hourly, part-time and full-time contract basis.",
   isBanner: true,
   BannerData: {
-    image: "Images/dotnetphotos/banner.webp",
+    image: "Images/skillsPhotos/dotnetphotos/banner.webp",
     title: ".NET Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -338,7 +338,7 @@ export const DotnetData = {
   isDes: true,
   desData: {
     title: ".Net",
-    image: "Images/dotnetphotos/dotnetlogo.webp",
+    image: "Images/skillsPhotos/dotnetphotos/dotnetlogo.webp",
     description:
       ".NET is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -348,7 +348,7 @@ export const DotnetData = {
     cardsData: [
       {
         img: {
-          src: "Images/dotnetphotos/simple.webp",
+          src: "Images/skillsPhotos/dotnetphotos/simple.webp",
           alt: "B2B and B2C web portal development logo",
         },
         title: "B2B and B2C web portal development",
@@ -358,7 +358,7 @@ export const DotnetData = {
       },
       {
         img: {
-          src: "Images/dotnetphotos/xml.webp",
+          src: "Images/skillsPhotos/dotnetphotos/xml.webp",
           alt: "XML web application development logo",
         },
         title: "XML web application development",
@@ -367,7 +367,7 @@ export const DotnetData = {
       },
       {
         img: {
-          src: "Images/dotnetphotos/framework.webp",
+          src: "Images/skillsPhotos/dotnetphotos/framework.webp",
           alt: "CMS web application development logo",
         },
         title: "CMS web application development",
@@ -376,7 +376,7 @@ export const DotnetData = {
       },
       {
         img: {
-          src: "Images/dotnetphotos/e-commerce.webp",
+          src: "Images/skillsPhotos/dotnetphotos/e-commerce.webp",
           alt: "E-commerce web application development logo",
         },
         title: "E-commerce web application development",
@@ -385,7 +385,7 @@ export const DotnetData = {
       },
       {
         img: {
-          src: "Images/dotnetphotos/shopping-cart.webp",
+          src: "Images/skillsPhotos/dotnetphotos/shopping-cart.webp",
           alt: "Shopping cart web application development logo",
         },
         title: "Shopping cart web application development",
@@ -394,7 +394,7 @@ export const DotnetData = {
       },
       {
         img: {
-          src: "Images/dotnetphotos/custom-website.webp",
+          src: "Images/skillsPhotos/dotnetphotos/custom-website.webp",
           alt: "MS-SQL customised web development logo",
         },
         title: "MS-SQL customised web development",
@@ -406,7 +406,7 @@ export const DotnetData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom funnel For .NET",
-    image: "Images/dotnetphotos/image-2.webp",
+    image: "Images/skillsPhotos/dotnetphotos/image-2.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -420,7 +420,7 @@ export const DotnetData = {
   BookCallData: {
     title: "Need our .NET developers to build your application?",
     btn: "Book a call now",
-    image: "Images/nodejsphotos/mid-banner.webp",
+    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -430,42 +430,42 @@ export const DotnetData = {
     cardsData: [
       {
         img: {
-          src: "Images/dotnetphotos/agile-software.webp",
+          src: "Images/skillsPhotos/dotnetphotos/agile-software.webp",
           alt: "Excellent performance logo",
         },
         title: "Excellent performance",
       },
       {
         img: {
-          src: "Images/dotnetphotos/creative.webp",
+          src: "Images/skillsPhotos/dotnetphotos/creative.webp",
           alt: "Platform independent logo",
         },
         title: "Platform independent",
       },
       {
         img: {
-          src: "Images/dotnetphotos/trusted.webp",
+          src: "Images/skillsPhotos/dotnetphotos/trusted.webp",
           alt: "Excellent user interface logo",
         },
         title: "Excellent user interface",
       },
       {
         img: {
-          src: "Images/dotnetphotos/custom-software.webp",
+          src: "Images/skillsPhotos/dotnetphotos/custom-software.webp",
           alt: "Object oriented logo",
         },
         title: "Object oriented",
       },
       {
         img: {
-          src: "Images/dotnetphotos/techie.webp",
+          src: "Images/skillsPhotos/dotnetphotos/techie.webp",
           alt: "Cross platform design logo",
         },
         title: "Cross platform design",
       },
       {
         img: {
-          src: "Images/dotnetphotos/security.webp",
+          src: "Images/skillsPhotos/dotnetphotos/security.webp",
           alt: "Easy maintenance logo",
         },
         title: "Easy maintenance",
@@ -480,7 +480,7 @@ export const laravelData = {
     "Bottom Funnel is a globally dominant company having highly experienced Laravel developers. Our Laravel development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/larvelskillsphotos/banner.webp",
+    image: "Images/skillsPhotos/larvelskillsphotos/banner.webp",
     title: "Laravel Development Services",
     description:
       "Let our Laravel developers build an expressive and elegant Laravel web application for you.",
@@ -488,7 +488,7 @@ export const laravelData = {
   isDes: true,
   desData: {
     title: "Laravel",
-    image: "Images/larvelskillsphotos/laravel-logo.webp",
+    image: "Images/skillsPhotos/larvelskillsphotos/laravel-logo.webp",
     description: `Laravel is one of the most popular PHP frameworks and Laravel web application development companies are hiring for new software engineers to help out with their rapidly growing team. Why choose us? We'll help you master all the framework's features so you can build powerful, engaging websites quickly. Plus, our Laravel developers are top-notch experts with years of experience building cutting-edge applications using this framework. You'll be in good hands as we work together to create amazing things!`,
   },
   isWhyApp: true,
@@ -497,7 +497,7 @@ export const laravelData = {
     cardsData: [
       {
         img: {
-          src: "Images/larvelskillsphotos/bundled-features.webp",
+          src: "Images/skillsPhotos/larvelskillsphotos/bundled-features.webp",
           alt: "Bundled Features logo",
         },
         title: "Bundled Features",
@@ -506,7 +506,7 @@ export const laravelData = {
       },
       {
         img: {
-          src: "Images/larvelskillsphotos/automated-test.webp",
+          src: "Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
           alt: "Automated Testing logo",
         },
         title: "Automated Testing",
@@ -514,7 +514,7 @@ export const laravelData = {
       },
       {
         img: {
-          src: "Images/larvelskillsphotos/reuseable-code.webp",
+          src: "Images/skillsPhotos/larvelskillsphotos/reuseable-code.webp",
           alt: "Reusable code logo",
         },
         title: "Reusable code",
@@ -522,7 +522,7 @@ export const laravelData = {
       },
       {
         img: {
-          src: "Images/larvelskillsphotos/agile-dev.webp",
+          src: "Images/skillsPhotos/larvelskillsphotos/agile-dev.webp",
           alt: "Agile development logo",
         },
         title: "Agile development",
@@ -530,7 +530,7 @@ export const laravelData = {
       },
       {
         img: {
-          src: "Images/larvelskillsphotos/ajax.webp",
+          src: "Images/skillsPhotos/larvelskillsphotos/ajax.webp",
           alt: "AJAX-enabled widgets logo",
         },
         title: "AJAX-enabled widgets",
@@ -538,7 +538,7 @@ export const laravelData = {
       },
       {
         img: {
-          src: "Images/larvelskillsphotos/build-tools.webp",
+          src: "Images/skillsPhotos/larvelskillsphotos/build-tools.webp",
           alt: "Build in tools logo",
         },
         title: "Build in tools",
@@ -549,7 +549,7 @@ export const laravelData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom funnel For Laravel",
-    image: "Images/larvelskillsphotos/big-left-image.webp",
+    image: "Images/skillsPhotos/larvelskillsphotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -563,7 +563,7 @@ export const laravelData = {
   BookCallData: {
     title: "Need our laravel developers to build your application?",
     btn: "Book a call now",
-    image: "Images/nodejsPhotos/mid-banner.webp",
+    image: "Images/skillsPhotos/nodejsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -573,42 +573,42 @@ export const laravelData = {
     cardsData: [
       {
         img: {
-          src: "Images/larvelskillsphotos/latest-php-support.webp",
+          src: "Images/skillsPhotos/larvelskillsphotos/latest-php-support.webp",
           alt: "Latest PHP support logo",
         },
         title: "Latest PHP support",
       },
       {
         img: {
-          src: "Images/larvelskillsphotos/new-components.webp",
+          src: "Images/skillsPhotos/larvelskillsphotos/new-components.webp",
           alt: "New UI components logo",
         },
         title: "New UI components",
       },
       {
         img: {
-          src: "Images/larvelskillsphotos/database-migrations.webp",
+          src: "Images/skillsPhotos/larvelskillsphotos/database-migrations.webp",
           alt: "Database Migrations logo",
         },
         title: "Database Migrations",
       },
       {
         img: {
-          src: "Images/larvelskillsphotos/microframework.webp",
+          src: "Images/skillsPhotos/larvelskillsphotos/microframework.webp",
           alt: "Microframework logo",
         },
         title: "Microframework",
       },
       {
         img: {
-          src: "Images/larvelskillsphotos/easy-develop.webp",
+          src: "Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
           alt: "Easy to develop logo",
         },
         title: "Easy to develop",
       },
       {
         img: {
-          src: "Images/larvelskillsphotos/automated-test.webp",
+          src: "Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
           alt: "Intact security logo",
         },
         title: "Intact security",
@@ -623,14 +623,14 @@ export const djangoData = {
     "Bottom Funnel is a globally dominant company having highly experienced django developers. Our django development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/djangoPhotos/banner.png",
+    image: "Images/skillsPhotos/djangoPhotos/banner.webp",
     title: "Django Development Services",
     description: `Want to build a web application quickly, cost-efficiently, and with less code? Our Django web development services can help!`,
   },
   isDes: true,
   desData: {
     title: "Django",
-    image: "Images/djangoPhotos/django-logo.png",
+    image: "Images/skillsPhotos/djangoPhotos/django-logo.webp",
     description: `Django is the leading framework for building web apps in Python. It follows a clean architecture, encourages rapid development and provides you with clean and pragmatic design patterns. Bottom Funnel is among the top Django web application development company in Asia, USA, middle-east and Africa which provides the best Django web application development services by experienced and best Django web developers.
       BottomFunnel believes that every app should be built with love. With an eye for detail and a dedication to quality, we work hard to exceed your expectations. From our start to finish process, you can be sure that your project will be delivered on time and with quality!`,
   },
@@ -640,7 +640,7 @@ export const djangoData = {
     cardsData: [
       {
         img: {
-          src: "Images/djangoPhotos/remark-speed.png",
+          src: "Images/skillsPhotos/djangoPhotos/remark-speed.webp",
           alt: "Django application development logo",
         },
         title: "Django application development",
@@ -649,7 +649,7 @@ export const djangoData = {
       },
       {
         img: {
-          src: "Images/djangoPhotos/complete-load.png",
+          src: "Images/skillsPhotos/djangoPhotos/complete-load.webp",
           alt: "Django website Development  logo",
         },
         title: "Django website Development ",
@@ -657,7 +657,7 @@ export const djangoData = {
       },
       {
         img: {
-          src: "Images/djangoPhotos/exception-secure.png",
+          src: "Images/skillsPhotos/djangoPhotos/exception-secure.webp",
           alt: "Django Web Interface Design logo",
         },
         title: "Django Web Interface Design",
@@ -665,7 +665,7 @@ export const djangoData = {
       },
       {
         img: {
-          src: "Images/djangoPhotos/wealthy-feature.png",
+          src: "Images/skillsPhotos/djangoPhotos/wealthy-feature.webp",
           alt: "Django Template Design logo",
         },
         title: "Django Template Design",
@@ -673,7 +673,7 @@ export const djangoData = {
       },
       {
         img: {
-          src: "Images/djangoPhotos/very-scalable.png",
+          src: "Images/skillsPhotos/djangoPhotos/very-scalable.webp",
           alt: "Django REST framework logo",
         },
         title: "Django REST framework",
@@ -681,7 +681,7 @@ export const djangoData = {
       },
       {
         img: {
-          src: "Images/djangoPhotos/very-scalable.png",
+          src: "Images/skillsPhotos/djangoPhotos/very-scalable.webp",
           alt: "Django Support and Maintenance logo",
         },
         title: "Django Support and Maintenance",
@@ -692,7 +692,7 @@ export const djangoData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Django",
-    image: "Images/djangoPhotos/big-left-image.png",
+    image: "Images/skillsPhotos/djangoPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -706,6 +706,7 @@ export const djangoData = {
   BookCallData: {
     title: "Need our django developers to build your application?",
     btn: "Book a call now",
+    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -714,42 +715,42 @@ export const djangoData = {
     cardsData: [
       {
         img: {
-          src: "Images/djangophotos/backward-compatible.png",
+          src: "Images/skillsPhotos/djangophotos/backward-compatible.webp",
           alt: "Backward compatible logo",
         },
         title: "Backward compatible",
       },
       {
         img: {
-          src: "Images/djangoPhotos/community-driven.png",
+          src: "Images/skillsPhotos/djangoPhotos/community-driven.webp",
           alt: "Community driven logo",
         },
         title: "Community driven",
       },
       {
         img: {
-          src: "Images/djangoPhotos/rest-framework.png",
+          src: "Images/skillsPhotos/djangoPhotos/rest-framework.webp",
           alt: "REST framework logo",
         },
         title: "REST framework",
       },
       {
         img: {
-          src: "Images/djangoPhotos/infastructure.png",
+          src: "Images/skillsPhotos/djangoPhotos/infastructure.webp",
           alt: "Infrastructure logo",
         },
         title: "Infrastructure",
       },
       {
         img: {
-          src: "Images/djangoPhotos/versatile.png",
+          src: "Images/skillsPhotos/djangoPhotos/versatile.webp",
           alt: "Versatile logo",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "Images/djangoPhotos/sercure-update.png",
+          src: "Images/skillsPhotos/djangoPhotos/sercure-update.webp",
           alt: "Secure & up-to-date logo",
         },
         title: "Secure & up-to-date",
@@ -764,7 +765,7 @@ export const cakePHPData = {
     "Bottom Funnel is a globally dominant company having highly experienced cakePHP developers. Our cakePHP development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/cakephpPhotos/banner.png",
+    image: "Images/skillsPhotos/cakephpPhotos/banner.webp",
     title: "Cakephp Development Services",
     description:
       "Trust us when we say that CakePHP will be your perfect partner as you bring your vision to life!",
@@ -772,7 +773,7 @@ export const cakePHPData = {
   isDes: true,
   desData: {
     title: "CakePHP",
-    image: "Images/cakephpPhotos/cakephp-logo.png",
+    image: "Images/skillsPhotos/cakephpPhotos/cakephp-logo.webp",
     description: `CakePHP framework allows us to create elegant, functional, and stable applications. What makes Cake so special? Let's find out!- Cake PHP offers easy to understand paradigms that help you build your app. Also, it is easy to integrate with other frameworks/libraries. Lastly, its shortcommings are also good for newbies.
 
       If you're still undecided about CakePHP or thinking about switching over from another Framework, then think no more! Onward with cake funnels!`,
@@ -783,7 +784,7 @@ export const cakePHPData = {
     cardsData: [
       {
         img: {
-          src: "Images/cakephpPhotos/compatible.png",
+          src: "Images/skillsPhotos/cakephpPhotos/compatible.webp",
           alt: "Compatible logo",
         },
         title: "Compatible",
@@ -791,7 +792,7 @@ export const cakePHPData = {
       },
       {
         img: {
-          src: "Images/cakephpPhotos/code-reuse.png",
+          src: "Images/skillsPhotos/cakephpPhotos/code-reuse.webp",
           alt: "Code reusability logo",
         },
         title: "Code reusability",
@@ -799,7 +800,7 @@ export const cakePHPData = {
       },
       {
         img: {
-          src: "Images/cakephpPhotos/facile-database.png",
+          src: "Images/skillsPhotos/cakephpPhotos/facile-database.webp",
           alt: "Facile database management logo",
         },
         title: "Facile database management",
@@ -807,7 +808,7 @@ export const cakePHPData = {
       },
       {
         img: {
-          src: "Images/cakephpPhotos/custom-element.png",
+          src: "Images/skillsPhotos/cakephpPhotos/custom-element.webp",
           alt: "Customizable elements logo",
         },
         title: "Customizable elements",
@@ -815,7 +816,7 @@ export const cakePHPData = {
       },
       {
         img: {
-          src: "Images/cakephpPhotos/mvc-pattern.png",
+          src: "Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
           alt: "MVC pattern logo",
         },
         title: "MVC pattern",
@@ -823,7 +824,7 @@ export const cakePHPData = {
       },
       {
         img: {
-          src: "Images/cakephpPhotos/easy-debug.png",
+          src: "Images/skillsPhotos/cakephpPhotos/easy-debug.webp",
           alt: "Easy debugging logo",
         },
         title: "Easy debugging",
@@ -834,7 +835,7 @@ export const cakePHPData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For CakePHP",
-    image: "Images/cakephpPhotos/big-left-image.png",
+    image: "Images/skillsPhotos/cakephpPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -848,6 +849,7 @@ export const cakePHPData = {
   BookCallData: {
     title: "Need our cakePHP developers to build your application?",
     btn: "Book a call now",
+    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -856,42 +858,42 @@ export const cakePHPData = {
     cardsData: [
       {
         img: {
-          src: "Images/cakephpPhotos/built-feature.png",
+          src: "Images/skillsPhotos/cakephpPhotos/built-feature.webp",
           alt: "In-built features logo",
         },
         title: "In-built features",
       },
       {
         img: {
-          src: "Images/cakephpPhotos/model-view.png",
+          src: "Images/skillsPhotos/cakephpPhotos/model-view.webp",
           alt: "Model-view-control model logo",
         },
         title: "Model-view-control model",
       },
       {
         img: {
-          src: "Images/cakephpPhotos/enables-test.png",
+          src: "Images/skillsPhotos/cakephpPhotos/enables-test.webp",
           alt: "Enables testing now and team logo",
         },
         title: "Enables testing now and team",
       },
       {
         img: {
-          src: "Images/cakephpPhotos/content-framework.png",
+          src: "Images/skillsPhotos/cakephpPhotos/content-framework.webp",
           alt: "Content-accommodating framework logo",
         },
         title: "Content-accommodating framework",
       },
       {
         img: {
-          src: "Images/cakephpPhotos/crud-scaffolding.png",
+          src: "Images/skillsPhotos/cakephpPhotos/crud-scaffolding.webp",
           alt: "CRUD scaffolding logo",
         },
         title: "CRUD scaffolding",
       },
       {
         img: {
-          src: "Images/cakephpPhotos/lang-compat.png",
+          src: "Images/skillsPhotos/cakephpPhotos/lang-compat.webp",
           alt: "Language compatibility logo",
         },
         title: "Language compatibility",
@@ -906,7 +908,7 @@ export const codeigniterData = {
     "Bottom Funnel is a globally dominant company having highly experienced codeigniter developers. Our codeigniter development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/codeigniterPhotos/banner.png",
+    image: "Images/skillsPhotos/codeigniterPhotos/banner.webp",
     title: "CodeIgniter Development Services",
     description:
       "Delivering on your business vision with quality codeigniter web development.",
@@ -914,7 +916,7 @@ export const codeigniterData = {
   isDes: true,
   desData: {
     title: "CodeIgniter",
-    image: "Images/codeigniterPhotos/CodeIgniter-logo.png",
+    image: "Images/skillsPhotos/codeigniterPhotos/CodeIgniter-logo.webp",
     description:
       "Codelgniter empowers programmers to build robust applications from scratch bypassing all the possible constraints that ultimately leads to functional and dynamic products. Feature-rich apps made in a hassle-free way require high understandability of the framework and expertise in making things work. Thankfully, we at Konstant possess both.",
   },
@@ -924,7 +926,7 @@ export const codeigniterData = {
     cardsData: [
       {
         img: {
-          src: "Images/codeigniterPhotos/framework-footprint.png",
+          src: "Images/skillsPhotos/codeigniterPhotos/framework-footprint.webp",
           alt: "Framework with right footprint logo",
         },
         title: "Framework with right footprint",
@@ -934,7 +936,7 @@ export const codeigniterData = {
       },
       {
         img: {
-          src: "Images/codeigniterPhotos/simply-sol.png",
+          src: "Images/skillsPhotos/codeigniterPhotos/simply-sol.webp",
           alt: "Simplified solutions logo",
         },
         title: "Simplified solutions",
@@ -943,7 +945,7 @@ export const codeigniterData = {
       },
       {
         img: {
-          src: "Images/codeigniterPhotos/restriction-coding.png",
+          src: "Images/skillsPhotos/codeigniterPhotos/restriction-coding.webp",
           alt: "no restrictions on coding logo",
         },
         title: "no restrictions on coding",
@@ -952,7 +954,7 @@ export const codeigniterData = {
       },
       {
         img: {
-          src: "Images/cakephpPhotos/custom-element.png",
+          src: "Images/skillsPhotos/cakephpPhotos/custom-element.webp",
           alt: "Accepts Third-party Scripts logo",
         },
         title: "Accepts Third-party Scripts",
@@ -961,7 +963,7 @@ export const codeigniterData = {
       },
       {
         img: {
-          src: "Images/cakephpPhotos/mvc-pattern.png",
+          src: "Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
           alt: "MVC approach logo",
         },
         title: "MVC approach",
@@ -970,7 +972,7 @@ export const codeigniterData = {
       },
       {
         img: {
-          src: "Images/cakephpPhotos/easy-debug.png",
+          src: "Images/skillsPhotos/cakephpPhotos/easy-debug.webp",
           alt: "Documentation logo",
         },
         title: "Documentation",
@@ -982,7 +984,7 @@ export const codeigniterData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For CodeIgniter",
-    image: "Images/codeigniterPhotos/big-left-image.png",
+    image: "Images/skillsPhotos/codeigniterPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -996,54 +998,55 @@ export const codeigniterData = {
   BookCallData: {
     title: "Need our codeigniter developers to build your application?",
     btn: "Book a call now",
+    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "BENEFITS OF USING CAKEPHP FOR APPLICATION DEVELOPMENT",
+    title: "BENEFITS OF USING CODEIGNITER FOR APPLICATION DEVELOPMENT",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Codelgniter empowers programmers to build robust applications from scratch, bypassing all kinds of limitations and ultimately yielding functional and dynamic products. Easy-to-build, feature-rich apps require advanced understanding and expertise in frameworks to function.",
     cardsData: [
       {
         img: {
-          src: "Images/cakephpPhotos/built-feature.png",
-          alt: "In-built features logo",
+          src: "Images/skillsPhotos/codeigniterPhotos/customWeb.webp",
+          alt: "Custom web development logo",
         },
-        title: "In-built features",
+        title: "Custom web development",
       },
       {
         img: {
-          src: "Images/cakephpPhotos/model-view.png",
-          alt: "Model-view-control model logo",
+          src: "Images/skillsPhotos/codeigniterPhotos/appDev.webp",
+          alt: "Application development logo",
         },
-        title: "Model-view-control model",
+        title: "Application development",
       },
       {
         img: {
-          src: "Images/cakephpPhotos/enables-test.png",
-          alt: "Enables testing now and team logo",
+          src: "Images/skillsPhotos/codeigniterPhotos/api.webp",
+          alt: "API & liberary development logo",
         },
-        title: "Enables testing now and team",
+        title: "API & liberary development",
       },
       {
         img: {
-          src: "Images/cakephpPhotos/content-framework.png",
-          alt: "Content-accommodating framework logo",
+          src: "Images/skillsPhotos/codeigniterPhotos/portal-design.webp",
+          alt: "Portal design & development logo",
         },
-        title: "Content-accommodating framework",
+        title: "Portal design & development",
       },
       {
         img: {
-          src: "Images/cakephpPhotos/crud-scaffolding.png",
-          alt: "CRUD scaffolding logo",
+          src: "Images/skillsPhotos/codeigniterPhotos/integration.webp",
+          alt: "Customization and integration logo",
         },
-        title: "CRUD scaffolding",
+        title: "Customization and integration",
       },
       {
         img: {
-          src: "Images/cakephpPhotos/lang-compat.png",
-          alt: "Language compatibility logo",
+          src: "Images/skillsPhotos/codeigniterPhotos/maintenance.webp",
+          alt: "Maintenance & support logo",
         },
-        title: "Language compatibility",
+        title: "Maintenance & support",
       },
     ],
   },
@@ -1055,14 +1058,14 @@ export const reactjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced reactjs developers. Our reactjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/reactjsSkillsPhotos/banner.png",
+    image: "Images/skillsPhotos/reactjsSkillsPhotos/banner.webp",
     title: "React.js Development services",
     description: `React.js development services that will take your app from concept to production in no time.`,
   },
   isDes: true,
   desData: {
     title: "Reactjs",
-    image: "Images/reactjsSkillsPhotos/reactjs-logo.png",
+    image: "Images/skillsPhotos/reactjsSkillsPhotos/reactjs-logo.webp",
     description: `When it comes to building a user-friendly website, React is the way to go. This library for building encapsulated components manages its own state and then composes them to make complex UIs. Bottom Funnel is among the leading React.js web application development company in Asia, USA, middle-east and Africa which provides the best React web application development services by experienced and best React web developers.`,
   },
   isWhyApp: true,
@@ -1071,7 +1074,7 @@ export const reactjsData = {
     cardsData: [
       {
         img: {
-          src: "Images/reactjsSkillsPhotos/better-user.png",
+          src: "Images/skillsPhotos/reactjsSkillsPhotos/better-user.webp",
           alt: "Better User Experience logo",
         },
         title: "Portal Development",
@@ -1080,7 +1083,7 @@ export const reactjsData = {
       },
       {
         img: {
-          src: "Images/reactjsSkillsPhotos/easy-jsx.png",
+          src: "Images/skillsPhotos/reactjsSkillsPhotos/easy-jsx.webp",
           alt: "Easy to Write With JSX logo",
         },
         title: "Interactive ReactJS UI Development",
@@ -1090,7 +1093,7 @@ export const reactjsData = {
       },
       {
         img: {
-          src: "Images/reactjsSkillsPhotos/big-timesaver.png",
+          src: "Images/skillsPhotos/reactjsSkillsPhotos/big-timesaver.webp",
           alt: "A Big Timesaver logo",
         },
         title: "React.js migration service",
@@ -1098,7 +1101,7 @@ export const reactjsData = {
       },
       {
         img: {
-          src: "Images/reactjsSkillsPhotos/performance-ecosystem.png",
+          src: "Images/skillsPhotos/reactjsSkillsPhotos/performance-ecosystem.webp",
           alt: "Performance Leveraging Ecosystem logo",
         },
         title: "Custom React.Js Development",
@@ -1106,7 +1109,7 @@ export const reactjsData = {
       },
       {
         img: {
-          src: "Images/reactjsSkillsPhotos/great-developer.png",
+          src: "Images/skillsPhotos/reactjsSkillsPhotos/great-developer.webp",
           alt: "Great Developer Tools logo",
         },
         title: "Ajax Development",
@@ -1114,7 +1117,7 @@ export const reactjsData = {
       },
       {
         img: {
-          src: "Images/reactjsSkillsPhotos/easy-understand.png",
+          src: "Images/skillsPhotos/reactjsSkillsPhotos/easy-understand.webp",
           alt: "Easy-to-Understand logo",
         },
         title: "E-commerce Development",
@@ -1128,7 +1131,7 @@ export const reactjsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Reactjs",
-    image: "Images/reactjsSkillsPhotos/big-left-image.png",
+    image: "Images/skillsPhotos/reactjsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1142,6 +1145,7 @@ export const reactjsData = {
   BookCallData: {
     title: "Need our reactjs developers to build your application?",
     btn: "Book a call now",
+    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -1152,42 +1156,42 @@ export const reactjsData = {
     cardsData: [
       {
         img: {
-          src: "Images/reactjsSkillsPhotos/portal-devleopment.png",
+          src: "Images/skillsPhotos/reactjsSkillsPhotos/portal-devleopment.webp",
           alt: "Portal Development logo",
         },
         title: "Portal Development",
       },
       {
         img: {
-          src: "Images/reactjsSkillsPhotos/reactjs-ui-devleopment.png",
+          src: "Images/skillsPhotos/reactjsSkillsPhotos/reactjs-ui-devleopment.webp",
           alt: "Ineractive ReactJS UI Development logo",
         },
         title: "Ineractive ReactJS UI Development",
       },
       {
         img: {
-          src: "Images/reactjsSkillsPhotos/reactjs-migration.png",
+          src: "Images/skillsPhotos/reactjsSkillsPhotos/reactjs-migration.webp",
           alt: "ReactJs Migrations Service logo",
         },
         title: "Enables testing now and team",
       },
       {
         img: {
-          src: "Images/reactjsSkillsPhotos/custom-reactjs.png",
+          src: "Images/skillsPhotos/reactjsSkillsPhotos/custom-reactjs.webp",
           alt: "Custom ReactJs Development logo",
         },
         title: "Custom ReactJs Development",
       },
       {
         img: {
-          src: "Images/reactjsSkillsPhotos/ajax-development.png",
+          src: "Images/skillsPhotos/reactjsSkillsPhotos/ajax-development.webp",
           alt: "Ajax Development logo",
         },
         title: "Ajax Development",
       },
       {
         img: {
-          src: "Images/reactjsSkillsPhotos/internet-commerce.png",
+          src: "Images/skillsPhotos/reactjsSkillsPhotos/internet-commerce.webp",
           alt: "Internet/E-commerce Development logo",
         },
         title: "Internet/E-commerce Development",
@@ -1202,14 +1206,14 @@ export const angularjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced angolarjs developers. Our angolarjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/angularjsSkillsPhotos/banner.png",
+    image: "Images/skillsPhotos/angularjsSkillsPhotos/banner.webp",
     title: "Angularjs Development Services",
     description: `Speed up your web application development with our top-notch angular.js development services.`,
   },
   isDes: true,
   desData: {
     title: "Angularjs",
-    image: "Images/angularjsSkillsPhotos/angularjs-logo.png",
+    image: "Images/skillsPhotos/angularjsSkillsPhotos/angularjs-logo.webp",
     description: `When it comes to building the framework most suited to your application development needs, AngularJS is hard to beat. Bottom Funnel is one of the leading providers of Angular.js web app development services in Asia, USA, Middle East and Africa -- and we have a reputation for delivering world-class quality in every project we undertake.
     We take pride in our work and consider ourselves stewards of a powerful new technology that will continue to transform the way people interact with the internet. We believe in providing cutting-edge solutions that are tailored to meet our clients' needs, while also adhering to industry best practices and security standards.`,
   },
@@ -1219,7 +1223,7 @@ export const angularjsData = {
     cardsData: [
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/two-way-bind.png",
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/two-way-bind.webp",
           alt: "Two-Way Data Binding logo",
         },
         title: "Custom AngularJS Development",
@@ -1228,7 +1232,7 @@ export const angularjsData = {
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/trouble-free.png",
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/trouble-free.webp",
           alt: "Trouble-Free Testing logo",
         },
         title: "Portal development",
@@ -1236,7 +1240,7 @@ export const angularjsData = {
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/complete-client-solution.png",
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/complete-client-solution.webp",
           alt: "A Complete Client-Side Solution logo",
         },
         title: `Single page application development`,
@@ -1244,7 +1248,7 @@ export const angularjsData = {
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/captivating-support.png",
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/captivating-support.webp",
           alt: "Captivating Support Services logo",
         },
         title: "Angular.js support and maintenance",
@@ -1252,7 +1256,7 @@ export const angularjsData = {
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/features-excited.png",
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/features-excited.webp",
           alt: "Features to Get Excited About logo",
         },
         title: "UI/UX Development",
@@ -1260,7 +1264,7 @@ export const angularjsData = {
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/mvc-support.png",
+          src: "Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
           alt: "Great MVC Support logo",
         },
         title: "Integrating API Services",
@@ -1273,7 +1277,7 @@ export const angularjsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Angularjs",
-    image: "Images/angularjsSkillsPhotos/big-left-image.png",
+    image: "Images/skillsPhotos/angularjsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1287,6 +1291,7 @@ export const angularjsData = {
   BookCallData: {
     title: "Need our angularjs developers to build your application?",
     btn: "Book a call now",
+    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -1297,42 +1302,42 @@ export const angularjsData = {
     cardsData: [
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/open-source.png",
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "Open-source logo",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/complex-handling.webp",
           alt: "Easy complex component handling logo",
         },
         title: "Easy complex component handling",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/time-saving.png",
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/time-saving.webp",
           alt: "Time-Saving Process logo",
         },
         title: "Time-Saving Process",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/effective-framework.png",
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
           alt: "Effective Framework logo",
         },
         title: "Effective Framework",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
           alt: "Reusable code logo",
         },
         title: "Reusable code",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/testing-now-then.webp",
           alt: "Enables Testing Now and Then logo",
         },
         title: "Enables Testing Now and Then",
@@ -1347,14 +1352,14 @@ export const vuejsData = {
     "Bottom Funnel is a globally dominant company having highly experienced vuejs developers. Our vuejs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/vuejsSkillsPhotos/banner.png",
+    image: "Images/skillsPhotos/vuejsSkillsPhotos/banner.webp",
     title: "Vue.js Development Services",
     description: "Trust the experts-hire vue.js developers today.",
   },
   isDes: true,
   desData: {
     title: "Vue.js",
-    image: "Images/vuejsSkillsPhotos/vuejs-logo.png",
+    image: "Images/skillsPhotos/vuejsSkillsPhotos/vuejs-logo.webp",
     description:
       "Vue.js is an open-source view-model front end javascript frameword for building user interfaces and single-page applications. It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on defferent use cases. Bottom Funnel is among the leading React.js web application development company in Asia, USA, middle-east and Africa which provides the best React.js web application development services by experienced and best React.js web developers.",
   },
@@ -1364,7 +1369,7 @@ export const vuejsData = {
     cardsData: [
       {
         img: {
-          src: "Images/vuejsSkillsPhotos/straight-forward.png",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/straight-forward.webp",
           alt: "Vue.js Custom App Development logo",
         },
         title: "Vue.js Custom App Development",
@@ -1374,7 +1379,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "Images/vuejsSkillsPhotos/easy-understand.png",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/easy-understand.webp",
           alt: "Single Page App Development logo",
         },
         title: "Single Page App Development",
@@ -1383,7 +1388,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "Images/vuejsSkillsPhotos/two-communication.png",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/two-communication.webp",
           alt: "Third-Party Integration logo",
         },
         title: "Third-Party Integration",
@@ -1392,7 +1397,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "Images/vuejsSkillsPhotos/adaptablity.png",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/adaptablity.webp",
           alt: "Migration & Integration Services logo",
         },
         title: "Migration & Integration Services",
@@ -1401,7 +1406,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "Images/vuejsSkillsPhotos/extra-tool.png",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/extra-tool.webp",
           alt: "Vue.js Component Development logo",
         },
         title: "Vue.js Component Development",
@@ -1410,7 +1415,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "Images/vuejsSkillsPhotos/small.png",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/small.webp",
           alt: "Vue.js Support & Maintenance logo",
         },
         title: "Vue.js Support & Maintenance",
@@ -1422,7 +1427,7 @@ export const vuejsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Vue.js",
-    image: "Images/vuejsSkillsPhotos/big-left-image.png",
+    image: "Images/skillsPhotos/vuejsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1436,6 +1441,7 @@ export const vuejsData = {
   BookCallData: {
     title: "Need our Vuejs developers to build your application?",
     btn: "Book a call now",
+    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -1445,45 +1451,45 @@ export const vuejsData = {
     cardsData: [
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Straightforward integration logo",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
+          alt: "Simplicity logo",
         },
-        title: "Straightforward integration",
+        title: "Simplicity",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy to understand logo",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/architecture.webp",
+          alt: "Component-based architecture logo",
         },
-        title: "Easy to understand",
+        title: "Component-based architecture",
       },
       {
         img: {
-          src: "Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Two-way communication logo",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/reusability.webp",
+          alt: "Reusability logo",
         },
-        title: "Two-way communication",
+        title: "Reusability",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Adaptability logo",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
+          alt: "High performance logo",
         },
-        title: "Adaptability",
+        title: "High performance",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Extraordinary tooling logo",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/documentation.webp",
+          alt: "Documentation logo",
         },
-        title: "Extraordinary tooling",
+        title: "Documentation",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Flexible and modular logo",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/cross-platform.webp",
+          alt: "Cross-platform logo",
         },
-        title: "Flexible and modular",
+        title: "Cross-platform",
       },
     ],
   },
@@ -1495,7 +1501,7 @@ export const springBootData = {
     "Bottom Funnel is a globally dominant company having highly experienced springboot developers. Our springboot development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/springbootSkillsPhotos/banner.png",
+    image: "Images/skillsPhotos/springbootSkillsPhotos/banner.webp",
     title: "SpringBoot Development Services",
     description:
       "Delivering on your business vision with quality springboot java development.",
@@ -1503,7 +1509,7 @@ export const springBootData = {
   isDes: true,
   desData: {
     title: "SpringBoot",
-    image: "Images/springbootSkillsPhotos/springboot-logo.png",
+    image: "Images/skillsPhotos/springbootSkillsPhotos/springboot-logo.webp",
     description: `Planning to build a new project in the spring framework? Or you have an existing application and would like to upgrade it to be more robust and scalable? Then, this is the right time! Spring Boot is gaining popularity day by day. This framework helps developers develop stand-alone, production-grade micro services without requiring an entire Spring configuration setup. In today's world of huge apps, where everyone wants their own department to work independently but still share data seamlessly without any glitches, that's not just a dream anymore but reality now!`,
   },
   isWhyApp: true,
@@ -1512,7 +1518,7 @@ export const springBootData = {
     cardsData: [
       {
         img: {
-          src: "Images/springbootSkillsPhotos/easy-development.png",
+          src: "Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
           alt: "Easy Development logo",
         },
         title: "Easy Development",
@@ -1521,7 +1527,7 @@ export const springBootData = {
       },
       {
         img: {
-          src: "Images/springbootSkillsPhotos/war-files.png",
+          src: "Images/skillsPhotos/springbootSkillsPhotos/war-files.webp",
           alt: "No war files develoyment logo",
         },
         title: "No war files develoyment",
@@ -1529,7 +1535,7 @@ export const springBootData = {
       },
       {
         img: {
-          src: "Images/springbootSkillsPhotos/xml-logo.png",
+          src: "Images/skillsPhotos/springbootSkillsPhotos/xml-logo.webp",
           alt: "No XML configuration logo",
         },
         title: "No XML configuration",
@@ -1537,7 +1543,7 @@ export const springBootData = {
       },
       {
         img: {
-          src: "Images/springbootSkillsPhotos/stand-application.png",
+          src: "Images/skillsPhotos/springbootSkillsPhotos/stand-application.webp",
           alt: "Standalone Applications logo",
         },
         title: "Standalone Applications",
@@ -1545,7 +1551,7 @@ export const springBootData = {
       },
       {
         img: {
-          src: "Images/springbootSkillsPhotos/simple-setup.png",
+          src: "Images/skillsPhotos/springbootSkillsPhotos/simple-setup.webp",
           alt: "Simple setup and management logo",
         },
         title: "Simple setup and management",
@@ -1553,7 +1559,7 @@ export const springBootData = {
       },
       {
         img: {
-          src: "Images/springbootSkillsPhotos/easy-start.png",
+          src: "Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
           alt: "Easy to start logo",
         },
         title: "Easy to start",
@@ -1564,7 +1570,7 @@ export const springBootData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Springboot",
-    image: "Images/springbootSkillsPhotos/big-left-image.png",
+    image: "Images/skillsPhotos/springbootSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1578,54 +1584,34 @@ export const springBootData = {
   BookCallData: {
     title: "Need our springboot developers to build your application?",
     btn: "Book a call now",
+    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Springboot Services",
+    title: "Benefits Of Using sprintboot for Application Development",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "There are many reasons why developers choose Spring Boot to build microservices for mobile and web applications. The following list summarizes some of the key benefits that come with migrating to Spring Boot.",
     cardsData: [
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "Images/skillsPhotos/springbootSkillsPhotos/java.webp",
+          alt: "Java Developer logo",
         },
-        title: "Open-source",
+        title: "Java Developer",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "Images/skillsPhotos/springbootSkillsPhotos/software-application.webp",
+          alt: "Application Developer logo",
         },
-        title: "Easy complex component handling",
+        title: "Application Developer",
       },
       {
         img: {
-          src: "Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "Images/skillsPhotos/springbootSkillsPhotos/cpu.webp",
+          alt: "Software Engineer logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Software Engineer",
       },
     ],
   },
@@ -1637,7 +1623,7 @@ export const hiberateData = {
     "Bottom Funnel is a globally dominant company having highly experienced hibernate developers. Our hibernate development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/hibernateSkillsPhotos/banner.png",
+    image: "Images/skillsPhotos/hibernateSkillsPhotos/banner.webp",
     title: "Hibernate Development Services",
     description:
       "Delivering on your business vision with quality hibernate java development.",
@@ -1645,7 +1631,7 @@ export const hiberateData = {
   isDes: true,
   desData: {
     title: "Hibernate",
-    image: "Images/hibernateSkillsPhotos/hiberate-logo.png",
+    image: "Images/skillsPhotos/hibernateSkillsPhotos/hiberate-logo.webp",
     description: `Hibernate is the perfect tool for developers who want a lightweight, open-source solution to manage their Java data. It implements the specifications of JPA (Java Persistence API) for data persistence, so you can rely on it to take care of your database requirements.
       Start working with Hibernate today and enjoy the benefits of its simple, flexible approach to database interaction.`,
   },
@@ -1655,7 +1641,7 @@ export const hiberateData = {
     cardsData: [
       {
         img: {
-          src: "Images/hibernateSkillsPhotos/open-source.png",
+          src: "Images/skillsPhotos/hibernateSkillsPhotos/open-source.webp",
           alt: "Open source and Lightweight logo",
         },
         title: "Open source and Lightweight",
@@ -1664,7 +1650,7 @@ export const hiberateData = {
       },
       {
         img: {
-          src: "Images/hibernateSkillsPhotos/fast-performance.png",
+          src: "Images/skillsPhotos/hibernateSkillsPhotos/fast-performance.webp",
           alt: "Fast Performance logo",
         },
         title: "Fast Performance",
@@ -1672,7 +1658,7 @@ export const hiberateData = {
       },
       {
         img: {
-          src: "Images/hibernateSkillsPhotos/Frame-5.png",
+          src: "Images/skillsPhotos/hibernateSkillsPhotos/Frame-5.webp",
           alt: "Database Independent Query logo",
         },
         title: "Database Independent Query",
@@ -1680,7 +1666,7 @@ export const hiberateData = {
       },
       {
         img: {
-          src: "Images/hibernateSkillsPhotos/automatic-table.png",
+          src: "Images/skillsPhotos/hibernateSkillsPhotos/automatic-table.webp",
           alt: "Automatic Table Creation logo",
         },
         title: "Automatic Table Creation",
@@ -1688,7 +1674,7 @@ export const hiberateData = {
       },
       {
         img: {
-          src: "Images/hibernateSkillsPhotos/simplifies.png",
+          src: "Images/skillsPhotos/hibernateSkillsPhotos/simplifies.webp",
           alt: "Simplifies Complex Join logo",
         },
         title: "Simplifies Complex Join",
@@ -1696,7 +1682,7 @@ export const hiberateData = {
       },
       {
         img: {
-          src: "Images/hibernateSkillsPhotos/query-static.png",
+          src: "Images/skillsPhotos/hibernateSkillsPhotos/query-static.webp",
           alt: "Provides Query Statistics logo",
         },
         title: "Provides Query Statistics",
@@ -1707,7 +1693,7 @@ export const hiberateData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Hibernate",
-    image: "Images/hibernateSkillsPhotos/big-left-image.png",
+    image: "Images/skillsPhotos/hibernateSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1721,54 +1707,55 @@ export const hiberateData = {
   BookCallData: {
     title: "Need our hibernate developers to build your application?",
     btn: "Book a call now",
+    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Hibernate Services",
+    title: "Benefits of using hibernate web development",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Hibernate saves lines of code by managing the object table mapping itself and returning the results to your application in the form of Java objects. This eliminates the need for programmers to manually handle persistent data, reducing development time and maintenance costs.",
     cardsData: [
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/open-source.png",
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
+          alt: "High performance logo",
+        },
+        title: "High performance",
+      },
+      {
+        img: {
+          src: "Images/skillsPhotos/springbootSkillsPhotos/java.webp",
+          alt: "Java Developer logo",
+        },
+        title: "Java Developer",
+      },
+      {
+        img: {
+          src: "Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
+          alt: "Simplicity logo",
+        },
+        title: "Simplicity",
+      },
+      {
+        img: {
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "Open-source logo",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/complex-handling.png",
+          src: "Images/skillsPhotos/hibernateSkillsPhotos/database.webp",
+          alt: "Database Independent logo",
+        },
+        title: "Database Independent",
+      },
+      {
+        img: {
+          src: "Images/skillsPhotos/angularjsSkillsPhotos/complex-handling.webp",
           alt: "Easy complex component handling logo",
         },
         title: "Easy complex component handling",
-      },
-      {
-        img: {
-          src: "Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
-        },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
       },
     ],
   },
@@ -1780,7 +1767,7 @@ export const emberjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced emberjs developers. Our emberjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/emberjSkillsPhotos/banner.png",
+    image: "Images/skillsPhotos/emberjSkillsPhotos/banner.webp",
     title: "Emberjs Development Services",
     description:
       "Delivering on your business vision with quality javascript development.",
@@ -1788,7 +1775,7 @@ export const emberjsData = {
   isDes: true,
   desData: {
     title: "EmberJs",
-    image: "Images/emberjSkillsPhotos/ember-logo.png",
+    image: "Images/skillsPhotos/emberjSkillsPhotos/ember-logo.webp",
     description:
       "Ember.js is an open-source JavaScript web framework that utilizes a component-service pattern. It allows developers to create scalable single-page web applications by incorporating common idioms, best practices, and patterns from other single-page-app ecosystem patterns into the framework.",
   },
@@ -1798,7 +1785,7 @@ export const emberjsData = {
     cardsData: [
       {
         img: {
-          src: "Images/emberjSkillsPhotos/patent-adds.png",
+          src: "Images/skillsPhotos/emberjSkillsPhotos/patent-adds.webp",
           alt: "Patent add-ons logo",
         },
         title: "Patent add-ons",
@@ -1808,7 +1795,7 @@ export const emberjsData = {
       },
       {
         img: {
-          src: "Images/emberjSkillsPhotos/ember-cli.png",
+          src: "Images/skillsPhotos/emberjSkillsPhotos/ember-cli.webp",
           alt: "Ember CLI logo",
         },
         title: "Ember CLI",
@@ -1817,7 +1804,7 @@ export const emberjsData = {
       },
       {
         img: {
-          src: "Images/emberjSkillsPhotos/convention.png",
+          src: "Images/skillsPhotos/emberjSkillsPhotos/convention.webp",
           alt: "Convention over configuration logo",
         },
         title: "Convention over configuration",
@@ -1826,7 +1813,7 @@ export const emberjsData = {
       },
       {
         img: {
-          src: "Images/emberjSkillsPhotos/stability-sans.png",
+          src: "Images/skillsPhotos/emberjSkillsPhotos/stability-sans.webp",
           alt: "Stability sans stagnation logo",
         },
         title: "Stability sans stagnation",
@@ -1835,7 +1822,7 @@ export const emberjsData = {
       },
       {
         img: {
-          src: "Images/emberjSkillsPhotos/community.png",
+          src: "Images/skillsPhotos/emberjSkillsPhotos/community.webp",
           alt: "Community logo",
         },
         title: "Community",
@@ -1844,7 +1831,7 @@ export const emberjsData = {
       },
       {
         img: {
-          src: "Images/emberjSkillsPhotos/ember-oct.png",
+          src: "Images/skillsPhotos/emberjSkillsPhotos/ember-oct.webp",
           alt: "Ember Octane logo",
         },
         title: "Ember Octane",
@@ -1856,7 +1843,7 @@ export const emberjsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Emberjs",
-    image: "Images/emberjSkillsPhotos/big-left-image.png",
+    image: "Images/skillsPhotos/emberjSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1870,54 +1857,55 @@ export const emberjsData = {
   BookCallData: {
     title: "Need our emberjs developers to build your application?",
     btn: "Book a call now",
+    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "BENEFITS OF USING ember.js FOR WEB DEVELOPMENT",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "embers. js is a battle-tested JavaScript framework for building modern web applications. It includes everything you need to create rich user interfaces that work on any device.",
     cardsData: [
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "Images/skillsPhotos/emberjSkillsPhotos/practice.webp",
+          alt: "Built-in Best Practices logo",
         },
-        title: "Open-source",
+        title: "Built-in Best Practices",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "Images/skillsPhotos/emberjSkillsPhotos/blockchain.webp",
+          alt: "Integrates With Large Teams logo",
         },
-        title: "Easy complex component handling",
+        title: "Integrates With Large Teams",
       },
       {
         img: {
-          src: "Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "Images/skillsPhotos/emberjSkillsPhotos/future.webp",
+          alt: "Future of the Web logo",
         },
-        title: "Time-Saving Process",
+        title: "Future of the Web",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
+          src: "Images/skillsPhotos/emberjSkillsPhotos/features.webp",
+          alt: "Amazing Features logo",
         },
-        title: "Effective Framework",
+        title: "Amazing Features",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
+          src: "Images/skillsPhotos/emberjSkillsPhotos/computer.webp",
+          alt: "Giant Ecosystem logo",
         },
-        title: "Reusable code",
+        title: "Giant Ecosystem",
       },
       {
         img: {
-          src: "Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
+          src: "Images/skillsPhotos/emberjSkillsPhotos/stability.webp",
+          alt: "Stability logo",
         },
-        title: "Enables Testing Now and Then",
+        title: "Stability",
       },
     ],
   },
