@@ -17,7 +17,7 @@ import { Techstackintro } from "../WebdevPages/techStackintro/Techstackintro";
 export const MeanPage = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
   return (
     <div>
@@ -27,6 +27,8 @@ export const MeanPage = () => {
       <WhyTechStack techData={whyMEAN} />
       <GetStarted />
       <WebDevWhy whyDevContent={MEANWhyContent} />
+
+      
     </div>
   );
 };

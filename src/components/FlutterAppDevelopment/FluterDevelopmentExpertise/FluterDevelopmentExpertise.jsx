@@ -11,6 +11,7 @@ export const FluterDevelopmentExpertise = () => {
               <div className="flutterDevelopmentExpertiseIcon">
                 <img src="Images/FlutterDevelopment/Icons/platform 2.png" />
               </div>
+
               <div className="flutterDevelopmentExpertiseIconHeading">
                 <h4>Cross-Platform App Development</h4>
                 <p>
@@ -21,6 +22,7 @@ export const FluterDevelopmentExpertise = () => {
                 </p>
               </div>
             </div>
+            
             <div className="flutterDevelopmentExpertiseContainerDiv">
               <div className="flutterDevelopmentExpertiseIcon">
                 <img src="Images/FlutterDevelopment/Icons/approved2.png" />
@@ -71,7 +73,7 @@ export const FluterDevelopmentExpertise = () => {
             Flutter App Development Expertise
           </h1>
           <p className="flutterDevelopmentExpertiseContentText">
-          We have a team of experts who are adept at developing applications for all types of devices. Our experience spans over years, so you can be sure that your app will run smoothly on all platforms and devices. Don't think we're just experts in Android apps! We also have expertise in Apple development as well! As a result, you can expect 100% perfection from us every time.
+            We have a team of experts who are adept at developing applications for all types of devices. Our experience spans over years, so you can be sure that your app will run smoothly on all platforms and devices. Don't think we're just experts in Android apps! We also have expertise in Apple development as well! As a result, you can expect 100% perfection from us every time.
           </p>
         </div>
       </div>

@@ -1,54 +1,64 @@
-.flutterDevelopmentExpertiseMainDiv{
-    /* border: 2px solid red; */
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+.flutterDevelopmentExpertiseMainDiv {
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
-.flutterDevelopmentExpertiseIconContainer{
-    /* border: 2px solid red; */
-    width: 48%;
-    margin-left: 4%;
-    border-right: 1px solid black;
+.flutterDevelopmentExpertiseIconContainer {
+  /* border: 2px solid red; */
+  width: 48%;
+  margin-left: 4%;
+  border-right: 1px solid black;
 }
-.flutterDevelopmentExpertiseContent{
-    /* border: 2px solid red; */
-    width: 48%;
+.flutterDevelopmentExpertiseContent {
+  /* border: 2px solid red; */
+  width: 48%;
 }
-.flutterDevelopmentExpertiseContentHeading{
-    /* border: 2px solid red; */
-    margin-top: 9%;
-    margin-left: 5%;
+.flutterDevelopmentExpertiseContentHeading {
+  /* border: 2px solid red; */
+  margin-top: 9%;
+  margin-left: 5%;
 }
-.flutterDevelopmentExpertiseContentText{
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 80%;
-    /* border: 2px solid red; */
+.flutterDevelopmentExpertiseContentText {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 80%;
+  /* border: 2px solid red; */
 }
-.flutterDevelopmentExpertiseIconOuterBox{
-    /* border: 2px solid red; */
-    width: 100%;
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-}
-.flutterDevelopmentExpertiseContainerDiv{
-    /* border: 2px solid green; */
-    width: 45%;
-    display: flex;
-    flex-direction:row;
-    margin-left: 4%;
+.flutterDevelopmentExpertiseIconOuterBox {
+  /* border: 2px solid red; */
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
 }
 
-.flutterDevelopmentExpertiseIcon{
-    width: 25%;
-    margin-top: 5%;
-    /* border: 2px solid blue; */
+.flutterDevelopmentExpertiseContainerDiv {
+  /* border: 2px solid green; */
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 4%;
 }
-.flutterDevelopmentExpertiseIconHeading{
-    width: 75%;
-    /* border: 2px solid salmon; */
-    padding-top: 4%;
-    display: flex;
-    flex-direction: column;
+
+.flutterDevelopmentExpertiseContainerDiv:hover {
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  transform: scale(1.1);
+  /* transform: translateY(-15px); */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.flutterDevelopmentExpertiseIcon {
+  width: 25%;
+  margin-top: 5%;
+  /* border: 2px solid blue; */
+}
+.flutterDevelopmentExpertiseIconHeading {
+  width: 75%;
+  /* border: 2px solid salmon; */
+  padding-top: 4%;
+  display: flex;
+  flex-direction: column;
 }

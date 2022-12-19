@@ -25,6 +25,7 @@ export const KotlinSolutions = () => {
                   src="Images/Kotlin/Icons/platform 1.png"
                 />
               </div>
+
               <div className="kotlinSolutionsBoxHeading">
                 <h6>Custom Kotlin App Development</h6>
                 <p>
@@ -34,7 +35,9 @@ export const KotlinSolutions = () => {
                   goals and expectations.
                 </p>
               </div>
+
             </div>
+
             <div className="kotlinSolutionsContainerBoxes">
               <div className="kotlinSolutionsBoxIcon">
                 <img
@@ -42,9 +45,11 @@ export const KotlinSolutions = () => {
                   src="Images/Kotlin/Icons/platform 1-1.png"
                 />
               </div>
+
               <div className="kotlinSolutionsBoxHeading">
                 <h6>Prototyping</h6>
               </div>
+
               <div className="kotlinSolutionsBoxContent">
                 <p>
                   {" "}
@@ -54,6 +59,7 @@ export const KotlinSolutions = () => {
                   efficiently.
                 </p>
               </div>
+
             </div>
             <div className="kotlinSolutionsContainerBoxes">
               <div className="kotlinSolutionsBoxIcon">
@@ -62,9 +68,11 @@ export const KotlinSolutions = () => {
                   src="Images/Kotlin/Icons/ux-interface 2-1.png"
                 />
               </div>
+
               <div className="kotlinSolutionsBoxHeading">
                 <h6>Kotlin UI/UX Development</h6>
               </div>
+
               <div className="kotlinSolutionsBoxContent">
                 <p>
                   We have got you covered with our bottom funnel kotlin app
@@ -74,6 +82,7 @@ export const KotlinSolutions = () => {
                 </p>
               </div>
             </div>
+
             <div className="kotlinSolutionsContainerBoxes">
               <div className="kotlinSolutionsBoxIcon">
                 <img
@@ -81,9 +90,11 @@ export const KotlinSolutions = () => {
                   src="Images/Kotlin/Icons/solution 2-1.png"
                 />
               </div>
+
               <div className="kotlinSolutionsBoxHeading">
                 <h6>Kotlin Migration Solutions</h6>
               </div>
+              
               <div className="kotlinSolutionsBoxContent">
                 <p>
                   Make the process of switching to Kotlin smooth by using our

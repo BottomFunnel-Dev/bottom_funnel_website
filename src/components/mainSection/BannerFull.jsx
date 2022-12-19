@@ -4,6 +4,8 @@ import Slider from "react-slick";
 import { MobileBanner } from "./BannerAnimations/MobileBanner";
 import { SoftwareBanner } from "./BannerAnimations/SoftwareBanner";
 import { DigitalMarketing } from "./BannerAnimations/DigitalMarketing";
+import { PopupForm } from "../PopupForm/PopupForm";
+import { Link } from "react-router-dom";
 
 export const BannerFull = () => {
   const banner = [
@@ -34,7 +36,7 @@ export const BannerFull = () => {
   ];
 
   var settings = {
-    autoplay: true,
+    // autoplay: true,
     dots: false,
     autoplaySpeed: 5000,
     cssEase: "linear",
@@ -94,11 +96,14 @@ export const BannerFull = () => {
                 <SoftwareBanner />
               )}
 
+                
               {item.title === "Digital Marketing" && <DigitalMarketing />}
 
               <div className="banner-text-content-full">
                 <h1>{item.title}</h1>
                 <p>{item.desc}</p>
+                {/* <Link to={<PopupForm/>}></Link> */}
+                
                 <button>Get Started</button>
               </div>
             </div>

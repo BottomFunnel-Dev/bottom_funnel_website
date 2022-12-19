@@ -27,25 +27,25 @@ export const AndriodAppDevelopment = () => {
   }, []);
 
   return (
-      <>
-        <div>
-            <AndriodBanner/>
-            <AndriodServices/>
-            <AndriodCustomDevelopment/>
-            <AndriodUserCentric/>
-            <AndriodBottomFunnel/>
+    <>
+      <div>
+        <AndriodBanner />
+        <AndriodServices />
+        <AndriodCustomDevelopment />
+        <AndriodUserCentric />
+        <AndriodBottomFunnel />
 
-      {/* Other react required components */}
-      <StoriesSection />
-      <OndemandSection />
-      <PortFolio />
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-        </div>
-      </>
+        {/* Other react required components */}
+        <StoriesSection />
+        <OndemandSection />
+        <PortFolio />
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </div>
+    </>
   );
 };

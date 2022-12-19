@@ -1,5 +1,6 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
+import { useDispatch } from "react-redux";
 
 // ----- Other requried react components -----
 import StoriesSection from "../StoriesSection/StoriesSection";
@@ -18,37 +19,41 @@ import { IonicBottomFunnel } from "./IonicBottomFunnel/IonicBottomFunnel";
 import { WhyChooseIonic } from "./WhyChooseIonic/WhyChooseIonic";
 import { IonicProject } from "./IonicProject/IonicProject";
 import { IonicDevelopmentExpertise } from "./IonicDevelopmentExpertise/IonicDevelopmentExpertise";
-import { IonicCrossPlatform} from "./IonicCrossPlatform/IonicCrossPlatform";
+import { IonicCrossPlatform } from "./IonicCrossPlatform/IonicCrossPlatform";
 import { IonicServices } from "./IonicServices/IonicServices";
 import { WhyChooseIonicBottomFunnel } from "./WhyChooseIonicBottomFunnel/WhyChooseIonicBottomFunnel";
 
 
 
 export const IonicAppDevelopment = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+  }, []);
 
   return (
-      <>
-        <div>
-            <IonicAppBanner/>
-            <IonicBottomFunnel/>
-            <IonicServices/>
-            <WhyChooseIonic/>
-            <IonicCrossPlatform/>
-            <WhyChooseIonicBottomFunnel/>
-            <IonicProject/>
-            <IonicDevelopmentExpertise/>
+    <>
+      <div>
+        <IonicAppBanner />
+        <IonicBottomFunnel />
+        <IonicServices />
+        <WhyChooseIonic />
+        <IonicCrossPlatform />
+        <WhyChooseIonicBottomFunnel />
+        <IonicProject />
+        <IonicDevelopmentExpertise />
 
-      {/* Other react required components */}
-      <StoriesSection />
-      <OndemandSection />
-      <PortFolio />
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-        </div>
-      </>
+        {/* Other react required components */}
+        <StoriesSection />
+        <OndemandSection />
+        <PortFolio />
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </div>
+    </>
   );
 };

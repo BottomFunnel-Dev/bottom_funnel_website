@@ -12,12 +12,13 @@ export const WhyChooseKotlin = () => {
                 <img src="Images/kotlin/Icons/insignia (1)-1.png" />
               </div>
               <div className="whyChooseKotlinIconHeading">
-                <h4>Simpler than Java</h4>
+                <h4>Simpler than Java</h4>  
                 <p>
-                Kotlin was created by JetBrains and has been designed specifically with mobile development in mind. It also boasts high concurrency and reliability ratings which make it perfect for building user-friendly apps quickly and easily.
+                  Kotlin was created by JetBrains and has been designed specifically with mobile development in mind. It also boasts high concurrency and reliability ratings which make it perfect for building user-friendly apps quickly and easily.
                 </p>
               </div>
             </div>
+
             <div className="whyChooseKotlinContainerDiv">
               <div className="whyChooseKotlinIcon">
                 <img src="Images/kotlin/Icons/cyber-security.png" />
@@ -31,6 +32,7 @@ export const WhyChooseKotlin = () => {
                 </p>
               </div>
             </div>
+            
           </div>
           <div className="whyChooseKotlinIconOuterBox">
             <div className="whyChooseKotlinContainerDiv">

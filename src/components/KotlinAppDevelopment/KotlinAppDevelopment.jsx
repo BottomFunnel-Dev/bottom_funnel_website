@@ -31,28 +31,28 @@ export const KotlinAppDevelopment = () => {
 
 
   return (
-      <>
-        <div>
-            <KotlinBanner/>
-            {/* <KotlinDevelopment/> */}
-            <KotlinSolutions/>
-            <KotlinProject/>
-            <KotlinIntegration/>
-            <WhyChooseKotlin/>
-            <KotlinPartner/>
-            <KotlinCards/>
+    <>
+      <div>
+        <KotlinBanner />
+        {/* <KotlinDevelopment/> */}
+        <KotlinSolutions />
+        <KotlinProject />
+        <KotlinIntegration />
+        <WhyChooseKotlin />
+        <KotlinPartner />
+        <KotlinCards />
 
-      {/* Other react required components */}
-      <StoriesSection />
-      <OndemandSection />
-      <PortFolio />
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-        </div>
-      </>
+        {/* Other react required components */}
+        <StoriesSection />
+        <OndemandSection />
+        <PortFolio />
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </div>
+    </>
   );
 };

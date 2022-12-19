@@ -1,219 +1,217 @@
-.wearablePageCards-innermaindiv4{
-    display: flex;
-    flex-direction: row;
-    /* border: 2px solid blue; */
-    height: 60vh;
-
-
-}
-.wearableinnermaindiv4-1stdiv{
-    display: flex;
-    flex-direction: column;
-    /* border: 2px solid yellow; */
-     margin-left: 1%;
-    width: 40%;
-    margin-top: 3%;
-}
-.wearableinnermaindiv4-1stdivbox{
-    display: flex;
-    flex-direction: row;
-    /* border: 2px solid green ; */
-    /* margin-top: 7%; */
-    /* width: 100%; */
-    /* margin-left: 12%; */
-
-}
-.wearableinnermaindiv4-1stdivbox h3{
-    font-size: 18px;
-    margin-left: 10%;
-}
-.wearableinnermaindiv4-1stdivbox p{
-    font-size: 14px;
-   /* margin-top: 10%; */
-   margin-left: 10%;
-}
-.wearable1stdivbox{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: row;
-    margin-left: 5%;
-    margin-top: 3%;
-    /* width: 45%; */
-}
-.wearableinnermaindiv4-2nddiv{
-    border-left: 2px solid gray;
-   width: 60%;
-   margin-left: 2%;
-   margin-top: 4%;
-   padding-left: 3%;
-
-}
-.wearableinnermaindiv4-2nddiv h1{
-    font-size: 40px;
-
-}
-.wearableinnermaindiv4-2nddiv p{
-    font-size: 16px;
-    margin-top: 3%;
-
-}
-.wearablelogo{
-    /* border: 2px solid pink ; */
-    width: 60%;
-    height: 50px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-.wearablelogoimg{
-    width: 90%;
-    height: 100%;
+.wearablePageCards-innermaindiv4 {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid blue; */
+  height: 60vh;
 }
 
-
-
-
-
-
-
-
-.wearableinnermaindiv5-boxdiv{
-    /* border: 2px solid blue; */
-    display: flex;
-    flex-direction: column;
-   
-    background: url("/public/Images/wearable/Rectangle 4559.png");
-background-size: 100% 50%;
-background-position: center;
-    margin-top: 2%;
-   
-    border-radius: 5px;
-  
+.wearableinnermaindiv4-1stdiv {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid yellow; */
+  margin-left: 1%;
+  width: 40%;
+  margin-top: 3%;
 }
 
-.wearableinnermaindiv4-boxdiv1stcolum{
-    display: flex;
-    flex-direction: row;
-    /* border: 2px solid black; */
-   
-    width: 97%;
-    height: 40vh;
-  
-   
-}
-.wearableinnermaindiv4-row{
-    justify-content: left;
-    text-align: left;
-    /* border: 2px solid red; */
-    background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin-left: 3%;
-    /* margin-right: 3%; */
-    
-    margin-top: 2%;
-    padding-top: 1%;
-    padding-left: 1%;
-    border-radius: 10px;
-    margin-bottom: 1%;
-   
-
-}
-.wearablePageCards-innermaindiv5{
-/* border: 2px solid greenyellow; */
-
-
-
-margin-top: 4%;
-
-
-}
-.wearableinnermaindiv4-row h4{
-    margin-top: 4%;
-    font-size: 23px;
-}
-.wearableinnermaindiv4-row p{
-    margin-top: 1%;
-    font-size: 15px;
-}
-.reactnativePageCards-innermaindiv5 h2{
-font-size: 30px;
-
-}
-.innermaindiv2box h3{
-    margin-top: 3%;
+.wearableinnermaindiv4-1stdivbox {
+  display: flex;
+  flex-direction: row;
 }
 
-.wearableheading{
-    /* border: 2px solid red; */
-    justify-content: left;
-    text-align: left;
-    width: 70%;
-    margin-left: 3%;
-   
+.wearableinnermaindiv4-1stdivbox h3 {
+  font-size: 18px;
+  margin-left: 10%;
 }
 
-.wearablepath{
-    /* border: 2px solid yellow; */
-    display: flex;
-    flex-direction: row;
-    height: 50vh;
-}
-.wearablepath-img{
-    width: 30%;
-    /* border: 2px solid black; */
-    object-fit: cover;
-    background-size: cover;
-   
+.wearableinnermaindiv4-1stdivbox p {
+  font-size: 14px;
+  /* margin-top: 10%; */
+  margin-left: 10%;
 }
 
-.wearablepath-imgdiv{
-    width: 100%;
-    height: 100%;
-   
-}
-.wearableheading p{
-    margin-top: 4%;
-    font-size: 16px;
-    }
-
-    .wearableheading h1{
-       
-        font-size: 40px;
-        }
-        .wearableheading h6{
-       
-            font-size: 20px;
-            color: #393939;
-            }
-        
-
-.wearableimag{
-    /* border: 2px solid green; */
-    width:75% ;
+.wearable1stdivbox {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-top: 3%;
+  /* width: 45%; */
 }
 
-.wearabledivbox{
-    /* border: 2px solid yellow; */
-    width: 20%;
+.wearable1stdivbox:hover {
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-15px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.wearablebannerdiv{
-    /* border: 2px solid red; */
-    background-image: url("/public/Images/wearable/aerial-view-business-team 3.png");
-    color: white;
-    margin-top: 3%;
-    height: 40vh;
-    object-fit: cover;
-    background-size: cover;
-    justify-content: center;
-    text-align: center;
-    padding-top: 5%;
-
-
+.wearableinnermaindiv4-2nddiv {
+  border-left: 2px solid gray;
+  width: 60%;
+  margin-left: 2%;
+  margin-top: 4%;
+  padding-left: 3%;
 }
 
-.wearablebannerdiv h2{
-    font-size: 35px;
+.wearableinnermaindiv4-2nddiv h1 {
+  font-size: 40px;
 }
-.wearablebannerdiv p{
-    font-size: 18px;
-    /* margin-top: 3%; */
+
+.wearableinnermaindiv4-2nddiv p {
+  font-size: 16px;
+  margin-top: 3%;
+}
+
+.wearablelogo {
+  /* border: 2px solid pink ; */
+  width: 60%;
+  height: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.wearablelogoimg {
+  width: 90%;
+  height: 100%;
+}
+
+.wearableinnermaindiv5-boxdiv {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+
+  background: url("/public/Images/wearable/Rectangle 4559.png");
+  background-size: 100% 50%;
+  background-position: center;
+  margin-top: 2%;
+
+  border-radius: 5px;
+}
+
+.wearableinnermaindiv4-boxdiv1stcolum {
+  display: flex;
+  flex-direction: row;
+  width: 97%;
+  height: 43vh;
+}
+
+.wearableinnermaindiv4-row {
+  justify-content: left;
+  text-align: left;
+  /* border: 2px solid red; */
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-left: 3%;
+  /* margin-right: 3%; */
+
+  margin-top: 2%;
+  padding-top: 1%;
+  padding-left: 1%;
+  border-radius: 10px;
+  margin-bottom: 1%;
+}
+
+.wearableinnermaindiv4-row:hover {
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-15px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.wearablePageCards-innermaindiv5 {
+  /* border: 2px solid greenyellow; */
+
+  margin-top: 4%;
+}
+
+.wearableinnermaindiv4-row h4 {
+  margin-top: 4%;
+  font-size: 23px;
+}
+
+.wearableinnermaindiv4-row p {
+  margin-top: 1%;
+  font-size: 15px;
+}
+
+.reactnativePageCards-innermaindiv5 h2 {
+  font-size: 30px;
+}
+
+.innermaindiv2box h3 {
+  margin-top: 3%;
+}
+
+.wearableheading {
+  /* border: 2px solid red; */
+  justify-content: left;
+  text-align: left;
+  width: 70%;
+  margin-left: 3%;
+}
+
+.wearablepath {
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+.wearablepath-img {
+  width: 30%;
+  /* border: 2px solid black; */
+  object-fit: cover;
+  background-size: cover;
+}
+
+.wearablepath-imgdiv {
+  width: 100%;
+  height: 100%;
+}
+
+.wearableheading p {
+  margin-top: 4%;
+  font-size: 16px;
+}
+
+.wearableheading h1 {
+  font-size: 40px;
+}
+.wearableheading h6 {
+  font-size: 20px;
+  color: #393939;
+}
+
+.wearableimag {
+  /* border: 2px solid green; */
+  width: 75%;
+}
+
+.wearabledivbox {
+  /* border: 2px solid yellow; */
+  width: 20%;
+}
+
+.wearablebannerdiv {
+  /* border: 2px solid red; */
+  background-image: url("/public/Images/wearable/aerial-view-business-team 3.png");
+  color: white;
+  margin-top: 3%;
+  height: 40vh;
+  object-fit: cover;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.wearablebannerdiv h2 {
+  font-size: 35px;
+}
+.wearablebannerdiv p {
+  font-size: 18px;
+  /* margin-top: 3%; */
 }
