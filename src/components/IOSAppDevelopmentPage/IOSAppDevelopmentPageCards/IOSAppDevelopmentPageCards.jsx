@@ -17,7 +17,7 @@ export const IOSAppDevelopmentPageCards = () => {
                     </div>
 
                     <div className='IOSAppDevelopmentPageCards-innermaindivimage'>
-                        <img src='/public/Images/iosappdevelopmentphotos/Component 64.png' alt='image'></img>
+                        <img src='/Images/iosappdevelopmentphotos/Component 64.png' alt='image'></img>
                     </div>
                 </div>
 
@@ -25,7 +25,7 @@ export const IOSAppDevelopmentPageCards = () => {
                     <div className='innermaindiv2'>
                         <div className='innermaindiv2box'>
                             <div className='mainbox'>
-                                <img src='/public/Images/iosappdevelopmentphotos/Rectangle 4497.png' alt='logo' className='mainboximg'></img>
+                                <img src='/Images/iosappdevelopmentphotos/Rectangle 4497.png' alt='logo' className='mainboximg'></img>
                             </div>
                             <h3> Vetted IOS Developers </h3>
                             <p>
@@ -35,7 +35,7 @@ export const IOSAppDevelopmentPageCards = () => {
 
                         <div className='innermaindiv2box'>
                             <div className='mainbox'>
-                                <img src='/public/Images/iosappdevelopmentphotos/Rectangle 4498.png' alt='logo' className='mainboximg'></img>
+                                <img src='/Images/iosappdevelopmentphotos/Rectangle 4498.png' alt='logo' className='mainboximg'></img>
                             </div>
                             <h3> All In-House Code </h3>
                             <p>
@@ -45,7 +45,7 @@ export const IOSAppDevelopmentPageCards = () => {
 
                         <div className='innermaindiv2box'>
                             <div className='mainbox'>
-                                <img src='/public/Images/iosappdevelopmentphotos/Rectangle 4499.png' alt='logo' className='mainboximg'></img>
+                                <img src='/Images/iosappdevelopmentphotos/Rectangle 4499.png' alt='logo' className='mainboximg'></img>
                             </div>
                             <h3> Custom Agile Process </h3>
                             <p>
@@ -57,7 +57,7 @@ export const IOSAppDevelopmentPageCards = () => {
                     <div className='innermaindiv2'>
                         <div className='innermaindiv2box'>
                             <div className='mainbox'>
-                                <img src='/public/Images/iosappdevelopmentphotos/apple (1) 2.png' alt='logo' className='mainboximg'></img>
+                                <img src='/Images/iosappdevelopmentphotos/apple (1) 2.png' alt='logo' className='mainboximg'></img>
                             </div>
                             <h3> End-To-End Service </h3>
                             <p>
@@ -67,7 +67,7 @@ export const IOSAppDevelopmentPageCards = () => {
 
                         <div className='innermaindiv2box'>
                             <div className='mainbox'>
-                                <img src='/public/Images/iosappdevelopmentphotos/social-care 2.png' alt='logo' className='mainboximg'></img>
+                                <img src='/Images/iosappdevelopmentphotos/social-care 2.png' alt='logo' className='mainboximg'></img>
                             </div>
                             <h3> App Store Deployment </h3>
                             <p>
@@ -77,7 +77,7 @@ export const IOSAppDevelopmentPageCards = () => {
 
                         <div className='innermaindiv2box'>
                             <div className='mainbox'>
-                                <img src='/public/Images/iosappdevelopmentphotos/app-development 2.png' alt='logo' className='mainboximg'></img>
+                                <img src='/Images/iosappdevelopmentphotos/app-development 2.png' alt='logo' className='mainboximg'></img>
                             </div>
                             <h3> Maintenance & Support </h3>
                             <p>
@@ -96,7 +96,7 @@ export const IOSAppDevelopmentPageCards = () => {
                         </p>
                     </div>
                     <div className='innermaindiv3-image'>
-                        <img src='/public/Images/iosappdevelopmentphotos/Group 340002.png' alt='image' className='innermaindiv3-imagemain'></img>
+                        <img src='/Images/iosappdevelopmentphotos/Group 340002.png' alt='image' className='innermaindiv3-imagemain'></img>
                     </div>
                 </div>
 
@@ -105,7 +105,7 @@ export const IOSAppDevelopmentPageCards = () => {
                         <div className='iosinnermaindiv4-1stdivbox'>
                             <div className='ios1stdivbox'>
                                 <div className='iosapplogo'>
-                                    <img src='Images/iosappdevelopmentphotos/analyse 1.png' alt='logo' className='iosapplogoimg'></img>
+                                    <img src='/Images/iosappdevelopmentphotos/analyse 1.png' alt='logo' className='iosapplogoimg'></img>
                                 </div>
                                 <div>
                                     <h3> Platform Ideation </h3>
@@ -118,7 +118,7 @@ export const IOSAppDevelopmentPageCards = () => {
 
                             <div className='ios1stdivbox'>
                                 <div className='iosapplogo'>
-                                    <img src='Images/iosappdevelopmentphotos/interest-rate 1.png' alt='logo' className='iosapplogoimg'></img>
+                                    <img src='/Images/iosappdevelopmentphotos/interest-rate 1.png' alt='logo' className='iosapplogoimg'></img>
                                 </div>
                                 <div>
                                     <h3> Dedicated Development </h3>
@@ -133,7 +133,7 @@ export const IOSAppDevelopmentPageCards = () => {
                         <div className='iosinnermaindiv4-1stdivbox'>
                             <div className='ios1stdivbox'>
                                 <div className='iosapplogo'>
-                                    <img src='Images/iosappdevelopmentphotos/app-development (2) 1.png' alt='logo' className='iosapplogoimg'></img>
+                                    <img src='/Images/iosappdevelopmentphotos/app-development (2) 1.png' alt='logo' className='iosapplogoimg'></img>
                                 </div>
                                 <div>
                                     <h3> Detailed Quality Check </h3>
@@ -145,7 +145,7 @@ export const IOSAppDevelopmentPageCards = () => {
 
                             <div className='ios1stdivbox'>
                                 <div className='iosapplogo'>
-                                    <img src='Images/iosappdevelopmentphotos/agile (2) 1.png' alt='logo' className='iosapplogoimg'></img>
+                                    <img src='/Images/iosappdevelopmentphotos/agile (2) 1.png' alt='logo' className='iosapplogoimg'></img>
                                 </div>
                                 <div>
                                     <h3> Detailed Quality Check </h3>
