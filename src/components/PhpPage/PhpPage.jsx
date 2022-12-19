@@ -14,6 +14,17 @@ import { WebdevBanner } from "../WebdevPages/bannerWebdev/WebdevBanner";
 import { Techstackintro } from "../WebdevPages/techStackintro/Techstackintro";
 import { Helmet } from "react-helmet";
 
+// ----- Other requried react components -----
+import StoriesSection from "../StoriesSection/StoriesSection";
+import OndemandSection from "../OnDemandSection/OndemandSection";
+import PortFolio from "../PortFolioSection/PortFolio";
+import PlanProject from "../PlanProject/PlanProject";
+import Revamping from "../revamping/Revamping";
+import { SeoblogSection } from "../SeoBlogs/Seoblogs";
+import { TextDropdown } from "../faqSection/Faqs";
+import ContectForm from "../ContectForm/ContectForm";
+import MainFooter from "../FooterSection/MainFooter";
+
 export const PhpPage = () => {
   const dispatch = useDispatch();
   useEffect(function () {
@@ -34,6 +45,17 @@ export const PhpPage = () => {
       <WhyTechStack techData={whyPHP} />
       <GetStarted />
       <WebDevWhy whyDevContent={PHPWhyContent} />
+
+      {/* Other react required components */}
+      <StoriesSection />
+      <OndemandSection />
+      <PortFolio />
+      <PlanProject />
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
     </div>
   );
 };

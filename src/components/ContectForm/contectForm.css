@@ -132,6 +132,10 @@
   padding: 20px;
 }
 
+.contact-form-css{
+  width: 60%;
+  background-color: white;
+}
 .formSection {
   display: flex;
   flex-wrap: wrap;
