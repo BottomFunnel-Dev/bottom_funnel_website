@@ -27,7 +27,7 @@ import { SeoDm } from "./components/SeoDigitalmarketing/SeoDm";
 import { SkillsComPage } from "./components/skillsPageCom/SkillsComPage";
 import Travel from "./components/Travel/Travel";
 import Videostreaming from "./components/Videostreaming/Videostreaming";
-import { Icecream } from "./components/Icecream/Icecream";
+import { Icecream } from "./components/Icecream/Icecream"; 
 import Escooter from "./components/Escooter/Escooter";
 import Wellness from "./components/Wellness/Wellness";
 import { DigitalMarketing } from "./components/DigitaMarketing/DigitalMarketing";

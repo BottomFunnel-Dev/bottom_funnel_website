@@ -1,52 +1,80 @@
-import React from "react";
-import "./Cannabisadmin.css";
+import React, { useState } from 'react'
+import "./Cannabisadmin.css"
 
-export default function Cannabisadmin() {
-  return (
-    <div className="szCannabisadmin">
-      <div className="szCannabisadminsub">
-        <div className="szCannabisadminleft">
-          <div>
-            <h1>Admin Panel</h1>
-            <div className="cannabisAdminContent">
-               <div className="cannabisAdminContentDiv">
-                  <img src="Images/CannabisDevApp/icons/TaskCompleted.png"/>
-                  <h4>DashBoard Management</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem odio suscipit quas nihil asperiores consequatur.</p>
-               </div>
-               <div className="cannabisAdminContentDiv">
-                  <img src="Images/CannabisDevApp/icons/TaskCompleted-1.png"/>
-                  <h4>Reports and Analytics</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem odio suscipit quas nihil asperiores consequatur.</p>
-               </div>
-            </div>
-            <div className="cannabisAdminContent">
-               <div className="cannabisAdminContentDiv">
-                  <img src="Images/CannabisDevApp/icons/CardPayment.png"/>
-                  <h4>Client Management</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem odio suscipit quas nihil asperiores consequatur.</p>
-               </div>
-               <div className="cannabisAdminContentDiv">
-                  <img src="Images/CannabisDevApp/icons/TrackOrder.png"/>
-                  <h4>Order Management</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem odio suscipit quas nihil asperiores consequatur.</p>
-               </div>
-            </div>
-            <button className="cannabisadminbtn">Get started</button>
+export const Cannabisadmin = () => {
+  const [imageChange,setImageChange] =useState("Images/newcannabispage/Admin Screens/compo.png")
+  const handleImageChange = (imagepath) => {
+    setImageChange(() => imagepath)
+ 
+ }
+
+  const icecreamadmindata = [
+      {
+          image:"Images/newcannabispage/Admin Screens/compo.png",
+          icon:"Images/newcannabispage/icons/Task Completed.png",
+          headertext:"Dashboard Management",
+          paragraph:"Build an admin panel for your web app or backend panel with Ready Dashboard.It’s built sophisticatedly with a clean and colorful user interface and modern web building methods and technology. ",
+
+      },
+      
+      {
+          image:"Images/newcannabispage/Admin Screens/Reports & analytics.png",
+          icon:"Images/newcannabispage/icons/Task Completed-1.png",
+          headertext:"Reports & Analytics",
+          paragraph:"A report allows you to summarize and chart record data. A dashboard can present summary reports on a single page. It is a collection of Reports.Here is my next exploration of Mersy. Hope you guys like it Cheers! ",
+
+      },
+
+
+      {
+          image:"Images/newcannabispage/Admin Screens/Component 154.png",
+          icon:"Images/newcannabispage/icons/Card Payment.png",
+          headertext:"Clients Management",
+          paragraph:"This design is about managing customer reviews. The business owner can see all reviews, and average ratings and give any customer instant feedback using this dashboard. ",
+
+      },
+
+      {
+          image:"Images/newcannabispage/Admin Screens/component122.png",
+          icon:"Images/newcannabispage/icons/Track Order.png",
+          headertext:"Orders Management",
+          paragraph:"Customer relationship management (CRM) is a technology for managing all your company's relationships and interactions with customers and potential customers.",
+
+      },
+  ]
+
+
+return (
+  <div className='cannabiesadminpannelmainboxes'>
+  <div className='cannbiesadminpannelmainboxsometextupper'>
+  <h2>Admin Pannel</h2>
+  </div>
+  <div className='cannabiesadminpannelmainflexboxclass'>
+  <div className='cannabieasadminpannelleftbox'>{icecreamadmindata.map((e)=>{
+      return (
+          <div className='cannabiesadminpannelmapperboxindivisyal'
+          key={e.htxt} onMouseEnter={() => {
+          
+              handleImageChange(e.image)
+          }}
+          
+          >
+          <div className='cannabieasadminpannelmapperboxindivisyalicon'>
+          <img src={e.icon} alt="" />
           </div>
-        </div>
-        <div className="szCannabisadminright">
-          <div className="bluerectangle">
-            <img src="Images/CannabisDevApp/banner& backgrounds/banner4.png" />
+          <div className='icecreamadminpannelmapperboxindivisyaltxt'>
+          <h4>{e.headertext}</h4>
+          <p>{e.paragraph}</p>
           </div>
-          <div className="cannbistab">
-            <img src="Images/CannabisDevApp/AdminScreens/Screen1.png" />
           </div>
-          {/* <div className="pinkrectangle">
-            <img src="Images/cannabisPhotos/pinkRectangle.png" />
-          </div> */}
-        </div>
-      </div>
-    </div>
-  );
+      )
+  })}</div>
+  <div className='cannabiesamadminpannelrightbox'>
+  <div className='cannbiesamadminpannelrightboxinnerimage'>
+  <img src={imageChange} alt='' />
+  </div>
+  </div>
+  </div>
+  </div>
+)
 }
