@@ -7,8 +7,7 @@ export default function Wellnesshealthcare() {
       <div className="Wellnesshealthcaresub">
         <div className="Wellnesshealthcareleft">
           <div className="wellnessimage">
-            {" "}
-            <img src="Images/Wellness/healthphone.png" />{" "}
+            <img src="Images/Wellness/healthphone.png" />
           </div>
         </div>
         <div className="Wellnesshealthcareright">
@@ -24,6 +23,7 @@ export default function Wellnesshealthcare() {
               also know how doctors' schedules work. That means your software
               will be up-and-running quickly without any bugs or issues.
             </p>
+            <button className="WellnesshealthcareButton">Get Started</button>
           </div>
         </div>
       </div>

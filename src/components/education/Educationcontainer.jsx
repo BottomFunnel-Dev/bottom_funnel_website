@@ -56,10 +56,9 @@ export default function Educationcontainer() {
 
         <div className="szeducatright">
           <div className="circle">
-            {" "}
-            <img src="Images/education/circle-top.png" />{" "}
+            <img src="Images/EducationDev/educationBanner.png"/>
           </div>
-          <div className="laptop">
+          {/* <div className="laptop">
             <img src="Images/education/laptop.png" />{" "}
           </div>
           <div className="laptopimg">
@@ -75,7 +74,7 @@ export default function Educationcontainer() {
           </div>
           <div className="oval">
             <img src="Images/education/rectangle2.png" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

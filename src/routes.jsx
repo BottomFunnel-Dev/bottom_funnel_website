@@ -311,9 +311,6 @@ export const ALLroutes = () => {
       <Route path="/eScooter" element={<Escooter />} />
       {/* <Route path="/taxi-booking" element={<Taxibooking />} /> */}
       <Route path="/taxi-booking" element={<TaxiBookingApp />} />
-
-
-
       <Route path="/Logistics" element={<Logicstic />} />
       <Route path="/wellness" element={<Wellness />} />
       <Route path="/politics" element={<Politics />} />
@@ -386,8 +383,10 @@ export const ALLroutes = () => {
       <Route path="/website-builder-app" element={<WebsiteBuilderApp />} />
       <Route path="/meat-delivery-app" element={<MeatDeliveryApp />} />
       <Route path="/app-builder-solutions" element={<AppBuilderSoltion />} />
-      <Route path="/online-paymentapp-solution" element={<OnlinePaymentAppSolution />} />
-
+      <Route
+        path="/online-paymentapp-solution"
+        element={<OnlinePaymentAppSolution />}
+      />
       <Route
         path="/wearable-app-development"
         element={<WearableAppDevelopment />}
@@ -411,7 +410,6 @@ export const ALLroutes = () => {
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
       <Route path="/funnel-desk" element={<FunnelDesk />} />
-
     </Routes>
   );
 };
