@@ -1,65 +1,37 @@
-.pickupbanner {
-  width: 100%;
-  height: 700px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: 20px;
+.pickupbannermaiboxes{
+  height: 100vh;
+  border: 1px solid white;
+  background: url("/public/Images/pickup/backgrounds/Group340276.png");
+  background-repeat: no-repeat;
+  background-size: 60% 100%;
+  background-position-x: right;
 }
 
-.pickuptextcontainer {
-  width: 40%;
-  height: 100%;
-  position: relative;
+.pickupbannersometextbox{
+  height: fit-content;
+  width: 45%;
+
+  margin-top: 20%;
+  margin-left: 3%;
+  padding: 5px;
 }
 
-.leftback {
-  width: 25%;
-  height: 300px;
-  position: absolute;
-  top: -37px;
-  left: -72px;
-  height: 80%;
-}
-.leftback > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.pickuptextcontainer > div {
-  position: absolute;
-  padding: 50px;
-  text-align: left;
-  width: 100%;
-  transform: translate(-50%, -50%);
-  top: 55%;
-  left: 56%;
-}
-.pickuptextcontainer > div > button {
-  padding: 10px 60px;
-  border-radius: 25px;
-  background-color: #ef4c23;
-  border: none;
-  color: white;
-  font-size: 18px;
-  font-weight: 600;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.pickuptextcontainer > div > button:hover {
-  color: #ef4c23;
-  /* border: 1px solid #ef4c23; */
-  background-color: white;
+
+
+.pickupbannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #EF4C23;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
-.pickupimageContainer {
-  width: 55%;
-  height: 100%;
-}
-
-.pickupimageContainer > img {
-  margin-top: 45px;
-  margin-left: 30px;
-  width: 90%;
-  height: 100%;
-  object-fit: contain;
+.pickupbannerbutton:hover{
+    background-color:white;
+    color:  #EF4C23;
 }

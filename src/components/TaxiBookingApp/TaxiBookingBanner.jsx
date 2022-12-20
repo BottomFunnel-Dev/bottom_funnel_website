@@ -6,7 +6,7 @@ export const TaxiBookingBanner = () => {
     <div className='taxibookingbannermainboxes'>
    <div className='taxibookingappboxfortext'>
    <h1><span className='colored'>Taxi Booking App</span> Development Services</h1>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi volutpat ornare dapibus sit amet felis. Sed vel aliquam sem. Donec dignissim sed libero et faucibus. Pellentesque eu elementum lorem. Quisque laoreet, massa id dictum porttitor, metus ante suscipit arcu, non lobortis lorem augue a erat. Etiam maximus tristique velit, eu gravida libero varius at. Quisque ultrices risus magna, eu </p>
+   <p>With taxi booking app development, significant amount of your time can be saved. We have the best taxi dispatch software development expertise ensures that you get your best solution in no time. </p>
    <button className='taxibookingappbannerbutton'>Get Started</button>
    </div>
     
