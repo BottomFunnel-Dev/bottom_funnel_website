@@ -1,10 +1,10 @@
 .taxibookingbannermainboxes{
     height: 100vh;
     border: 1px solid white;
-    margin-top: 120px;
+   
 background: url("/public/Images/Taxibooking/Bannersbackgrounds/Taxi booking app.png");
 background-repeat: no-repeat;
-background-size: contain;
+background-size: 55% 100%;
 background-position-x: right;
 }
 
@@ -12,7 +12,7 @@ background-position-x: right;
     height: fit-content;
     width: 45%;
 
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: 3%;
     text-align: justify;
 }

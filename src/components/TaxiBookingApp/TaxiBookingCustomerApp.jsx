@@ -18,7 +18,7 @@ export const TaxiBookingCustomerApp = () => {
             images:"Images/Taxibooking/Customerscreens/Component 117.png",
             icon:"Images/Taxibooking/icons/Group 340238.png",
             htxt:"Easy To Choose Your Ride",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi ",
+            stxt:"We always strive to deliver futuristic solutions that will help you take your business further from the existing ones. ",
         },
   
         
@@ -26,21 +26,21 @@ export const TaxiBookingCustomerApp = () => {
             images:"Images/Taxibooking/Customerscreens/Component 125.png",
             icon:"Images/Taxibooking/icons/Group 340235.png",
             htxt:"Track Your Driver",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi ",
+            stxt:"As a taxi app development company, we'll build white label ride sharing app that is user friendly for registration to booking with numerous features that is easy to use. ",
         },
 
         {
             images:"Images/Taxibooking/Customerscreens/Component 126.png",
             icon:"Images/Taxibooking/icons/Group 340236.png",
             htxt:" Easy Pick Up",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi ",
+            stxt:"We Will follow the standard procedure to deliver the app on time to enjoy the benefits and meet your business growth goals.",
         },
 
         {
             images:"Images/Taxibooking/Customerscreens/Component 127.png",
             icon:"Images/Taxibooking/icons/Component 131.png",
             htxt:"Booking History",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor quam et nisi ",
+            stxt:"The taxi app development solutions provided are tailored to your specific needs and objectives with rational taxi app development cost.",
         },
     ]
 
