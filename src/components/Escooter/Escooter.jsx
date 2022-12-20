@@ -26,7 +26,7 @@ import { Keyarea } from "./Keyarea";
 export default function Escooter() {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({ color: "white", logo: true }));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
 
   return (
