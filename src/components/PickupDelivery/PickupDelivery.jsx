@@ -21,6 +21,9 @@ import { PickupSolutions } from "./PickupSolutions";
 import { pickupanddeliveryLogo } from "../../Data/SeopartnerData";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { Helmet } from "react-helmet";
+import { Pickupadmin } from "./Pickupadmin";
+import { PickupLowerBanner } from "./PickupLowerBanner";
+import { PickupHowWorks } from "./PickupHowWorks";
 export const PickupDelivery = () => {
   const dispatch = useDispatch();
   useEffect(function () {
@@ -40,6 +43,11 @@ export const PickupDelivery = () => {
       <PickupSolutions />
       <Pickuprequire />
       <PickupCustomer />
+      <Pickupdriveapp />
+      <Pickupadmin />
+      <PickupLowerBanner />
+    
+      
       {/* <Pickupdriveapp/> */}
 
       <StoriesSection />
