@@ -14,8 +14,10 @@ import { SeoblogSection } from '../SeoBlogs/Seoblogs'
 import StoriesSection from '../StoriesSection/StoriesSection'
 import DeliveryServices from './DeliveryServices'
 import GroceryBanner from './GroceryBanner'
-import GroceryFeatures from './GroceryFeatures'
+
 import { groceryLogo } from '../../Data/SeopartnerData'
+import { GroceryCustomer } from "./GroceryCustomer";
+import { GroceryAdmin } from "./GroceryAdmin";
 
 const Grocery = () => {
   const dispatch = useDispatch();
@@ -27,7 +29,8 @@ const Grocery = () => {
       <GroceryBanner/>
       <Trusted  partnerLogo={groceryLogo} />
       <DeliveryServices/>
-      <GroceryFeatures/>
+      <GroceryCustomer />
+      <GroceryAdmin />
       <StoriesSection/>
       <Industries/>
       <PlanProject/>
