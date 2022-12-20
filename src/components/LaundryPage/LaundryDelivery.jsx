@@ -14,21 +14,21 @@ const LaundryDelivery = () => {
   const laundrydeliverydata = [
     {
       htxt:"Notification of Upcoming Orders",
-      stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dictum neque. Quisque et",
+      stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dictum neque. Quisqu",
       img:"Images/Laundrypage/icons/Rectangle4230.png",
       bigimg:"Images/Laundrypage/Deliveryappscreens/Notifications.png"
 
     },
     {
       htxt:"Daily Earning Report",
-      stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dictum neque. Quisque et",
+      stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dictum neque. Quisqu",
       img:"Images/Laundrypage/icons/report.png",
       bigimg:"Images/Laundrypage/Deliveryappscreens/Earningreports.png"
     },
 
     {
       htxt:"Order History",
-      stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dictum neque. Quisque et",
+      stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dictum neque. Quisqu",
       img:"Images/Laundrypage/icons/sandclock.png",
       bigimg:"Images/Laundrypage/Deliveryappscreens/Ohistory.png"
     }
@@ -66,9 +66,9 @@ const LaundryDelivery = () => {
     }}
       
       >
-      <div className='laundryflexboxleftdivflexboxicon'><img className='laundryiconleftboxinsider' src={e.img} alt="image" /></div>
+      <div className='laundryflexboxleftdivflexboxicon'><img src={e.img} alt="image" /></div>
       <div className='laundryflexboxleftdivflexboxicontxt'><h4>{e.htxt}</h4>
-      <p><small>{e.stxt}</small></p>
+      <p>{e.stxt}</p>
       </div>
       
       
