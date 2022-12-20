@@ -166,6 +166,7 @@ import { TradingInvesting } from "./components/Trading-Investing-App-Page/Tradin
 import { KidsWear } from "./components/KidsWear/KidsWear";
 import { FunnelDesk } from "./components/FunnelDesk/FunnelDesk";
 import { TaxiBookingApp } from "./components/TaxiBookingApp/TaxiBookingApp.jsx";
+import { EnterpriseDesk } from "./components/EnterpriseDesk/EnterpriseDesk";
 
 export const ALLroutes = () => {
   return (
@@ -410,6 +411,8 @@ export const ALLroutes = () => {
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
       <Route path="/funnel-desk" element={<FunnelDesk />} />
+      <Route path="/product-enterprise" element={<EnterpriseDesk />} />
+      
     </Routes>
   );
 };

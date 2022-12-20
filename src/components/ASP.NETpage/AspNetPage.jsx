@@ -16,7 +16,7 @@ import { aspstackIntro } from "../../Data/webdevPageData/StackData";
 export const AspNetPage = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({color: "white", logo: true}));
   }, []);
   
   return (

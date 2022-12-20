@@ -22,7 +22,7 @@ import { WebDevTechStack } from "./webDevTachstack/WebDevTechStack";
 export const WebdevMain = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
+    dispatch(ChnageNavbarColor({color: "white", logo: true}));
   }, []);
   
   return (
