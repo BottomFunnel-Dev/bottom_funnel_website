@@ -11,13 +11,13 @@ import Revamping from "../revamping/Revamping";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
-import Newsfeature from "./Newsfeature";
-import Newsintro from "./Newsintro";
-import Newspaper from "./Newspaper";
 import Newspublish from "./Newspublish";
 import Newstrategy from "./Newstrategy";
 import { newsLogo } from "../../Data/SeopartnerData";
 import { Helmet } from "react-helmet";
+import { Newsintro } from "./Newsintro";
+import { Newspaper } from "./Newspaper";
+import { Newsfeature } from "./Newsfeature";
 
 export default function News() {
   const dispatch = useDispatch();

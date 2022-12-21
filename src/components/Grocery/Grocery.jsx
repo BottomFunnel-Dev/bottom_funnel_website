@@ -18,6 +18,7 @@ import GroceryBanner from './GroceryBanner'
 import { groceryLogo } from '../../Data/SeopartnerData'
 import { GroceryCustomer } from "./GroceryCustomer";
 import { GroceryAdmin } from "./GroceryAdmin";
+import { GroceryService } from "./GroceryService";
 
 const Grocery = () => {
   const dispatch = useDispatch();
@@ -31,6 +32,7 @@ const Grocery = () => {
       <DeliveryServices/>
       <GroceryCustomer />
       <GroceryAdmin />
+      <GroceryService />
       <StoriesSection/>
       <Industries/>
       <PlanProject/>

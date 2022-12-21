@@ -1,36 +1,40 @@
-.newsfeature{
+.newfeaturemainboxes{
+    height: 60vh;
+    margin-top: 1%;
+  position: relative;
+    background: url("/public/Images/News/Bannerbackground/Group 340282.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.newsfeaturelowerbannersometextandimageboxes{
     width: 100%;
-    /* background-color: rgb(31, 118, 118); */
-    height:300px;
-    }
-     
-    .newsfeaturesub{
-        width: 100%;
-        /* margin: auto; */
-        display: flex;
-        height: 200px;
-        padding: 20px;
-        /* background-color: rgb(103, 35, 35); */
-      
-        position: relative;
-    }
+    height: 70%;
+    display: flex;
+
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+ 
+}
+
+.newsfeaturelowerbannersometextboxes{
+    height: fit-content;
+    width: 50%;
+ color: white;
+   position: relative;
+text-align: justify;
     
-    .sznewsfeaturediv{
-        width: 70%;
-        padding: 30px 20px;
-        position: absolute;
-        transform: translate(-50%,-50%);
-        top: 52%;
-        font-size: 18px;
-        left: 39%;
-    }
-     .sznewsfeaturehead{
-        width: 55%;
-        padding: 10px 80px;
-        /* margin-left: 2%; */
-        background: url("/public/Images/News/yellowrectangle.png");
-        background-repeat: no-repeat;
-        background-size: 100% 100px;
-        background-position: 0px 30px;
-     }
-    
+}
+
+.newsfeaturelowerbannersomeimageboxes{
+    width: 30%;
+
+    margin-left: 5%;
+}
+
+.newsfeaturelowerbannersomeimageboxes >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

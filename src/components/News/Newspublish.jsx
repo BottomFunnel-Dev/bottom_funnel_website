@@ -48,7 +48,7 @@ export default function Newspublish() {
       <div className="newspublishsub">
         {publish.map((item) => {
           return (
-            <div>
+            <div className="sznewspublishindivisuallydiv">
               <div className="sznewspublish">
                 <div className="sznewspublishimage">
                   <img src={item.img} />{" "}

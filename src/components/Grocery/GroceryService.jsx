@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import "./GroceryService.css"
 
 export const GroceryService = () => {
@@ -10,62 +11,56 @@ export const GroceryService = () => {
   
    
       
-  const canabiesdriverappdata = [
+  const groceryservicedata = [
       {
-          image:"Images/newcannabispage/driver screens/Driver Profile.png",
-          icon:"Images/newcannabispage/icons/Task Completed-2.png",
-          headertext:" Driver's Profile",
-          paragraph:"Customize this Ice Cream Delivery App however you see fit with our powerful online app builder. You don’t need any design or coding experience",
+          image:"Images/grocery/Service professionals app/Track My Order.png",
+          headertext:"Track My Order",
+          paragraph:"In Contrast,manual order tracking system rely on human input and are typically seen in smaller or mid-sized business that handle fewer orders each day.At the most basic level,this often involves manually entering each new order into a database so that it can be tracked throughout the fulfilment process.",
       },
       
       
       {
-          image:"Images/newcannabispage/driver screens/Reports.png",
-          icon:"Images/newcannabispage/icons/Task Completed-3.png",
-          headertext:"Daily Earnings & Reports",
-          paragraph:"Canbies is important to many people. They use it for more than eating and as a source of dessert. Many people like ice cream in cooking, like pancakes or cupcakes. Ice cream also provides a cooling sensation and can help digestion.",
+          image:"Images/grocery/Service professionals app/Manage My Cart.png",
+          headertext:"Manage My Cart",
+          paragraph:"Our users can work on multiple orders simultaneously via cart Management.You may need to leave a draft order until further clarification or documentation is acquired or you may support several different offices with different procurement needs.",
       },
   
       {
-          image:"Images/newcannabispage/driver screens/Component 118.png",
-          icon:"Images/newcannabispage/icons/Card Payment-1.png",
-          headertext:"Customer order Details",
-          paragraph:"Less time spent in the ordering process means better user experience. Let your app users pay easily using multiple payment options so as to improve their overall app experience.",
+          image:"Images/grocery/Service professionals app/Simplicity In Searching.png",
+        headertext:"Simplicity In Searching",
+          paragraph:"An alternative is to ask whether we can search through the dynamics of natural behavior to find explicit evidence that these behaviors are simpler than they might have been.",
       },
   
       {
-          image:"Images/newcannabispage/driver screens/Pickup location.png",
-          icon:"Images/newcannabispage/icons/Track Order-1.png",
-          headertext:"Track order",
-          paragraph:"Better pricing doesn’t always have to be dropping your prices instantly. It’s somehow psychological in nature. There’s a subtle art to make it appear that you’re offering a better price without sacrificing your bottom-line."
+          image:"Images/grocery/Service professionals app/Various Filters.png",
+          headertext:"Various Filters",
+          paragraph:"As online stores grow and get more sophisticated new ways of guiding customers need to be added.A simple product filter might not be enough.In these cases faceted navigation can help.faceted navigation looks kind of like a filter system."
   
       },
   ]
   
   
     return (
-      <div className='cannabisdriverappmainboxes'>
+      <div className='groceryservicemainboxes'>
      
       <h2>Driver App</h2>
-      <div className='canabisdriverappflexingbox'>
-      <div className='canabisdriverappflexingboxleftbox'>
-      <div className='canabisdeliveryappleftboxinsiderupperimage'>
+      <div className='groceryserviceflexingbox'>
+      <div className='groceryserviceflexingboxleftbox'>
+      <div className='groceryseryserviceleftboxinsiderupperimage'>
       <img src={imageChange} alt='' />
       </div>
       </div>
-      <div className='canabisdriverappflexingboxrightbox'>{canabiesdriverappdata.map((e)=>{
+      <div className='groceryserviceflexingboxrightbox'>{groceryservicedata.map((e)=>{
           return (
-              <div className='canabisdriverappindivisualbox'
+              <div className='groceryserviceindivisualbox'
               key={e.headertext} onMouseEnter={() => {
               
                   handleImageChange(e.image)
               }}
               
               >
-              <div className='canabisdeliveryappindivisualboxforlogo'>
-              <img src={e.icon} alt='' />
-              </div>
-              <div className='icecreamdeliveryappindivisualboxfortext'>
+            
+              <div className='groceryserviceindivisualboxfortext'>
               <h4>{e.headertext}</h4>
               <p>{e.paragraph}</p>
               </div>

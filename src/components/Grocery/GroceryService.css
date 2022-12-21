@@ -1,44 +1,44 @@
-.cannabisdriverappmainboxes{
+.groceryservicemainboxes{
     height: fit-content;
    border: 1px solid white;
    margin-top: 5%;
 }
 
-.cannabisdriverappmainboxes >h2{
+.groceryservicemainboxes >h2{
     text-align: center;
 }
 
-.canabisdriverappflexingbox{
+.groceryserviceflexingbox{
     height: fit-content;
  
     display: flex;
   
 }
 
-.canabisdriverappflexingboxleftbox{
+.groceryserviceflexingboxleftbox{
     height: 480px;
     width: 45%;
  
-    background: url("/public/Images/newcannabispage/bannesbackgrounds/Rectangle 4912.png");
+   
     background-repeat: no-repeat;
    background-size: contain;
    background-position-y:bottom ;
 }
 
-.canabisdeliveryappleftboxinsiderupperimage{
+.groceryseryserviceleftboxinsiderupperimage{
     height: 90%;
     width: 35%;
   
     margin: 5% 0% 5% 30%;
 }
 
-.canabisdeliveryappleftboxinsiderupperimage >img{
+.groceryseryserviceleftboxinsiderupperimage >img{
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
 
-.canabisdriverappflexingboxrightbox{
+.groceryserviceflexingboxrightbox{
     height: fit-content;
     width: 60%;
     margin-left: 1%;
@@ -46,29 +46,26 @@
     display: flex;
     flex-wrap: wrap;
 }
-.icecreamcustomerappmainboxes >h2{
+/* .icecreamcustomerappmainboxes >h2{
     text-align: center;
     margin-top: 3%;
-}
+} */
 
-.canabisdriverappindivisualbox{
+.groceryserviceindivisualbox{
     height: 230px;
     width: 48%;
     margin: 1%;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
 }
 
-.canabisdriverappindivisualbox:hover{
+.groceryserviceindivisualbox:hover{
     transform: scale(1.02);
 }
 
 
-.canabisdeliveryappindivisualboxforlogo{
-height: 25%;
-width: 20%;
 
-}
 
 .canabisdeliveryappindivisualboxforlogo >img {
     height: 100%;

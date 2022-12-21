@@ -54,10 +54,10 @@ export const GroceryAdmin = () => {
         return (
             <div className='groceryadminpannelmapperboxindivisyal'
             key={e.htxt} onMouseEnter={() => {
-            
+           
                 handleImageChange(e.image)
             }}
-            
+             
             >
             
             <div>
