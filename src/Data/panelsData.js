@@ -512,6 +512,249 @@ export const bettingAdmin = {
   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 
+export const alcoholCustomer = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/AlcoholDelivery/CustomerApp/one.png",
+        alt: "accessable",
+      },
+      title: "Can be easily accessed through both android/iOS",
+      para: "It is a cross platform application which gives ease to customer of accessing it through both android and iOS.",
+    },
+    {
+      img: {
+        src: "Images/AlcoholDelivery/CustomerApp/Two.png",
+        alt: "Friendly",
+      },
+      title: "User-friendly interface",
+      para: "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+    },
+    {
+      img: {
+        src: "Images/AlcoholDelivery/CustomerApp/Three.png",
+        alt: "OrderFood",
+      },
+      title: "Order food and Track their service",
+      para: "Customers can easily order their favourite food and track when the food will get prepared and delivered.",
+    },
+
+    {
+      img: {
+        src: "Images/AlcoholDelivery/CustomerApp/Four.png",
+        alt: "Favorites",
+      },
+      title: "Smart search and add-to-your-favorites list",
+      para: "The app will give suggestionsbased on what customers search. The customers can also add their favourite dishes in a list to avoid repetitive searches",
+    },
+  ],
+  sectionTitle: "Customer App",
+
+};
+
+export const alcoholAdmin = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/AlcoholDelivery/AdminPannel/one.png",
+        alt: "Manage",
+      },
+      title: "Manage everything in one place",
+      para: "This feature allows admin to manage all their activites through this app only, i.e, from one place or screen",
+    },
+    {
+      img: {
+        src: "Images/AlcoholDelivery/AdminPannel/Two.png",
+        alt: "Info",
+      },
+      title: "Gather information about customer preferences",
+      para: "The admin will be able to check which products the customers are liking the most and what's generating highest profits.",
+    },
+    {
+      img: {
+        src: "Images/AlcoholDelivery/AdminPannel/Three.png",
+        alt: "OrderFood",
+      },
+      title: "Generate profit reports and draw insights",
+      para: "This feature will generate profit and sales report so that the admin can draw fruitful insights out or it and work on it.",
+    },
+
+    {
+      img: {
+        src: "Images/AlcoholDelivery/AdminPannel/Four.png",
+        alt: "features",
+      },
+      title: "Various CRM features",
+      para: "These customer relationship management features for admin panel will help the admin in improving relationship with their customers.",
+    },
+  ],
+  sectionTitle: "Customer App",
+
+};
+
+export const alcoholPartner = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/AlcoholDelivery/PartnerApp/one.png",
+        alt: "Discounts",
+      },
+      title: "Manage Offers & Discounts",
+      para: "Partners can give secial offers and discounts to increase their customer base and earn their loyalty.",
+    },
+    {
+      img: {
+        src: "Images/AlcoholDelivery/PartnerApp/Two.png",
+        alt: "Menu",
+      },
+      title: "Menu category and Order Management",
+      para: "The partners can manage their menu items and orders to increase customer traffic and efficiency.",
+    },
+    {
+      img: {
+        src: "Images/AlcoholDelivery/PartnerApp/Three.png",
+        alt: "Chat",
+      },
+      title: "Chat Support",
+      para: "This feature enables the partners to personally chat with their customers as well as the admin and resolve their queries.",
+    },
+
+    {
+      img: {
+        src: "Images/AlcoholDelivery/PartnerApp/Four.png",
+        alt: "Notification",
+      },
+      title: "Custom Alerts",
+      para: "The partner will get a notification for every new activity related to them on the app which will make them stay updated.",
+    },
+  ],
+  sectionTitle: "Customer App",
+
+};
+
+export const wellnessPatient = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/WellnessDevApp/PatientScreens/Four.jpg",
+        alt: "FindDoctor",
+      },
+      title: "Find a Doctor",
+      para: "A list of Healthcare Professionals appears, and users can Pick from the same to book  an online appointment.",
+    },
+    {
+      img: {
+        src: "Images/WellnessDevApp/PatientScreens/Three.jpg",
+        alt: "Appointments",
+      },
+      title: "Easy Appointments",
+      para: "The Healthcare app Development connects the user with the  medical professionals via audio, video, ot text. Also, the payment can be  made within the app.",
+    },
+    {
+      img: {
+        src: "Images/WellnessDevApp/PatientScreens/Two.jpg",
+        alt: "Doctor's Details",
+      },
+      title: "Doctor's Details",
+      para: "There are a variety of ways to find the information you need about doctors. You can use online resources, such as websites, or consult with friends, family members, or your doctor's office. ",
+    },
+
+    {
+      img: {
+        src: "Images/WellnessDevApp/PatientScreens/One.jpg",
+        alt: "LiveChat",
+      },
+      title: "In App live Chat",
+      para: "We have a live chat service that lets you talk to a doctor directly from your computer. You can ask questions about health issues, get advice on diet and exercise, or just get help with any problem you're having.",
+    },
+  ],
+  sectionTitle: "Patient App",
+
+  background: "/Images/WellnessDevApp/Banners/banner2.png",
+};
+
+export const wellnessAdmin = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/WellnessDevApp/AdminScreens/Four.png",
+        alt: "FindDoctor",
+      },
+      title: "Driver's Profile",
+      para: " A driver's profile should include information such as their years of experience, their driving record, and what type of vehicle they are most comfortable operating.",
+    },
+    {
+      img: {
+        src: "Images/WellnessDevApp/AdminScreens/Three.png",
+        alt: "Appointments",
+      },
+      title: "Daily Earnings and Reports",
+      para: "Daily earnings and reports are an important part of any marketing campaign. By tracking your daily activity and performance, you can better understand where your efforts are going and make adjustments as needed.",
+    },
+    {
+      img: {
+        src: "Images/WellnessDevApp/AdminScreens/Two.png",
+        alt: "Doctor's Details",
+      },
+      title: "Cutomer Order Details",
+      para: "Customer order detail may includes items such as item description price quantity required shipping information etc.",
+    },
+
+    {
+      img: {
+        src: "Images/WellnessDevApp/AdminScreens/One.png",
+        alt: "LiveChat",
+      },
+      title: "Track Order",
+      para: "you can use the tracking number provided by the carrier to follow the shipment progress. You can also use a delivery confirmation number or a tracking code sent via email to stay updated on your package's location and status.",
+    },
+  ],
+  sectionTitle: "Admin Panel",
+
+  background: "/Images/WellnessDevApp/Banners/banner2.png",
+};
+
+export const wellnessDoctor = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/WellnessDevApp/DoctorScreens/Four.png",
+        alt: "DoctorProfile",
+      },
+      title: "Doctor's Profile",
+      para: " A doctor's profile typically includes their education, experience, and licenses. It's also common to find information about the doctor's philosophy and practice preferences.",
+    },
+    {
+      img: {
+        src: "Images/WellnessDevApp/DoctorScreens/Three.png",
+        alt: "Appointments",
+      },
+      title: "Appointments Management",
+      para: "These systems allow doctors to manage their patients' appointments from a single location and automatically send reminders to patients and providers when an appointment is close.",
+    },
+    {
+      img: {
+        src: "Images/WellnessDevApp/DoctorScreens/Two.png",
+        alt: "PatientRecord",
+      },
+      title: "Patient Record",
+      para: "These systems allow doctors to manage their patients' appointments from a single location and automatically send reminders to patients and providers when an appointment is close.",
+    },
+
+    {
+      img: {
+        src: "Images/WellnessDevApp/DoctorScreens/One.png",
+        alt: "Prescription",
+      },
+      title: "Prescription",
+      para: "Our team of experts can help guide you through the process step by step, so that you can get your medication as quickly and easily as possible. We also offer a variety of other services related to healthcare, such as coordinating doctor's appointments and filling prescriptions.",
+    },
+  ],
+  sectionTitle: "Admin Panel",
+
+  background: "/Images/WellnessDevApp/Banners/banner2.png",
+};
 
 
-
+// App Store management
+// content marketing

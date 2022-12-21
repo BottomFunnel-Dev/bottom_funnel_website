@@ -166,6 +166,10 @@ import { TradingInvesting } from "./components/Trading-Investing-App-Page/Tradin
 import { KidsWear } from "./components/KidsWear/KidsWear";
 import { FunnelDesk } from "./components/FunnelDesk/FunnelDesk";
 import { TaxiBookingApp } from "./components/TaxiBookingApp/TaxiBookingApp.jsx";
+
+import { EnterpriseDesk } from "./components/EnterpriseDesk/EnterpriseDesk";
+import { CarRental } from "./components/Car-Rental-page/CarRental";
+
 import { ProductsNewPage } from "./components/ProductsNewPage/ProductsNewPage";
 import { RealEstate } from "./components/RealEstate/RealEstate";
 
@@ -398,6 +402,7 @@ export const ALLroutes = () => {
         path="/plant-based-meat-delivery-app"
         element={<PlantBasedMeat />}
       />
+      <Route path="/car-rentals" element={<CarRental/>} />
       <Route path="/mobile-user-experience" element={<MobileUiUxDesign />} />
       <Route
         path="/image-analysis-software"

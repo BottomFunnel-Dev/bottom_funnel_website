@@ -1,8 +1,8 @@
-.szwellnessadmin{
+.wellnessadminMainDiv{
     width: 100%;
     text-align: center;
     height:580px;
-   
+    border: 2px solid red;
 }
  
 .Wellnessadminsub{
@@ -20,6 +20,7 @@
     height: 530px;
     position: relative;
     margin-left: 8%;
+    border: 2px solid red;
 }
 .Wellnessadminright{
     width:50%;

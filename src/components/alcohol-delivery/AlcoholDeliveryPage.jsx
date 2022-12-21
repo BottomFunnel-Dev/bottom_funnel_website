@@ -19,6 +19,7 @@ import { AlcoholSuggestions } from "./AlcoholSuggestions/AlcoholSuggestions";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { alcoholLogo } from "../../Data/SeopartnerData";
 
+
 export const AlcoholDeliveryPage = () => {
   const dispatch = useDispatch();
   useEffect(function () {

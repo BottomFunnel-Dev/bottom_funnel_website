@@ -12,6 +12,7 @@
 width: 50%;
 position: relative;
 height: 550px;
+/* border: 2px solid red; */
 }
 .szwellnessright{
     width: 52%;
@@ -56,4 +57,5 @@ height: 550px;
    transform: translate(-50%,-50%);
    top: 52%;
    left: 50%;
+   /* border: 2px solid red; */
 }

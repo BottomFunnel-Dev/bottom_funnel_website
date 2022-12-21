@@ -1,103 +1,46 @@
-import React from 'react'
-import { useState } from 'react';
-import "./Wellnessadmin.css"
+import React, { useState } from "react";
+import "./Wellnessadmin.css";
 
-
-export default function Wellnessadmin() {
-
-    let wellnessadmindata = [
-        {
-          img: {
-            src: "Images/Wellness/Dashboardadmin.png",
-            alt: "Register image",
-          },
-          title: "Dashboard",
-         para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-        },
-        {
-          img: {
-            src: "Images/Wellness/Appointment management admin panel.png",
-            alt: "Schedule",
-          },
-             title: "Appointment management",
-             para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-        },
-        {
-          img: {
-            src: "Images/Wellness/doctormanage.png",
-            alt: "Multiple Payment Option image",
-          },
-            title: "Doctor management",
-             para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-       
-         },
-        {
-          img: {
-            src: "Images/Wellness/Clinic management.png",
-            alt: "Track Order image",
-          },
-          title: "Clinic administration",
-          para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-        },
-  
-        
-      ];
-
-      const [active, setActive] = useState(0);
-
-
+export default function Wellnessadmin({ customerData }) {
+  const [active, setActive] = useState(0);
   return (
-    
-    <div className='szwellnessadmin'>
-    {/* <h1> Must - Have Feature Of Healthcare Apps</h1> */}
-   <div className='Wellnessadminsub'>
-      
+    <div className="wellnessadminMainDiv" style={{border:"2px solid red"}}>
+      <h1>Admin App</h1>
+      <div className="wellnessAdminsub">
+        <div className="wellnessAdminright">
+          {customerData.customerdata.map(({ title,para }, idx) => {
+            return (
+              <div
+                key={title}
+                onMouseOver={() => setActive(idx)}
+                className={`logistic-box-${idx}`}
+              >
+                
+                <h3>{title}</h3>
+                <p>{para}</p>
 
-       <div className='Wellnessadminleft'>
-            <div > 
-                  <h2>admin Panel</h2>
-          {
-         wellnessadmindata.map(({ title }, idx) => {
-          return (
-           
-            <div
-              key={title}
-              onMouseOver={() => setActive(idx)}
-              className={`logistic-box-${idx}`}
-            >
-               <ul>
-               <li>{title}</li>
-               </ul>
               </div>
-          );
-        })}  
-
-                </div>
-                <button className='wellnessadminbtn'> Get started</button>
-          
-             </div>
-
-             <div className='Wellnessadminright'>
-             <div className='szwelltopbg'>
-                <img src="Images/Wellness/tabbg.png"/>
-            </div>
-
-            <div className='szwellnesstab'>
-            <img
-                src={wellnessadmindata[active].img.src}
-                // alt={wellnessadmindata[active].img.alt}
-                />
-            </div>
-
-            <div className='szwellbotombg'>
-                <img src="Images/Wellness/botmbg.png"/>
-            </div>
-            
-
-            </div>
-
-           
+            );
+          })}
         </div>
-</div>
-  )
+
+        <div
+          className="wellnessAdminleft"
+          style={{
+            background: `url(${customerData.background})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="wellness-customer-image">
+            <img
+              src={customerData.customerdata[active].img.src}
+              alt={customerData.customerdata[active].img.alt}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }

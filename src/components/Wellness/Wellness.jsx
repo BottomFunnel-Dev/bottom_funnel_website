@@ -10,15 +10,14 @@ import PlanProject from "../PlanProject/PlanProject";
 import Revamping from "../revamping/Revamping";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
-import Wellnessadmin from "./Wellnessadmin";
-import Wellnessconnect from "./Wellnessconnect";
 import Wellnesscontainer from "./Wellnesscontainer";
-import Wellnessdoctor from "./Wellnessdoctor";
 import Wellnesshealthcare from "./Wellnesshealthcare";
-import Wellnesspatient from "./Wellnesspatient";
-import { WellnessPatient } from "./WellnessPatient/WellnessPatient";
-import { WellnessDoctor } from "./WellnessDoctor/WellnessDoctor";
-import { WellnessAdmin } from "./WellnessAdmin/WellnessAdmin";
+import WellnessDoctor  from "./WellnessDoctor/WellnessDoctor";
+import WellnessAdmin  from "./WellnessAdmin/WellnessAdmin";
+import WellnessPatient from "./WellnessPatient/WellnessPatient";
+import {
+  wellnessPatient,wellnessAdmin,wellnessDoctor
+} from "../../Data/panelsData";
 
 export default function Wellness() {
   const dispatch = useDispatch();
@@ -27,15 +26,11 @@ export default function Wellness() {
   }, []);
   return (
     <div>
-      <Wellnesscontainer />
-      <WellnessPatient/>
-      <WellnessDoctor/>
-      <WellnessAdmin/>
+      <Wellnesscontainer/>
+      <WellnessPatient customerData={wellnessPatient} />
+      <WellnessDoctor customerData={wellnessDoctor} />
+      <WellnessAdmin customerData={wellnessAdmin} />
       <Wellnesshealthcare />
-      {/* <Wellnessconnect />
-      <Wellnesspatient />
-      <Wellnessdoctor />
-      <Wellnessadmin /> */}
       <StoriesSection />
       <Industries />
       <PlanProject />

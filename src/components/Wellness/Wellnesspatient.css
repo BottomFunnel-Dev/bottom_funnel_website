@@ -5,7 +5,9 @@
     /* background-color: rgb(108, 10, 87); */
     padding: 20px;
 }
- 
+ .szwellnesspatient>h1{
+    border: 2px solid red;
+ }
 .Wellnesspatientsub{
     width: 100%;
     height:400px;

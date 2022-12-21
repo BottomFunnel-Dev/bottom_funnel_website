@@ -14,16 +14,17 @@ import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
 import Logiccustomer from "./Logiccustomer";
 import Logicdrive from "./Logicdrive";
-
 import Logictransport from "./Logictransport";
 import Logisticadmin from "./Logisticadmin";
 import Logisticcontainer from "./Logisticcontainer";
 import Logisticwhy from "./Logisticwhy";
+
 import {
   logisticsCustomer,
   logisticDrive,
   logisticAdmin,
 } from "../../Data/panelsData";
+
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { logisticsLogo } from "../../Data/SeopartnerData";
 import { Helmet } from "react-helmet";
