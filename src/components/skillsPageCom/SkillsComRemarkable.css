@@ -63,3 +63,59 @@
   height: 100%;
   object-fit: contain;
 }
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 480px) {
+  .skills-remarkable-main {
+    width: 95%;
+  }
+  .skills-remarkable-main > h1 {
+    font-size: 16px;
+  }
+
+  .skills-remarkable-main > p {
+    font-size: 10px;
+  }
+
+  .skills-remarkable-solutions > div {
+    width: 46%;
+    gap: 5px;
+  }
+
+  .skills-remarkable-image {
+    height: 30px;
+  }
+
+  .skills-remarkable-solutions > div > h4 {
+    font-size: 10px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .skills-remarkable-main {
+    width: 95%;
+  }
+  .skills-remarkable-main > h1 {
+    font-size: 20px;
+  }
+
+  .skills-remarkable-main > p {
+    font-size: 12px;
+  }
+
+  .skills-remarkable-solutions > div {
+    width: 46%;
+    gap: 5px;
+  }
+
+  .skills-remarkable-image {
+    height: 40px;
+  }
+
+  .skills-remarkable-solutions > div > h4 {
+    font-size: 12px;
+  }
+}

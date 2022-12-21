@@ -51,3 +51,46 @@
 .skills-why-appl-cards-images-div > img {
   height: 100%;
 }
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 480px) {
+  .skills-why-application-main > h1 {
+    font-size: 20px;
+    width: 95%;
+  }
+
+  .skills-why-application-content {
+    width: 95%;
+  }
+
+  .skills-why-application-content > div {
+    display: block;
+    width: 100%;
+  }
+
+  .skills-why-application-content > div > h3 {
+    font-size: 13px;
+  }
+
+  .skills-why-application-content > div > p {
+    font-size: 10px;
+  }
+
+  .skills-why-appl-cards-images-div {
+    height: 30px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .skills-why-application-content {
+    width: 95%;
+  }
+
+  .skills-why-application-content > div {
+    display: block;
+    width: 48%;
+  }
+}

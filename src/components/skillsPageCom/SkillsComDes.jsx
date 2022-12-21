@@ -9,7 +9,7 @@ export const SkillsComDes = ({ DescrptionData }) => {
         <h1>{title}</h1>
         <p>{description}</p>
       </div>
-      <div>
+      <div className="skills-des-image">
         <img src={image} height="100%" alt="Nodejs logo" />
       </div>
     </div>

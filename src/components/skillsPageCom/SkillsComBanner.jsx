@@ -3,7 +3,6 @@ import "./SkillsComBanner.css";
 
 export const SkillsComBanner = ({ data }) => {
   const { image, title, description } = data;
-  const color = "green";
 
   return (
     <div
@@ -20,7 +19,6 @@ export const SkillsComBanner = ({ data }) => {
         <p>{description}</p>
       </div>
       <button>Get Started</button>
-
     </div>
   );
 };
