@@ -512,6 +512,249 @@ export const bettingAdmin = {
   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 
+export const alcoholCustomer = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/AlcoholDelivery/CustomerApp/one.png",
+        alt: "accessable",
+      },
+      title: "Can be easily accessed through both android/iOS",
+      para: "It is a cross platform application which gives ease to customer of accessing it through both android and iOS.",
+    },
+    {
+      img: {
+        src: "Images/AlcoholDelivery/CustomerApp/Two.png",
+        alt: "Friendly",
+      },
+      title: "User-friendly interface",
+      para: "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+    },
+    {
+      img: {
+        src: "Images/AlcoholDelivery/CustomerApp/Three.png",
+        alt: "OrderFood",
+      },
+      title: "Order food and Track their service",
+      para: "Customers can easily order their favourite food and track when the food will get prepared and delivered.",
+    },
+
+    {
+      img: {
+        src: "Images/AlcoholDelivery/CustomerApp/Four.png",
+        alt: "Favorites",
+      },
+      title: "Smart search and add-to-your-favorites list",
+      para: "The app will give suggestionsbased on what customers search. The customers can also add their favourite dishes in a list to avoid repetitive searches",
+    },
+  ],
+  sectionTitle: "Customer App",
+
+};
+
+export const alcoholAdmin = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/AlcoholDelivery/AdminPannel/one.png",
+        alt: "Manage",
+      },
+      title: "Manage everything in one place",
+      para: "This feature allows admin to manage all their activites through this app only, i.e, from one place or screen",
+    },
+    {
+      img: {
+        src: "Images/AlcoholDelivery/AdminPannel/Two.png",
+        alt: "Info",
+      },
+      title: "Gather information about customer preferences",
+      para: "The admin will be able to check which products the customers are liking the most and what's generating highest profits.",
+    },
+    {
+      img: {
+        src: "Images/AlcoholDelivery/AdminPannel/Three.png",
+        alt: "OrderFood",
+      },
+      title: "Generate profit reports and draw insights",
+      para: "This feature will generate profit and sales report so that the admin can draw fruitful insights out or it and work on it.",
+    },
+
+    {
+      img: {
+        src: "Images/AlcoholDelivery/AdminPannel/Four.png",
+        alt: "features",
+      },
+      title: "Various CRM features",
+      para: "These customer relationship management features for admin panel will help the admin in improving relationship with their customers.",
+    },
+  ],
+  sectionTitle: "Customer App",
+
+};
+
+export const alcoholPartner = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/AlcoholDelivery/PartnerApp/one.png",
+        alt: "Discounts",
+      },
+      title: "Manage Offers & Discounts",
+      para: "Partners can give secial offers and discounts to increase their customer base and earn their loyalty.",
+    },
+    {
+      img: {
+        src: "Images/AlcoholDelivery/PartnerApp/Two.png",
+        alt: "Menu",
+      },
+      title: "Menu category and Order Management",
+      para: "The partners can manage their menu items and orders to increase customer traffic and efficiency.",
+    },
+    {
+      img: {
+        src: "Images/AlcoholDelivery/PartnerApp/Three.png",
+        alt: "Chat",
+      },
+      title: "Chat Support",
+      para: "This feature enables the partners to personally chat with their customers as well as the admin and resolve their queries.",
+    },
+
+    {
+      img: {
+        src: "Images/AlcoholDelivery/PartnerApp/Four.png",
+        alt: "Notification",
+      },
+      title: "Custom Alerts",
+      para: "The partner will get a notification for every new activity related to them on the app which will make them stay updated.",
+    },
+  ],
+  sectionTitle: "Customer App",
+
+};
+
+export const wellnessPatient = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/WellnessDevApp/PatientScreens/Four.jpg",
+        alt: "FindDoctor",
+      },
+      title: "Find a Doctor",
+      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
+    },
+    {
+      img: {
+        src: "Images/WellnessDevApp/PatientScreens/Three.jpg",
+        alt: "Appointments",
+      },
+      title: "Easy Appointments",
+      para: "Scheduling your next trip with Schedule. Just set up an appointment, and the logistics team will keep track of where your product is moving from. Whether it's a local drop-off or getting picked up curbside, we've got you covered.",
+    },
+    {
+      img: {
+        src: "Images/WellnessDevApp/PatientScreens/Two.jpg",
+        alt: "Doctor's Details",
+      },
+      title: "Doctor's Details",
+      para: "We offer multiple payment options that are safe and secure. With our platform, you can effortlessly add payments to your online shopping cart without worrying about credit card fraud or identity theft.",
+    },
+
+    {
+      img: {
+        src: "Images/WellnessDevApp/PatientScreens/One.jpg",
+        alt: "LiveChat",
+      },
+      title: "In App live Chat",
+      para: "Track Order is the web development platform that gives you access to all of the shipping services available today. You can choose how you want your packages to be delivered, and whether you want it on a truck or with UPS.",
+    },
+  ],
+  sectionTitle: "Patient App",
+
+  background: "/Images/WellnessDevApp/Banners/banner2.png",
+};
+
+export const wellnessAdmin = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/WellnessDevApp/AdminScreens/Four.png",
+        alt: "FindDoctor",
+      },
+      title: "Driver's Profile",
+      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
+    },
+    {
+      img: {
+        src: "Images/WellnessDevApp/AdminScreens/Three.png",
+        alt: "Appointments",
+      },
+      title: "Daily Earnings and Reports",
+      para: "Scheduling your next trip with Schedule. Just set up an appointment, and the logistics team will keep track of where your product is moving from. Whether it's a local drop-off or getting picked up curbside, we've got you covered.",
+    },
+    {
+      img: {
+        src: "Images/WellnessDevApp/AdminScreens/Two.png",
+        alt: "Doctor's Details",
+      },
+      title: "Cutomer Order Details",
+      para: "We offer multiple payment options that are safe and secure. With our platform, you can effortlessly add payments to your online shopping cart without worrying about credit card fraud or identity theft.",
+    },
+
+    {
+      img: {
+        src: "Images/WellnessDevApp/AdminScreens/One.png",
+        alt: "LiveChat",
+      },
+      title: "Track Order",
+      para: "Track Order is the web development platform that gives you access to all of the shipping services available today. You can choose how you want your packages to be delivered, and whether you want it on a truck or with UPS.",
+    },
+  ],
+  sectionTitle: "Admin Panel",
+
+  background: "/Images/WellnessDevApp/Banners/banner2.png",
+};
+
+export const wellnessDoctor = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/WellnessDevApp/DoctorScreens/Four.png",
+        alt: "DoctorProfile",
+      },
+      title: "Doctor's Profile",
+      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
+    },
+    {
+      img: {
+        src: "Images/WellnessDevApp/DoctorScreens/Three.png",
+        alt: "Appointments",
+      },
+      title: "Appointments Management",
+      para: "Scheduling your next trip with Schedule. Just set up an appointment, and the logistics team will keep track of where your product is moving from. Whether it's a local drop-off or getting picked up curbside, we've got you covered.",
+    },
+    {
+      img: {
+        src: "Images/WellnessDevApp/DoctorScreens/Two.png",
+        alt: "PatientRecord",
+      },
+      title: "Patient Record",
+      para: "We offer multiple payment options that are safe and secure. With our platform, you can effortlessly add payments to your online shopping cart without worrying about credit card fraud or identity theft.",
+    },
+
+    {
+      img: {
+        src: "Images/WellnessDevApp/DoctorScreens/One.png",
+        alt: "Prescription",
+      },
+      title: "Prescription",
+      para: "Track Order is the web development platform that gives you access to all of the shipping services available today. You can choose how you want your packages to be delivered, and whether you want it on a truck or with UPS.",
+    },
+  ],
+  sectionTitle: "Admin Panel",
+
+  background: "/Images/WellnessDevApp/Banners/banner2.png",
+};
 
 
-
+// App Store management
+// content marketing
