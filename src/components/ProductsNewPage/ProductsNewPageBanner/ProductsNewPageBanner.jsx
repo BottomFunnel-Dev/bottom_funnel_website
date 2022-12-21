@@ -32,7 +32,7 @@ export const ProductsNewPageBanner = () => {
         <IconContext.Provider value={{ className: "productBannerPlayIcon" }}>
           <BsPlayCircle />
         </IconContext.Provider>
-        <img src='/Images/ProductsPage/ProductBannerImage.png' alt='image' />
+        <img src='/Images/ProductsPage/ProductBannerimage.png' alt='image' />
       </div>
 
     </div>

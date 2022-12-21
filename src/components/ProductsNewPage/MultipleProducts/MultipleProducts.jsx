@@ -27,7 +27,7 @@ export default function MultipleProducts() {
                     <div className='soltop'>
                         <div>
                             <div className="multipleProductsai">
-                                <img src="Images/ProductsPage/ProductsLogo/bottomfunnel support desk.png" alt='image'/>
+                                <img src="Images/ProductsPage/ProductsLogo/Bottomfunnel support desk.png" alt='image'/>
                             </div>
 
                             <p> Bottomfunnel Desk </p>
@@ -36,7 +36,7 @@ export default function MultipleProducts() {
 
                         <div>
                             <div className="multipleProductsai">
-                                <img src="Images/ProductsPage/ProductsLogo/bottomfunnel team.png" alt='image'/>
+                                <img src="Images/ProductsPage/ProductsLogo/Bottomfunnel team.png" alt='image'/>
                             </div>
 
                             <p> Bottomfunnel Team </p>
@@ -66,7 +66,7 @@ export default function MultipleProducts() {
 
                         <div>
                             <div className="multipleProductsai">
-                                <img src="Images/ProductsPage/ProductsLogo/bottomfunnel sales.png" alt='image'/>
+                                <img src="Images/ProductsPage/ProductsLogo/Bottomfunnel sales.png" alt='image'/>
                             </div>
 
                             <p> Bottomfunnel Sales </p>
