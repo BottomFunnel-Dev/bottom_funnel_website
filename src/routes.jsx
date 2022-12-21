@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-// import { AlcoholDeliveryPage } from "./components/alcohol-delivery/AlcoholDeliveryPage";
+import { AlcoholDeliveryPage } from "./components/alcohol-delivery/AlcoholDeliveryPage";
 import { AndroidDevelopmentPage } from "./components/AndroidDevelopmentPage/AndroidDevelopmentPage";
 import Beautysection from "./components/Beautyandcare/Beautysection";
 import Cannabis from "./components/CannabisPage/Cannabis";
@@ -29,7 +29,7 @@ import Travel from "./components/Travel/Travel";
 import Videostreaming from "./components/Videostreaming/Videostreaming";
 import { Icecream } from "./components/Icecream/Icecream";
 import Escooter from "./components/Escooter/Escooter";
-// import Wellness from "./components/Wellness/Wellness";
+import Wellness from "./components/Wellness/Wellness";
 import { DigitalMarketing } from "./components/DigitaMarketing/DigitalMarketing";
 
 import {
@@ -166,6 +166,7 @@ import { TradingInvesting } from "./components/Trading-Investing-App-Page/Tradin
 import { KidsWear } from "./components/KidsWear/KidsWear";
 import { FunnelDesk } from "./components/FunnelDesk/FunnelDesk";
 import { TaxiBookingApp } from "./components/TaxiBookingApp/TaxiBookingApp.jsx";
+import { CarRental } from "./components/Car-Rental-page/CarRental";
 
 export const ALLroutes = () => {
   return (
@@ -304,7 +305,7 @@ export const ALLroutes = () => {
       <Route path="/travel" element={<Travel />} />
       <Route path="/videostreaming" element={<Videostreaming />} />
       <Route path="/dating" element={<Dating />} />
-      {/* <Route path="/alcohol" element={<AlcoholDeliveryPage />} /> */}
+      <Route path="/alcohol" element={<AlcoholDeliveryPage />} />
       <Route path="/cannabis" element={<Cannabis />} />
       <Route path="/Icecream" element={<Icecream />} />
       <Route path="/Products" element={<Products />} />
@@ -315,7 +316,7 @@ export const ALLroutes = () => {
 
 
       <Route path="/Logistics" element={<Logicstic />} />
-      {/* <Route path="/wellness" element={<Wellness />} /> */}
+      <Route path="/wellness" element={<Wellness />} />
       <Route path="/politics" element={<Politics />} />
       <Route path="/news" element={<News />} />
       <Route path="/pricing" element={<PricingPage />} />
@@ -397,6 +398,7 @@ export const ALLroutes = () => {
         path="/plant-based-meat-delivery-app"
         element={<PlantBasedMeat />}
       />
+      <Route path="/car-rentals" element={<CarRental/>} />
       <Route path="/mobile-user-experience" element={<MobileUiUxDesign />} />
       <Route
         path="/image-analysis-software"

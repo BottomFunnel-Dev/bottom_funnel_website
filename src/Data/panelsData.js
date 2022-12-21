@@ -640,7 +640,7 @@ export const wellnessPatient = {
         alt: "FindDoctor",
       },
       title: "Find a Doctor",
-      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
+      para: "A list of Healthcare Professionals appears, and users can Pick from the same to book  an online appointment.",
     },
     {
       img: {
@@ -648,7 +648,7 @@ export const wellnessPatient = {
         alt: "Appointments",
       },
       title: "Easy Appointments",
-      para: "Scheduling your next trip with Schedule. Just set up an appointment, and the logistics team will keep track of where your product is moving from. Whether it's a local drop-off or getting picked up curbside, we've got you covered.",
+      para: "The Healthcare app Development connects the user with the  medical professionals via audio, video, ot text. Also, the payment can be  made within the app.",
     },
     {
       img: {
@@ -656,7 +656,7 @@ export const wellnessPatient = {
         alt: "Doctor's Details",
       },
       title: "Doctor's Details",
-      para: "We offer multiple payment options that are safe and secure. With our platform, you can effortlessly add payments to your online shopping cart without worrying about credit card fraud or identity theft.",
+      para: "There are a variety of ways to find the information you need about doctors. You can use online resources, such as websites, or consult with friends, family members, or your doctor's office. ",
     },
 
     {
@@ -665,7 +665,7 @@ export const wellnessPatient = {
         alt: "LiveChat",
       },
       title: "In App live Chat",
-      para: "Track Order is the web development platform that gives you access to all of the shipping services available today. You can choose how you want your packages to be delivered, and whether you want it on a truck or with UPS.",
+      para: "We have a live chat service that lets you talk to a doctor directly from your computer. You can ask questions about health issues, get advice on diet and exercise, or just get help with any problem you're having.",
     },
   ],
   sectionTitle: "Patient App",
@@ -681,7 +681,7 @@ export const wellnessAdmin = {
         alt: "FindDoctor",
       },
       title: "Driver's Profile",
-      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
+      para: " A driver's profile should include information such as their years of experience, their driving record, and what type of vehicle they are most comfortable operating.",
     },
     {
       img: {
@@ -689,7 +689,7 @@ export const wellnessAdmin = {
         alt: "Appointments",
       },
       title: "Daily Earnings and Reports",
-      para: "Scheduling your next trip with Schedule. Just set up an appointment, and the logistics team will keep track of where your product is moving from. Whether it's a local drop-off or getting picked up curbside, we've got you covered.",
+      para: "Daily earnings and reports are an important part of any marketing campaign. By tracking your daily activity and performance, you can better understand where your efforts are going and make adjustments as needed.",
     },
     {
       img: {
@@ -697,7 +697,7 @@ export const wellnessAdmin = {
         alt: "Doctor's Details",
       },
       title: "Cutomer Order Details",
-      para: "We offer multiple payment options that are safe and secure. With our platform, you can effortlessly add payments to your online shopping cart without worrying about credit card fraud or identity theft.",
+      para: "Customer order detail may includes items such as item description price quantity required shipping information etc.",
     },
 
     {
@@ -706,7 +706,7 @@ export const wellnessAdmin = {
         alt: "LiveChat",
       },
       title: "Track Order",
-      para: "Track Order is the web development platform that gives you access to all of the shipping services available today. You can choose how you want your packages to be delivered, and whether you want it on a truck or with UPS.",
+      para: "you can use the tracking number provided by the carrier to follow the shipment progress. You can also use a delivery confirmation number or a tracking code sent via email to stay updated on your package's location and status.",
     },
   ],
   sectionTitle: "Admin Panel",
@@ -722,7 +722,7 @@ export const wellnessDoctor = {
         alt: "DoctorProfile",
       },
       title: "Doctor's Profile",
-      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
+      para: " A doctor's profile typically includes their education, experience, and licenses. It's also common to find information about the doctor's philosophy and practice preferences.",
     },
     {
       img: {
@@ -730,7 +730,7 @@ export const wellnessDoctor = {
         alt: "Appointments",
       },
       title: "Appointments Management",
-      para: "Scheduling your next trip with Schedule. Just set up an appointment, and the logistics team will keep track of where your product is moving from. Whether it's a local drop-off or getting picked up curbside, we've got you covered.",
+      para: "These systems allow doctors to manage their patients' appointments from a single location and automatically send reminders to patients and providers when an appointment is close.",
     },
     {
       img: {
@@ -738,7 +738,7 @@ export const wellnessDoctor = {
         alt: "PatientRecord",
       },
       title: "Patient Record",
-      para: "We offer multiple payment options that are safe and secure. With our platform, you can effortlessly add payments to your online shopping cart without worrying about credit card fraud or identity theft.",
+      para: "These systems allow doctors to manage their patients' appointments from a single location and automatically send reminders to patients and providers when an appointment is close.",
     },
 
     {
@@ -747,7 +747,7 @@ export const wellnessDoctor = {
         alt: "Prescription",
       },
       title: "Prescription",
-      para: "Track Order is the web development platform that gives you access to all of the shipping services available today. You can choose how you want your packages to be delivered, and whether you want it on a truck or with UPS.",
+      para: "Our team of experts can help guide you through the process step by step, so that you can get your medication as quickly and easily as possible. We also offer a variety of other services related to healthcare, such as coordinating doctor's appointments and filling prescriptions.",
     },
   ],
   sectionTitle: "Admin Panel",
