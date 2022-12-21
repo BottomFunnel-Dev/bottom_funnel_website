@@ -1,0 +1,58 @@
+.enterprise-banner {
+  width: 85%;
+  height: 100vh;
+  /* background-color: green; */
+  margin: auto;
+  display: flex;
+  padding: 20px;
+ 
+  
+}
+.enter-banner-text {
+  width: 50%;
+  height: 80vh;
+  /* background-color: gray; */
+  margin: auto;
+  position: relative;
+  
+}
+.enter-banner-text>div {
+  width: 80%;
+
+  margin: auto;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 53%;
+  left: 42%;
+  
+}
+.enter-banner-text>div>button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 60px;
+  background-color: #ef4c23;
+  border-radius: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: white;
+  margin-top: 5%;
+}
+.enter-banner-text>div>button:hover {
+
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #ef4c23;
+}
+
+.enter-banner {
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+}
+.enter-banner > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -5,39 +5,44 @@ import ContectForm from '../ContectForm/ContectForm'
 import { TextDropdown } from '../faqSection/Faqs'
 import MainFooter from '../FooterSection/MainFooter'
 import { Industries } from '../industries/Industries'
+import OndemandSection from '../OnDemandSection/OndemandSection'
 import PlanProject from '../PlanProject/PlanProject'
+import PortFolio from '../PortFolioSection/PortFolio'
 import Revamping from '../revamping/Revamping'
-import Trusted from '../SEO/SeoTrustedCompanies/Seotrusted'
 import { SeoblogSection } from '../SeoBlogs/Seoblogs'
 import StoriesSection from '../StoriesSection/StoriesSection'
-import Icecreamadminpanel from './Icecreamadminpanel'
-import Icecreamcustomer from './Icecreamcustomer'
-import { Icecreamdrive } from './Icecreamdrive'
-import { Icecreamsection } from './Icecreamsection'
-import { Icecreamsolution } from './Icecreamsolution'
-import { icecreamLogo } from '../../Data/SeopartnerData'
+import { IceCreamAdminPannel } from './IceCreamAdminPannel'
+import { IcecreamBanner } from './IcecreamBanner'
+import { IcecreamCSolution } from './IcecreamCSolution'
+import { IcecreamCustomerApp } from './IcecreamCustomerApp'
+import { IceCreamDriverApp } from './IceCreamDriverApp'
 
 export const Icecream = () => {
+
   const dispatch = useDispatch();
   useEffect(function () {
     dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
+
+
   return (
-    <div >
-      <Icecreamsection />
-      <Trusted partnerLogo={icecreamLogo} />
-      <Icecreamsolution />
-      <Icecreamcustomer />
-      <Icecreamadminpanel />
-      <Icecreamdrive />
-      <StoriesSection />
-      <PlanProject />
-      <Industries />
-      <Revamping />
-      <SeoblogSection />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+    <div>
+    <IcecreamBanner />
+    <IcecreamCSolution />
+    <IcecreamCustomerApp />
+    <IceCreamAdminPannel />
+    <IceCreamDriverApp />
+
+    <PortFolio />
+    <StoriesSection />
+    <Industries />
+    <PlanProject />
+    <OndemandSection />
+    <SeoblogSection />
+    <Revamping />
+    <TextDropdown />
+    <ContectForm />
+    <MainFooter />
     </div>
   )
 }

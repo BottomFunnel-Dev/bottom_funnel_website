@@ -1,48 +1,84 @@
-import React from "react";
-import "./Cannabiancustomer.css";
+import React from 'react'
+import { useState } from 'react'
+import "./Cannabiancustomer.css"
 
-export default function Cannabiscustomersection() {
+export const Cannabiscustomersection = () => {
+    
+  const [imageChange,setImageChange] =useState("Images/newcannabispage/Customer screens/Component 116.png")
+  const handleImageChange = (imagepath) => {
+    setImageChange(() => imagepath)
+ 
+ }
+ 
+ 
+ 
+    
+const canabiescustomerappdata = [
+    {
+        image:"Images/newcannabispage/Customer screens/sign up.png",
+        icon:"Images/newcannabispage/icons/image 15.png",
+        headertext:"Easy app onboarding",
+        paragraph:"Customize this Cannabis  App however you see fit with our powerful online app builder. You don’t need any design or coding experience",
+    },
+
+    {
+        image:"Images/newcannabispage/Customer screens/Component 116.png",
+        icon:"Images/newcannabispage/icons/image 16.png",
+        headertext:"Browse By Categories",
+        paragraph:"Cannabies is important to many people. They use it for more than eating and as a source of dessert. Many people like ice cream in cooking, like pancakes or cupcakes. Ice cream also provides a cooling sensation and can help digestion.",
+    },
+
+    {
+        image:"Images/newcannabispage/Customer screens/messages.png",
+        icon:"Images/newcannabispage/icons/image 18.png",
+        headertext:"In App Chat",
+        paragraph:"Less time spent in the ordering process means better user experience. Let your app users pay easily using multiple payment options so as to improve their overall app experience.",
+    },
+
+    {
+        image:"Images/newcannabispage/Customer screens/order tracking.png",
+        icon:"Images/newcannabispage/icons/image 17.png",
+        headertext:"Track Order",
+        paragraph:"Better pricing doesn’t always have to be dropping your prices instantly. It’s somehow psychological in nature. There’s a subtle art to make it appear that you’re offering a better price without sacrificing your bottom-line."
+
+      
+    },
+]
+
+
   return (
-    <div className="Cannabiscustomersection">
-      <div className="Cannabissubcustomer">
-        <div className="Cannabissubcustomerleft">
-          <div className="heartimage">
-            <img src="Images/CannabisDevApp/banner& backgrounds/banner2.png" />
-          </div>
-          <div className="heartmobile">
-            <img src="Images/CannabisDevApp/Customerscreens/Component.png" />
-          </div>
-        </div>
-        <div className="Cannabissubcustomerright">
-          <div>
-            <h1>Customer App</h1>
-            <div className="cannabisCustomerContent">
-               <div className="cannabisCustomerContentDiv">
-                  <img src="Images/CannabisDevApp/icons/easy.png"/>
-                  <h4>Easy App Onboarding</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem odio suscipit quas nihil asperiores consequatur.</p>
-               </div>
-               <div className="cannabisCustomerContentDiv">
-                  <img src="Images/CannabisDevApp/icons/Categories.png"/>
-                  <h4>Browse By Categories</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem odio suscipit quas nihil asperiores consequatur.</p>
-               </div>
-            </div>
-            <div className="cannabisCustomerContent">
-               <div className="cannabisCustomerContentDiv">
-                  <img src="Images/CannabisDevApp/icons/chat.png"/>
-                  <h4>In App Chat</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem odio suscipit quas nihil asperiores consequatur.</p>
-               </div>
-               <div className="cannabisCustomerContentDiv">
-                  <img src="Images/CannabisDevApp/icons/order.png"/>
-                  <h4>Track Order</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem odio suscipit quas nihil asperiores consequatur.</p>
-               </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className='cannbiescustomerappmainboxes'>
+   
+    <h2>Customer App</h2>
+    <div className='cannbiesdeliveryappflexingbox'>
+    <div className='cannabiesdeliveryappflexingboxleftbox'>
+    <div className='cannabiesdeliveryappleftboxinsiderupperimage'>
+    <img src={imageChange} alt='' />
     </div>
-  );
+    </div>
+    <div className='cannbiesdeliveryappflexingboxrightbox'>{canabiescustomerappdata.map((e)=>{
+        return (
+            <div className='cannabiesdeliveryappindivisualbox'
+            key={e.htxt} onMouseEnter={() => {
+            
+                handleImageChange(e.image)
+            }}
+            
+            >
+            <div className='cannbiesdeliveryappindivisualboxforlogo'>
+            <img src={e.icon} alt='' />
+            </div>
+            <div className='icecreamdeliveryappindivisualboxfortext'>
+            <h4>{e.headertext}</h4>
+            <p>{e.paragraph}</p>
+            </div>
+            
+            </div>
+        )
+    })}</div>
+    
+    
+    </div>
+    </div>
+  )
 }

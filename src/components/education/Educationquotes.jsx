@@ -5,7 +5,7 @@ export default function Educationquotes() {
   return (
     <div className='productcontainer'>
 
-        <div className='szproduct'>
+      <div className='szproduct'>
         <div className='szproductleft'>
            <h1>Student Application</h1>
            <p> Enhance your students’ learning journey with an easy-to-understand education app.</p>
@@ -19,24 +19,24 @@ export default function Educationquotes() {
               <p>Recorded/Live lectures and study notes </p>
             </div>
 
-            {/* ///////////2//////// */}
-            <div className='quotesflex'>
-              <div className='quotescircle'>
-                 <div   className="correct"><img src="Images/education/correct.png"/></div> 
-                 
-              </div>
-              <p>Track course progress</p>
-            </div>
+          {/* ///////////2//////// */}
+          <div className='quotesflex'>
+            <div className='quotescircle'>
+              <div className="correct"><img src="Images/education/correct.png" /></div>
 
-            {/* /////////////3///////////// */}
-             <div className='quotesflex'>
-              <div className='quotescircle'>
-                 <div  className="correct"><img src="Images/education/correct.png"/></div> 
-                 
-              </div>
-              <p>Doubt discussion platform </p>
             </div>
-            
+            <p>Track course progress</p>
+          </div>
+
+          {/* /////////////3///////////// */}
+          <div className='quotesflex'>
+            <div className='quotescircle'>
+              <div className="correct"><img src="Images/education/correct.png" /></div>
+
+            </div>
+            <p>Doubt discussion platform </p>
+          </div>
+
         </div>
 
         <div className='szproductright'>
@@ -48,10 +48,10 @@ export default function Educationquotes() {
              
            
         </div>
-        
-        </div>
 
-           {/* //////tab/////// */}
+      </div>
+
+      {/* //////tab/////// */}
 
         <div className='szproduct'>
           <div className='szproductright'>
@@ -59,70 +59,70 @@ export default function Educationquotes() {
              <div  className='sztabletcase'>    <img  src="Images/education/teblate.png"/></div>
              <div className="szteblateadmin"> <img src='Images/education/teblateadmin.png' /></div>    
         </div>
-          <div className='szproductleft'>
-            <h1>Tutor dashboard</h1>
-            <p>Provide your tutor the ease to manage tutoring, connect with students, see their progress,etc. in one screen.</p>
-            <div className='quotesflex'>
-              <div className='quotescircle'>
-               <div  className="correct"><img src="Images/education/correct.png"/> </div> 
-                
-                 
-              </div>
-              <p>Manage students’ attendance and progress </p>
-            </div>
+        <div className='szproductleft'>
+          <h1>Tutor dashboard</h1>
+          <p>Provide your tutor the ease to manage tutoring, connect with students, see their progress,etc. in one screen.</p>
+          <div className='quotesflex'>
+            <div className='quotescircle'>
+              <div className="correct"><img src="Images/education/correct.png" /> </div>
 
-            {/* ///////////2//////// */}
-            <div className='quotesflex'>
-              <div className='quotescircle'>
-                 <div   className="correct"><img src="Images/education/correct.png"/></div> 
-                 
-              </div>
-              <p> Interact with students </p>
-            </div>
 
-            {/* /////////////3///////////// */}
-             <div className='quotesflex'>
-              <div className='quotescircle'>
-                 <div  className="correct"><img src="Images/education/correct.png"/></div> 
-                 
-              </div>
-              <p>Studying platform for revising before tutoring </p>
             </div>
-            
+            <p>Manage students’ attendance and progress </p>
+          </div>
+
+          {/* ///////////2//////// */}
+          <div className='quotesflex'>
+            <div className='quotescircle'>
+              <div className="correct"><img src="Images/education/correct.png" /></div>
+
+            </div>
+            <p> Interact with students </p>
+          </div>
+
+          {/* /////////////3///////////// */}
+          <div className='quotesflex'>
+            <div className='quotescircle'>
+              <div className="correct"><img src="Images/education/correct.png" /></div>
+
+            </div>
+            <p>Studying platform for revising before tutoring </p>
+          </div>
+
         </div>
-        </div>
-        {/* ////////mobile/////// */}
-         <div  className='szproduct'>
-         <div className='szproductleft'>
+      </div>
+      {/* ////////mobile/////// */}
+      <div className='szproduct'>
+        <div className='szproductleft'>
           <h1>Admin panel</h1>
           <p>Manage all the activities of business from students to tutors to finance at one platform.</p>
-            <div className='quotesflex'>
-              <div className='quotescircle'>
-               <div  className="correct"><img src="Images/education/correct.png"/> </div> 
-                
-                 
-              </div>
-              <p> Supervise all students and tutors </p>
-            </div>
+          <div className='quotesflex'>
+            <div className='quotescircle'>
+              <div className="correct"><img src="Images/education/correct.png" /> </div>
 
-            {/* ///////////2//////// */}
-            <div className='quotesflex'>
-              <div className='quotescircle'>
-                 <div   className="correct"><img src="Images/education/correct.png"/></div> 
-                 
-              </div>
-              <p>Manage payments</p>
-            </div>
 
-            {/* /////////////3///////////// */}
-             <div className='quotesflex'>
-              <div className='quotescircle'>
-                 <div  className="correct"><img src="Images/education/correct.png"/></div> 
-                 
-              </div>
-              <p>Auto-generated analytical graphs</p>
             </div>
-            
+            <p> Supervise all students and tutors </p>
+          </div>
+
+          {/* ///////////2//////// */}
+          <div className='quotesflex'>
+            <div className='quotescircle'>
+              <div className="correct"><img src="Images/education/correct.png" /></div>
+
+            </div>
+            <p>Manage payments</p>
+          </div>
+
+          {/* /////////////3///////////// */}
+          <div className='quotesflex'>
+            <div className='quotescircle'>
+              <div className="correct"><img src="Images/education/correct.png" /></div>
+
+            </div>
+            <p>Auto-generated analytical graphs</p>
+          </div>
+
         </div>
 
         <div className='szproductright'>
@@ -133,9 +133,9 @@ export default function Educationquotes() {
           </div>
         </div>
 
-         </div>
- 
-        
+      </div>
+
+
     </div>
   )
 }

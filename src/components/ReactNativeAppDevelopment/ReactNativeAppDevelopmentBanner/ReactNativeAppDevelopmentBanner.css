@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 120px;
   }
 
 
@@ -29,7 +30,7 @@
   .ReactNativeAppDevelopmentbannermainboxinnertextdiv > p {
     color: white;
     margin-top: 7%;
-    font-size: 18px;
+    font-size: 16px;
     /* font-weight: 500; */
   }
   

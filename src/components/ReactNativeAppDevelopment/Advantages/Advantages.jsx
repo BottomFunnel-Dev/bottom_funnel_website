@@ -9,7 +9,7 @@ export const Advantages = () => {
                 <div className='innermaindiv4-1stdivbox'>
                     <div className='ios1stdivbox'>
                 <div>
-                    <img src='/publicImages/reactnativephotos/analyse 1.png' alt='logo'></img>
+                    <img src='/public/Images/reactnativephotos/analyse 1.png' alt='logo'></img>
                     </div>
                  <div><h3>Rigorous Requirement Analysis</h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam cupiditate 
@@ -18,7 +18,7 @@ export const Advantages = () => {
                  </div>
                  <div className='ios1stdivbox'>
                  <div>
-                    <img src='/publicImages/reactnativephotos/interest-rate 1.png' alt='logo'></img>
+                    <img src='/public/Images/reactnativephotos/interest-rate 1.png' alt='logo'></img>
                     </div>
                  <div><h3>Rigorous Requirement Analysis</h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam cupiditate 
@@ -29,7 +29,7 @@ export const Advantages = () => {
                  <div className='innermaindiv4-1stdivbox'>
                  <div className='ios1stdivbox'>
                 <div>
-                    <img src='/publicImages/reactnativephotos/app-development (2) 1.png' alt='logo'></img>
+                    <img src='/public/Images/reactnativephotos/app-development (2) 1.png' alt='logo'></img>
                     </div>
                  <div><h3>Rigorous Requirement Analysis</h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam cupiditate 
@@ -38,7 +38,7 @@ export const Advantages = () => {
                  </div>
                  <div className='ios1stdivbox'>
                  <div>
-                    <img src='/publicImages/reactnativephotos/agile (2) 1.png' alt='logo'></img>
+                    <img src='/public/Images/reactnativephotos/agile (2) 1.png' alt='logo'></img>
                     </div>
                  <div><h3>Rigorous Requirement Analysis</h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam cupiditate 
@@ -71,7 +71,7 @@ export const Advantages = () => {
                 <div className='nativeinnermaindiv4-boxdiv1stcolum' >
                  <div className='reactnativeinnermaindiv4-row'>
                  <div className='rndivbox'>
-                    <img src='Images/ReactNativeDevelopement/lightbulb.png' alt='logo'  className='rnimag'></img>
+                    <img src='public/Images/ReactNativeDevelopement/lightbulb.png' alt='logo'  className='rnimag'></img>
                     </div>
                     <h4>Watch Your App Idea Growing </h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -80,7 +80,7 @@ export const Advantages = () => {
                  </div>
                  <div className='reactnativeinnermaindiv4-row'>
                  <div className='rndivbox'>
-                    <img src='Images/ReactNativeDevelopement/lightbulb-1.png' alt='logo'  className='rnimag'></img>
+                    <img src='public/Images/ReactNativeDevelopement/lightbulb-1.png' alt='logo'  className='rnimag'></img>
                     </div>
                     <h4>Watch Your App Idea Growing </h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -89,7 +89,7 @@ export const Advantages = () => {
                  </div>
                  <div className='reactnativeinnermaindiv4-row'>
                  <div className='rndivbox'>
-                    <img src='Images/ReactNativeDevelopement/lightbulb-2.png' alt='logo' className='rnimag'></img>
+                    <img src='public/Images/ReactNativeDevelopement/lightbulb-2.png' alt='logo' className='rnimag'></img>
                     </div>
                     <h4>Watch Your App Idea Growing </h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -100,7 +100,7 @@ export const Advantages = () => {
                 <div className='nativeinnermaindiv4-boxdiv1stcolum' >
                  <div className='reactnativeinnermaindiv4-row'>
                  <div className='rndivbox'>
-                    <img src='Images/ReactNativeDevelopement/lightbulb-7.png' alt='logo'  className='rnimag'></img>
+                    <img src='public/Images/ReactNativeDevelopement/lightbulb-7.png' alt='logo'  className='rnimag'></img>
                     </div>
                     <h4>Watch Your App Idea Growing </h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -109,7 +109,7 @@ export const Advantages = () => {
                  </div>
                  <div className='reactnativeinnermaindiv4-row'>
                  <div className='rndivbox'>
-                    <img src='Images/ReactNativeDevelopement/lightbulb-8.png' alt='logo'  className='rnimag'></img>
+                    <img src='public/Images/ReactNativeDevelopement/lightbulb-8.png' alt='logo'  className='rnimag'></img>
                     </div>
                     <h4>Watch Your App Idea Growing </h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -118,7 +118,7 @@ export const Advantages = () => {
                  </div>
                  <div className='reactnativeinnermaindiv4-row'>
                  <div className='rndivbox'>
-                    <img src='Images/ReactNativeDevelopement/lightbulb-3.png' alt='logo'  className='rnimag' ></img>
+                    <img src='public/Images/ReactNativeDevelopement/lightbulb-3.png' alt='logo'  className='rnimag' ></img>
                     </div>
                     <h4>Watch Your App Idea Growing </h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -132,7 +132,7 @@ export const Advantages = () => {
                     
                  <div className='reactnativeinnermaindiv4-row'>
                  <div className='rndivbox'>
-                    <img src='Images/ReactNativeDevelopement/lightbulb-6.png' alt='logo'  className='rnimag'></img>
+                    <img src='public/Images/ReactNativeDevelopement/lightbulb-6.png' alt='logo'  className='rnimag'></img>
                     </div>
                     <h4>Watch Your App Idea Growing </h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -141,7 +141,7 @@ export const Advantages = () => {
                  </div>
                  <div className='reactnativeinnermaindiv4-row'>
                  <div className='rndivbox'>
-                    <img src='Images/ReactNativeDevelopement/lightbulb-5.png' alt='logo'  className='rnimag'></img>
+                    <img src='public/Images/ReactNativeDevelopement/lightbulb-5.png' alt='logo'  className='rnimag'></img>
                     </div>
                     <h4>Watch Your App Idea Growing </h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -150,7 +150,7 @@ export const Advantages = () => {
                  </div>
                  <div className='reactnativeinnermaindiv4-row'>
                     <div className='rndivbox'>
-                    <img src='Images/ReactNativeDevelopement/lightbulb-4.png' alt='logo'  className='rnimag'></img>
+                    <img src='public/Images/ReactNativeDevelopement/lightbulb-4.png' alt='logo'  className='rnimag'></img>
                     </div>
                     <h4>Watch Your App Idea Growing </h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -174,7 +174,7 @@ export const Advantages = () => {
                 <div className='rnativeinnermaindiv4-1stdivbox'>
                     <div className='rn1stdivbox'>
                 <div className='rnlogo'>
-                    <img src='Images/ReactNativeDevelopement/platform 2.png' alt='logo' className='rnlogoimg'></img>
+                    <img src='public/Images/ReactNativeDevelopement/platform 2.png' alt='logo' className='rnlogoimg'></img>
                     </div>
                  <div><h3>Rigorous Requirement Analysis</h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam cupiditate 
@@ -183,7 +183,7 @@ export const Advantages = () => {
                  </div>
                  <div className='rn1stdivbox'>
                  <div className='rnlogo'>
-                    <img src='Images/ReactNativeDevelopement/approved 2.png' alt='logo' className='rnlogoimg'></img>
+                    <img src='public/Images/ReactNativeDevelopement/approved 2.png' alt='logo' className='rnlogoimg'></img>
                     </div>
                  <div><h3>Rigorous Requirement Analysis</h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam cupiditate 
@@ -194,7 +194,7 @@ export const Advantages = () => {
                  <div className='rnativeinnermaindiv4-1stdivbox'>
                  <div className='rn1stdivbox'>
                  <div className='rnlogo'>
-                    <img src='Images/ReactNativeDevelopement/app-development (2) 2.png' alt='logo' className='rnlogoimg'></img>
+                    <img src='public/Images/ReactNativeDevelopement/app-development (2) 2.png' alt='logo' className='rnlogoimg'></img>
                     </div>
                  <div><h3>Rigorous Requirement Analysis</h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam cupiditate 
@@ -203,7 +203,7 @@ export const Advantages = () => {
                  </div>
                  <div className='rn1stdivbox'>
                  <div className='rnlogo'>
-                    <img src='Images/ReactNativeDevelopement/technical-support 2.png' alt='logo' className='rnlogoimg'></img>
+                    <img src='public/Images/ReactNativeDevelopement/technical-support 2.png' alt='logo' className='rnlogoimg'></img>
                     </div>
                  <div><h3>Rigorous Requirement Analysis</h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam cupiditate 

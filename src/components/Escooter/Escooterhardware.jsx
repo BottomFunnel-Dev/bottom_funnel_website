@@ -25,7 +25,7 @@ export const Escooterhardware = () => {
         <div className='szescooterhardwaresub'>
         <div className='szescooterhardwareleft'>
         <div className='szescooterhardwarscooter'>
-               <img src="Images/Escooter/escooters.png"/>
+               <img src="Images/Escooter/escooters.png" alt='imagescycle'/>
                </div>
              
       </div>

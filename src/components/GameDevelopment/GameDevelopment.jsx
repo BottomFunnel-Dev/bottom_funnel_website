@@ -29,6 +29,8 @@ export const GameDevelopment = () => {
     dispatch(ChnageNavbarColor({ color: "white", logo: true }));
   }, []);
 
+
+  
   return (
     <div>
       <GameDevelopmentBanner />

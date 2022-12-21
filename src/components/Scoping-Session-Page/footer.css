@@ -3,10 +3,20 @@
   justify-content: center;
   align-items: center;
   padding-top: 20%;
+  position: relative;
+  /* border: 1px solid red; */
 }
 
-.RGfooterImg {
+.RGfooterImage {
+  border: 1px solid black;
   position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.RGfooterImage img{
+  width: 100%;
+  object-fit: cover;
 }
 
 .RGfooterText {

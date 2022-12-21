@@ -4,38 +4,40 @@ import "./Cannabissolution.css";
 export default function Cannabissolution() {
   const cannabisSolution = [
     {
-      //    img:"Images/cannabisPhotos/icons/Socialmedia.png",
+     
       p: " Social media Integration",
     },
     {
-      img: "Images/cannabisPhotos/icons/payment.png",
+      img: "Images/cannabisPhotos/payment.png",
       p: "Documents sharing",
     },
     {
-      img: "Images/cannabisPhotos/icons/reportsanalytics.png",
+      img: "Images/cannabisPhotos/reportsanalytics.png",
       p: "Sign up/log in",
     },
     {
-      img: "Images/cannabisPhotos/icons/option.png",
+      img: "Images/cannabisPhotos/option.png",
       p: "Ratings",
     },
     {
-      img: "Images/cannabisPhotos/icons/Hand.png",
+      img: "Images/cannabisPhotos/CoininHand.png",
       p: " Parental control",
     },
     {
-      img: "Images/cannabisPhotos/icons/Speaker.png",
+      img: "Images/cannabisPhotos/Speaker.png",
       p: "Live Streaming",
     },
   ];
 
+  
+ 
+  
+  
+ 
   return (
     <div className="szmedicalsolution">
       <div className="szmedicalheading">
-        {/* <div className="szrectanglebg">
-          {" "}
-          <img src="Images/CannabisDevApp/icons/solutionrectanglebg.png" />{" "}
-        </div> */}
+      
         <h2> Medical Cannabis Delivery Solution</h2>
         <p>
           Deliver Medical Cannabis to users all around the world and make
@@ -46,77 +48,70 @@ export default function Cannabissolution() {
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src=" Images/CannabisDevApp/icons/Location.png" />{" "}
+              <img src=" Images/newcannabispage/icons/Location.png" />{" "}
             </div>
             <h5>Real-Time Tracking</h5>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            voluptas quaerat, molestiae harum at delectus minus temporibus{" "}
+          Track your drivers in real-time, analyze their performance, and improve your business processes to streamline deliveries using a robust admin panel.{" "}
           </p>
         </div>
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src="Images/CannabisDevApp/icons/DebitCard.png" />{" "}
+              <img src="Images/newcannabispage/icons/Debit Card.png" />{" "}
             </div>
             <h5>Multiple Payment Option</h5>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            voluptas quaerat, molestiae harum at delectus minus temporibus{" "}
+          Less time spent in the ordering process means better user experience. Let your app users pay easily multiple payment improve their overall app experience.{" "}
           </p>
         </div>
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src=" Images/CannabisDevApp/icons/ConclusionContract.png" />{" "}
+              <img src=" Images/newcannabispage/icons/Conclusion Contract.png" />{" "}
             </div>
-            <h5>Reports and Analytics</h5>
+            <h5> Reports and Analytics</h5>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            voluptas quaerat, molestiae harum at delectus minus temporibus{" "}
+          Use the app's in-built advanced analytics to see and analyze how your business is performing. Identify problems and make informed decisions to grow your sales.{" "}
           </p>
         </div>
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src="Images/CannabisDevApp/icons/List.png" />{" "}
+              <img src="Images/newcannabispage/icons/List.png" />{" "}
             </div>
             <h5>Manage Orders</h5>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            voluptas quaerat, molestiae harum at delectus minus temporibus{" "}
+          Avoid messy ordering processes and long queues with our Pizza Delivery service app. Manage everything while sitting at your home with a robust Admin Panel.{" "}
           </p>
         </div>
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src="Images/CannabisDevApp/icons/Hand.png" />{" "}
+              <img src="Images/newcannabispage/icons/Coin in Hand.png" />{" "}
             </div>
-            <h5>Bettter ROI</h5>
+            <h5>Better ROI</h5>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            voluptas quaerat, molestiae harum at delectus minus temporibus{" "}
+          Make effective strategies by using features like Push Notifications and provide real-time updates to your customers about new deals to increase your ROI.{" "}
           </p>
         </div>
         <div>
           <div className="greybg">
             <div className="szlocation">
-              <img src="Images/CannabisDevApp/icons/Speaker.png" />{" "}
+              <img src="Images/newcannabispage/icons/Speaker.png" />{" "}
             </div>
-            <h5>Promotes Bussiness Effectively</h5>
+            <h5> Promote Business Effectively</h5>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            voluptas quaerat, molestiae harum at delectus minus temporibus{" "}
+          Provide your customer loyalty bonuses, introduce referrals and do a lot more to promote your business using all-in-one robust admin panel.{" "}
           </p>
         </div>
       </div>
     </div>
   );
 }
-

@@ -16,6 +16,9 @@ import Wellnesscontainer from "./Wellnesscontainer";
 import Wellnessdoctor from "./Wellnessdoctor";
 import Wellnesshealthcare from "./Wellnesshealthcare";
 import Wellnesspatient from "./Wellnesspatient";
+import { WellnessPatient } from "./WellnessPatient/WellnessPatient";
+import { WellnessDoctor } from "./WellnessDoctor/WellnessDoctor";
+import { WellnessAdmin } from "./WellnessAdmin/WellnessAdmin";
 
 export default function Wellness() {
   const dispatch = useDispatch();
@@ -25,11 +28,14 @@ export default function Wellness() {
   return (
     <div>
       <Wellnesscontainer />
+      <WellnessPatient/>
+      <WellnessDoctor/>
+      <WellnessAdmin/>
       <Wellnesshealthcare />
-      <Wellnessconnect />
+      {/* <Wellnessconnect />
       <Wellnesspatient />
       <Wellnessdoctor />
-      <Wellnessadmin />
+      <Wellnessadmin /> */}
       <StoriesSection />
       <Industries />
       <PlanProject />

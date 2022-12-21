@@ -38,11 +38,12 @@
     color:#ef4c23;
 }
 .circle{
-    height:440px;
-    width: 64%;
+    height:550px;
+    width: 80%;
     position: absolute;
     margin-left: 25%;
     z-index: 0;
+    /* border: 2px solid red; */
 }
 .circle>img{
     width: 100%;

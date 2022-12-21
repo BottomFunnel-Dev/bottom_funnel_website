@@ -26,6 +26,7 @@ export const AndriodServices = () => {
                           </p> 
                         </div>
                     </div>
+
                     <div className="andriodServicesContainerBoxes">
                         <div className="andriodServiceBoxIcon">
                             <img className="andriodServiceImage" src="Images/AndriodDevImages/icons/Rectangle 4479.png"/>
@@ -37,6 +38,7 @@ export const AndriodServices = () => {
                            <p> Our creative Android UI/UX designers can create interactive UI designs that enhance the user experience of Android applications.</p>
                         </div>
                     </div>
+
                     <div className="andriodServicesContainerBoxes">
                         <div className="andriodServiceBoxIcon">
                             <img className="andriodServiceImage" src="Images/AndriodDevImages/icons/Rectangle 4480.png"/>
@@ -50,6 +52,7 @@ export const AndriodServices = () => {
                     </div>
                     
                 </div>
+
                 <div className="andriodServiceBox">
                     <div className="andriodServicesContainerBoxes">
                         <div className="andriodServiceBoxIcon">
@@ -64,6 +67,7 @@ export const AndriodServices = () => {
                           </p> 
                         </div>
                     </div>
+                    
                     <div className="andriodServicesContainerBoxes">
                         <div className="andriodServiceBoxIcon">
                             <img className="andriodServiceImage" src="Images/AndriodDevImages/icons/social-care 2.png"/>
@@ -75,6 +79,7 @@ export const AndriodServices = () => {
                            <p>Our Android app maintenance services keep your application supported and running smoothly by monitoring it and providing support for app store issues.</p>
                         </div>
                     </div>
+                    
                     <div className="andriodServicesContainerBoxes">
                         <div className="andriodServiceBoxIcon">
                             <img className="andriodServiceImage" src="Images/AndriodDevImages/icons/app-development 2.png"/>

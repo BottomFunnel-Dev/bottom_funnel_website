@@ -7,15 +7,6 @@ export const AiContentTextOnly = () => {
     const aicontenttextdata = [
      
 
-     
-
-
-
-
-    
-
-
-
         {
             logo:"",
             htxt:"75+ Languages",

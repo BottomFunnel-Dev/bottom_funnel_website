@@ -32,3 +32,12 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
 }
+
+.whyTechFeaturesCard-box:hover {
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-15px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

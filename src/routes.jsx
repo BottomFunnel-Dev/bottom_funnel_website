@@ -27,7 +27,7 @@ import { SeoDm } from "./components/SeoDigitalmarketing/SeoDm";
 import { SkillsComPage } from "./components/skillsPageCom/SkillsComPage";
 import Travel from "./components/Travel/Travel";
 import Videostreaming from "./components/Videostreaming/Videostreaming";
-import { Icecream } from "./components/Icecream/Icecream";
+import { Icecream } from "./components/Icecream/Icecream"; 
 import Escooter from "./components/Escooter/Escooter";
 import Wellness from "./components/Wellness/Wellness";
 import { DigitalMarketing } from "./components/DigitaMarketing/DigitalMarketing";
@@ -166,6 +166,7 @@ import { TradingInvesting } from "./components/Trading-Investing-App-Page/Tradin
 import { KidsWear } from "./components/KidsWear/KidsWear";
 import { FunnelDesk } from "./components/FunnelDesk/FunnelDesk";
 import { TaxiBookingApp } from "./components/TaxiBookingApp/TaxiBookingApp.jsx";
+import { EnterpriseDesk } from "./components/EnterpriseDesk/EnterpriseDesk";
 
 export const ALLroutes = () => {
   return (
@@ -311,9 +312,6 @@ export const ALLroutes = () => {
       <Route path="/eScooter" element={<Escooter />} />
       {/* <Route path="/taxi-booking" element={<Taxibooking />} /> */}
       <Route path="/taxi-booking" element={<TaxiBookingApp />} />
-
-
-
       <Route path="/Logistics" element={<Logicstic />} />
       <Route path="/wellness" element={<Wellness />} />
       <Route path="/politics" element={<Politics />} />
@@ -386,8 +384,10 @@ export const ALLroutes = () => {
       <Route path="/website-builder-app" element={<WebsiteBuilderApp />} />
       <Route path="/meat-delivery-app" element={<MeatDeliveryApp />} />
       <Route path="/app-builder-solutions" element={<AppBuilderSoltion />} />
-      <Route path="/online-paymentapp-solution" element={<OnlinePaymentAppSolution />} />
-
+      <Route
+        path="/online-paymentapp-solution"
+        element={<OnlinePaymentAppSolution />}
+      />
       <Route
         path="/wearable-app-development"
         element={<WearableAppDevelopment />}
@@ -411,7 +411,8 @@ export const ALLroutes = () => {
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
       <Route path="/funnel-desk" element={<FunnelDesk />} />
-
+      <Route path="/product-enterprise" element={<EnterpriseDesk />} />
+      
     </Routes>
   );
 };

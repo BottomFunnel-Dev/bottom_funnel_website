@@ -24,6 +24,8 @@
   background: url("/public/Images/pickup/backgrounds/customerappbg.png");
   background-size: contain;
   background-repeat: no-repeat;
+
+  margin-top: 5%;
 }
 
 /* .pickupcustomer>h1{
@@ -37,6 +39,7 @@ padding: 0 30px;
   transform: translate(-50%, -50%);
   top: 43%;
   left: 42%;
+ 
 }
 .variableImg > img {
   width: 160%;
@@ -70,6 +73,7 @@ padding: 0 30px;
   text-align: left;
   /* border: 1px solid red; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 
 .pickupcustomercard:hover {

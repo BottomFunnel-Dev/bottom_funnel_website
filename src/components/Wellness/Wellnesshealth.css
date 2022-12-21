@@ -1,7 +1,8 @@
 .Wellnesshealthcare{
     width: 90%;
-    /* margin-top: 7%; */
+    /* margin-top: 1%; */
     height:550px;
+    /* border: 2px solid red; */
     margin: auto;
     /* background-color: rgb(108, 10, 87); */
 }
@@ -10,7 +11,7 @@
     height:500px;
     display: flex;
     margin: auto;
-    background: url("/public/Images/Wellness/bluedesign.png");
+    /* background: url("/public/Images/Wellness/bluedesign.png"); */
     background-repeat: no-repeat;
     background-size: 100% 300px;
     background-position: 10%;
@@ -45,4 +46,12 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+.WellnesshealthcareButton{
+    background-color: #03ACF2;
+    color: white;
+    border: none;
+    width: 23%;
+    height: 45px;
+    border-radius: 8px;
 }

@@ -1,16 +1,17 @@
 .aicontenttextonlymainboxes{
-    height: 100vh;
-
+    height: fit-content;
+ 
     width: 60%;
     margin: auto;
 }
 
 .aicontenttextbox1{
-    height: 25%;
+    height: fit-content;
     width: 100%;
-
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
     margin-top: 2%;
+    border-radius: 10px;
 }
 
 .aicontenttextbox1:hover{
@@ -21,7 +22,7 @@
     height: fit-content;
     width: 80%;
   padding: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ 
 margin-top: 3%;
 }
 
@@ -29,7 +30,7 @@ margin-top: 3%;
     height: fit-content;
     width: 70%;
   padding: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
  margin-top: 5%;
 }
 
@@ -50,9 +51,10 @@ margin-top: 3%;
 .aicontenttextbox2{
     height: 30%;
     width: 100%;
-
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
     margin-top: 2%;
+    border-radius: 10px;
 }
 
 .aicontenttextbox2:hover{

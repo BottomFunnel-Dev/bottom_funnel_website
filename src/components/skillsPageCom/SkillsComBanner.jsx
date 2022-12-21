@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SkillsComBanner.css";
+
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Modal from "@mui/material/Modal";
+import { PopupForm } from "../PopupForm/PopupForm";
 
 export const SkillsComBanner = ({ data }) => {
   const { image, title, description } = data;
+  const color = "green";
 
   return (
     <div

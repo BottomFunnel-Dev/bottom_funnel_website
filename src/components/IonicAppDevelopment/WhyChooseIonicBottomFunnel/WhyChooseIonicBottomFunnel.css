@@ -1,45 +1,58 @@
-.ionicBottomFunnelMainContainer{
-    /* border: 2px solid red; */
-    width: 100%;
-    margin-bottom: 1%;
-    /* height: 100vh; */
+.ionicBottomFunnelMainContainer {
+  /* border: 2px solid red; */
+  width: 100%;
+  margin-bottom: 1%;
+  /* height: 100vh; */
 }
-.ionicBottomFunnelHeadingContainer{
-    /* border: 2px solid red; */
-    width: 80%;
-    height: 25vh;
-    padding: 3%;
+.ionicBottomFunnelHeadingContainer {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 25vh;
+  padding: 3%;
 }
-.ionicBottomFunnelContainer{
-    /* border: 2px solid red; */
-    width: 98%;
-    display: flex;
-    flex-direction: column;
-    /* height: 40vh; */
+.ionicBottomFunnelContainer {
+  /* border: 2px solid red; */
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  /* height: 40vh; */
 }
-.ionicBottomFunnelBox{
-    /* border: 2px solid red; */
-    width:100%;
-    /* height: 32vh; */
-    display: flex;
-    flex-direction: row;
-    margin-top: 2%;
+.ionicBottomFunnelBox {
+  /* border: 2px solid red; */
+  width: 100%;
+  /* height: 32vh; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
 }
-.ionicBottomFunnelDetails{
-    /* border: 2px solid gold; */
-    width: 30%;
-    /* height: 32vh; */
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 10px;
-    padding: 1%;
-    margin-left: 3%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.ionicBottomFunnelDetails {
+  /* border: 2px solid gold; */
+  width: 30%;
+  /* height: 32vh; */
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1%;
+  margin-left: 3%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.ionicBottomFunnelDetailsImage{
-    /* border: 2px solid red; */
-    width: 50px;
-    height: 50px;
-    margin: 2%;
+
+.ionicBottomFunnelDetails:hover {
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-15px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #ef4c23;
+  color: white;
+}
+
+.ionicBottomFunnelDetailsImage {
+  /* border: 2px solid red; */
+  width: 50px;
+  height: 50px;
+  margin: 2%;
+  object-fit: contain;
 }

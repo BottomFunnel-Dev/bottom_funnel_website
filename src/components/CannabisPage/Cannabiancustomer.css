@@ -1,105 +1,79 @@
-.Cannabiscustomersection{
-  width:100%;
-  /* background-color: blue; */
-  height: 600px;
-}
-.Cannabissubcustomer{
- width: 90%;
- height: 550px;
- margin: auto;
- display: flex;
- /* background-color: tan; */
-}
-.Cannabissubcustomerleft{
-    width: 45%;
-    height: 550px;
-    /* border: 2px solid red; */
-    /* background-color: aqua; */
-    position: relative;
-}
-.Cannabissubcustomerright{
-width: 50%;
-height: 550px;
-/* border:2px solid red; */
-display: flex;
-flex-direction: column;
-position: relative;
-}
-.cannabisCustomerContent{
-    /* border: 2px solid red; */
-    width: 95%;
-    height: 200px;
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row;
-}
-.cannabisCustomerContentDiv{
-    /* border: 2px solid red; */
-    width: 48%;
-    height: 200px;
-    margin-left: 2%;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.cannbiescustomerappmainboxes{
+    height: fit-content;
+   border: 1px solid white;
+   
 }
 
-.cannabisCustomerContentDiv>img{
-    width: 40px;
-    height: 40px;
+.cannbiescustomerappmainboxes >h1{
+    text-align: center;
 }
-.Cannabissubcustomerright>div{
-    width: 100%;
-    padding: 30px 20px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-}
-.Cannabissubcustomerright h1{
-    margin-left: 3%;
-}
-.cannabiscustomerbtn{
+
+.cannbiesdeliveryappflexingbox{
+    height: fit-content;
  
-    padding:10px 60px;
-    font-weight: 600;
-    font-size: 18px;
-    border: none;
-    background-color: #ef4c23;
-    color:white;
-    border-radius: 25px;
+    display: flex;
+  
+}
+
+.cannabiesdeliveryappflexingboxleftbox{
+    height: 480px;
+    width: 45%;
+ 
+    background: url("/public/Images/newcannabispage/bannesbackgrounds/Rectangle 4861.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: contain;
+}
+
+.cannabiesdeliveryappleftboxinsiderupperimage{
+    height: 90%;
+    width: 35%;
+  
+    margin: 5% 0% 0% 10%;
+ 
+}
+
+.cannabiesdeliveryappleftboxinsiderupperimage >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.cannbiesdeliveryappflexingboxrightbox{
+    height: fit-content;
+    width: 60%;
+    margin-left: 1%;
+   text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cannbiescustomerappmainboxes >h2{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.cannabiesdeliveryappindivisualbox{
+    height: 230px;
+    width: 48%;
+    margin: 1%;
+    padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.cannabiscustomerbtn:hover{
-     color: #ef4c23;
-     background-color:white;
+.cannabiesdeliveryappindivisualbox:hover{
+    transform: scale(1.02);
 }
-.heartimage{
-    width:100%;
-    height: 550px;
-    position: absolute;
-    left: -1%;
-    z-index: 0;
-    /* margin-left: 1%; */
-    /* border: 2px solid red; */
+
+
+.cannbiesdeliveryappindivisualboxforlogo{
+height: 25%;
+width: 18%;
+
 }
-.heartimage>img{
-    width: 90%;
+
+.cannbiesdeliveryappindivisualboxforlogo>img{
     height: 100%;
+    width: 100%;
     object-fit: contain;
-}
-.heartmobile{
-    width:100%;
-    /* margin-top: 10%; */
-    height: 600px;
-    position: absolute;
-    z-index: 1;
-    /* border: 2px solid red; */
-}
-.heartmobile>img{
-    width: 90%;
-    height: 100%;
-    object-fit: contain;
+    padding: 5px;
 }

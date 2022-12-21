@@ -58,9 +58,16 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .taxibookingflexingboxesdriverindiforlogo{
-    height: 25%;
-    width: 25%;
- 
+    height: 14%;
+    width: 18%;
+
+}
+
+.taxibookingflexingboxesdriverindiforlogo >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
 }
 
 .driverapptaxibookingboxfortxt >h1{

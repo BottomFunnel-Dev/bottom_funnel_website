@@ -17,6 +17,7 @@ import { budget } from "./countrycode";
 import { interested } from "./countrycode";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { PopupForm } from "../PopupForm/PopupForm";
 
 const ContectForm = () => {
   const handleform = (e) => {
@@ -71,7 +72,8 @@ const ContectForm = () => {
             </div>
           </div>
         </div>
-        <form onSubmit={handleform} className="formPart">
+
+        {/* <form onSubmit={handleform} className="formPart">
           <div className="formSection">
             <div className="inputWithIcon">
               <IconContext.Provider value={{ className: "formIcon" }}>
@@ -168,7 +170,8 @@ const ContectForm = () => {
           <div className="robotCaptcha">
             <input type="submit" value="Send Your Enquiry" />
           </div>
-        </form>
+        </form> */}
+      <div className="contact-form-css">  <PopupForm  /></div>
       </div>
     </div>
   );
