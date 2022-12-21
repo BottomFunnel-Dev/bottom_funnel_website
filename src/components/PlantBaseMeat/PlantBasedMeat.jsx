@@ -38,7 +38,6 @@ export const PlantBasedMeat = () => {
     return (
         <div>
 
-
             <PlantBasedMeatBanner />
 
             <ServicesWeOffer />

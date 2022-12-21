@@ -1,0 +1,41 @@
+.WhyChooseRealEstate{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    justify-content: center;
+
+}
+.WhyChooseRealEstate-div2{
+ /* border: 2px solid green; */
+ display: flex;
+ flex-direction: row;
+ margin: 2% 2%auto;
+ 
+ 
+
+}
+.WhyChooseRealEstate-heading{
+    /* border: 2px solid gray; */
+    width: 70%;
+    text-align: center;
+    margin: auto;
+
+}
+.WhyChooseRealEstate-div2box{
+    /* border: 2px solid yellow; */
+    justify-content: center;
+    text-align: center;
+    margin: 2% 2% auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   border-radius: 10px;
+}
+.WhyChooseRealEstate-div2box:hover{
+    background-color: skyblue;
+}
+
+
+.WhyChooseRealEstate-div2box img{
+    /* border: 2px solid yellow; */
+    height: 70px;
+    width: 70px;
+}

@@ -27,7 +27,7 @@ import { SeoDm } from "./components/SeoDigitalmarketing/SeoDm";
 import { SkillsComPage } from "./components/skillsPageCom/SkillsComPage";
 import Travel from "./components/Travel/Travel";
 import Videostreaming from "./components/Videostreaming/Videostreaming";
-import { Icecream } from "./components/Icecream/Icecream"; 
+import { Icecream } from "./components/Icecream/Icecream";
 import Escooter from "./components/Escooter/Escooter";
 import Wellness from "./components/Wellness/Wellness";
 import { DigitalMarketing } from "./components/DigitaMarketing/DigitalMarketing";
@@ -166,6 +166,8 @@ import { TradingInvesting } from "./components/Trading-Investing-App-Page/Tradin
 import { KidsWear } from "./components/KidsWear/KidsWear";
 import { FunnelDesk } from "./components/FunnelDesk/FunnelDesk";
 import { TaxiBookingApp } from "./components/TaxiBookingApp/TaxiBookingApp.jsx";
+import { ProductsNewPage } from "./components/ProductsNewPage/ProductsNewPage";
+import { RealEstate } from "./components/RealEstate/RealEstate";
 
 export const ALLroutes = () => {
   return (
@@ -410,6 +412,14 @@ export const ALLroutes = () => {
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
       <Route path="/funnel-desk" element={<FunnelDesk />} />
+
+
+      <Route path="/productsNewPage" element={<ProductsNewPage />} />
+      <Route path="/real-estate" element={<RealEstate />} />
+
+
+
+
     </Routes>
   );
 };
