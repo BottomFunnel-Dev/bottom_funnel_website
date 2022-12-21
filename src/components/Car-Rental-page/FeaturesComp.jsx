@@ -12,7 +12,7 @@ export const FeaturesComp = () => {
             <div className='RGhrLine'></div>
 
             <div  className='RGfeaturesCompRight'>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi nam, expedita beatae corporis blanditiis explicabo eos id nostrum suscipit officia recusandae sapiente consequatur velit consectetur neque? Veniam voluptatem amet inventore?</p>
+                <p>When it comes to car rentals, there are a few things that set us apart from other rental services is Our exclusive focus is on giving customers the best experience possible. From selecting the right vehicle to arranging pick-up and drop-off, we make sure that everything goes as smoothly as possible for their customers.</p>
             </div>
 
                 

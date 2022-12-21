@@ -1,0 +1,73 @@
+.icecreamcustomerappmainboxes{
+    height: fit-content;
+   border: 1px solid white;
+   
+}
+
+.icecreamcustomerappmainboxes >h1{
+    text-align: center;
+}
+
+.icecreamdeliveryappflexingbox{
+    height: fit-content;
+ 
+    display: flex;
+  
+}
+
+.icecreamdeliveryappflexingboxleftbox{
+    height: 480px;
+    width: 45%;
+ 
+    background: url("/public/Images/icecreamchanges/Rectangle 4842.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: contain;
+}
+
+.icecreamdeliveryappleftboxinsiderupperimage{
+    height: 90%;
+    width: 35%;
+  
+    margin: 5% 0% 5% 20%;
+}
+
+.icecreamdeliveryappleftboxinsiderupperimage >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.icecreamdeliveryappflexingboxrightbox{
+    height: fit-content;
+    width: 60%;
+    margin-left: 1%;
+   text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icecreamcustomerappmainboxes >h2{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.icecreamdeliveryappindivisualbox{
+    height: 230px;
+    width: 48%;
+    margin: 1%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.icecreamdeliveryappindivisualbox:hover{
+    transform: scale(1.02);
+}
+
+
+.icecreamdeliveryappindivisualboxforlogo{
+padding: 5px;
+}
+
+/* .icecreamdeliveryappindivisualboxfortext{
+
+} */

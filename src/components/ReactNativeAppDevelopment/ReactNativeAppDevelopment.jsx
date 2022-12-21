@@ -6,37 +6,36 @@ import { ReactNativeAppDevelopmentBanner } from './ReactNativeAppDevelopmentBann
 import { ReactNativeAppDevelopmentContain } from './ReactNativeAppDevelopmentContain/ReactNativeAppDevelopmentContain'
 import { ReactNativeAppDevelopmentSolution } from './ReactNativeAppDevelopmentSolution/ReactNativeAppDevelopmentSolution'
 import { ReactNativeDevelopmentCard } from './ReactNativeDevelopmentCard/ReactNativeDevelopmentCard'
-
-// ----- Other requried react components -----
 import StoriesSection from "../StoriesSection/StoriesSection";
+import { Industries } from "../industries/Industries";
+import PlanProject from "../PlanProject/PlanProject";
 import OndemandSection from "../OnDemandSection/OndemandSection";
 import PortFolio from "../PortFolioSection/PortFolio";
-import PlanProject from "../PlanProject/PlanProject";
-import Revamping from "../revamping/Revamping";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
+import Revamping from "../revamping/Revamping";
 import { TextDropdown } from "../faqSection/Faqs";
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
-import { Helmet } from "react-helmet";
 
 export const ReactNativeAppDevelopment = () => {
   const dispatch = useDispatch();
   useEffect(function () {
     dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
+
   return (
     <div>
-        <ReactNativeAppDevelopmentBanner/>
-        <ReactNativeAppDevelopmentContain/>
-        <ReactNativeDevelopmentCard/>
-        <ReactNativeAppDevelopmentSolution/>
-        <Advantages/>
+      <ReactNativeAppDevelopmentBanner />
+      <ReactNativeAppDevelopmentContain />
+      <ReactNativeDevelopmentCard />
+      <ReactNativeAppDevelopmentSolution />
+      <Advantages />
 
-         {/* Other react required components */}
-       <StoriesSection />
+      <StoriesSection />
+      <Industries />
+      <PlanProject />
       <OndemandSection />
       <PortFolio />
-      <PlanProject />
       <SeoblogSection />
       <Revamping />
       <TextDropdown />

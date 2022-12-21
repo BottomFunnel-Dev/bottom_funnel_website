@@ -12,7 +12,7 @@ export const CarRentalFooter = () => {
                 <h3>Customer Satisfaction</h3>
             </div>
            
-              <p>Upload in bulk, organize content in categories, add custom filter & upload extras.</p>
+              <p>When it comes to uploading content, take advantage of Bulk Uploading, organizing features, and extra file uploads!</p>
         </div>
 
         <div className='RGcarRentalMaindivv'>
@@ -21,7 +21,7 @@ export const CarRentalFooter = () => {
             <h3>Flexibility</h3>
           </div>
          
-             <p>Showcase your content in a beautiful on demand video catalog</p>
+             <p>Create a beautiful on demand video catalog that showcases your content.</p>
         </div>
 
         <div className='RGcarRentalMaindivv'>
@@ -30,7 +30,7 @@ export const CarRentalFooter = () => {
             <h3 className='abc'>Delivery On Time</h3>
           </div>
           
-             <p>Offer subscriptions or one-time purchase. Accept credit cards & PayPal.</p>
+             <p>You can either offer subscriptions or make sales through one-time purchases.</p>
         </div>
 
         <div className='RGcarRentalMaindivv'>
@@ -39,7 +39,7 @@ export const CarRentalFooter = () => {
             <h3 >Quality Assurance</h3> 
           </div>
           
-             <p>Know what your audience likes & how your content is performing</p>
+             <p>Knowing what your audience likes is essential for creating content that is effective.</p>
 
         </div>
 

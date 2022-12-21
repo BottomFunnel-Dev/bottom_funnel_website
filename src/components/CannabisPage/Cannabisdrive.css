@@ -1,107 +1,78 @@
-.szCannabisdrive{
-    width:100%;
-    /* background-color: blue; */
-    height: 600px;
-  }
-  .szCannabisdrivesub{
-   width: 90%;
-   height: 550px;
-   margin: auto;
-   display: flex;
-   /* background-color: tan; */
-  }
-  .szCannabisdriveleft{
-      width: 50%;
-      height: 550px;
-      /* background-color: aqua; */
-      position: relative;
-  }
-  .szCannabisdriveright{
-  width: 50%;
-  height: 550px;
-  /* background-color: red; */
-  position: relative;
-  }
-  .szCannabisdriveright>div{
-    width: 100%;
-    padding: 30px 20px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-  }
-  .szCannabisdriveright h1{
-    margin-left: 3%;
-    /* border: 2px solid red; */
-  }
-  .triangle{
-      width:90%;
-      height: 600px;
-      margin-top: 5%;
-      position: absolute;
-      z-index: 0;
-      /* border: 2px solid red; */
-  }
-  .triangle>img{
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      /* border: 2px solid red; */
-  }
-  .category{
-      width:100%;
-      /* margin-top: 1%; */
-      height: 450px;
-      position: absolute;
-      z-index: 1;
-      /* border: 2px solid yellow; */
-  }
-  .category>img{
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-  }
-  .cannabisdrivebtn{
-    padding:10px 60px;
-    font-weight: 600;
-    font-size: 18px;
-    border: none;
-    background-color: #5BA068;
-    color:white;
-    margin-top: 5%;
-    margin-left: 32%;
-    border-radius:8px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.cannabisdriverappmainboxes{
+    height: fit-content;
+   border: 1px solid white;
+   margin-top: 5%;
 }
 
-.cannabisdrivebtn:hover{
-     color: #5BA068;
-     background-color:white;
-     border: 2px solid #5BA068;
+.cannabisdriverappmainboxes >h2{
+    text-align: center;
 }
+
+.canabisdriverappflexingbox{
+    height: fit-content;
+ 
+    display: flex;
   
-
-.cannabisDriverContent{
-    /* border: 2px solid red; */
-    width: 95%;
-    height: 200px;
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row;
 }
-.cannabisDriverContentDiv{
-    /* border: 2px solid red; */
-    width: 48%;
-    height: 200px;
-    margin-left: 2%;
+
+.canabisdriverappflexingboxleftbox{
+    height: 480px;
+    width: 45%;
+ 
+    background: url("/public/Images/newcannabispage/bannesbackgrounds/Rectangle 4912.png");
+    background-repeat: no-repeat;
+   background-size: contain;
+   background-position-y:bottom ;
+}
+
+.canabisdeliveryappleftboxinsiderupperimage{
+    height: 90%;
+    width: 35%;
+  
+    margin: 5% 0% 5% 30%;
+}
+
+.canabisdeliveryappleftboxinsiderupperimage >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.canabisdriverappflexingboxrightbox{
+    height: fit-content;
+    width: 60%;
+    margin-left: 1%;
+   text-align: justify;
     display: flex;
-    flex-direction: column;
-    padding: 15px;
-    border-radius: 20px;
+    flex-wrap: wrap;
+}
+.icecreamcustomerappmainboxes >h2{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.canabisdriverappindivisualbox{
+    height: 230px;
+    width: 48%;
+    margin: 1%;
+    padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.cannabisDriverContentDiv>img{
-    width: 40px;
-    height: 40px;
+.canabisdriverappindivisualbox:hover{
+    transform: scale(1.02);
+}
+
+
+.canabisdeliveryappindivisualboxforlogo{
+height: 25%;
+width: 20%;
+
+}
+
+.canabisdeliveryappindivisualboxforlogo >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 5px;
 }

@@ -1,95 +1,39 @@
-.cannabiscontainer{
-    width: 100%;
-    height: 630px;
-    /* border: 2px solid red; */
-    /* background-color: aqua; */
-    margin-top: 120px;
-}
-.cannabissubcontainer{
-    width: 100%;
-    /* border: 2px solid red; */
-    /* background-color: blue; */
-    height: 580px;
-    margin: auto;
-    display: flex;
-}
-.cannabisright{
- width: 50%;
- /* border: 2px solid red; */
- /* background-color: brown; */
- position: relative;
- 
-}
-.cannabisright>img{
-    width: 100%;
-    height: 100%;
-}
-.cannabisleft{
-    width: 50%;
-    /* border: 2px solid red; */
-    margin: auto;
-    padding-left: 30px;
-}
-/* .cannabisleft>div{
-    width: 100%;
-    padding: 30px 20px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-} */
-.szmapel{
-    width:100%;
-    height: 500px;
-    position: absolute;
-    z-index: 0;
-    /* border: 2px solid red; */
-}
-.szmapel>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-.szcubba{
-    width: 30%;
-    height: 400px;
-    position: absolute;
-    z-index: 1;
-    margin-left: 23%;
-    margin-top: 3%;
-}
-.szcubba>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-.szandroid{
-    width: 50%;
-    height: 440px;
-    position: absolute;
-    z-index: 2;
-    margin-left: 38%;
-    margin-top: 20%;
-}
-.szandroid>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.cannabuscontainermainboxes{
+    height: 100vh;
+    /* margin-top: 100px; */
+  border: 1px solid white;
+    background: url("/public/Images/newcannabispage/bannesbackgrounds/Group 340218.png");
+    background-repeat: no-repeat;
+    background-size: 60% 85%;
+    background-position-x: right;
 }
 
-.szcannabisbtn{
-    padding:10px 60px;
-    font-weight: 600;
-    font-size: 18px;
+.cannabuscontainerboxforsometext{
+    height: fit-content;
+    width: 40%;
+  
+    margin: 15% 0% 0% 3%;
+}
+
+.cannabuscontainerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: fit-content;
+    height: 60px;
+    background-color: #4d9c33;
     border: none;
-    background-color: #5BA068;
-    color:white;
-    border-radius: 8px;
+    outline: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffff;
+  
+  
 }
 
-.szcannabisbtn:hover{
-     color: #5BA068;
-     background-color:white;
-     border: 2px solid #5BA068;
+.cannabuscontainerbutton:hover {
+
+    background-color:#ffff;
+    color:  #4d9c33;
+
 }

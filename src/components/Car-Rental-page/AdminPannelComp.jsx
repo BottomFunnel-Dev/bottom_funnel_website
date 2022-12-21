@@ -22,7 +22,7 @@ const RGadminPannelData = [
 },
 
 {
-    img:"Images/Car-Rental-Page-Images/rental-management.png",
+    img:"Images/Car-Rental-Page-Images/owner-management.png",
     head:"Owner Management",
     para:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
 
@@ -30,7 +30,7 @@ const RGadminPannelData = [
 
 
 {
-    img:"Images/Car-Rental-Page-Images/dashboard.png",
+    img:"Images/Car-Rental-Page-Images/dashboard(2).png",
     head:"Dashboard",
     para:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
 
@@ -38,7 +38,7 @@ const RGadminPannelData = [
 
 
 {
-    img:"Images/Car-Rental-Page-Images/Component190.png",
+    img:"Images/Car-Rental-Page-Images/rental-management.png",
     head:"Retail Management",
     para:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
 

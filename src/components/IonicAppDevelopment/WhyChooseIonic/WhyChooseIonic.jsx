@@ -4,20 +4,21 @@ import "./WhyChooseIonic.css";
 export const WhyChooseIonic = () => {
 
   return (
-      <>
-       <div className="whyChooseIonicMainDiv">
-             <div className="whyChooseIonicContentText">
-                <h1>Why You Must Choose Ionic For Cross-Platform App Development </h1>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis et adipisci, harum porro, suscipit numquam corrupti dolorum minus alias sint rem reiciendis eaque sunt. Autem facilis id similique architecto doloremque! 
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam eum repellat, autem corrupti error labore facilis, dolores ducimus enim corporis minus eos molestiae ipsa quas tenetur asperiores, cumque optio inventore.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, quam deserunt veniam autem dolor fuga odio. Aperiam sapiente vero atque incidunt sequi? Est, officiis corporis sapiente in commodi maiores atque?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, suscipit. Nisi officia ullam debitis. Id veniam assumenda corporis aliquam perferendis aut quidem eaque, nesciunt quo repudiandae architecto, adipisci veritatis suscipit!
-                </p>
-             </div>
-             <div className="whyChooseIonicContentImage">
-                <img src="Images/IonicAppDevelopment/IonicWhyChoose.png"/>
-             </div>
-           </div>
-      </>
+    <>
+      <div className="whyChooseIonicMainDiv">
+        <div className="whyChooseIonicContentText">
+          <h1>Why You Must Choose Ionic For Cross-Platform App Development </h1>
+          <p>
+            One of the best reasons to choose Ionic is if you’re a web developer and want to stay in the web development world. 
+            The Ionic stack is built on standard web development technologies meaning you can build the majority of your app directly 
+            in a browser and use standard browser development tools and technologies, while still deploying and building a traditional native app.
+            Other cross-platform toolkits don’t use the web development stack so aren’t the best fit for web developers.
+          </p>
+        </div>
+        <div className="whyChooseIonicContentImage">
+          <img src="Images/IonicAppDevelopment/IonicWhyChoose.png" />
+        </div>
+      </div>
+    </>
   );
 };

@@ -1,97 +1,92 @@
-
-
-
-.wearablecompanydiv{
-    /* border: 2px solid blue; */
-    width: 75%;
-    margin-left: 4%;
-    margin-top: 5%;
-    text-align: left;
-
+.wearablecompanydiv {
+  /* border: 2px solid blue; */
+  width: 75%;
+  margin-left: 4%;
+  margin-top: 5%;
+  text-align: left;
 }
 
-.wearablecompanydiv h1{
-    font-size: 40px;
-    /* text-decoration: underline; */
+.wearablecompanydiv h1 {
+  font-size: 40px;
+  /* text-decoration: underline; */
 }
 
-.wearablecompanydiv p{
- font-size: 16px;
- margin-top: 1%;
+.wearablecompanydiv p {
+  font-size: 16px;
+  margin-top: 1%;
 }
-.wearablegenerationdiv{
-    /* border: 2px solid green; */
-    width: 73%;
-    margin-left: 4%;
-    margin-top: 4%;
-    text-align: left;
+.wearablegenerationdiv {
+  /* border: 2px solid green; */
+  width: 73%;
+  margin-left: 4%;
+  margin-top: 4%;
+  text-align: left;
 }
-.wearablegenerationdiv h1{
-    font-size: 40px;
+.wearablegenerationdiv h1 {
+  font-size: 40px;
 }
-.wearablegenerationdiv p{
-    font-size: 15px;
-    margin-top: 1%;
-}
-
-
-.wearableservice{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin-top: 5%;
-}
-.wearableservice h4{
-    font-size: 35px;
+.wearablegenerationdiv p {
+  font-size: 15px;
+  margin-top: 1%;
 }
 
+.wearableservice {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+.wearableservice h4 {
+  font-size: 35px;
+}
 
-.wearableservicecard{
-    /* border: 2px solid green; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 80%;
-    margin-left: 9%;
-    margin-top: 2.5%;
+.wearableservicecard {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 2.5%;
 }
-.wearableservice-innercard{
-    /* border: 2px solid gold; */
-    margin-left: 2%;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 28vh;
-    padding-top: 4%;
-    padding-left: 1%;
-    padding-right: 1%;
-    /* text-align: left; */
 
+.wearableservice-innercard {
+  /* border: 2px solid gold; */
+  margin-left: 2%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 30vh;
+  padding-top: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  /* text-align: left; */
 }
-.wearableservice-innercard p{
-    font-size: 14px;
+
+.wearableservice-innercard p {
+  font-size: 14px;
 }
-.wearableservice-innercard h5{
-    font-size: 20px;
+
+.wearableservice-innercard h5 {
+  font-size: 20px;
 }
 
 .wearablebannerbutton1 {
-    padding: 10px 50px;
-    border-radius: 10px;
-    width: 220px;
-    background-color: #3380f2;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-    margin-top: 65px;
-  }
-  
-  .wearablebannerbutton:hover {
-    background-color: white;
-    color: #3380f2;
-  }
-  
+  padding: 10px 50px;
+  border-radius: 10px;
+  width: 220px;
+  background-color: #3380f2;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 65px;
+}
+
+.wearablebannerbutton:hover {
+  background-color: white;
+  color: #3380f2;
+}

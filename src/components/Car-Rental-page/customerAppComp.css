@@ -23,9 +23,9 @@
 
 
 .RGCustomerAppMobileLeftDiv{
-    height: 500px;
+    height: 600px;
     width: 40%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-left: 3%;
     background: url("/public/Images/Car-Rental-Page-Images/Vector-2.png");
     background-size: contain;
@@ -36,11 +36,11 @@
 
 .RGCustomerAppMobileLeftDivFrameForImages{
    position: absolute;
-    height: 90%;
-    width: 40%;
-    top: 9%;
-    left: 15%;
-    border: 2px solid red;
+    height: 100%;
+    width: 45%;
+    /* top: 9%; */
+    left: 30%;
+    /* border: 2px solid red; */
 }
 
 .RGCustomerAppMobileLeftDivFrameForImages >img {

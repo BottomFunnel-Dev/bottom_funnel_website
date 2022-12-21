@@ -18,10 +18,10 @@ import { Helmet } from "react-helmet";
 export const IOSAppDevelopmentPage = () => {
   return (
     <div>
-       <IOSAppDevelopmentPageBanner/> 
-       <IOSAppDevelopmentPageCards/>
+      <IOSAppDevelopmentPageBanner />
+      <IOSAppDevelopmentPageCards />
 
-         {/* Other react required components */}
+      {/* Other react required components */}
       <StoriesSection />
       <OndemandSection />
       <PortFolio />

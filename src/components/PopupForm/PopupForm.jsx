@@ -15,7 +15,7 @@ import { interested, budget, countrycodes } from "../ContectForm/countrycode";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-export const PopupForm = () => {
+export const PopupForm = ( {formStyle}) => {
   const form = useRef();
 
   const serviceID = "service_219qjzb";
@@ -35,7 +35,9 @@ export const PopupForm = () => {
         console.log("failed");
       }
     );
+    form.current.reset()
   };
+
 
   return (
     <div>

@@ -1,7 +1,7 @@
 .laundrypageadminmainbox{
     height: 600px;
     width: 100%;
-    margin-top: 5%;
+
 }
 
 .laundrypageflexboxforadmin{
@@ -50,7 +50,7 @@ margin-top: 2%;
 
 height: 55%;
 width: 80%;
-margin-left:2% ;
+margin-left:1% ;
 
 
 }
@@ -63,13 +63,19 @@ margin-top: -50px;
 }
 
 .laundrypageadminflexboxingforimageandtxtcontain{
-height: 50%;
+height: 120px;
 width: 40%;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-margin: 2%;
+margin: 1%;
 display: flex;
-padding: 15px;
+padding: 10px;
+margin-left: 3%;
+border-radius: 10px;
+background-color: white;
 
+}
+.laundrypageadminflexboxingforimageandtxtcontain:hover{
+    transform: scale(1.02);
 }
 
 .laundrypageadminflexboxingforimagecontain{
@@ -77,7 +83,12 @@ width: 15%;
 
 height: 50px;
 
-margin: auto;
+}
+.laundrypageadminflexboxingforimagecontain >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
 }
 .laundrypageadminflexboxingfortxtcontain{
 width: 80%;

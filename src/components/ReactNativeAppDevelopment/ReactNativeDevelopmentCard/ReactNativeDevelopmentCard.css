@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 2%;
 
 }
 .cardheading{
@@ -17,7 +19,7 @@
 }
 .cardheading p{
     font-size: 18px;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 .headReactNativeAppDevelopment{
     /* border: 2px solid orangered; */
@@ -47,6 +49,17 @@
     padding-top: 5%;
     padding-left: 2%;
     padding-right: 2%;
+    /* margin-left: 2%; */
+}
+.stcontaindiv-containreact1{
+    /* border: 2px solid red; */
+    justify-content: center;
+    text-align: left;
+    width: 60%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
 }
 .stcontaindiv-containreact p{
     font-size: 18px;
@@ -55,9 +68,18 @@
 
 .imagsectionreact{
     /* border: 2px solid darkviolet; */
-    width: 40%;
+    width: 35%;
     object-fit: cover;
     background-size: cover;
+   
+   
+}
+.imagsectionreact1{
+    /* border: 2px solid darkviolet; */
+    width: 35%;
+    object-fit: cover;
+    background-size: cover;
+    margin-left: 2%;
    
    
 }

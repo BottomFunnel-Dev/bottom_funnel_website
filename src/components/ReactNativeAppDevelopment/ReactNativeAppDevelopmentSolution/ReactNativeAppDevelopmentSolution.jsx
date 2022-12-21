@@ -16,7 +16,7 @@ export const ReactNativeAppDevelopmentSolution = () => {
                 <div className="reactnativeContentScrollerDiv">
                     <div className="reactnativeContentScrollerDivContainer">
                     <div className="reactnativeContentIcon">
-                               <img src="Images/ReactNativeDevelopement/coding.png" className='nativeimg'/>
+                               <img src="/public/Images/ReactNativeDevelopement/coding.png" className='nativeimg'/>
                             </div>
                             <div className="reactnativeContentHeading">
                                <h3> Custom Design and Navigation</h3>
@@ -32,7 +32,7 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
                     <div className="reactnativeContentScrollerDivContainer">
                     <div className="reactnativeContentIcon">
-                               <img src="Images/ReactNativeDevelopement/wireframe (1).png" className='nativeimg'/>
+                               <img src="/public/Images/ReactNativeDevelopement/wireframe (1).png" className='nativeimg'/>
                             </div>
                             <div className="reactnativeContentHeading">
                                <h3> Custom Design and Navigation</h3>
@@ -51,7 +51,7 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
                     <div className="reactnativeContentScrollerDivContainer">
                     <div className="reactnativeContentIcon">
-                               <img src="Images/ReactNativeDevelopement/ux-interface.png" className='nativeimg'/>
+                               <img src="/public/Images/ReactNativeDevelopement/ux-interface.png" className='nativeimg'/>
                             </div>
                             <div className="reactnativeContentHeading">
                                <h3> Custom Design and Navigation</h3>
@@ -66,7 +66,7 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
                     <div className="reactnativeContentScrollerDivContainer">
                     <div className="reactnativeContentIcon">
-                               <img src="Images/ReactNativeDevelopement/ux-interface.png" className='nativeimg'/>
+                               <img src="/public/Images/ReactNativeDevelopement/ux-interface.png" className='nativeimg'/>
                             </div>
                             <div className="reactnativeContentHeading">
                                <h3> Custom Design and Navigation</h3>
@@ -81,7 +81,7 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
                     <div className="reactnativeContentScrollerDivContainer">
                     <div className="reactnativeContentIcon">
-                               <img src="Images/ReactNativeDevelopement/ux-interface-2.png" className='nativeimg'/>
+                               <img src="/public/Images/ReactNativeDevelopement/ux-interface-2.png" className='nativeimg'/>
                             </div>
                             <div className="reactnativeContentHeading">
                                <h3> Custom Design and Navigation</h3>
@@ -95,7 +95,7 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
                     <div className="reactnativeContentScrollerDivContainer">
                     <div className="reactnativeContentIcon">
-                               <img src="Images/ReactNativeDevelopement/approved 2.png" className='nativeimg'/>
+                               <img src="/public/Images/ReactNativeDevelopement/approved 2.png" className='nativeimg'/>
                             </div>
                             <div className="reactnativeContentHeading">
                                <h3> Custom Design and Navigation</h3>

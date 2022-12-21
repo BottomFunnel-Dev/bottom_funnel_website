@@ -10,6 +10,7 @@ export const WebDevWhy = ({ whyDevContent }) => {
         </h1>
         <p>{whyDevContent.intro}</p>
       </div>
+      
       <div className="whyDevreasons">
         {whyDevContent.feature.map((item, index) => (
           <div key={index} className="whyfeatureCard">
@@ -23,8 +24,6 @@ export const WebDevWhy = ({ whyDevContent }) => {
           </div>
         ))}
       </div>
-
-
     </div>
   );
 };

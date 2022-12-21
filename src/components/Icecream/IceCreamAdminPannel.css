@@ -1,0 +1,61 @@
+.icecreamadminpannelmainboxes{
+    height: fit-content;
+  
+}
+
+.icecreamadminpannelmainboxsometextupper{
+    height: fit-content;
+  
+    margin-left: 3%;
+
+}
+
+.icecreamadminpannelmainflexboxclass{
+    height: 500px;
+  
+    display: flex;
+   
+}
+
+.icecreamadminpannelleftbox{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+  
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.icecreamadminpannelmapperboxindivisyal{
+    height: fit-content;
+    width: 48%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+.icecreamadminpannelmapperboxindivisyal:hover{
+    transform: scale(1.02);
+}
+
+.icecreamadminpannelrightbox{
+    width: 45%;
+  margin-left: 1%;
+   background-color: #Ffe7e8;
+}
+
+.icecreamadminpannelrightboxinnerimage{
+    height: 80%;
+    width: 80%;
+  
+    margin: 8% 3% 3% 10%;
+}
+
+.icecreamadminpannelrightboxinnerimage >img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

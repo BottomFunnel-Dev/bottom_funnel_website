@@ -7,7 +7,6 @@
   width: 100%;
   position: relative;
   height: 100vh;
-
 }
 
 .banner-text-content-full {
@@ -31,8 +30,6 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   outline: none;
   border: 2px solid white;
-
-
 }
 .banner-text-content-full > button:hover {
   /* padding: 10px 60px;

@@ -11,7 +11,7 @@ export const ChooseUsComp = () => {
             <div className='RGchooseUsComphrLine'></div>
 
             <div  className='RGchooseUsCompRight'>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi nam, expedita beatae corporis blanditiis explicabo eos id nostrum suscipit officia recusandae sapiente consequatur velit consectetur neque? Veniam voluptatem amet inventore?</p>
+                <p> we understand that our customers are selective and want options when it comes to where they vacation. That's why we offer a variety of locations worldwide, including select airports and major cities across North America and Europe. We also have an extensive selection of vehicles in different sizes and styles to fit everyone's needs. </p>
             </div>
 
     </div>

@@ -31,27 +31,27 @@ export const FlutterAppDevelopment = () => {
 
 
   return (
-      <>
-        <div>
-          <FlutterAppDevelopmentBanner/>
-          <FlutterServices/>
-          <WhyFlutter/>
-          <FlutterCrossPlatform/>
-          <FlutterAppDevelopmentDreamProject/>
-          <FluterDevelopmentExpertise/>
+    <>
+      <div>
+        <FlutterAppDevelopmentBanner />
+        <FlutterServices />
+        <WhyFlutter />
+        <FlutterCrossPlatform />
+        <FlutterAppDevelopmentDreamProject />
+        <FluterDevelopmentExpertise />
 
 
-          {/* Other react required components */}
-       <StoriesSection />
-      <OndemandSection />
-      <PortFolio />
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-        </div>
-      </>
+        {/* Other react required components */}
+        <StoriesSection />
+        <OndemandSection />
+        <PortFolio />
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </div>
+    </>
   );
 };

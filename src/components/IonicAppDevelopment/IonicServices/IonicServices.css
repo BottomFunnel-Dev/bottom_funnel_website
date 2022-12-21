@@ -1,40 +1,40 @@
-.ionicServicesContainer{
-    text-align: center;
+.ionicServicesContainer {
+  text-align: center;
 }
-.ionicServicesMainDiv{
-    border: 2px solid white;
-    width: 100%;
-    height: 40vh;
-    background-image: url("/public/Images/IonicAppDevelopment/Rectangle 4550.png");
-    object-fit: cover;
-    background-size: cover;
-    /* margin-bottom: 2%; */
+.ionicServicesMainDiv {
+  border: 2px solid white;
+  width: 100%;
+  height: 40vh;
+  background-image: url("/public/Images/IonicAppDevelopment/Rectangle 4550.png");
+  object-fit: cover;
+  background-size: cover;
+  /* margin-bottom: 2%; */
 }
 
-.ionicServicesBox{
-    /* border: 2px solid red; */
-    width:90%;
-    height: 32vh;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    margin-top: 2%;
+.ionicServicesBox {
+  /* border: 2px solid red; */
+  width: 90%;
+  height: 32vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
 }
-.ionicServicesaving{
-    /* border: 2px solid gold; */
-    width: 30%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 10px;
-    padding: 15px;
-    margin-left: 3%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.ionicServicesaving {
+  /* border: 2px solid gold; */
+  width: 30%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-left: 3%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.ionicServicesavingImage{
-    /* border: 2px solid red; */
-    width: 45px;
-    height: 45px;
-    margin: 2%;
+.ionicServicesavingImage {
+  /* border: 2px solid red; */
+  width: 45px;
+  height: 45px;
+  margin: 2%;
 }

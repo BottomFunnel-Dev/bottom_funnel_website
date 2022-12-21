@@ -1,32 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 import "./pickupcustomer.css";
 export const PickupCustomer = () => {
+
+  const [imageChange,setImageChange] =useState("Images/pickup/customerapp/easyappboarding.png")
+  const handleImageChange = (imagepath) => {
+    setImageChange(() => imagepath)
+ 
+ }
+
   const pickupcustomer = [
     {
+      image:"Images/pickup/customerapp/easyappboarding.png",
       pickupicon: "Images/pickup/icons/customisedapp.png",
       title: "Easy App Onboarding",
       description:
         "Bottom Funnel is a powerful tool that allows you to identify the strengths and weaknesses of your app.",
     },
     {
+      image:"Images/pickup/customerapp/orderservice.png",
       pickupicon: "Images/pickup/icons/customersupport.png",
       title: "Order Services",
       description:
         "It's as easy as ordering from your favorite restaurant or asking a friend to pick up some groceries on the way home.",
     },
     {
+      image:"Images/pickup/customerapp/easyappboarding.png",
       pickupicon: "Images/pickup/icons/pickupdelivery.png",
       title: "Track Order",
       description:
         "With Delivery, you can have your orders delivered right to your doorstep by a fleet of autonomous cars or scooters.",
     },
     {
+      image:"Images/pickup/customerapp/trackorder.png",
       pickupicon: "Images/pickup/icons/trackingapp.png",
       title: "In-app Navigation",
       description:
         "Using In-app navigation, they can find the shortest possible route and reach the customers to hand over the package.",
     },
     {
+      image:"Images/pickup/customerapp/multiplepaymentoption.png",
       pickupicon: "Images/pickup/icons/analysisdashboard.png",
       title: "Companies Growth",
       description:
@@ -41,7 +53,16 @@ export const PickupCustomer = () => {
           <h1>Customer App</h1>
           <div className="pickupcustomerText">
             {pickupcustomer.map((item, index) => (
-              <div key={index} className="pickupcustomercard">
+              <div key={index} className="pickupcustomercard" 
+               onMouseEnter={() => {
+            
+                handleImageChange(item.image)
+            }}
+              
+           
+            
+              
+              >
                 <div className="pickupcustomerIcon">
                   <img src={item.pickupicon} alt="" />
                 </div>
@@ -54,7 +75,7 @@ export const PickupCustomer = () => {
         </div>
         <div className="pickupcustomerImage">
           <div className="variableImg">
-            <img src="Images/pickup/customerapp/easyappboarding.png" alt="" />
+            <img src={imageChange} alt="" />
           </div>
         </div>
       </div>

@@ -15,32 +15,32 @@ export const CustomerAppComp = () => {
 const RGcustomerAppData = [
 
 {
-    img:"Images/Car-Rental-Page-Images/Component188.png",
+    img:"Images/Car-Rental-Page-Images/dashboard.png",
     htxt:"Dashboard",
-    stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+    stxt:"The business owner can see all the pertinent information on the dashboard for analyzing bookings and revenue.",
 
 },
 
 {
-    img:"Images/Car-Rental-Page-Images/Component189.png",
+    img:"Images/Car-Rental-Page-Images/reporting.png",
     htxt:"Reporting",
-    stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+    stxt:"Owners can check the financial report to see how much money was booked and what the return on investment (ROI) was.",
 
 },
 
 
 {
-    img:"Images/Car-Rental-Page-Images/Component189.png",
+    img:"Images/Car-Rental-Page-Images/cardetails.png",
     htxt:"Car Management",
-    stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+    stxt:"Users have the ability to add, edit or delete car and car details as they see fit..",
 
 },
 
 
 {
-    img:"Images/Car-Rental-Page-Images/Component190.png",
-    htxt:"Notification",
-    stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+    img:"Images/Car-Rental-Page-Images/payment.png",
+    htxt:"Payment",
+    stxt:"Customers can make Payment either through the app or by paying at the time of booking.",
 
 },
 

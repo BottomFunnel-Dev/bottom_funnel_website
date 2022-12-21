@@ -23,9 +23,9 @@
 
 
 .RGrenterAppMobileLeftDiv{
-    height: 400px;
+    height: 550px;
     width: 50%;
-   
+    /* border: 2px solid red; */
     margin-left: 3%;
     background: url("/public/Images/Car-Rental-Page-Images/Ellipse2193.png");
     background-size: contain;
@@ -36,11 +36,11 @@
 
 .RGrenterAppMobileLeftDivFrameForImages{
    position: absolute;
-    height: 90%;
+    height: 100%;
     width: 40%;
-    top: 9%;
-    left: 15%;
-   
+    /* top: 9%; */
+    left: 30%;
+    /* border: 2px solid red; */
 }
 
 .RGrenterAppMobileLeftDivFrameForImages >img {

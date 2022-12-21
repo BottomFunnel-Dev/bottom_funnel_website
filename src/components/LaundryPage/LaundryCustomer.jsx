@@ -85,7 +85,7 @@ const laundrycustomerdata = [
 
 
 <div className='laundryflexboxrightdiv'>
-<img className='laundryflexboxrightdivimagemobile' src={imageChange} alt='' />
+<img  src={imageChange} alt='' />
 
 </div>
 
