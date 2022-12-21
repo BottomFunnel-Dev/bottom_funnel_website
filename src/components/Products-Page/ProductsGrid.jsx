@@ -48,7 +48,10 @@ export const ProductsGrid = () => {
             >
               Sign in
             </button>
-            <button className="RGfreeTrailButton">Free Trial</button>
+            <button className="RGfreeTrailButton" onClick={() => {
+                navigate(`/product-enterprise`);
+                
+              }}>Free Trial</button>
           </div>
         </div>
 
