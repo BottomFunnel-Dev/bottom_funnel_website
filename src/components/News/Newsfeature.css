@@ -8,11 +8,11 @@
 }
 
 .newsfeaturelowerbannersometextandimageboxes{
-    width: 100%;
+    width: 95%;
     height: 70%;
     display: flex;
 
-    margin-top: 5%;
+    margin-top: 8%;
     margin-left: 5%;
     position: absolute;
  
@@ -20,7 +20,7 @@
 
 .newsfeaturelowerbannersometextboxes{
     height: fit-content;
-    width: 50%;
+    width:50%;
  color: white;
    position: relative;
 text-align: justify;
@@ -29,6 +29,7 @@ text-align: justify;
 
 .newsfeaturelowerbannersomeimageboxes{
     width: 30%;
+    margin-top: -7%;
 
     margin-left: 5%;
 }
