@@ -13,6 +13,9 @@ export const FlutterAppDevelopmentBanner = () => {
           </p>
           <button className='flutterAppDevbannerbutton'>Get Started</button>
         </div>
+        <div className="FlutterIcon">
+          <img src="Images/FlutterDevelopment/flutterIcon.png"/>
+        </div>
       </div>
     </>
   );

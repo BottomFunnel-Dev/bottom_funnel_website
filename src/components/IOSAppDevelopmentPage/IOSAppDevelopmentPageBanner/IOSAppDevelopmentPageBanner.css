@@ -2,9 +2,7 @@
     height: 103vh;
     width: 100%;
     border: 3px solid white;
-    /* margin-top: 120px; */
-    background-image: url("Images/iosappdevelopmentphotos/banner.png");
-    /* background-image: url("Images/iosappdevelopmentphotos/Component 121.png"); */
+    background-image: url("public/Images/iosappdevelopmentphotos/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

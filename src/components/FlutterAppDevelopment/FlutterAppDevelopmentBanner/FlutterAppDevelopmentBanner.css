@@ -3,10 +3,9 @@
     width: 100%;
     border: 1px solid white;
     /* margin-top: 6%; */
-    background-image: url("/public/Images/FlutterDevelopment/Component 64.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(to top left, #c1bee0, #9be0fd);
+    display: flex;
+    flex-direction: row;
   }
   
   .flutterAppDevbannermainboxinnertextdiv {
@@ -41,4 +40,15 @@
     background-color: white;
     color: #3380f2;
   }
-  
+  .FlutterIcon{
+    /* border: 2px solid red; */
+    width: 45%;
+    height:600px;
+    margin: auto;
+    object-fit: cover;
+    background-size: cover;
+  }
+  .FlutterIcon>img{
+    width: 100%;
+    height: 100%;
+  }

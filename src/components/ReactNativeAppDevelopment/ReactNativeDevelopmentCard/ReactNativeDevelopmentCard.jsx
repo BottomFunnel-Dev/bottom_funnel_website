@@ -21,16 +21,15 @@ export const ReactNativeDevelopmentCard = () => {
             </div>
         <div className='newReactNativeAppDevelopmentdivdiv2-1stcontaindiv'>
                 <div className='imagsectionreact'>
-                        <img src="/public/Images/ReactNativeDevelopement/Group 339998.png" className='imagsectionr1'></img>
+                        <img src="/Images/ReactNativeDevelopement/Image1.png" className='imagsectionr1'></img>
                     </div>
                     <div className='stcontaindiv-containreact1' >
                         <h2>Mobile Application Development</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa eveniet porro amet ut est distinctio saepe vitae nulla excepturi quisquam,
+                        <p>  
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa eveniet porro amet ut est distinctio saepe vitae nulla excepturi quisquam,
                              aliquam ad ex odio autem sit ratione officia magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maxime porro qui suscipit quod, nisi natus similique 
-                             tenetur nulla a sed, ullam perspiciatis ab illum, nemo delectus. Dicta, doloremque vero!  </p>
-                           
-                            
-
+                             tenetur nulla a sed, ullam perspiciatis ab illum, nemo delectus. Dicta, doloremque vero!
+                        </p>
                     </div>
                    
                 </div>
@@ -47,14 +46,14 @@ export const ReactNativeDevelopmentCard = () => {
 
                     </div>
                     <div className='imagsectionreact1'>
-                        <img src="/public/Images/ReactNativeDevelopement/Group 339999.png" className='imagsectionr1'></img>
+                        <img src="/Images/ReactNativeDevelopement/Image2.png" className='imagsectionr1'></img>
                     </div>
                    
                 </div>
 
                 <div className='newReactNativeAppDevelopmentdivdiv2-1stcontaindiv'>
                 <div className='imagsectionreact'>
-                        <img src="/public/Images/ReactNativeDevelopement/Group 340000.png" className='imagsectionr1'></img>
+                        <img src="/Images/ReactNativeDevelopement/Image3.png" className='imagsectionr1'></img>
                     </div>
                     <div className='stcontaindiv-containreact1' >
                         <h2>Mobile App Migration</h2>
@@ -80,7 +79,7 @@ export const ReactNativeDevelopmentCard = () => {
 
                     </div>
                     <div className='imagsectionreact1'>
-                        <img src="/public/Images/ReactNativeDevelopement/Group 340001.png" className='imagsectionr1'></img>
+                        <img src="/Images/ReactNativeDevelopement/Image4.png" className='imagsectionr1'></img>
                     </div>
                    
                 </div>

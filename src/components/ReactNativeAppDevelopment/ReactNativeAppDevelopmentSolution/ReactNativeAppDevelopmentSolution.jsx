@@ -16,7 +16,7 @@ export const ReactNativeAppDevelopmentSolution = () => {
                 <div className="reactnativeContentScrollerDiv">
                     <div className="reactnativeContentScrollerDivContainer">
                     <div className="reactnativeContentIcon">
-                               <img src="/public/Images/ReactNativeDevelopement/coding.png" className='nativeimg'/>
+                               <img src="/Images/ReactNativeDevelopement/coding.png" className='nativeimg'/>
                             </div>
                             <div className="reactnativeContentHeading">
                                <h3> Custom Design and Navigation</h3>
@@ -28,11 +28,9 @@ export const ReactNativeAppDevelopmentSolution = () => {
                     </div>
 
 
-
-
                     <div className="reactnativeContentScrollerDivContainer">
                     <div className="reactnativeContentIcon">
-                               <img src="/public/Images/ReactNativeDevelopement/wireframe (1).png" className='nativeimg'/>
+                               <img src="/Images/ReactNativeDevelopement/Navigation.png" className='nativeimg'/>
                             </div>
                             <div className="reactnativeContentHeading">
                                <h3> Custom Design and Navigation</h3>
@@ -43,30 +41,9 @@ export const ReactNativeAppDevelopmentSolution = () => {
                         </div>
                     </div>
 
-
-
-
-
-
-
                     <div className="reactnativeContentScrollerDivContainer">
                     <div className="reactnativeContentIcon">
-                               <img src="/public/Images/ReactNativeDevelopement/ux-interface.png" className='nativeimg'/>
-                            </div>
-                            <div className="reactnativeContentHeading">
-                               <h3> Custom Design and Navigation</h3>
-                               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Est, ea voluptas itaque dolores quo molestias aut doloribus ut beatae
-                             ipsa, quibusdam dignissimos consequuntur repudiandae quis omnis iure sunt
-                              magnam quos</p>
-                        </div>
-                    </div>
-
-
-
-                    <div className="reactnativeContentScrollerDivContainer">
-                    <div className="reactnativeContentIcon">
-                               <img src="/public/Images/ReactNativeDevelopement/ux-interface.png" className='nativeimg'/>
+                               <img src="/Images/ReactNativeDevelopement/ux-interface.png" className='nativeimg'/>
                             </div>
                             <div className="reactnativeContentHeading">
                                <h3> Custom Design and Navigation</h3>
@@ -81,7 +58,22 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
                     <div className="reactnativeContentScrollerDivContainer">
                     <div className="reactnativeContentIcon">
-                               <img src="/public/Images/ReactNativeDevelopement/ux-interface-2.png" className='nativeimg'/>
+                               <img src="/Images/ReactNativeDevelopement/ux-interface.png" className='nativeimg'/>
+                            </div>
+                            <div className="reactnativeContentHeading">
+                               <h3> Custom Design and Navigation</h3>
+                               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Est, ea voluptas itaque dolores quo molestias aut doloribus ut beatae
+                             ipsa, quibusdam dignissimos consequuntur repudiandae quis omnis iure sunt
+                              magnam quos</p>
+                        </div>
+                    </div>
+
+
+
+                    <div className="reactnativeContentScrollerDivContainer">
+                    <div className="reactnativeContentIcon">
+                               <img src="/Images/ReactNativeDevelopement/ux-interface-2.png" className='nativeimg'/>
                             </div>
                             <div className="reactnativeContentHeading">
                                <h3> Custom Design and Navigation</h3>
@@ -95,7 +87,7 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
                     <div className="reactnativeContentScrollerDivContainer">
                     <div className="reactnativeContentIcon">
-                               <img src="/public/Images/ReactNativeDevelopement/approved 2.png" className='nativeimg'/>
+                               <img src="/Images/ReactNativeDevelopement/approved 2.png" className='nativeimg'/>
                             </div>
                             <div className="reactnativeContentHeading">
                                <h3> Custom Design and Navigation</h3>
