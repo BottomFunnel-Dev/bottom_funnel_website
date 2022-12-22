@@ -49,8 +49,8 @@ export const Scroller = () => {
                                 <p>UI layout is an important aspect of any design project, and it's something that should be considered from the very beginning. </p>
                                 <li>Function & API Integration </li>
                                 <p>UI layouts are one of the most important aspects of any web or mobile application. </p>
-                                {/* <li>Code Optimization</li>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p> */}
+                                <li>Code Optimization</li>
+                                {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p> */}
                             </div>
                         </div>
                         <div className="ScrollerContentScrollerDivContainer">
