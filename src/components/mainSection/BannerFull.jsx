@@ -114,9 +114,7 @@ export const BannerFull = () => {
               }}
             >
               {item.title === "Mobile App Development" && <MobileBanner />}
-              {item.title === "Software Product Development" && (
-                <SoftwareBanner />
-              )}
+              {item.title === "Web Development" && <SoftwareBanner />}
 
               {item.title === "Digital Marketing" && <DigitalMarketing />}
 
