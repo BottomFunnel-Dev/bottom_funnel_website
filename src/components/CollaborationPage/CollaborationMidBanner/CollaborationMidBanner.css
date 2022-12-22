@@ -1,0 +1,51 @@
+.CollaborationMidBanner-container {
+  text-align: center;
+  padding: 3% 0;
+
+  color: white;
+  background: linear-gradient(to Right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/public/Images/collaborationPhotos/mid-banner.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.CollaborationMidBanner-container h1 {
+  font-size: 35px;
+  margin-top: 0;
+}
+
+.CollaborationMidBanner-container p {
+  font-size: 18px;
+}
+
+.CollaborationMidBanner-container button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 50px;
+  margin: 1%;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 2px solid #ef4c23;
+  outline: none;
+}
+
+.CollaborationMidBanner-container button:nth-child(1) {
+  color: white;
+  background: #ef4c23;
+}
+
+.CollaborationMidBanner-container button:nth-child(1):hover {
+  color: #ef4c23;
+  background: transparent;
+}
+
+.CollaborationMidBanner-container button:nth-child(2) {
+  background: transparent;
+  color: #ef4c23;
+}
+
+.CollaborationMidBanner-container button:nth-child(2):hover {
+  color: white;
+  background: #ef4c23;
+}

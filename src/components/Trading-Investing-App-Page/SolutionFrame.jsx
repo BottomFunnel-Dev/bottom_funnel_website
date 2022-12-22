@@ -67,7 +67,7 @@ export const SolutionFrame = () => {
 
                 <div key={e.txt}>
                   <div><img className='solution-Frame-Icons' src={e.icon} alt={e.txt} /></div>
-                  <p>{e.txt}</p>
+                  <p className='solution-frame-box-text'>{e.txt}</p>
                 </div>
             </div>
               )

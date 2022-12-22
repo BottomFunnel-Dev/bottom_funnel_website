@@ -1,0 +1,58 @@
+.CollaborationOffers-container {
+  margin: 2% auto;
+  padding: 1% 0;
+  background-color: #f5f5f5;
+}
+
+.CollaborationOffers-container > h1 {
+  font-size: 32px;
+  text-align: center;
+
+  width: 90%;
+  margin: 2% auto;
+}
+
+.CollaborationOffers-main {
+  width: 90%;
+  margin: 2% auto 0;
+}
+
+.CollaborationOffers-main > div {
+  margin: 2% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CollaborationOffers-main > div:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.CollaborationOffers-main > div > span {
+  width: 1px;
+  height: 300px;
+  background: #9d9d9d;
+  border-radius: 2px;
+}
+
+.CollaborationOffers-content {
+  width: 50%;
+}
+
+.CollaborationOffers-content > h2 {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.CollaborationOffers-content > p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.CollaborationOffers-image {
+  width: 45%;
+}
+
+.CollaborationOffers-image > img {
+  width: 100%;
+}

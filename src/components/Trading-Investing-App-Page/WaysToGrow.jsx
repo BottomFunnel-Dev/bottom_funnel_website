@@ -9,7 +9,7 @@ export const WaysToGrow = () => {
 
     
         <p className='RG-ways-To-Grow-Title-P-Tag'>App Insights</p>
-        <h1 className='RG-ways-To-Grow-Title-h1-Tag'>Ways to grow your wealth</h1>
+        <h2 className='RG-ways-To-Grow-Title-h1-Tag'>Ways to grow your wealth</h2>
     
 
         <div className='RG-ways-To-Grow-Box-Holder'>

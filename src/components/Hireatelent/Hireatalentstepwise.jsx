@@ -1850,9 +1850,9 @@ export const Hireatalentstepwise = () => {
     
             <div className='hireatalentstepwisemainbox'>
            <div className='hireatalentsteponeleftbox'>
-           <h1><span className='colored'>Bottom Funnel </span>is the fastest way to hire remote talents from India.
+           <h2><span className='colored'>Bottom Funnel </span>is the fastest way to hire remote talents from India.
            Let's start by answering a few simple questions.
-           This will allow us to understand your requirements and match the perfect talent.</h1>
+           This will allow us to understand your requirements and match the perfect talent.</h2>
         <div className='hireatalentmaindatamappingbox'>
         <div className='categoryA'><h4>Web Development</h4>
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">

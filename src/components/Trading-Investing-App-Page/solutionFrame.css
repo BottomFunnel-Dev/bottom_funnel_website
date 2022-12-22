@@ -18,8 +18,8 @@
     text-align: center;
     margin: auto;
     color: white;
-    font-size: 18px;
-    font-weight: normal;
+   
+    
 }
 .solution-Frame-Content-Box-Heading{
     width: 36%;
@@ -37,7 +37,7 @@
 }
 .solution-Frame-Right-Content-Holder {
     height: 500px;
-    width: 40%;
+    width: 45%;
     background: url("/public/Images/Trading-investing-App/banners-backgrounds/Rectangle-2.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -51,7 +51,7 @@
     height: 100%;
     width: 50%;
     top: 4%;
-    right: 15%;
+    right: 9%;
 }
 
 .solution-Frame-Right-Image-Holder-Div > img {
@@ -67,16 +67,17 @@ object-fit: contain;
     row-gap: 30px;
     justify-content: space-around;
     /* border: 1px solid blue; */
-    width: 30%;
+    width: 35%;
     /* padding: 2%; */
     align-items: center;
+    margin-top: 5%;
    
     /*               */
 }
 
 .solution-Frame-Left-Div-Boxes{
-    height: 140px;
-    width:40%;
+    height: 170px;
+    width: 40%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
     background-color: white;
@@ -94,5 +95,9 @@ object-fit: contain;
 }
 
 .solution-Frame-Icons {
-    width: 38%;
+    width: 40%;
+}
+
+.solution-frame-box-text {
+    font-size: 18px;
 }

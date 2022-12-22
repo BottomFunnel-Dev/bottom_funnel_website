@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10% 0 5% 0;
+    margin: 6% 0 5% 0;
 }
 
 .RGtradingInvestingLeftContainer {
@@ -23,7 +23,7 @@
 }
 
 .RGtradingInvestingLeftContainer > p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .RGTIbtn {

@@ -1,10 +1,78 @@
 import React, { useState } from 'react';
 import { Container } from "react-bootstrap";
 import "./OurCommitment.css";
-// import countrydata from '../../../../../../CountryData.json';
-// import { productOurCommitmentContactDiv } from '../productOurCommitmentContactDiv/productOurCommitmentContactDiv';
+
+import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 export const OurCommitment = () => {
+
+    const productsTalentProfilesCardsData = [
+        {
+            title: "Jumia Egypt and MSMEs Agency join forces to support SMEs in Egypt",
+            body: `BottomFunnel India signed a memorandum of understanding with`,
+            image: "/Images/ProductsPage/OurCommitments/CommunitySupport1.jpg",
+            experience: "Ex:6 years",
+            communication: "Communication Score",
+            technicalscore: "Technical Score",
+            buttondetails: "See more",
+        },
+        {
+            title: "The Ministry of industry and Trade of UAE signed a partnership agreement with...",
+            body: `This new partneship will make it possible to support the digitization of local commerce, in particular
+             through the referencing of more than 10,000 merchants at the level of these two 10,000 jobs will be created thanks 
+             to these agreements.`,
+            image: "/Images/ProductsPage/OurCommitments/CommunitySupport1.jpg",
+            experience: "Ex:4 years",
+            communication: "Communication Score",
+            technicalscore: "Technical Score",
+            buttondetails: "See more",
+        },
+        {
+            title: "The Ministry of industry and Trade of UAE signed a partnership agreement with...",
+            body: `This new partneship will make it possible to support the digitization of local commerce, in particular
+            through the referencing of more than 10,000 merchants at the level of these two 10,000 jobs will be created thanks 
+            to these agreements.`,
+            image: "/Images/ProductsPage/OurCommitments/CommunitySupport1.jpg",
+            experience: "Ex:2 years",
+            communication: "Communication Score",
+            technicalscore: "Technical Score",
+            buttondetails: "See more",
+        },
+    ];
+
+    const ourImpactCardsData = [
+        {
+            title: "Jumia Egypt and MSMEs Agency join forces to support SMEs in Egypt",
+            body: `BottomFunnel India signed a memorandum of understanding with`,
+            image: "/Images/ProductsPage/OurCommitments/CommunitySupport1.jpg",
+            experience: "Ex:6 years",
+            communication: "Communication Score",
+            technicalscore: "Technical Score",
+            buttondetails: "See more",
+        },
+        {
+            title: "The Ministry of industry and Trade of UAE signed a partnership agreement with...",
+            body: `This new partneship will make it possible to support the digitization of local commerce, in particular
+             through the referencing of more than 10,000 merchants at the level of these two 10,000 jobs will be created thanks 
+             to these agreements.`,
+            image: "/Images/ProductsPage/OurCommitments/CommunitySupport1.jpg",
+            experience: "Ex:4 years",
+            communication: "Communication Score",
+            technicalscore: "Technical Score",
+            buttondetails: "See more",
+        },
+        {
+            title: "The Ministry of industry and Trade of UAE signed a partnership agreement with...",
+            body: `This new partneship will make it possible to support the digitization of local commerce, in particular
+            through the referencing of more than 10,000 merchants at the level of these two 10,000 jobs will be created thanks 
+            to these agreements.`,
+            image: "/Images/ProductsPage/OurCommitments/CommunitySupport1.jpg",
+            experience: "Ex:2 years",
+            communication: "Communication Score",
+            technicalscore: "Technical Score",
+            buttondetails: "See more",
+        },
+    ];
 
     const [showtab, setShowtab] = useState(1);
     const [countryid, setCountryid] = useState('');
@@ -41,7 +109,22 @@ export const OurCommitment = () => {
     return (
         <>
             <div className='productOurCommitmentmainDiv'>
+                <div className='productsOurCommitmentMainImageDiv'>
+                    <div>
+                        <img src='/Images/ProductsPage/OurCommitments/CommitementsBanner.png' alt='image'/>
+                    </div>
 
+                    <div className='productsOurCommitmentMainContentDiv'>
+                        <h1>
+                             Our <span> Commitments </span>
+                        </h1>
+
+                        <h5>
+                            Create, Build, Collaborate and ship products very faster
+                        </h5>
+
+                    </div>
+                </div>
                 <React.Fragment>
                     <Container>
                         <div className="row">
@@ -49,222 +132,90 @@ export const OurCommitment = () => {
 
                                 <ul class="nav nav-pills mb-3 mt-1" id="pills-tab" role="tablist" className='productOurCommitmentbuttonouterDiv'>
                                     <li class="nav-item" role="presentation" className="productOurCommitmentbuttonDiv">
-                                        <button className={showtab === 1 ? "productOurCommitmentHeadingButtons active" : "productOurCommitmentHeadingButtons"} onClick={() => handletab(1)}>Type Of Visa</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation" className="productOurCommitmentbuttonDiv">
-                                        <button className={showtab === 2 ? "productOurCommitmentHeadingButtons active" : "productOurCommitmentHeadingButtons"} onClick={() => handletab(2)}>Document</button>
+                                        <button className={showtab === 1 ? "productOurCommitmentHeadingButtons active" : "productOurCommitmentHeadingButtons"} onClick={() => handletab(1)}> Community Support </button>
                                     </li>
 
                                     <li class="nav-item" role="presentation" className="productOurCommitmentbuttonDiv">
-                                        <button className={showtab === 3 ? "productOurCommitmentHeadingButtons active" : "productOurCommitmentHeadingButtons"} onClick={() => handletab(3)}>Process</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation" className="productOurCommitmentbuttonDiv">
-                                        <button className={showtab === 4 ? "productOurCommitmentHeadingButtons active" : "productOurCommitmentHeadingButtons"} onClick={() => handletab(4)}>Sample Visa</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation" className="productOurCommitmentbuttonDiv">
-                                        <button className={showtab === 5 ? "productOurCommitmentHeadingButtons active" : "productOurCommitmentHeadingButtons"} onClick={() => handletab(5)}>Embassy</button>
+                                        <button className={showtab === 2 ? "productOurCommitmentHeadingButtons active" : "productOurCommitmentHeadingButtons"} onClick={() => handletab(2)}> Our Impact </button>
                                     </li>
 
+                                    <li class="nav-item" role="presentation" className="productOurCommitmentbuttonDiv">
+                                        <button className={showtab === 3 ? "productOurCommitmentHeadingButtons active" : "productOurCommitmentHeadingButtons"} onClick={() => handletab(3)}> Technical Service </button>
+                                    </li>
 
+                                    <li class="nav-item" role="presentation" className="productOurCommitmentbuttonDiv">
+                                        <button className={showtab === 4 ? "productOurCommitmentHeadingButtons active" : "productOurCommitmentHeadingButtons"} onClick={() => handletab(4)}> Saas Products </button>
+                                    </li>
                                 </ul>
                                 <div class="tab-content text-dark" id="pills-tabContent">
 
                                     <div className={showtab === 1 ? "tab-pane fade show active" : "tab-pane fade show"} style={{ textDecoration: "none", borderBottom: "none" }}>
 
 
-                                        <div className='visaTypeMainDiv'>
-                                            <div className='productOurCommitmentTypedetailsDiv'>
-
-                                                <div className='productOurCommitmentTypeDetailContainer'>
-                                                    <div className='productOurCommitmentInformationDiv'>
-                                                        <p className='productOurCommitmentRate'>Rate:Normal</p>
-                                                        <p className='productOurCommitmentTypeofVisa'>Indian E-Visa</p>
-                                                        <p className='productOurCommitmentDescription'> Expolre Visa Option to see if there is a visa right for you.We have a range of
-                                                            options depending on whether you want tourist and business visa</p>
-                                                        <p className='productOurCommitmentPrice'>Prices are inclusive taxes</p>
-                                                        <p className='visaPrice'>₹ 6500</p>
+                                        <div className='ourCommitmentMainDiv'>
+                                            {productsTalentProfilesCardsData.map(({ title, body, image, buttondetails, experience, communication, technicalscore }, idx) => (
+                                                <div key={idx}>
+                                                    <div>
+                                                        <img src={image} alt="image" />
                                                     </div>
-                                                    <div className='productOurCommitmentAddtoCartDiv'>
-                                                        <div className='productOurCommitmentCartcounter'>
-                                                            {/* <div className='productOurCommitmentcounterdata'> */}
+                                                    <h3>{title}</h3>
+                                                    <p>{body}</p>
+                                                    {/* <h6>{experience}</h6> */}
 
-                                                            <div className='productOurCommitmentaddbutton' onClick={decrease}>
-                                                                -
-                                                            </div>
+                                                    {/* <div className='productsTalentCommunication'>
+                                                        <p>{communication}</p>
+                                                        <p style={{ fontSize: "12px", marginTop: "1%" }}>
+                                                            <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiOutlineStar />
+                                                        </p>
+                                                    </div> */}
 
-                                                            <p className='productOurCommitmentcountertext'> {counter} </p>
-                                                            <div className="productOurCommitmentsubtractbutton" onClick={increase}>
-                                                                +
-                                                            </div>
-
-                                                            {/* </div> */}
-                                                        </div>
-                                                        <div className='productOurCommitmentAddtocartButton'>
-                                                            Add to Cart
-                                                        </div>
-                                                    </div>
+                                                    <p className='productsTalentProfilesContentButton'>{buttondetails}</p>
                                                 </div>
-
-                                                <div className='productOurCommitmentTypeDetailContainer'>
-                                                    <div className='productOurCommitmentInformationDiv'>
-                                                        <p className='productOurCommitmentRate'>Rate:Normal</p>
-                                                        <p className='productOurCommitmentTypeofVisa'>Indian E-Visa</p>
-                                                        <p className='productOurCommitmentDescription'> Expolre Visa Option to see if there is a visa right for you.We have a range of
-                                                            options depending on whether you want tourist and business visa</p>
-                                                        <p className='productOurCommitmentPrice'>Prices are inclusive taxes</p>
-                                                        <p className='visaPrice'>₹ 6500</p>
-                                                    </div>
-                                                    <div className='productOurCommitmentAddtoCartDiv'>
-                                                        <div className='productOurCommitmentCartcounter'>
-                                                            {/* <div className='productOurCommitmentcounterdata'> */}
-
-                                                            <div className='productOurCommitmentaddbutton' onClick={decrease}>
-                                                                -
-                                                            </div>
-
-                                                            <p className='productOurCommitmentcountertext'> {counter} </p>
-                                                            <div className="productOurCommitmentsubtractbutton" onClick={increase}>
-                                                                +
-                                                            </div>
-
-                                                            {/* </div> */}
-                                                        </div>
-                                                        <div className='productOurCommitmentAddtocartButton'>
-                                                            Add to Cart
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div className='productOurCommitmentTypeDetailContainer'>
-                                                    <div className='productOurCommitmentInformationDiv'>
-                                                        <p className='productOurCommitmentRate'>Rate:Normal</p>
-                                                        <p className='productOurCommitmentTypeofVisa'>Indian E-Visa</p>
-                                                        <p className='productOurCommitmentDescription'> Expolre Visa Option to see if there is a visa right for you.We have a range of
-                                                            options depending on whether you want tourist and business visa</p>
-                                                        <p className='productOurCommitmentPrice'>Prices are inclusive taxes</p>
-                                                        <p className='visaPrice'>₹ 6500</p>
-                                                    </div>
-                                                    <div className='productOurCommitmentAddtoCartDiv'>
-                                                        <div className='productOurCommitmentCartcounter'>
-                                                            {/* <div className='productOurCommitmentcounterdata'> */}
-
-                                                            <div className='productOurCommitmentsubtractbutton' onClick={decrease}>
-                                                                -
-                                                            </div>
-
-                                                            <p className='productOurCommitmentcountertext'> {counter} </p>
-                                                            <div className="productOurCommitmentaddbutton" onClick={increase}>
-                                                                +
-                                                            </div>
-
-                                                            {/* </div> */}
-                                                        </div>
-                                                        <div className='productOurCommitmentAddtocartButton'>
-                                                            Add to Cart
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div className='productOurCommitmentTypecontactDiv'>
-                                                {/* <productOurCommitmentContactDiv /> */}
-                                            </div>
+                                            ))}
                                         </div>
                                     </div>
 
                                     <div className={showtab === 2 ? "tab-pane fade show active" : "tab-pane fade"} style={{ textDecoration: "none", borderBottom: "none" }} >
 
-                                        <div className='visaTypeMainDiv'>
-                                            <div className='productOurCommitmentDocumentMainDiv'>
-                                                <h2 className='productOurCommitmentDocumentHeading'>Documents Required for Vietnam Visa for Indians </h2>
-                                                <div className='productOurCommitmentDocumentContainer'>
-                                                    <ul>
-                                                        <li className='productOurCommitmentDoumentsLists'>Scanned colour copy of first and last page of your Passport.</li>
-                                                        <li className='productOurCommitmentDoumentsLists'>Scanned recent colour passport size photograph with white background.</li>
-                                                        <li className='productOurCommitmentDoumentsLists'> Indian Passport, with a validity of minimum six more months from the date of travel to Vietnam,</li>
-                                                        <li className='productOurCommitmentDoumentsLists'>You will need at least two blank pages on your passport for the visa stamp.</li>
-                                                        <li className='productOurCommitmentDoumentsLists'>A filled out visa application form.</li>
-                                                        <li className='productOurCommitmentDoumentsLists'>Payment (25 USD to 50 USD) for visa fees.</li>
-                                                        <li className='productOurCommitmentDoumentsLists'>A Letter of Approval from a Vietnamese embassy or consulate (if you are picking up your visa at the airport).</li>
-                                                    </ul>
+                                        <div className='ourCommitmentMainDiv'>
+                                            {ourImpactCardsData.map(({ title, body, image, buttondetails}, idx) => (
+                                                <div key={idx}>
+                                                    <div>
+                                                        <img src={image} alt="image" />
+                                                    </div>
+                                                    <h3>{title}</h3>
+                                                    <p>{body}</p>
+                                                    {/* <h6>{experience}</h6> */}
+
+                                                    {/* <div className='productsTalentCommunication'>
+                                                        <p>{communication}</p>
+                                                        <p style={{ fontSize: "12px", marginTop: "1%" }}>
+                                                            <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiOutlineStar />
+                                                        </p>
+                                                    </div> */}
+
+                                                    <p className='productsTalentProfilesContentButton'>{buttondetails}</p>
                                                 </div>
-                                            </div>
-                                            {/* <div className='productOurCommitmentTypecontactDiv'>
-                                                <productOurCommitmentContactDiv />
-                                            </div> */}
+                                            ))}
                                         </div>
 
                                     </div>
 
                                     <div className={showtab === 3 ? "tab-pane fade show active" : "tab-pane fade"} style={{ textDecoration: "none", borderBottom: "none" }} >
 
-                                        <div className='visaTypeMainDiv'>
-                                            <div className='productOurCommitmentprocessMainDiv'>
-                                                <h3 className='productOurCommitmentProcessheading'>Visa process</h3>
-                                                <div className='productOurCommitmentProcesscontainerDiv'>
-                                                    <img className='productOurCommitmentProcessImage' src='Images/productOurCommitment/Visa (1).png' />
-                                                </div>
-                                            </div>
-                                            {/* <div className='productOurCommitmentTypecontactDiv'>
-                                                <productOurCommitmentContactDiv />
-                                            </div> */}
+                                        <div className='ourCommitmentMainDiv'>
+
                                         </div>
                                     </div>
 
                                     <div className={showtab === 4 ? "tab-pane fade show active" : "tab-pane fade show"} style={{ textDecoration: "none", borderBottom: "none" }}>
 
+                                        <div className='ourCommitmentMainDiv'>
 
-                                        <div className='visaTypeMainDiv'>
-                                            <div className='visainnerSample'>
-                                                <div className='visainnerImageDiv'>
-                                                    <img src='Images/productOurCommitment/dubai-sample.jpg' />
-                                                </div>
-                                            </div>
-
-                                            {/* <div className='productOurCommitmentTypecontactDiv'>
-                                                <productOurCommitmentContactDiv />
-                                            </div> */}
 
                                         </div>
                                     </div>
 
-                                    <div className={showtab === 5 ? "tab-pane fade show active" : "tab-pane fade"} style={{ textDecoration: "none", borderBottom: "none" }}>
-
-                                        <div className='visaTypeMainDiv'>
-                                            <div className='visaInnerEmbasy'>
-                                                <div className='visaInnerEmbasyLinks'>
-                                                    <h4 className='visaInnerEmbasyHeadings'>Vietnam Visa Requirements</h4>
-                                                    <ul>
-                                                        <li className='VisaEmbasyLinks'>Have a valid Passport and valid Vietnam Visa.</li>
-                                                        <li className='VisaEmbasyLinks'>Be in good health.</li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className='visaInnerEmbasyLinks'>
-                                                    <h4 className='visaInnerEmbasyHeadings'>Travel Checklist</h4>
-                                                    <ul>
-                                                        <li className='VisaEmbasyLinks'>Passport.</li>
-                                                        <li className='VisaEmbasyLinks'>Valid Vietnam Visa.</li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className='visaInnerEmbasyLinks'>
-                                                    <h4 className='visaInnerEmbasyHeadings'>What to do when you arrive in Vietnam</h4>
-                                                    <ul>
-                                                        <li className='VisaEmbasyLinks'>Keep your Declaration form in hand (provided to you on the flight).</li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className='visaInnerEmbasyLinks'>
-                                                    <h4 className='visaInnerEmbasyHeadings'>Vietnam travel guide</h4>
-                                                    <ul>
-                                                        <li className='VisaEmbasyLinks'>Vietnam is a nation of huge contrasts, immense cultural diversity, and breath-taking natural wonders that can keep its travellers – ranging from back packers to the world’s elite – entertained for weeks if not months.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
