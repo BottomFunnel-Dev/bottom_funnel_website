@@ -199,7 +199,7 @@ export const NavbarMain = () => {
             <li
               onMouseEnter={blogHoverIn}
               onMouseLeave={blogHoverOut}
-              onClick={() => navigate("/productNewPage")}
+              onClick={() => navigate("/Products")}
               style={{ color: navbar ? "black" : navredux.color }}
             >
               PRODUCTS
