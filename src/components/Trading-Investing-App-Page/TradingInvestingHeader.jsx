@@ -11,7 +11,7 @@ export const TradingInvestingHeader = () => {
             <button className='RGTIbtn'>Get started</button>
         </div>
         <div className='RGtradingInvestingRightContainer'>
-            <img width="90%" src="Images/Trading-investing-App/banners-backgrounds/Group-340155.png" alt="" />
+            <img width="80%" src="Images/Trading-investing-App/banners-backgrounds/Group-340155.png" alt="" />
         </div>
             
     </div>

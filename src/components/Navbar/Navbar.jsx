@@ -199,7 +199,7 @@ export const NavbarMain = () => {
             <li
               onMouseEnter={blogHoverIn}
               onMouseLeave={blogHoverOut}
-              onClick={() => navigate("/Products")}
+              onClick={() => navigate("/productNewPage")}
               style={{ color: navbar ? "black" : navredux.color }}
             >
               PRODUCTS
@@ -228,7 +228,9 @@ export const NavbarMain = () => {
             </li>
           </div>
 
-          <button className="callToAction">Hire a Talent</button>
+          <button className="callToAction"
+          onClick={() => navigate("/hire-new-talent")}>
+            Hire a Talent</button>
           <button
             className="callToAction"
             onClick={() => navigate("/Apply-new-talent")}

@@ -9,7 +9,7 @@ export const WhyChooseKotlin = () => {
           <div className="whyChooseKotlinIconOuterBox">
             <div className="whyChooseKotlinContainerDiv">
               <div className="whyChooseKotlinIcon">
-                <img src="Images/kotlin/Icons/insignia (1)-1.png" />
+                <img src="Images/Kotlin/Icons/Java.png"  />
               </div>
               <div className="whyChooseKotlinIconHeading">
                 <h4>Simpler than Java</h4>  
@@ -21,7 +21,7 @@ export const WhyChooseKotlin = () => {
 
             <div className="whyChooseKotlinContainerDiv">
               <div className="whyChooseKotlinIcon">
-                <img src="Images/kotlin/Icons/cyber-security.png" />
+                <img src="Images/Kotlin/Icons/cyberSecurity.png"  />
               </div>
               <div className="whyChooseKotlinIconHeading">
                 <h4>Safe and Secure</h4>

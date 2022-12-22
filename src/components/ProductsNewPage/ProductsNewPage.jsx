@@ -12,10 +12,10 @@ import { TalentNetwork } from "./TalentNetwork/TalentNetwork";
 import { CustomerTrust } from "./CustomerTrust/CustomerTrust";
 import MultipleProducts from "./MultipleProducts/MultipleProducts";
 
-import MainFooter from "../FooterSection/MainFooter";
 import ContectForm from "../ContectForm/ContectForm";
 import Revamping from "../revamping/Revamping";
 import { OurCommitment } from "./OurCommitment/OurCommitment";
+import { ProductsFooter } from "./ProductsFooter/ProductsFooter";
 
 export const ProductsNewPage = () => {
     const dispatch = useDispatch();
@@ -34,19 +34,20 @@ export const ProductsNewPage = () => {
 
             <TalentProfiles />
 
-            {/* <OurCommitment /> */}
+            <OurCommitment />
 
-            <StoriesSection />
 
             <CustomerTrust />
 
             <Revamping />
+            
+            <StoriesSection />
 
             <GetStarted />
 
             <ContectForm />
 
-            <MainFooter />
+            <ProductsFooter/>
 
 
         </div>

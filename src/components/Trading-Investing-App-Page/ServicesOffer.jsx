@@ -41,10 +41,10 @@ export const ServicesOffer = () => {
                   <div className='RG-service-Offer-Box3-Img2'>
                     <img width="100%" src="Images/Trading-investing-App/banners-backgrounds/Frame-1.png" alt="" />
                   </div>
-                  <h2 className='RG-service-Offer-box-3-head'>Learn. Decide. Invest.</h2>
-                  <p className='RG-service-Offer-box-3-para'>Learn All About Investments From Experts. Make Informed Decisions Using Smart Tools. Invest Easily With Just A Click.</p>
-
-                </div>
+                    <h2 className='RG-service-Offer-box-3-head'>Learn. Decide. Invest.</h2>
+                    <p className='RG-service-Offer-box-3-para'>Learn All About Investments From Experts. Make Informed Decisions Using Smart Tools. Invest Easily With Just A Click.</p>
+                 
+                  </div>
         </div>
         <div className='RG-service-Offer-Button-Div'>
         <button className='RG-service-Offer-Button'>

@@ -29,7 +29,6 @@ export const WearableAppDevelopment = () => {
   return (
     <div>
       <WearableBanner />
-
       <WearableContainer />
       <Scroller />
       <Usercentric />

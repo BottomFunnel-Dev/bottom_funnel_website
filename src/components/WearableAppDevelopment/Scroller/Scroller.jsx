@@ -8,9 +8,8 @@ export const Scroller = () => {
                 <div className="ScrollerContent">
                     <h1>Our Wearable App Development Approach</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error minus laudantium similique nam iusto, eveniet hic voluptas officiis modi quaerat dolorem autem amet quam quo nulla ipsa! Voluptates, architecto.
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus atque ea assumenda similique nisi voluptates, qui aperiam praesentium tempore, neque ad vero? Qui ea itaque odit omnis, enim dolorem ducimus?
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum architecto, optio vel doloribus aspernatur, ea eius libero provident incidunt ullam animi pariatur nam molestias quo quibusdam! Nostrum maxime consectetur velit!
+                    Do you want to create a wearable app but don't know where to start? Not to worry! We can help you get started with our unique and innovative approach. Our team of experienced app developers will work together with you to develop a custom Wearable App that meets your specific needs and goals.
+                       We understand the importance of creating an effective and user-friendly wearable app, which is why we take the time to fully understand your business before starting development. This way, we are able to create an app that not only looks great onscreen, but also functions smoothly and effectively
                     </p>
                 </div>
                 <div className="ScrollerContentScroller">
@@ -27,11 +26,11 @@ export const Scroller = () => {
                             <div className="ScrollerContentDataText">
 
                                 <li>Recognizing Platforms</li>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p>
+                                <p>Platforms are a major part of digital marketing today. They allow businesses to reach more people with their message.</p>
                                 <li>Analyzing Core Requirements</li>
-                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p>
-                                <li>Implementing Roadmap</li>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p>
+                                <p>Core requirements are a set of minimum standards that all members of an organization must meet in order to be considered part of the team. </p>
+                                {/* <li>Implementing Roadmap</li>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p> */}
 
 
                             </div>
@@ -47,11 +46,11 @@ export const Scroller = () => {
                             </div>
                             <div className="ScrollerContentDataText">
                                 <li>Implementing UI Layouts</li>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p>
+                                <p>UI layout is an important aspect of any design project, and it's something that should be considered from the very beginning. </p>
                                 <li>Function & API Integration </li>
-                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p>
+                                <p>UI layouts are one of the most important aspects of any web or mobile application. </p>
                                 <li>Code Optimization</li>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p>
+                                {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p> */}
                             </div>
                         </div>
                         <div className="ScrollerContentScrollerDivContainer">

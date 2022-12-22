@@ -18,24 +18,15 @@ export const WearablePartner = () => {
                   </p>
                </div>
                <div className='wearablepath-img'>
-                  <img src='public/Images/wearable/17017 3.png' className='wearablepath-imgdiv'></img>
+                  <img src='/Images/wearable/whyChooseWearable.png' className='wearablepath-imgdiv'></img>
                </div>
             </div>
             <div className='wearableinnermaindiv5-boxdiv'>
                <div className='wearableinnermaindiv4-boxdiv1stcolum' >
-                  {/* <div className='wearableinnermaindiv4-row'>
-                     <div className='wearabledivbox'>
-                        <img src='public/Images/wearable/lightbulb.png' alt='logo' className='wearableimag'></img>
-                     </div>
-                     <h4> Android Wearable App Development </h4>
-                     <p>
-                        Our experts develop platform-specific wearable apps for Android. At BottomFunnel, we deliver value-based android wearable applications with the help of advanced technologies including HTML, JavaScript, Firebase Analytics, Android sensors, GPU tools, and more.
-                     </p>
-                  </div> */}
-
+                 
                   <div className='wearableinnermaindiv4-row'>
                      <div className='wearabledivbox'>
-                        <img src='public/Images/wearable/lightbulb.png' alt='logo' className='wearableimag'></img>
+                        <img src='/Images/wearable/lightbulb.png' alt='logo' className='wearableimag'></img>
                      </div>
                      <h4> Education </h4>
                      <p>
@@ -45,7 +36,7 @@ export const WearablePartner = () => {
 
                   <div className='wearableinnermaindiv4-row'>
                      <div className='wearabledivbox'>
-                        <img src='public/Images/wearable/lightbulb-1.png' alt='logo' className='wearableimag'></img>
+                        <img src='/Images/wearable/lightbulb-1.png' alt='logo' className='wearableimag'></img>
                      </div>
                      <h4> Fitness App Development </h4>
                      <p>
@@ -55,7 +46,7 @@ export const WearablePartner = () => {
 
                   <div className='wearableinnermaindiv4-row'>
                      <div className='wearabledivbox'>
-                        <img src='public/Images/wearable/lightbulb-2.png' alt='logo' className='wearableimag'></img>
+                        <img src='/Images/wearable/lightbulb-2.png' alt='logo' className='wearableimag'></img>
                      </div>
                      <h4> Wearable App Upgrade </h4>
                      <p>
@@ -68,7 +59,7 @@ export const WearablePartner = () => {
                <div className='wearableinnermaindiv4-boxdiv1stcolum' >
                   <div className='wearableinnermaindiv4-row'>
                      <div className='wearabledivbox'>
-                        <img src='public/Images/wearable/lightbulb-7.png' alt='logo' className='wearableimag'></img>
+                        <img src='/Images/wearable/lightbulb-7.png' alt='logo' className='wearableimag'></img>
                      </div>
                      <h4> Security </h4>
                      <p>
@@ -78,7 +69,7 @@ export const WearablePartner = () => {
 
                   <div className='wearableinnermaindiv4-row'>
                      <div className='wearabledivbox'>
-                        <img src='public/Images/wearable/lightbulb-8.png' alt='logo' className='wearableimag'></img>
+                        <img src='/Images/wearable/lightbulb-8.png' alt='logo' className='wearableimag'></img>
                      </div>
                      <h4> Smooth Navigation </h4>
                      <p>
@@ -88,7 +79,7 @@ export const WearablePartner = () => {
 
                   <div className='wearableinnermaindiv4-row'>
                      <div className='wearabledivbox'>
-                        <img src='public/Images/wearable/lightbulb-3.png' alt='logo' className='wearableimag' ></img>
+                        <img src='/Images/wearable/lightbulb-3.png' alt='logo' className='wearableimag' ></img>
                      </div>
                      <h4> Support and Maintenance </h4>
                      <p>
@@ -103,7 +94,7 @@ export const WearablePartner = () => {
 
                   <div className='wearableinnermaindiv4-row'>
                      <div className='wearabledivbox'>
-                        <img src='public/Images/wearable/lightbulb-6.png' alt='logo' className='wearableimag'></img>
+                        <img src='/Images/wearable/lightbulb-6.png' alt='logo' className='wearableimag'></img>
                      </div>
                      <h4> Extensive Experience </h4>
                      <p>
@@ -112,7 +103,7 @@ export const WearablePartner = () => {
                   </div>
                   <div className='wearableinnermaindiv4-row'>
                      <div className='wearabledivbox'>
-                        <img src='public/Images/wearable/lightbulb-5.png' alt='logo' className='wearableimag'></img>
+                        <img src='/Images/wearable/lightbulb-5.png' alt='logo' className='wearableimag'></img>
                      </div>
                      <h4> On time, in Budget </h4>
                      <p>
@@ -121,7 +112,7 @@ export const WearablePartner = () => {
                   </div>
                   <div className='wearableinnermaindiv4-row'>
                      <div className='wearabledivbox'>
-                        <img src='public/Images/wearable/lightbulb-4.png' alt='logo' className='wearableimag'></img>
+                        <img src='/Images/wearable/lightbulb-4.png' alt='logo' className='wearableimag'></img>
                      </div>
                      <h4> Support and Maintenance  </h4>
                      <p>

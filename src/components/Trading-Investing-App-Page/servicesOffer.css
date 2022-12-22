@@ -10,29 +10,26 @@
 }
 
 .RG-service-Offer-Three-Boxes-Main {
-    width: 50%;
+    width: 45%;
     height: fit-content;
     margin: auto;
+    /* border: 1px solid red; */
 }
 
-.RG-service-Offer-Three-Boxes-Main div {
+.RG-service-Offer-Three-Boxes-Main > div {
     border-radius: 20px;
+    /* border: 1px solid green; */
 }
 
 .RG-service-Offer-Box-1-2-Combo {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    padding: 1%;
     margin-bottom: 3%;
-    width: 80%;
     margin: auto;
-}
-
-.RG-service-Offer-Box-1-2-Combo>div {
-
-    width: 48%;
-    height: fit-content;
+    /* border: 1px solid red; */
+    gap: 20px;
 }
 
 .RG-service-Offer-Box-1>img {
@@ -41,7 +38,7 @@
 
 }
 
-.RG-service-Offer-Box-2>img {
+.RG-service-Offer-Box-2 > img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -67,8 +64,7 @@
 
 .RG-service-Offer-Box-3 {
     height: 300px;
-    width: 80%;
-    padding: 5px;
+    padding: 1%;
     position: relative;
     display: flex;
     margin: auto;
@@ -102,32 +98,35 @@
 
 .RG-service-Offer-box-1-head {
     position: absolute;
-    bottom: 20%;
-    padding-left: 5%;
+    bottom: 30%;
+    text-align: center;
     color: white;
     /* border: 1px solid red; */
 }
 
 .RG-service-Offer-box-1-para {
     position: absolute;
-    bottom: 4%;
+    bottom: 16%;
     color: white;
+    text-align: center;
     /* border: 1px solid red; */
 
 }
 
 .RG-service-Offer-box-2-head {
     position: absolute;
-    top: 50%;
+    bottom: 30%;
+    text-align: center;
     color: white;
     /* border: 1px solid red; */
 }
 
 .RG-service-Offer-box-2-para {
     position: absolute;
-    bottom: 1%;
+    bottom: 10%;
+    text-align: center;
     color: white;
-    padding-left: 5%;
+   
     /* border: 1px solid red; */
 }
 
@@ -135,8 +134,7 @@
     position: absolute;
     top: 30%;
     color: white;
-    font-weight: 550;
-    left: 3%;
+    left: 8%;
     /* border: 1px solid red; */
 }
 
@@ -145,8 +143,9 @@
     bottom: 18%;
     width: 40%;
     color: white;
-    left: 3%;
+    left: 8%;
 }
+
 
 .RG-service-Offer-Button {
     background: black;
@@ -169,5 +168,6 @@
 .RG-service-Offer-Button-Div {
     justify-content: center;
     display: flex;
+    margin-top: 3%;
     margin-bottom: 5%;
 }
