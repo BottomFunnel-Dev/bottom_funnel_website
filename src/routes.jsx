@@ -172,6 +172,7 @@ import { CarRental } from "./components/Car-Rental-page/CarRental";
 
 import { ProductsNewPage } from "./components/ProductsNewPage/ProductsNewPage";
 import { RealEstate } from "./components/RealEstate/RealEstate";
+import { Hireatalent } from "./components/Hireatelent/Hireatalent";
 
 export const ALLroutes = () => {
   return (
@@ -419,7 +420,7 @@ export const ALLroutes = () => {
       <Route path="/funnel-desk" element={<FunnelDesk />} />
       <Route path="/productNewPage" element={<ProductsNewPage />} />
       <Route path="/real-Estate" element={ <RealEstate/> } />
-
+      <Route path="/hire-new-talent" element={<Hireatalent/>}/>
     </Routes>
   );
 };
