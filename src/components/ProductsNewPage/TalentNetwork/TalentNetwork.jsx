@@ -76,7 +76,7 @@ export const TalentNetwork = () => {
             language5: "C",
             language6: "C#",
             language7: "Pascal",
-            language6: "Ruby",
+            language8: "Ruby",
             jobprofile: "Software Engineers",
 
             buttondetails: "Visit marketplace",

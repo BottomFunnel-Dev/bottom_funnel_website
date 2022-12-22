@@ -5,6 +5,7 @@
   margin: auto;
   display: flex;
   padding: 20px;
+  align-items: center;
  
   
 }
@@ -49,6 +50,7 @@
 .enter-banner {
   width: 50%;
   height: 100%;
+  margin-top: 3%;
   /* background-color: red; */
 }
 .enter-banner > img {

@@ -3,6 +3,7 @@ import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
 import { useDispatch } from "react-redux";
 import { EnterpriseDeskBanner } from './EnterpriseDeskBanner'
 import { EnterpriseEngage } from "./EnterpriseEngage";
+import { EnterpriseDeskService } from "./EnterpriseDeskService";
 
 export const EnterpriseDesk = () => {
     const dispatch = useDispatch();
@@ -14,6 +15,7 @@ export const EnterpriseDesk = () => {
     <div>
         <EnterpriseDeskBanner/>
         <EnterpriseEngage/>
+        <EnterpriseDeskService/>
     </div>
   )
 }
