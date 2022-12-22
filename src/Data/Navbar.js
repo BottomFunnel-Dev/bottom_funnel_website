@@ -498,7 +498,7 @@ export const ondemand = [
   {
     dropContent: "RealState Apps Solutions",
     navIcons: "Images/navbar/industriesImage/realestate.png",
-    path: "",
+    path: "real-Estate",
   },
   {
     dropContent: "Meat Delivery App",
