@@ -5,6 +5,7 @@ import React, { useEffect } from "react";
 import { ContactMain } from "./components/Contact/Contact";
 import { NavbarMain } from "./components/Navbar/Navbar";
 import { ALLroutes } from "./routes";
+import { ProductsNavbar } from "./components/Navbar/ProductsNavbar/ProductsNavbar";
 
 function App() {
   const URLpath = useNavigate();
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       {/* <ContactMain /> */}
       <NavbarMain />
+      {/* <ProductsNavbar /> */}
       <ALLroutes />
     </div>
   );

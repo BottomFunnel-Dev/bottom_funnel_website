@@ -138,6 +138,7 @@ import { BusinessAnalysis } from "./components/BusinessAnalysis/BusinessAnalysis
 import { FullCycleDesignPages } from "./components/FullCycleDesignPages/FullCycleDesignPages";
 import { UXReviewPage } from "./components/UXReviewPage/UXReviewPage";
 import { Products } from "./components/Products-Page/Products";
+import { Scoping } from "./components/Scoping-Session-Page/Scoping";
 import { FintechSolution } from "./components/FintexhSolution/FintechSolution";
 import { CarService } from "./components/Car-Service-page/CarService";
 import { XamarinAppDevelopment } from "./components/XamarinAppDevelopment/XamarinAppDevelopment";
@@ -171,10 +172,6 @@ import { CarRental } from "./components/Car-Rental-page/CarRental";
 
 import { ProductsNewPage } from "./components/ProductsNewPage/ProductsNewPage";
 import { RealEstate } from "./components/RealEstate/RealEstate";
-import { Hireatalent } from "./components/Hireatelent/Hireatalent";
-import { Scoping } from "./components/Scoping-Session-Page/Scoping";
-import { CollaborationPage } from "./components/CollaborationPage/CollaborationPage";
-
 
 export const ALLroutes = () => {
   return (
@@ -383,8 +380,7 @@ export const ALLroutes = () => {
         element={<FullCycleDesignPages />}
       />
       <Route path="/UX-Review" element={<UXReviewPage />} />
-      <Route path="/Scoping-session" element={<Scoping/>}/>
-      
+      <Route path="/Scoping-session" element={<Scoping />} />
       <Route path="/Fintech-solution" element={<FintechSolution />} />
       <Route path="/Car-services" element={<CarService />} />
       <Route path="/mobile-app-development" element={<MobileDevMain />} />
@@ -421,11 +417,8 @@ export const ALLroutes = () => {
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
       <Route path="/funnel-desk" element={<FunnelDesk />} />
-      <Route path="/product-enterprise" element={<EnterpriseDesk />} />
-      <Route path="/productNewPage" element={<ProductsNewPage />} />
       <Route path="/real-Estate" element={ <RealEstate/> } />
-      <Route path="/hire-new-talent" element={<Hireatalent/>}/>
-      <Route path="/Collaboration" element={<CollaborationPage/>}/> 
+
     </Routes>
   );
 };

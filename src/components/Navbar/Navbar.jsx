@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
 import { BsArrowRight } from "react-icons/bs";
-import WhoWeAre from "./WhoWeAre";
+import { WhoWeAre } from "./WhoWeAre";
 import {
   discoverContent,
   discoverRightContent,
@@ -31,11 +31,13 @@ import {
 } from "../../Data/Navbar";
 import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
 import { ContactMain } from "../Contact/Contact";
-import zIndex from "@mui/material/styles/zIndex";
 
 import { useSelector } from "react-redux";
-import { color } from "@mui/system";
 import { useEffect } from "react";
+import { NavServices } from "./NavServices";
+import { NavIndustries } from "./NavIndustries";
+import { Products } from "./Products";
+import { ProductsNavbar } from "./ProductsNavbar/ProductsNavbar";
 
 export const NavbarMain = () => {
   const navigate = useNavigate();
@@ -43,24 +45,13 @@ export const NavbarMain = () => {
   const [solution, setSolution] = useState(false);
   const [service, setService] = useState(false);
   const [scroll, setScroll] = useState(false);
-  const [skill, setSkill] = useState(false);
+  const [product, setProduct] = useState(false);
   const [navbar, setNabvar] = useState(false);
-  const [sidetoggle, setSidetoggle] = useState("Technologies");
 
   const navredux = useSelector((state) => state.navbar);
+  const productMount = useSelector((state) => state.mountNav);
 
-  const sideBar = [
-    { sidename: "Discover" },
-    { sidename: "Design" },
-    { sidename: "Technologies" },
-    { sidename: "Skills" },
-    { sidename: "Scale" },
-  ];
-
-  const handleSide = (element) => {
-    console.log(element);
-    setSidetoggle(element);
-  };
+  // console.log(productMount)
 
   const skillHoverIn = () => {
     setSkill(true);
@@ -84,6 +75,17 @@ export const NavbarMain = () => {
 
   const solHoverOut = () => {
     setSolution(false);
+    if (window.scrollY == 0) {
+      setNabvar(false);
+    }
+  };
+  const productHoverIn = () => {
+    setProduct(true);
+    setNabvar(true);
+  };
+
+  const productHoverOut = () => {
+    setProduct(false);
     if (window.scrollY == 0) {
       setNabvar(false);
     }
@@ -136,19 +138,24 @@ export const NavbarMain = () => {
   window.addEventListener("scroll", navBackground);
 
   useEffect(() => {
-    console.log(navredux);
-  }, [navredux]);
+    console.log(productMount.navMount);
+  }, [productMount]);
+
 
   return (
     <div>
-      <ContactMain
+     {!productMount.navMount && <ContactMain
         bgcolor={navbar ? "white" : "transparent"}
         textcolor={!navbar ? navredux.color : "black"}
-      />
+      />}
+
+      {productMount.navMount && <ProductsNavbar scroll={scroll}/>}
+
       <nav
         className={navbar ? "navbarSection active" : "navbarSection"}
         style={{
-          top: scroll ? "0" : "40px",
+          top: scroll || productMount.navMount ? "0" : "30px",
+          position: scroll || productMount.navMount ? "static": "fixed"
         }}
       >
         <div className="logoSection">
@@ -163,6 +170,7 @@ export const NavbarMain = () => {
             />
           </Link>
         </div>
+
         <input id="checkbox" type="checkbox" />
         <div id="bar">
           <label htmlFor="checkbox">
@@ -180,30 +188,33 @@ export const NavbarMain = () => {
               style={{ color: navbar ? "black" : navredux.color }}
             >
               ABOUT
-              {aboutH ? <WhoWeAre /> : ""}
             </li>
-            <li
-              onMouseEnter={solHoverIn}
-              onMouseLeave={solHoverOut}
-              style={{ color: navbar ? "black" : navredux.color }}
-            >
-              SERVICES
-            </li>
+
             <li
               onMouseEnter={serHoverIn}
               onMouseLeave={serHoverOut}
               style={{ color: navbar ? "black" : navredux.color }}
             >
+              SERVICES
+            </li>
+
+            <li
+              onMouseEnter={solHoverIn}
+              onMouseLeave={solHoverOut}
+              style={{ color: navbar ? "black" : navredux.color }}
+            >
               SOLUTIONS
             </li>
+
             <li
-              onMouseEnter={blogHoverIn}
-              onMouseLeave={blogHoverOut}
+              onMouseEnter={productHoverIn}
+              onMouseLeave={productHoverOut}
               onClick={() => navigate("/Products")}
               style={{ color: navbar ? "black" : navredux.color }}
             >
               PRODUCTS
             </li>
+
             <li
               onMouseEnter={skillHoverIn}
               onMouseLeave={skillHoverOut}
@@ -212,6 +223,7 @@ export const NavbarMain = () => {
             >
               PRICING
             </li>
+
             <li
               onMouseEnter={blogHoverIn}
               onMouseLeave={blogHoverOut}
@@ -219,6 +231,7 @@ export const NavbarMain = () => {
             >
               PORTFOLIO
             </li>
+
             <li
               onMouseEnter={blogHoverIn}
               onMouseLeave={blogHoverOut}
@@ -228,9 +241,12 @@ export const NavbarMain = () => {
             </li>
           </div>
 
-          <button className="callToAction"
-          onClick={() => navigate("/hire-new-talent")}>
-            Hire a Talent</button>
+          <button
+            className="callToAction"
+            onClick={() => navigate("/hire-new-talent")}
+          >
+            Hire a Talent
+          </button>
           <button
             className="callToAction"
             onClick={() => navigate("/Apply-new-talent")}
@@ -239,632 +255,38 @@ export const NavbarMain = () => {
           </button>
         </div>
       </nav>
+
+      {/* about drop down section code start */}
       {aboutH ? (
-        <div
-          onMouseEnter={homeHoverIn}
-          onMouseLeave={homeHoverOut}
-          className="aboutNavVisible"
-          style={{ top: scroll ? "75px" : "110px" }}
-        >
-          <div className="aboutDropdownSection">
-            <div className="aboutDropdownContent">
-              <Link className="noStyle">
-                <h5>Company</h5>
-              </Link>
-              <div className="listItems">
-                {company.map((item, i) => (
-                  <div
-                    onClick={() => {
-                      navigate(`/${item.path}`);
-                      homeHoverOut();
-                    }}
-                    className="imageIconDivSection"
-                  >
-                    <div>
-                      <img
-                        className="iconDivSection"
-                        src={item.navIcons}
-                        alt=""
-                      />
-                    </div>
-                    <Link
-                      onClick={homeHoverOut}
-                      to={item.path}
-                      className="linkP"
-                    >
-                      <p>{item.dropContent}</p>
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="aboutDropdownContent">
-              <Link className="noStyle">
-                <h5>Why Bottom Funnel</h5>
-              </Link>
-              <div className="listItems">
-                {whyBottom.map((item, i) => (
-                  <div
-                    onClick={() => {
-                      navigate(`/${item.path}`);
-                      homeHoverOut();
-                    }}
-                    className="imageIconDivSection"
-                  >
-                    <div>
-                      <img
-                        className="iconDivSection"
-                        src={item.navIcons}
-                        alt=""
-                      />
-                    </div>
-                    <Link
-                      onClick={homeHoverOut}
-                      to={item.path}
-                      className="linkP"
-                    >
-                      <p>{item.dropContent}</p>
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="aboutDropdownContent">
-              <Link className="noStyle">
-                <h5>Our Process</h5>
-              </Link>
-              <div className="listItems">
-                {process.map((item, i) => (
-                  <div
-                    onClick={() => {
-                      navigate(`/${item.path}`);
-                      homeHoverOut();
-                    }}
-                    className="imageIconDivSection"
-                  >
-                    <div>
-                      <img
-                        className="iconDivSection"
-                        src={item.navIcons}
-                        alt=""
-                      />
-                    </div>
-                    <Link
-                      onClick={homeHoverOut}
-                      to={item.path}
-                      className="linkP"
-                    >
-                      <p>{item.dropContent}</p>
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
+        <WhoWeAre
+          homeHoverIn={homeHoverIn}
+          homeHoverOut={homeHoverOut}
+          scroll={scroll}
+        />
       ) : null}
-      {solution ? (
-        <div
-          onMouseEnter={solHoverIn}
-          onMouseLeave={solHoverOut}
-          className="solutionVisible"
-          style={{ top: scroll ? "75px" : "110px" }}
-        >
-          <div className="sideNav">
-            {sideBar.map((item, index) => (
-              <div
-                key={item.sidename}
-                className={sidetoggle === item.sidename ? "active-toggle" : ""}
-                onMouseEnter={() => {
-                  handleSide(item.sidename);
-                }}
-              >
-                <h6>{item.sidename}</h6>
-              </div>
-            ))}
-          </div>
-          {sidetoggle === "Technologies" && (
-            <div className="dropdownSection">
-              <div className="serviceDropdownContent">
-                <h5
-                  className="noStyleMain"
-                  onClick={() => {
-                    navigate(`web-development`);
-                    solHoverOut();
-                  }}
-                >
-                  Web Development
-                </h5>
+      {/* about drop down section code end */}
 
-                <div className="listItems">
-                  {webservice.map((item, i) => (
-                    <div
-                      onClick={() => {
-                        navigate(`/${item.path}`);
-                        solHoverOut();
-                      }}
-                      className="imageIconDivSection"
-                    >
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="serviceDropdownContent">
-                <h5
-                  className="noStyle"
-                  onClick={() => {
-                    navigate(`/mobile-app-development`);
-                    solHoverOut();
-                  }}
-                >
-                  Mobile App Development
-                </h5>
-
-                <div className="listItems">
-                  {appservice.map((item, j) => (
-                    <div
-                      onClick={() => {
-                        navigate(`/${item.path}`);
-                        solHoverOut();
-                      }}
-                      className="imageIconDivSection"
-                    >
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="serviceDropdownContent">
-                <Link to="Digital-marketing" className="noStyle">
-                  <h5
-                    onClick={() => {
-                      solHoverOut();
-                    }}
-                  >
-                    Digital Marketing
-                  </h5>
-                </Link>
-                <div className="listItems">
-                  {digitalmarket.map((item, l) => (
-                    // <Link
-                    //   to={item.path}
-                    //   onClick={solHoverOut}
-                    //   className="servicesP"
-                    // >
-                    <div
-                      onClick={() => {
-                        navigate(`/${item.path}`);
-                        solHoverOut();
-                      }}
-                      key={l}
-                      className="imageIconDivSection"
-                    >
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                    // </Link>
-                  ))}
-                </div>
-              </div>
-              <div id="serviceDropContent" className="serviceDropdownContent">
-                <Link className="noStyle">
-                  <h5>Trending Technologies</h5>
-                </Link>
-                <div className="trendListItems">
-                  {trendingTech.map((item, m) => (
-                    <div
-                      onClick={() => {
-                        navigate(`/${item.path}`);
-                        solHoverOut();
-                      }}
-                      className="trendImageIconDivSection"
-                    >
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
-
-          {sidetoggle === "Discover" && (
-            <div className="discoverDropdown">
-              <div className="discoverleft">
-                <div className="discoverlefttop">
-                  {discoverContent.map((item, index) => (
-                    <ImageCard
-                      key={index}
-                      cardContent={item}
-                      closeDisplay={solHoverOut}
-                    />
-                  ))}
-                </div>
-                <div className="discoverleftbottom">
-                  <h3>
-                    Learn more About{" "}
-                    <span>
-                      Our services <BsArrowRight />
-                    </span>
-                  </h3>
-                </div>
-              </div>
-              <div className="discoverright">
-                {discoverRightContent.map((item, index) => (
-                  <div key={index}>
-                    <ImageCard cardContent={item} closeDisplay={solHoverOut} />
-                    <h5 className="knowmore">
-                      Know More <BsArrowRight />
-                    </h5>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-          {sidetoggle === "Design" && (
-            <div className="discoverDropdown">
-              <div className="discoverleft">
-                <div className="discoverlefttop">
-                  {designContent.map((item, index) => (
-                    <ImageCard
-                      key={index}
-                      closeDisplay={solHoverOut}
-                      cardContent={item}
-                    />
-                  ))}
-                </div>
-                <div className="discoverleftbottom">
-                  <h3>
-                    Learn more About{" "}
-                    <span>
-                      Our services <BsArrowRight />
-                    </span>
-                  </h3>
-                </div>
-              </div>
-              <div className="discoverright">
-                {designRightContent.map((item, index) => (
-                  <div key={index}>
-                    <ImageCard cardContent={item} closeDisplay={solHoverOut} />
-                    <h5 className="knowmore">
-                      Know More <BsArrowRight />
-                    </h5>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-          {sidetoggle === "Skills" && (
-            <div className="dropdownSection">
-              <div className="backendDropdownContent">
-                <Link className="noStyle">
-                  <h5>Backend</h5>
-                </Link>
-                <div className="backendlistItems">
-                  {backend.map((item, i) => (
-                    <div
-                      onClick={() => {
-                        navigate(`/${item.path}`);
-                        solHoverOut();
-                      }}
-                      className="backendimageIconDivSection"
-                    >
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="skillDropdownContent">
-                <Link className="noStyle">
-                  <h5>Frontend</h5>
-                </Link>
-                <div className="listItems">
-                  {frontend.map((item, j) => (
-                    <div
-                      onClick={() => {
-                        navigate(`/${item.path}`);
-                        solHoverOut();
-                      }}
-                      className="imageIconDivSection"
-                    >
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div className="skillDropdownContent">
-                <Link className="noStyle">
-                  <h5>Mobile</h5>
-                </Link>
-                <div className="listItems">
-                  {mobile.map((item, j) => (
-                    <div
-                      onClick={() => {
-                        navigate(`/${item.path}`);
-                        solHoverOut();
-                      }}
-                      className="imageIconDivSection"
-                    >
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="skillDropdownContent">
-                <Link className="noStyle">
-                  <h5>DataBase</h5>
-                </Link>
-                <div className="listItems">
-                  {database.map((item, j) => (
-                    <div
-                      onClick={() => {
-                        navigate(`/${item.path}`);
-                        solHoverOut();
-                      }}
-                      className="imageIconDivSection"
-                    >
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="skillDropdownContent">
-                <Link className="noStyle">
-                  <h5>CMS Frameworks</h5>
-                </Link>
-                <div className="listItems">
-                  {cms.map((item, j) => (
-                    <div
-                      onClick={() => {
-                        navigate(`/${item.path}`);
-                        solHoverOut();
-                      }}
-                      className="imageIconDivSection"
-                    >
-                      <div>
-                        <img
-                          className="iconDivSection"
-                          src={item.navIcons}
-                          alt=""
-                        />
-                      </div>
-                      <Link
-                        onClick={solHoverOut}
-                        to={item.path}
-                        className="linkP"
-                      >
-                        <p>{item.dropContent}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
-          {sidetoggle === "Scale" && (
-            <div className="discoverDropdown">
-              <div className="discoverleft">
-                <div className="discoverlefttop">
-                  {scaleContent.map((item, index) => (
-                    <ImageCard
-                      key={index}
-                      closeDisplay={solHoverOut}
-                      cardContent={item}
-                    />
-                  ))}
-                </div>
-                <div className="discoverleftbottom">
-                  <h3>
-                    Learn more About{" "}
-                    <span>
-                      Our services <BsArrowRight />
-                    </span>
-                  </h3>
-                </div>
-              </div>
-              <div className="discoverright">
-                {discoverRightContent.map((item, index) => (
-                  <div key={index}>
-                    <ImageCard cardContent={item} closeDisplay={solHoverOut} />
-                    <h5 className="knowmore">
-                      Know More
-                      <BsArrowRight />{" "}
-                    </h5>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
-      ) : null}
-
+      {/* service drop down section code start */}
       {service ? (
-        <div
-          onMouseEnter={serHoverIn}
-          onMouseLeave={serHoverOut}
-          className="serviceVisible"
-          style={{ top: scroll ? "75px" : "110px" }}
-        >
-          <div className="industryDropdown">
-            <div className="industryContent">
-              <Link className="noStyle">
-                <h5>Industries We Serves</h5>
-              </Link>
-              <div className="industryListItems">
-                {industries.map((item, i) => (
-                  <div
-                    onClick={() => {
-                      navigate(`/${item.path}`);
-                      serHoverOut();
-                    }}
-                    className="imageIconDivSection"
-                  >
-                    <div>
-                      <img
-                        className="iconDivSection"
-                        src={item.navIcons}
-                        alt=""
-                      />
-                    </div>
-                    <Link
-                      onClick={serHoverOut}
-                      to={item.path}
-                      className="linkP"
-                    >
-                      <p>{item.dropContent}</p>
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="industryContent">
-              <Link className="noStyle">
-                <h5>On Demand Solutions</h5>
-              </Link>
-              <div className="industryListItems">
-                {ondemand.map((item, i) => (
-                  <div
-                    onClick={() => {
-                      navigate(`/${item.path}`);
-                      serHoverOut();
-                    }}
-                    className="imageIconDivSection"
-                  >
-                    <div>
-                      <img
-                        className="iconDivSection"
-                        src={item.navIcons}
-                        alt=""
-                      />
-                    </div>
-                    <Link
-                      onClick={serHoverOut}
-                      to={item.path}
-                      className="linkP"
-                    >
-                      <p>{item.dropContent}</p>
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
+        <NavServices
+          serHoverIn={serHoverIn}
+          serHoverOut={serHoverOut}
+          scroll={scroll}
+        />
       ) : null}
 
-      {/* {skill ? (
-        <div
-          onMouseEnter={skillHoverIn}
-          onMouseLeave={skillHoverOut}
-          className="skillVisible"
-          style={{ top: scroll ? "75px" : "110px" }}
-        >
+      {/* service drop down section code end */}
 
-        </div>
+      {/* solutions drop down section code start */}
+      {solution ? (
+        <NavIndustries
+          solHoverIn={solHoverIn}
+          solHoverOut={solHoverOut}
+          scroll={scroll}
+        />
+      ) : null}
+      {/* {product ? (
+        <Products productHoverIn={productHoverIn}  productHoverOut={productHoverOut} scroll={scroll}/>
       ) : null} */}
     </div>
   );

@@ -1,95 +1,446 @@
-// import React from "react";
-// import "./navServices.css";
-// import { Link } from "react-router-dom";
-// const NavServices = () => {
-//   const webservice = [
-//     { dropContent: "PHP Development" },
-//     { dropContent: "MERN Stack Development" },
-//     { dropContent: "MEAN Stack Development" },
-//     { dropContent: "ASP.NET Development" },
-//     { dropContent: "Java Development" },
-//     { dropContent: "Python Development" },
-//     { dropContent: "Ruby on Rails Development" },
-//     { dropContent: "Golang Development" },
-//     { dropContent: "Javascript Development" },
-//   ];
+import React, {useState} from "react";
+import "./navbar.css";
+import { Link } from "react-router-dom";
+import {
+  webservice,
+  appservice,
+  digitalmarket,
+  trendingTech,
+  discoverContent,
+  designContent,
+  designRightContent,
+  discoverRightContent,
+  backend,
+  frontend,
+  cms,
+  mobile,
+  database,
+  scaleContent,
+} from "../../Data/Navbar";
+export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
+  const [sidetoggle, setSidetoggle] = useState("Technologies");
 
-//   const appservice = [
-//     { dropContent: "Andriod App Development" },
-//     { dropContent: "IOS App Development" },
-//     { dropContent: "Kotlin App Development" },
-//     { dropContent: "Flutter App Development" },
-//     { dropContent: "React Native App Development" },
-//     { dropContent: "Xamarian App Development" },
-//     { dropContent: "Ionic App Development" },
-//     { dropContent: "Wearable App Development" },
-//     { dropContent: "Mobile UI UX " },
-//   ];
-//   const digitalmarket = [
-//     { dropContent: "SEO Services", path: "seo" },
-//     { dropContent: "Local SEO Services", path: "local-seo" },
-//     { dropContent: "SEM Services", path: "seo-sem" },
-//     { dropContent: "SMM Services", path: "seo-sem" },
-//     { dropContent: "PPC Management Services", path: "seo-ppc" },
-//     { dropContent: "Guest Posting Services", path: "seo-guest-post" },
-//     { dropContent: "Link Building Services", path: "seo-link-building" },
-//     { dropContent: "Email Marketing Services", path: "" },
-//   ];
-//   const trendingTech = [
-//     { dropContent: "Big Data Services" },
-//     { dropContent: "Blockchain Services" },
-//     { dropContent: "Machine Learning" },
-//     { dropContent: "Artificial Intelligence" },
-//     { dropContent: "Data Analytics" },
-//     { dropContent: "Crypto currency Development" },
-//     { dropContent: "Customised Web App Development" },
-//     { dropContent: "Virtual Reality Development" },
-//     { dropContent: "Augmented Reality" },
-//     { dropContent: "NFT Development" },
-//     { dropContent: "IoT Development" },
-//     { dropContent: "StartUp Solutions" },
-//     { dropContent: "Enterprise Solutions" },
-//     { dropContent: "Metaverse Services" },
-//   ];
+  const handleSide = (element) => {
+    console.log(element);
+    setSidetoggle(element);
+  };
 
-//   return (
-//     <div className="dropdownSection">
-//       <div className="serviceDropdownContent">
-//         <h4>Web Development</h4>
-//         <div className="listItems">
-//           {webservice.map((item, i) => (
-//             <p key={i}>{item.dropContent}</p>
-//           ))}
-//         </div>
-//       </div>
-//       <div className="serviceDropdownContent">
-//         <h4>App Development</h4>
-//         <div className="listItems">
-//           {appservice.map((item, j) => (
-//             <p key={j}>{item.dropContent}</p>
-//           ))}
-//         </div>
-//       </div>
-//       <div className="serviceDropdownContent">
-//         <h4>Digital Marketing</h4>
-//         <div className="listItems">
-//           {digitalmarket.map((item, l) => (
-//             <Link to={item.path} className="servicesP">
-//               <p key={l}>{item.dropContent}</p>
-//             </Link>
-//           ))}
-//         </div>
-//       </div>
-//       <div id="serviceDropContent" className="serviceDropdownContent">
-//         <h4>Trending Technologies</h4>
-//         <div className="trendListItems">
-//           {trendingTech.map((item, m) => (
-//             <p key={m}>{item.dropContent}</p>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
+  const sideBar = [
+    { sidename: "Discover" },
+    { sidename: "Design" },
+    { sidename: "Technologies" },
+    { sidename: "Skills" },
+    { sidename: "Scale" },
+  ];
 
-// export default NavServices;
+  return (
+    <div
+      onMouseEnter={serHoverIn}
+      onMouseLeave={serHoverOut}
+      className="solutionVisible"
+      style={{ top: scroll ? "52px" : "83px" }}
+    >
+      <div className="sideNav">
+        {sideBar.map((item, index) => (
+          <div
+            key={item.sidename}
+            className={sidetoggle === item.sidename ? "active-toggle" : ""}
+            onMouseEnter={() => {
+              handleSide(item.sidename);
+            }}
+          >
+            <h6>{item.sidename}</h6>
+          </div>
+        ))}
+      </div>
+      {sidetoggle === "Technologies" && (
+        <div className="dropdownSection">
+          <div className="serviceDropdownContent">
+            <h5
+              className="noStyleMain"
+              onClick={() => {
+                navigate(`web-development`);
+                serHoverOut();
+              }}
+            >
+              Web Development
+            </h5>
+
+            <div className="listItems">
+              {webservice.map((item, i) => (
+                <div
+                key={i}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="imageIconDivSection"
+                >
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="serviceDropdownContent">
+            <h5
+              className="noStyle"
+              onClick={() => {
+                navigate(`/mobile-app-development`);
+                serHoverOut();
+              }}
+            >
+              Mobile App Development
+            </h5>
+
+            <div className="listItems">
+              {appservice.map((item, i) => (
+                <div
+                key={i}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="imageIconDivSection"
+                >
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="serviceDropdownContent">
+            <Link to="Digital-marketing" className="noStyle">
+              <h5
+                onClick={() => {
+                  serHoverOut();
+                }}
+              >
+                Digital Marketing
+              </h5>
+            </Link>
+            <div className="listItems">
+              {digitalmarket.map((item, l) => (
+                // <Link
+                //   to={item.path}
+                //   onClick={serHoverOut}
+                //   className="servicesP"
+                // >
+                <div
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  key={l}
+                  className="imageIconDivSection"
+                >
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+                // </Link>
+              ))}
+            </div>
+          </div>
+          <div id="serviceDropContent" className="serviceDropdownContent">
+            <Link className="noStyle">
+              <h5>Trending Technologies</h5>
+            </Link>
+            <div className="trendListItems">
+              {trendingTech.map((item, m) => (
+                <div
+                key={m}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="trendImageIconDivSection"
+                >
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {sidetoggle === "Discover" && (
+        <div className="discoverDropdown">
+          <div className="discoverleft">
+            <div className="discoverlefttop">
+              {discoverContent.map((item, index) => (
+                <ImageCard
+                  key={index}
+                  cardContent={item}
+                  closeDisplay={serHoverOut}
+                />
+              ))}
+            </div>
+            <div className="discoverleftbottom">
+              <h3>
+                Learn more About{" "}
+                <span>
+                  Our services <BsArrowRight />
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div className="discoverright">
+            {discoverRightContent.map((item, index) => (
+              <div key={index}>
+                <ImageCard cardContent={item} closeDisplay={serHoverOut} />
+                <h5 className="knowmore">
+                  Know More <BsArrowRight />
+                </h5>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+      {sidetoggle === "Design" && (
+        <div className="discoverDropdown">
+          <div className="discoverleft">
+            <div className="discoverlefttop">
+              {designContent.map((item, index) => (
+                <ImageCard
+                  key={index}
+                  closeDisplay={serHoverOut}
+                  cardContent={item}
+                />
+              ))}
+            </div>
+            <div className="discoverleftbottom">
+              <h3>
+                Learn more About{" "}
+                <span>
+                  Our services <BsArrowRight />
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div className="discoverright">
+            {designRightContent.map((item, index) => (
+              <div key={index}>
+                <ImageCard cardContent={item} closeDisplay={serHoverOut} />
+                <h5 className="knowmore">
+                  Know More <BsArrowRight />
+                </h5>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+      {sidetoggle === "Skills" && (
+        <div className="dropdownSection">
+          <div className="backendDropdownContent">
+            <Link className="noStyle">
+              <h5>Backend</h5>
+            </Link>
+            <div className="backendlistItems">
+              {backend.map((item, i) => (
+                <div
+                key={i}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="backendimageIconDivSection"
+                >
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="skillDropdownContent">
+            <Link className="noStyle">
+              <h5>Frontend</h5>
+            </Link>
+            <div className="listItems">
+              {frontend.map((item, j) => (
+                <div
+                key={j}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="imageIconDivSection"
+                >
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="skillDropdownContent">
+            <Link className="noStyle">
+              <h5>Mobile</h5>
+            </Link>
+            <div className="listItems">
+              {mobile.map((item, j) => (
+                <div
+                key={j}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="imageIconDivSection"
+                >
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="skillDropdownContent">
+            <Link className="noStyle">
+              <h5>DataBase</h5>
+            </Link>
+            <div className="listItems">
+              {database.map((item, j) => (
+                <div
+                key={j}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="imageIconDivSection"
+                >
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="skillDropdownContent">
+            <Link className="noStyle">
+              <h5>CMS Frameworks</h5>
+            </Link>
+            <div className="listItems">
+              {cms.map((item, j) => (
+                <div
+                key={j}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="imageIconDivSection"
+                >
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+      {sidetoggle === "Scale" && (
+        <div className="discoverDropdown">
+          <div className="discoverleft">
+            <div className="discoverlefttop">
+              {scaleContent.map((item, index) => (
+                <ImageCard
+                  key={index}
+                  closeDisplay={serHoverOut}
+                  cardContent={item}
+                />
+              ))}
+            </div>
+            <div className="discoverleftbottom">
+              <h3>
+                Learn more About{" "}
+                <span>
+                  Our services <BsArrowRight />
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div className="discoverright">
+            {discoverRightContent.map((item, index) => (
+              <div key={index}>
+                <ImageCard cardContent={item} closeDisplay={serHoverOut} />
+                <h5 className="knowmore">
+                  Know More
+                  <BsArrowRight />{" "}
+                </h5>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};

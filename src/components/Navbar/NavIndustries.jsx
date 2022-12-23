@@ -1,50 +1,81 @@
-// import React from "react";
-// import "./navIndustries.css";
-
-// const NavIndustries = () => {
-//   const company = [
-//     { dropContent: "Education" },
-//     { dropContent: "Game Development" },
-//     { dropContent: "E-commerce" },
-//     { dropContent: "Video Streaming" },
-//     { dropContent: "Sports Betting" },
-//     { dropContent: "Fitness" },
-//     { dropContent: "Dating" },
-//     { dropContent: "Cryptocurrency" },
-//     { dropContent: "Social Media" },
-//     { dropContent: "Logistics" },
-//   ];
-//   const whyBottom = [
-//     { dropContent: "Food Delivery App" },
-//     { dropContent: "On Demand Home Services" },
-//     { dropContent: "Laundry Delivery" },
-//     { dropContent: "Grocery Delivery App" },
-//     { dropContent: "Beauty & Salon App" },
-//     { dropContent: "Cannabis Delivery App" },
-//     { dropContent: "Marketplace Apps" },
-//     { dropContent: "Pickup & Delivery" },
-//   ];
-
-//   return (
-//     <div className="industryDropdown">
-//       <div className="industryContent">
-//         <h4>Industries We Serves</h4>
-//         <div className="listItems">
-//           {company.map((item, i) => (
-//             <p key={i}>{item.dropContent}</p>
-//           ))}
-//         </div>
-//       </div>
-//       <div className="industryContent">
-//         <h4>On Demand Solutions</h4>
-//         <div className="listItems">
-//           {whyBottom.map((item, i) => (
-//             <p key={i}>{item.dropContent}</p>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default NavIndustries;
+import React from 'react'
+import './navbar.css'
+import { Link } from 'react-router-dom'
+import { industries , ondemand } from '../../Data/Navbar'
+export const NavIndustries = ({solHoverIn,solHoverOut,scroll}) => {
+  return (
+    <div
+    onMouseEnter={solHoverIn}
+    onMouseLeave={solHoverOut}
+    className="serviceVisible"
+    style={{ top: scroll ? "52px" : "83px" }}
+  >
+    <div className="industryDropdown">
+      <div className="industryContent">
+        <Link className="noStyle">
+          <h5>Industries We Serves</h5>
+        </Link>
+        <div className="industryListItems">
+          {industries.map((item, i) => (
+            <div
+            key={i}
+              onClick={() => {
+                navigate(`/${item.path}`);
+                solHoverOut();
+              }}
+              className="imageIconDivSection"
+            >
+              <div>
+                <img
+                  className="iconDivSection"
+                  src={item.navIcons}
+                  alt=""
+                />
+              </div>
+              <Link
+                onClick={solHoverOut}
+                to={item.path}
+                className="linkP"
+              >
+                <p>{item.dropContent}</p>
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="industryContent">
+        <Link className="noStyle">
+          <h5>On Demand Solutions</h5>
+        </Link>
+        <div className="industryListItems">
+          {ondemand.map((item, i) => (
+            <div
+            key={i}
+              onClick={() => {
+                navigate(`/${item.path}`);
+                solHoverOut();
+              }}
+              className="imageIconDivSection"
+            >
+              <div>
+                <img
+                  className="iconDivSection"
+                  src={item.navIcons}
+                  alt=""
+                />
+              </div>
+              <Link
+                onClick={solHoverOut}
+                to={item.path}
+                className="linkP"
+              >
+                <p>{item.dropContent}</p>
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+  )
+}
