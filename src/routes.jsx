@@ -174,6 +174,8 @@ import { RealEstate } from "./components/RealEstate/RealEstate";
 import { Hireatalent } from "./components/Hireatelent/Hireatalent";
 import { Scoping } from "./components/Scoping-Session-Page/Scoping";
 import { CollaborationPage } from "./components/CollaborationPage/CollaborationPage";
+import { Ticketing } from "./components/Ticketing/Ticketing";
+import { ApplyTalent } from "./components/Apply-Talent/ApplyTalent";
 
 
 export const ALLroutes = () => {
@@ -416,7 +418,8 @@ export const ALLroutes = () => {
         path="/Digital-transformation"
         element={<DigitalTransformation />}
       />
-      <Route path="/Apply-new-talent" element={<ApplyAsTalent />} />
+      <Route path="/Apply-new-talent" element={<ApplyTalent/>}/>
+      {/* <Route path="/Apply-new-talent" element={<ApplyAsTalent />} /> */}
       <Route path="/IT-consulting" element={<ItConsultingWebsite />} />
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
@@ -426,6 +429,7 @@ export const ALLroutes = () => {
       <Route path="/real-Estate" element={ <RealEstate/> } />
       <Route path="/hire-new-talent" element={<Hireatalent/>}/>
       <Route path="/Collaboration" element={<CollaborationPage/>}/> 
+      <Route path="/ticketing" element={<Ticketing/>}/>
     </Routes>
   );
 };

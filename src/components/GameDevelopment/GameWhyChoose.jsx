@@ -48,7 +48,7 @@ export const GameWhyChoose = () => {
 
 <h2>Why you Should consider <a className='colorred'>Bottom Funnel</a> For Game Development</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mollis dui non augue rutrum, eu fringilla ante ultrices. Praesent id est porttitor purus hendrerit maximus vitae vel felis. Nulla eget molestie dui, ut consectetur felis. Aenean cursus mollis metus, ac varius augue</p>
+<p>Bottom Funnel is a strategy that can be used to maximize the success of your game development initiatives. It works by breaking down the entire game development process into small, achievable goals, and then tracking progress along the way. This system helps you stay focused and motivated while making significant progress toward your ultimate goal.</p>
 
 </div>
 

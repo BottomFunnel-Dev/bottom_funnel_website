@@ -6,7 +6,7 @@ export const GameDevelopmentFeature = () => {
     <div className='gamedevelopmentfeaturemainboxes'>
     <div className='gamedevelopmentfeaturetxtdiv'>
     <h1>Game Development <a className='anaothercloror'>Feature</a> We Offer</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio quis quam eleifend vehicula non non tellus. Nam sit amet tortor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio quis quam eleifend vehicula non non tellus. Nam sit amet tortor</p>
+    <p>We offer a variety of game development features that can help you make your game stand out from the crowd. These include but are not limited to:</p>
     </div>
     <div className='gamedevelopmentanotherdivforboxesforfeatures'>
   
