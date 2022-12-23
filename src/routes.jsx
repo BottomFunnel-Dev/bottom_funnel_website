@@ -172,16 +172,12 @@ import { CarRental } from "./components/Car-Rental-page/CarRental";
 
 import { ProductsNewPage } from "./components/ProductsNewPage/ProductsNewPage";
 import { RealEstate } from "./components/RealEstate/RealEstate";
-<<<<<<< HEAD
-=======
 import { Hireatalent } from "./components/Hireatelent/Hireatalent";
-import { Scoping } from "./components/Scoping-Session-Page/Scoping";
-import { CollaborationPage } from "./components/CollaborationPage/CollaborationPage";
-import { Ticketing } from "./components/Ticketing/Ticketing";
+import { CollaborationPage } from "../src/components/CollaborationPage/CollaborationPage";
+import { Ticketing } from "../src/components/Ticketing/Ticketing";
 import { ApplyTalent } from "./components/Apply-Talent/ApplyTalent";
 import { SelfService } from "./components/SelfService/SelfService";
 
->>>>>>> refs/remotes/origin/main
 
 export const ALLroutes = () => {
   return (
@@ -431,6 +427,7 @@ export const ALLroutes = () => {
       <Route path="/funnel-desk" element={<FunnelDesk />} />
       <Route path="/real-Estate" element={ <RealEstate/> } />
       <Route path="/hire-new-talent" element={<Hireatalent/>}/>
+
       <Route path="/Collaboration" element={<CollaborationPage/>}/> 
       <Route path="/ticketing" element={<Ticketing/>}/>
       <Route path="/self-service" element={ <SelfService/> }/>
