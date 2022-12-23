@@ -18,7 +18,7 @@ export default function Services() {
                     </div>
                 </div>
                
-                <p>Upload in bulk, organize content in categories , add custom filters &  upload extras. </p>
+                <p>Upload and organize your files the right way to make them easy to find and use. </p>
               </div>
 {/* 
             ////////2option///////////// */}
@@ -30,7 +30,7 @@ export default function Services() {
                     </div>
                 </div>
                
-                <p>Upload in bulk, organize content in categories , add custom filters &  upload extras. </p>
+                <p>Monetization is the process of generating revenue from your content.</p>
               </div>
 
          </div>
@@ -42,7 +42,7 @@ export default function Services() {
                     </div>
                 </div>
                
-                 <p>Upload in bulk, organize content in categories , add custom filters &  upload extras. </p>
+                 <p>There's a new way to watch your favorite shows - on-demand.</p>
                 </div>
 
                 {/* 
@@ -55,7 +55,7 @@ export default function Services() {
                     </div>
                 </div>
                
-                <p>Upload in bulk, organize content in categories , add custom filters &  upload extras. </p>
+                <p>Analytics is the process of collecting and analyzing data to improve business performance.</p>
               </div>
 
           </div>
@@ -67,7 +67,7 @@ export default function Services() {
                     </div>
                 </div>
                
-                 <p>Upload in bulk, organize content in categories , add custom filters &  upload extras. </p>
+                 <p>Streamm Live is a new live streaming platform that lets you watch live streams of your favorite celebrities.</p>
                 </div>
 
                 {/* 
@@ -80,7 +80,7 @@ export default function Services() {
                     </div>
                 </div>
                
-                <p>Upload in bulk, organize content in categories , add custom filters &  upload extras. </p>
+                <p>Make sure you are signing in to all the devices you use regularly. This will help keep your information safe and secure.</p>
               </div>
 
        </div>

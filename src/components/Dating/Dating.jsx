@@ -22,6 +22,13 @@ import ContectForm from '../ContectForm/ContectForm'
 import MainFooter from '../FooterSection/MainFooter'
 import Trusted from '../SEO/SeoTrustedCompanies/Seotrusted'
 import { datingLogo } from '../../Data/SeopartnerData'
+
+import {
+  datingCustomer,
+  logisticDrive,
+  logisticAdmin,
+} from "../../Data/panelsData";
+
 export default function Dating() {
   const dispatch = useDispatch();
   useEffect(function () {
@@ -33,9 +40,9 @@ export default function Dating() {
        <Trusted partnerLogo={datingLogo}/>
        <Datingbrands/>
        <Datingfeatures/>
-       <Customerapp/>
-       <Adminpannel/>
-       <Datingmobile/>
+       <Customerapp  customerData={datingCustomer} />
+       <Adminpannel  customerData={datingCustomer} />
+       <Datingmobile customerData={datingCustomer} />
        <Solutiondating/>
        <Datingstart/>
        <DatingWhy/>

@@ -27,7 +27,7 @@ export const MobileGameDevelopment = () => {
 <div className='mobiledevelopmentflexboxrightgamedevelopment'>
    
 <h2><a className='specialcolorredish'>Mobile</a> Game Development</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mollis dui non augue rutrum, eu fringilla ante ultrices. Praesent id est porttitor purus hendrerit maximus vitae vel felis. Nulla eget molestie dui, ut consectetur felis. Aenean cursus mollis metus, ac varius augue</p>
+<p>Mobile game development is a growing field that is full of opportunity. With the ubiquity of smartphones and tablets, there's never been a better time to create games that can be enjoyed on-the-go. And with so many different mobile platforms to choose from, there's sure to be something for everyone.</p>
 
 
 <div className='flexinggamermetaverce'>

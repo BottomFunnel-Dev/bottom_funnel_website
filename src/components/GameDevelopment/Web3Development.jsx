@@ -7,7 +7,7 @@ const Web3Development = () => {
     
     <div className='web3developmentleftboxing'>
     <h2><a className='specialcolorredish'>Web 3</a> game Development</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mollis dui non augue rutrum, eu fringilla ante ultrices. Praesent id est porttitor purus hendrerit maximus vitae vel felis. Nulla eget molestie dui, ut consectetur felis. Aenean cursus mollis metus, ac varius augue</p>
+    <p>Web 3.0 is the future of gaming and it's already starting to change the way we think about games. Web 3.0 is a term that refers to the emergence of new protocols, systems, and applications that use blockchain technology to connect users with each other and between devices in a more secure, transparent, and trustless manner.</p>
 
     <div className='flexinggamermetaverce'>
 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#3db3a2" class="bi bi-check-circle-fill" viewBox="0 0 16 16">

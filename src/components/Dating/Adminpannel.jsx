@@ -1,41 +1,46 @@
-import React from 'react'
-import "./Adminpannel.css"
+import React, { useState } from "react";
+import "./Adminpannel.css";
 
-export default function Adminpannel() {
+export default function Adminpannel({ customerData }) {
+  const [active, setActive] = useState(0);
   return (
-    <div className='szadmindiv'>
-       <div className='szadmindivflex'>
-
-       <div className='szcustomerapptext'>
-                <h2> Customer App</h2>
-            <div className='datingtextbg'><img src="Images/Dating/customertextbg.png"/> </div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius eligendi recusandae perferendis, praesentium labore doloremque reiciendis iure commodi dolor quo laudantium  </p></div>   
-       
-       <div className='textsecond'>  
-         <div className='datingtextbg'><img src="Images/Dating/customertextsecond.png"/> </div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius eligendi recusandae perferendis, praesentium labore doloremque reiciendis iure commodi dolor quo laudantium  </p></div>   
-         </div>
-
-          <div className='textthird'>
-          <div className='datingtextbg'><img src="Images/Dating/customertextbg.png"/> </div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius eligendi recusandae perferendis, praesentium labore doloremque reiciendis iure commodi dolor quo laudantium  </p></div>   
+    <div className="datingcustomer">
+      <h1>Admin Panel</h1>
+      <div className="datingcustomersub">
+      <div
+          className="datingcustomerleft"
+          style={{
+            background: `url(${customerData.background})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="logistic-customer-image">
+            <img
+              src={customerData.customerdata[active].img.src}
+              alt={customerData.customerdata[active].img.alt}
+            />
           </div>
+        </div>
+        <div className="datingcustomerright">
+          {customerData.customerdata.map(({ title, para }, idx) => {
+            return (
+              <div
+                key={title}
+                onMouseOver={() => setActive(idx)}
+                className={`logistic-box-${idx}`}
+              >
+               
+                <h3>{title}</h3>
+                <p>{para}</p>
+              </div>
+            );
+          })}
+        </div>
 
-          <div className='textfourth'>  
-         <div className='datingtextbg'><img src="Images/Dating/customertextsecond.png"/> </div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius eligendi recusandae perferendis, praesentium labore doloremque reiciendis iure commodi dolor quo laudantium  </p></div>   
-         </div>
-         
-            </div>
 
-
-          <div className='datinglaptopcontainer'>
-             <div className='datingrectangle'><img src="Images/Dating/Rectangle.png" /></div>
-             <div className='datinglaptopebg'><img src="Images/Dating/laptop.png" /></div>
-             <div className='datinglaptopimg'><img src="Images/Dating/adminscreen.png" /></div>
-          </div>
-
-       </div>
+      </div>
     </div>
-  )
+  );
 }

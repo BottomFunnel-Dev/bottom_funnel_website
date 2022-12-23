@@ -15,8 +15,8 @@
   .ReactNativeAppDevelopmentbannermainboxinnertextdiv {
     height: 50%;
     width: 37%;
-  
-    margin-top: 18%;
+    /* border: 2px solid red; */
+    margin-top: 12%;
     margin-left: 3%;
     /* text-align: center; */
   }

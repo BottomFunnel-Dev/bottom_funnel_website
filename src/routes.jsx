@@ -172,6 +172,16 @@ import { CarRental } from "./components/Car-Rental-page/CarRental";
 
 import { ProductsNewPage } from "./components/ProductsNewPage/ProductsNewPage";
 import { RealEstate } from "./components/RealEstate/RealEstate";
+<<<<<<< HEAD
+=======
+import { Hireatalent } from "./components/Hireatelent/Hireatalent";
+import { Scoping } from "./components/Scoping-Session-Page/Scoping";
+import { CollaborationPage } from "./components/CollaborationPage/CollaborationPage";
+import { Ticketing } from "./components/Ticketing/Ticketing";
+import { ApplyTalent } from "./components/Apply-Talent/ApplyTalent";
+import { SelfService } from "./components/SelfService/SelfService";
+
+>>>>>>> refs/remotes/origin/main
 
 export const ALLroutes = () => {
   return (
@@ -381,6 +391,7 @@ export const ALLroutes = () => {
       />
       <Route path="/UX-Review" element={<UXReviewPage />} />
       <Route path="/Scoping-session" element={<Scoping />} />
+
       <Route path="/Fintech-solution" element={<FintechSolution />} />
       <Route path="/Car-services" element={<CarService />} />
       <Route path="/mobile-app-development" element={<MobileDevMain />} />
@@ -402,7 +413,7 @@ export const ALLroutes = () => {
         path="/plant-based-meat-delivery-app"
         element={<PlantBasedMeat />}
       />
-      <Route path="/car-rentals" element={<CarRental/>} />
+      <Route path="/car-rentals" element={<CarRental />} />
       <Route path="/mobile-user-experience" element={<MobileUiUxDesign />} />
       <Route
         path="/image-analysis-software"
@@ -412,12 +423,17 @@ export const ALLroutes = () => {
         path="/Digital-transformation"
         element={<DigitalTransformation />}
       />
-      <Route path="/Apply-new-talent" element={<ApplyAsTalent />} />
+      <Route path="/Apply-new-talent" element={<ApplyTalent/>}/>
+      {/* <Route path="/Apply-new-talent" element={<ApplyAsTalent />} /> */}
       <Route path="/IT-consulting" element={<ItConsultingWebsite />} />
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
       <Route path="/funnel-desk" element={<FunnelDesk />} />
       <Route path="/real-Estate" element={ <RealEstate/> } />
+      <Route path="/hire-new-talent" element={<Hireatalent/>}/>
+      <Route path="/Collaboration" element={<CollaborationPage/>}/> 
+      <Route path="/ticketing" element={<Ticketing/>}/>
+      <Route path="/self-service" element={ <SelfService/> }/>
 
     </Routes>
   );

@@ -1,39 +1,45 @@
-import React from 'react'
-import "./Datingmobile.css"
+import React, { useState } from "react";
+import "./Datingmobile.css";
 
-export default function Datingmobile() {
+export default function Datingmobile({ customerData }) {
+  const [active, setActive] = useState(0);
   return (
-    <div className='szdatingmobilediv'>
-    <div className='szdatingmobiledivflex'>
+    <div className="datingcustomer">
+      <h1>{customerData.sectionTitle}</h1>
+      <div className="datingcustomersub">
+        <div className="datingcustomerright">
+          {customerData.customerdata.map(({ title, para }, idx) => {
+            return (
+              <div
+                key={title}
+                onMouseOver={() => setActive(idx)}
+                className={`logistic-box-${idx}`}
+              >
+               
+                <h3>{title}</h3>
+                <p>{para}</p>
+              </div>
+            );
+          })}
+        </div>
 
-       <div className='szmobileimagecontainer'>
-          <div className='szmobilebgcircle'><img src="Images/Dating/circle.png"/></div>
-          <div className='szmobilepbonebg'><img src="Images/Dating/phone.png"/></div>
-          <div className='szmobilemaches'><img src="Images/Dating/Matches.png"/></div>
+        <div
+          className="datingcustomerleft"
+          style={{
+            background: `url(${customerData.background})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="logistic-customer-image">
+            <img
+              src={customerData.customerdata[active].img.src}
+              alt={customerData.customerdata[active].img.alt}
+            />
           </div>
-       {/* <div className='szmobiletext'></div> */}
-       <div className='szcustomerapptext'>
-                <h2> Customer App</h2>
-            <div className='datingtextbg'><img src="Images/Dating/customertextbg.png"/> </div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius eligendi recusandae perferendis, praesentium labore doloremque reiciendis iure commodi dolor quo laudantium  </p></div>   
-       
-       <div className='textsecond'>  
-         <div className='datingtextbg'><img src="Images/Dating/customertextsecond.png"/> </div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius eligendi recusandae perferendis, praesentium labore doloremque reiciendis iure commodi dolor quo laudantium  </p></div>   
-         </div>
-
-          <div className='textthird'>
-          <div className='datingtextbg'><img src="Images/Dating/customertextbg.png"/> </div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius eligendi recusandae perferendis, praesentium labore doloremque reiciendis iure commodi dolor quo laudantium  </p></div>   
-          </div>
-
-          <div className='textfourth'>  
-         <div className='datingtextbg'><img src="Images/Dating/customertextsecond.png"/> </div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius eligendi recusandae perferendis, praesentium labore doloremque reiciendis iure commodi dolor quo laudantium  </p></div>   
-         </div>
-         
-            </div>
-       </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }

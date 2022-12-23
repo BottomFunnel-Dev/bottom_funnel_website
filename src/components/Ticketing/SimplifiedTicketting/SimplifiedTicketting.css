@@ -1,0 +1,41 @@
+.simplifiedTicketting-container {
+    margin-bottom: 5%;
+  }
+  
+  .simplifiedTicketting-container hr {
+    background-color: #ef4c23;
+    height: 20px;
+    border: none;
+    outline: none;
+    margin: 0;
+  }
+  
+  .simplifiedTicketting-container > div {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .simplifiedTicketting-content {
+    width: 55%;
+  }
+  
+  .simplifiedTicketting-content > h1 {
+    font-size: 32px;
+  }
+  
+  .simplifiedTicketting-content > p {
+    font-size: 20px;
+  }
+  
+  .simplifiedTicketting-image {
+    width: 25%;
+  }
+  
+  .simplifiedTicketting-image > img {
+    width: 100%;
+    transform: scale(1.7);
+  }
+  

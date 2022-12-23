@@ -1,45 +1,45 @@
-import React from 'react'
-import "./Customerapp.css"
+import React, { useState } from "react";
+import "./Customerapp.css";
 
-export default function Customerapp() {
+export default function Customerapp({ customerData }) {
+  const [active, setActive] = useState(0);
   return (
-    <div className='szcustomerappdiv'>
-        <div className='szcustomerappdivflex'>
-            <div className='szcustomermobile'>
-                <div className='datingmobilebg'>
-                    <img src="Images/Dating/mobilebackground.png"/> 
-                </div>
-                <div  className='datingphonecase'> 
-                    <img src ="Images/Dating/phone.png" />
-                </div>
-                <div className='szcustomermobileimage'>
-                    <img src="Images/Dating/home.png"/>
-                </div>
-            </div>
-            <div className='szcustomerapptext'>
-                <h2> Customer App</h2>
-            <div className='datingtextbg'><img src="Images/Dating/customertextbg.png"/> </div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius eligendi recusandae perferendis, praesentium labore doloremque reiciendis iure commodi dolor quo laudantium  </p></div>   
-       
-       <div className='textsecond'>  
-         <div className='datingtextbg'><img src="Images/Dating/customertextsecond.png"/> </div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius eligendi recusandae perferendis, praesentium labore doloremque reiciendis iure commodi dolor quo laudantium  </p></div>   
-         </div>
-
-          <div className='textthird'>
-          <div className='datingtextbg'><img src="Images/Dating/customertextbg.png"/> </div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius eligendi recusandae perferendis, praesentium labore doloremque reiciendis iure commodi dolor quo laudantium  </p></div>   
-          </div>
-
-          <div className='textfourth'>  
-         <div className='datingtextbg'><img src="Images/Dating/customertextsecond.png"/> </div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius eligendi recusandae perferendis, praesentium labore doloremque reiciendis iure commodi dolor quo laudantium  </p></div>   
-         </div>
-         
-            </div>
-
-
+    <div className="datingcustomer">
+      <h1>{customerData.sectionTitle}</h1>
+      <div className="datingcustomersub">
+        <div className="datingcustomerright">
+          {customerData.customerdata.map(({ title, para }, idx) => {
+            return (
+              <div
+                key={title}
+                onMouseOver={() => setActive(idx)}
+                className={`logistic-box-${idx}`}
+              >
+               
+                <h3>{title}</h3>
+                <p>{para}</p>
+              </div>
+            );
+          })}
         </div>
+
+        <div
+          className="datingcustomerleft"
+          style={{
+            background: `url(${customerData.background})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="logistic-customer-image">
+            <img
+              src={customerData.customerdata[active].img.src}
+              alt={customerData.customerdata[active].img.alt}
+            />
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
