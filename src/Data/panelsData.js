@@ -755,6 +755,46 @@ export const wellnessDoctor = {
   background: "/Images/WellnessDevApp/Banners/banner2.png",
 };
 
+export const datingCustomer = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/DatingAppDev/Customer/One.png",
+        alt: "Register image",
+      },
+      title: "Simple and Secure Login",
+      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
+    },
+    {
+      img: {
+        src: "Images/DatingAppDev/Customer/Two.png",
+        alt: "Schedule",
+      },
+      title: "User-friendly Interface",
+      para: "Scheduling your next trip with Schedule. Just set up an appointment, and the logistics team will keep track of where your product is moving from. Whether it's a local drop-off or getting picked up curbside, we've got you covered.",
+    },
+    {
+      img: {
+        src: "Images/DatingAppDev/Customer/Three.png",
+        alt: "Multiple Payment Option image",
+      },
+      title: "Add your Interest",
+      para: "We offer multiple payment options that are safe and secure. With our platform, you can effortlessly add payments to your online shopping cart without worrying about credit card fraud or identity theft.",
+    },
+
+    {
+      img: {
+        src: "Images/DatingAppDev/Customer/Four.png",
+        alt: "Track Order image",
+      },
+      title: "Easy to Search",
+      para: "Track Order is the web development platform that gives you access to all of the shipping services available today. You can choose how you want your packages to be delivered, and whether you want it on a truck or with UPS.",
+    },
+  ],
+  sectionTitle: "Customer App",
+
+  // background: "Images/DatingAppDev/Customer/Four.png",
+};
 
 // App Store management
 // content marketing

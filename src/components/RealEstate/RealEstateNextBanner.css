@@ -1,0 +1,41 @@
+.realestatenexbannermainboxes{
+    height: 40vh;
+    border: 1px solid;
+  
+    background: url("/public/Images/RealEstate/Backgrounds/Rectangle 13.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 5%;
+}
+
+.realestatenextbannersometextbox{
+    height: fit-content;
+    width: 60%;
+    
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    margin-top: 4%;
+    
+}
+
+
+.realstatenextbannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.realstatenextbannerbutton:hover {
+
+    background-color:white;
+    color:  #3380f2;
+
+}

@@ -1,128 +1,77 @@
-.szcustomerappdiv{
+.datingcustomer {
     width: 100%;
+    height: max-content;
     /* background-color: aqua; */
-    height: 630px;
-}
-.szcustomerappdivflex{
-    width: 90%;
+    margin: 60px 0;
+  }
+  .datingcustomer > h1 {
+    margin-left: 6%;
+  }
+  .datingcustomersub {
+    width: 100%;
+    justify-content: space-between;
     margin: auto;
-    /* background-color: black; */
-    height: 600px;
     display: flex;
-}
-.szcustomermobile{
-    width: 50%;
-    height: 600px;
-    /* background-color: blue; */
-   /* margin-top: 10%; */
-   position: relative;
-}
-.szcustomerapptext{
-    width: 50%;
-    height: 600px;
-    /* background-color: tomato; */
+    align-items: center;
+  }
+  .datingcustomerleft {
+    width: 45%;
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    /* background: url("/public/Images/dating/rectanglebase.png"); */
+  
+    background-position: center;
     position: relative;
-   padding-top: 25px;
-}
-.szcustomerapptext>h2{
-    margin-left: 30%;
-    color: #FF015D;
-}
-.szcustomermobileimage{
-    width: 70%;
-    height: 480px;
-    margin-top: 3%;
-    position: absolute;
-    z-index: 2;
-}
-.szcustomermobileimage>img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .datingcustomerright {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .datingcustomerright > div {
+    padding: 10px 10px 10px 10px;
+    height: 270px;
+    width: 45%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .datingcustomerright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .datingcustomerright > div > h3 {
+    font-size: 18px;
+  }
+  
+  .dating-customer-image {
+    width: 45%;
+    height: 500px;
+    text-align: right;
+    margin: auto;
+    margin-top: -10px;
+  }
+  
+  .dating-customer-image > img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
-.datingmobilebg{
-   width: 70%;
-   height: 500px;
-   margin-top: 25%;
-   position: absolute;
-   z-index: 0;
-}
-.datingmobilebg>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-.datingphonecase{
-    width: 100%;
-    height: 600px;
-    position: absolute;
-    margin-left: -12%;
-    z-index: 1;
-}
-.datingphonecase>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-.datingtextbg{
-    width: 90%;
-    height: 150px;
-    position: absolute;
-    z-index: 0;
-    margin: 10px;
-}
-.datingtextbg>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-.szcustomerapptext>div>p{
-    width: 70%;
-   height: 70px;
-   /* background-color: azure; */
-   color: white;
-    text-align: left;
-    position: absolute;
-    margin: 20px  55px;
-    z-index: 1;
-
-}
-.textsecond{
-    margin-top: 20%;
-}
-.textsecond>div>p{
-    width: 70%;
-    height: 70px;
-    /* background-color: azure; */
-    color: white;
-     text-align: left;
-     position: absolute;
-     margin: 20px  55px;
-     z-index: 1;  
-}
-.textthird{
-    margin-top: 40%;
-}
-.textthird>div>p{
-    width: 70%;
-    height: 70px;
-    /* background-color: azure; */
-    color: white;
-     text-align: left;
-     position: absolute;
-     margin: 20px  55px;
-     z-index: 1;  
-}
-.textfourth{
-    margin-top: 60%;
-}
-.textfourth>div>p{
-    width: 70%;
-    height: 70px;
-    /* background-color: azure; */
-    color: white;
-     text-align: left;
-     position: absolute;
-     margin: 20px  55px;
-     z-index: 1; 
-}
+  }
+  
