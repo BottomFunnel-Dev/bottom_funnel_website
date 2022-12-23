@@ -1,5 +1,6 @@
 .realstatesolutionmainboxes{
-    height: 100vh;
+    height: fit-content;
+    margin-bottom: 3%;
    
 }
 
@@ -24,9 +25,9 @@
 
 .exuclusivefeaturedatamappingrealestatesolution{
     height: 350px;
-    width: 98%;
+    width: 99%;
    
-    margin-left: 1%;
+   
     margin-top: 1%;
     display: flex;
     background: url("/public/Images/RealEstate/Backgrounds/Rectangle 141.png");
@@ -49,7 +50,7 @@
 
 .indivisualtextforsolutionrealestate{
     text-align: left;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .exuclusivefeaturedatamappingrealestatesolution >svg{
@@ -63,6 +64,6 @@
 .indivisualimageforsolutionrealestate{
     height: 40%;
     width: 100%;
-    border: 1px solid;
-    margin-top: 5%;
+    
+    margin-top: 10%;
 }
