@@ -1,4 +1,4 @@
-.productGetStartedInnerDiv {
+.selfServicesCustomerHelpInnerDiv {
   /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
@@ -11,7 +11,14 @@
   margin-bottom: 2%;
 }
 
-.productGetStartedContentDiv {
+.selfServicesCustomerHelpContentDiv {
   /* border: 1px solid red; */
   width: 50%;
+}
+
+
+.selfServicesCustomerHelpImageDiv > img {
+  width: 92%;
+  object-fit: contain;
+  margin-left: 6%;
 }

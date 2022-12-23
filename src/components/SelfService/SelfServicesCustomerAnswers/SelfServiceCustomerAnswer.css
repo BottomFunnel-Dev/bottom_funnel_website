@@ -22,7 +22,8 @@
 }
 
 .selfServicesCustomerAnswerImageDiv > img {
-  width: 95%;
+  width: 90%;
+  margin-left: 4%;
   object-fit: cover;
 }
 
