@@ -1,0 +1,49 @@
+.applytalentbannermainboxes{
+    height: 100vh;
+    display: flex;
+
+    margin-top: 10vh;
+}
+
+.applytalentbannerleftbox{
+    height: fit-content;
+    width: 40%;
+
+    margin-left: 3%;
+    text-align: justify;
+    margin-top: 12%;
+}
+
+.applytalentbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 2%;
+  }
+  
+  .applytalentbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+  
+
+  .applytalentbannerrightbox{
+    height: 84%;
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 3%;
+
+  }
+
+.applytalentbannerrightbox >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

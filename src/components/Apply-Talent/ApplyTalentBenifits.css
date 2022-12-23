@@ -1,0 +1,67 @@
+.applytalentbenifitsmainboxes{
+    height: fit-content;
+margin-top: 2%;
+}
+
+.applytalentbenifitstxtboxes{
+    height: fit-content;
+    width: fit-content;
+  
+    margin: auto;
+}
+
+.applytalentbenifitsflexboxmapping{
+    height: 500px;
+    width: 80%;
+
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.applytalentbenifitsindivisuallybox{
+   height: 45%;
+   width: 30%;
+
+ margin: 1%;
+ padding: 10px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ border-radius: 10px;
+}
+
+.applytalentbenifitsindivisuallybox:hover{
+    transform: scale(1.02);
+}
+
+
+
+.applytalentindivisuallyflexfortxtandicon{
+   
+    display: flex;
+}
+
+
+.appytalentbenifitsheaderlogo{
+    width: 20%;
+ 
+    height: 20%;
+}
+
+.appytalentbenifitsheaderlogo >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.appytalentbenifitsheadertxt{
+    height: 30%;
+ padding-top: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.applytalentbenifitsindivisuallybox >p{
+    text-align: justify;
+    margin-top: 2%;
+}

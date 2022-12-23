@@ -159,7 +159,7 @@ import { Agriculture } from "./components/Agriculture/Agriculture";
 import { PlantBasedMeat } from "./components/PlantBaseMeat/PlantBasedMeat";
 import { MobileUiUxDesign } from "./components/MobileUiUxDesign/MobileUiUxDesign";
 import { DigitalTransformation } from "./components/DigitalTransformation/DigitalTransformation";
-import { ApplyAsTalent } from "./components/ApplyAsTalent/ApplyAsTalent";
+
 import { ItConsultingWebsite } from "./components/ITConsultingWebsite/ItConsultingWebsite";
 import { OnlinePaymentAppSolution } from "./components/OnlinePaymentAppSolution/OnlinePaymentAppSolution";
 import { TradingInvesting } from "./components/Trading-Investing-App-Page/Trading&Investing";
@@ -167,6 +167,10 @@ import { KidsWear } from "./components/KidsWear/KidsWear";
 import { FunnelDesk } from "./components/FunnelDesk/FunnelDesk";
 import { TaxiBookingApp } from "./components/TaxiBookingApp/TaxiBookingApp.jsx";
 import { Hireatalent } from "./components/Hireatelent/Hireatalent";
+import { ApplyTalent } from "./components/Apply-Talent/ApplyTalent";
+import { RealEstate } from "./components/RealEstate/RealEstate";
+
+
 
 export const ALLroutes = () => {
   return (
@@ -406,12 +410,16 @@ export const ALLroutes = () => {
         path="/Digital-transformation"
         element={<DigitalTransformation />}
       />
-      <Route path="/Apply-new-talent" element={<ApplyAsTalent />} />
+    
       <Route path="/IT-consulting" element={<ItConsultingWebsite />} />
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
       <Route path="/funnel-desk" element={<FunnelDesk />} />
       <Route path="/hire-a-talent" element={<Hireatalent />} />
+      <Route path="/Apply-new-talent" element={<ApplyTalent/>} />
+
+      <Route path="/real-state-solution" element={<RealEstate />} />
+
     </Routes>
   );
 };
