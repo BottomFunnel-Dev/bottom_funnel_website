@@ -1,0 +1,64 @@
+.Talentbannermainbox {
+    height: 95vh;
+    width: 100%;
+    border: 3px solid white;
+    /* margin-top: 120px; */
+    background-image: url("Images/Applytalent/img6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* justify-content: center; */
+  }
+
+
+  
+  .Talentbannermainboxinnertextdiv {
+    height: 50%;
+    width: 50%;
+    /* border: 2px solid green; */
+  
+    margin-top: 15%;
+    margin-left: 25%;
+    text-align: center;
+    /* justify-content: center; */
+  }
+  
+  .Talentbannermainboxinnertextdiv > h1 {
+    color: white;
+    font-size: 40px;
+    /* font-weight: 600; */
+
+  }
+  
+  .Talentbannermainboxinnertextdiv > h3 {
+    color: white;
+    /* font-size: 40px; */
+    /* font-weight: 600; */
+
+  }
+  .Talentbannermainboxinnertextdiv > p {
+    color: white;
+    /* margin-top: 7%; */
+    font-size: 24px;
+    font-weight: 200;
+  }
+  
+  .Talentbannerbutton {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 220px;
+    /* background-color: #3380f2; */
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black    ;
+    margin-top: 22px;
+  }
+  
+  .Talentbannerbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+  
