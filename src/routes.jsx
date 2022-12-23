@@ -174,6 +174,7 @@ import { RealEstate } from "./components/RealEstate/RealEstate";
 import { Hireatalent } from "./components/Hireatelent/Hireatalent";
 import { Scoping } from "./components/Scoping-Session-Page/Scoping";
 import { CollaborationPage } from "./components/CollaborationPage/CollaborationPage";
+import { SelfService } from "./components/SelfService/SelfService";
 
 
 export const ALLroutes = () => {
@@ -383,8 +384,8 @@ export const ALLroutes = () => {
         element={<FullCycleDesignPages />}
       />
       <Route path="/UX-Review" element={<UXReviewPage />} />
-      <Route path="/Scoping-session" element={<Scoping/>}/>
-      
+      <Route path="/Scoping-session" element={<Scoping />} />
+
       <Route path="/Fintech-solution" element={<FintechSolution />} />
       <Route path="/Car-services" element={<CarService />} />
       <Route path="/mobile-app-development" element={<MobileDevMain />} />
@@ -406,7 +407,7 @@ export const ALLroutes = () => {
         path="/plant-based-meat-delivery-app"
         element={<PlantBasedMeat />}
       />
-      <Route path="/car-rentals" element={<CarRental/>} />
+      <Route path="/car-rentals" element={<CarRental />} />
       <Route path="/mobile-user-experience" element={<MobileUiUxDesign />} />
       <Route
         path="/image-analysis-software"
@@ -423,9 +424,13 @@ export const ALLroutes = () => {
       <Route path="/funnel-desk" element={<FunnelDesk />} />
       <Route path="/product-enterprise" element={<EnterpriseDesk />} />
       <Route path="/productNewPage" element={<ProductsNewPage />} />
-      <Route path="/real-Estate" element={ <RealEstate/> } />
-      <Route path="/hire-new-talent" element={<Hireatalent/>}/>
-      <Route path="/Collaboration" element={<CollaborationPage/>}/> 
+      <Route path="/real-Estate" element={<RealEstate />} />
+      <Route path="/hire-new-talent" element={<Hireatalent />} />
+      <Route path="/Collaboration" element={<CollaborationPage />} />
+      
+      <Route path="/self-service" element={ <SelfService /> } />
+
+      
     </Routes>
   );
 };

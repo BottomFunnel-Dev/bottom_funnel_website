@@ -1,0 +1,16 @@
+.productGetStartedInnerDiv {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  /* height: 40px; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  width: 90%;
+  margin: auto;
+}
+
+.productGetStartedContentDiv {
+  /* border: 1px solid red; */
+  width: 50%;
+}
