@@ -176,6 +176,7 @@ import { Scoping } from "./components/Scoping-Session-Page/Scoping";
 import { CollaborationPage } from "./components/CollaborationPage/CollaborationPage";
 import { Ticketing } from "./components/Ticketing/Ticketing";
 import { ApplyTalent } from "./components/Apply-Talent/ApplyTalent";
+import { SelfService } from "./components/SelfService/SelfService";
 
 
 export const ALLroutes = () => {
@@ -385,8 +386,8 @@ export const ALLroutes = () => {
         element={<FullCycleDesignPages />}
       />
       <Route path="/UX-Review" element={<UXReviewPage />} />
-      <Route path="/Scoping-session" element={<Scoping/>}/>
-      
+      <Route path="/Scoping-session" element={<Scoping />} />
+
       <Route path="/Fintech-solution" element={<FintechSolution />} />
       <Route path="/Car-services" element={<CarService />} />
       <Route path="/mobile-app-development" element={<MobileDevMain />} />
@@ -408,7 +409,7 @@ export const ALLroutes = () => {
         path="/plant-based-meat-delivery-app"
         element={<PlantBasedMeat />}
       />
-      <Route path="/car-rentals" element={<CarRental/>} />
+      <Route path="/car-rentals" element={<CarRental />} />
       <Route path="/mobile-user-experience" element={<MobileUiUxDesign />} />
       <Route
         path="/image-analysis-software"

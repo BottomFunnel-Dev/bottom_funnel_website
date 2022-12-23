@@ -16,7 +16,7 @@ export const GetStarted = () => {
                     </p>
                 </div>
                 <div className='productGetStartedImageDiv'>
-                    <img src='/Images/ProductsPage/ReadyToStarted.png' alt='image'/>
+                    <img src='/Images/ProductsPage/ReadyToStarted.png' alt='image' />
                 </div>
             </div>
         </div>
