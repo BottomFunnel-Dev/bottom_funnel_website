@@ -15,6 +15,7 @@
 .navbarSection.active {
   background: white;
   position: fixed;
+  /* border-bottom: 1px solid gray; */
   /* height: 80px; */
   /* transition: all 0.1s linear; */
   /* position: relative; */
