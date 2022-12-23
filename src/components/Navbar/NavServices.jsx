@@ -17,7 +17,7 @@ import {
   database,
   scaleContent,
 } from "../../Data/Navbar";
-export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
+export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
   const [sidetoggle, setSidetoggle] = useState("Technologies");
 
   const handleSide = (element) => {
@@ -38,7 +38,8 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
       onMouseEnter={serHoverIn}
       onMouseLeave={serHoverOut}
       className="solutionVisible"
-      style={{ top: scroll ? "52px" : "83px" }}
+      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
+      
     >
       <div className="sideNav">
         {sideBar.map((item, index) => (

@@ -262,6 +262,8 @@ export const NavbarMain = () => {
           homeHoverIn={homeHoverIn}
           homeHoverOut={homeHoverOut}
           scroll={scroll}
+          productMount={productMount}
+          
         />
       ) : null}
       {/* about drop down section code end */}
@@ -272,6 +274,7 @@ export const NavbarMain = () => {
           serHoverIn={serHoverIn}
           serHoverOut={serHoverOut}
           scroll={scroll}
+          productMount={productMount}
         />
       ) : null}
 
@@ -283,6 +286,7 @@ export const NavbarMain = () => {
           solHoverIn={solHoverIn}
           solHoverOut={solHoverOut}
           scroll={scroll}
+          productMount={productMount}
         />
       ) : null}
       {/* {product ? (

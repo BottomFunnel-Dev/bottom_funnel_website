@@ -2,13 +2,13 @@ import React from 'react'
 import './navbar.css'
 import { Link } from 'react-router-dom'
 import { industries , ondemand } from '../../Data/Navbar'
-export const NavIndustries = ({solHoverIn,solHoverOut,scroll}) => {
+export const NavIndustries = ({solHoverIn,solHoverOut,scroll,productMount}) => {
   return (
     <div
     onMouseEnter={solHoverIn}
     onMouseLeave={solHoverOut}
     className="serviceVisible"
-    style={{ top: scroll ? "52px" : "83px" }}
+    style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
   >
     <div className="industryDropdown">
       <div className="industryContent">

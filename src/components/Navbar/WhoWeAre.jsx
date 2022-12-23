@@ -4,14 +4,14 @@ import './whoWeAre.css'
 import { useNavigate } from "react-router-dom";
 import { company, whyBottom, process } from "../../Data/Navbar";
 import { Link } from "react-router-dom";
-export const WhoWeAre = ({ homeHoverIn, homeHoverOut,scroll }) => {
+export const WhoWeAre = ({ homeHoverIn, homeHoverOut,scroll,productMount }) => {
   const navigate = useNavigate();
   return (
     <div
       onMouseEnter={homeHoverIn}
       onMouseLeave={homeHoverOut}
       className="aboutNavVisible"
-      style={{ top: scroll ? "52px" : "83px" }}
+      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
       <div className="aboutDropdownSection">
         <div className="aboutDropdownContent">

@@ -4,7 +4,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { IconContext } from "react-icons";
 export const ProductsNavbar = ({scroll}) => {
   return (
-    <div className="products-navbar" style={{top: scroll? "0": "55px", background: scroll? "white": "transparent"}}>
+    <div className="products-navbar" style={{top: scroll? "0": "65px", background: scroll? "white": "transparent"}}>
       <div className="deskLogo">
         {/* <img src="Images/Logos/supportdesk.png" alt="support desk" /> */}
         <h5>Support Desk</h5>
