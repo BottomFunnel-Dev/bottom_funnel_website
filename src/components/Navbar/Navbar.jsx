@@ -155,7 +155,7 @@ export const NavbarMain = () => {
         className={navbar ? "navbarSection active" : "navbarSection"}
         style={{
           top: scroll || productMount.navMount ? "0" : "30px",
-          position: scroll || productMount.navMount ? "static": "fixed"
+          position: scroll && productMount.navMount ? "static": "fixed"
         }}
       >
         <div className="logoSection">
