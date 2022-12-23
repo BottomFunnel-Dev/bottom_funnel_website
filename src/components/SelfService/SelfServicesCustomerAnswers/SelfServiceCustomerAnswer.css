@@ -5,10 +5,10 @@
   /* height: 40px; */
   justify-content: center;
   align-items: center;
-  /* margin-top: 3%; */
   width: 90%;
   margin: auto;
   margin-bottom: 1%;
+  margin-top: 3%;
   gap: 5%;
 }
 
@@ -22,7 +22,8 @@
 }
 
 .selfServicesCustomerAnswerImageDiv > img {
-  width: 95%;
+  width: 90%;
+  margin-left: 4%;
   object-fit: cover;
 }
 

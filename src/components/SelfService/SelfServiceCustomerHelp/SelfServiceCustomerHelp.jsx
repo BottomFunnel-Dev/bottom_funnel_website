@@ -3,9 +3,9 @@ import "./SelfServiceCustomerHelp.css";
 
 export const SelfServiceCustomerHelp = () => {
     return (
-        <div className='productsGetStartedParentDiv'>
-            <div className='productGetStartedInnerDiv'>
-                <div className='productGetStartedContentDiv'>
+        <div className='selfServicesCustomerHelpParentDiv'>
+            <div className='selfServicesCustomerHelpInnerDiv'>
+                <div className='selfServicesCustomerHelpContentDiv'>
                     <h1>
                         Let customers help each other
                     </h1>
@@ -15,7 +15,7 @@ export const SelfServiceCustomerHelp = () => {
                         from your support system. 
                     </p>
                 </div>
-                <div className='productGetStartedImageDiv'>
+                <div className='selfServicesCustomerHelpImageDiv'>
                     <img src='/Images/SelfService/TwoThreeHead.png' alt='image' />
                 </div>
             </div>

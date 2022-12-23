@@ -431,6 +431,8 @@ export const ALLroutes = () => {
       <Route path="/hire-new-talent" element={<Hireatalent/>}/>
       <Route path="/Collaboration" element={<CollaborationPage/>}/> 
       <Route path="/ticketing" element={<Ticketing/>}/>
+      <Route path="/self-service" element={ <SelfService/> }/>
+
     </Routes>
   );
 };

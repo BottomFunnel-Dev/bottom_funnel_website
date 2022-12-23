@@ -1,6 +1,8 @@
-/* .selfServicesContentParentDiv {
-  border: 1px solid red;
-} */
+.selfServicesContentParentDiv {
+  /* border: 1px solid red; */
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
 
 .selfServicesContentHeadingDiv {
   /* border: 1px solid black; */
@@ -14,14 +16,6 @@
 .selfServicesContentHeadingDiv > h1 > span {
   color: #ef4c23;
 }
-
-/* .plantBasedServicesBackImageDiv {
-        border: 1px solid red;
-      } */
-
-/* .plantBasedServicesBackImageDiv img {
-    width: 100%;
-  } */
 
 .selfServicesContentContentDiv {
   /* border: 2px solid black; */
