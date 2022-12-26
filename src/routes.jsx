@@ -432,6 +432,7 @@ export const ALLroutes = () => {
       <Route path="/Collaboration" element={<CollaborationPage/>}/> 
       <Route path="/ticketing" element={<Ticketing/>}/>
       <Route path="/self-service" element={ <SelfService/> }/>
+      <Route path="/productHomepage" element={<ProductsNewPage/>}/>
 
     </Routes>
   );
