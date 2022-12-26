@@ -36,14 +36,14 @@ export const FunnelDesk = () => {
 
   return (
     <div>
-        <FunnelDeskBanner/>
-        <FunnelSupport/>
-        <EliteServices/>
-        <EliteLast/>
-        <IndustryExperts/>
-        <DeskStarted/>
+      <FunnelDeskBanner />
+      <FunnelSupport />
+      <EliteServices />
+      <EliteLast />
+      <IndustryExperts />
+      <DeskStarted />
 
-         {/* Other react required components */}
+      {/* Other react required components */}
       <StoriesSection />
       <OndemandSection />
       <PortFolio />

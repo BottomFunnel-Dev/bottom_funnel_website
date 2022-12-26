@@ -427,11 +427,11 @@ export const ALLroutes = () => {
       <Route path="/funnel-desk" element={<FunnelDesk />} />
       <Route path="/real-Estate" element={ <RealEstate/> } />
       <Route path="/hire-new-talent" element={<Hireatalent/>}/>
-
+      
       <Route path="/Collaboration" element={<CollaborationPage/>}/> 
       <Route path="/ticketing" element={<Ticketing/>}/>
       <Route path="/self-service" element={ <SelfService/> }/>
-
+      <Route path="/productHomePage" element={<ProductsNewPage/>}/>
     </Routes>
   );
 };

@@ -166,7 +166,7 @@ export const NavbarMain = () => {
                   ? "Images/navbar/whitelogobottom.png"
                   : "Images/navbar/blacklogo.png"
               }
-              alt=""
+              alt="image"
             />
           </Link>
         </div>
@@ -289,9 +289,6 @@ export const NavbarMain = () => {
           productMount={productMount}
         />
       ) : null}
-      {/* {product ? (
-        <Products productHoverIn={productHoverIn}  productHoverOut={productHoverOut} scroll={scroll}/>
-      ) : null} */}
 
             {/* product drop down section code start */}
             {/* {product ? (

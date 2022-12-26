@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import {
@@ -39,7 +39,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
       onMouseLeave={serHoverOut}
       className="solutionVisible"
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
-      
+
     >
       <div className="sideNav">
         {sideBar.map((item, index) => (
@@ -70,7 +70,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
             <div className="listItems">
               {webservice.map((item, i) => (
                 <div
-                key={i}
+                  key={i}
                   onClick={() => {
                     navigate(`/${item.path}`);
                     serHoverOut();
@@ -105,7 +105,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
             <div className="listItems">
               {appservice.map((item, i) => (
                 <div
-                key={i}
+                  key={i}
                   onClick={() => {
                     navigate(`/${item.path}`);
                     serHoverOut();
@@ -173,7 +173,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
             <div className="trendListItems">
               {trendingTech.map((item, m) => (
                 <div
-                key={m}
+                  key={m}
                   onClick={() => {
                     navigate(`/${item.path}`);
                     serHoverOut();
@@ -272,7 +272,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
             <div className="backendlistItems">
               {backend.map((item, i) => (
                 <div
-                key={i}
+                  key={i}
                   onClick={() => {
                     navigate(`/${item.path}`);
                     serHoverOut();
@@ -300,7 +300,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
             <div className="listItems">
               {frontend.map((item, j) => (
                 <div
-                key={j}
+                  key={j}
                   onClick={() => {
                     navigate(`/${item.path}`);
                     serHoverOut();
@@ -329,7 +329,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
             <div className="listItems">
               {mobile.map((item, j) => (
                 <div
-                key={j}
+                  key={j}
                   onClick={() => {
                     navigate(`/${item.path}`);
                     serHoverOut();
@@ -357,7 +357,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
             <div className="listItems">
               {database.map((item, j) => (
                 <div
-                key={j}
+                  key={j}
                   onClick={() => {
                     navigate(`/${item.path}`);
                     serHoverOut();
@@ -385,7 +385,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
             <div className="listItems">
               {cms.map((item, j) => (
                 <div
-                key={j}
+                  key={j}
                   onClick={() => {
                     navigate(`/${item.path}`);
                     serHoverOut();
