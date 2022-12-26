@@ -6,6 +6,19 @@
     background-color: white;
     z-index: 1000;
     position: fixed;
-  
-  
+  }
+  .productDropdownContent{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid red; */
+    margin-left: 10%;
+  }
+  .productDropdownSection {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    padding: 10px 30px;
+    /* border: 2px solid red; */
   }
