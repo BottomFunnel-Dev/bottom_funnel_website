@@ -1,0 +1,19 @@
+.manufacturingbannermainboxes{
+    height: 100vh;
+    border: 1px solid white;
+    background: url("/public/Images/Manufacturing/Group 1000003717.png");
+}
+
+.manufacturingbannersometext{
+    height: fit-content;
+    width: 40%;
+
+    margin-top: 18%;
+    margin-left: 3%;
+    color: white;
+  
+}
+
+.manufacturingbannersometext >h1{
+    font-size: 40px;
+}

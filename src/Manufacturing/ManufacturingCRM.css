@@ -1,0 +1,60 @@
+.manufacturingcrmmainboxes{
+    height: fit-content;
+    position: relative;
+    
+}
+
+.manufacturingcrmmainboxes >h1{
+    text-align: center;
+}
+
+.manufacturingcrmmainboxes>p{
+  margin: 0% 3% 2% 10%;
+    text-align: justify;
+    width: 80%;
+}
+
+.manufacturingcrmdatamappingboxflex{
+    display: flex;
+    width: 80%;
+     margin: auto;
+    
+
+}
+
+.manufacturingbeforesometextmapping{
+    height: fit-content;
+    
+    text-align: center;
+    background-color: #fafafa;
+    height: 500px;
+}
+
+.manufacturingcrmdatamappingboxflexindivisually{
+    height: fit-content;
+    width: 33%;
+    margin: 1%;
+    border-right: 1px solid;
+    
+}
+.manufacturingcrmdatamappingboxflexindivisually:last-child{
+    border-right:none !important;
+}
+.manucrmimages{
+    height: 150px;
+    width: 100%;
+ 
+}
+
+.manucrmimages >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.manucrmtxtbox{
+    height: 180px;
+    width: 100%;
+    text-align: justify;
+    padding: 10px;
+}

@@ -1,0 +1,57 @@
+.manufacturingsviewmainboxnotflex{
+    height: fit-content;
+}
+
+
+.manufacturingunifiedviewmainboxes{
+    height: fit-content;
+
+    margin-top: 3%;
+    display: flex;
+}
+
+.manufacturingunifiedviewleftbox{
+    width: 50%;
+    height: 500px;
+
+    margin-left: 3%;
+}
+
+.manufacturingunifiedviewleftbox >img {
+    height: 100%;
+    width: 100%;
+    object-fit: 100% 100%;
+}
+
+
+.manufacturingunifiedviewrightbox{
+    width: 45%;
+    height: fit-content;
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.manufacturingunifiesviewlowersometext{
+    height: fit-content;
+   margin: 5% 3% 0% 3%;
+ 
+}
+
+.manufacturingexpampledatamapperindi{
+    display: flex;
+}
+
+.manufactunifiestxt{
+    margin-left: 2%;
+}
+
+.manufacturingexpampledatamapperindi>svg{
+    color: #ef4c23;
+}
+
+.manufacmapperdataunifies{
+ 
+    margin-top: 3%;
+    text-align: justify;
+}

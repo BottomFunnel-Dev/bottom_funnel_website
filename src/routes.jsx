@@ -178,6 +178,8 @@ import { Ticketing } from "../src/components/Ticketing/Ticketing";
 import { ApplyTalent } from "./components/Apply-Talent/ApplyTalent";
 import { SelfService } from "./components/SelfService/SelfService";
 import { FieldServiceManagement } from "./components/FieldServiceManagement/FieldServiceManagement";
+import {ContactManagement} from "./components/ContactManagement/ContactManagement";
+import { Manufacturing } from "./components/Manufacturing/Manufacturing";
 
 
 export const ALLroutes = () => {
@@ -426,12 +428,21 @@ export const ALLroutes = () => {
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
       <Route path="/funnel-desk" element={<FunnelDesk />} />
+
       <Route path="/real-Estate" element={<RealEstate />} />
       <Route path="/hire-new-talent" element={<Hireatalent />} />
 
+      <Route path="/real-Estate" element={ <RealEstate/> } />
+      <Route path="/hire-new-talent" element={<Hireatalent/>}/>
+      
+      <Route path="/Collaboration" element={<CollaborationPage/>}/> 
+      <Route path="/ticketing" element={<Ticketing/>}/>
+      <Route path="/self-service" element={ <SelfService/> }/>
+      <Route path="/productHomepage" element={<ProductsNewPage/>}/>
+      <Route path="/ContactManagement" element={<ContactManagement/>}/>
+      <Route path="/manufacturing" element={<Manufacturing/>}/>
       <Route path="/Collaboration" element={<CollaborationPage />} />
       <Route path="/ticketing" element={<Ticketing />} />
-      <Route path="/self-service" element={<SelfService />} />
       <Route path="/field-service-management" element={ <FieldServiceManagement /> } />
       
       <Route path="/newProductPage" element={ <ProductsNewPage/> } />

@@ -16,9 +16,8 @@ import {
   mobile,
   database,
   scaleContent,
-} from "../../Data/Navbar"; 
+} from "../../Data/Navbar";
 import {BsArrowRight} from "react-icons/bs"
-
 import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
 
 export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
@@ -28,6 +27,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
     console.log(element);
     setSidetoggle(element);
   };
+
 
   const sideBar = [
     { sidename: "Discover" },

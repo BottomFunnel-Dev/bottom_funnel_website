@@ -1,0 +1,50 @@
+.contactmanagementbannermainboxes{
+    height: 100vh;
+ border: 1px solid white;
+  margin-bottom: 5%;
+    background: url("/public/Images/contactmanagement/banner img.png");
+    background-repeat: no-repeat;
+    background-position-y:center ;
+    background-color: #fafafa;
+
+}
+
+.contactmanagementsometextboxes{
+    height: fit-content;
+    width: 50%;
+ 
+    margin-left: 45%;
+    margin-top: 16%;
+    font-variant-caps: all-petite-caps
+}
+
+.contactmanagementflexdivtwobutton{
+    display: flex;
+    margin-top: 5%;
+}
+
+.contactmanagementbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+   
+  
+}
+
+.contactmanagementbutton:hover {
+
+    background-color:white;
+    color:  #ef4c23;
+
+}
+
+.button2{
+    margin-left: 2%;
+}

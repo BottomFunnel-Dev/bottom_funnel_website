@@ -1,0 +1,68 @@
+.manufacturemakebettermainboxes{
+    height: fit-content;
+  
+}
+
+.manufacturemakebetterheadingtext{
+    height: fit-content;
+
+    width: 100%;
+ text-align: center;
+}
+.manufacturemakebetterheadingtext >h4{
+    margin-left: 3%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.manufacturingmakebettermappingbox{
+    height: fit-content;
+    width: 60%;
+
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.manifacturingmakebetterindivisuallybox{
+   
+    margin: 1%;
+    display: flex;
+}
+
+.manifacturingmakebetterindivisuallybox >svg{
+    color: #ef4c23;
+}
+
+.manufacturesmakebetterimagebox{
+    height: 500px;
+    width: 70%;
+    margin: 10%;
+
+    margin-top: 3%;
+}
+
+.manufacturesmakebetterimagebox >img {
+    height: 100%;
+    width: 100%;
+    object-fit: 100% 100%;
+}
+
+.manufacturinglowerbannerinclude{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+.manufacturinglowerbannerincludeimage{
+    width: 50%;
+    margin: auto;
+    height: 400px;
+
+
+}
+
+.manufacturinglowerbannerincludeimage >img {
+    height: 100%;
+    width: 100%;
+    object-fit: 100% 100%;
+}

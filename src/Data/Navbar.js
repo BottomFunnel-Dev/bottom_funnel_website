@@ -919,3 +919,120 @@ export const scaleRightContent = [
     cardImg: "Images/card/anywhate",
   },
 ];
+
+export const product1 = [
+  {
+    dropContent: "Bottom Funnel Omnichannel",
+    navIcons: "Images/navbar/product/bottomfunnel omnichannel.png",
+    path: "Omnichannel",
+  },
+  {
+    dropContent: "Bottom Funnel Support Desk",
+    navIcons: "Images/navbar/product/bottomfunnelsupportdesk (1).png",
+    path: "SupportDesk",
+  },
+  {
+    dropContent: "Bottom Funnel Chat",
+    navIcons: "Images/navbar/product/bottomfunnelchat.png",
+    path: "Chat",
+  },
+  {
+    dropContent: "Bottom Funnel Contact center",
+    navIcons: "Images/navbar/product/bottomfunnelcontactcenter.png",
+    path: "Contactcentre",
+  },
+
+  {
+    dropContent: "Bottom Funnel sales",
+    navIcons: "Images/navbar/product/bottomfunnelsales.png",
+    path: "sales",
+  },
+  {
+    dropContent: "Bottom Funnel Sales Suite",
+    navIcons: "Images/navbar/product/bottomfunnelsuite.png",
+    path: "Sales Suite",
+  },
+  {
+    dropContent: "Bottom Funnel Marketer",
+    navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
+    path: "Marketer",
+  },
+];
+
+export const product2 = [
+  {
+    dropContent: "Bottom Funnel Team",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path: "Team",
+  },
+  {
+    dropContent: "Bottom Funnel Service",
+    navIcons: "Images/navbar/product/bottomfunnelservice.png",
+    path: "Service",
+  },
+  {
+    dropContent: "Marketplace",
+    navIcons: "Images/navbar/product/bottomfunnelsales.png",
+    path: "mobile-user-experience",
+  },
+  {
+    dropContent: "Developer Portal",
+    navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
+    path: "mobile-user-experience",
+  },
+  {
+    dropContent: "Technology Alliance",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path: "mobile-user-experience",
+  },
+  {
+    dropContent: "Customer Spotlight",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path: "mobile-user-experience",
+  },
+  {
+    dropContent: "Olly AI",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path: "mobile-user-experience",
+  },
+
+];
+
+export const product3 = [
+  {
+    dropContent: "Analytics",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path: "android",
+  },
+  {
+    dropContent: "Neo Admin Center",
+    navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
+    path: "ios",
+  },
+  {
+    dropContent: "Collaboration",
+    navIcons: "Images/navbar/product/bottomfunnelsales.png",
+    path: "kotlin-development",
+  },
+  {
+    dropContent: "Events and Notification",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path: "flutter",
+  },
+  {
+    dropContent: "Unified Customer Record",
+    navIcons: "Images/navbar/product/bottomfunnelsales.png",
+    path: "reactnative",
+  },
+  {
+    dropContent: "Messaging Channels",
+    navIcons: "Images/navbar/product/bottomfunnelsales.png",
+    path: "Xamarin-Development",
+  },
+  {
+    dropContent: "Custom Objects",
+    navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
+    path: "ionic",
+  },
+
+];

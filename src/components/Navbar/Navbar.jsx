@@ -283,30 +283,21 @@ export const NavbarMain = () => {
           productMount={productMount}
         />
       ) : null}
+      {/* {product ? (
+        <Products productHoverIn={productHoverIn}  productHoverOut={productHoverOut} scroll={scroll}/>
+      ) : null} */}
 
             {/* product drop down section code start */}
-            {/* {product ? (
+            {product ? (
         <Products
           serHoverIn={serHoverIn}
           serHoverOut={serHoverOut}
           scroll={scroll}
           productMount={productMount}
         />
-      ) : null} */}
+      ) : null}
 
-      {/* product drop down section code end */}
-
-                  {/* product drop down section code start */}
-                  {/* {product ? (
-        <Products
-          serHoverIn={serHoverIn}
-          serHoverOut={serHoverOut}
-          scroll={scroll}
-          productMount={productMount}
-        />
-      ) : null} */}
-
-      {/* product drop down section code end */}
+      
     </div>
   );
 };
