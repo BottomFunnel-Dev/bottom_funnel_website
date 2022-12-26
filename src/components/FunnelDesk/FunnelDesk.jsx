@@ -8,7 +8,10 @@ import { FunnelDeskBanner } from './FunnelDeskBanner'
 import { FunnelSupport } from './FunnelSupport'
 import { IndustryExperts } from './IndustryExperts'
 
-
+import {
+  mountNavbar,
+  unmountNavbar,
+} from "../../Redux/ProductNavbar/ProductNavAction";
 
 // ----- Other requried react components -----
 import StoriesSection from "../StoriesSection/StoriesSection";
@@ -25,6 +28,10 @@ export const FunnelDesk = () => {
   const dispatch = useDispatch();
   useEffect(function () {
     dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+    dispatch(mountNavbar());
+    return () => {
+      dispatch(unmountNavbar())
+    };
   }, []);
 
   return (

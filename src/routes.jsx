@@ -138,6 +138,7 @@ import { BusinessAnalysis } from "./components/BusinessAnalysis/BusinessAnalysis
 import { FullCycleDesignPages } from "./components/FullCycleDesignPages/FullCycleDesignPages";
 import { UXReviewPage } from "./components/UXReviewPage/UXReviewPage";
 import { Products } from "./components/Products-Page/Products";
+import { Scoping } from "./components/Scoping-Session-Page/Scoping";
 import { FintechSolution } from "./components/FintexhSolution/FintechSolution";
 import { CarService } from "./components/Car-Service-page/CarService";
 import { XamarinAppDevelopment } from "./components/XamarinAppDevelopment/XamarinAppDevelopment";
@@ -172,9 +173,8 @@ import { CarRental } from "./components/Car-Rental-page/CarRental";
 import { ProductsNewPage } from "./components/ProductsNewPage/ProductsNewPage";
 import { RealEstate } from "./components/RealEstate/RealEstate";
 import { Hireatalent } from "./components/Hireatelent/Hireatalent";
-import { Scoping } from "./components/Scoping-Session-Page/Scoping";
-import { CollaborationPage } from "./components/CollaborationPage/CollaborationPage";
-import { Ticketing } from "./components/Ticketing/Ticketing";
+import { CollaborationPage } from "../src/components/CollaborationPage/CollaborationPage";
+import { Ticketing } from "../src/components/Ticketing/Ticketing";
 import { ApplyTalent } from "./components/Apply-Talent/ApplyTalent";
 import { SelfService } from "./components/SelfService/SelfService";
 
@@ -425,10 +425,9 @@ export const ALLroutes = () => {
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
       <Route path="/funnel-desk" element={<FunnelDesk />} />
-      <Route path="/product-enterprise" element={<EnterpriseDesk />} />
-      <Route path="/productNewPage" element={<ProductsNewPage />} />
       <Route path="/real-Estate" element={ <RealEstate/> } />
       <Route path="/hire-new-talent" element={<Hireatalent/>}/>
+
       <Route path="/Collaboration" element={<CollaborationPage/>}/> 
       <Route path="/ticketing" element={<Ticketing/>}/>
       <Route path="/self-service" element={ <SelfService/> }/>
