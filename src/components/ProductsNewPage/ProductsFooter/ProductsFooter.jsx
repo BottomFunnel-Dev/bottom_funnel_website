@@ -97,7 +97,7 @@ export const ProductsFooter = () => {
 
                     <ul className='productMainProductDivLink'>
 
-                        <h5> Services </h5>
+                        <h5> SAAS Services </h5>
 
                         <Link className='productFooterLinkTag' to="/web-development"> <li>
                             Web Development
@@ -122,15 +122,21 @@ export const ProductsFooter = () => {
                     </ul>
 
                     <ul className='productMainProductDivLink'>
-                        <h5> SaaS </h5>
+                        <h5> On Demand Solution </h5>
 
-                        <li>
-                            On Demand Solution
-                        </li>
+                        <li>Real State Solutions</li>
 
-                        <li>
-                            Industries
-                        </li>
+                        <li>Beauty and salon solutions</li>
+                        
+                        <li>Trading App Solutions</li>
+
+                        <li>Grocery Delivery Solutions</li>
+
+                        <li>OTT APP solutions</li>
+
+                        <li>Online Payment App</li>
+
+                        <li>Car Rental APP Solutions</li>
 
                     </ul>
 

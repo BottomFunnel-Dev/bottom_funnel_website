@@ -8,8 +8,10 @@ export const OurCommitment = () => {
 
     const productsTalentProfilesCardsData = [
         {
-            title: "Jumia Egypt and MSMEs Agency join forces to support SMEs in Egypt",
-            body: `BottomFunnel India signed a memorandum of understanding with`,
+            // title: "Jumia Egypt and MSMEs Agency join forces to support SMEs in Egypt",
+            body: `This new partneship will make it possible to support the digitization of local commerce, in particular
+            through the referencing of more than 10,000 merchants at the level of these two 10,000 jobs will be created thanks 
+            to these agreements.`,
             image: "/Images/ProductsPage/OurCommitments/CommunitySupport1.jpg",
             experience: "Ex:6 years",
             communication: "Communication Score",
@@ -17,7 +19,7 @@ export const OurCommitment = () => {
             buttondetails: "See more",
         },
         {
-            title: "The Ministry of industry and Trade of UAE signed a partnership agreement with...",
+            // title: "The Ministry of industry and Trade of UAE signed a partnership agreement with...",
             body: `This new partneship will make it possible to support the digitization of local commerce, in particular
              through the referencing of more than 10,000 merchants at the level of these two 10,000 jobs will be created thanks 
              to these agreements.`,
@@ -28,7 +30,7 @@ export const OurCommitment = () => {
             buttondetails: "See more",
         },
         {
-            title: "The Ministry of industry and Trade of UAE signed a partnership agreement with...",
+            // title: "The Ministry of industry and Trade of UAE signed a partnership agreement with...",
             body: `This new partneship will make it possible to support the digitization of local commerce, in particular
             through the referencing of more than 10,000 merchants at the level of these two 10,000 jobs will be created thanks 
             to these agreements.`,
@@ -42,8 +44,10 @@ export const OurCommitment = () => {
 
     const ourImpactCardsData = [
         {
-            title: "Jumia Egypt and MSMEs Agency join forces to support SMEs in Egypt",
-            body: `BottomFunnel India signed a memorandum of understanding with`,
+            // title: "Jumia Egypt and MSMEs Agency join forces to support SMEs in Egypt",
+            body: `This new partneship will make it possible to support the digitization of local commerce, in particular
+            through the referencing of more than 10,000 merchants at the level of these two 10,000 jobs will be created thanks 
+            to these agreements.`,
             image: "/Images/ProductsPage/OurCommitments/CommunitySupport1.jpg",
             experience: "Ex:6 years",
             communication: "Communication Score",
