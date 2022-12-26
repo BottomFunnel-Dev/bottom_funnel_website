@@ -16,7 +16,11 @@ import {
   mobile,
   database,
   scaleContent,
-} from "../../Data/Navbar";
+} from "../../Data/Navbar"; 
+import {BsArrowRight} from "react-icons/bs"
+
+import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
+
 export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
   const [sidetoggle, setSidetoggle] = useState("Technologies");
 
