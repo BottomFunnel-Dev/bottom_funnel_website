@@ -22,7 +22,7 @@ export const FieldServiceBanner = () => {
                 {/* <button> Get Started </button> */}
             </div>
             <div className='fieldAndServiceBannerImageDiv'>
-                <img src='/Images/FieldService/Icons/FieldServiceBannerANimation.gif' alt='image' />
+                <img src='/Images/FieldService/Icons/FieldServiceBannerAnimation.gif' alt='image' />
             </div>
 
         </div>

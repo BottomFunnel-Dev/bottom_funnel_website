@@ -21,7 +21,7 @@ export const BuildAndGrow = () => {
                 <button> Get Started For Free </button>
             </div>
             <div className='buildAndGrowImageDiv'>
-                <img src='/Images/PlantBasedMeat/banners & backgrounds/plantBasedBannerImage.png' alt='image' />
+                <img src='/Images/PlantBasedMeat/banners & backgrounds/PlantBasedBannerImage.png' alt='image' />
             </div>
 
         </div>
