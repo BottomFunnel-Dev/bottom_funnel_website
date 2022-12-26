@@ -420,19 +420,22 @@ export const ALLroutes = () => {
         path="/Digital-transformation"
         element={<DigitalTransformation />}
       />
-      <Route path="/Apply-new-talent" element={<ApplyTalent/>}/>
+      <Route path="/Apply-new-talent" element={<ApplyTalent />} />
       {/* <Route path="/Apply-new-talent" element={<ApplyAsTalent />} /> */}
       <Route path="/IT-consulting" element={<ItConsultingWebsite />} />
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
       <Route path="/funnel-desk" element={<FunnelDesk />} />
-      <Route path="/real-Estate" element={ <RealEstate/> } />
-      <Route path="/hire-new-talent" element={<Hireatalent/>}/>
-      
-      <Route path="/Collaboration" element={<CollaborationPage/>}/> 
-      <Route path="/ticketing" element={<Ticketing/>}/>
-      <Route path="/self-service" element={ <SelfService/> }/>
+      <Route path="/real-Estate" element={<RealEstate />} />
+      <Route path="/hire-new-talent" element={<Hireatalent />} />
 
+      <Route path="/Collaboration" element={<CollaborationPage />} />
+      <Route path="/ticketing" element={<Ticketing />} />
+      <Route path="/self-service" element={<SelfService />} />
+      <Route path="/field-service-management" element={ <FieldServiceManagement /> } />
+      
+      <Route path="/newProductPage" element={ <ProductsNewPage/> } />
+      
     </Routes>
   );
 };

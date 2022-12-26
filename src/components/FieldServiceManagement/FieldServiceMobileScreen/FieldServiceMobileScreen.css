@@ -1,0 +1,115 @@
+.fieldServiceMobileScreenParentDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  /* height: 100vh; */
+  flex-direction: row;
+  align-items: center;
+  background-color: #eae7e7;
+  justify-content: center;
+  margin: auto;
+  /* justify-content: space-between; */
+  /* padding-left: 5%; */
+}
+
+.fieldServiceMobileScreenParentDiv button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.fieldServiceMobileScreenParentDiv button:hover {
+  color: #ef4c23;
+  /* border: 1px solid #ef4c23; */
+  background-color: white;
+}
+
+.fieldServiceMobileScreenContentDiv {
+  /* border: 1px solid green; */
+  width: 55%;
+  margin-top: 3%;
+}
+
+.fieldServiceMobileScreenImageDiv {
+  /* border: 1px solid black; */
+  /* height: 100vh; */
+  width: 40%;
+}
+
+.fieldServiceMobileScreenImageDiv img {
+  width: 100%;
+  margin-top: 5%;
+  /* height: 100vh; */
+  /* height: 400px; */
+}
+
+/* This css is for the intelligently engage */
+
+.fieldServiceMobileScreenIntelligentParentDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  /* height: 100vh; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* width: 90%; */
+  margin: auto;
+  /* justify-content: space-between; */
+  /* padding-left: 5%; */
+}
+
+.fieldServiceMobileScreenContentDiv {
+  /* border: 1px solid green; */
+  width: 55%;
+  margin-top: 3%;
+}
+
+.fieldServiceMobileScreenIntelligentImageDiv {
+  width: 40%;
+  padding-left: 5%;
+}
+
+.fieldServiceMobileScreenIntelligentImageDiv img {
+  width: 45%;
+  margin-top: 5%;
+  padding-left: 5%;
+}
+
+/* This css is for the Stay Connected with IOS and Android */
+
+.fieldServiceMobileScreenConnectedParentDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  /* height: 100vh; */
+  flex-direction: row;
+  align-items: center;
+  background-color: #eae7e7;
+  justify-content: center;
+  margin: auto;
+  /* justify-content: space-between; */
+  /* padding-left: 5%; */
+}
+
+.fieldServiceMobileScreenConnectedContentDiv {
+  /* border: 1px solid green; */
+  width: 55%;
+  margin-top: 3%;
+}
+
+.fieldServiceMobileScreenConnectedImageDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  padding-left: 5%;
+}
+
+.fieldServiceMobileScreenConnectedImageDiv img {
+  width: 45%;
+  margin-top: 5%;
+  padding-left: 5%;
+}
