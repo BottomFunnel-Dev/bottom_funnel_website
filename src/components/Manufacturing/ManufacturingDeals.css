@@ -1,0 +1,64 @@
+.manufacturingdealsmainbox{
+    height: fit-content;
+margin: 0% 0% 3% 0%;
+
+}
+
+
+.manufacturingdealsmainboxes{
+    height: fit-content;
+
+    margin-top: 10%;
+    display: flex;
+}
+
+.manufacturingdealsleftbox{
+    width: 50%;
+    height: 500px;
+
+    margin-left: 3%;
+}
+
+.manufacturingdealsleftbox >img {
+    height: 100%;
+    width: 100%;
+    object-fit: 100% 100%;
+}
+
+
+.manufacturingdealsrightbox{
+    width: 45%;
+    height: fit-content;
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.manufacturingdealslowersometext{
+    height: fit-content;
+   margin: 5% 3% 3% 3%;
+
+ 
+}
+
+.manufacturingexpampledealsdatamapperindi{
+    display: flex;
+    
+    height: fit-content;
+  
+}
+
+.manufactdealsstxt{
+    margin-left: 2%;
+}
+
+.manufacturingexpampledealsdatamapperindi>svg{
+    color: #ef4c23;
+  
+}
+
+.manufdealsmapperdataunifies{
+ 
+    margin-top: 3%;
+    text-align: justify;
+}

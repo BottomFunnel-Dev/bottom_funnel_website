@@ -1,0 +1,64 @@
+.manufacturingautomationmainbox{
+    height: fit-content;
+margin: 3% 0% 3% 0%;
+
+}
+
+
+.manufacturingautomationmainboxes{
+    height: fit-content;
+
+    margin-top: 10%;
+    display: flex;
+}
+
+.manufacturingautomationleftbox{
+    width: 50%;
+    height: 500px;
+
+    margin-left: 3%;
+}
+
+.manufacturingautomationleftbox >img {
+    height: 100%;
+    width: 100%;
+    object-fit: 100% 100%;
+}
+
+
+.manufacturingautomationrightbox{
+    width: 45%;
+    height: fit-content;
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.manufacturingautomationlowersometext{
+    height: fit-content;
+   margin: 5% 3% 3% 3%;
+
+ 
+}
+
+.manufacturingexpampleautomationdatamapperindi{
+    display: flex;
+    
+    height: fit-content;
+  
+}
+
+.manufactautomationstxt{
+    margin-left: 2%;
+}
+
+.manufacturingexpampleautomationdatamapperindi>svg{
+    color: #ef4c23;
+  
+}
+
+.manufautomationmapperdataunifies{
+ 
+    margin-top: 3%;
+    text-align: justify;
+}

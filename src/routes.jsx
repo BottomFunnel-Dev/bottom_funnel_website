@@ -179,6 +179,7 @@ import { ApplyTalent } from "./components/Apply-Talent/ApplyTalent";
 import { SelfService } from "./components/SelfService/SelfService";
 import { FieldServiceManagement } from "./components/FieldServiceManagement/FieldServiceManagement";
 import {ContactManagement} from "./components/ContactManagement/ContactManagement";
+import { Manufacturing } from "./components/Manufacturing/Manufacturing";
 
 
 export const ALLroutes = () => {
@@ -435,6 +436,7 @@ export const ALLroutes = () => {
       <Route path="/self-service" element={ <SelfService/> }/>
       <Route path="/productHomepage" element={<ProductsNewPage/>}/>
       <Route path="/ContactManagement" element={<ContactManagement/>}/>
+      <Route path="/manufacturing" element={<Manufacturing/>}/>
 
     </Routes>
   );
