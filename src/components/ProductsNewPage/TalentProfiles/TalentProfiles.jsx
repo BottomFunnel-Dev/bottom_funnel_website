@@ -1,6 +1,6 @@
 import React from 'react';
 import "./TalentProfiles.css";
-import { AiFillStar,AiOutlineStar } from "react-icons/ai";
+import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 export const TalentProfiles = () => {
     const productsTalentProfilesCardsData = [
@@ -10,7 +10,7 @@ export const TalentProfiles = () => {
             image: "/Images/ProductsPage/TalentProfileImage1.png",
             experience: "Ex:6 years",
             communication: "Communication Score",
-            technicalscore:"Technical Score",
+            technicalscore: "Technical Score",
             buttondetails: "See more",
         },
         {
@@ -19,7 +19,7 @@ export const TalentProfiles = () => {
             image: "/Images/ProductsPage/TalentProfileImage2.png",
             experience: "Ex:4 years",
             communication: "Communication Score",
-            technicalscore:"Technical Score",
+            technicalscore: "Technical Score",
             buttondetails: "See more",
         },
         {
@@ -28,7 +28,7 @@ export const TalentProfiles = () => {
             image: "/Images/ProductsPage/TalentProfileImage3.png",
             experience: "Ex:2 years",
             communication: "Communication Score",
-            technicalscore:"Technical Score",
+            technicalscore: "Technical Score",
             buttondetails: "See more",
         },
         {
@@ -38,7 +38,7 @@ export const TalentProfiles = () => {
             experience: "Ex:5 years",
             communication: "Communication Score",
             buttondetails: "See more",
-            technicalscore:"Technical Score",
+            technicalscore: "Technical Score",
         },
         {
             title: "Ashish Verma",
@@ -47,7 +47,7 @@ export const TalentProfiles = () => {
             experience: "Ex:6 years",
             communication: "Communication Score",
             buttondetails: "See more",
-            technicalscore:"Technical Score",
+            technicalscore: "Technical Score",
         },
         {
             title: "Neeti Singh",
@@ -56,7 +56,7 @@ export const TalentProfiles = () => {
             experience: "Ex:4 years",
             communication: "Communication Score",
             buttondetails: "See more",
-            technicalscore:"Technical Score",
+            technicalscore: "Technical Score",
         },
         {
             title: "Enid Gates",
@@ -65,7 +65,7 @@ export const TalentProfiles = () => {
             experience: "Ex:2 years",
             communication: "Communication Score",
             buttondetails: "See more",
-            technicalscore:"Technical Score",
+            technicalscore: "Technical Score",
         },
         {
             title: "Bianca Adams",
@@ -74,7 +74,7 @@ export const TalentProfiles = () => {
             experience: "Ex:5 years",
             communication: "Communication Score",
             buttondetails: "See more",
-            technicalscore:"Technical Score",
+            technicalscore: "Technical Score",
         }
     ];
 
@@ -98,7 +98,7 @@ export const TalentProfiles = () => {
             </div> */}
 
             <div className="productsTalentProfilesContentDiv">
-                {productsTalentProfilesCardsData.map(({ title, body, image, buttondetails, experience, communication,technicalscore }, idx) => (
+                {productsTalentProfilesCardsData.map(({ title, body, image, buttondetails, experience, communication, technicalscore }, idx) => (
                     <div key={idx}>
                         <div>
                             <img src={image} alt={title} />
@@ -109,7 +109,7 @@ export const TalentProfiles = () => {
 
                         <div className='productsTalentCommunication'>
                             <p>{communication}</p>
-                            <p style={{fontSize:"12px",marginTop:"1%"}}>
+                            <p style={{ fontSize: "12px", marginTop: "1%" }}>
                                 <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiOutlineStar />
                             </p>
                         </div>
