@@ -6,13 +6,7 @@ import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
 import { BsArrowRight } from "react-icons/bs";
 import { WhoWeAre } from "./WhoWeAre";
-import {
-  discoverContent,
-  discoverRightContent,
-  designContent,
-  scaleContent,
-  designRightContent,
-} from "../../Data/Navbar";
+
 import {
   company,
   whyBottom,
@@ -289,6 +283,30 @@ export const NavbarMain = () => {
           productMount={productMount}
         />
       ) : null}
+
+            {/* product drop down section code start */}
+            {/* {product ? (
+        <Products
+          serHoverIn={serHoverIn}
+          serHoverOut={serHoverOut}
+          scroll={scroll}
+          productMount={productMount}
+        />
+      ) : null} */}
+
+      {/* product drop down section code end */}
+
+                  {/* product drop down section code start */}
+                  {/* {product ? (
+        <Products
+          serHoverIn={serHoverIn}
+          serHoverOut={serHoverOut}
+          scroll={scroll}
+          productMount={productMount}
+        />
+      ) : null} */}
+
+      {/* product drop down section code end */}
     </div>
   );
 };

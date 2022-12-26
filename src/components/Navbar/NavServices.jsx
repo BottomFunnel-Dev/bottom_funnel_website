@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
-import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
 import {
   webservice,
   appservice,
@@ -17,7 +16,11 @@ import {
   mobile,
   database,
   scaleContent,
-} from "../../Data/Navbar";
+} from "../../Data/Navbar"; 
+import {BsArrowRight} from "react-icons/bs"
+
+import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
+
 export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
   const [sidetoggle, setSidetoggle] = useState("Technologies");
 
