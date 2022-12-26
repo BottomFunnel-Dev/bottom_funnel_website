@@ -6,13 +6,7 @@ import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
 import { BsArrowRight } from "react-icons/bs";
 import { WhoWeAre } from "./WhoWeAre";
-import {
-  discoverContent,
-  discoverRightContent,
-  designContent,
-  scaleContent,
-  designRightContent,
-} from "../../Data/Navbar";
+
 import {
   company,
   whyBottom,
