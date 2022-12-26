@@ -177,6 +177,7 @@ import { CollaborationPage } from "../src/components/CollaborationPage/Collabora
 import { Ticketing } from "../src/components/Ticketing/Ticketing";
 import { ApplyTalent } from "./components/Apply-Talent/ApplyTalent";
 import { SelfService } from "./components/SelfService/SelfService";
+import { FieldServiceManagement } from "./components/FieldServiceManagement/FieldServiceManagement";
 
 
 export const ALLroutes = () => {
@@ -431,7 +432,10 @@ export const ALLroutes = () => {
       <Route path="/Collaboration" element={<CollaborationPage/>}/> 
       <Route path="/ticketing" element={<Ticketing/>}/>
       <Route path="/self-service" element={ <SelfService/> }/>
+      <Route path="/productNewPage" element={ <ProductsNewPage /> }/>
+      <Route path="/field-service-management" element={ <FieldServiceManagement/> }/>
 
+      
     </Routes>
   );
 };

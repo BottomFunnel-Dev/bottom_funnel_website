@@ -6,22 +6,23 @@ import { IconContext } from "react-icons";
 import { useSelector } from "react-redux";
 import { NavServices } from "../NavServices";
 import { NavIndustries } from "../NavIndustries";
+import { ImageCard } from "../../particularComponents/ImageCardText/ImageCard";
 
 export const ProductsNavbar = ({ scroll }) => {
 
   const navigate = useNavigate();
   const [ProductSolution, setProductSolution] = useState(false);
-  const [service, setService] = useState(false);
-  const [navbar, setNabvar] = useState(false);
-  const navredux = useSelector((state) => state.navbar);
+  const [productservice, setproductService] = useState(false);
+  const [productnavbar, setproductNabvar] = useState(false);
+  const navproductredux = useSelector((state) => state.navbar);
   const productMount = useSelector((state) => state.mountNav);
 
 
 
   const skillProductHoverIn = () => {
-    // setSkill(true);
+    setSkill(true);
 
-    setNabvar(true);
+    setproductNabvar(true);
   };
 
   const skillProductHoverOut = () => {
@@ -29,43 +30,49 @@ export const ProductsNavbar = ({ scroll }) => {
 
     setSkill(false);
     if (window.scrollY == 0) {
-      setNabvar(false);
+      setproductNabvar(false);
     }
   };
 
   const serHoverIn = () => {
-    setService(true);
-    setNabvar(true);
+    setproductService(true);
+    setproductNabvar(true);
   };
 
   const serHoverOut = () => {
-    setService(false);
+    setproductService(false);
     if (window.scrollY == 0) {
-      setNabvar(false);
+      setproductNabvar(false);
     }
   };
 
   const solHoverIn = () => {
     setProductSolution(true);
-    setNabvar(true);
+    setproductNabvar(true);
   };
 
   const solHoverOut = () => {
     setProductSolution(false);
     if (window.scrollY == 0) {
-      setNabvar(false);
+      setproductNabvar(false);
     }
   };
 
 
 
   useEffect(() => {
-    // console.log(productMount.navMount);
+    console.log(productMount.navMount);
   }, [productMount]);
 
 
   return (
     <div className="products-navbar" style={{ top: scroll ? "0" : "65px", background: scroll ? "white" : "transparent" }}>
+
+      {/* {!productMount.navMount && <ContactMain
+        bgcolor={navbar ? "white" : "transparent"}
+        textcolor={!navbar ? navredux.color : "black"}
+      />} */}
+
       <div className="deskLogo">
         {/* <img src="Images/Logos/supportdesk.png" alt="support desk" /> */}
         <h5>Support Desk</h5>
@@ -94,7 +101,7 @@ export const ProductsNavbar = ({ scroll }) => {
           onMouseEnter={skillProductHoverIn}
           onMouseLeave={skillProductHoverOut}
           onClick={() => navigate("/pricing")}
-          style={{ color: navbar ? "black" : navredux.color }}
+          style={{ color: productnavbar ? "black" : navproductredux.color }}
         >
           Pricing
         </li>
@@ -102,7 +109,7 @@ export const ProductsNavbar = ({ scroll }) => {
         <li
           onMouseEnter={serHoverIn}
           onMouseLeave={serHoverOut}
-          style={{ color: navbar ? "black" : navredux.color }}
+          style={{ color: productnavbar ? "black" : navproductredux.color }}
         >
           Saas
         </li>
@@ -110,7 +117,7 @@ export const ProductsNavbar = ({ scroll }) => {
         <li
           onMouseEnter={solHoverIn}
           onMouseLeave={solHoverOut}
-          style={{ color: navbar ? "black" : navredux.color }}>
+          style={{ color: productnavbar ? "black" : navproductredux.color }}>
           Solutions{" "}
           <img
             className="deskdownIcon"
@@ -133,7 +140,7 @@ export const ProductsNavbar = ({ scroll }) => {
 
 
       {/* service drop down section code start */}
-      {service ? (
+      {productservice ? (
         <NavServices
           serHoverIn={serHoverIn}
           serHoverOut={serHoverOut}
