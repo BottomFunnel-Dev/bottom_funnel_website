@@ -16,11 +16,7 @@ import {
   mobile,
   database,
   scaleContent,
-} from "../../Data/Navbar"; 
-import {BsArrowRight} from "react-icons/bs"
-
-import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
-
+} from "../../Data/Navbar";
 export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
   const [sidetoggle, setSidetoggle] = useState("Technologies");
 
@@ -204,7 +200,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
       {sidetoggle === "Discover" && (
         <div className="discoverDropdown">
           <div className="discoverleft">
-            {/* <div className="discoverlefttop">
+            <div className="discoverlefttop">
               {discoverContent.map((item, index) => (
                 <ImageCard
                   key={index}
@@ -212,13 +208,12 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
                   closeDisplay={serHoverOut}
                 />
               ))}
-            </div> */}
+            </div>
             <div className="discoverleftbottom">
               <h3>
                 Learn more About{" "}
                 <span>
-                Our services
-                  {/* Our services <BsArrowRight /> */}
+                  Our services <BsArrowRight />
                 </span>
               </h3>
             </div>
@@ -226,10 +221,9 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
           <div className="discoverright">
             {discoverRightContent.map((item, index) => (
               <div key={index}>
-                {/* <ImageCard cardContent={item} closeDisplay={serHoverOut} /> */}
+                <ImageCard cardContent={item} closeDisplay={serHoverOut} />
                 <h5 className="knowmore">
-                Know More
-                  {/* Know More <BsArrowRight /> */}
+                  Know More <BsArrowRight />
                 </h5>
               </div>
             ))}
@@ -239,7 +233,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
       {sidetoggle === "Design" && (
         <div className="discoverDropdown">
           <div className="discoverleft">
-            {/* <div className="discoverlefttop">
+            <div className="discoverlefttop">
               {designContent.map((item, index) => (
                 <ImageCard
                   key={index}
@@ -247,13 +241,12 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
                   cardContent={item}
                 />
               ))}
-            </div> */}
+            </div>
             <div className="discoverleftbottom">
               <h3>
                 Learn more About{" "}
                 <span>
-                Our services
-                  {/* Our services <BsArrowRight /> */}
+                  Our services <BsArrowRight />
                 </span>
               </h3>
             </div>
@@ -261,10 +254,9 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
           <div className="discoverright">
             {designRightContent.map((item, index) => (
               <div key={index}>
-                {/* <ImageCard cardContent={item} closeDisplay={serHoverOut} /> */}
+                <ImageCard cardContent={item} closeDisplay={serHoverOut} />
                 <h5 className="knowmore">
-                Know More
-                  {/* Know More <BsArrowRight /> */}
+                  Know More <BsArrowRight />
                 </h5>
               </div>
             ))}
@@ -421,7 +413,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
           <div className="discoverleft">
             <div className="discoverlefttop">
               {scaleContent.map((item, index) => (
-                <image
+                <ImageCard
                   key={index}
                   closeDisplay={serHoverOut}
                   cardContent={item}
@@ -432,8 +424,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
               <h3>
                 Learn more About{" "}
                 <span>
-                Our services
-                  {/* Our services <BsArrowRight /> */}
+                  Our services <BsArrowRight />
                 </span>
               </h3>
             </div>
@@ -441,10 +432,10 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
           <div className="discoverright">
             {discoverRightContent.map((item, index) => (
               <div key={index}>
-                {/* <ImageCard cardContent={item} closeDisplay={serHoverOut} /> */}
+                <ImageCard cardContent={item} closeDisplay={serHoverOut} />
                 <h5 className="knowmore">
                   Know More
-                  {/* <BsArrowRight />{" "} */}
+                  <BsArrowRight />{" "}
                 </h5>
               </div>
             ))}
