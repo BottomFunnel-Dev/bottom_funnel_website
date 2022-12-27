@@ -421,12 +421,16 @@ export const ALLroutes = () => {
         path="/Digital-transformation"
         element={<DigitalTransformation />}
       />
-      <Route path="/Apply-new-talent" element={<ApplyTalent/>}/>
+      <Route path="/Apply-new-talent" element={<ApplyTalent />} />
       {/* <Route path="/Apply-new-talent" element={<ApplyAsTalent />} /> */}
       <Route path="/IT-consulting" element={<ItConsultingWebsite />} />
       <Route path="/trading-investing" element={<TradingInvesting />} />
       <Route path="/kids-wear" element={<KidsWear />} />
       <Route path="/funnel-desk" element={<FunnelDesk />} />
+
+      <Route path="/real-Estate" element={<RealEstate />} />
+      <Route path="/hire-new-talent" element={<Hireatalent />} />
+
       <Route path="/real-Estate" element={ <RealEstate/> } />
       <Route path="/hire-new-talent" element={<Hireatalent/>}/>
       
@@ -436,7 +440,12 @@ export const ALLroutes = () => {
       <Route path="/productHomepage" element={<ProductsNewPage/>}/>
       <Route path="/ContactManagement" element={<ContactManagement/>}/>
       <Route path="/manufacturing" element={<Manufacturing/>}/>
-      <Route path="/Sales" element={<SalesPage/>}/>
+      <Route path="/Collaboration" element={<CollaborationPage />} />
+      <Route path="/ticketing" element={<Ticketing />} />
+      <Route path="/field-service-management" element={ <FieldServiceManagement /> } />
+      
+      <Route path="/newProductPage" element={ <ProductsNewPage/> } />
+      <Route path="/sales" element={<SalesPage/>}/>
     </Routes>
   );
 };

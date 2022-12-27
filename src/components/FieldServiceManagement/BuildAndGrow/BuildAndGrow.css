@@ -1,15 +1,15 @@
-.fieldAndServiceBannerParentDiv {
+.buildAndGrowParentDiv {
   /* border: 1px solid red; */
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   padding-left: 5%;
+  /* justify-content: center; */
 }
 
-.fieldAndServiceBannerParentDiv button {
+.buildAndGrowParentDiv button {
   padding: 10px 40px;
   border-radius: 10px;
   background-color: #ef4c23;
@@ -20,25 +20,25 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.fieldAndServiceBannerParentDiv button:hover {
+.buildAndGrowParentDiv button:hover {
   color: #ef4c23;
   /* border: 1px solid #ef4c23; */
   background-color: white;
 }
 
-.fieldAndServiceBannerContentDiv {
+.plantBasedMeatBannerContentDiv {
   /* border: 1px solid green; */
   width: 55%;
   margin-top: 3%;
 }
 
-.fieldAndServiceBannerImageDiv {
+.buildAndGrowImageDiv {
   /* border: 1px solid black; */
   /* height: 100vh; */
   width: 40%;
 }
 
-.fieldAndServiceBannerImageDiv img {
+.buildAndGrowImageDiv img {
   width: 100%;
   margin-top: 5%;
   /* height: 100vh; */

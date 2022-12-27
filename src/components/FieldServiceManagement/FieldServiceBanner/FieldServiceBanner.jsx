@@ -3,8 +3,8 @@ import "./FieldServiceBanner.css";
 
 export const FieldServiceBanner = () => {
     return (
-        <div className='plantBasedBannerParentDiv'>
-            <div className='plantBasedMeatBannerContentDiv'>
+        <div className='fieldAndServiceBannerParentDiv'>
+            <div className='fieldAndServiceBannerContentDiv'>
                 <h1>
                     Field Service
                     <span> Management </span>
@@ -19,10 +19,10 @@ export const FieldServiceBanner = () => {
                     Of The Field Teams. See Trends Analysis And Get Insights On Field Service Data. 
                 </p>
 
-                <button> Get Started </button>
+                {/* <button> Get Started </button> */}
             </div>
-            <div className='plantBasedBannerImageDiv'>
-                <img src='/Images/PlantBasedMeat/banners & backgrounds/PlantBasedBannerImage.png' alt='image' />
+            <div className='fieldAndServiceBannerImageDiv'>
+                <img src='/Images/FieldService/Icons/FieldServiceBannerAnimation.gif' alt='image' />
             </div>
 
         </div>
