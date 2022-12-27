@@ -118,7 +118,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                 serHoverOut();
               }}
             >
-              View All Products
+              All Products
             </h5>
             </Link>
           </div>
