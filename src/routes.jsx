@@ -324,7 +324,8 @@ export const ALLroutes = () => {
       <Route path="/alcohol" element={<AlcoholDeliveryPage />} />
       <Route path="/cannabis" element={<Cannabis />} />
       <Route path="/Icecream" element={<Icecream />} />
-      <Route path="/Products" element={<Products />} />
+      <Route path="/Products" element={ <ProductsNewPage/> } />
+      <Route path="/newProductPage" element={<Products />} />
       <Route path="/eScooter" element={<Escooter />} />
       {/* <Route path="/taxi-booking" element={<Taxibooking />} /> */}
       <Route path="/taxi-booking" element={<TaxiBookingApp />} />
@@ -440,14 +441,14 @@ export const ALLroutes = () => {
       <Route path="/Collaboration" element={<CollaborationPage/>}/> 
       <Route path="/ticketing" element={<Ticketing/>}/>
       <Route path="/self-service" element={ <SelfService/> }/>
-      <Route path="/productHomepage" element={<ProductsNewPage/>}/>
+      {/* <Route path="/productHomepage" element={<ProductsNewPage/>}/> */}
       <Route path="/ContactManagement" element={<ContactManagement/>}/>
       <Route path="/manufacturing" element={<Manufacturing/>}/>
       <Route path="/Collaboration" element={<CollaborationPage />} />
       <Route path="/ticketing" element={<Ticketing />} />
       <Route path="/field-service-management" element={ <FieldServiceManagement /> } />
       
-      <Route path="/newProductPage" element={ <ProductsNewPage/> } />
+      {/* <Route path="/newProductPage" element={ <ProductsNewPage/> } /> */}
       <Route path="/sales" element={<SalesPage/>}/>
       <Route path="/helpDesk" element={<HelpDesk/>}/>
       <Route path="/RetailEcommerce" element={<RetailEcommerce/>}/>

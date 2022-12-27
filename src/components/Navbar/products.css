@@ -40,6 +40,25 @@
     /* border: 2px solid red; */
     color: #ef4c23;
     cursor: pointer;
-    text-decoration: underline;
-    margin-left: 22%;
+    /* text-decoration: underline; */
+    margin-left: 12%;
+    margin-top: 12%;
+    background-color: #ef4c23;
+    width: 75%;
+    height: 45px;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    border-radius: 5px;
+    /* text-align: center; */
+  }
+  .viewAllButton:hover{
+    border: 1px solid #ef4c23;
+    color: #ef4c23;
+    background-color: white;
+  }
+  .productLogoImages{
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 200px;
   }

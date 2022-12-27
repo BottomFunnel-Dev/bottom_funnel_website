@@ -924,28 +924,28 @@ export const product1 = [
 
   {
     dropContent: "Bottom Funnel Support Desk",
-    navIcons: "Images/navbar/product/Logo/Desk/Group3256.png",
-    path: "SupportDesk",
+    navIcons: "Images/navbar/product/desk.png",
+    path: "funnel-desk",
   },
   {
     dropContent: "Bottom Funnel Chat",
-    navIcons: "Images/navbar/product/Logo/Chat/Group3259.png",
+    navIcons: "Images/navbar/product/Chat.png",
     path: "Chat",
   },
   {
     dropContent: "Bottom Funnel Marketer",
-    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
+    navIcons: "Images/navbar/product/Market.png",
     path: "Marketer",
   },
 
   {
     dropContent: "Bottom Funnel sales",
-    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
+    navIcons: "Images/navbar/product/Sales.png",
     path: "sales",
   },
   {
     dropContent: "Bottom Funnel Service",
-    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
+    navIcons: "Images/navbar/product/Service.png",
     path: "Service",
   },
 
@@ -956,22 +956,22 @@ export const product1 = [
 export const product2 = [
   {
     dropContent: "Bottom Funnel Sales Suite",
-    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
-    path: "Sales Suite",
+    navIcons: "Images/navbar/product/suite.png",
+    path: "sales",
   },
   {
     dropContent: "Bottom Funnel Omnichannel",
-    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
+    navIcons: "Images/navbar/product/omnichannel.png",
     path: "Omnichannel",
   },
   {
     dropContent: "Bottom Funnel Contact center",
-    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
-    path: "Contactcentre",
+    navIcons: "Images/navbar/product/contact.png",
+    path: "ContactManagement",
   },
   {
     dropContent: "Bottom Funnel Team",
-    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
+    navIcons: "Images/navbar/product/success.png",
     path: "Team",
   },
  
@@ -1013,14 +1013,6 @@ export const product3 = [
     navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
     path: "ionic",
   },
-  // {
-  //   dropContent: "Marketplace",
-  //   navIcons: "Images/navbar/product/bottomfunnelsales.png",
-  //   path: "mobile-user-experience",
-  // },
- 
-
-
 ];
 
 export const product4 = [
@@ -1044,11 +1036,11 @@ export const product4 = [
     navIcons: "Images/navbar/product/customer.png",
     path: "Team",
   },
-  {
-    dropContent: "Olly AI",
-    navIcons: "Images/navbar/product/customer.png",
-    path: "Team",
-  },
+  // {
+  //   dropContent: "Olly AI",
+  //   navIcons: "Images/navbar/product/customer.png",
+  //   path: "Team",
+  // },
  
 ];
 

@@ -36,7 +36,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
 
       {sidetoggle === "Technologies" && (
         <div className="productDropdownSection">
-          <div className="productDropdownContent"   style={{marginLeft:"1%"}}>
+          <div className="productDropdownContent"   style={{marginLeft:"1%",width:"28%"}}>
             <h5
               className="noStyleMain"
               onClick={() => {
@@ -47,7 +47,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               SAAS
             </h5>
 
-            <div className="listItems">
+            <div className="listItems" style={{width:"100%"}}>
               {product1.map((item, i) => (
                 <div
                 key={i}
@@ -56,16 +56,17 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                     serHoverOut();
                   }}
                   className="imageIconDivSection"
-                  style={{marginTop:"15px",height:"60px"}}
+                  style={{marginTop:"15px",height:"60px",width:"100%"}}
                 >
                   <div>
                     <img
-                      className="iconDivSection"
+                      className="productLogoImages"
                       src={item.navIcons}
                       alt=""
+                      style={{width:"80px",height:"50px"}}
                     />
                   </div>
-                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+                  <Link onClick={serHoverOut} to={item.path} className="linkP" style={{width:"90%",marginLeft:"15%"}}>
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -73,7 +74,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
             </div>
           </div>
 
-          <div className="productDropdownContent"   style={{marginLeft:"3%"}}>
+          <div className="productDropdownContent"   style={{marginLeft:"3%",width:"27%"}}>
           {/* <h5
               className="noStyleMain"
               onClick={() => {
@@ -83,7 +84,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
             >
               Platforms
             </h5> */}
-            <div className="listItems" style={{marginTop:"12%"}}>
+            <div className="listItems" style={{marginTop:"12%",width:"100%"}}>
               {product2.map((item, l) => (
 
                 <div
@@ -93,21 +94,23 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                   }}
                   key={l}
                   className="imageIconDivSection"
-                  style={{marginTop:"15px",height:"60px"}}
+                  style={{marginTop:"15px",height:"60px",width:"100%"}}
                 >
                   <div>
-                    <img
-                      className="iconDivSection"
+                  <img
+                      className="productLogoImages"
                       src={item.navIcons}
                       alt=""
+                      style={{width:"80px",height:"50px"}}
                     />
                   </div>
-                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+                  <Link onClick={serHoverOut} to={item.path} className="linkP" style={{width:"90%",marginLeft:"15%"}}>
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
               ))}
             </div>
+            <Link to="newProductPage" style={{textDecoration:"none"}}>
             <h5
               className="viewAllButton"
               onClick={() => {
@@ -117,18 +120,52 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
             >
               View All Products
             </h5>
+            </Link>
           </div>
 
-          <div className="productDropdownContent">
-            <h5
+
+          <div className="productDropdownContent" style={{marginLeft:"10%",marginTop:"0%",borderRight:"1px solid #ef4c23"}}>
+            <div className="listItems" style={{marginTop:"25%"}}>
+              {product4.map((item, i) => (
+                <div
+                key={i}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="imageIconDivSection"
+                >
+                  
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+
+
+          </div>
+
+
+          <div className="productDropdownContent" style={{marginLeft:"1%",borderRight:"1px solid #ef4c23"}}>
+          <h5
               className="noStyleMain"
               onClick={() => {
                 navigate(`web-development`);
                 serHoverOut();
               }}
             >
-              Platforms
-            </h5> 
+              PlatForms
+            </h5>
+            
             <div className="listItems" style={{marginTop:"10%"}}>
             {/* <h5> <img src=""/> Features</h5> */}
               {product3.map((item, i) => (
@@ -160,7 +197,21 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
 
           </div>
 
-          <div className="productDropdownContent" style={{marginLeft:"0%"}}>
+
+          <div className="productDropdownContent" style={{marginLeft:"5%"}}>
+          <h5
+              className="noStyleMain"
+              onClick={() => {
+                navigate(`web-development`);
+                serHoverOut();
+              }}
+            >
+              Features
+            </h5> 
+            
+            <h5 style={{marginTop:"20%"}}>What's New?</h5>
+                    <p>Know More</p>
+                    <p>Blog</p>
             <div className="listItems" style={{marginTop:"10%"}}>
               {product4.map((item, i) => (
                 <div
@@ -172,16 +223,16 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                   className="imageIconDivSection"
                 >
                   
-                  <div>
+                  {/* <div>
                     <img
                       className="iconDivSection"
                       src={item.navIcons}
                       alt=""
                     />
-                  </div>
+                  </div> */}
                   <Link onClick={serHoverOut} to={item.path} className="linkP">
 
-                    <p>{item.dropContent}</p>
+                    {/* <p>{item.dropContent}</p> */}
                   </Link>
                 </div>
               ))}
@@ -189,35 +240,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
 
 
           </div>
-          <div className="productDropdownContent" style={{marginLeft:"1%"}}>
-            <div className="listItems" style={{marginTop:"10%"}}>
-              {product4.map((item, i) => (
-                <div
-                key={i}
-                  onClick={() => {
-                    navigate(`/${item.path}`);
-                    serHoverOut();
-                  }}
-                  className="imageIconDivSection"
-                >
-                  
-                  <div>
-                    <img
-                      className="iconDivSection"
-                      src={item.navIcons}
-                      alt=""
-                    />
-                  </div>
-                  <Link onClick={serHoverOut} to={item.path} className="linkP">
 
-                    <p>{item.dropContent}</p>
-                  </Link>
-                </div>
-              ))}
-            </div>
-
-
-          </div>
 
         </div>
       )}
