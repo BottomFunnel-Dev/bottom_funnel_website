@@ -1,0 +1,38 @@
+.contactmanagementpersonalizemainbox{
+    height: fit-content;
+ 
+}
+
+.getpersonalizecontactmanagementsometextbox{
+    height: fit-content;
+
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+.getpersonalizecontactmanagementboxforimage{
+    height: 500px;
+    width: 80%;
+
+    margin-left: 10%;
+    margin-top: 3%;
+    background: url("/public/Images/contactmanagement/Ellipse 52.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: 100% 100%;
+}
+
+.getpersonalizeimageboxcontactmanagementforouterimage{
+    height: 80%;
+    width: 80%;
+ 
+  margin: 5% 10% 10% 10%;
+}
+
+.getpersonalizeimageboxcontactmanagementforouterimage >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

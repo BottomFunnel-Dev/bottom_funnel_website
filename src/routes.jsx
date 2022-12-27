@@ -169,6 +169,12 @@ import { TaxiBookingApp } from "./components/TaxiBookingApp/TaxiBookingApp.jsx";
 import { Hireatalent } from "./components/Hireatelent/Hireatalent";
 import { ApplyTalent } from "./components/Apply-Talent/ApplyTalent";
 import { RealEstate } from "./components/RealEstate/RealEstate";
+import { SalesHome } from "./components/SalesHome/SalesHome";
+import { ContactManagement } from "./components/ContactManagement/ContactManagement";
+import { Manufacturing } from "./components/Manufacturing/Manufacturing";
+
+import { HelpDesk } from "./components/HelpDesk/HelpDesk";
+import { RetailEcommerce } from "./components/RetailAndEcommerce/RetailEcommerce";
 
 
 
@@ -419,7 +425,11 @@ export const ALLroutes = () => {
       <Route path="/Apply-new-talent" element={<ApplyTalent/>} />
 
       <Route path="/real-state-solution" element={<RealEstate />} />
-
+      <Route path="/saleshome" element= {<SalesHome />} />
+      <Route path="/contactmanagement" element={<ContactManagement />} />
+      <Route path="/manufacturing" element={<Manufacturing />} />
+      <Route path="/helpdesk" element={<HelpDesk />} />
+      <Route path="/retal&ecommerce" element={<RetailEcommerce />} />
     </Routes>
   );
 };

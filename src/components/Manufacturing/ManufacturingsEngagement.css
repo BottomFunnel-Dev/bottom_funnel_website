@@ -1,0 +1,48 @@
+.manufacturingsengagementmainbox{
+    height: fit-content;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.manufacturingsengagementflexbox{
+    display: flex;
+
+}
+
+.manufacturingsengagementflexboxleft{
+    height: fit-content;
+
+    width: 50%;
+    margin-left: 3%;
+    text-align: justify;
+}
+
+.manufacturingsengagementflexboxright{
+    height: 500px;
+
+    width: 50%;
+}
+
+.manufacturingsengagementflexboxright >img {
+    height: 100%;
+    width: 100%;
+    object-fit: 100% 100%;
+}
+
+.manufactureingdatamapperseng{
+    margin-left: 3%;
+}
+
+.manufacturingmappersdataindi{
+    margin-top: 1%;
+    display: flex;
+}
+
+.manufacturingmappersdataindifortxt{
+    margin-left: 2%;
+    text-align: justify;
+}
+
+.manufacturingmappersdataindi >svg{
+    color: #ef4c23;
+}
