@@ -28,7 +28,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
     <div
       onMouseEnter={serHoverIn}
       onMouseLeave={serHoverOut}
-      className="solutionVisible"
+      className="productVisible"
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
       
     >
@@ -36,17 +36,17 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
       {sidetoggle === "Technologies" && (
         <div className="productDropdownSection">
           <div className="productDropdownContent">
-            {/* <h5
+            <h5
               className="noStyleMain"
               onClick={() => {
                 navigate(`web-development`);
                 serHoverOut();
               }}
             >
-              Web Development
-            </h5> */}
+              SAAS Product
+            </h5>
 
-            <div className="">
+            <div className="listItems">
               {product1.map((item, i) => (
                 <div
                 key={i}
@@ -72,33 +72,15 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
           </div>
 
           <div className="productDropdownContent">
-            <div className="" >
-              {product2.map((item, i) => (
-                <div
-                key={i}
-                  onClick={() => {
-                    navigate(`/${item.path}`);
-                    serHoverOut();
-                  }}
-                  className="imageIconDivSection"
-                >
-                  <div>
-                    <img
-                      className="iconDivSection"
-                      src={item.navIcons}
-                      alt=""
-                    />
-                  </div>
-                  <Link onClick={serHoverOut} to={item.path} className="linkP">
-                    <p>{item.dropContent}</p>
-                  </Link>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="productDropdownContent">
-
+          <h5
+              className="noStyleMain"
+              onClick={() => {
+                navigate(`web-development`);
+                serHoverOut();
+              }}
+            >
+              Platforms
+            </h5>
             <div className="listItems">
               {product3.map((item, l) => (
 
@@ -124,6 +106,53 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               ))}
             </div>
           </div>
+
+          <div className="productDropdownContent">
+          {/* <h5
+              className="noStyleMain"
+              onClick={() => {
+                navigate(`web-development`);
+                serHoverOut();
+              }}
+            >
+              View All Products
+            </h5> */}
+            <div className="listItems" style={{marginTop:"10%"}}>
+              {product2.map((item, i) => (
+                <div
+                key={i}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="imageIconDivSection"
+                >
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+
+            <h5
+              className="viewAllButton"
+              onClick={() => {
+                navigate(`web-development`);
+                serHoverOut();
+              }}
+            >
+              View All Products
+            </h5>
+          </div>
+
+
 
         </div>
       )}

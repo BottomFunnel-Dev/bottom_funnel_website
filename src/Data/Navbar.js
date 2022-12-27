@@ -957,9 +957,6 @@ export const product1 = [
     navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
     path: "Marketer",
   },
-];
-
-export const product2 = [
   {
     dropContent: "Bottom Funnel Team",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
@@ -970,14 +967,28 @@ export const product2 = [
     navIcons: "Images/navbar/product/bottomfunnelservice.png",
     path: "Service",
   },
-  {
-    dropContent: "Marketplace",
-    navIcons: "Images/navbar/product/bottomfunnelsales.png",
-    path: "mobile-user-experience",
-  },
+];
+
+export const product2 = [
+
   {
     dropContent: "Developer Portal",
     navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
+    path: "mobile-user-experience",
+  },
+  {
+    dropContent: "Technology Alliance",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path: "mobile-user-experience",
+  },
+  {
+    dropContent: "Customer Spotlight",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path: "mobile-user-experience",
+  },
+  {
+    dropContent: "Olly AI",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
     path: "mobile-user-experience",
   },
   {
@@ -1021,12 +1032,12 @@ export const product3 = [
   },
   {
     dropContent: "Unified Customer Record",
-    navIcons: "Images/navbar/product/bottomfunnelsales.png",
+    navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
     path: "reactnative",
   },
   {
     dropContent: "Messaging Channels",
-    navIcons: "Images/navbar/product/bottomfunnelsales.png",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
     path: "Xamarin-Development",
   },
   {
@@ -1034,5 +1045,12 @@ export const product3 = [
     navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
     path: "ionic",
   },
+  {
+    dropContent: "Marketplace",
+    navIcons: "Images/navbar/product/bottomfunnelsales.png",
+    path: "mobile-user-experience",
+  },
+ 
+
 
 ];

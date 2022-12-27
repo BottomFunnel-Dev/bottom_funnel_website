@@ -7,10 +7,7 @@ export const AlcoholBanner = () => {
       <div className="alcohol-banner-content">
         <h1>Alcohol Delivery</h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
-          dolores maiores saepe cumque. Quos sequi ullam nostrum impedit vel
-          commodi sunt eos, ab laborum culpa praesentium minus obcaecati saepe
-          necessitatibus!
+        There's no need to run out and purchase alcohol anymore! With alcohol delivery services, you can have all the wine, beer, and liquor your heart desires delivered right to your door.
         </p>
         <button>GET STARTED</button>
       </div>

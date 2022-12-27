@@ -166,10 +166,8 @@ import { TradingInvesting } from "./components/Trading-Investing-App-Page/Tradin
 import { KidsWear } from "./components/KidsWear/KidsWear";
 import { FunnelDesk } from "./components/FunnelDesk/FunnelDesk";
 import { TaxiBookingApp } from "./components/TaxiBookingApp/TaxiBookingApp.jsx";
-
 import { EnterpriseDesk } from "./components/EnterpriseDesk/EnterpriseDesk";
 import { CarRental } from "./components/Car-Rental-page/CarRental";
-
 import { ProductsNewPage } from "./components/ProductsNewPage/ProductsNewPage";
 import { RealEstate } from "./components/RealEstate/RealEstate";
 import { Hireatalent } from "./components/Hireatelent/Hireatalent";
@@ -180,6 +178,7 @@ import { SelfService } from "./components/SelfService/SelfService";
 import { FieldServiceManagement } from "./components/FieldServiceManagement/FieldServiceManagement";
 import {ContactManagement} from "./components/ContactManagement/ContactManagement";
 import { Manufacturing } from "./components/Manufacturing/Manufacturing";
+import {SalesPage} from "./components/SalesPage/SalesPage";
 
 
 export const ALLroutes = () => {
@@ -437,7 +436,7 @@ export const ALLroutes = () => {
       <Route path="/productHomepage" element={<ProductsNewPage/>}/>
       <Route path="/ContactManagement" element={<ContactManagement/>}/>
       <Route path="/manufacturing" element={<Manufacturing/>}/>
-
+      <Route path="/Sales" element={<SalesPage/>}/>
     </Routes>
   );
 };
