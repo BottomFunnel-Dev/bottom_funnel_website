@@ -12,6 +12,7 @@
     width: 20%;
     /* border: 2px solid red; */
     margin-left: 10%;
+    padding-top: 2%;
   }
   .productDropdownSection {
     width: 90%;
@@ -33,7 +34,7 @@
     background-color: white;
     /* border-top: 1px solid black; */
   
-    top: 78px;
+    /* top: 78px; */
   }
   .viewAllButton{
     /* border: 2px solid red; */

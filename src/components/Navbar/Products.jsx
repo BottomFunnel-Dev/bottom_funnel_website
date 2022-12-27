@@ -26,8 +26,8 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
 
   return (
     <div
-      onMouseEnter={serHoverIn}
-      onMouseLeave={serHoverOut}
+      onMouseEnter={() => serHoverIn()}
+      onMouseLeave={() => serHoverOut()}
       className="productVisible"
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
       

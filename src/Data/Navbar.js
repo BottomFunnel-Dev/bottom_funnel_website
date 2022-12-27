@@ -991,21 +991,6 @@ export const product2 = [
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
     path: "mobile-user-experience",
   },
-  {
-    dropContent: "Technology Alliance",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "mobile-user-experience",
-  },
-  {
-    dropContent: "Customer Spotlight",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "mobile-user-experience",
-  },
-  {
-    dropContent: "Olly AI",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "mobile-user-experience",
-  },
 
 ];
 

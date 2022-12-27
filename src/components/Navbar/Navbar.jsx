@@ -290,8 +290,8 @@ export const NavbarMain = () => {
             {/* product drop down section code start */}
             {product ? (
         <Products
-          serHoverIn={serHoverIn}
-          serHoverOut={serHoverOut}
+          serHoverIn={productHoverIn}
+          serHoverOut={productHoverOut}
           scroll={scroll}
           productMount={productMount}
         />

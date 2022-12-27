@@ -179,6 +179,7 @@ import { FieldServiceManagement } from "./components/FieldServiceManagement/Fiel
 import {ContactManagement} from "./components/ContactManagement/ContactManagement";
 import { Manufacturing } from "./components/Manufacturing/Manufacturing";
 import {SalesPage} from "./components/SalesPage/SalesPage";
+import { HelpDesk } from "./components/HelpDesk/HelpDesk";
 
 
 export const ALLroutes = () => {
@@ -446,6 +447,7 @@ export const ALLroutes = () => {
       
       <Route path="/newProductPage" element={ <ProductsNewPage/> } />
       <Route path="/sales" element={<SalesPage/>}/>
+      <Route path="/helpDesk" element={<HelpDesk/>}/>
     </Routes>
   );
 };
