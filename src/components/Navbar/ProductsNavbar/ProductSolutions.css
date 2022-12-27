@@ -1,4 +1,4 @@
-.industryDropdown {
+.productSolutionDropdown {
     width: 75%;
     margin: auto;
     display: flex;
@@ -6,12 +6,12 @@
     padding: 0 30px;
   }
   
-  .industryContent {
+  .productSolutionContent {
     width: 50%;
     height: 100%;
   }
   
-  .industryContent > h4 {
+  .productSolutionContent > h4 {
     color: #ef4c23;
   }
   
@@ -41,4 +41,51 @@
   
     top: 78px;
   }
+  .linkP {
+    text-decoration: none;
+    /* color: black; */
+    width: 80%;
+    /* font-size: 14px; */
+  }
   
+  .linkP h5 {
+    /* margin-top: 15%; */
+    text-decoration: none;
+    color: black;
+    /* font-size: 14px; */
+    /* border: 2px solid red; */
+  }
+  
+  .linkP h5:hover {
+    color: #ef4c23;
+  }  
+
+  .productSolutionListItems {
+    width: 38%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    margin: auto;
+    /* text-align: center; */
+  }
+  
+  .productSolutionListItems > p {
+    margin: 0;
+    width: 49%;
+    padding: 5px 5px;
+    list-style: none !important;
+    text-decoration: none !important;
+  }
+  
+  .productSolutionListItems > p:hover {
+    margin: 0;
+    color: #ef4c23;
+    cursor: pointer;
+  }
+  .productSolutionData{
+    /* border: 2px solid green; */
+    height: 90px;
+  }

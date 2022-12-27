@@ -7,6 +7,8 @@ import { useSelector } from "react-redux";
 import { NavServices } from "../NavServices";
 import { NavIndustries } from "../NavIndustries";
 import { ImageCard } from "../../particularComponents/ImageCardText/ImageCard";
+import { ProductSolutions } from "./ProductSolutions";
+import { ProductResources } from "./ProductResources";
 
 export const ProductsNavbar = ({ scroll }) => {
 
@@ -79,7 +81,10 @@ export const ProductsNavbar = ({ scroll }) => {
       </div>
 
       <div className="deskList">
-        <li>
+        <li
+          onMouseEnter={solHoverIn}
+          onMouseLeave={solHoverOut}
+          style={{ color: productnavbar ? "black" : navproductredux.color }}>
           Desk Products
           <img
             className="deskdownIcon"
@@ -88,7 +93,10 @@ export const ProductsNavbar = ({ scroll }) => {
           />
         </li>
 
-        <li>
+        <li
+          onMouseEnter={solHoverIn}
+          onMouseLeave={solHoverOut}
+          style={{ color: productnavbar ? "black" : navproductredux.color }}>
           Features{" "}
           <img
             className="deskdownIcon"
@@ -126,7 +134,10 @@ export const ProductsNavbar = ({ scroll }) => {
           />
         </li>
 
-        <li>
+        <li
+          onMouseEnter={solHoverIn}
+          onMouseLeave={solHoverOut}
+          style={{ color: productnavbar ? "black" : navproductredux.color }}>
           Resources{" "}
           <img
             className="deskdownIcon"
@@ -140,18 +151,11 @@ export const ProductsNavbar = ({ scroll }) => {
 
 
       {/* service drop down section code start */}
-      {productservice ? (
-        <NavServices
-          serHoverIn={serHoverIn}
-          serHoverOut={serHoverOut}
-          scroll={scroll}
-          productMount={productMount}
-        />
-      ) : null}
+
 
       {/* ProductSolutions drop down section code start */}
       {ProductSolution ? (
-        <NavIndustries
+        <ProductSolutions
           solHoverIn={solHoverIn}
           solHoverOut={solHoverOut}
           scroll={scroll}
@@ -159,6 +163,9 @@ export const ProductsNavbar = ({ scroll }) => {
         />
 
       ) : null}
+
+
+
     </div>
   );
 };

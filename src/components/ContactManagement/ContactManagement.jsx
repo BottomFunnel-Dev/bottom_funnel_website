@@ -21,7 +21,7 @@ export const ContactManagement = () => {
 
     const dispatch = useDispatch();
     useEffect(function () {
-      dispatch(ChnageNavbarColor({ color: "white", logo: true }));
+      dispatch(ChnageNavbarColor({ color: "black", logo: false }));
     }, []);
 
 

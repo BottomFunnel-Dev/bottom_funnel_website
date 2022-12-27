@@ -23,7 +23,7 @@ export const Manufacturing = () => {
 
     const dispatch = useDispatch();
     useEffect(function () {
-      dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+      dispatch(ChnageNavbarColor({ color: "white", logo: true }));
     }, []);
   return (
     <div>

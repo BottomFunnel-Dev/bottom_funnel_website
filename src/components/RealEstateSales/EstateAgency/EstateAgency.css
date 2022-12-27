@@ -1,0 +1,45 @@
+.EstateAgency-maindiv{
+/* border: 2px solid yellow; */
+margin-top: 5%;
+
+
+
+}
+.EstateAgency-maindiv h1{
+text-align: center;
+justify-content: center;
+}
+.EstateAgency-innerdiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 4%;
+
+}
+.EstateAgency-carddiv{
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 500px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* align-items: center; */
+}
+.EstateAgency-carddiv:hover{
+    background-color: #f8e2dd;
+}
+.EstateAgency-carddivimage{
+    width: 80%;
+    margin-left: 12%;
+   
+
+}
+.EstateAgency-carddivimage img{
+    width: 100%;
+}

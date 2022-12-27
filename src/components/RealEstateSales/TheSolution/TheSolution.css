@@ -1,0 +1,40 @@
+.TheSolution-div{
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-top: 4%;
+
+}
+.TheSolution-maindiv{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
+   
+
+}
+.TheSolution-imagediv{
+    width: 20%;
+    height: 200px;
+    margin: auto;
+
+}
+.TheSolution-containdiv{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    /* padding-top:3% ; */
+    /* padding-bottom: 2%; */
+    
+}
+.TheSolution-imagediv img{
+    width: 95%;
+    height: 100%;
+}
+.TheSolution-maindiv p{
+    font-size: 20px;
+}
+.TheSolution-containdiv h3{
+    color: #ef4c23 ;
+}

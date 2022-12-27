@@ -180,6 +180,8 @@ import {ContactManagement} from "./components/ContactManagement/ContactManagemen
 import { Manufacturing } from "./components/Manufacturing/Manufacturing";
 import {SalesPage} from "./components/SalesPage/SalesPage";
 import { HelpDesk } from "./components/HelpDesk/HelpDesk";
+import { RetailEcommerce } from "./components/RetailAndEcommerce/RetailEcommerce";
+import { RealEstateSales } from "./components/RealEstateSales/RealEstateSales";
 
 
 export const ALLroutes = () => {
@@ -448,6 +450,8 @@ export const ALLroutes = () => {
       <Route path="/newProductPage" element={ <ProductsNewPage/> } />
       <Route path="/sales" element={<SalesPage/>}/>
       <Route path="/helpDesk" element={<HelpDesk/>}/>
+      <Route path="/RetailEcommerce" element={<RetailEcommerce/>}/>
+      <Route path="/RealEstateSales" element={<RealEstateSales/>}/>
     </Routes>
   );
 };

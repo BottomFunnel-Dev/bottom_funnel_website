@@ -1,75 +1,42 @@
 import React from 'react'
-import './navbar.css'
+import './ProductSolutions.css'
 import { Link } from 'react-router-dom'
-import { industries, ondemand } from '../../Data/Navbar'
-export const NavIndustries = ({ solHoverIn, solHoverOut, scroll, productMount }) => {
+import { productSolution } from '../../../Data/Navbar'
+export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll, productMount }) => {
   return (
     <div
       onMouseEnter={solHoverIn}
       onMouseLeave={solHoverOut}
       className="serviceVisible"
-      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
+      style={{ top: scroll || productMount.navMount ? "68px" : "98px" ,top:"15%"}}
     >
       <div className="industryDropdown">
         <div className="industryContent">
-          <Link className="noStyle">
-            <h5>Industries We Serves</h5>
-          </Link>
-          <div className="industryListItems">
-            {industries.map((item, i) => (
+          <div className="productSolutionListItems">
+            {productSolution.map((item, i) => (
               <div
                 key={i}
                 onClick={() => {
                   navigate(`/${item.path}`);
                   solHoverOut();
                 }}
-                className="imageIconDivSection"
+                className="productSolutionData"
               >
-                <div>
+                {/* <div>
                   <img
                     className="iconDivSection"
                     src={item.navIcons}
                     alt=""
                   />
-                </div>
+                </div> */}
                 <Link
                   onClick={solHoverOut}
                   to={item.path}
                   className="linkP"
                 >
-                  <p>{item.dropContent}</p>
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div className="industryContent">
-          <Link className="noStyle">
-            <h5>On Demand Solutions</h5>
-          </Link>
-          <div className="industryListItems">
-            {ondemand.map((item, i) => (
-              <div
-                key={i}
-                onClick={() => {
-                  navigate(`/${item.path}`);
-                  solHoverOut();
-                }}
-                className="imageIconDivSection"
-              >
-                <div>
-                  <img
-                    className="iconDivSection"
-                    src={item.navIcons}
-                    alt=""
-                  />
-                </div>
-                <Link
-                  onClick={solHoverOut}
-                  to={item.path}
-                  className="linkP"
-                >
-                  <p>{item.dropContent}</p>
+                  <h5>{item.dropContent}</h5>
+                  <p>{item.productText1}</p>
+                  <p>{item.productText2}</p>
                 </Link>
               </div>
             ))}

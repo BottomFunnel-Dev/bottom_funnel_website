@@ -15,6 +15,7 @@ import {
   product1,
   product2,
   product3,
+  product4,
 } from "../../Data/Navbar";
 export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
   const [sidetoggle, setSidetoggle] = useState("Technologies");
@@ -35,7 +36,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
 
       {sidetoggle === "Technologies" && (
         <div className="productDropdownSection">
-          <div className="productDropdownContent">
+          <div className="productDropdownContent"   style={{marginLeft:"1%"}}>
             <h5
               className="noStyleMain"
               onClick={() => {
@@ -43,7 +44,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                 serHoverOut();
               }}
             >
-              SAAS Product
+              SAAS
             </h5>
 
             <div className="listItems">
@@ -55,6 +56,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                     serHoverOut();
                   }}
                   className="imageIconDivSection"
+                  style={{marginTop:"15px",height:"60px"}}
                 >
                   <div>
                     <img
@@ -71,8 +73,8 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
             </div>
           </div>
 
-          <div className="productDropdownContent">
-          <h5
+          <div className="productDropdownContent"   style={{marginLeft:"3%"}}>
+          {/* <h5
               className="noStyleMain"
               onClick={() => {
                 navigate(`web-development`);
@@ -80,9 +82,9 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               }}
             >
               Platforms
-            </h5>
-            <div className="listItems">
-              {product3.map((item, l) => (
+            </h5> */}
+            <div className="listItems" style={{marginTop:"12%"}}>
+              {product2.map((item, l) => (
 
                 <div
                   onClick={() => {
@@ -91,6 +93,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                   }}
                   key={l}
                   className="imageIconDivSection"
+                  style={{marginTop:"15px",height:"60px"}}
                 >
                   <div>
                     <img
@@ -105,42 +108,6 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                 </div>
               ))}
             </div>
-          </div>
-
-          <div className="productDropdownContent">
-          {/* <h5
-              className="noStyleMain"
-              onClick={() => {
-                navigate(`web-development`);
-                serHoverOut();
-              }}
-            >
-              View All Products
-            </h5> */}
-            <div className="listItems" style={{marginTop:"10%"}}>
-              {product2.map((item, i) => (
-                <div
-                key={i}
-                  onClick={() => {
-                    navigate(`/${item.path}`);
-                    serHoverOut();
-                  }}
-                  className="imageIconDivSection"
-                >
-                  <div>
-                    <img
-                      className="iconDivSection"
-                      src={item.navIcons}
-                      alt=""
-                    />
-                  </div>
-                  <Link onClick={serHoverOut} to={item.path} className="linkP">
-                    <p>{item.dropContent}</p>
-                  </Link>
-                </div>
-              ))}
-            </div>
-
             <h5
               className="viewAllButton"
               onClick={() => {
@@ -152,7 +119,105 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
             </h5>
           </div>
 
+          <div className="productDropdownContent">
+            <h5
+              className="noStyleMain"
+              onClick={() => {
+                navigate(`web-development`);
+                serHoverOut();
+              }}
+            >
+              Platforms
+            </h5> 
+            <div className="listItems" style={{marginTop:"10%"}}>
+            {/* <h5> <img src=""/> Features</h5> */}
+              {product3.map((item, i) => (
+                <div
+                key={i}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="imageIconDivSection"
+                >
+                  
+                  {/* <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div> */}
 
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+
+
+          </div>
+
+          <div className="productDropdownContent" style={{marginLeft:"0%"}}>
+            <div className="listItems" style={{marginTop:"10%"}}>
+              {product4.map((item, i) => (
+                <div
+                key={i}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="imageIconDivSection"
+                >
+                  
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+
+
+          </div>
+          <div className="productDropdownContent" style={{marginLeft:"1%"}}>
+            <div className="listItems" style={{marginTop:"10%"}}>
+              {product4.map((item, i) => (
+                <div
+                key={i}
+                  onClick={() => {
+                    navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  className="imageIconDivSection"
+                >
+                  
+                  <div>
+                    <img
+                      className="iconDivSection"
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+                  <Link onClick={serHoverOut} to={item.path} className="linkP">
+
+                    <p>{item.dropContent}</p>
+                  </Link>
+                </div>
+              ))}
+            </div>
+
+
+          </div>
 
         </div>
       )}

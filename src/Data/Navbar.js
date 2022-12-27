@@ -921,77 +921,60 @@ export const scaleRightContent = [
 ];
 
 export const product1 = [
-  {
-    dropContent: "Bottom Funnel Omnichannel",
-    navIcons: "Images/navbar/product/bottomfunnel omnichannel.png",
-    path: "Omnichannel",
-  },
+
   {
     dropContent: "Bottom Funnel Support Desk",
-    navIcons: "Images/navbar/product/bottomfunnelsupportdesk (1).png",
+    navIcons: "Images/navbar/product/Logo/Desk/Group3256.png",
     path: "SupportDesk",
   },
   {
     dropContent: "Bottom Funnel Chat",
-    navIcons: "Images/navbar/product/bottomfunnelchat.png",
+    navIcons: "Images/navbar/product/Logo/Chat/Group3259.png",
     path: "Chat",
   },
   {
-    dropContent: "Bottom Funnel Contact center",
-    navIcons: "Images/navbar/product/bottomfunnelcontactcenter.png",
-    path: "Contactcentre",
+    dropContent: "Bottom Funnel Marketer",
+    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
+    path: "Marketer",
   },
 
   {
     dropContent: "Bottom Funnel sales",
-    navIcons: "Images/navbar/product/bottomfunnelsales.png",
+    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
     path: "sales",
   },
   {
-    dropContent: "Bottom Funnel Sales Suite",
-    navIcons: "Images/navbar/product/bottomfunnelsuite.png",
-    path: "Sales Suite",
-  },
-  {
-    dropContent: "Bottom Funnel Marketer",
-    navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
-    path: "Marketer",
-  },
-  {
-    dropContent: "Bottom Funnel Team",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "Team",
-  },
-  {
     dropContent: "Bottom Funnel Service",
-    navIcons: "Images/navbar/product/bottomfunnelservice.png",
+    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
     path: "Service",
   },
+
+
+
 ];
 
 export const product2 = [
-
   {
-    dropContent: "Developer Portal",
-    navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
-    path: "mobile-user-experience",
+    dropContent: "Bottom Funnel Sales Suite",
+    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
+    path: "Sales Suite",
   },
   {
-    dropContent: "Technology Alliance",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "mobile-user-experience",
+    dropContent: "Bottom Funnel Omnichannel",
+    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
+    path: "Omnichannel",
   },
   {
-    dropContent: "Customer Spotlight",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "mobile-user-experience",
+    dropContent: "Bottom Funnel Contact center",
+    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
+    path: "Contactcentre",
   },
   {
-    dropContent: "Olly AI",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "mobile-user-experience",
+    dropContent: "Bottom Funnel Team",
+    navIcons: "Images/navbar/product/Logo/Marketer/Group3262.png",
+    path: "Team",
   },
-
+ 
 ];
 
 export const product3 = [
@@ -1030,12 +1013,68 @@ export const product3 = [
     navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
     path: "ionic",
   },
-  {
-    dropContent: "Marketplace",
-    navIcons: "Images/navbar/product/bottomfunnelsales.png",
-    path: "mobile-user-experience",
-  },
+  // {
+  //   dropContent: "Marketplace",
+  //   navIcons: "Images/navbar/product/bottomfunnelsales.png",
+  //   path: "mobile-user-experience",
+  // },
  
 
 
+];
+
+export const product4 = [
+  {
+    dropContent: "MarketPlace",
+    navIcons: "Images/navbar/product/MarketPlace.png",
+    path: "Sales Suite",
+  },
+  {
+    dropContent: "Developer Portal",
+    navIcons: "Images/navbar/product/dveloper.png",
+    path: "Omnichannel",
+  },
+  {
+    dropContent:"Technology Alliance",
+    navIcons: "Images/navbar/product/Technology.png",
+    path: "Contactcentre",
+  },
+  {
+    dropContent: "Customer Spotlight",
+    navIcons: "Images/navbar/product/customer.png",
+    path: "Team",
+  },
+  {
+    dropContent: "Olly AI",
+    navIcons: "Images/navbar/product/customer.png",
+    path: "Team",
+  },
+ 
+];
+
+export const productSolution = [
+
+
+  {
+    dropContent: "By Use Size",
+    productText1:"Enterprise",
+    productText2:"SMB",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path: "android",
+  },
+  {
+    dropContent: "By Use Case",
+    productText1:"Self Service",
+    productText2:"Field Service",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path: "android",
+  },
+  {
+    dropContent: "By Industry",
+    productText1:"Retail & E-commerce",
+    productText2:"Travel & Hospitality",
+    
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path: "android",
+  },
 ];
