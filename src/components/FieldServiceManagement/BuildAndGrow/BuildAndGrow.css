@@ -4,6 +4,8 @@
   /* height: 100vh; */
   flex-direction: row;
   align-items: center;
+  width: 90%;
+  margin: auto;
   justify-content: space-between;
   padding-left: 5%;
   /* justify-content: center; */
@@ -26,7 +28,7 @@
   background-color: white;
 }
 
-.plantBasedMeatBannerContentDiv {
+.buildAndGrowBannerContentDiv {
   /* border: 1px solid green; */
   width: 55%;
   margin-top: 3%;

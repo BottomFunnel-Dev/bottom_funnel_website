@@ -4,7 +4,7 @@ import "./BuildAndGrow.css";
 export const BuildAndGrow = () => {
     return (
         <div className='buildAndGrowParentDiv'>
-            <div className='plantBasedMeatBannerContentDiv'>
+            <div className='buildAndGrowBannerContentDiv'>
                 <h1>
                     Build and grow a profitable field service organization
                     <span> Management </span>
@@ -18,10 +18,10 @@ export const BuildAndGrow = () => {
                     A seamless end-to-end solution with all the capabilities you need to help your customers.
                 </p>
 
-                <button> Get Started For Free </button>
+                {/* <button> Get Started For Free </button> */}
             </div>
             <div className='buildAndGrowImageDiv'>
-                <img src='/Images/PlantBasedMeat/banners & backgrounds/PlantBasedBannerImage.png' alt='image' />
+                <img src='/Images/FieldService/Icons/BuildAndGrowImage.png' alt='image' />
             </div>
 
         </div>

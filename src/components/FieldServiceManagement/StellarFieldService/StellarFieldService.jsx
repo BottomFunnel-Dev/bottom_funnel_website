@@ -8,7 +8,7 @@ export const StellarFieldService = () => {
             title: "Chat Support",
             body: `Included on all plans, our support team is available anytime to solve your issues and help your team
              get back on track supporting customers.`,
-            image: "/Images/FieldService/Icons/StellarService1.png",
+            image: "/Images/FieldService/Icons/ChatSupportImage.png",
             buttondetails: "See more",
         },
         {
