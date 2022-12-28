@@ -625,6 +625,26 @@ export const backend = [
     navIcons: "Images/navbar/skills/grails.png",
     path: "grails",
   },
+  {
+    dropContent: "Yii",
+    navIcons: "Images/navbar/skills/yii.png",
+    path: "",
+  },
+  {
+    dropContent: "Zend",
+    navIcons: "Images/navbar/skills/Zend.png",
+    path: "",
+  },
+  {
+    dropContent: "Git",
+    navIcons: "Images/navbar/skills/Git.png",
+    path: "",
+  },
+  {
+    dropContent: "Cherrpy",
+    navIcons: "Images/navbar/skills/cherrpy.png",
+    path: "",
+  },
 ];
 
 export const frontend = [
@@ -921,46 +941,42 @@ export const scaleRightContent = [
 ];
 
 export const product1 = [
-
   {
     dropContent: "Bottom Funnel Support Desk",
     navIcons: "Images/navbar/product/desk.png",
     path: "funnel-desk",
-    title:"Delight Your Customer With Effortless Omnichannel Service",
-    productHover:"#d6ffe8",
+    title: "Delight Your Customer With Effortless Omnichannel Service",
+    productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel Chat",
     navIcons: "Images/navbar/product/Chat.png",
     path: "Chat",
-    title:"Delight Your Customer With Effortless Omnichannel Service",
-    productHover:"#a1ffca",
+    title: "Delight Your Customer With Effortless Omnichannel Service",
+    productHover: "#a1ffca",
   },
   {
     dropContent: "Bottom Funnel Marketer",
     navIcons: "Images/navbar/product/Market.png",
     path: "Marketer",
-    title:"Delight Your Customer With Effortless Omnichannel Service",
-    productHover:"#ffcf9c",
+    title: "Delight Your Customer With Effortless Omnichannel Service",
+    productHover: "#ffcf9c",
   },
 
   {
     dropContent: "Bottom Funnel sales",
     navIcons: "Images/navbar/product/bottomFunnnelSales.png",
     path: "sales",
-    title:"Delight Your Customer With Effortless Omnichannel Service",
-    productHover:"#ffaf9a",
+    title: "Delight Your Customer With Effortless Omnichannel Service",
+    productHover: "#ffaf9a",
   },
   {
     dropContent: "Bottom Funnel Service",
     navIcons: "Images/navbar/product/Service.png",
     path: "Service",
-    title:"Delight Your Customer With Effortless Omnichannel Service",
-    productHover:"#e1e1e1",
+    title: "Delight Your Customer With Effortless Omnichannel Service",
+    productHover: "#e1e1e1",
   },
-
-
-
 ];
 
 export const product2 = [
@@ -968,33 +984,31 @@ export const product2 = [
     dropContent: "Bottom Funnel Omnichannel",
     navIcons: "Images/navbar/product/omnichannel.png",
     path: "Omnichannel",
-    title:"Delight Your Customer With Effortless Omnichannel Service",
-    productHover:"#d6ffe8",
+    title: "Delight Your Customer With Effortless Omnichannel Service",
+    productHover: "#d6ffe8",
   },
 
   {
     dropContent: "Bottom Funnel Customer Success",
     navIcons: "Images/navbar/product/success.png",
     path: "Team",
-    title:"Delight Your Customer With Effortless Omnichannel Service",
-    productHover:"#d6ffe8",
+    title: "Delight Your Customer With Effortless Omnichannel Service",
+    productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel Contact Management",
     navIcons: "Images/navbar/product/contact.png",
     path: "ContactManagement",
-    title:"Delight Your Customer With Effortless Omnichannel Service",
-    productHover:"#d6ffe8",
+    title: "Delight Your Customer With Effortless Omnichannel Service",
+    productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel CRM Suite",
     navIcons: "Images/navbar/product/Sales.png",
     path: "Team",
-    title:"Delight Your Customer With Effortless Omnichannel Service",
-    productHover:"#ffaf9a",
+    title: "Delight Your Customer With Effortless Omnichannel Service",
+    productHover: "#ffaf9a",
   },
-
- 
 ];
 
 export const product3 = [
@@ -1047,7 +1061,7 @@ export const product4 = [
     path: "Portal",
   },
   {
-    dropContent:"Technology Alliance",
+    dropContent: "Technology Alliance",
     navIcons: "Images/navbar/product/Technology.png",
     path: "Alliance",
   },
@@ -1067,7 +1081,7 @@ export const product4 = [
     path: "Enterprises",
   },
   {
-    dropContent:"Engagement",
+    dropContent: "Engagement",
     navIcons: "Images/navbar/product/users.png",
     path: "Conversational",
   },
@@ -1076,58 +1090,53 @@ export const product4 = [
     navIcons: "Images/navbar/product/olly.png",
     path: "olly",
   },
- 
 ];
 
 export const productSolution = [
-
-
   {
     dropContent: "By Use Size",
-    productText1:"Enterprise",
-    productText2:"SMB",
+    productText1: "Enterprise",
+    productText2: "SMB",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
     path: "android",
   },
   {
     dropContent: "By Use Case",
-    productText1:"Self Service",
-    productText2:"Field Service",
+    productText1: "Self Service",
+    productText2: "Field Service",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
     path: "android",
   },
   {
     dropContent: "By Industry",
-    productText1:"Retail & E-commerce",
-    productText2:"Travel & Hospitality",
-    
+    productText1: "Retail & E-commerce",
+    productText2: "Travel & Hospitality",
+
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
     path: "android",
   },
 ];
 
 export const productDesk = [
-
-
   {
     dropContent: "Support Desk",
-    productText1:"A comprehensive helpdesk for exceptional customer service",
-    productText2:"SMB",
+    productText1: "A comprehensive helpdesk for exceptional customer service",
+    productText2: "SMB",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
     path: "android",
   },
   {
     dropContent: "By Use Case",
-    productText1:"Self Service",
-    productText2:"Field Service",
+    productText1: "Self Service",
+    productText2: "Field Service",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
     path: "android",
   },
   {
     dropContent: "By Industry",
-    productText1:"Retail & E-commerce",
-    productText2:"Travel & Hospitality",
-    
+    productText1: "Retail & E-commerce",
+    productText2: "Travel & Hospitality",
+
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
     path: "android",
   },
