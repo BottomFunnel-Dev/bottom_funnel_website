@@ -18,14 +18,14 @@ export const EstateAgency = () => {
                 <div className='EstateAgency-carddivimage'>
                     <img src="Images/realestatesales/Secure data-cuate.png" alt="image" />
                 </div>
-                <p>Freshsales is built with security at heart to secure your data and provide high resilience. Additionally, role-based access allows you to restrict data access based on your employees' hierarchy or role.</p>
+                <p>Bottom Funnel Sales is built with security at heart to secure your data and provide high resilience. Additionally, role-based access allows you to restrict data access based on your employees' hierarchy or role.</p>
             </div>
             <div className='EstateAgency-carddiv'>
                 <h4>Sand instant messages</h4>
                 <div className='EstateAgency-carddivimage'>
                     <img src="Images/realestatesales/Email campaign-cuate.png" alt="image" />
                 </div>
-                <p>SMS is faster than an email and yet less intrusive than a phone call. Freshsales allows you to SMS your prospects and clients from within the CRM.</p>
+                <p>SMS is faster than an email and yet less intrusive than a phone call. Bottom Funnel Sales allows you to SMS your prospects and clients from within the CRM.</p>
             </div>
 
         </div>

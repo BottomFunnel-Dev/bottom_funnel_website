@@ -12,7 +12,7 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll, productMount
     >
       <div className="industryDropdown">
         <div className="industryContent">
-          <div className="productSolutionListItems">
+          <div className="productSolutionListItems" style={{marginLeft:"80%"}}>
             {productSolution.map((item, i) => (
               <div
                 key={i}

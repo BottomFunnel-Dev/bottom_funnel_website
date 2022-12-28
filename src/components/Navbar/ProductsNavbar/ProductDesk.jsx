@@ -2,18 +2,18 @@ import React from 'react'
 import './ProductSolutions.css'
 import { Link } from 'react-router-dom'
 import { productDesk } from '../../../Data/Navbar'
-export const ProductDesk = ({ solHoverIn, solHoverOut, scroll, productMount }) => {
+export const ProductDesk = ({ solDeskIn, solDeskOut, scroll, productMount }) => {
   return (
     <div
-      onMouseEnter={solHoverIn}
-      onMouseLeave={solHoverOut}
+      onMouseEnter={solDeskIn}
+      onMouseLeave={solDeskOut}
       className="serviceVisible"
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" ,top:"15%"}}
     >
       <div className="industryDropdown">
         <div className="industryContent">
-          <div className="productSolutionListItems">
-            {productSolution.map((item, i) => (
+          <div className="productSolutionListItems" style={{marginLeft:"8%"}}>
+            {productDesk.map((item, i) => (
               <div
                 key={i}
                 onClick={() => {
@@ -30,7 +30,7 @@ export const ProductDesk = ({ solHoverIn, solHoverOut, scroll, productMount }) =
                   />
                 </div> */}
                 <Link
-                  onClick={solHoverOut}
+                  onClick={solDeskOut}
                   to={item.path}
                   className="linkP"
                 >

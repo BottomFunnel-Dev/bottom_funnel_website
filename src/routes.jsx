@@ -182,6 +182,9 @@ import {SalesPage} from "./components/SalesPage/SalesPage";
 import { HelpDesk } from "./components/HelpDesk/HelpDesk";
 import { RetailEcommerce } from "./components/RetailAndEcommerce/RetailEcommerce";
 import { RealEstateSales } from "./components/RealEstateSales/RealEstateSales";
+import { TrendingTechnologies } from "./components/TrendingTechnology/TrendingTechnologies";
+import { CloudTelephony } from "./components/CloudTelephony/CloudTelephony";
+import { SaaSHomePage } from "./components/SaaSHomePage/SaaSHomePage";
 
 
 export const ALLroutes = () => {
@@ -453,6 +456,9 @@ export const ALLroutes = () => {
       <Route path="/helpDesk" element={<HelpDesk/>}/>
       <Route path="/RetailEcommerce" element={<RetailEcommerce/>}/>
       <Route path="/RealEstateSales" element={<RealEstateSales/>}/>
+      <Route path="/trendingTech" element={<TrendingTechnologies/>}/>
+      <Route path="/cloudTelephony" element={<CloudTelephony/>}/>
+      <Route path="/saaSHomePage" element={<SaaSHomePage/>}/>
     </Routes>
   );
 };

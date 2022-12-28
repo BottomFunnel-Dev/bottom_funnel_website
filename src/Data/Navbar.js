@@ -1114,21 +1114,96 @@ export const productDesk = [
     productText1:"A comprehensive helpdesk for exceptional customer service",
     productText2:"SMB",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "android",
   },
   {
-    dropContent: "By Use Case",
-    productText1:"Self Service",
+    dropContent: "Contact Center",
+    productText1:"A reliable and smart call center solution for effortless customer experience",
     productText2:"Field Service",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "android",
   },
   {
-    dropContent: "By Industry",
-    productText1:"Retail & E-commerce",
+    dropContent: "Omnichannel Suite",
+    productText1:"Delight your customers with effortless omnichannel service",
     productText2:"Travel & Hospitality",
     
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "android",
+  },
+];
+
+export const productFeatures = [
+
+
+  {
+    dropContent: "IT Service Desk",
+    productText1:"A comprehensive helpdesk for exceptional customer service",
+    productText2:"SMB",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+  },
+  {
+    dropContent: "Bussiness Teams",
+    productText1:"A reliable and smart call center solution for effortless customer experience",
+    productText2:"Field Service",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+  },
+  {
+    dropContent: "ITSM",
+    productText1:"Delight your customers with effortless omnichannel service",
+    productText2:"Travel & Hospitality",
+    
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+  },
+  {
+    dropContent:"ITOM",
+  },
+  {
+    dropContent:"IT Project Management",
+  },
+  {
+    dropContent:"IT Assest Management",
+  },
+  {
+    dropContent:"Automation",
+  },
+  {
+    dropContent:"Reporting",
+  },
+];
+
+export const productResources = [
+
+
+  {
+    dropContent: "IT Service Desk",
+    productText1:"A comprehensive helpdesk for exceptional customer service",
+    productText2:"SMB",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+  },
+  {
+    dropContent: "Bussiness Teams",
+    productText1:"A reliable and smart call center solution for effortless customer experience",
+    productText2:"Field Service",
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+  },
+  {
+    dropContent: "ITSM",
+    productText1:"Delight your customers with effortless omnichannel service",
+    productText2:"Travel & Hospitality",
+    
+    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+  },
+  {
+    dropContent:"ITOM",
+  },
+  {
+    dropContent:"IT Project Management",
+  },
+  {
+    dropContent:"IT Assest Management",
+  },
+  {
+    dropContent:"Automation",
+  },
+  {
+    dropContent:"Reporting",
   },
 ];

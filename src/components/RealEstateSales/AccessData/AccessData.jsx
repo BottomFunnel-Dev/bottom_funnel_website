@@ -8,7 +8,7 @@ export const AccessData = () => {
         <h1>Access client data on the move</h1>
         <p>A typical day in a realtor’s life requires him/her to be on the move, even while responding to phone calls, sending emails, and attending open houses.</p>
         <p>CRM that is also available as a mobile application that can help your agents be more productive.</p>
-        <p>Freshsales comes with an iOS and Android mobile app that allows realtors to:</p>
+        <p>Bottom Funnel sales comes with an iOS and Android mobile app that allows realtors to:</p>
         <ul>
             <li>Know what properties and prospects to focus on each day</li>
             <li>Stay up to date with real-time push notifications</li>

@@ -1,0 +1,58 @@
+.SaaSData-maindiv{
+    /* border:  2px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    margin-top: 6%;
+
+}
+.SaaSData-maindiv p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.SaaSData-maincontaindiv{
+    /* border: 2px solid green; */
+    width: 60%;
+   
+}
+.SaaSData-mainimagediv{
+    border: 1px solid lightgray;
+    width: 50%;
+     height: 480px;
+     margin-left: 2%;
+     border-radius: 10px;
+}
+.SaaSData-mainimagediv img{
+    width: 100%;
+    
+
+}
+.SaaSdatalearnmore{
+    color: rgb(65, 191, 241);
+    text-decoration: underline;
+    font-size: 18px;
+}
+.SaaSdatalearnmore:hover{
+    background-color: rgb(250, 232, 234);
+}
+
+.SaaSData-mainimagediv1{
+    border: 1px solid lightgray;
+    width: 50%;
+     height: 480px;
+     /* margin-left: 2%; */
+     border-radius: 10px;
+}
+.SaaSData-mainimagediv1 img{
+    width: 100%;
+    
+
+}
+.SaaSData-maincontaindiv1{
+    /* border: 2px solid green; */
+    width: 60%;
+    margin-left: 3%;
+   
+}
+

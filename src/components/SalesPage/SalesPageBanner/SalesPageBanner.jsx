@@ -17,8 +17,8 @@ export const SalesPageBanner = () => {
           </p>
           <div className='SalesPageBannerbuttonbox'>
 
-          <button className='SalesPageBannerbutton'>Get Started</button>
-          <button className='SalesPageBannerbutton1'>Get Started</button>
+          <button className='SalesPageBannerbutton'>SIGN UP </button>
+          <button className='SalesPageBannerbutton1'>VIEW PRICING</button>
           </div>
         </div>
        

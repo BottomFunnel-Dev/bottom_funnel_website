@@ -8,7 +8,7 @@ export const Productivity = () => {
        
         <div className='Productivity-innerdiv'>
             <h2>Boots productivity with powerful automations</h2   >
-       <p>How many times have you seen real estate agents perform the same tasks repeatedly? Whether it’s mailing buyer contracts or making follow-up calls for payments, timeliness and consistency are key. Freshsales for real estate agents comes with automation capabilities allowing the system to:</p>
+       <p>How many times have you seen real estate agents perform the same tasks repeatedly? Whether it’s mailing buyer contracts or making follow-up calls for payments, timeliness and consistency are key. Bottom Funnel Sales for real estate agents comes with automation capabilities allowing the system to:</p>
          <ul>
             <li>Schedule follow-up calls and emails for different scenarios, such as payment, prospecting, official document requirements, etc</li>
             <li>Choose from pre-designed workflow templates to automate routine tasks</li>
@@ -32,7 +32,7 @@ export const Productivity = () => {
         <div className='Productivity-innerdiv'>
             <h2>Take smart decisions with insightful analytics</h2   >
          <p>To make any critical decisions, you’ll need to know your team’s capability—top performers, targets vs. achieved, campaign performance, website traffic, etc. Knowing this helps you identify bottlenecks, find the reason for lost deals, or optimize your website. </p>
-          <p>Freshsales software for real estate gives you real-time insights into business-critical metrics in a single dashboard and analyzes performance. You can create custom dashboards for sales to view the numbers at a glance anytime or automate to send the reports to your inbox at regular intervals. </p>
+          <p>Bottom Funnel Sales software for real estate gives you real-time insights into business-critical metrics in a single dashboard and analyzes performance. You can create custom dashboards for sales to view the numbers at a glance anytime or automate to send the reports to your inbox at regular intervals. </p>
           <p className='Productivity-more'>Learn More</p>
             <div className='Productivity-imagediv'>
                 <img src="Images/realestatesales/insightful.png" alt="image" />
