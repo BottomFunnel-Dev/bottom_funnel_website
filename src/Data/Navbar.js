@@ -926,27 +926,32 @@ export const product1 = [
     dropContent: "Bottom Funnel Support Desk",
     navIcons: "Images/navbar/product/desk.png",
     path: "funnel-desk",
+    title:"Delight Your Customer With Effortless Omnichannel Service",
   },
   {
     dropContent: "Bottom Funnel Chat",
     navIcons: "Images/navbar/product/Chat.png",
     path: "Chat",
+    title:"Delight Your Customer With Effortless Omnichannel Service",
   },
   {
     dropContent: "Bottom Funnel Marketer",
     navIcons: "Images/navbar/product/Market.png",
     path: "Marketer",
+    title:"Delight Your Customer With Effortless Omnichannel Service",
   },
 
   {
     dropContent: "Bottom Funnel sales",
     navIcons: "Images/navbar/product/Sales.png",
     path: "sales",
+    title:"Delight Your Customer With Effortless Omnichannel Service",
   },
   {
     dropContent: "Bottom Funnel Service",
     navIcons: "Images/navbar/product/Service.png",
     path: "Service",
+    title:"Delight Your Customer With Effortless Omnichannel Service",
   },
 
 
@@ -958,21 +963,25 @@ export const product2 = [
     dropContent: "Bottom Funnel Sales Suite",
     navIcons: "Images/navbar/product/suite.png",
     path: "sales",
+    title:"Delight Your Customer With Effortless Omnichannel Service",
   },
   {
     dropContent: "Bottom Funnel Omnichannel",
     navIcons: "Images/navbar/product/omnichannel.png",
     path: "Omnichannel",
+    title:"Delight Your Customer With Effortless Omnichannel Service",
   },
   {
     dropContent: "Bottom Funnel Contact center",
     navIcons: "Images/navbar/product/contact.png",
     path: "ContactManagement",
+    title:"Delight Your Customer With Effortless Omnichannel Service",
   },
   {
     dropContent: "Bottom Funnel Team",
     navIcons: "Images/navbar/product/success.png",
     path: "Team",
+    title:"Delight Your Customer With Effortless Omnichannel Service",
   },
  
 ];
@@ -1016,6 +1025,26 @@ export const product3 = [
 ];
 
 export const product4 = [
+  {
+    dropContent: "MarketPlace",
+    navIcons: "Images/navbar/product/MarketPlace.png",
+    path: "Sales Suite",
+  },
+  {
+    dropContent: "Developer Portal",
+    navIcons: "Images/navbar/product/dveloper.png",
+    path: "Omnichannel",
+  },
+  {
+    dropContent:"Technology Alliance",
+    navIcons: "Images/navbar/product/Technology.png",
+    path: "Contactcentre",
+  },
+  {
+    dropContent: "Customer Spotlight",
+    navIcons: "Images/navbar/product/customer.png",
+    path: "Team",
+  },
   {
     dropContent: "MarketPlace",
     navIcons: "Images/navbar/product/MarketPlace.png",
