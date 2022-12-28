@@ -56,7 +56,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                     serHoverOut();
                   }}
                   className="productimageIconDivSection hoveringDiv"
-                  style={{height:"90px",width:"100%",marginTop:"0%"}}
+                  style={{height:"90px",width:"100%",marginTop:"0%", "--i": item.productHover}}
                 >
                   <div>
                     <img
@@ -66,8 +66,8 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                       style={{width:"90px",height:"60px"}}
                     />
                   </div>
-                  <Link onClick={serHoverOut} to={item.path} className="linkP" style={{width:"100%",marginLeft:"15%",marginTop:"5%"}}>
-                    <p style={{fontWeight:"500",fontSize:"13.5px"}}>{item.dropContent}</p>
+                  <Link onClick={serHoverOut} to={item.path} className="productlinkP" style={{width:"100%",marginLeft:"15%",marginTop:"5%"}}>
+                    <p style={{fontWeight:"500",fontSize:"14px"}}>{item.dropContent}</p>
                     <p style={{fontSize:"12px"}}>{item.title}</p>
                   </Link>
                 </div>
@@ -86,7 +86,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                     serHoverOut();
                   }}
                   className="productimageIconDivSection hoveringDiv"
-                  style={{height:"90px",width:"100%",marginTop:"0%"}}
+                  style={{height:"90px",width:"100%",marginTop:"0%","--i": item.productHover}}
                 >
                   <div>
                     <img
@@ -96,29 +96,30 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                       style={{width:"90px",height:"60px"}}
                     />
                   </div>
-                  <Link onClick={serHoverOut} to={item.path} className="linkP" style={{width:"100%",marginLeft:"15%",marginTop:"5%"}}>
-                    <p style={{fontWeight:"500",fontSize:"13.5px"}}>{item.dropContent}</p>
+                  <Link onClick={serHoverOut} to={item.path} className="productlinkP" style={{width:"100%",marginLeft:"15%",marginTop:"5%"}}>
+                    <p style={{fontWeight:"500",fontSize:"14px"}}>{item.dropContent}</p>
                     <p style={{fontSize:"12px"}}>{item.title}</p>
                   </Link>
                 </div>
               ))}
             </div>
             <Link to="newProductPage" style={{textDecoration:"none"}}>
-            <h5
+            <p
               className="viewAllButton"
               onClick={() => {
                 navigate(`web-development`);
                 serHoverOut();
               }}
             >
-              All Products
-            </h5>
+             View All Products
+            </p>
             </Link>
           </div>
 
           <div className="productDropdownContent" style={{marginLeft:"10%",marginTop:"0%"}}>
           <h5
               className="noStyleMain"
+              style={{marginLeft:"5%"}}
               onClick={() => {
                 navigate(`web-development`);
                 serHoverOut();
@@ -158,18 +159,19 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
           </div>
 
 
-          <div className="productDropdownContent" style={{marginLeft:"5%",width:"25%"}}>
+          <div className="productDropdownContent" style={{marginLeft:"3%",width:"25%"}}>
           <h5
               className="noStyleMain"
+              // style={{marginLeft:"-8%",border:"2px solid red",marginRight:"15%"}}
               onClick={() => {
                 navigate(`web-development`);
                 serHoverOut();
               }}
-            >
+            > <img src="Images/navbar/product/Features.png"/>
               Features
             </h5>
             
-            <div className="listItems" style={{marginTop:"13%"}}>
+            <div className="listItems" style={{marginTop:"5%",marginLeft:"7%"}}>
             {/* <h5> <img src=""/> Features</h5> */}
               {product3.map((item, i) => (
                 <div
@@ -201,11 +203,12 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
           </div>
 
 
-          <div className="productDropdownContent" style={{marginLeft:"0%"}}>
+          <div className="productDropdownContent" style={{marginLeft:"1%",width:"25%"}}>
           
-            
-            <h5 style={{marginTop:"32%"}}>What's New?</h5>
-                    <p>Know More</p>
+          <h5 style={{marginTop:"1%",color:"#ef4c23"}}><img src="Images/navbar/product/marketPlace.png"/>Bottom Funnel Neo</h5>
+                    <p>Leverage a flexible, end-to-end, AI-powered enterprise platform to unify customer experiences</p>
+            <h5 style={{marginTop:"15%",color:"#ef4c23"}}><img src="Images/navbar/product/knowmore.png"/> Know more</h5>
+                    <p>What's New?</p>
                     <p>Blog</p>
             <div className="listItems" style={{marginTop:"10%"}}>
               {product4.map((item, i) => (

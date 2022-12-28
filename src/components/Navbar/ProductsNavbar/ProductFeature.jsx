@@ -1,8 +1,8 @@
 import React from 'react'
-import './ProductResources.css'
+import './ProductSolutions.css'
 import { Link } from 'react-router-dom'
 import { productSolution } from '../../../Data/Navbar'
-export const ProductResources = ({ solHoverIn, solHoverOut, scroll, productMount }) => {
+export const ProductFeature = ({ solHoverIn, solHoverOut, scroll, productMount }) => {
   return (
     <div
       onMouseEnter={solHoverIn}
@@ -34,7 +34,7 @@ export const ProductResources = ({ solHoverIn, solHoverOut, scroll, productMount
                   to={item.path}
                   className="linkP"
                 >
-                  <h2>hiiiii</h2>
+                <h2>Feature</h2>
                   <h5>{item.dropContent}</h5>
                   <p>{item.productText1}</p>
                   <p>{item.productText2}</p>

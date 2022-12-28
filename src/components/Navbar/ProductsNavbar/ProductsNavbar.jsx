@@ -9,12 +9,16 @@ import { NavIndustries } from "../NavIndustries";
 import { ImageCard } from "../../particularComponents/ImageCardText/ImageCard";
 import { ProductSolutions } from "./ProductSolutions";
 import { ProductResources } from "./ProductResources";
+import { ProductFeature } from "./ProductFeature";
+import { ProductDesk } from "./ProductDesk";
 
 export const ProductsNavbar = ({ scroll }) => {
 
   const navigate = useNavigate();
   const [ProductSolution, setProductSolution] = useState(false);
-  const [productservice, setproductService] = useState(false);
+  const [productfeature, setproductFeature] = useState(false);
+  const[productresource, setproductResource] = useState(false);
+  const [productdesk, setproductDesk] = useState(false);
   const [productnavbar, setproductNabvar] = useState(false);
   const navproductredux = useSelector((state) => state.navbar);
   const productMount = useSelector((state) => state.mountNav);
@@ -22,7 +26,7 @@ export const ProductsNavbar = ({ scroll }) => {
 
 
   const skillProductHoverIn = () => {
-    setSkill(true);
+    
 
     setproductNabvar(true);
   };
@@ -30,7 +34,7 @@ export const ProductsNavbar = ({ scroll }) => {
   const skillProductHoverOut = () => {
     setProductSolution(false);
 
-    setSkill(false);
+    
     if (window.scrollY == 0) {
       setproductNabvar(false);
     }
@@ -60,6 +64,40 @@ export const ProductsNavbar = ({ scroll }) => {
     }
   };
 
+  const solResIn = () => {
+    setproductResource(true);
+    setproductNabvar(true);
+  };
+
+  const solResOut = () => {
+    setproductResource(false);
+    if (window.scrollY == 0) {
+      setproductNabvar(false);
+    }
+  };
+
+  const solDeskIn = () => {
+    setproductDesk(true);
+    setproductNabvar(true);
+  };
+
+  const solDeskOut = () => {
+    setproductDesk(false);
+    if (window.scrollY == 0) {
+      setproductNabvar(false);
+    }
+  };
+  const solFeaIn = () => {
+    setproductFeature(true);
+    setproductNabvar(true);
+  };
+
+  const solFeaOut = () => {
+    setproductFeature(false);
+    if (window.scrollY == 0) {
+      setproductNabvar(false);
+    }
+  };
 
 
   useEffect(() => {
@@ -82,8 +120,8 @@ export const ProductsNavbar = ({ scroll }) => {
 
       <div className="deskList">
         <li
-          onMouseEnter={solHoverIn}
-          onMouseLeave={solHoverOut}
+          onMouseEnter={solDeskIn}
+          onMouseLeave={solDeskOut}
           style={{ color: productnavbar ? "black" : navproductredux.color }}>
           Desk Products
           <img
@@ -94,8 +132,8 @@ export const ProductsNavbar = ({ scroll }) => {
         </li>
 
         <li
-          onMouseEnter={solHoverIn}
-          onMouseLeave={solHoverOut}
+          onMouseEnter={solFeaIn}
+          onMouseLeave={solFeaOut}
           style={{ color: productnavbar ? "black" : navproductredux.color }}>
           Features{" "}
           <img
@@ -135,8 +173,8 @@ export const ProductsNavbar = ({ scroll }) => {
         </li>
 
         <li
-          onMouseEnter={solHoverIn}
-          onMouseLeave={solHoverOut}
+          onMouseEnter={solResIn}
+          onMouseLeave={solResOut}
           style={{ color: productnavbar ? "black" : navproductredux.color }}>
           Resources{" "}
           <img
@@ -164,7 +202,34 @@ export const ProductsNavbar = ({ scroll }) => {
 
       ) : null}
 
+{productresource ? (
+        <ProductResources
+          solResIn={solResIn}
+          solResOut={solResOut}
+          scroll={scroll}
+          productMount={productMount}
+        />
+      ) : null}
 
+{productfeature ? (
+        <ProductFeature
+          solFeaIn={solFeaIn}
+          solFeaOut={solFeaOut}
+          scroll={scroll}
+          productMount={productMount}
+        />
+
+      ) : null}
+
+{productdesk ? (
+        <ProductDesk
+          solDeskIn={solDeskIn}
+          solDeskOut={solDeskOut}
+          scroll={scroll}
+          productMount={productMount}
+        />
+
+      ) : null}
 
     </div>
   );
