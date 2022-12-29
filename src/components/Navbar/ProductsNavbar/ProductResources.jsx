@@ -1,3 +1,6 @@
+
+
+
 import React from 'react'
 import './ProductResources.css'
 import { Link } from 'react-router-dom'
@@ -7,10 +10,10 @@ export const ProductResources = ({ solResIn, solResOut, scroll }) => {
     <div
       onMouseEnter={solResIn}
       onMouseLeave={solResOut}
-      className="productResourcesMainDiv"
+      className="productResourceMainDiv"
       style={{ top: scroll? "6.5%" : "15%"}}
     >
-          <div className="productResourcesListItems" style={{width:"100%",height:"300px"}}>
+          <div className="productResourceListItems" style={{width:"100%"}}>
             {productResources.map((item, i) => (
               <div
                 key={i}
@@ -18,7 +21,7 @@ export const ProductResources = ({ solResIn, solResOut, scroll }) => {
                   navigate(`/${item.path}`);
                   solHoverOut();
                 }}
-                className="productResourcesData"
+                className="productResourceData"
               
               >
                 <Link
@@ -27,10 +30,13 @@ export const ProductResources = ({ solResIn, solResOut, scroll }) => {
                   className="productlinkP"
                 >
                   <p>{item.dropContent}</p>
+                  {/* <p>{item.productText1}</p> */}
                 </Link>
               </div>
             ))}
+            <button>View all Resources</button>
           </div>
         </div>
   )
 }
+
