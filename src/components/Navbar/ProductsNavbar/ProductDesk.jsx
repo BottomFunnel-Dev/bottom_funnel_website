@@ -27,7 +27,7 @@ export const ProductDesk = ({ solDeskIn, solDeskOut, scroll }) => {
                   className="productlinkP"
                 >
                   <h6>{item.dropContent}</h6>
-                  <p>{item.productText1}</p>
+                  <p style={{color:"black"}}>{item.productText1}</p>
                 </Link>
               </div>
             ))}

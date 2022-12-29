@@ -365,7 +365,7 @@ export const ALLroutes = () => {
       <Route path="/custom-web-solutions" element={<CustomisedWebPage />} />
       <Route path="/Crypto-Development" element={<CryptoDevPage />} />
       <Route path="/asp-net-development" element={<AspNetPage />} />
-      <Route path="/flower-delivery" element={<FlowerDelevry />} />\
+      <Route path="/flower-delivery" element={<FlowerDelevry />} />
       <Route path="/NFT-Development" element={<NFTpage />} />
       <Route path="/data-science" element={<DataSciencePage />} />
       <Route path="/laundry" element={<LaundryPage />} />
