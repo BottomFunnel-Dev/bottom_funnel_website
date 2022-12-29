@@ -19,7 +19,7 @@
 .InsuranceProductivity-maindiv1image{
     /* border: 2px solid purple; */
     width: 20%;
-    height: 180px;
+    height: 210px;
     
 }
 .InsuranceProductivity-maindiv1image img{
@@ -45,15 +45,20 @@
     /* border: 2px solid pink; */
     font-size: 18px;
     width: 70%;
-    padding-top: 40px;
-    padding-left: 10px;
+   padding-top: 40px;
+     padding-right: 80px; 
+     padding-left: 40px;
+    /* padding: 40px 10px 10px 80px; */
+    /* margin-left: 2%; */
+    /* margin-right: 4%; */
 }
 .InsuranceProductivity-innermaindiv2contain p{
      font-size: 18px;
+     text-align: justify;
 }
 .InsuranceProductivity-innermaindiv2image{
     /* border: 2px solid black; */
-    height: 250px;
+    height: 260px;
 
 }
 .InsuranceProductivity-innermaindiv2image img{

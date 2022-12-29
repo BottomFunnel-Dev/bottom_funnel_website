@@ -7,7 +7,7 @@ margin-top: 5%;
 }
 .InsuranceAgency-maindiv h1{
 text-align: center;
-justify-content: center;
+
 }
 .InsuranceAgency-innerdiv{
     display: flex;
@@ -15,6 +15,7 @@ justify-content: center;
     /* border: 2px solid red; */
     width: 90%;
     margin: auto;
+    justify-content: center;
     margin-top: 4%;
 
 }
@@ -22,11 +23,13 @@ justify-content: center;
     /* border: 2px solid green; */
     width: 25%;
     height: 470px;
-    margin: auto;
+    margin: 2%;
+
     justify-content: center;
     text-align: center;
-    padding-top:40px;
-    padding-bottom: 20px;
+    /* padding-top:40px;
+    padding-bottom: 20px; */
+    padding: 40px 20px 40px 20px ;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* align-items: center; */
