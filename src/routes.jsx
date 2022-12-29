@@ -185,7 +185,8 @@ import { RealEstateSales } from "./components/RealEstateSales/RealEstateSales";
 import { TrendingTechnologies } from "./components/TrendingTechnology/TrendingTechnologies";
 import { CloudTelephony } from "./components/CloudTelephony/CloudTelephony";
 import { SaaSHomePage } from "./components/SaaSHomePage/SaaSHomePage";
-
+import {InsuranceSales} from "./components/InsuranceSales/InsuranceSales";
+import {HotelHospitility} from "./components/HotelHospitility/HotelHospitility";
 
 export const ALLroutes = () => {
   return (
@@ -459,6 +460,8 @@ export const ALLroutes = () => {
       <Route path="/trendingTech" element={<TrendingTechnologies/>}/>
       <Route path="/cloudTelephony" element={<CloudTelephony/>}/>
       <Route path="/saaSHomePage" element={<SaaSHomePage/>}/>
+      <Route path="/insuranceSales" element={<InsuranceSales/>}/>
+      <Route path="/hotelHospitility" element={<HotelHospitility/>}/>
     </Routes>
   );
 };

@@ -1,0 +1,47 @@
+.InsuranceAgency-maindiv{
+/* border: 2px solid yellow; */
+margin-top: 5%;
+
+
+
+}
+.InsuranceAgency-maindiv h1{
+text-align: center;
+justify-content: center;
+}
+.InsuranceAgency-innerdiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 4%;
+
+}
+.InsuranceAgency-carddiv{
+    /* border: 2px solid green; */
+    width: 25%;
+    height: 470px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* align-items: center; */
+}
+.InsuranceAgency-carddiv:hover{
+    background-color: #f8e2dd;
+}
+.InsuranceAgency-carddivimage{
+    width: 60%;
+    height: 250px;
+    margin-left: 18%;
+    /* border: 2px solid yellow; */
+   
+
+}
+.InsuranceAgency-carddivimage img{
+    width: 100%;
+}

@@ -1,0 +1,47 @@
+.hotelhospitilitycustomerengmainboxes{
+    height: fit-content;
+
+}
+.hotelhospitilitycustomerengtextboxupper{
+    width: 90%;
+    margin: auto;
+
+    height: fit-content;
+}
+
+.hotelhospitilitycustomerengtextboxupper >h1{
+    text-align: center;
+}
+
+.hotelhospitilitycustomerengtextboxupper>p{
+    text-align: justify;
+}
+
+.specialcolor{
+    color: #ef4c23;
+}
+
+.hotelhospitilitykeychallengebox{
+    height: 500px;
+
+    background-color: #f5f5f5;
+    margin-top: 3%;
+}
+
+.hotelhospitilitykeychallengebox >h2{
+    text-align: center;
+}
+
+.hotelhospitilitykeychallengeboxforimg{
+    height: 80%;
+    width: 90%;
+    margin: 3% 5% 0% 5%;
+
+
+}
+
+.hotelhospitilitykeychallengeboxforimg >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

@@ -1,52 +1,69 @@
 .productFeatureMainDiv{
-    display: flex;
-    background-color: white;
-    width: 16%;
-    height: 400px;
-    position: fixed;
-    top: 50px;
-    left: 38%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    z-index: 100000000;
-    /* border: 2px solid; */
-    text-align: center;
+  display: flex;
+  background-color: white;
+  width: 12%;
+  height: fit-content;
+  position: fixed;
+  top: 50px;
+  left: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 100000000;
+  /* border: 2px solid; */
+  /* text-align: center; */
 }
 .productFeatureListItems {
-    width: 38%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    /* border: 2px solid blue; */
-    justify-content: center;
-    margin-top:15%;
-  }
-  
-  .productFeatureListItems > p {
-    margin: 0;
-    width: 49%;
-    list-style: none !important;
-    text-decoration: none !important;
-  }
-  .productlinkP {
-    text-decoration: none;
-    /* border: 2px solid red; */
-    width: 80%;
-  }
-  
-  .productlinkP h6 {
-    text-decoration: none;
-    color: black;
-    /* border: 2px solid red; */
-  }
- .productFeatureData{
-    height: 90px;
-    padding: 10px;
-    border-bottom: 1px solid #d9d9d9;
-    /* border: 2px solid ; */
- }
- .productFeatureData:hover{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
- }
- .productFeatureData:last-child{
-    border-bottom: none;
- }
+  width: 38%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.productFeatureListItems > p {
+  margin: 0;
+  width: 49%;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+.productlinkP {
+  text-decoration: none;
+  /* border: 2px solid red; */
+  width: 80%;
+}
+
+.productlinkP h6 {
+  text-decoration: none;
+  color: black;
+  /* border: 2px solid red; */
+}
+.productFeatureData{
+  padding: 10px;
+  /* border-bottom: 1px solid #d9d9d9; */
+  /* border: 2px solid ; */
+}
+.productFeatureData:hover{
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  background-color: lightgray;
+}
+
+.productFeatureListItems>button{
+  border: 1px solid #393939;
+  background: transparent;
+  width: 95%;
+  margin: 2% auto;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 2px 0;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+}
+
+.productFeatureListItems>button:hover{
+  background-color: #ef4c23;
+  color: white;
+  border: 1px solid #ef4c23;
+}
+

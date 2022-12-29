@@ -1184,37 +1184,37 @@ export const productResources = [
 
 
   {
-    dropContent: "IT Service Desk",
+    dropContent: "Remote Support",
     productText1:"A comprehensive helpdesk for exceptional customer service",
     productText2:"SMB",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
   },
   {
-    dropContent: "Bussiness Teams",
+    dropContent: "Customer Stories",
     productText1:"A reliable and smart call center solution for effortless customer experience",
     productText2:"Field Service",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
   },
   {
-    dropContent: "ITSM",
+    dropContent: "Resource Library",
     productText1:"Delight your customers with effortless omnichannel service",
     productText2:"Travel & Hospitality",
     
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
   },
   {
-    dropContent:"ITOM",
+    dropContent:"Webinars",
   },
   {
-    dropContent:"IT Project Management",
+    dropContent:"Videos",
   },
   {
-    dropContent:"IT Assest Management",
+    dropContent:"Free Tools",
   },
   {
-    dropContent:"Automation",
+    dropContent:"Academy",
   },
   {
-    dropContent:"Reporting",
+    dropContent:"Blog",
   },
 ];

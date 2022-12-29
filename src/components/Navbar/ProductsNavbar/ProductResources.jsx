@@ -2,17 +2,15 @@ import React from 'react'
 import './ProductResources.css'
 import { Link } from 'react-router-dom'
 import { productResources } from '../../../Data/Navbar'
-export const ProductResources = ({ solResIn, solResOut, scroll, productMount }) => {
+export const ProductResources = ({ solResIn, solResOut, scroll }) => {
   return (
     <div
       onMouseEnter={solResIn}
       onMouseLeave={solResOut}
-      className="serviceVisible"
-      style={{ top: scroll || productMount.navMount ? "68px" : "98px" ,top:"15%"}}
+      className="productResourcesMainDiv"
+      style={{ top: scroll? "6.5%" : "15%"}}
     >
-      <div className="industryDropdown">
-        <div className="industryContent">
-          <div className="productSolutionListItems">
+          <div className="productResourcesListItems" style={{width:"100%",height:"300px"}}>
             {productResources.map((item, i) => (
               <div
                 key={i}
@@ -20,29 +18,19 @@ export const ProductResources = ({ solResIn, solResOut, scroll, productMount }) 
                   navigate(`/${item.path}`);
                   solHoverOut();
                 }}
-                className="productSolutionData"
+                className="productResourcesData"
+              
               >
-                {/* <div>
-                  <img
-                    className="iconDivSection"
-                    src={item.navIcons}
-                    alt=""
-                  />
-                </div> */}
                 <Link
                   onClick={solResOut}
                   to={item.path}
-                  className="linkP"
+                  className="productlinkP"
                 >
                   <p>{item.dropContent}</p>
-                  {/* <p>{item.productText1}</p> */}
-                  {/* <p>{item.productText2}</p> */}
                 </Link>
               </div>
             ))}
           </div>
         </div>
-      </div>
-    </div>
   )
 }

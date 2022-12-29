@@ -1,0 +1,46 @@
+.hotelhospitalityhowbestmainboxes{
+    height: fit-content;
+
+    margin-top: 3%;
+}
+
+.hotelhospitalityhowbestmainboxes >h1{
+    text-align: center;
+}
+
+.hotelhospitilityhowbestflexbox{
+    display: flex;
+    margin-top: 5%;
+}
+
+.hotelhospitilityhowbestflexboxforimages{
+    height: 400px;
+    width: 45%;
+    margin-left: 5%;
+
+    background-color: #fffbfa;
+}
+
+.hotelhospitilityhowbestflexboxforimages >img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.hotelhospitilityhowbestflexboxfortext{
+    height: fit-content;
+    width: 45%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+
+}
+
+.hotelhospitilityhowbestsomeparagraphafterimages{
+    width: 80%;
+    margin-left: 5%;
+ 
+    margin-top: 3%;
+    text-align: justify;
+}

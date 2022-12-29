@@ -21,9 +21,6 @@ export const ProductsNavbar = ({ scroll }) => {
   const [productdesk, setproductDesk] = useState(false);
   const [productnavbar, setproductNabvar] = useState(false);
   const navproductredux = useSelector((state) => state.navbar);
-  const productMount = useSelector((state) => state.mountNav);
-
-
 
   const skillProductHoverIn = () => {
     
@@ -98,12 +95,6 @@ export const ProductsNavbar = ({ scroll }) => {
       setproductNabvar(false);
     }
   };
-
-
-  useEffect(() => {
-    console.log(productMount.navMount);
-  }, [productMount]);
-
 
   return (
     <div className="products-navbar" style={{ top: scroll ? "0" : "65px", background: scroll ? "white" : "transparent" }}>
@@ -197,7 +188,6 @@ export const ProductsNavbar = ({ scroll }) => {
           solHoverIn={solHoverIn}
           solHoverOut={solHoverOut}
           scroll={scroll}
-          productMount={productMount}
         />
 
       ) : null}
@@ -207,7 +197,6 @@ export const ProductsNavbar = ({ scroll }) => {
           solResIn={solResIn}
           solResOut={solResOut}
           scroll={scroll}
-          productMount={productMount}
         />
       ) : null}
 
@@ -216,7 +205,6 @@ export const ProductsNavbar = ({ scroll }) => {
           solFeaIn={solFeaIn}
           solFeaOut={solFeaOut}
           scroll={scroll}
-          productMount={productMount}
         />
 
       ) : null}
@@ -226,7 +214,6 @@ export const ProductsNavbar = ({ scroll }) => {
           solDeskIn={solDeskIn}
           solDeskOut={solDeskOut}
           scroll={scroll}
-          productMount={productMount}
         />
 
       ) : null}
