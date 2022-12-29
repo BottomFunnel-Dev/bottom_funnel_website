@@ -115,4 +115,11 @@
     font-size: 14px;
   }
   
-  
+  .hoveringDiv{
+    /* border: 2px solid red; */
+    padding: 0%;
+  }
+  .productLogoImages{
+    margin-top: -30%;
+    /* border: 2px solid yellow; */
+  }

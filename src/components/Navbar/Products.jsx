@@ -66,9 +66,9 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                       style={{width:"90px",height:"60px"}}
                     />
                   </div>
-                  <Link onClick={serHoverOut} to={item.path} className="productlinkP" style={{width:"100%",marginLeft:"15%",marginTop:"5%"}}>
+                  <Link onClick={serHoverOut} to={item.path} className="productlinkP" style={{width:"100%",marginLeft:"10%",marginTop:"0%"}}>
                     <p style={{fontWeight:"500",fontSize:"14px"}}>{item.dropContent}</p>
-                    <p style={{fontSize:"12px"}}>{item.title}</p>
+                    <p style={{fontSize:"11px"}}>{item.title}</p>
                   </Link>
                 </div>
               ))}
@@ -96,9 +96,9 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                       style={{width:"90px",height:"60px"}}
                     />
                   </div>
-                  <Link onClick={serHoverOut} to={item.path} className="productlinkP" style={{width:"100%",marginLeft:"15%",marginTop:"5%"}}>
+                  <Link onClick={serHoverOut} to={item.path} className="productlinkP" style={{width:"100%",marginLeft:"10%",marginTop:"0%"}}>
                     <p style={{fontWeight:"500",fontSize:"14px"}}>{item.dropContent}</p>
-                    <p style={{fontSize:"12px"}}>{item.title}</p>
+                    <p style={{fontSize:"11px"}}>{item.title}</p>
                   </Link>
                 </div>
               ))}
