@@ -1,5 +1,5 @@
 import React from 'react'
-import './ProductSolutions.css'
+import './ProductDesk.css'
 import { Link } from 'react-router-dom'
 import { productDesk } from '../../../Data/Navbar'
 export const ProductDesk = ({ solDeskIn, solDeskOut, scroll, productMount }) => {
@@ -7,12 +7,10 @@ export const ProductDesk = ({ solDeskIn, solDeskOut, scroll, productMount }) => 
     <div
       onMouseEnter={solDeskIn}
       onMouseLeave={solDeskOut}
-      className="serviceVisible"
+      className="productDeskMainDiv"
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" ,top:"15%"}}
     >
-      <div className="industryDropdown">
-        <div className="industryContent">
-          <div className="productSolutionListItems" style={{marginLeft:"8%"}}>
+          <div className="productDeskListItems" style={{width:"100%",height:"300px"}}>
             {productDesk.map((item, i) => (
               <div
                 key={i}
@@ -20,29 +18,20 @@ export const ProductDesk = ({ solDeskIn, solDeskOut, scroll, productMount }) => 
                   navigate(`/${item.path}`);
                   solHoverOut();
                 }}
-                className="productSolutionData"
+                className="productDeskData"
+              
               >
-                {/* <div>
-                  <img
-                    className="iconDivSection"
-                    src={item.navIcons}
-                    alt=""
-                  />
-                </div> */}
                 <Link
                   onClick={solDeskOut}
                   to={item.path}
-                  className="linkP"
+                  className="productlinkP"
                 >
-                  <h5>{item.dropContent}</h5>
+                  <h6>{item.dropContent}</h6>
                   <p>{item.productText1}</p>
-                  {/* <p>{item.productText2}</p> */}
                 </Link>
               </div>
             ))}
           </div>
         </div>
-      </div>
-    </div>
   )
 }

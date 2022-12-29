@@ -1,0 +1,51 @@
+.productDeskMainDiv{
+    display: flex;
+    background-color: white;
+    width: 16%;
+    height: 320px;
+    position: fixed;
+    top: 50px;
+    left: 28%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 100000000;
+    /* border: 2px solid; */
+    text-align: center;
+}
+.productDeskListItems {
+    width: 38%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    justify-content: center;
+  }
+  
+  .productDeskListItems > p {
+    margin: 0;
+    width: 49%;
+    list-style: none !important;
+    text-decoration: none !important;
+  }
+  .productlinkP {
+    text-decoration: none;
+    /* border: 2px solid red; */
+    width: 80%;
+  }
+  
+  .productlinkP h6 {
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid red; */
+  }
+ .productDeskData{
+    height: 90px;
+    padding: 10px;
+    border-bottom: 1px solid #d9d9d9;
+    /* border: 2px solid ; */
+ }
+ .productDeskData:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ .productDeskData:last-child{
+    border-bottom: none;
+ }

@@ -7,12 +7,10 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll, productMount
     <div
       onMouseEnter={solHoverIn}
       onMouseLeave={solHoverOut}
-      className="serviceVisible"
+      className="productSolutionsMainDiv"
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" ,top:"15%"}}
     >
-      <div className="industryDropdown">
-        <div className="industryContent">
-          <div className="productSolutionListItems" style={{marginLeft:"80%"}}>
+          <div className="productSolutionsListItems" style={{width:"100%",height:"300px"}}>
             {productSolution.map((item, i) => (
               <div
                 key={i}
@@ -20,21 +18,15 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll, productMount
                   navigate(`/${item.path}`);
                   solHoverOut();
                 }}
-                className="productSolutionData"
+                className="productSolutionsData"
+              
               >
-                {/* <div>
-                  <img
-                    className="iconDivSection"
-                    src={item.navIcons}
-                    alt=""
-                  />
-                </div> */}
                 <Link
                   onClick={solHoverOut}
                   to={item.path}
-                  className="linkP"
+                  className="productlinkP"
                 >
-                  <h5>{item.dropContent}</h5>
+                  <h6>{item.dropContent}</h6>
                   <p>{item.productText1}</p>
                   <p>{item.productText2}</p>
                 </Link>
@@ -42,7 +34,5 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll, productMount
             ))}
           </div>
         </div>
-      </div>
-    </div>
   )
 }

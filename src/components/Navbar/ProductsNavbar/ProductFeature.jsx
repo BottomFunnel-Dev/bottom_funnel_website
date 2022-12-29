@@ -1,5 +1,5 @@
 import React from 'react'
-import './ProductSolutions.css'
+import './ProductFeature.css'
 import { Link } from 'react-router-dom'
 import { productFeatures } from '../../../Data/Navbar'
 export const ProductFeature = ({ solFeaIn, solFeaOut, scroll, productMount }) => {
@@ -7,12 +7,10 @@ export const ProductFeature = ({ solFeaIn, solFeaOut, scroll, productMount }) =>
     <div
       onMouseEnter={solFeaIn}
       onMouseLeave={solFeaOut}
-      className="serviceVisible"
+      className="productFeatureMainDiv"
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" ,top:"15%"}}
     >
-      <div className="industryDropdown">
-        <div className="industryContent">
-          <div className="productSolutionListItems">
+          <div className="productFeatureListItems" style={{width:"100%",height:"300px"}}>
             {productFeatures.map((item, i) => (
               <div
                 key={i}
@@ -20,21 +18,21 @@ export const ProductFeature = ({ solFeaIn, solFeaOut, scroll, productMount }) =>
                   navigate(`/${item.path}`);
                   solHoverOut();
                 }}
-                className="productSolutionData"
+                className="productFeatureData"
+              
               >
-
                 <Link
                   onClick={solFeaOut}
                   to={item.path}
-                  className="linkP"
+                  className="productlinkP"
                 >
-                  <p style={{marginTop:"5%"}}>{item.dropContent}</p>
+                  <p>{item.dropContent}</p>
+                  {/* <p>{item.productText1}</p> */}
                 </Link>
               </div>
             ))}
           </div>
         </div>
-      </div>
-    </div>
   )
 }
+

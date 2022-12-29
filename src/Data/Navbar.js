@@ -1128,7 +1128,7 @@ export const productDesk = [
   },
   {
     dropContent: "Contact Center",
-    productText1:"A reliable and smart call center solution for effortless customer experience",
+    productText1:"A reliable and smart call center solution for effortless experience",
     productText2:"Field Service",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
   },
