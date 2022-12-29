@@ -996,7 +996,7 @@ export const product2 = [
     productHover: "#d6ffe8",
   },
   {
-    dropContent: "Bottom Funnel Contact Management",
+    dropContent: "Bottom Funnel Contact Center",
     navIcons: "Images/navbar/product/contact.png",
     path: "ContactManagement",
     title: "Delight Your Customer With Effortless Omnichannel Service",
@@ -1059,11 +1059,6 @@ export const product4 = [
     dropContent: "Developer Portal",
     navIcons: "Images/navbar/product/dveloper.png",
     path: "Portal",
-  },
-  {
-    dropContent: "Technology Alliance",
-    navIcons: "Images/navbar/product/Technology.png",
-    path: "Alliance",
   },
   {
     dropContent: "Customer Spotlight",

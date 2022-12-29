@@ -6,7 +6,7 @@ import Beautysection from "./components/Beautyandcare/Beautysection";
 import Cannabis from "./components/CannabisPage/Cannabis";
 import Dating from "./components/Dating/Dating";
 import { EcommerceComPage } from "./components/EcommerceCom/EcommerceComPage";
-import Educationpage from "./components/education/Educationpage";
+import {Education} from "./components/Education/Education";
 import { Fitness } from "./components/Fitness/Fitness";
 import { FlutterAppDevelopment } from "./components/FlutterAppDevelopment/FlutterAppDevelopment";
 import { FoodDelivery } from "./components/food-delivery/FoodDeliveryPage";
@@ -317,7 +317,7 @@ export const ALLroutes = () => {
       <Route path="/digitalmarketing" element={<SeoDm />} />
       <Route path="/emailservices" element={<SeoEmail />} />
       <Route path="/food-delivery" element={<FoodDelivery />} />
-      <Route path="/education" element={<Educationpage />} />
+      <Route path="/education" element={<Education/>}/>
       <Route path="/fitness" element={<Fitness />} />
       <Route path="/ecommerce" element={<EcommerceComPage />} />
       <Route path="/gameDevelopment" element={<GameDevelopment />} />
