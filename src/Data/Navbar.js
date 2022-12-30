@@ -1132,6 +1132,13 @@ export const productDesk = [
     productText2: "Travel & Hospitality",
     navIcons: "Images/Logos/funnel-desk/omnichannel.png",
   },
+  {
+    dropContent: "Customer Sucess",
+    productText1:
+      "Product revenue, increase customer lifetime value, and strengthen customer relationship.",
+    productText2: "Travel & Hospitality",
+    navIcons: "Images/Logos/funnel-desk/customer-sucess.png",
+  },
 ];
 
 export const productFeatures = [
