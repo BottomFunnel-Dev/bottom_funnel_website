@@ -1,0 +1,172 @@
+.retailsimplementmainboxesspecialtype{
+    display: flex;
+    height: fit-content;
+
+
+}
+
+.retialssimpleimplementleftfixbox{
+     height: 300px;
+    width: 25%;
+     margin: 5% 2% 0% 5%;
+
+}
+
+
+.retialssimpleimplementleftfixbox >ul >li{
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    height: fit-content;
+    padding: 10px;
+
+    border-radius: 10px;
+    text-align: left;
+}
+
+.retialssimpleimplementleftfixbox >ul >li:hover{
+
+    border: 1px solid #ef4c23;
+}
+
+
+
+.retilsimplementrightboxflexing{
+    width: 70%;
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+.retialssimpleimplementrightfixbox{
+    width: 70%;
+
+    height: fit-content;
+    margin-top: 7%;
+}
+
+.retailimplementflexboxinnerflexone{
+    display: flex;
+}
+
+.retailimplementflexboxinnerflexoneleft{
+    width: 60%;
+
+    
+
+}
+
+.retailimplementflexboxinnerflexoneleft >p{
+    font-size: 17px;
+    text-align: justify;
+}
+
+.retailimplementflexboxinnerflexoneright{
+    width: 38%;
+    margin-left: 2%;
+    height: 350px;
+
+  
+}
+
+.retailimplementflexboxinnerflexoneright >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
+}
+
+
+.disapperarboxtxt{
+    width: 100%;
+ height:600px;
+ 
+position: relative;
+    background-color: #f5f5f5;
+}
+
+.disappearboxtxtparagraph{
+    width: 60%;
+    margin: 7% 5% 5% 31%;
+    text-align: justify;
+    position: absolute;
+    
+}
+
+.disappearboxtxtparagraph >p{
+    font-size: 17px;
+}
+
+.disapperarboxtxt >h1{
+    margin-left: 31%;
+    margin-top: 3%;
+    position: absolute;
+}
+
+.takeadvantagecrm{
+height: fit-content;
+margin-left: 31%;
+margin-right: 5%;
+margin-top: 5%;
+
+}
+
+.takeadvantagecrm >p{
+    text-align: justify;
+    font-size: 17px;
+    margin-top: 3%;
+}
+
+.takeadvantagecrm >ul>li{
+    font-size: 20px;
+}
+
+.takeadvantagescreenimages{
+    width: 65%;
+    margin-left: 31%;
+   
+    height: 500px;
+    margin-top: 5%;
+}
+
+.takeadvantagescreenimages >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.retailimplementflexboxinnerflextwo{
+    display: flex;
+    width: 60%;
+    margin-left: 31%;
+    margin-top: 3%;
+}
+
+.retailimplementflexboxinnerflextwoleft{
+    width: 60%;
+
+    
+
+}
+
+.retailimplementflexboxinnerflextwoleft >p{
+    font-size: 17px;
+    text-align: justify;
+}
+
+.retailimplementflexboxinnerflextworight{
+    width: 38%;
+    margin-left: 2%;
+    height: 350px;
+
+  
+}
+
+.retailimplementflexboxinnerflextworight >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
+}

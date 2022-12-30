@@ -1,0 +1,42 @@
+.cpqspeedupmainboxes{
+    height: fit-content;
+
+}
+
+.cpqspeedupmainboxes >h1{
+    font-weight: 700;
+    text-align: center;
+}
+
+.cpqspeedupmappingbox{
+    height: 500px;
+    width: 90%;
+    margin: 5% 5% 0% 5%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cpqspeedupmappingboxindivisuallybox{
+    width: 30%;
+    height: 45%;
+    margin: 1%;
+padding: 10px;
+}
+
+.cpqspeedupmappingboxindivisuallybox:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.02);
+}
+.cpqspeedupmappingboxindivisuallyboximg{
+    height: 30%;
+    width: 20%;
+
+}
+
+.cpqspeedupmappingboxindivisuallyboximg >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 5px;
+}

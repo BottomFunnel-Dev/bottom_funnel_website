@@ -6,7 +6,7 @@ import Beautysection from "./components/Beautyandcare/Beautysection";
 import Cannabis from "./components/CannabisPage/Cannabis";
 import Dating from "./components/Dating/Dating";
 import { EcommerceComPage } from "./components/EcommerceCom/EcommerceComPage";
-import {Education} from "./components/Education/Education";
+import { Education } from "./components/Education/Education";
 import { Fitness } from "./components/Fitness/Fitness";
 import { FlutterAppDevelopment } from "./components/FlutterAppDevelopment/FlutterAppDevelopment";
 import { FoodDelivery } from "./components/food-delivery/FoodDeliveryPage";
@@ -176,17 +176,19 @@ import { Ticketing } from "../src/components/Ticketing/Ticketing";
 import { ApplyTalent } from "./components/Apply-Talent/ApplyTalent";
 import { SelfService } from "./components/SelfService/SelfService";
 import { FieldServiceManagement } from "./components/FieldServiceManagement/FieldServiceManagement";
-import {ContactManagement} from "./components/ContactManagement/ContactManagement";
+import { ContactManagement } from "./components/ContactManagement/ContactManagement";
 import { Manufacturing } from "./components/Manufacturing/Manufacturing";
-import {SalesPage} from "./components/SalesPage/SalesPage";
+import { SalesPage } from "./components/SalesPage/SalesPage";
 import { HelpDesk } from "./components/HelpDesk/HelpDesk";
 import { RetailEcommerce } from "./components/RetailAndEcommerce/RetailEcommerce";
 import { RealEstateSales } from "./components/RealEstateSales/RealEstateSales";
 import { TrendingTechnologies } from "./components/TrendingTechnology/TrendingTechnologies";
 import { CloudTelephony } from "./components/CloudTelephony/CloudTelephony";
 import { SaaSHomePage } from "./components/SaaSHomePage/SaaSHomePage";
-import {InsuranceSales} from "./components/InsuranceSales/InsuranceSales";
-import {HotelHospitility} from "./components/HotelHospitility/HotelHospitility";
+import { InsuranceSales } from "./components/InsuranceSales/InsuranceSales";
+import { HotelHospitility } from "./components/HotelHospitility/HotelHospitility";
+import { Cpq } from "./components/CPQ/Cpq";
+import { Retails } from "./components/Retails/Retails";
 
 export const ALLroutes = () => {
   return (
@@ -317,7 +319,7 @@ export const ALLroutes = () => {
       <Route path="/digitalmarketing" element={<SeoDm />} />
       <Route path="/emailservices" element={<SeoEmail />} />
       <Route path="/food-delivery" element={<FoodDelivery />} />
-      <Route path="/education" element={<Education/>}/>
+      <Route path="/education" element={<Education />} />
       <Route path="/fitness" element={<Fitness />} />
       <Route path="/ecommerce" element={<EcommerceComPage />} />
       <Route path="/gameDevelopment" element={<GameDevelopment />} />
@@ -328,7 +330,7 @@ export const ALLroutes = () => {
       <Route path="/alcohol" element={<AlcoholDeliveryPage />} />
       <Route path="/cannabis" element={<Cannabis />} />
       <Route path="/Icecream" element={<Icecream />} />
-      <Route path="/Products" element={ <ProductsNewPage/> } />
+      <Route path="/Products" element={<ProductsNewPage />} />
       <Route path="/newProductPage" element={<Products />} />
       <Route path="/eScooter" element={<Escooter />} />
       {/* <Route path="/taxi-booking" element={<Taxibooking />} /> */}
@@ -439,29 +441,32 @@ export const ALLroutes = () => {
       <Route path="/real-Estate" element={<RealEstate />} />
       <Route path="/hire-new-talent" element={<Hireatalent />} />
 
-      <Route path="/real-Estate" element={ <RealEstate/> } />
-      <Route path="/hire-new-talent" element={<Hireatalent/>}/>
-      
-      <Route path="/Collaboration" element={<CollaborationPage/>}/> 
-      <Route path="/ticketing" element={<Ticketing/>}/>
-      <Route path="/self-service" element={ <SelfService/> }/>
-      {/* <Route path="/productHomepage" element={<ProductsNewPage/>}/> */}
-      <Route path="/ContactManagement" element={<ContactManagement/>}/>
-      <Route path="/manufacturing" element={<Manufacturing/>}/>
+      <Route path="/real-Estate" element={<RealEstate />} />
+      <Route path="/hire-new-talent" element={<Hireatalent />} />
+
       <Route path="/Collaboration" element={<CollaborationPage />} />
       <Route path="/ticketing" element={<Ticketing />} />
-      <Route path="/field-service-management" element={ <FieldServiceManagement /> } />
-      
+      <Route path="/self-service" element={<SelfService />} />
+      {/* <Route path="/productHomepage" element={<ProductsNewPage/>}/> */}
+      <Route path="/ContactManagement" element={<ContactManagement />} />
+      <Route path="/manufacturing" element={<Manufacturing />} />
+      <Route path="/Collaboration" element={<CollaborationPage />} />
+      <Route path="/ticketing" element={<Ticketing />} />
+      <Route path="/field-service-management" element={<FieldServiceManagement />} />
+
       {/* <Route path="/newProductPage" element={ <ProductsNewPage/> } /> */}
-      <Route path="/sales" element={<SalesPage/>}/>
-      <Route path="/helpDesk" element={<HelpDesk/>}/>
-      <Route path="/RetailEcommerce" element={<RetailEcommerce/>}/>
-      <Route path="/RealEstateSales" element={<RealEstateSales/>}/>
-      <Route path="/trendingTech" element={<TrendingTechnologies/>}/>
-      <Route path="/cloudTelephony" element={<CloudTelephony/>}/>
-      <Route path="/saaSHomePage" element={<SaaSHomePage/>}/>
-      <Route path="/insuranceSales" element={<InsuranceSales/>}/>
-      <Route path="/hotelHospitility" element={<HotelHospitility/>}/>
+      <Route path="/sales" element={<SalesPage />} />
+      <Route path="/helpDesk" element={<HelpDesk />} />
+      <Route path="/RetailEcommerce" element={<RetailEcommerce />} />
+      <Route path="/RealEstateSales" element={<RealEstateSales />} />
+      <Route path="/trendingTech" element={<TrendingTechnologies />} />
+      <Route path="/cloudTelephony" element={<CloudTelephony />} />
+      <Route path="/saaSHomePage" element={<SaaSHomePage />} />
+      <Route path="/insuranceSales" element={<InsuranceSales />} />
+      <Route path="/hotelHospitility" element={<HotelHospitility />} />
+      <Route path="/cpq" element={<Cpq />} />
+      <Route path="/retails" element={<Retails />} />
+
     </Routes>
   );
 };
