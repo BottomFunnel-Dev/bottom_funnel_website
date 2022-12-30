@@ -1,37 +1,28 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./productsNavbar.css";
-import { RiArrowDropDownLine } from "react-icons/ri";
-import { IconContext } from "react-icons";
 import { useSelector } from "react-redux";
-import { NavServices } from "../NavServices";
-import { NavIndustries } from "../NavIndustries";
-import { ImageCard } from "../../particularComponents/ImageCardText/ImageCard";
 import { ProductSolutions } from "./ProductSolutions";
 import { ProductResources } from "./ProductResources";
 import { ProductFeature } from "./ProductFeature";
 import { ProductDesk } from "./ProductDesk";
 
 export const ProductsNavbar = ({ scroll }) => {
-
   const navigate = useNavigate();
   const [ProductSolution, setProductSolution] = useState(false);
   const [productfeature, setproductFeature] = useState(false);
-  const[productresource, setproductResource] = useState(false);
+  const [productresource, setproductResource] = useState(false);
   const [productdesk, setproductDesk] = useState(false);
   const [productnavbar, setproductNabvar] = useState(false);
   const navproductredux = useSelector((state) => state.navbar);
 
   const skillProductHoverIn = () => {
-    
-
     setproductNabvar(true);
   };
 
   const skillProductHoverOut = () => {
     setProductSolution(false);
 
-    
     if (window.scrollY == 0) {
       setproductNabvar(false);
     }
@@ -97,23 +88,22 @@ export const ProductsNavbar = ({ scroll }) => {
   };
 
   return (
-    <div className="products-navbar" style={{ top: scroll ? "0" : "65px", background: scroll ? "white" : "transparent" }}>
-
-      {/* {!productMount.navMount && <ContactMain
-        bgcolor={navbar ? "white" : "transparent"}
-        textcolor={!navbar ? navredux.color : "black"}
-      />} */}
-
+    <div
+      className="products-navbar"
+      style={{
+        top: scroll ? "0" : "65px",
+        background: scroll ? "white" : "transparent",
+      }}
+    >
       <div className="deskLogo">
-        {/* <img src="Images/Logos/supportdesk.png" alt="support desk" /> */}
         <h5>Support Desk</h5>
       </div>
-
       <div className="deskList">
         <li
           onMouseEnter={solDeskIn}
           onMouseLeave={solDeskOut}
-          style={{ color: productnavbar ? "black" : navproductredux.color }}>
+          style={{ color: productnavbar ? "black" : navproductredux.color }}
+        >
           Desk Products
           <img
             className="deskdownIcon"
@@ -125,7 +115,8 @@ export const ProductsNavbar = ({ scroll }) => {
         <li
           onMouseEnter={solFeaIn}
           onMouseLeave={solFeaOut}
-          style={{ color: productnavbar ? "black" : navproductredux.color }}>
+          style={{ color: productnavbar ? "black" : navproductredux.color }}
+        >
           Features{" "}
           <img
             className="deskdownIcon"
@@ -154,7 +145,8 @@ export const ProductsNavbar = ({ scroll }) => {
         <li
           onMouseEnter={solHoverIn}
           onMouseLeave={solHoverOut}
-          style={{ color: productnavbar ? "black" : navproductredux.color }}>
+          style={{ color: productnavbar ? "black" : navproductredux.color }}
+        >
           Solutions{" "}
           <img
             className="deskdownIcon"
@@ -166,7 +158,8 @@ export const ProductsNavbar = ({ scroll }) => {
         <li
           onMouseEnter={solResIn}
           onMouseLeave={solResOut}
-          style={{ color: productnavbar ? "black" : navproductredux.color }}>
+          style={{ color: productnavbar ? "black" : navproductredux.color }}
+        >
           Resources{" "}
           <img
             className="deskdownIcon"
@@ -178,9 +171,7 @@ export const ProductsNavbar = ({ scroll }) => {
         <button>Free Trial</button>
       </div>
 
-
       {/* service drop down section code start */}
-
 
       {/* ProductSolutions drop down section code start */}
       {ProductSolution ? (
@@ -189,10 +180,9 @@ export const ProductsNavbar = ({ scroll }) => {
           solHoverOut={solHoverOut}
           scroll={scroll}
         />
-
       ) : null}
 
-{productresource ? (
+      {productresource ? (
         <ProductResources
           solResIn={solResIn}
           solResOut={solResOut}
@@ -200,24 +190,21 @@ export const ProductsNavbar = ({ scroll }) => {
         />
       ) : null}
 
-{productfeature ? (
+      {productfeature ? (
         <ProductFeature
           solFeaIn={solFeaIn}
           solFeaOut={solFeaOut}
           scroll={scroll}
         />
-
       ) : null}
 
-{productdesk ? (
+      {productdesk ? (
         <ProductDesk
           solDeskIn={solDeskIn}
           solDeskOut={solDeskOut}
           scroll={scroll}
         />
-
       ) : null}
-
     </div>
   );
 };

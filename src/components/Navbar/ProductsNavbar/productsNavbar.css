@@ -59,7 +59,8 @@
   color: #ef4c23 !important;
   text-decoration: underline;
   text-decoration-color: #ef4c23;
-  text-underline-offset: 10px; 
+  text-underline-offset: 10px;
+  cursor: pointer;
 }
 
 .deskdownIcon {

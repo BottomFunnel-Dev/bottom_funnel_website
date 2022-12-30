@@ -1113,103 +1113,99 @@ export const productSolution = [
 ];
 
 export const productDesk = [
-
-
   {
     dropContent: "Support Desk",
-    productText1:"A comprehensive helpdesk for exceptional customer service",
-    productText2:"SMB",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    productText1: "A comprehensive helpdesk for exceptional customer service",
+    productText2: "SMB",
+    navIcons: "Images/Logos/funnel-desk/support-desk.png",
   },
   {
     dropContent: "Contact Center",
-    productText1:"A reliable and smart call center solution for effortless experience",
-    productText2:"Field Service",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    productText1:
+      "A reliable and smart call center solution for effortless experience",
+    productText2: "Field Service",
+    navIcons: "Images/Logos/funnel-desk/contact-center.png",
   },
   {
     dropContent: "Omnichannel Suite",
-    productText1:"Delight your customers with effortless omnichannel service",
-    productText2:"Travel & Hospitality",
-    
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    productText1: "Delight your customers with effortless omnichannel service",
+    productText2: "Travel & Hospitality",
+    navIcons: "Images/Logos/funnel-desk/omnichannel.png",
   },
 ];
 
 export const productFeatures = [
-
-
   {
     dropContent: "IT Service Desk",
-    productText1:"A comprehensive helpdesk for exceptional customer service",
-    productText2:"SMB",
+    productText1: "A comprehensive helpdesk for exceptional customer service",
+    productText2: "SMB",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
   },
   {
     dropContent: "Bussiness Teams",
-    productText1:"A reliable and smart call center solution for effortless customer experience",
-    productText2:"Field Service",
+    productText1:
+      "A reliable and smart call center solution for effortless customer experience",
+    productText2: "Field Service",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
   },
   {
     dropContent: "ITSM",
-    productText1:"Delight your customers with effortless omnichannel service",
-    productText2:"Travel & Hospitality",
-    
+    productText1: "Delight your customers with effortless omnichannel service",
+    productText2: "Travel & Hospitality",
+
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
   },
   {
-    dropContent:"ITOM",
+    dropContent: "ITOM",
   },
   {
-    dropContent:"IT Project Management",
+    dropContent: "IT Project Management",
   },
   {
-    dropContent:"IT Assest Management",
+    dropContent: "IT Assest Management",
   },
   {
-    dropContent:"Automation",
+    dropContent: "Automation",
   },
   {
-    dropContent:"Reporting",
+    dropContent: "Reporting",
   },
 ];
 
 export const productResources = [
-
-
   {
     dropContent: "Remote Support",
-    productText1:"A comprehensive helpdesk for exceptional customer service",
-    productText2:"SMB",
+    productText1: "A comprehensive helpdesk for exceptional customer service",
+    productText2: "SMB",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
   },
   {
     dropContent: "Customer Stories",
-    productText1:"A reliable and smart call center solution for effortless customer experience",
-    productText2:"Field Service",
+    productText1:
+      "A reliable and smart call center solution for effortless customer experience",
+    productText2: "Field Service",
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
   },
   {
     dropContent: "Resource Library",
-    productText1:"Delight your customers with effortless omnichannel service",
-    productText2:"Travel & Hospitality",
-    
+    productText1: "Delight your customers with effortless omnichannel service",
+    productText2: "Travel & Hospitality",
+
     navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
   },
   {
-    dropContent:"Webinars",
+    dropContent: "Webinars",
   },
   {
-    dropContent:"Videos",
+    dropContent: "Videos",
   },
   {
-    dropContent:"Free Tools",
+    dropContent: "Free Tools",
   },
   {
-    dropContent:"Academy",
+    dropContent: "Academy",
   },
   {
-    dropContent:"Blog",
+    dropContent: "Blog",
   },
 ];
