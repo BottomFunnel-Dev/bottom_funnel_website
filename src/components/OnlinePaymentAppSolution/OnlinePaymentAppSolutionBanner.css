@@ -2,7 +2,7 @@
     height: 100vh;
  border: 1px solid white;
     background: url("/public/Images/onlinepaymentpage/banner.png");
-    background-size: 50% 80%;
+    background-size:40% 80%;
     background-repeat: no-repeat;
     background-position-x: right;
     margin-top: 120px;
@@ -11,12 +11,22 @@
 
 .onlonepaymentappbannerimageinsidetext{
     height: 30%;
-    width: 40%;
+    width: 45%;
 
     margin-top: 10%;
-    margin-left: 3%;
+    margin-left: 5%;
     text-align: justify;
 }
+
+.onlonepaymentappbannerimageinsidetext>h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.onlonepaymentappbannerimageinsidetext>p{
+    font-size: 18px;
+}
+
 
 .onlinepaymentsolutionbutton{
     padding: 10px 50px;

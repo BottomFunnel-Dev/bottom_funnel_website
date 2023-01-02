@@ -59,8 +59,8 @@
 }
 
 .laundryflexboxno1{
-    height: auto;
-    width: 300px;
+    height: fit-content;
+    width: 30%;
   border-radius: 40px;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
@@ -109,10 +109,12 @@
     text-align: center;
     padding: 10px;
 }
-
+.laundryflexbox1imagetxt {
+    padding: 10px;
+}
 .laundryflexbox1imagetxt2{
 
-text-align: center;
+text-align: justify;
 }
 .laundryflexboximageboxgreentxt{
     text-align: center;
@@ -120,10 +122,11 @@ text-align: center;
 }
 
 .laundryflexboxno2{
-    height: auto;
-    width: 300px;
+    height: fit-content;
+    width: 30%;
   border-radius: 40px;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 
 }
 
@@ -135,11 +138,12 @@ text-align: center;
 }
 
 .laundrycutomermaindiv{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .laundrycustomerflexboxmaindiv{
     display: flex;
+    margin-top: 5%;
 }
 
 .laundryflexboxleftdiv{
@@ -307,6 +311,7 @@ margin-top: -100px;
     position: relative;
    border-radius: 10px;
     padding: 10px;
+    text-align: justify;
   
 }
 

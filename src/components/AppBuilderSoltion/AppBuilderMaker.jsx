@@ -62,7 +62,7 @@ export const AppBuilderMaker = () => {
 <div className='appbuildermakerspecialtypeflexboxtypeA'>
 <div className='appbuildermakerspecialtypeflexboxtypeAfortextA'>
 <h5>Reusability</h5>
-<p>The lego-like blocj architecture of Appy Pie's no-code technology makesit possible to use feature blocks to create fully functional applications. These feature blocks have some common functionalities that can be used and reused to develop more solutions quite effectively
+<p>The lego-like block architecture of Appy Pie's no-code technology makesit possible to use feature blocks to create fully functional applications. These feature blocks have some common functionalities that can be used and reused to develop more solutions quite effectively
 </p>
 </div>
 <div className='appbuildermakerspecialtypeflexboxtypeAforimageA'>
