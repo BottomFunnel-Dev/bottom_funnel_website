@@ -27,7 +27,7 @@ import MainFooter from "../FooterSection/MainFooter";
 export const FunnelDesk = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false, }));
     dispatch(mountNavbar());
     return () => {
       dispatch(unmountNavbar())

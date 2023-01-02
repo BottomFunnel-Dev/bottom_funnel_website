@@ -73,7 +73,11 @@ export const ProductsGrid = () => {
 
         <div className="RGdiv">
           <div className="RGthirdColumnsDivHead">
-            <p className="RGtitlePTagThirdCols">Bottom Funnel Contact centre</p>
+            <p className="RGtitlePTagThirdCols"
+                onClick={() => {
+                navigate("/ContactManagement");
+              }}
+            >Bottom Funnel Contact centre</p>
           </div>
           <p className="RGeffortlessParagraph">
             Delight your customer with effortless Contact centre
@@ -103,7 +107,12 @@ export const ProductsGrid = () => {
 
         <div className="RGdiv">
           <div className="RGsecondColumnsDivHead">
-            <p className="RGtitlePTagSecondCols ">Bottom Funnel sales</p>
+            <p className="RGtitlePTagSecondCols" 
+                onClick={() => {
+                navigate("/sales");
+              }}
+              >
+                Bottom Funnel sales</p>
           </div>
           <p className="RGeffortlessParagraph">
             Delight your customer with effortless sales
