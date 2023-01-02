@@ -1,0 +1,99 @@
+
+.ott-Features-Heading {
+    color: white;
+    text-align: center;
+}
+
+.ott-Features-Heading > p  {
+    width: 25%;
+    margin: auto;
+} 
+
+.ott-features-main {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+    height: 300px; 
+    width: 90%;
+    margin: auto 10%;
+ 
+    
+}
+
+
+.ott-features-cards-div {
+    width: 30%;
+    height: fit-content;
+    color: white;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    margin: auto;
+    
+}
+
+.ott-features-img-para-combo {
+    display: flex;
+   gap: 20px;
+   align-items: center;
+}
+
+.ott-features-para-div {
+    width: 75%;
+}
+.ott-features-img-para-combo > img {
+   width: 7%;
+   height: 30px;
+}
+
+.ott-features-banner {
+    /* border: 5px solid red; */
+    margin-top: 50px;
+    height: 220px;
+    position: relative;
+
+}
+
+.ott-features-banner > img {
+   width: 100%;
+   height: 220px;
+    object-fit:cover;
+} 
+
+.ott-fetures-bannel-text-button-div {
+    position: absolute;
+    color: black;
+   top: 15%;
+    left: 30%;
+}
+
+.ott-fetures-bannel-text-button-div > h2 {
+    width: 70%;
+    /* border: 1px solid red; */
+    text-align: center;
+    
+}
+
+.ott-fetures-bannel-text-button-div > button {
+   
+    position: absolute;
+    left: 22%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 50px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 2% auto;
+    background: #ef4c23;
+    cursor: pointer;
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid #ef4c23;
+    color: white;
+}
+
+.ott-fetures-bannel-text-button-div > button:hover{
+    color: #ef4c23;
+    background-color: white;
+}
+

@@ -189,6 +189,7 @@ import { InsuranceSales } from "./components/InsuranceSales/InsuranceSales";
 import { HotelHospitility } from "./components/HotelHospitility/HotelHospitility";
 import { Cpq } from "./components/CPQ/Cpq";
 import { Retails } from "./components/Retails/Retails";
+import { OttApp } from "./components/Ott-App-Page/OttApp";
 
 export const ALLroutes = () => {
   return (
@@ -466,7 +467,7 @@ export const ALLroutes = () => {
       <Route path="/hotelHospitility" element={<HotelHospitility />} />
       <Route path="/cpq" element={<Cpq />} />
       <Route path="/retails" element={<Retails />} />
-
+      <Route path="/ott" element={<OttApp/>}/>
     </Routes>
   );
 };

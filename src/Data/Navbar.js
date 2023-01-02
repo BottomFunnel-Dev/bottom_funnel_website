@@ -318,7 +318,7 @@ export const industries = [
   {
     dropContent: "IOT Development",
     navIcons: "Images/navbar/industriesImage/iot.png",
-    path: "",
+    path: "internet-of-things",
   },
   {
     dropContent: "Fitness",

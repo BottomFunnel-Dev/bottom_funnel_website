@@ -61,15 +61,15 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
       {sidetoggle === "Technologies" && (
         <div className="dropdownSection">
           <div className="serviceDropdownContent">
-            <h5
-              className="noStyleMain"
-              onClick={() => {
-                navigate(`web-development`);
-                serHoverOut();
-              }}
-            >
-              Web Development
-            </h5>
+            <Link to="web-development" className="noStyle">
+              <h5
+                onClick={() => {
+                  serHoverOut();
+                }}
+              >
+                Web Development
+              </h5>
+            </Link>
 
             <div className="listItems">
               {webservice.map((item, i) => (
@@ -96,7 +96,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
             </div>
           </div>
           <div className="serviceDropdownContent">
-            <h5
+            {/* <h5
               className="noStyle"
               onClick={() => {
                 navigate(`/mobile-app-development`);
@@ -104,7 +104,16 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
               }}
             >
               Mobile App Development
-            </h5>
+            </h5> */}
+            <Link to="mobile-app-development" className="noStyle">
+              <h5
+                onClick={() => {
+                  serHoverOut();
+                }}
+              >
+                Mobile App Development
+              </h5>
+            </Link>
 
             <div className="listItems">
               {appservice.map((item, i) => (

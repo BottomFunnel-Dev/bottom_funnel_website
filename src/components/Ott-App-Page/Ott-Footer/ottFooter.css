@@ -1,0 +1,46 @@
+
+.ott-Footer-Heading {
+    color: white;
+    text-align: center;
+}
+
+.ott-Footer-Heading > p  {
+    width: 25%;
+    margin: auto;
+} 
+
+.ott-Footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+    height: 300px; 
+    width: 90%;
+    margin: auto 10%;
+ 
+    
+}
+
+
+.ott-Footer-cards-div {
+    width: 30%;
+    height: fit-content;
+    color: white;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    margin: auto;
+    
+}
+
+.ott-Footer-img-para-combo {
+    display: flex;
+   gap: 20px;
+   align-items: center;
+}
+
+.ott-Footer-para-div {
+    width: 75%;
+}
+.ott-Footer-img-para-combo > img {
+   width: 7%;
+   height: 30px;
+}

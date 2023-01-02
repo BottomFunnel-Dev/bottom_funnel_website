@@ -1,0 +1,94 @@
+
+.ott-solutions-Heading {
+    color: white;
+    text-align: center;
+}
+
+.ott-App-Container{
+    margin-top: 5%;
+    display: flex;
+    /* border: 1px solid green; */
+}
+
+
+.ott-app-left-div{
+    height: 600px;
+    width:30%;
+   /* border: 1px solid green; */
+    background: url("/public//Images//ott-app/Rectangle182361.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+}
+
+.ott-app-left-div-Frame-For-Images{
+  width: 100%;
+  height: 570px;
+  /* border: 1px solid red; */
+  justify-content: center;
+  margin-left: 20px;
+  display: flex; 
+}
+
+.ott-app-left-div-Frame-For-Images > img {
+    width: fit-content;
+    height: 570px;
+}
+
+
+.ott-app-right-div {
+    display: flex;
+    flex-wrap:wrap;
+    row-gap: 20px;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    /* border: 1px solid green; */
+    margin-bottom: 200px;
+}
+
+.ott-app-right-div-For-cards{
+    height: fit-content;
+    width:35%;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid #ec8b73; */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.ott-app-right-div-For-cards:hover {
+    transform: scale(1.02);
+    background-color: #ffebef;
+}
+
+.ott-app-right-div-heading {
+    color: white;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+
+.ott-app-right-div-heading > p {
+    font-size: 18px;
+    /* border: 1px solid red; */
+}
+
+.ott-app-right-div-For-cards > h3{
+    color: red;
+
+
+}
+
+.ott-app-right-div-For-cards > p{
+   font-size: 18px;
+   /* border: 1px solid green; */
+}
+
+
+
+

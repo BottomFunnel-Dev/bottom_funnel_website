@@ -1,0 +1,215 @@
+.testdiv {
+    /* border: 1px solid green; */
+    position: relative;
+}
+
+.ott-Header-Container-Main {
+    background: rgb(38, 2, 50);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 0 5% 0;
+    position: relative;
+}
+
+.ott-Header-Left-Div {
+    width: 45%;
+    height: 600px;
+    /* border: 1px solid blue; */
+    display: flex;
+  
+   
+}
+
+.ott-Header-Left-Text-Div > h1 {
+    font-size: 45px;
+    /* border: 1px solid red; */
+    color: white;
+    width: 90%; 
+}
+
+
+
+.ott-Header-Left-Text-Div > p {
+    font-size: 20px;
+    width: 90%;
+    color: white;
+   
+} 
+
+.ott-Header-Left-Text-Div {
+    /* border: 2px solid green; */
+    width: 90%;
+    margin: auto;
+    padding-bottom: 7%;
+    
+}
+.ott-header-button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 50px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 2% auto;
+    background: #ef4c23;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid #ef4c23;
+    color: white;
+    margin-top: 4%;
+}
+
+.ott-header-button:hover{
+    color: #ef4c23;
+    background-color: white;
+}
+
+/* Right Part below */
+
+.ott-Header-Right-Div {
+    width: 55%;
+    height: 600px;
+    display: flex;
+    position: relative;
+
+}
+
+.ott-Header-Right-frame-for-Image {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    /* border: 1px solid blue; */
+    background: url(/public//Images/ott-app/Desktop-\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.ott-Header-Right-Images-Div > .ott-Header-Right-img1 {
+    width: 42%;    
+    position: absolute;
+   bottom: 2%;
+}
+
+.ott-Header-Right-Images-Div > .ott-Header-Right-img2 {
+    width: 30%;    
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    z-index: 1;
+    
+}
+
+.ott-Header-Right-Images-Div > .ott-Header-Right-img3 {
+    width: 33%;    
+    position: absolute;
+    bottom: 0;
+   right: 0%;
+   
+}
+
+/* service component */
+
+.ott-Services-Container {
+    background-color: rgb(14, 13, 13);
+    height:600px;   
+}
+
+.ott-Services-Container-2 {
+  width: 90%;
+    margin: auto;
+    background: white;
+    height: 620px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+
+
+.ott-Services-Title-Div {
+   width: 50%;
+   margin: auto ;
+   text-align: center;
+   padding-top: 1%;
+}
+
+.ott-Services-Content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+   margin-top: 3%;
+}
+
+.ott-Services-Boxes-Div {
+    width: 30%;
+    
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.ott-Services-div-For-Flex-icon-Head {
+    display: flex;
+   width: 90%;
+    justify-content: space-between;
+    text-align: center;
+  
+
+
+}
+
+.ott-Services-div-For-Flex-icon-Head > div > img {
+    width: 70%;
+}
+
+.ott-Services-div-For-Flex-icon-Head > div > h3 {
+    font-size: 20px;
+}
+
+
+.ott-Services-lorem-para {
+    /* border: 1px solid red; */
+width: 95%;
+margin: auto;
+font-size: 18px;
+
+}
+
+.ott-Services-button {
+   position: absolute;
+   bottom: 0;
+   left: 37%;
+}
+
+
+.ott-Services-button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 50px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 2% auto;
+    background: #ef4c23;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid #ef4c23;
+    color: white;
+  
+}
+
+.ott-Services-button:hover{
+    color: #ef4c23;
+    background-color: white;
+}
+
