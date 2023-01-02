@@ -1,0 +1,51 @@
+.hotelhospitilitytrackmainbox{
+    height: fit-content;
+margin-bottom: 3%;
+
+    width: 90%;
+    margin: auto;
+}
+
+.hotelhospitilitytrackboxforimage{
+    height: 90%;
+    margin: 3% 5% 3% 5% ;
+
+    height: 500px;
+}
+
+.hotelhospitilitytrackboxforimage >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.hotelhospitcustmerargue{
+    width: 60%;
+    margin: auto;
+}
+
+.hotelhospitcustmerarguebox{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 350px;
+    width: 100%;
+    margin-top: 3%;
+    position: relative;
+}
+.hotelhospitcustmerargueboxinnertext{
+ position: absolute;
+padding: 40px;
+   
+
+}
+
+.hotelhospitcustmerargueboxinnertext >hr{
+    width: 220px;
+    margin-left: 35%;
+}
+
+.hotelhospitcustmerargueboxinnertext >h3{
+    text-align: center;
+}
+.hotelhospitcustmerargueboxinnertext >p{
+    text-align: center;
+}

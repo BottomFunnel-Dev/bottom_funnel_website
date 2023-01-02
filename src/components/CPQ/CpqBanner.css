@@ -1,0 +1,54 @@
+.cpqbannermainboxes{
+    height: 100vh;
+    border: 1px solid white;
+    background: url("/public/Images/CPQ/BANNER IMG.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-color: #f5f5f5;
+}
+
+.cpqbannersometextbox{
+    height: fit-content;
+    width: 50%;
+
+    margin-left: 45%;
+    margin-top: 14%;
+}
+
+.cpqbannersometextbox >h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.cpqbannersometextbox>p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+
+.cpqbannersignupbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: fit-content;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  margin-top: 5%;
+}
+
+.cpqbannersignupbutton:nth-child(2n){
+    margin-left: 2%;
+}
+
+.cpqbannersignupbutton:hover {
+
+    background-color:white;
+    color:  #ef4c23;
+
+}

@@ -1,0 +1,39 @@
+.hotelhospitilitybannermainboxes{
+    height: 100vh;
+    border: 1px solid white;
+    background: url("/public/Images/hotels\ and\ hospitality/Group 1000003721.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.hospitalitybannersometextbox{
+    height: fit-content;
+
+    width: 40%;
+    margin-top: 18%;
+    margin-left: 5%;
+    color: white;
+}
+
+.hospitilitybannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 3%;
+    
+  
+}
+
+.hospitilitybannerbutton:hover {
+
+    background-color:white;
+    color:  #ef4c23;
+
+}

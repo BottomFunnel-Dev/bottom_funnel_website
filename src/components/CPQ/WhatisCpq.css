@@ -1,0 +1,93 @@
+.whatiscpqmainboxes{
+    height: fit-content;
+
+    margin-top: 3%;
+}
+
+.whatiscpqflexboxupper{
+    display: flex;
+    height: fit-content;
+}
+
+.whatiscpqleftbox{
+    width: 30%;
+    margin-left: 5%;
+
+    margin-top: 3%;
+}
+
+.whatiscpqleftbox >h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.whatiscpqrightbox{
+    width: 60%;
+    margin: 0% 5% 0% 1%;
+    text-align: justify;
+
+    border-left: 1px solid;
+}
+.whatiscpqrightbox>p{
+    margin-left: 3%;
+    font-size: 20px;
+}
+
+.whatiscpqsometextboxheader{
+    height: fit-content;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.whatiscpqinnerimageandouterimages{
+    height: 500px;
+    width: 70%;
+ padding: 20px;
+    margin: 2% 15% 0% 15% ;
+    background-image: url("/public/Images/CPQ/Ellipse 52.png");
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-image: 100% 100%;
+}
+
+.whatiscpqouterimageonlyboxes{
+    width: 60%;
+    height: 80%;
+   
+    margin: 2% 18% 5% 18% ;
+}
+
+.whatiscpqouterimageonlyboxes >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.cpqwhatisstatemanagementbox{
+    height: fit-content;
+    width: 95%;
+   margin-right: 3%;
+  margin-left: 3%;
+    display: flex;
+}
+
+.cpqwhatisindivisuallydatamappingbox{
+    width: 45%;
+   height: 20%;
+   margin: 5%;
+   padding: 10px;
+
+}
+.whatiscpqmappingboxh3{
+    border-bottom: 2px solid #ef4c23;
+}
+
+.cpqwhatisindivisuallydatamappingbox>p{
+    text-align: justify;
+  
+    margin-top: 5%;
+}
+
+.whatiscpqmappingboxh3:hover{
+    border-bottom: 4px solid #ef4c23;
+}

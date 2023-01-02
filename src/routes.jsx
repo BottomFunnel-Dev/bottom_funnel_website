@@ -6,7 +6,7 @@ import Beautysection from "./components/Beautyandcare/Beautysection";
 import Cannabis from "./components/CannabisPage/Cannabis";
 import Dating from "./components/Dating/Dating";
 import { EcommerceComPage } from "./components/EcommerceCom/EcommerceComPage";
-import Educationpage from "./components/education/Educationpage";
+
 import { Fitness } from "./components/Fitness/Fitness";
 import { FlutterAppDevelopment } from "./components/FlutterAppDevelopment/FlutterAppDevelopment";
 import { FoodDelivery } from "./components/food-delivery/FoodDeliveryPage";
@@ -175,6 +175,12 @@ import { Manufacturing } from "./components/Manufacturing/Manufacturing";
 
 import { HelpDesk } from "./components/HelpDesk/HelpDesk";
 import { RetailEcommerce } from "./components/RetailAndEcommerce/RetailEcommerce";
+import { CloudTelephony } from "./components/CloudTelephony/CloudTelephony";
+import { TrendingTechnologies } from "./components/TrendingTechnology/TrendingTechnologies";
+import { HotelHospitility } from "./components/HotelHospitility/HotelHospitility";
+import { Education } from "./components/Education/Education";
+import { Cpq } from "./components/CPQ/Cpq";
+import { Retails } from "./components/Retails/Retails";
 
 
 
@@ -307,7 +313,7 @@ export const ALLroutes = () => {
       <Route path="/digitalmarketing" element={<SeoDm />} />
       <Route path="/emailservices" element={<SeoEmail />} />
       <Route path="/food-delivery" element={<FoodDelivery />} />
-      <Route path="/education" element={<Educationpage />} />
+  
       <Route path="/fitness" element={<Fitness />} />
       <Route path="/ecommerce" element={<EcommerceComPage />} />
       <Route path="/gameDevelopment" element={<GameDevelopment />} />
@@ -430,6 +436,12 @@ export const ALLroutes = () => {
       <Route path="/manufacturing" element={<Manufacturing />} />
       <Route path="/helpdesk" element={<HelpDesk />} />
       <Route path="/retal&ecommerce" element={<RetailEcommerce />} />
+      <Route path="/cloudtelephony" element={<CloudTelephony />} />
+      <Route path="/trendingtechnologies" element={<TrendingTechnologies />} />
+    <Route path="/hotel-and-hospitility" element={<HotelHospitility />} />
+    <Route path="/education" element={<Education />} />
+    <Route path="/cpq" element={<Cpq />} />
+    <Route path="/retails" element={<Retails />} />
     </Routes>
   );
 };

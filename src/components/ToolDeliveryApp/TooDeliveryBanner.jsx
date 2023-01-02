@@ -4,14 +4,12 @@ import "./ToolDelivery.css";
 const TooDeliveryBanner = () => {
   return (
     <div
-      style={{
-        marginTop: "10%",
-      }}
+    
       className="tdtooldeliverycontainer"
     >
       <div className="txtooldeliverysubcontainer">
         <div className="tdtooldeliveryleft">
-          <div>
+          <div className="tdtooldeliverysometxtbox">
             <h1>On-Demand</h1>
             <h2>Tool Delivery Solution</h2>
             <p>

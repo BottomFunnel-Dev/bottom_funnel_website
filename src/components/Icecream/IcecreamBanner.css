@@ -1,8 +1,6 @@
 .icecreambannermainboxes{
     height: 100vh;
-
-
-    background: url("/public/Images/icecreamchanges/Banner/Component 114.png");
+     background: url("/public/Images/icecreamchanges/Banner/Component 114.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;
@@ -12,9 +10,22 @@
 .icreambannersometextbox{
     height: fit-content;
     width: 50%;
-    margin-left: 3%;
+    margin-left: 5%;
    position: absolute;
     margin-top: 17%;
+    text-align: justify;
+}
+.icreambannersometextbox >h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.icreambannersometextbox >h2{
+font-weight: 700;
+    font-size: 50px;
+}
+
+.icreambannersometextbox >p{
     text-align: justify;
 }
 

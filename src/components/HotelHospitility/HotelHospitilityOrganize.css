@@ -1,0 +1,27 @@
+.hotelhospitilityorganizemainboxes{
+    height: fit-content;
+
+    margin-top: 5%;
+    display: flex;
+}
+
+.hotelhospitilityorganiseleftbox{
+    width: 45%;
+    margin-left: 5%;
+
+    height: fit-content;
+    text-align: justify;
+}
+.hotelhospitilityorganiserightbox{
+    height: 400px;
+    width: 47%;
+    margin-left: 1%;
+    margin-right: 2%;
+
+}
+
+.hotelhospitilityorganiserightbox >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

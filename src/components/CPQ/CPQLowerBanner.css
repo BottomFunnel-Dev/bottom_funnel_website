@@ -1,0 +1,46 @@
+.cpqlowerbannermainbox{
+    height: 60vh;
+border: 1px solid white;
+    margin-bottom: 3%;
+    background-color: #ffefeb;
+}
+
+.zpqlowerbannersometextbox{
+    width: 80%;
+margin-top: 3%;
+margin-left: 10%;
+    height: 80%;
+
+}
+
+.zpqlowerbannersometextbox >p{
+    text-align: center;
+}
+
+.cpqlowerbannerflexbox{
+    display: flex;
+}
+
+.cpqlowerbannerflexboxleft{
+    width: 48%;
+    height: fit-content;
+
+    margin-top: 3%;
+}
+
+.cpqlowerbannerflexboxright{
+    width: 48%;
+    height: 260px;
+    margin-left: 2%;
+
+}
+
+.cpqlowerbannerflexboxright >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.cpqlowerbannerflexboxleft >ul >li{
+    font-size: 20px;
+}

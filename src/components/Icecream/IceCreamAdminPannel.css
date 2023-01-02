@@ -5,8 +5,8 @@
 
 .icecreamadminpannelmainboxsometextupper{
     height: fit-content;
-  
-    margin-left: 3%;
+  margin-top: 3%;
+    margin-left: 4%;
 
 }
 
@@ -34,28 +34,45 @@
     margin: 1%;
     text-align: justify;
     padding: 10px;
+    border-radius: 10px;
 
 }
 
 .icecreamadminpannelmapperboxindivisyal:hover{
     transform: scale(1.02);
+    
+    background-color: #f9f5f5;
 }
 
 .icecreamadminpannelrightbox{
     width: 45%;
   margin-left: 1%;
+  margin-top: 3%;
    background-color: #Ffe7e8;
 }
 
 .icecreamadminpannelrightboxinnerimage{
     height: 80%;
     width: 80%;
-  
+
     margin: 8% 3% 3% 10%;
 }
 
 .icecreamadminpannelrightboxinnerimage >img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
+}
+
+.icecreamadminpannelmapperboxindivisyalicon{
+    height: 20%;
+    width: 15%;
+  
+}
+
+.icecreamadminpannelmapperboxindivisyalicon >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
 }

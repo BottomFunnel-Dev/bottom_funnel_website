@@ -1,0 +1,37 @@
+.hotelhospitilitykeepyourmainboxes{
+    height: fit-content;
+margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.hotelhospitilitydisplayflebox{
+    display: flex;
+}
+
+.hotelhospitilitydisplayfleboxforimageright{
+    height: 400px;
+    margin-left: 1%;
+    margin-right: 2%;
+    width: 45%;
+
+}
+
+.hotelhospitilitydisplayfleboxfortextleft{
+    width:  45%;
+    margin-left: 5%;
+
+    height: fit-content;
+    text-align: justify;
+}
+
+.hotelhospitilitydisplayfleboxforimageright >img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.hotelhospitilitykeepyourlowertextul{
+    margin-left: 5%;
+    margin-top: 3%;
+}

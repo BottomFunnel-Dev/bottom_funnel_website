@@ -1,0 +1,57 @@
+.cpqautomatemainboxes{
+    height: fit-content;
+
+}
+
+.cpqautomatemainboxes >h1{
+    text-align: center;
+  
+}
+
+.automatecpqinnerandouterimagesbox{
+    height: 500px;
+    width: 60%;
+
+    margin-left: 20%;
+    margin-top: 5%;
+    background: url("/public/Images/CPQ/Ellipse 52.png");
+
+}
+
+
+.automatecpqinnerandouterimagesbox >img {
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+margin-left: 10%;
+margin-top: 5%;
+}
+
+.cpqautomatedatamapperbox{
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+
+}
+
+.cpqautomatedatamapperboxindivisuallyimagesandtxt{
+    width: 45%;
+    margin: 5%;
+    text-align: center;
+    height: fit-content;
+  
+}
+
+.cpqautomatedatamapperboxindivisuallyimagesandtxt >h3:hover{
+    border-bottom: 4px solid #ef4c23;
+}
+
+.cpqautomatedatamapperboxindivisuallyimagesandtxt >h3{
+   border-bottom: 1px solid #ef4c23;
+}
+
+.cpqautomatedatamapperboxindivisuallyimagesandtxt >p{
+    text-align: justify;
+}

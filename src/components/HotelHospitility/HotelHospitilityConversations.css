@@ -1,0 +1,40 @@
+.hotelhospitilityconversationmainbox{
+    height: fit-content;
+
+    display: flex;
+    margin-top: 5%;
+}
+
+.hotelhospitilityconversationsrightbox {
+    width: 45%;
+    height: fit-content;
+  
+
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.hotelhospitilityconversationsleftbox{
+    width: 47%;
+    height: 400px;
+    margin-left: 5%;
+
+}
+
+.hotelhospitilityconversationsleftbox >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.hotelhospitilityconversationsrightbox >a :hover{
+    color: #ef4c23;
+ 
+}
+
+.hotelhospitilityconversationsbottomboxfortext{
+    margin-left: 5%;
+    height: fit-content;
+
+    margin-top: 3%;
+}
