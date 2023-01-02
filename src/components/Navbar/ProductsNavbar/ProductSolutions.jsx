@@ -27,10 +27,10 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
               className="productlinkP"
             >
               <div>
-                <h6>{item.dropContent}</h6> <span></span>
+                <h6 style={{marginLeft:"3.5%"}}>{item.dropContent}</h6> <span></span>
               </div>
-              <p>{item.productText1}</p>
-              <p>{item.productText2}</p>
+              <p style={{marginTop:"5%",fontSize:"14px"}}>{item.productText1}</p>
+              <p style={{marginTop:"5%",fontSize:"14px"}}>{item.productText2}</p>
             </Link>
           </div>
         ))}

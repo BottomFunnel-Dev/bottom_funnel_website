@@ -8,24 +8,24 @@ const digitalmarkethiringdata = [
 
 {
   htxt:"Share Your Requirements",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet auctor eleifend. Ut suscipit enim nibh. Morbi congue sodales laoreet."
+  stxt:"Share Your Requirements. Easily send your requirements to our team of digital marketers using our drag-and-drop form, and you'll be contacted quickly for an initial quote."
 },
 
 {
   htxt:"Shorting Of Best Talent",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet auctor eleifend. Ut suscipit enim nibh. Morbi congue sodales laoreet."
+  stxt:"The digital marketing agency that has the experience and skills to help you reach your business goals. We are a small and passionate team, with a great passion for solving problems!"
 },
 
 
 {
   htxt:"Find the right person for your Business",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet auctor eleifend. Ut suscipit enim nibh. Morbi congue sodales laoreet."
+  stxt:"At Creative Digital Marketing Agency, we understand that you need to find the right person for your Business. We offer a variety of services so you can choose the one that is best for you and your business."
 },
 
 
 {
   htxt:"Our Support 24/4",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet auctor eleifend. Ut suscipit enim nibh. Morbi congue sodales laoreet."
+  stxt:"Our Support 24/4 provides you with the best performance, security, and reliability for your online business.Get your business noticed with our award-winning digital marketing agency. Our solutions and solutions are created to deliver positive results for your company."
 },
 
 

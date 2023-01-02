@@ -1,6 +1,6 @@
 .digitalmarketingweoffersmainboxes{
     height: fit-content;
-    
+    /* border: 2px solid yellow; */
     margin: 2%;
 
     
@@ -10,8 +10,13 @@
     height: 120px;
     width: 95%;
    margin: 3%;
- 
+ /* border: 2px solid green; */
     display: flex;
+}
+.marketplaceboxerflex:hover{
+    background-color: #ffedd4;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
 }
 
 .marketplacenumberingbox{
@@ -29,9 +34,10 @@ border-right: 3px solid #ef4c23;
 .marketplaceiconbox{
     height: 100%;
     width: 20%;
+    /* border: 2px solid pink; */
  
     margin-left: 2%;
-    padding: 30px;
+    padding: 20px;
  
 }
 
@@ -61,7 +67,7 @@ border-right: 3px solid #ef4c23;
     font-weight: 600;
     color: #ef4c23;
     margin-top: 30%;
-    margin-left: 5%;
+    /* margin-left: 5%; */
   
 }
 

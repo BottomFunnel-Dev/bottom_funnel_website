@@ -7,10 +7,7 @@ export const DigitalMarketingBanner = () => {
       <div className="digitalmarketingbannerspacefortext">
         <h1>Creative Digital Marketing Agency</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mollis dui
-          non augue rutrum, eu fringilla ante ultrices. Praesent id est
-          porttitor purus hendrerit maximus vitae vel felis. Nulla eget molestie
-          dui, ut consectetur felis. Aenean cursus mollis metus, ac varius augue
+        Creative Digital Marketing Agency is a leading and reliable digital marketing agency based in India offering outstanding digital solutions to its clients through SEO, SEM, SMM, PPC, Social Marketing, Web Designing and WordPress Development Services.
         </p>
 
         <button className="digitalmarketingbannerbutton">Contact us</button>

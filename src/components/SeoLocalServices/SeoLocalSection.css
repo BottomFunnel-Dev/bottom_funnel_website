@@ -7,7 +7,7 @@
   background-position: bottom;
   background-origin: border-box;
   position: relative;
-  margin-top: 120px;
+  margin-top: 100px;
 
 }
 
@@ -30,12 +30,13 @@
   height: 87vh;
 }
 ._SeoLocaltext {
-  /* border:1px solid white; */
+  /* border:1px solid pink; */
   width: 40%;
   color: black;
   box-sizing: border-box;
   margin: auto;
-  margin-top: 7%;
+  margin-top: 13%;
+  margin-left: 5%;
   /* text-align: center; */
 }
 ._SeoLocalparagraph {
@@ -48,7 +49,7 @@
   font-size: 16px;
 }
 ._SeoLocalheading {
-  /* border:1px solid white; */
+  /* border:1px solid red; */
   margin-bottom: 10px;
   /* color:white; */
   width: 100%;
@@ -125,11 +126,13 @@ font-size: 25px;
 }
 ._SeoLocalSubmitbutton > button {
   font-size: 18px;
+  /* border: 2px solid black; */
   background-color: #ef4c23;
   color: white;
   border-radius: 25px;
   text-align: center;
   margin: auto;
+  /* margin-top: 2%; */
   font-weight: 600;
   box-sizing: border-box;
   padding: 10px 60px;
