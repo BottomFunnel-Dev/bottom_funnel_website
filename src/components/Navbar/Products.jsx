@@ -125,8 +125,8 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                     navigate(`/${item.path}`);
                     serHoverOut();
                   }}
-                  className="productimageIconDivSection"
-                  style={{marginTop: i==0?"0":"2%",}}
+                  className="productimageIconDivSection saasHoveringData"
+                  style={{marginTop: i==0?"0":"2%"}}
                 >
                   
                   <div>

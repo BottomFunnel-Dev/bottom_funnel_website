@@ -1,0 +1,94 @@
+
+.telecommunications-customer-app-container-main{
+    position: relative; 
+    display: flex;
+   
+    justify-content: space-between;
+    height: 120vh;
+    /* border: 2px solid red; */
+}
+
+.telecommunications-customer-app-img-main-div-left{
+    height: 700px;
+    width: 40%;
+    background: url("/public/Images/Telecommunication/Background/Vector-6.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: relative;
+    /* border: 1px solid ; */
+    background-position-y:bottom;
+  
+}
+
+.telecommunications-customer-app-img-frame-left{
+   position: absolute;
+    height: 70%;
+    width: 45%;
+    top: 15%;
+    left: 15%;
+    /* border: 1px solid */
+   
+}
+
+.telecommunications-customer-app-img-frame-left >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.telecommunications-customer-app-box-main-div-right {
+    width: 55%;
+    /* border: 1px solid red; */
+}
+
+.telecommunications-customer-app-title > h1 {
+    padding-left: 85px;
+    /* border: 1px solid red; */
+}
+
+.telecommunications-customer-app-box-content-div-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 1.5%;
+    /* border: 1px solid; */
+    
+}
+
+.telecommunications-customer-app-cards-div-right{
+    height: fit-content;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    width:40%;
+    height: fit-content;
+    padding: 1%;
+}
+
+.telecommunications-customer-app-text-div-right > h3 {
+    text-align: center;
+}
+
+.telecommunications-customer-app-text-div-right > p {
+   padding: 0 10px 0 10px;
+    text-align: left;
+    font-size: 14px;
+    
+}
+
+.telecommunications-customer-app-cards-div-right:hover {
+    transform: scale(1.02);
+}
+
+.telecommunications-customer-app-right-box-cards-icon {
+    width: 15%;
+    margin: auto;
+    /* border: 1px solid; */
+}
+
+.telecommunications-customer-app-right-box-cards-icon > img {
+    width: 100%; 
+    margin-top: 10px;
+}
+

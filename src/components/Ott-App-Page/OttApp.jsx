@@ -22,13 +22,14 @@ import { Helmet } from "react-helmet";
 export const OttApp = () => {
   return (
     <div className='ott-main'>
+      
       <OttHeader />
       <OttSolutions />
       <OttAdminPannel />
       <OttFeatures />
       <OttFooter />
 
-      
+
       {/* Other react required components */}
       <StoriesSection />
       <OndemandSection />

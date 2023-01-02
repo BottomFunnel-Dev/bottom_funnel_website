@@ -9,8 +9,6 @@ const LaundryDelivery = () => {
     console.log(imagepath)
  }
 
-
-
   const laundrydeliverydata = [
     {
       htxt:"Notification of Upcoming Orders",
@@ -47,12 +45,6 @@ const LaundryDelivery = () => {
     </div>
 
 
-
-
-
-
-
-
     <div className='laundryflexboxleftdivfordelivery'>
     <div className='laundryflexboxleftdivinsidertxt'><h2>Delivery Application</h2>
     <p>Get A Customized App With Advanced Delivery Managment Features</p>
@@ -75,8 +67,6 @@ const LaundryDelivery = () => {
       </div>
       )
     })}
-    
-    
     
     </div>
     

@@ -6,7 +6,7 @@
     height: 100%;
     width: 100%;
     padding: 20px;
-    object-fit: cover;
+    object-fit: contain;
     margin-top: 5%;
 
 }
@@ -160,11 +160,14 @@ text-align: center;
     margin: 1%;
   border-radius: 10px;
     padding: 10px;
+  
+    
 
  
 }
 .laundryflexboxleftdivflexbox:hover{
     transform: scale(1.02);
+      background-color: #efebe6;
 }
 
 
@@ -309,6 +312,8 @@ margin-top: -100px;
 
 .laundryflexboxleftdivflexboxfordelivery:hover{
     transform: scale(1.02);
+
+    background-color: #efebe6;
 }
 
 

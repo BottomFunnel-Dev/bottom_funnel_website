@@ -190,6 +190,7 @@ import { HotelHospitility } from "./components/HotelHospitility/HotelHospitility
 import { Cpq } from "./components/CPQ/Cpq";
 import { Retails } from "./components/Retails/Retails";
 import { OttApp } from "./components/Ott-App-Page/OttApp";
+import { Telecommunications } from "./components/Telecommunications/Telecommunications";
 
 export const ALLroutes = () => {
   return (
@@ -405,7 +406,8 @@ export const ALLroutes = () => {
       <Route path="/Car-services" element={<CarService />} />
       <Route path="/mobile-app-development" element={<MobileDevMain />} />
       <Route path="/kotlin-development" element={<KotlinAppDevelopment />} />
-      <Route path="/telecommunication" element={<Telecommunication />} />
+      {/* <Route path="/telecommunication" element={<Telecommunication />} /> */}
+      <Route path="/telecommunication" element={<Telecommunications/>}/>
       <Route path="/website-builder-app" element={<WebsiteBuilderApp />} />
       <Route path="/meat-delivery-app" element={<MeatDeliveryApp />} />
       <Route path="/app-builder-solutions" element={<AppBuilderSoltion />} />

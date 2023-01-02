@@ -62,23 +62,28 @@
     width: 100%;
     padding: 4% 0;
     display: flex;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     align-items: center;
     box-sizing: border-box;
     border-left: 3px solid white;
     /* margin-top: 2px; */
     /* border: 2px solid brown; */
   }
-  /* .productimageIconDivSection:hover .iconDivSection {
+  /* .productimageIconDivSection:hover{
     border-left: 3px solid #ef4c23;
   } */
   .productimageIconDivSection:hover {
-    /* border-left: 3px solid #ef4c23; */
+    /* border-left: 3px solid #ef4c23 */
     margin-top: 0;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     cursor: pointer;
-    /* border: 1px solid red; */
-    /* transition: all 0.3s linear; */
+    border-left: 3px solid #ef4c23;
+    transition: all 0.3s linear;
+  }
+ 
+  .saasHoveringData:hover{
+    border-left: 3px solid #ef4c23;
+    /* border: 2px solid red; */
   }
   .productimageIconDivSection > p {
     width: 65%;
@@ -87,7 +92,7 @@
   }
   .productimageIconDivSection > div {
     width: 18%;
-    border-left: 2px solid white;
+    /* border-left: 2px solid white; */
     /* background-color: #fce7e2; */
     height: 30px;
   }
@@ -98,6 +103,7 @@
   }    
   .hoveringDiv:hover{
     background-color: var(--i);
+    transition: all 0.3s linear;
   }
 
   .productSaasRow {
@@ -116,9 +122,11 @@
   }
   
   .hoveringDiv{
-    /* border: 2px solid red; */
+    /* border: 2px solid gold; */
     padding: 0%;
+    
   }
+
   .productLogoImages{
     margin-top: -30%;
     /* border: 2px solid yellow; */
@@ -131,7 +139,7 @@
 
   .productSaasRow {
     text-decoration: none;
-    /* border: 2px solid red; */
+    /* border: 2px solid black; */
     width: 80%;
   }
   
