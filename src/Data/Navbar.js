@@ -543,7 +543,7 @@ export const ondemand = [
   {
     dropContent: "OTT App Solutions",
     navIcons: "Images/navbar/industriesImage/ott.png",
-    path: "",
+    path: "ott",
   },
 ];
 
