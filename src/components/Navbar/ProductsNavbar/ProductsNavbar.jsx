@@ -137,6 +137,7 @@ export const ProductsNavbar = ({ scroll }) => {
         <li
           onMouseEnter={serHoverIn}
           onMouseLeave={serHoverOut}
+          onClick={() => navigate("/saas")}
           style={{ color: productnavbar ? "black" : navproductredux.color }}
         >
           Saas
