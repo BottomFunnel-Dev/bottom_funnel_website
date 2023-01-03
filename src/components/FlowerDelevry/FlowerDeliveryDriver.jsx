@@ -18,28 +18,28 @@ const FlowerDeliveryDriver = () => {
  
   img:"Images/Flowerdeliverypage/DriverProfile.png",
   htxt:"Driver's Profile",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis rutrum, ornare augue quis, molestie urna. Proin euismod interdum risus, non convallis leo porta"
+  stxt:"To make a flower delivery app is to meet the demands of the current market. This will surely increase the number of orders, popularity, and therefore, revenue."
 },
 
 
 {
   img:"Images/Flowerdeliverypage/Pickup location.png",
   htxt:"Pickup Details",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis rutrum, ornare augue quis, molestie urna. Proin euismod interdum risus, non convallis leo porta"
+  stxt:"Nowadays, users prefer apps or online business models instead of calling or live to order. Online flower delivery app is the best way to get ahead of the competition and stay relevant in today’s market."
 },
 
 
 {
   img:"Images/Flowerdeliverypage/Reports.png",
   htxt:"Performance Analysis",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis rutrum, ornare augue quis, molestie urna. Proin euismod interdum risus, non convallis leo porta"
+  stxt:"In the United States and the United Kingdom, developers charge from $70-$ 250. In Europe, on the other hand, developers charge between 50 and 150 dollars an hour. "
 },
 
 
 {
   img:"Images/Flowerdeliverypage/Orderdetails.png",
   htxt:"Order",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis rutrum, ornare augue quis, molestie urna. Proin euismod interdum risus, non convallis leo porta"
+  stxt:"It’s easier to track orders when all of them are in one place. With everything on one dashboard, you’ll never have any mixups again.The bigger the user base, the bigger the arena of customers."
 },
 
 

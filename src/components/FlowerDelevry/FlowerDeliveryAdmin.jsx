@@ -18,26 +18,26 @@ const FlowerDeliveryAdmin = () => {
 {
   img:"Images/Flowerdeliverypage/Businesscontrol.png",
   htxt:"Business Control",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis rutrum, ornare augue quis Sed vitae felis rutrum, ornare augue quis,"
+  stxt:"A fabulous feature you can add to your app is the offer & deals. To affect customer satisfaction levels and expand the current customer base, provide discounts and deals daily."
 },
 
 {
   img:"Images/Flowerdeliverypage/Manage customers.png",
   htxt:"Manage customers",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis rutrum, ornare augue quis Sed vitae felis rutrum, ornare augue quis,"
+  stxt:"One of the basic features that will benefit you and your potential customers is the delivery schedule. Same-day delivery and other various time delivery will make you stand out in the market."
 },
 
 {
   img:"Images/Flowerdeliverypage/Manage Payment.png",
   htxt:"Manage Payment",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis rutrum, ornare augue quis Sed vitae felis rutrum, ornare augue quis,"
+  stxt:"Real-time tracking is one of the app features customers love when ordering any package. So, in addition to delivery tracking, make sure to allow the users to see each delivery stage."
 },
 
 
 {
   img:"Images/Flowerdeliverypage/Reports & analytics.png",
   htxt:"Reports & analytics",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis rutrum, ornare augue quis Sed vitae felis rutrum, ornare augue quis,"
+  stxt:"One of the must-have features is a customized note when offering flower delivery services. The customer can write a customized note while placing an order to be printed with the bouquet."
 },
 
 
