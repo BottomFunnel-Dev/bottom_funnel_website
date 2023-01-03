@@ -95,7 +95,7 @@ const ToolDeliveryService = () => {
                 </div>
                 <h5> Better ROI</h5>
               </div>
-              <p
+             <p
                 style={{
                   marginLeft: "27.5%",
                 }}

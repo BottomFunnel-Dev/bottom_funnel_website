@@ -3,6 +3,7 @@
  
     width: 60%;
     margin: auto;
+    margin-bottom: 5%;
 }
 
 .aicontenttextbox1{
@@ -16,6 +17,7 @@
 
 .aicontenttextbox1:hover{
     transform: scale(1.02);
+    background-color: #f5e3c8;
 }
 
 .aicontentbox1fortext1{
@@ -55,10 +57,12 @@ margin-top: 3%;
     display: flex;
     margin-top: 2%;
     border-radius: 10px;
+  
 }
 
 .aicontenttextbox2:hover{
     transform: scale(1.02);
+    background-color: #f5e3c8;
 }
 
 

@@ -29,7 +29,7 @@ const ToolDeliveryFooter = () => {
       <h2>
         <h2
           style={{
-            marginTop: "10%",
+            marginTop: "3%",
             marginLeft: "40%",
           }}
         >
@@ -40,7 +40,7 @@ const ToolDeliveryFooter = () => {
       <div className="tooldeliveryfooterapp">
         {footerdata.map((e) => {
           return (
-            <div style={{}} className="tooldeliveryfooterbox">
+            <div className="tooldeliveryfooterbox">
               <div className="tooldeliverytextmapping">
                 <h4>{e.htxt}</h4>
                 <p>{e.stxt}</p>

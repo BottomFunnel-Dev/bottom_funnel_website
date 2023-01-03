@@ -14,27 +14,27 @@ const LaundryAdmin = () => {
         {
             img: "/Images/Laundrypage/icons/dashboard1.png",
             Htxt:"Easy to use Super Admin Interface",
-            stxt: "Lorem ipsum dolor sit amet, consect in facilisis. Curabitur eget mauris",
+            stxt: "An on-demand laundry app is exactly what it sounds like, an internet request on demand delivery of their laundry. ",
             tablet:"Images/Laundrypage/Adminpanelscreens/Admininterface.png"
 
         },
         {
             img: "/Images/Laundrypage/icons/group.png",
             Htxt:"Manage multiple users",
-            stxt: "Lorem ipsum dolor sit amet, consect in facilisis. Curabitur eget mauris",
+            stxt: " the app, labeling clothes with barcodes, processing garments in the factory, laundry PoS, to delivery at customers’ doorsteps.",
             tablet:"Images/Laundrypage/Adminpanelscreens/Multipleusers.png"
         },
         {
             img: "/Images/Laundrypage/icons/sales.png",
             Htxt:"Generate earnings & Sales Report",
-            stxt: "Lorem ipsum dolor sit amet, consect in facilisis. Curabitur eget mauris",
+            stxt: " the global laundry care market is expected to register 5% CAGR in terms of value between 2021 and 2031.",
             tablet:"Images/Laundrypage/Adminpanelscreens/Earningssalesreport.png"
         },
     
         {
             img: "/Images/Laundrypage/icons/tag.png",
             Htxt:"Manage Discount Coupons and Pomos",
-            stxt: "Lorem ipsum dolor sit amet, consect in facilisis. Curabitur eget mauris",
+            stxt: "Coupons can drive customers to business,existing customer engagement, and generate new revenue.",
             tablet:"Images/Laundrypage/Adminpanelscreens/Discountspromos.png"
         }
     

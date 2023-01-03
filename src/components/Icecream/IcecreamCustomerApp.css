@@ -40,8 +40,9 @@
 
 .icecreamdeliveryappflexingboxrightbox{
     height: fit-content;
-    width: 60%;
+    width: 55%;
     margin-left: 1%;
+    margin-right: 3%;
    text-align: justify;
     display: flex;
     flex-wrap: wrap;
@@ -57,10 +58,13 @@
     margin: 1%;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
 }
 
 .icecreamdeliveryappindivisualbox:hover{
     transform: scale(1.02);
+    background-color: #f9f5f5;
+    
 }
 
 
@@ -68,6 +72,3 @@
 padding: 5px;
 }
 
-/* .icecreamdeliveryappindivisualboxfortext{
-
-} */

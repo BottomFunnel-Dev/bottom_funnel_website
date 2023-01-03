@@ -25,7 +25,7 @@ import { Helmet } from "react-helmet";
 const ToolDelivery = () => {
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+    dispatch(ChnageNavbarColor({ color: "white", logo: false }));
   }, []);
   return (
     <div style={{ color: "#393939" }}>

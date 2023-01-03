@@ -33,14 +33,15 @@
     border-radius: 10px;
 }
 
+
 .onlinepaymentadminpannelaftermapping:hover{
     transform: scale(1.02);
 }
 
 .onlinepaymentadminpannelmappertxtallign{
     margin-left: 2%;
-    margin-top: 2%;
- 
+    margin-top: 1%;
+ font-size: 18px;
 }
 
 
