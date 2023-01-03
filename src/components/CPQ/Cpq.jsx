@@ -18,12 +18,20 @@ import { CPQGenerate } from './CPQGenerate';
 import { CPQLowerBanner } from './CPQLowerBanner';
 import { CpqSpeedup } from './CpqSpeedup';
 import { WhatisCpq } from './WhatisCpq';
+import {
+  salesmountNavbar,
+  salesunmountNavbar,
+} from "../../Redux/ProductNavbar/ProductNavAction";
 
 export const Cpq = () => {
 
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false, }));
+    dispatch(salesmountNavbar());
+    return () => {
+      dispatch(salesunmountNavbar())
+    };
   }, []);
 
 

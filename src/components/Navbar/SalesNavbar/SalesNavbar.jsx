@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import "./SalesNavbar.css";
 import { useSelector } from "react-redux";
 import { SalesProduct } from "./SalesProduct";
-import { ProductResources } from "../ProductsNavbar/ProductResources";
-import { ProductFeature } from "../ProductsNavbar/ProductFeature";
-import { ProductDesk } from "../ProductsNavbar/ProductDesk";
+import { SalesFeature } from "./SalesFeature";
+import { SalesResources } from "./SalesResources";
+import { SalesIndustries } from "./SalesIndustries";
 
 export const SalesNavbar = ({ scroll }) => {
   const navigate = useNavigate();
@@ -75,12 +75,12 @@ export const SalesNavbar = ({ scroll }) => {
       setproductNabvar(false);
     }
   };
-  const solFeaIn = () => {
+  const saleFeaIn = () => {
     setproductFeature(true);
     setproductNabvar(true);
   };
 
-  const solFeaOut = () => {
+  const saleFeaOut = () => {
     setproductFeature(false);
     if (window.scrollY == 0) {
       setproductNabvar(false);
@@ -113,8 +113,8 @@ export const SalesNavbar = ({ scroll }) => {
         </li>
 
         <li
-          onMouseEnter={solFeaIn}
-          onMouseLeave={solFeaOut}
+          onMouseEnter={saleFeaIn}
+          onMouseLeave={saleFeaOut}
           style={{ color: productnavbar ? "black" : navproductredux.color }}
         >
           Features{" "}
@@ -165,11 +165,11 @@ export const SalesNavbar = ({ scroll }) => {
         <button>Free Trial</button>
       </div>
 
-      {/* service drop down section code start */}
+      {/* service drop down section cde start */}
 
       {/* ProductSolutions drop down section code start */}
       {ProductSolution ? (
-        <SalesProduct
+        <SalesIndustries
           solHoverIn={solHoverIn}
           solHoverOut={solHoverOut}
           scroll={scroll}
@@ -177,7 +177,7 @@ export const SalesNavbar = ({ scroll }) => {
       ) : null}
 
       {productresource ? (
-        <ProductResources
+        <SalesResources
           solResIn={solResIn}
           solResOut={solResOut}
           scroll={scroll}
@@ -185,9 +185,9 @@ export const SalesNavbar = ({ scroll }) => {
       ) : null}
 
       {productfeature ? (
-        <ProductFeature
-          solFeaIn={solFeaIn}
-          solFeaOut={solFeaOut}
+        <SalesFeature
+          saleFeaIn={saleFeaIn}
+          saleFeaOut={saleFeaOut}
           scroll={scroll}
         />
       ) : null}

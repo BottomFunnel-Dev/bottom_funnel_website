@@ -7,10 +7,10 @@ export const SalesProduct = ({ saleProIn, saleProOut, scroll }) => {
     <div
       onMouseEnter={saleProIn}
       onMouseLeave={saleProOut}
-      className="productDeskMainDiv"
+      className="saleProductMainDiv"
       style={{ top: scroll ? "6.5%" : "16%" }}
     >
-      <div className="productDeskListItems" style={{ width: "100%" }}>
+      <div className="saleProductListItems" style={{ width: "100%" }}>
         {salesProduct.map((item, i) => (
           <div
             key={i}
@@ -18,7 +18,7 @@ export const SalesProduct = ({ saleProIn, saleProOut, scroll }) => {
               navigate(`/${item.path}`);
               solHoverOut();
             }}
-            className="productDeskData"
+            className="saleProductData"
           >
             {/* <img src={item.navIcons} alt="Product logo" /> */}
             <Link

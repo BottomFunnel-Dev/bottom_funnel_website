@@ -1223,3 +1223,112 @@ export const salesProduct = [
     path:"",
   },
 ];
+
+export const salesFeatures = [
+  {
+    dropContent: "Contact Management",
+    path:"ContactManagement",
+  },
+  {
+    dropContent: "Cloud Telephony",
+    path:"cloudTelephony",
+  },
+  {
+    dropContent: "CPQ",
+    path:"cpq",
+  },
+  {
+    dropContent: "Deal Management",
+    path:"",
+  },
+  {
+    dropContent: "Email Integration",
+    path:"",
+  },
+  {
+    dropContent: "Olly AI",
+    path:"",
+  },
+  {
+    dropContent: "Mobile",
+    path:"",
+  },
+  {
+    dropContent: "Sales Reports",
+    path:"",
+  },
+];
+
+export const salesResources = [
+  {
+    dropContent: "Case Study",
+    path:"",
+  },
+  {
+    dropContent: "Product Tour",
+    path:"",
+  },
+  {
+    dropContent: "Blog",
+    path:"",
+  },
+  {
+    dropContent: "What's new",
+    path:"",
+  },
+];
+
+export const salesIndustries = [
+  {
+    dropContent: "Real Estate",
+    path:"",
+  },
+  {
+    dropContent: "Manufacturing",
+    path:"manufacturing",
+  },
+  {
+    dropContent: "SAAS",
+    path:"saaSHomePage",
+  },
+  {
+    dropContent: "Hospitality",
+    path:"",
+  },
+  {
+    dropContent: "Insurance",
+    path:"insuranceSales",
+  },
+  {
+    dropContent: "Logistics",
+    path:"Logistics",
+  },
+  {
+    dropContent: "Agency",
+    path:"",
+  },
+  {
+    dropContent: "Retail",
+    path:"",
+  },
+  {
+    dropContent: "Finance",
+    path:"",
+  },
+  {
+    dropContent: "HealthCare",
+    path:"",
+  },
+  {
+    dropContent: "Education",
+    path:"",
+  },
+  {
+    dropContent: "Travel Agency",
+    path:"",
+  },
+  {
+    dropContent: "Law Firm",
+    path:"",
+  },
+];

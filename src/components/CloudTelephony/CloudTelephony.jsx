@@ -20,15 +20,22 @@ import { SeoblogSection } from '../SeoBlogs/Seoblogs'
 import { TextDropdown } from '../faqSection/Faqs'
 import ContectForm from '../ContectForm/ContectForm'
 import MainFooter from '../FooterSection/MainFooter'
-
+import {
+  salesmountNavbar,
+  salesunmountNavbar,
+} from "../../Redux/ProductNavbar/ProductNavAction";
 
 
 export const CloudTelephony = () => {
 
-    const dispatch = useDispatch();
-    useEffect(function () {
-      dispatch(ChnageNavbarColor({ color: "black", logo: false }));
-    }, []);
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "black", logo: false, }));
+    dispatch(salesmountNavbar());
+    return () => {
+      dispatch(salesunmountNavbar())
+    };
+  }, []);
   
   return (
     <div>

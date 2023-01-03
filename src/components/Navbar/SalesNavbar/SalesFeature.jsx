@@ -2,11 +2,11 @@ import React from "react";
 import "./SalesFeature.css";
 import { Link } from "react-router-dom";
 import { salesFeatures } from "../../../Data/Navbar";
-export const SalesFeature = ({ solFeaIn, solFeaOut, scroll }) => {
+export const SalesFeature = ({ saleFeaIn, saleFeaOut, scroll }) => {
   return (
     <div
-      onMouseEnter={solFeaIn}
-      onMouseLeave={solFeaOut}
+      onMouseEnter={saleFeaIn}
+      onMouseLeave={saleFeaOut}
       className="productFeatureMainDiv"
       style={{ top: scroll ? "6.5%" : "16%" }}
     >
@@ -16,11 +16,11 @@ export const SalesFeature = ({ solFeaIn, solFeaOut, scroll }) => {
             key={i}
             onClick={() => {
               navigate(`/${item.path}`);
-              solHoverOut();
+              saleFeaOut();
             }}
             className="productFeatureData"
           >
-            <Link onClick={solFeaOut} to={item.path} className="productlinkP">
+            <Link onClick={saleFeaOut} to={item.path} className="productlinkP">
               <p>{item.dropContent}</p>
             </Link>
           </div>

@@ -1,4 +1,4 @@
-.productDeskMainDiv {
+.saleProductMainDiv {
   display: flex;
   background-color: white;
   width: 12%;
@@ -11,7 +11,7 @@
   /* border: 2px solid; */
   /* text-align: center; */
 }
-.productDeskListItems {
+.saleProductListItems {
   width: 38%;
   height: 100%;
   display: flex;
@@ -20,7 +20,7 @@
   justify-content: center;
 }
 
-.productDeskListItems > p {
+.saleProductListItems > p {
   margin: 0;
   width: 49%;
   list-style: none !important;
@@ -32,7 +32,7 @@
   margin-bottom: 1%;
   /* border: 2px solid red; */
 }
-.productDeskData {
+.saleProductData {
   padding: 10px;
   display: flex;
   align-items: flex-start;
@@ -40,22 +40,22 @@
   cursor: pointer;
   /* border: 2px solid ; */
 }
-.productDeskData .productlinkP > h6 {
+.saleProductData .productlinkP > h6 {
   font-size: 15px;
   margin: 2% 0;
 }
-.productDeskData .productlinkP > p {
+.saleProductData .productlinkP > p {
   font-size: 12px;
   margin: 2% 0;
 }
-.productDeskData > img {
+.saleProductData > img {
   height: 40px;
 }
-.productDeskData:hover {
+.saleProductData:hover {
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   background-color: lightgray;
 }
-.productDeskData:last-child {
+.saleProductData:last-child {
   border-bottom: none;
 }
 

@@ -444,7 +444,6 @@ export const ALLroutes = () => {
       <Route path="/real-Estate" element={<RealEstate />} />
       <Route path="/hire-new-talent" element={<Hireatalent />} />
 
-      <Route path="/real-Estate" element={<RealEstate />} />
       <Route path="/hire-new-talent" element={<Hireatalent />} />
 
       <Route path="/Collaboration" element={<CollaborationPage />} />
