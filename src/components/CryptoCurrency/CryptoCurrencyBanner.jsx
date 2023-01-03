@@ -6,7 +6,7 @@ import "./CryptoCurrencyBanner.css"
     <div className='cryptocurrencybannermainbox'>
       <div className='cryptocurrencybannermainboxinnertextdiv'>
       <h1>Cryptocurrency App Development</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed quam est. Nunc vestibulum odio blandit, aliquam metus nec, eleifend eros . Sed sed efficitur lectus, sed vehicula est. Donec feugiat non ex a molestie. Nullam</p>
+    <p>Bottom funnel is the easiest way to get started in the cryptocurrency market. With our user-friendly platform, you can buy and sell cryptocurrencies with just a few clicks. We offer a wide range of coins, including Bitcoin, Ethereum, Litecoin, and more. So whether you're a beginner or a seasoned investor, we have the perfect solution for you.</p>
       
       <button className='cryptocurrencybannerbutton'>Get Started</button>
       </div>
