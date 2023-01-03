@@ -55,7 +55,8 @@ const mobileuxrectnativedata= [
 
     <div className='mobileuxreactnativerightbox'>
     <h1>React Native App Development Expertise</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut malesuada arcu. Praesent bibendum ultrices neque ut pellentesque. Nullam cursus massa id nunc blandit aliquam. Duis venenatis dui vitae tortor blandit, vitae interdum augue molestie. Aenean quis arcu vulputate, pretium metus id, ultricies neque. Nulla nec sapien aliquet, aliquet risus nec, blandit felis. Fusce sed felis in leo maximus rutrum.Nunc auctor nibh ut accumsan efficitur. Donec pharetra, ligula eget gravida porttitor, metus lacus ultrices nibh, sit amet finibus urna lorem nec libero. Ut tincidunt augue vel nulla maximus mollis. Cras erat mi, varius in justo in, dignissim commodo neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur libero felis, volutpat at felis in, pharetra tincidunt magna. Etiam malesuada magna ut nibh faucibus porta. Donec dolor est, vestibulum molestie ipsum eu, tempor lobortis tortor. Cras fermentum, sem ac tempus aliquam, risus diam tincidunt ligula, vel dapibus leo lacus non erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis pulvinar mauris id mauris rutrum dictum.</p>
+    <p>Thanks for considering our company, Bottom funnel, for your React Native app development needs! We have a wealth of experience in developing high-quality apps using React Native, and we're confident that we can deliver the same level of quality for your project.
+    When it comes to React Native app development, we know what it takes to produce a great product. We have a team of experienced developers who are well-versed in all aspects of the React Native platform. With their expertise, we're confident that we can deliver a top-notch product that meets your specific needs and requirements.</p>
     </div>
     
     

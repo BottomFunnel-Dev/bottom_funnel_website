@@ -6,6 +6,14 @@ import { AppBuilderDiscoverApp } from './AppBuilderDiscoverApp';
 import { AppBuilderMaker } from './AppBuilderMaker';
 import { AppBuilderSolutionBanner } from './AppBuilderSolutionBanner';
 import { AppBuilderWhyShuld } from './AppBuilderWhyShuld';
+import { Industries } from "../industries/Industries";
+import OndemandSection from "../OnDemandSection/OndemandSection";
+import PortFolio from "../PortFolioSection/PortFolio";
+import PlanProject from "../PlanProject/PlanProject";
+import { SeoblogSection } from "../SeoBlogs/Seoblogs";
+import Revamping from "../revamping/Revamping";
+import { TextDropdown } from "../faqSection/Faqs";
+import MainFooter from "../FooterSection/MainFooter";
 
 export const AppBuilderSoltion = () => {
   const dispatch = useDispatch();
@@ -20,6 +28,15 @@ export const AppBuilderSoltion = () => {
       <AppBuilderWhyShuld />
       <AppBuilderCreate />
       <AppBuilderMaker />
+
+      <Industries />
+    <OndemandSection />
+    <PortFolio />
+    <PlanProject />
+    <SeoblogSection />
+    <Revamping />
+    <TextDropdown />
+    <MainFooter />
 
     </div>
   )

@@ -18,8 +18,10 @@ margin: auto;
  padding: 10px;
 color: white;
 position: absolute;
-top: 30%;
+top: 25%;
 left: 5%;
+
+text-align: justify;
 }
 
 .marketplacebutton{

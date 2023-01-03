@@ -14,5 +14,9 @@
     margin-top: 20%;
     margin-left: 3%;
     color: white;
+  
+}
+
+.newsintroinsidersometext >p{
     text-align: justify;
 }

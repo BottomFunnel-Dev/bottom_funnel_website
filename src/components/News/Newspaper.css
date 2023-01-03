@@ -42,3 +42,7 @@
     margin: 2%;
     padding: 10px;
 }
+
+.newstextboxdisplayindi:hover{
+    transform: scale(1.02);
+}

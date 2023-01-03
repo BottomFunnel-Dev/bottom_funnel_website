@@ -48,7 +48,7 @@ export const GameDevelopment = () => {
       <GameWhyChoose />
 
       {/* Other react required components */}
-      <StoriesSection />
+    
       <OndemandSection />
       <Industries />
       <PortFolio />

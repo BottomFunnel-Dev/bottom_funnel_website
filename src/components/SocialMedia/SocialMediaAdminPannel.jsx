@@ -8,7 +8,7 @@ export const SocialMediaAdminPannel = () => {
       logo: "Images/socialmedia/bannesbackground/Component41.png",
       image: "Images/socialmedia/Adminpanelscreens/dashboard.png",
       htxt: "Dashboard",
-      stxt: "Dashboards are an effective way of visualizing and understanding data.",
+      stxt: "Dashboards are an effective way of visualize and understanding data from dashboard.",
     },
 
     {

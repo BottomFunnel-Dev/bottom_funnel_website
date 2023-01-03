@@ -10,7 +10,7 @@
 
 .cannbiesdeliveryappflexingbox{
     height: fit-content;
- 
+ margin-top: 2%;
     display: flex;
   
 }
@@ -43,6 +43,7 @@
     height: fit-content;
     width: 60%;
     margin-left: 1%;
+    margin-right: 3%;
    text-align: justify;
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +59,8 @@
     margin: 1%;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+  
 }
 
 .cannabiesdeliveryappindivisualbox:hover{
