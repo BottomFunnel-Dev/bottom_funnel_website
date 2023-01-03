@@ -28,19 +28,22 @@
 
 .fieldAndServiceBannerContentDiv {
   /* border: 1px solid green; */
-  width: 55%;
+  width: 45%;
   margin-top: 3%;
+  margin-right:5%;
 }
-
 .fieldAndServiceBannerImageDiv {
   /* border: 1px solid black; */
   /* height: 100vh; */
   width: 40%;
+  margin-right: 5%;
 }
 
 .fieldAndServiceBannerImageDiv img {
   width: 100%;
   margin-top: 5%;
+  /* border: 2px solid red; */
+  /* margin-left: 4%; */
   /* height: 100vh; */
   /* height: 400px; */
 }

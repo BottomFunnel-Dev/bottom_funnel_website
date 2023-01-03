@@ -70,13 +70,14 @@
 
 .stellarFieldServiceContentDiv > div > div > img {
   /* height: 65%; */
-  width: 40%;
+  width:90px;
   object-fit: cover;
   padding: 1%;
+  /* border: 2px solid red; */
 }
 
 .productsTalentCommunication {
-  /* border: 1px solid red; */
+  border: 1px solid black;
   width: 97%;
   display: flex;
   gap: 12%;
@@ -108,7 +109,8 @@
 
 .stellarCustomerButtonDiv{
     text-align: center;
-    margin-top: 2%;
+    margin-top: 5%;
+    /* border: 2px solid red; */
 }
 
 .stellarCustomerButtonDiv > button {

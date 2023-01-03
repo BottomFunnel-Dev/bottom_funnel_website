@@ -47,7 +47,7 @@ export const StellarFieldService = () => {
                     <div key={idx}>
                         <h3>{title}</h3>
                         <div>
-                            <img src={image} alt={title} />
+                            <img width={"200px"} src={image} alt={title} />
                         </div>
                         <p>{body}</p>
                         {/* <h6>{experience}</h6> */}
