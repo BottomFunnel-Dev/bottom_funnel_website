@@ -19,11 +19,23 @@ import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
 import { ProductsFooter } from "../ProductsNewPage/ProductsFooter/ProductsFooter";
 
+
+import {
+    mountNavbar,
+    unmountNavbar,
+  } from "../../Redux/ProductNavbar/ProductNavAction";
+  
 export const SelfService = () => {
+
     const dispatch = useDispatch();
     useEffect(function () {
-        dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+      dispatch(ChnageNavbarColor({ color: "black", logo: false, }));
+      dispatch(mountNavbar());
+      return () => {
+        dispatch(unmountNavbar())
+      };
     }, []);
+
     return (
         <div>
             <SelfServiceBanner />

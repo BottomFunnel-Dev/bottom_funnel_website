@@ -18,11 +18,20 @@ import { TextDropdown } from "../faqSection/Faqs";
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
 
+import {
+    mountNavbar,
+    unmountNavbar,
+  } from "../../Redux/ProductNavbar/ProductNavAction";
+
 export const FieldServiceManagement = () => {
-    const dispatch = useDispatch();
-    useEffect(function () {
-        dispatch(ChnageNavbarColor({ color: "black", logo: false }));
-    }, []);
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "black", logo: false, }));
+    dispatch(mountNavbar());
+    return () => {
+      dispatch(unmountNavbar())
+    };
+  }, []);
 
     return (
         <div>
