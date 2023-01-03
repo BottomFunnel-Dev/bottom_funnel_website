@@ -40,24 +40,24 @@ export const SalesNavbar = ({ scroll }) => {
     }
   };
 
-  const solHoverIn = () => {
+  const saleIndIn = () => {
     setProductSolution(true);
     setproductNabvar(true);
   };
 
-  const solHoverOut = () => {
+  const saleIndOut = () => {
     setProductSolution(false);
     if (window.scrollY == 0) {
       setproductNabvar(false);
     }
   };
 
-  const solResIn = () => {
+  const saleResIn = () => {
     setproductResource(true);
     setproductNabvar(true);
   };
 
-  const solResOut = () => {
+  const saleResOut = () => {
     setproductResource(false);
     if (window.scrollY == 0) {
       setproductNabvar(false);
@@ -135,8 +135,8 @@ export const SalesNavbar = ({ scroll }) => {
         </li>
 
         <li
-          onMouseEnter={solResIn}
-          onMouseLeave={solResOut}
+          onMouseEnter={saleResIn}
+          onMouseLeave={saleResOut}
           style={{ color: productnavbar ? "black" : navproductredux.color }}
         >
           Resources{" "}
@@ -148,8 +148,8 @@ export const SalesNavbar = ({ scroll }) => {
         </li>
 
         <li
-          onMouseEnter={solHoverIn}
-          onMouseLeave={solHoverOut}
+          onMouseEnter={saleIndIn}
+          onMouseLeave={saleIndOut}
           style={{ color: productnavbar ? "black" : navproductredux.color }}
         >
           Industries{" "}
@@ -170,16 +170,16 @@ export const SalesNavbar = ({ scroll }) => {
       {/* ProductSolutions drop down section code start */}
       {ProductSolution ? (
         <SalesIndustries
-          solHoverIn={solHoverIn}
-          solHoverOut={solHoverOut}
+          saleIndIn={saleIndIn}
+          saleIndOut={saleIndOut}
           scroll={scroll}
         />
       ) : null}
 
       {productresource ? (
         <SalesResources
-          solResIn={solResIn}
-          solResOut={solResOut}
+          saleResIn={saleResIn}
+          saleResOut={saleResOut}
           scroll={scroll}
         />
       ) : null}
