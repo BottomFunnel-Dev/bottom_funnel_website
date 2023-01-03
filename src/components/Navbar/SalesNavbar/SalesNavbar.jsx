@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./SalesNavbar.css";
 import { useSelector } from "react-redux";
-// import { ProductSolutions } from "./ProductSolutions";
-// import { ProductResources } from "./ProductResources";
-// import { ProductFeature } from "./ProductFeature";
-// import { ProductDesk } from "./ProductDesk";
+import { ProductSolutions } from "../ProductsNavbar/ProductSolutions";
+import { ProductResources } from "../ProductsNavbar/ProductResources";
+import { ProductFeature } from "../ProductsNavbar/ProductFeature";
+import { ProductDesk } from "../ProductsNavbar/ProductDesk";
 
 export const SalesNavbar = ({ scroll }) => {
   const navigate = useNavigate();
@@ -104,7 +104,7 @@ export const SalesNavbar = ({ scroll }) => {
           onMouseLeave={solDeskOut}
           style={{ color: productnavbar ? "black" : navproductredux.color }}
         >
-          Desk Products
+          Products
           <img
             className="deskdownIcon"
             src="Images/Logos/downarrow.png"
@@ -135,28 +135,6 @@ export const SalesNavbar = ({ scroll }) => {
         </li>
 
         <li
-          onMouseEnter={serHoverIn}
-          onMouseLeave={serHoverOut}
-          onClick={() => navigate("/saas")}
-          style={{ color: productnavbar ? "black" : navproductredux.color }}
-        >
-          Saas
-        </li>
-
-        <li
-          onMouseEnter={solHoverIn}
-          onMouseLeave={solHoverOut}
-          style={{ color: productnavbar ? "black" : navproductredux.color }}
-        >
-          Solutions{" "}
-          <img
-            className="deskdownIcon"
-            src="Images/Logos/downarrow.png"
-            alt="image"
-          />
-        </li>
-
-        <li
           onMouseEnter={solResIn}
           onMouseLeave={solResOut}
           style={{ color: productnavbar ? "black" : navproductredux.color }}
@@ -168,6 +146,21 @@ export const SalesNavbar = ({ scroll }) => {
             alt=""
           />
         </li>
+
+        <li
+          onMouseEnter={solHoverIn}
+          onMouseLeave={solHoverOut}
+          style={{ color: productnavbar ? "black" : navproductredux.color }}
+        >
+          Industries{" "}
+          <img
+            className="deskdownIcon"
+            src="Images/Logos/downarrow.png"
+            alt="image"
+          />
+        </li>
+
+
         <li>Sign In</li>
         <button>Free Trial</button>
       </div>

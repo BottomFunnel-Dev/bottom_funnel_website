@@ -12,7 +12,6 @@ import {
   salesmountNavbar,
   salesunmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
-import { SalesNavbar } from "../Navbar/SalesNavbar";
 
 export const SalesPage = () => {
     const dispatch = useDispatch();
@@ -27,8 +26,6 @@ export const SalesPage = () => {
   return (
     <div>
 
-
-        {/* <SalesNavbar/> */}
         <SalesPageBanner/>
         <Revenue/>
         <SaleSmarter/>

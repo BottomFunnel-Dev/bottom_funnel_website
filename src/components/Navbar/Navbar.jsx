@@ -32,7 +32,7 @@ import { NavServices } from "./NavServices";
 import { NavIndustries } from "./NavIndustries";
 import { Products } from "./Products";
 import { ProductsNavbar } from "./ProductsNavbar/ProductsNavbar";
-import { SalesNavbar } from "./SalesNavbar";
+import { SalesNavbar } from "./SalesNavbar/SalesNavbar";
 
 export const NavbarMain = () => {
   const navigate = useNavigate();
