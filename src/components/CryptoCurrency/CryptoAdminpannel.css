@@ -15,18 +15,15 @@
   margin-left: 2%;
 
 }
-/* .cryptoadmintextadminpannel{
-  height: 60px;
-  width: 70%;
-  border: 1px solid;
-} */
+
 .cryptoadminboxingindivisually{
   height: 30%;
   width: 48%;
   margin: 1%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
-  padding: 1%;
+  padding: 10px;
+  border-radius: 10px;
 
 }
 
@@ -38,20 +35,20 @@
 .cryptoadminboxingindivisuallylogo {
   height: 18%;
   width: 15%;
- 
-  margin-top: 10%;
 }
 
 .cryptoadminboxingindivisuallylogo>img {
   height: 100%;
   width: 100%;
   object-fit: contain;
+  padding: 2px;
 }
 
 .cryptoadminboxingindivisuallyfortxt{
   height: 100%;
-  width: 65%;
-  margin-left: 2%;
+  width: 100%;
+  margin-left: 3%;
+text-align: justify;
 
 }
 

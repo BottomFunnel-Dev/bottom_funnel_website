@@ -5,9 +5,9 @@ const FlowerDeliveryBanner = () => {
   return (
     <div className='flowerdeliverybannermaindiv'>
     <div className='flowerdeliverybannerleftbox'>
-    <h2>On-Demand</h2>
-    <h3>Flower Delivery Application Solutions</h3>
-    <p>Lorem ipsum dolor sit amet,laoreet. Vivamus ultrices In sodales odio sit amet quam varius In sodales odio sit amet quam varius erat ut felis commodo</p>
+    <h1>On-Demand</h1>
+    <h2>Flower Delivery Application Solutions</h2>
+    <p>With the help of our Online Flower Delivery Solution, you can make your mark in this competitive industry and accelerate your business growth.</p>
     <button className='flowerdeliverybannerbutton'>Get Started</button>
     
     </div>

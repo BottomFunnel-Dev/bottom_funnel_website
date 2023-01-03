@@ -37,8 +37,8 @@ width: 35%;
     position: absolute;
     height: 400px;
     width: 80%;
-
-   top: 150px;
+ 
+    top: 300px;
  
 }
 
@@ -52,7 +52,7 @@ z-index: 0;
 .flowerdeliveryflexboxleftimagetwo{
     position: absolute;
     height: fit-content;
-    width: 30%;
+    width: 35%;
  
     left: 200px;
    top: 30px;

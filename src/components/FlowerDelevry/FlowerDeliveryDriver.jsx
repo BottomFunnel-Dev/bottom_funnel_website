@@ -18,28 +18,28 @@ const FlowerDeliveryDriver = () => {
  
   img:"Images/Flowerdeliverypage/DriverProfile.png",
   htxt:"Driver's Profile",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis rutrum, ornare augue quis, molestie urna. Proin euismod interdum risus, non convallis leo porta"
+  stxt:"Bottom funnel is a flower delivery company that delivers fresh flowers to your door. We offer a wide variety of bouquets and arrangements to suit any occasion, and our drivers are always on time and professional."
 },
 
 
 {
   img:"Images/Flowerdeliverypage/Pickup location.png",
   htxt:"Pickup Details",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis rutrum, ornare augue quis, molestie urna. Proin euismod interdum risus, non convallis leo porta"
+  stxt:"At Bottom Funnel, we understand that getting your flowers delivered on time is important to you. That's why we offer our convenient flower delivery service. With our service, you can rest assured that your flowers will be delivered fresh and on time."
 },
 
 
 {
   img:"Images/Flowerdeliverypage/Reports.png",
   htxt:"Performance Analysis",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis rutrum, ornare augue quis, molestie urna. Proin euismod interdum risus, non convallis leo porta"
+  stxt:"Bottom funnel is a flower delivery company that takes a unique approach to delivering flowers. We believe that by focusing on the customer experience, we can provide a better product than our competitors. "
 },
 
 
 {
   img:"Images/Flowerdeliverypage/Orderdetails.png",
   htxt:"Order",
-  stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis rutrum, ornare augue quis, molestie urna. Proin euismod interdum risus, non convallis leo porta"
+  stxt:"Bottom funnel is a flower delivery company that strives to provide the best possible experience for its customers. We offer a wide variety of flowers and arrangements to choose from, as well as a team of knowledgeable and friendly staff who are always happy to help."
 },
 
 

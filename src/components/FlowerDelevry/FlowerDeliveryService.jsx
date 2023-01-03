@@ -8,39 +8,39 @@ export const FlowerDeliveryService = () => {
     {
       icon: "Images/Flowerdeliverypage/58601082.png",
       htxt: "Real-Time Traking",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint , ."
+      stxt: "Track your drivers in real-time, analyze their performance, and improve your business processes to streamline deliveries using a robust admin panel. ."
     },
 
     {
       icon: "Images/Flowerdeliverypage/wavytexh.png",
       htxt: "Multiple Payment Option",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint , ."
+      stxt: "Less time spent in the ordering process means better user experience. Let your app users pay easily using multiple payment options so as to improve their overall app experience. ."
     },
 
     {
       icon: "Images/Flowerdeliverypage/84541.png",
       htxt: "Reports and Analytics",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint , ."
+      stxt: "Use the app's in-built advanced analytics to see and analyze how your business is performing. Identify problems and make informed decisions to grow your sales."
     },
 
     {
       icon: "Images/Flowerdeliverypage/84542.png",
       htxt: "Manage Orders",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint , ."
+      stxt: "Avoid messy ordering processes and long queues with our Pizza Delivery service app. Manage everything while sitting at your home with a robust Admin Panel."
     },
 
 
     {
       icon: "Images/Flowerdeliverypage/62400601.png",
       htxt: "Better Roi",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint , ."
+      stxt: "Make effective strategies by using features like Push Notifications and provide real-time updates to your customers about new deals to increase your ROI."
     },
 
 
     {
       icon: "Images/Flowerdeliverypage/76301.png",
       htxt: "Promote Your Buisness Effectively",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint , ."
+      stxt: "Provide your customer loyalty bonuses, introduce referrals and do a lot more to promote your business using all-in-one robust admin panel. from bottom funnel"
     },
 
 
@@ -51,7 +51,7 @@ export const FlowerDeliveryService = () => {
     <div className='flowerdeliveryservicemainbox'>
       <div className='flowerdeliveryservicetextbox'>
         <h1>Delivery Service App Solution</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales odio sit amet quam varius, id interdum nibh auctor. Donec quis nisl a nibh elementum laoreet. Vivamus ultrices</p>
+        <p>Expand Your Flower Business With A Flower Delivery Service App Solution</p>
       </div>
       <div className='flowerdeliveryservicebackgroundimagebox'>{flowerdeliveryservicedata.map((el) => {
 

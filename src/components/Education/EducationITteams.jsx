@@ -12,7 +12,7 @@ export const EducationITteams = () => {
     
         {
             htxt:"Make self-service easily with an IT portal",
-            stxt:"IT teams typically spend a lot of time in repeatedly answering simple questions. With Freshdesk, they can easily create a self-service IT portal for staff and students. Staff can get answers to their questions immediately using the portal and hence, the number of enquiries the IT team has to work with decreases.",
+            stxt:"IT teams typically spend a lot of time in repeatedly answering simple questions. With Freshdesk, they can easily create a self-service IT portal for staff and students. Staff can get answers to their questions immediately using the portal and hence, the number of enquiries the IT team has to work with decreases team has to work with decreases team has to.",
             img:"Images/education/vectors/Social.png",
         },
     

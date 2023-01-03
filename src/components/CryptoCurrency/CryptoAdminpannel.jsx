@@ -13,12 +13,10 @@ import "./CryptoAdminpannel.css"
  }
 
 
-
-
   let cryptoadminpanelData = [
             {
               title: "Dashboard",
-            txt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            txt:"Bottom funnel is a new and innovative crypto currency company that offers a unique and convenient way to buy, sell, and trade digital assets. ",
                 logo:"Images/Cryptocurrencypage/icons/dashboard.png",
                 image:"Images/Cryptocurrencypage/adminpanelscreens/Dashboard.png"
             },
