@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./SalesNavbar.css";
 import { useSelector } from "react-redux";
-import { ProductSolutions } from "../ProductsNavbar/ProductSolutions";
+import { SalesProduct } from "./SalesProduct";
 import { ProductResources } from "../ProductsNavbar/ProductResources";
 import { ProductFeature } from "../ProductsNavbar/ProductFeature";
 import { ProductDesk } from "../ProductsNavbar/ProductDesk";
@@ -64,12 +64,12 @@ export const SalesNavbar = ({ scroll }) => {
     }
   };
 
-  const solDeskIn = () => {
+  const saleProIn = () => {
     setproductDesk(true);
     setproductNabvar(true);
   };
 
-  const solDeskOut = () => {
+  const saleProOut = () => {
     setproductDesk(false);
     if (window.scrollY == 0) {
       setproductNabvar(false);
@@ -100,8 +100,8 @@ export const SalesNavbar = ({ scroll }) => {
       </div>
       <div className="deskList">
         <li
-          onMouseEnter={solDeskIn}
-          onMouseLeave={solDeskOut}
+          onMouseEnter={saleProIn}
+          onMouseLeave={saleProOut}
           style={{ color: productnavbar ? "black" : navproductredux.color }}
         >
           Products
@@ -169,7 +169,7 @@ export const SalesNavbar = ({ scroll }) => {
 
       {/* ProductSolutions drop down section code start */}
       {ProductSolution ? (
-        <ProductSolutions
+        <SalesProduct
           solHoverIn={solHoverIn}
           solHoverOut={solHoverOut}
           scroll={scroll}
@@ -193,9 +193,9 @@ export const SalesNavbar = ({ scroll }) => {
       ) : null}
 
       {productdesk ? (
-        <ProductDesk
-          solDeskIn={solDeskIn}
-          solDeskOut={solDeskOut}
+        <SalesProduct
+          saleProIn={saleProIn}
+          saleProOut={saleProOut}
           scroll={scroll}
         />
       ) : null}

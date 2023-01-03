@@ -1210,3 +1210,16 @@ export const productResources = [
     path:"",
   }
 ];
+
+export const salesProduct = [
+  {
+    dropContent: "FreshSales",
+    productText1:"Sales CRM",
+    path:"",
+  },
+  {
+    dropContent: "Freshsales Suite",
+    productText1:"Sales & Markeing CRM",
+    path:"",
+  },
+];
