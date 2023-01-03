@@ -46,6 +46,10 @@
     border-radius: 10px;
 }
 
+.onlinepaymentmobileapplicationmappingbox >h4{
+    font-size: 20px;
+}
+
 .onlinepaymentmobileapplicationmappingbox:hover{
     transform: scale(1.02);
 }

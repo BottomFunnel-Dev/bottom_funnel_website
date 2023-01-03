@@ -8,7 +8,7 @@ const LaundryPageBanner = () => {
        <div className='laundrypagebannerleft'> 
      
             <h1>Build an On-Demand App for Your Laundry Business</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed quam est. Nunc vestibulum odio blandit, aliquam metus nec, eleifend eros . Sed sed efficitur lectus, sed vehicula est. Donec feugiat non ex a molestie. Nullam eget massa est. Cras ut eros posuere, efficitur elit</p>
+            <p>Being in the best on demand laundry app development Company, we develop complete on-demand app and provides a solution. Our Mobile app development team is all determined to make the on-demand app revolution in various industries that require instant provisioning of benefits and services. Thus, we had a very welcoming look at the laundry service market.</p>
            <button className='laundrypagebannerbutton'>Get Started</button>
         
        </div>

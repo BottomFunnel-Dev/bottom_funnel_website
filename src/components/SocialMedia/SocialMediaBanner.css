@@ -11,8 +11,13 @@
     width: 40%;
  
     position: absolute;
-    margin-top: 20%;
-    margin-left: 2%;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+
+.socialmediabannerinnertextboxes>h1{
+font-weight: 700;
+font-size: 45px;
 }
 
 .socialmediabannerbutton{

@@ -10,14 +10,15 @@
 
 .socialmedialeftboxafterflexing {
   width: 55%;
+
 }
 
 .socialmediainsiderflexboxadminpannel {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  align-items: stretch;
   flex-wrap: wrap;
+
+
 }
 
 .socialmediaadminmaperbox {
@@ -25,14 +26,16 @@
   width: 42%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
-  align-items: stretch;
-  justify-content: space-between;
+  margin: 2% 1% 1% 1%;
+text-align: justify;
   padding: 2%;
-  margin-bottom: 2%;
+  border-radius: 10px;
+
 }
 
 .socialmediaadminmaperbox:hover {
   transform: scale(1.02);
+  background-color: #F8F9FE;
 }
 
 .socialmeditxtmapperbox {
@@ -41,6 +44,7 @@
 
 .afterflexingsocialmediarightbox {
   width: 40%;
+  margin-top: 8%;
   height: fit-content;
 }
 

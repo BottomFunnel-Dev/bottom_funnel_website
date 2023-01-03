@@ -18,13 +18,13 @@ const LaundryCustomer = () => {
 const laundrycustomerdata = [
     {
         htxt:"Easy to Place Online Orders",
-        stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula",
+        stxt:"Laundry app development has gained a lot of popularity these days. Just like the on-demand food delivery app and grocery delivery app have become highly successful",
         img:"Images/Laundrypage/icons/shopping.png",
         bigimage:"Images/Laundrypage/Customerappscreens/Easytoplaceorder.png"
     },
     {
         htxt:"Real-Time Delivery Traking",
-        stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula",
+        stxt:"As the popularity of laundry apps has grown, several startups have invested in laundry app development. There are some that must be included in the app",
         img:"Images/Laundrypage/icons/track1.png",
         bigimage:"Images/Laundrypage/Customerappscreens/Realtimetracking.png"
 
@@ -32,14 +32,14 @@ const laundrycustomerdata = [
 
     {
         htxt:"Delivery Reminder Alerts",
-        stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula",
+        stxt:"These fantastic on-demand laundry mobile apps allow users to book their laundry services in a couple of seconds. The global dry cleaning service.",
         img:"Images/Laundrypage/icons/reminder.png",
         bigimage:"Images/Laundrypage/Customerappscreens/Deliveryreminders.png"
       },
 
     {
         htxt:"Store Locator and Easy navigation",
-        stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula",
+        stxt:" the market share of laundry and dry cleaning services in the U.s will reach $13.8 billion by 2025. revenue services is expected to hit $7,660 million  By 2024",
         img:"Images/Laundrypage/icons/compass.png",
         bigimage:"Images/Laundrypage/Customerappscreens/StorelocaterEasynavigate.png"
     }

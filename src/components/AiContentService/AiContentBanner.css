@@ -2,19 +2,26 @@
     height: 100vh;
     background: url("/public/Images/AiContentsolution/bannersBackgrounds/Component 98.png");
     background-size: cover;
-    margin-top: 120px;
+  
     position: relative;
 }
 
 .aicontentbannerboxfortext{
     height: 40%;
-    width: 50%;
+    width: 44%;
 
     position: absolute;
     top: 37%;
     left: 5%;
     color: white;
 }
+
+.aicontentbannerboxfortext >h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
 
 .aicontentbannerboxfortext >p{
     font-size: 20px;

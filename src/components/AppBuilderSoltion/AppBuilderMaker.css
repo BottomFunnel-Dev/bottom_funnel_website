@@ -1,6 +1,7 @@
 .appbuildermakermainboxes{
     height: fit-content;
 margin-top: 5%;
+margin-bottom: 5%;
  
 }
 
@@ -35,6 +36,7 @@ margin: auto;
 
 .appbuildermakerspecialtypeflexboxtypeA:hover{
     transform: scale(1.02);
+    background-color: #cbbaf7;
 }
 
 .appbuildermakerspecialtypeflexboxtypeAfortextA{
@@ -68,6 +70,7 @@ border-radius: 10px;
 
 .appbuildermakerspecialtypeflexboxtypeB:hover{
     transform: scale(1.02);
+    background-color: #cbbaf7;
 }
 
 .appbuildermakerspecialtypeflexboxtypeAforimageB{

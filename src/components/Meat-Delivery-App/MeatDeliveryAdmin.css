@@ -14,7 +14,6 @@ margin-top: 50px;
 .meatdeliveryadminuppertextbox{
     height: fit-content;
 
-    text-align: center;
 }
 
 .meateliverymappingboxforadminpannel{
@@ -30,17 +29,19 @@ margin-top: 50px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1%;
     padding: 15px;
+    border-radius: 10px;
 }
 
 .meatdeliveryadminboxindivisually:hover{
     transform: scale(1.02);
+    background-color: #f6deb8;
 }
 
 .meatdeliveryadminrightboxes{
     height: fit-content;
     width: 45%;
 
-  margin: 0% 0% 0% 2%;
+  margin: 3% 0% 0% 2%;
 
 
 }

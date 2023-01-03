@@ -3,23 +3,37 @@
 .tdtooldeliverycontainer {
   width: 100%;
   /* height: 650px; */
+height: 100vh;
 
-  margin-top: 6%;
 }
 .txtooldeliverysubcontainer {
   width: 100%;
-  height: 590px;
+height: 100vh;
   background: url("/public/Images/tooldeliveryapp/Bannerimage1.png");
   background-repeat: no-repeat;
-  background-size: 100% 590px;
+  background-size: 100% 100%;
 
   color: white;
   display: flex;
 }
 
+.tdtooldeliverysometxtbox >h1{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.tdtooldeliverysometxtbox >h2{
+    font-size: 50px;
+  font-weight: 700;
+}
+
+.tdtooldeliverysometxtbox >p{
+text-align: justify;
+} 
+
 .tdtooldeliveryleft {
   width: 50%;
-
+top: 7%;
   position: relative;
   padding: 100px 30px;
 }
@@ -106,6 +120,7 @@
   margin: auto;
 
   margin-top: 2%;
+  text-align: justify;
 }
 
 .tddeliverysolution:hover {
@@ -119,10 +134,12 @@
 
 .tddeliverysolutionapp {
   display: flex;
+  
 }
 .tddeliverytraking {
   width: 25%;
   height: 60px;
+
 }
 .tddeliverytraking > img {
   width: 100%;
@@ -529,19 +546,21 @@
 
 .tooldeliverydriveright {
   width: 45%;
-  height: 100%;
+  height: 80%;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+
   margin-top: 10%;
+
 }
 
 .tooldeliverydriveright > div {
-  padding: 10px 10px 10px 10px;
-  gap: 10px;
-  margin-left: 8%;
-  height: 200px;
-  width: 35%;
+  padding:10px;
+  margin: 1%;
+
+  height: 180px;
+
+  width: 47%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
@@ -551,6 +570,10 @@
 
 .tooldeliverydriveright > div:hover {
   background-color: #e1f9f6;
+  transition: all 0.2s linear;
+
+  transform: translateY(-10px);
+
 }
 
 .tooldeliverydriveright > div > h3 {
@@ -603,26 +626,28 @@
   background-size: 100% 500px;
 }
 .tooladminright {
-  width: 45%;
+  width: 50%;
   margin-left: 1%;
-  height: 100%;
+  height: fit-content;
   /* background-color: aqua; */
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+margin-left: 3%;
+
 }
 
 .tooladminright > div {
-  padding: 10px 10px 10px 10px;
-  gap: 10px;
-  margin-left: 8%;
-  height: 200px;
-  width: 35%;
+
+ padding: 10px;
+ margin: 1%;
+  height: fit-content;
+  width: 48%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   background-color: white;
   cursor: pointer;
+
 }
 
 .tooladminright > div:hover {
@@ -643,7 +668,7 @@
   width: 80%;
   height: 500px;
   text-align: right;
-
+margin-top: -5%;
   margin-left: 10%;
   padding-bottom: 5px;
 }
@@ -687,7 +712,16 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 2%;
   display: flex;
+  border-radius: 10px;
 }
+
+.tooldeliveryfooterbox:hover{
+  transition: all 0.2s linear;
+
+  transform: translateY(-10px);
+}
+
+
 .tooldeliveryfooterboxlogo {
   height: 100%;
   width: 35%;
@@ -699,6 +733,7 @@
 
 .tooldeliverytextmapping {
   margin: 5%;
+  padding: 10px;
 }
 
 .flexboxrightinnerimage2fortoolcustomer {
@@ -726,10 +761,11 @@
 
 .toolcustomerpannelleft {
   width: 50%;
-  height: 500px;
+  height: 400px;
   /* padding: 10px; */
   display: flex;
   background: url("/public/Images/tooldeliveryapp/Component19.png");
   background-repeat: no-repeat;
-  background-size: 100% 500px;
+  background-size: 90% 100%;
+  background-position-x: right;
 }

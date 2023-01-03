@@ -2,10 +2,11 @@
     height: fit-content;
    border: 1px solid white;
    margin-top: 5%;
+   margin-bottom: 5%;
 }
 
 .cannabisdriverappmainboxes >h2{
-    text-align: center;
+    margin-left: 44%;
 }
 
 .canabisdriverappflexingbox{
@@ -57,6 +58,7 @@
     margin: 1%;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
 }
 
 .canabisdriverappindivisualbox:hover{
