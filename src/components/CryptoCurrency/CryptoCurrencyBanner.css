@@ -23,6 +23,7 @@
 }
 .cryptocurrencybannermainboxinnertextdiv > p {
   color: white;
+  text-align: justify;
 }
 
 .cryptocurrencybannerbutton {

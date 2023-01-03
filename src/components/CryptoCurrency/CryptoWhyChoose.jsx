@@ -6,7 +6,7 @@ export const CryptoWhyChoose = () => {
     <div className='cryptowhychooseusmainboxes'>
     <div className='cryptowhychooseustextboxes'>
     <h2>Why Choose Bottom Funnel</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempus ex. Sed neque Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempus ex. Sed neque</p>
+    <p>You need to consider that your cryptocurrency website has a niche, but also you need to make it appealing at the industry level. Cryptocurrency is the new future of financial transitions,</p>
     </div>
     <div className='cryptowhychooseusimageboxes' >
     <img src='Images/Cryptocurrencypage/bannerbackground/Component 51.png' alt='' />
