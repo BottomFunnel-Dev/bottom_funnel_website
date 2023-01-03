@@ -13,14 +13,23 @@ import { HelpDeskBanner } from './HelpDeskBanner';
 import { HelpDeskLowerBanner } from './HelpDeskLowerBanner';
 import { HelpWidget } from './HelpWidget';
 
+import {
+  mountNavbar,
+  unmountNavbar,
+} from "../../Redux/ProductNavbar/ProductNavAction";
 
 
 export const HelpDesk = () => {
 
-    const dispatch = useDispatch();
-    useEffect(function () {
-      dispatch(ChnageNavbarColor({ color: "black", logo: false }));
-    }, []);
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "black", logo: false, }));
+    dispatch(mountNavbar());
+    return () => {
+      dispatch(unmountNavbar())
+    };
+  }, []);
+
 
 
   return (

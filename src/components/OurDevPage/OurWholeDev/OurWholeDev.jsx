@@ -83,12 +83,7 @@ export const OurWholeDev = () => {
         Our Whole <span>Development</span> Process
       </h1>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia in
-        quae expedita laborum accusamus? Molestiae odit sequi sed sit nam minus!
-        Fuga vero commodi excepturi corrupti, incidunt accusamus facere fugiat.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia in
-        quae expedita laborum accusamus? Molestiae odit sequi sed sit nam minus!
-        Fuga vero commodi excepturi corrupti, incidunt accusamus facere fugiat.
+      We focus on the development of an appealing and functional websites, that allow your business or organization to reach its goals. We are a team of developers and designers, who design and develop websites in accordance with your needs. From start to finish, we work closely with you to determine what you want, build it, and make it work. We are committed to our customers and will strive to create high-quality software in the best interest of our clients.
       </p>
       <OurWholeLeft data={point1} />
       <OurWholeRight data={point2} />

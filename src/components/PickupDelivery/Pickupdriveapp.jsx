@@ -14,7 +14,7 @@ export const Pickupdriveapp = () => {
         alt: " Register logo",
       },
       title: "Manage Profile",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: " you can save your deliveries to the calendar and create custom shipment details which are easily accessible. ",
     },
 
     {
@@ -27,7 +27,7 @@ export const Pickupdriveapp = () => {
         alt: "Schedule logo",
       },
       title: "Reminders & Alerts",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Stay in the know about everything delivery-related with the free Reminders & Alerts feature.Receive a push notification when your package is delivered. ",
     },
     {
       img: {
@@ -39,7 +39,7 @@ export const Pickupdriveapp = () => {
         alt: "Multiple Payment Option logo",
       },
       title: "Delivery Details",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Orders are delivered Monday through Friday. You will get a message when your order is ready to be picked up and delivered. For more customized options",
     },
     {
       img: {
@@ -51,7 +51,7 @@ export const Pickupdriveapp = () => {
         alt: "Track Order logo",
       },
       title: "In-App Navigation",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "The in-app navigation allows you to take your Pickup & Delivery experience beyond the app. Get detailed instructions on how to log in and order, schedule a pickup or get support.",
     },
   ];
   const [drive, setdrive] = useState(0);
@@ -69,7 +69,7 @@ export const Pickupdriveapp = () => {
         </div>
 
         <div className="pickupdriveright">
-          {pickupdrive.map(({ title, icon }, idx) => {
+          {pickupdrive.map(({ title, icon,para  }, idx) => {
             return (
               <div
                 key={title}
@@ -82,8 +82,7 @@ export const Pickupdriveapp = () => {
                 <h3>{title}</h3>
 
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
-                  quis eum ev
+                 {para}
                 </p>
               </div>
             );

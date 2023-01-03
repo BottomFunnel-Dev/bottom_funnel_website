@@ -8,6 +8,13 @@
   width: 60%;
   position: relative;
   text-align: center;
+  /* border: 2px solid yellow; */
+}
+.pickupcustomerright h1{
+  /* border: 2px solid green; */
+  text-align: left;
+  margin-left: 4%;
+  color:  #5CACB2;
 }
 .pickupcustomerSols {
   width: 100%;
@@ -83,6 +90,7 @@ padding: 0 30px;
   /* transform: scale(1.1); */
   transform: translateY(-15px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #f2daaf;
 }
 
 .pickupcustomercard > h6 {

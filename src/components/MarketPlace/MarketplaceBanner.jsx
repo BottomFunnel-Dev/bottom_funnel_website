@@ -33,9 +33,7 @@ export const MarketplaceBanner = () => {
       <div className="marketplacebannerimageinsideboxtext">
         <h1>Build A Freelancer Marketplace Like Upwork & Fiverr</h1>
         <p>
-        Bottom Funnel has a solid track record in marketplace website and CMS development and has covered a large array of applications.
-
-        If you want to build a marketplace website, our expert team will help you to step ahead from the competition by providing you with a stunning design.{" "}
+        Are you looking for a place to hire freelancers? Have you tried Upwork or Fiverr, but found them to be too time consuming and other similar sites? Let's build an online marketplace where people are looking for your type of work!{" "}
         </p>
         <button className="marketplacebutton" onClick={handleOpen} >
           Get Started

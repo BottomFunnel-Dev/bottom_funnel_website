@@ -14,26 +14,26 @@ const MarketPlaceAdmin = () => {
     {
       img: "/Images/Marketplaceapp/icons/Component41.png",
       Htxt: "Dashboard",
-      stxt: "Lorem ipsum dolor sit amet, consect in facilisis. Curabitur eget mauris",
+      stxt: "Easily navigate to the different pages and posts we have for freelancers, like our dashboard.",
       tablet: "Images/Marketplaceapp/Adminappscreens/dashboard.png",
     },
     {
       img: "/Images/Marketplaceapp/icons/Group339972.png",
       Htxt: "Clients Management",
-      stxt: "Lorem ipsum dolor sit amet, consect in facilisis. Curabitur eget mauris",
+      stxt: "We allow freelancers and clients to access a central dashboard to manage the relationship.",
       tablet: "Images/Marketplaceapp/Adminappscreens/reports.png",
     },
     {
       img: "/Images/Marketplaceapp/icons/Component43.png",
       Htxt: "Reports",
-      stxt: "Lorem ipsum dolor sit amet, consect in facilisis. Curabitur eget mauris",
+      stxt: "Reports are reliable and can give you useful insight into the person that’s completing your project.",
       tablet: "Images/Marketplaceapp/Adminappscreens/reports.png",
     },
 
     {
       img: "/Images/Marketplaceapp/icons/icon.png",
       Htxt: "Email Alerts",
-      stxt: "Lorem ipsum dolor sit amet, consect in facilisis. Curabitur eget mauris",
+      stxt: "You'll get emailed a notification when a new freelance job opens up. .",
       tablet: "Images/Marketplaceapp/Adminappscreens/emailalerts.png",
     },
   ];
@@ -44,8 +44,7 @@ const MarketPlaceAdmin = () => {
           <div className="marketplaceadminbackgroundimagebannertextbox">
             <h2>Admin's Website & App</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              sed nulla arcu. Integer hendrerit mauris nec justo tempor dapibus.
+            Admin’s website and mobile app design layout, matching the entrepreneurs’ needs for a reliable attract and growth business. Allowing them to connect quickly, easily, and transparently.
             </p>
           </div>
           <div className="marketplaceadminboxingfordoingflex">

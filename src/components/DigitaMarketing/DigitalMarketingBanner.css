@@ -8,7 +8,7 @@
   background-position-x: right;
 }
 
-.digitalmarketingbannerspacefortext {
+.digitalmarketingbannerspacefortext1 {
   height: 45%;
   width: 40%;
   /* margin-left: 3%; */
@@ -17,12 +17,12 @@
   left: 5%;
   text-align: justify;
 }
-.digitalmarketingbannerspacefortext p{
+.digitalmarketingbannerspacefortext1 p{
   font-size: 18px;
   margin-top: 2%;
 }
 
-.digitalmarketingbannerspacefortext > h1 {
+.digitalmarketingbannerspacefortext1 > h1 {
   font-weight: bold;
   /* margin-left: 5%; */
 }

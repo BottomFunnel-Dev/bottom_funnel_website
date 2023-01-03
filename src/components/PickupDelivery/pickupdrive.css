@@ -4,7 +4,9 @@
   /* background-color: cornflowerblue; */
 }
 .pickupdrive > h1 {
-  margin-left: 58.5%;
+  margin-left: 55.5%;
+  /* border: 2px solid green; */
+  color: #5CACB2;
 }
 .pickupdrivesub {
   width: 100%;
@@ -48,7 +50,7 @@
 }
 
 .pickupdriveright > div:hover {
-  background-color: #e1f9f6;
+  background-color: #edb8b8;
 }
 
 .pickupdriveright > div > h3 {

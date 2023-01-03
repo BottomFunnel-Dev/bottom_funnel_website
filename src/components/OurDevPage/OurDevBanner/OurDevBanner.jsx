@@ -12,18 +12,11 @@ export const OurDevBanner = () => {
       </div>
       <div className="OurDevBanner-main">
         <h1>
-          <span>Bottom Funnel</span> Follows a pursuit for Development the best
-          products for web and mobile.
+          <span>Bottom Funnel</span>Follows a pursuit to develop the best products for web and mobile.
         </h1>
         <hr />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-          illo sequi ad corporis commodi libero rem, perspiciatis molestiae vero
-          odit voluptatum ea ipsam officia sint eum dolorum dolor asperiores
-          reiciendis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Doloremque illo sequi ad corporis commodi libero rem, perspiciatis
-          molestiae vero odit voluptatum ea ipsam officia sint eum dolorum dolor
-          asperiores reiciendis.
+        Bottom funnel follows a pursuit to develop the best products for web and mobile. We have rich experience in creating apps, website and games. Our concept is to provide our customers a branded experience ensuring them a high quality product.This process is based on a thorough research of market needs, requirements and opportunities. After many brainstorming sessions, we came up with this funnel diagram.We believe that innovation is key to sustainable growth and we are committed to conducting ourselves in a transparent manner.
         </p>
         <button>Get Started</button>
       </div>

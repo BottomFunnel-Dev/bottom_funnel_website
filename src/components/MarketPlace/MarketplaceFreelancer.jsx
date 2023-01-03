@@ -11,22 +11,22 @@ const MarketplaceFreelancer = () => {
         {
             img: "/Images/Marketplaceapp/icons/Group339964.png",
             Htxt: "Register Yourself",
-            stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue facilisis nisi in ",
+            stxt: " Register yourself and start Approaching clients.This will allow you to create your profile ",
             phone: "Images/Marketplaceapp/Freelancerappcreen/Register.png"
         }, {
             img: "/Images/Marketplaceapp/icons/Component44.png",
             Htxt: "In App Chat",
-            stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue facilisis nisi in ",
+            stxt: "This is an in-app chat platform that helps you communicate effectively with your clients. ",
             phone: "Images/Marketplaceapp/Freelancerappcreen/inappchat.png"
         }, {
             img: "/Images/Marketplaceapp/icons/Group339974.png",
             Htxt: "Find Popular Jobs",
-            stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue facilisis nisi in ",
+            stxt: "Such as a built in system for tracking, email notifications for job applications and more. ",
             phone: "Images/Marketplaceapp/Freelancerappcreen/FindPopularjobs.png"
         }, {
             img: "/Images/Marketplaceapp/icons/Group339973.png",
             Htxt: "Easy Apply",
-            stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue facilisis nisi in ",
+            stxt: "If you are an employer that needs a freelancer, here is the best service for you ",
             phone: "Images/Marketplaceapp/Freelancerappcreen/Easyapply.png"
         }
 
@@ -52,7 +52,7 @@ const MarketplaceFreelancer = () => {
                 <div className='freelancermarketboxrightflexing'>
                     <div className='freelancertextboxrightdiv'>
                         <h2>Freelancer Website & App</h2>
-                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue facilisis nisi in facilisis. Curabitur eget mauris at tortor</h6>
+                        <h6>Our Freelancer Marketplace (community) was designed to bring together freelancers and businesses for a better way to connect</h6>
                     </div>
                     <div className='freelancerboxforspecialimagedotted'>
 

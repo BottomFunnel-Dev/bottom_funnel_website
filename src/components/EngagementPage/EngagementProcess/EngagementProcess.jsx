@@ -9,14 +9,7 @@ export const EngagementProcess = () => {
           Bottom Funnel <span>Engagement Models</span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sequi
-          reiciendis magnam aliquam possimus molestiae esse deleniti nisi
-          dolores delectus? Explicabo perferendis distinctio aliquam eveniet
-          corrupti esse error eaque dolore. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Enim sequi reiciendis magnam aliquam
-          possimus molestiae esse deleniti nisi dolores delectus? Explicabo
-          perferendis distinctio aliquam eveniet corrupti esse error eaque
-          dolore.
+        The bottom funnel engagement model shows the most important metrics to measure and track for success on a project—engagement with your customer, by means of the bottom funnel.Bottom funnels are the best way to land your leads and most importantly, convert them into new customers. The art of engaging with customers at their core—both in their mind and in reality—is what makes you stand out from other companies. So if you have a bottom funnel, it’s time to start thinking about how to get visitors to keep coming back.
         </p>
         <hr />
         <div className="EngagementProcess-main">

@@ -17,7 +17,7 @@ export const Pickupadmin = () => {
           },
 
           title: "Analytics & Insights",
-         para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+         para:"Pickup and delivery analytics collection to track pickup & delivery performance on your eCommerce site.  ",
         },
 
         {
@@ -30,7 +30,7 @@ export const Pickupadmin = () => {
             alt: "Delivery Agents",
           },
              title: "Delivery Agents",
-             para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+             para:"We offer trusted, reliable and efficient delivery agents. Our goal is to be on-time and provide quality service at all times. ",
         },
         {
           img: {
@@ -42,7 +42,7 @@ export const Pickupadmin = () => {
             alt: "Manage Payments",
           },
             title: "Manage Payments",
-             para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+             para:"Manage payments on your account, schedule pickups and deliveries, and streamline the process behind the scenes. ",
        
          },
         {
@@ -55,7 +55,7 @@ export const Pickupadmin = () => {
             alt: "Customer logo",
           },
           title: "Manage Customer",
-          para:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+          para:"This role works in conjunction with other departments including sales and distribution to build and maintain a customer-centric approach to delivery. ",
         },
         
       ];
@@ -71,7 +71,7 @@ export const Pickupadmin = () => {
             <div className='pickupdeliveryadminright'>
 
             
-{ToolDeliveryadmindata.map(({ title, icon }, idx) => {
+{ToolDeliveryadmindata.map(({ title, para, icon }, idx) => {
   return (
    
     <div 
@@ -86,7 +86,7 @@ export const Pickupadmin = () => {
       <h3>{title}</h3>
        
     
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev</p>
+      <p>{para}</p>
       </div>
   
 

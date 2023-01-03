@@ -11,14 +11,7 @@ export const OurDevProcess = () => {
         </h1>
         <div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sequi
-            reiciendis magnam aliquam possimus molestiae esse deleniti nisi
-            dolores delectus? Explicabo perferendis distinctio aliquam eveniet
-            corrupti esse error eaque dolore. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Enim sequi reiciendis magnam aliquam
-            possimus molestiae esse deleniti nisi dolores delectus? Explicabo
-            perferendis distinctio aliquam eveniet corrupti esse error eaque
-            dolore.
+          Our end-to-end development process follows a methodical design and construction process, from continuous integration to testing, to deployment. This is what separates us from your typical development pros who will piece together bits of software that do not fit together.We are a global agency, with a mission to create products that exceed your expectations by integrating our expertise in every step of development process.Tailored for the rapidly changing dynamics of emerging markets and new technologies, our services help you stay ahead of the competition. Our goal is to give our customers the best products at an affordable price.
           </p>
           <div>
             <img

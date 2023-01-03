@@ -12,18 +12,11 @@ export const EngagementBanner = () => {
       </div>
       <div className="EngagementBanner-main">
         <h1>
-          <span>Bottom Funnel</span> Ensures Flexible Engagement Models to Cater
-          your Needs.
+          <span>Bottom Funnel</span> Ensures Flexible Engagement Models to Cater to your Needs. 
         </h1>
         <hr />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-          illo sequi ad corporis commodi libero rem, perspiciatis molestiae vero
-          odit voluptatum ea ipsam officia sint eum dolorum dolor asperiores
-          reiciendis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Doloremque illo sequi ad corporis commodi libero rem, perspiciatis
-          molestiae vero odit voluptatum ea ipsam officia sint eum dolorum dolor
-          asperiores reiciendis.
+        The Bottom Funnel is a process that helps small businesses increase their sales using flexible engagement models. Using real data, the Bottom Funnel can be used to analyze and optimize a business's current sales mix, identify profitable customer segments and create marketing campaigns that work for them. You can think about it as a sophisticated sales funnel with the ability to transform marketing efforts in order for them to become more active. This is because the bottom funnel also covers all the slow-moving customers and will allow you to gain a better understanding of what your customers want and need.
         </p>
         <button>Get Started</button>
       </div>
