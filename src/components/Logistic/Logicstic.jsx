@@ -25,14 +25,25 @@ import {
   logisticAdmin,
 } from "../../Data/panelsData";
 
+import {
+  salesmountNavbar,
+  salesunmountNavbar,
+} from "../../Redux/ProductNavbar/ProductNavAction";
+
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 import { logisticsLogo } from "../../Data/SeopartnerData";
 import { Helmet } from "react-helmet";
 export default function Logicstic() {
+  
   const dispatch = useDispatch();
   useEffect(function () {
-    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
+    dispatch(ChnageNavbarColor({ color: "black", logo: false, }));
+    dispatch(salesmountNavbar());
+    return () => {
+      dispatch(salesunmountNavbar())
+    };
   }, []);
+
   return (
     <div style={{ color: "#393939" }}>
       <Helmet>

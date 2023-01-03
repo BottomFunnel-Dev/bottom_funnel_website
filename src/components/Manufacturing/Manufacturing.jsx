@@ -19,12 +19,21 @@ import { ManufacturingDeals } from './ManufacturingDeals';
 import { ManufacturingsEngagement } from './ManufacturingsEngagement';
 import ContectForm from "../ContectForm/ContectForm";
 
-export const Manufacturing = () => {
+import {
+  salesmountNavbar,
+  salesunmountNavbar,
+} from "../../Redux/ProductNavbar/ProductNavAction";
 
-    const dispatch = useDispatch();
-    useEffect(function () {
-      dispatch(ChnageNavbarColor({ color: "white", logo: true }));
-    }, []);
+export const Manufacturing = () => {
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "black", logo: false, }));
+    dispatch(salesmountNavbar());
+    return () => {
+      dispatch(salesunmountNavbar())
+    };
+  }, []);
+  
   return (
     <div>
     <ManufacturingBanner />
