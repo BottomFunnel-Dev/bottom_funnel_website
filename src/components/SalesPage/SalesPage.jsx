@@ -9,17 +9,18 @@ import { SalesWorldwide } from './SalesWorldwide/SalesWorldwide'
 import { useDispatch } from "react-redux";
 
 import {
-  mountNavbar,
-  unmountNavbar,
+  salesmountNavbar,
+  salesunmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
+import { SalesNavbar } from "../Navbar/SalesNavbar";
 
 export const SalesPage = () => {
     const dispatch = useDispatch();
     useEffect(function () {
       dispatch(ChnageNavbarColor({ color: "black", logo: false, }));
-      dispatch(mountNavbar());
+      dispatch(salesmountNavbar());
       return () => {
-        dispatch(unmountNavbar())
+        dispatch(salesunmountNavbar())
       };
     }, []);
 
@@ -27,7 +28,7 @@ export const SalesPage = () => {
     <div>
 
 
-        
+        {/* <SalesNavbar/> */}
         <SalesPageBanner/>
         <Revenue/>
         <SaleSmarter/>

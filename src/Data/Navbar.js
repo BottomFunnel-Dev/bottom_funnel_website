@@ -1092,24 +1092,22 @@ export const productSolution = [
     dropContent: "By Use Size",
     productText1: "Enterprise",
     productText2: "SMB",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "android",
+    path: "",
   },
   {
     dropContent: "By Use Case",
     productText1: "Self Service",
+    path: "self-service",
     productText2: "Field Service",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "android",
   },
   {
     dropContent: "By Industry",
     productText1: "Retail & E-commerce",
     productText2: "Travel & Hospitality",
-
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "android",
+    path:"RetailEcommerce"
   },
+
+  
 ];
 
 export const productDesk = [
@@ -1118,6 +1116,7 @@ export const productDesk = [
     productText1: "A comprehensive helpdesk for exceptional customer service",
     productText2: "SMB",
     navIcons: "Images/Logos/funnel-desk/support-desk.png",
+    path:"funnel-desk"
   },
   {
     dropContent: "Contact Center",
@@ -1125,6 +1124,7 @@ export const productDesk = [
       "A reliable and smart call center solution for effortless experience",
     productText2: "Field Service",
     navIcons: "Images/Logos/funnel-desk/contact-center.png",
+    path:"ContactManagement"
   },
   {
     dropContent: "Omnichannel Suite",
@@ -1143,76 +1143,70 @@ export const productDesk = [
 
 export const productFeatures = [
   {
-    dropContent: "IT Service Desk",
-    productText1: "A comprehensive helpdesk for exceptional customer service",
-    productText2: "SMB",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    dropContent: "Ticketing",
+    path:"ticketing",
   },
   {
-    dropContent: "Bussiness Teams",
-    productText1:
-      "A reliable and smart call center solution for effortless customer experience",
-    productText2: "Field Service",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    dropContent: "Collaboration",
+    path:"Collaboration",
   },
   {
-    dropContent: "ITSM",
-    productText1: "Delight your customers with effortless omnichannel service",
-    productText2: "Travel & Hospitality",
-
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    dropContent: "Automations",
+    path:"",
   },
   {
-    dropContent: "ITOM",
+    dropContent: "Help Widget",
+    path:"helpDesk",
   },
   {
-    dropContent: "IT Project Management",
+    dropContent: "Reporting & Analytics",
+    path:"",
   },
   {
-    dropContent: "IT Assest Management",
+    dropContent: "Security",
+    path:"",
   },
   {
-    dropContent: "Automation",
-  },
-  {
-    dropContent: "Reporting",
+    dropContent: "Integration",
+    path:"",
   },
 ];
 
 export const productResources = [
   {
     dropContent: "Remote Support",
-    productText1: "A comprehensive helpdesk for exceptional customer service",
-    productText2: "SMB",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path:"",
   },
   {
     dropContent: "Customer Stories",
-    productText1:
-      "A reliable and smart call center solution for effortless customer experience",
-    productText2: "Field Service",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path:"",
   },
   {
     dropContent: "Resource Library",
-    productText1: "Delight your customers with effortless omnichannel service",
-    productText2: "Travel & Hospitality",
-
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    path:"",
   },
   {
     dropContent: "Webinars",
+    path:"",
   },
   {
     dropContent: "Videos",
+    path:"",
   },
   {
     dropContent: "Free Tools",
+    path:"",
   },
   {
     dropContent: "Academy",
+    path:"",
   },
   {
     dropContent: "Blog",
+    path:"",
   },
+  {
+    dropContent:"What's new",
+    path:"",
+  }
 ];

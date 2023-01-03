@@ -1,7 +1,8 @@
-import { MOUNT_NAV, UNMOUNT_NAV } from "./ProductNavAction";
+import { MOUNT_NAV, UNMOUNT_NAV, SALESMOUNT_NAV, SALESUNMOUNT_NAV } from "./ProductNavAction";
 
 const initialStore = {
   navMount: false,
+  salesnavMount:false,
 };
 
 export const mountNavbarReducer = (store = initialStore, { type, payload }) => {
@@ -13,6 +14,14 @@ export const mountNavbarReducer = (store = initialStore, { type, payload }) => {
     case UNMOUNT_NAV:
         return{
             navMount: false,
+        }
+    case SALESMOUNT_NAV:
+      return {
+        salesnavMount: true,
+      };
+    case SALESUNMOUNT_NAV:
+        return{
+          salesnavMount: false,
         }
 
     default:

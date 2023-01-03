@@ -453,8 +453,6 @@ export const ALLroutes = () => {
       {/* <Route path="/productHomepage" element={<ProductsNewPage/>}/> */}
       <Route path="/ContactManagement" element={<ContactManagement />} />
       <Route path="/manufacturing" element={<Manufacturing />} />
-      <Route path="/Collaboration" element={<CollaborationPage />} />
-      <Route path="/ticketing" element={<Ticketing />} />
       <Route path="/field-service-management" element={<FieldServiceManagement />} />
 
       {/* <Route path="/newProductPage" element={ <ProductsNewPage/> } /> */}

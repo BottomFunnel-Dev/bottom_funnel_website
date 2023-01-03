@@ -2,13 +2,13 @@
   display: flex;
   background-color: white;
   width: 12%;
-  height: fit-content;
+  height: 350px;
   position: fixed;
   top: 50px;
   right: 20%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   z-index: 100000000;
-  /* border: 2px solid; */
+  /* border: 2px solid red; */
   /* text-align: center; */
 }
 .productResourceListItems {
@@ -18,7 +18,7 @@
   flex-direction: column;
   /* border: 2px solid blue; */
   justify-content: center;
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 
 .productResourceListItems > p {
@@ -50,10 +50,17 @@
 .productResourceData:hover {
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   background-color: lightgray;
+  color: #ef4c23;
 }
 
 .productResourceData .productlinkP > p {
   margin: 0;
+  /* border: 2px solid red; */
+  margin-left: 2%;
+}
+
+.productResourceData .productlinkP > p:hover {
+  color: #ef4c23;
 }
 
 .productResourceListItems > button {

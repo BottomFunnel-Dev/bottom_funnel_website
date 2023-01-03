@@ -32,6 +32,7 @@ import { NavServices } from "./NavServices";
 import { NavIndustries } from "./NavIndustries";
 import { Products } from "./Products";
 import { ProductsNavbar } from "./ProductsNavbar/ProductsNavbar";
+import { SalesNavbar } from "./SalesNavbar";
 
 export const NavbarMain = () => {
   const navigate = useNavigate();
@@ -44,8 +45,9 @@ export const NavbarMain = () => {
 
   const navredux = useSelector((state) => state.navbar);
   const productMount = useSelector((state) => state.mountNav);
+  const salesproductMount = useSelector((state) => state.salesnavMount);
 
-  // console.log(productMount)
+  // console.log(salesproductMount)
 
   const skillHoverIn = () => {
     setSkill(true);
@@ -133,23 +135,24 @@ export const NavbarMain = () => {
 
   useEffect(() => {
     console.log(productMount.navMount);
+    console.log(productMount.salesnavMount);
   }, [productMount]);
 
 
   return (
     <div>
-     {!productMount.navMount && <ContactMain
+     {!(productMount.navMount || productMount.salesnavMount) && <ContactMain
         bgcolor={navbar ? "white" : "transparent"}
         textcolor={!navbar ? navredux.color : "black"}
       />}
 
       {productMount.navMount && <ProductsNavbar scroll={scroll}/>}
-
+      {productMount.salesnavMount && <SalesNavbar scroll={scroll}/>}
       <nav
         className={navbar ? "navbarSection active" : "navbarSection"}
         style={{
-          top: scroll || productMount.navMount ? "0" : "30px",
-          position: scroll && productMount.navMount ? "static": "fixed"
+          top: scroll || (productMount.navMount || productMount.salesnavMount) ? "0" : "30px",
+          position: scroll && (productMount.navMount || productMount.salesnavMount) ? "static": "fixed"
         }}
       >
         <div className="logoSection">

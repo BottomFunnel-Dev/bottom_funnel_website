@@ -22,11 +22,9 @@ export const ProductResources = ({ solResIn, solResOut, scroll }) => {
           >
             <Link onClick={solResOut} to={item.path} className="productlinkP">
               <p>{item.dropContent}</p>
-              {/* <p>{item.productText1}</p> */}
             </Link>
           </div>
         ))}
-        <button>View all Resources</button>
       </div>
     </div>
   );

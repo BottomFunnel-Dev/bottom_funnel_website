@@ -1,25 +1,25 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "./productsNavbar.css";
+import "./SalesNavbar.css";
 import { useSelector } from "react-redux";
-import { ProductSolutions } from "./ProductSolutions";
-import { ProductResources } from "./ProductResources";
-import { ProductFeature } from "./ProductFeature";
-import { ProductDesk } from "./ProductDesk";
+// import { ProductSolutions } from "./ProductSolutions";
+// import { ProductResources } from "./ProductResources";
+// import { ProductFeature } from "./ProductFeature";
+// import { ProductDesk } from "./ProductDesk";
 
-export const ProductsNavbar = ({ scroll }) => {
+export const SalesNavbar = ({ scroll }) => {
   const navigate = useNavigate();
   const [ProductSolution, setProductSolution] = useState(false);
   const [productfeature, setproductFeature] = useState(false);
   const [productresource, setproductResource] = useState(false);
   const [productdesk, setproductDesk] = useState(false);
   const [productnavbar, setproductNabvar] = useState(false);
-  const navproductredux = useSelector((state) => state.navbar);
+  const navproductredux = useSelector((state) => state);
 
   const skillProductHoverIn = () => {
     setproductNabvar(true);
   };
-
+  console.log(navproductredux)
   const skillProductHoverOut = () => {
     setProductSolution(false);
 
@@ -96,7 +96,7 @@ export const ProductsNavbar = ({ scroll }) => {
       }}
     >
       <div className="deskLogo">
-        <h5>Support Desk</h5>
+        <h5>Sales</h5>
       </div>
       <div className="deskList">
         <li
@@ -134,14 +134,14 @@ export const ProductsNavbar = ({ scroll }) => {
           Pricing
         </li>
 
-        {/* <li
+        <li
           onMouseEnter={serHoverIn}
           onMouseLeave={serHoverOut}
           onClick={() => navigate("/saas")}
           style={{ color: productnavbar ? "black" : navproductredux.color }}
         >
           Saas
-        </li> */}
+        </li>
 
         <li
           onMouseEnter={solHoverIn}
