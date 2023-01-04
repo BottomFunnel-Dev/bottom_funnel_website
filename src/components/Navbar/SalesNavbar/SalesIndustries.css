@@ -4,11 +4,11 @@
     width: 12%;
     height: fit-content;
     position: fixed;
-    top: 50px;
+    top: 30px;
     right: 22%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     z-index: 100000000;
-    /* border: 2px solid; */
+    /* border: 2px solid red; */
     /* text-align: center; */
   }
   .saleIndustriesListItems {
@@ -52,6 +52,7 @@
     /* border: 2px solid red; */
     margin: 0;
     margin-left: 6%;
+    font-size: 13px;
   }
   .saleIndustriesData .productlinkP > p:hover{
     color: #ef4c23;

@@ -52,6 +52,7 @@
     /* border: 2px solid red; */
     margin: 0;
     margin-left: 6%;
+    font-size: 13px;
   }
   .productFeatureData .productlinkP > p:hover{
     color: #ef4c23;

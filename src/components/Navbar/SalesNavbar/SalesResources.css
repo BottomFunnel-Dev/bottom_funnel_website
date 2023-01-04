@@ -57,6 +57,7 @@
   margin: 0;
   /* border: 2px solid red; */
   margin-left: 2%;
+  font-size: 13px;
 }
 
 .saleResourceData .productlinkP > p:hover {
