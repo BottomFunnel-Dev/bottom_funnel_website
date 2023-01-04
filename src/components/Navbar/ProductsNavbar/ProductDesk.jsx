@@ -8,7 +8,7 @@ export const ProductDesk = ({ solDeskIn, solDeskOut, scroll }) => {
       onMouseEnter={solDeskIn}
       onMouseLeave={solDeskOut}
       className="productDeskMainDiv"
-      style={{ top: scroll ? "6.5%" : "16%" }}
+      style={{ top: scroll ? "6.5%" : "15%" }}
     >
       <div className="productDeskListItems" style={{ width: "100%" }}>
         {productDesk.map((item, i) => (

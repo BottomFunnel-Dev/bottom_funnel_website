@@ -51,6 +51,7 @@
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   background-color: lightgray;
   color: #ef4c23;
+  border-left:3px solid #ef4c23;
 }
 
 .productResourceData .productlinkP > p {

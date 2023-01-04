@@ -8,7 +8,7 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
       onMouseEnter={solHoverIn}
       onMouseLeave={solHoverOut}
       className="productSolutionsMainDiv"
-      style={{ top: scroll ? "6.5%" : "16%" }}
+      style={{ top: scroll ? "6.5%" : "15%" }}
     >
       <div className="productSolutionsListItems" style={{ width: "100%" }}>
         {productSolution.map((item, i) => (
