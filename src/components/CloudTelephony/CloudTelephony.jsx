@@ -24,6 +24,9 @@ import {
   salesmountNavbar,
   salesunmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
+import { CustomerTrust } from '../ProductsNewPage/CustomerTrust/CustomerTrust';
+import { GetStarted } from '../WebdevPages/webGetStartedCard/GetStarted';
+import { ProductsFooter } from '../ProductsNewPage/ProductsFooter/ProductsFooter';
 
 
 export const CloudTelephony = () => {
@@ -46,7 +49,7 @@ export const CloudTelephony = () => {
     <CloudBoostProductivity />
     <CloudTelephonyLowerBanner />
 
-    <StoriesSection/>
+    {/* <StoriesSection/>
     <Industries/>
     <PlanProject/>
     <OndemandSection/>
@@ -55,7 +58,20 @@ export const CloudTelephony = () => {
     <Revamping/>
     <TextDropdown/>
     <ContectForm/>
-    <MainFooter/>
+    <MainFooter/> */}
+
+<CustomerTrust/>
+
+<Revamping/>
+
+<StoriesSection/>
+
+<GetStarted/>
+
+<ContectForm/>
+
+<ProductsFooter/>
+
     </div>
   )
 }

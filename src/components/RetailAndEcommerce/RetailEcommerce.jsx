@@ -24,6 +24,9 @@ import {
   mountNavbar,
   unmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
+import { CustomerTrust } from '../ProductsNewPage/CustomerTrust/CustomerTrust';
+import { GetStarted } from '../WebdevPages/webGetStartedCard/GetStarted';
+import { ProductsFooter } from '../ProductsNewPage/ProductsFooter/ProductsFooter';
 
 export const RetailEcommerce = () => {
 
@@ -45,7 +48,7 @@ export const RetailEcommerce = () => {
     <RetailTeam />
     <RetailInsights />
 
-    <StoriesSection />
+    {/* <StoriesSection />
       <OndemandSection />
       <PortFolio />
       <PlanProject />
@@ -53,8 +56,19 @@ export const RetailEcommerce = () => {
       <Revamping />
       <TextDropdown />
       <ContectForm />
-      <MainFooter />
+      <MainFooter /> */}
     
+        <CustomerTrust/>
+
+        <Revamping/>
+
+        <StoriesSection/>
+
+        <GetStarted/>
+
+        <ContectForm/>
+
+        <ProductsFooter/>
     
     </div>
   )

@@ -12,6 +12,12 @@ import {
   mountNavbar,
   unmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
+import { CustomerTrust } from "../ProductsNewPage/CustomerTrust/CustomerTrust";
+import Revamping from "../revamping/Revamping";
+import StoriesSection from "../StoriesSection/StoriesSection";
+import { GetStarted } from "../WebdevPages/webGetStartedCard/GetStarted";
+import ContectForm from "../ContectForm/ContectForm";
+import { ProductsFooter } from "../ProductsNewPage/ProductsFooter/ProductsFooter";
 
 export const CollaborationPage = () => {
   const dispatch = useDispatch();
@@ -30,6 +36,19 @@ export const CollaborationPage = () => {
       <CollaborationAbout />
       <CollaborationOffers />
       <CollaborationMidBanner />
+
+      <CustomerTrust/>
+
+      <Revamping/>
+
+      <StoriesSection/>
+
+      <GetStarted/>
+
+      <ContectForm/>
+
+      <ProductsFooter/>
+
     </div>
   );
 };

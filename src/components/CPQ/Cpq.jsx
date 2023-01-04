@@ -22,6 +22,9 @@ import {
   salesmountNavbar,
   salesunmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
+import { CustomerTrust } from '../ProductsNewPage/CustomerTrust/CustomerTrust';
+import { GetStarted } from '../WebdevPages/webGetStartedCard/GetStarted';
+import { ProductsFooter } from '../ProductsNewPage/ProductsFooter/ProductsFooter';
 
 export const Cpq = () => {
 
@@ -44,7 +47,7 @@ export const Cpq = () => {
       <CpqSpeedup />
       <CPQLowerBanner />
 
-      <StoriesSection />
+      {/* <StoriesSection />
       <Industries />
       <PlanProject />
       <OndemandSection />
@@ -53,7 +56,19 @@ export const Cpq = () => {
       <Revamping />
       <TextDropdown />
       <ContectForm />
-      <MainFooter />
+      <MainFooter /> */}
+
+<CustomerTrust/>
+
+<Revamping/>
+
+<StoriesSection/>
+
+<GetStarted/>
+
+<ContectForm/>
+
+<ProductsFooter/>
 
     </div>
   )

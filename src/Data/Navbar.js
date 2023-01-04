@@ -1092,7 +1092,7 @@ export const productSolution = [
     dropContent: "By Use Size",
     productText1: "Enterprise",
     productText2: "SMB",
-    path: "",
+    path: "enterprise",
   },
   {
     dropContent: "By Use Case",

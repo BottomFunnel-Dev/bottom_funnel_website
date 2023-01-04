@@ -454,7 +454,7 @@ export const ALLroutes = () => {
       <Route path="/manufacturing" element={<Manufacturing />} />
       <Route path="/field-service-management" element={<FieldServiceManagement />} />
 
-      {/* <Route path="/newProductPage" element={ <ProductsNewPage/> } /> */}
+      <Route path="/enterprise" element={ <EnterpriseDesk/> } />
       <Route path="/sales" element={<SalesPage />} />
       <Route path="/helpDesk" element={<HelpDesk />} />
       <Route path="/RetailEcommerce" element={<RetailEcommerce />} />

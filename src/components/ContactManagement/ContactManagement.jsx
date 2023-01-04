@@ -21,6 +21,11 @@ import {
   salesmountNavbar,
   salesunmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
+import { CustomerTrust } from '../ProductsNewPage/CustomerTrust/CustomerTrust';
+import StoriesSection from '../StoriesSection/StoriesSection';
+import { GetStarted } from '../WebdevPages/webGetStartedCard/GetStarted';
+import ContectForm from '../ContectForm/ContectForm';
+import { ProductsFooter } from '../ProductsNewPage/ProductsFooter/ProductsFooter';
 
 export const ContactManagement = () => {
 
@@ -41,15 +46,27 @@ export const ContactManagement = () => {
     <ContactManagementDeals />
     <ContactManagementMaximize />
     <ContactManagementLowerBanner />
-      <Industries />
+      {/* <Industries />
       <OndemandSection />
       <PortFolio />
       <PlanProject />
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
-      <MainFooter />
+      <MainFooter /> */}
     
+<CustomerTrust/>
+
+<Revamping/>
+
+<StoriesSection/>
+
+<GetStarted/>
+
+<ContectForm/>
+
+<ProductsFooter/>
+
     </div>
   )
 }

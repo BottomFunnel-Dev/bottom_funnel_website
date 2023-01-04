@@ -24,6 +24,8 @@ import {
     mountNavbar,
     unmountNavbar,
   } from "../../Redux/ProductNavbar/ProductNavAction";
+import { CustomerTrust } from "../ProductsNewPage/CustomerTrust/CustomerTrust";
+import { GetStarted } from "../WebdevPages/webGetStartedCard/GetStarted";
   
 export const SelfService = () => {
 
@@ -48,7 +50,7 @@ export const SelfService = () => {
 
             <SelfServiceCustomerHelp />
 
-            <StoriesSection />
+            {/* <StoriesSection />
             <Industries />
             <PlanProject />
             <OndemandSection />
@@ -58,7 +60,19 @@ export const SelfService = () => {
             <TextDropdown />
             <ContectForm />
 
-            <ProductsFooter />
+            <ProductsFooter /> */}
+
+            <CustomerTrust/>
+
+            <Revamping/>
+
+            <StoriesSection/>
+
+            <GetStarted/>
+
+            <ContectForm/>
+
+            <ProductsFooter/>
         </div>
     )
 }

@@ -11,6 +11,12 @@ import {
   mountNavbar,
   unmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
+import Revamping from "../revamping/Revamping";
+import StoriesSection from "../StoriesSection/StoriesSection";
+import { GetStarted } from "../WebdevPages/webGetStartedCard/GetStarted";
+import ContectForm from "../ContectForm/ContectForm";
+import { ProductsFooter } from "../ProductsNewPage/ProductsFooter/ProductsFooter";
+import { CustomerTrust } from "../ProductsNewPage/CustomerTrust/CustomerTrust";
 
 export const Ticketing = () => {
   const dispatch = useDispatch();
@@ -30,6 +36,22 @@ export const Ticketing = () => {
          <TickettingInbox/>
          <TicketingServices/>
          <TickettingStartTrials/>
+
+
+     {/* Footer Section  */}
+     
+          <CustomerTrust/>
+
+          <Revamping/>
+
+          <StoriesSection/>
+
+          <GetStarted/>
+
+          <ContectForm/>
+
+          <ProductsFooter/>
+
       </div>
     </>
   );

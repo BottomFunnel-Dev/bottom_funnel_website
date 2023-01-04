@@ -22,6 +22,9 @@ import {
     mountNavbar,
     unmountNavbar,
   } from "../../Redux/ProductNavbar/ProductNavAction";
+import { CustomerTrust } from "../ProductsNewPage/CustomerTrust/CustomerTrust";
+import { GetStarted } from "../WebdevPages/webGetStartedCard/GetStarted";
+import { ProductsFooter } from "../ProductsNewPage/ProductsFooter/ProductsFooter";
 
 export const FieldServiceManagement = () => {
   const dispatch = useDispatch();
@@ -41,7 +44,7 @@ export const FieldServiceManagement = () => {
             <FieldServiceMobileScreen />
             <StellarFieldService />
 
-            <StoriesSection />
+            {/* <StoriesSection />
             <Industries />
             <PlanProject />
             <OndemandSection />
@@ -50,7 +53,19 @@ export const FieldServiceManagement = () => {
             <Revamping />
             <TextDropdown />
             <ContectForm />
-            <MainFooter />
+            <MainFooter /> */}
+
+            <CustomerTrust/>
+
+            <Revamping/>
+
+            <StoriesSection/>
+
+            <GetStarted/>
+
+            <ContectForm/>
+
+            <ProductsFooter/>
         </div>
     )
 }

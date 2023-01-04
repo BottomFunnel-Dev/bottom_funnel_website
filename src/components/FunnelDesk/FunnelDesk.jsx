@@ -12,17 +12,23 @@ import {
   mountNavbar,
   unmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
+import { CustomerTrust } from "../ProductsNewPage/CustomerTrust/CustomerTrust";
+import Revamping from "../revamping/Revamping";
+import StoriesSection from "../StoriesSection/StoriesSection";
+import { GetStarted } from "../WebdevPages/webGetStartedCard/GetStarted";
+import ContectForm from "../ContectForm/ContectForm";
+import { ProductsFooter } from "../ProductsNewPage/ProductsFooter/ProductsFooter";
 
 // ----- Other requried react components -----
-import StoriesSection from "../StoriesSection/StoriesSection";
-import OndemandSection from "../OnDemandSection/OndemandSection";
-import PortFolio from "../PortFolioSection/PortFolio";
-import PlanProject from "../PlanProject/PlanProject";
-import Revamping from "../revamping/Revamping";
-import { SeoblogSection } from "../SeoBlogs/Seoblogs";
-import { TextDropdown } from "../faqSection/Faqs";
-import ContectForm from "../ContectForm/ContectForm";
-import MainFooter from "../FooterSection/MainFooter";
+// import StoriesSection from "../StoriesSection/StoriesSection";
+// import OndemandSection from "../OnDemandSection/OndemandSection";
+// import PortFolio from "../PortFolioSection/PortFolio";
+// import PlanProject from "../PlanProject/PlanProject";
+// import Revamping from "../revamping/Revamping";
+// import { SeoblogSection } from "../SeoBlogs/Seoblogs";
+// import { TextDropdown } from "../faqSection/Faqs";
+// import ContectForm from "../ContectForm/ContectForm";
+// import MainFooter from "../FooterSection/MainFooter";
 
 export const FunnelDesk = () => {
   const dispatch = useDispatch();
@@ -44,7 +50,7 @@ export const FunnelDesk = () => {
       <DeskStarted />
 
       {/* Other react required components */}
-      <StoriesSection />
+      {/* <StoriesSection />
       <OndemandSection />
       <PortFolio />
       <PlanProject />
@@ -52,7 +58,21 @@ export const FunnelDesk = () => {
       <Revamping />
       <TextDropdown />
       <ContectForm />
-      <MainFooter />
+      <MainFooter /> */}
+
+
+      <CustomerTrust/>
+
+      <Revamping/>
+
+      <StoriesSection/>
+
+      <GetStarted/>
+
+      <ContectForm/>
+
+      <ProductsFooter/>
+
     </div>
   )
 }

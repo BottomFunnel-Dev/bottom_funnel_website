@@ -17,6 +17,11 @@ import {
   mountNavbar,
   unmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
+import { CustomerTrust } from '../ProductsNewPage/CustomerTrust/CustomerTrust';
+import StoriesSection from '../StoriesSection/StoriesSection';
+import { GetStarted } from '../WebdevPages/webGetStartedCard/GetStarted';
+import ContectForm from '../ContectForm/ContectForm';
+import { ProductsFooter } from '../ProductsNewPage/ProductsFooter/ProductsFooter';
 
 
 export const HelpDesk = () => {
@@ -38,14 +43,27 @@ export const HelpDesk = () => {
        <HelpWidget />
        <HelpDeskLowerBanner />
 
-       <Industries />
+       {/* <Industries />
        <OndemandSection />
        <PortFolio />
        <PlanProject />
        <SeoblogSection />
        <Revamping />
        <TextDropdown />
-       <MainFooter />
+       <MainFooter /> */}
+
+      <CustomerTrust/>
+
+      <Revamping/>
+
+      <StoriesSection/>
+
+      <GetStarted/>
+
+      <ContectForm/>
+
+      <ProductsFooter/>
+
       </div>
   )
 }
