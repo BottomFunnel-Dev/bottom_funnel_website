@@ -7,7 +7,7 @@ export const ReactNativeAppDevelopmentBanner = () => {
         <div className='ReactNativeAppDevelopmentbannermainbox'>
     <div className='ReactNativeAppDevelopmentbannermainboxinnertextdiv'>
     <h1>React Native App Development Services</h1>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed quam est. Nunc vestibulum odio blandit, aliquam metus nec, eleifend eros . Sed sed efficitur lectus, sed vehicula est. Donec feugiat non ex a molestie. Nullam</p>
+     <p>React Native is a popular app development platform that enables developers to create mobile apps using JavaScript. React Native is different from traditional web development because it uses stateless components, which makes the app more responsive and faster. This platform also allows for easy integration with third-party APIs, making it ideal for developing features that require access to external data or services.</p>
     
     <button className='ReactNativeAppDevelopmentbannerbutton'>Get Started</button>
     </div>
