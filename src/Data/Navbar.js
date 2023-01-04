@@ -1124,7 +1124,7 @@ export const productDesk = [
       "A reliable and smart call center solution for effortless experience",
     productText2: "Field Service",
     navIcons: "Images/Logos/funnel-desk/contact-center.png",
-    path:"ContactManagement"
+    path:""
   },
   {
     dropContent: "Omnichannel Suite",
