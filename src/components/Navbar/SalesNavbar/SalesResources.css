@@ -51,6 +51,7 @@
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   background-color: lightgray;
   color: #ef4c23;
+  border-left: 3px solid #ef4c23;
 }
 
 .saleResourceData .productlinkP > p {
@@ -58,10 +59,12 @@
   /* border: 2px solid red; */
   margin-left: 2%;
   font-size: 13px;
+  font-weight: 500;
 }
 
 .saleResourceData .productlinkP > p:hover {
   color: #ef4c23;
+  /* border-left: 3px solid #ef4c23; */
 }
 
 .saleResourceListItems > button {

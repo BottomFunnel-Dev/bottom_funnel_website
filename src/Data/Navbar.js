@@ -1213,12 +1213,12 @@ export const productResources = [
 
 export const salesProduct = [
   {
-    dropContent: "FreshSales",
+    dropContent: "Bottom Funnel Sales",
     productText1:"Sales CRM",
     path:"",
   },
   {
-    dropContent: "Freshsales Suite",
+    dropContent: "Bottom Funnel Suite",
     productText1:"Sales & Markeing CRM",
     path:"",
   },
@@ -1332,3 +1332,4 @@ export const salesIndustries = [
     path:"",
   },
 ];
+

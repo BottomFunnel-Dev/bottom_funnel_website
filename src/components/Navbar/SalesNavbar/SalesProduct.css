@@ -41,13 +41,14 @@
   /* border: 2px solid ; */
 }
 .saleProductData .productlinkP > h6 {
-  font-size: 15px;
+  font-size: 12px;
   margin: 2% 0;
+  font-weight: 600;
 }
 .saleProductData .productlinkP > p {
-  font-size: 13px;
+  font-size: 11px;
   margin: 2% 0;
-  
+  font-weight: 400;
 }
 .saleProductData > img {
   height: 40px;
@@ -55,6 +56,7 @@
 .saleProductData:hover {
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   background-color: lightgray;
+  border-left: 2px solid #ef4c23;
 }
 .saleProductData:last-child {
   border-bottom: none;
