@@ -57,10 +57,12 @@
   }
   .productFeatureData .productlinkP > p:hover{
     color: #ef4c23;
+  
   }
   .productFeatureData:hover {
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     background-color: lightgray;
+    border-left: 2px solid #ef4c23
   }
   
   .productFeatureListItems > button {
