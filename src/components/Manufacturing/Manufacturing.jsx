@@ -23,6 +23,9 @@ import {
   salesmountNavbar,
   salesunmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
+import { CustomerTrust } from '../ProductsNewPage/CustomerTrust/CustomerTrust';
+import { GetStarted } from '../WebdevPages/webGetStartedCard/GetStarted';
+import { ProductsFooter } from '../ProductsNewPage/ProductsFooter/ProductsFooter';
 
 export const Manufacturing = () => {
   const dispatch = useDispatch();
@@ -45,7 +48,7 @@ export const Manufacturing = () => {
     <Manufacturemakebetter />
 
  
-    <StoriesSection />
+    {/* <StoriesSection />
     <Industries />
     <PlanProject />
     <OndemandSection />
@@ -54,7 +57,19 @@ export const Manufacturing = () => {
     <Revamping />
     <TextDropdown />
     <ContectForm />
-    <MainFooter />
+    <MainFooter /> */}
+
+<CustomerTrust/>
+
+<Revamping/>
+
+<StoriesSection/>
+
+<GetStarted/>
+
+<ContectForm/>
+
+<ProductsFooter/>
     </div>
   )
 }

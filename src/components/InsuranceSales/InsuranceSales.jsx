@@ -15,6 +15,10 @@ import {
   salesmountNavbar,
   salesunmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
+import StoriesSection from "../StoriesSection/StoriesSection";
+import { GetStarted } from "../WebdevPages/webGetStartedCard/GetStarted";
+import ContectForm from "../ContectForm/ContectForm";
+import { ProductsFooter } from "../ProductsNewPage/ProductsFooter/ProductsFooter";
 
 export const InsuranceSales = () => {
 
@@ -39,7 +43,13 @@ export const InsuranceSales = () => {
         <SalesWorldwide/>
         <MakeYourDeal/>
         
+        <StoriesSection/>
 
+        <GetStarted/>
+
+        <ContectForm/>
+
+        <ProductsFooter/>
      
         
         
