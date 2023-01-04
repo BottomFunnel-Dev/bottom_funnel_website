@@ -18,20 +18,20 @@ import MainFooter from "../FooterSection/MainFooter";
 import { Helmet } from "react-helmet";
 
 import {
-  mountNavbar,
-  unmountNavbar,
+  salesmountNavbar,
+  salesunmountNavbar,
 } from "../../Redux/ProductNavbar/ProductNavAction";
 
 export const ContactManagement = () => {
 
-    const dispatch = useDispatch();
-    useEffect(function () {
-      dispatch(ChnageNavbarColor({ color: "black", logo: false, }));
-      dispatch(mountNavbar());
-      return () => {
-        dispatch(unmountNavbar())
-      };
-    }, []);
+  const dispatch = useDispatch();
+  useEffect(function () {
+    dispatch(ChnageNavbarColor({ color: "black", logo: false, }));
+    dispatch(salesmountNavbar());
+    return () => {
+      dispatch(salesunmountNavbar())
+    };
+  }, []);
 
 
   return (
