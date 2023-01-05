@@ -7,38 +7,38 @@ export const OttHeader = () => {
     {
       icon: "Images/ott-app/Frame-2.png",
       title: "Best Quality",
-      para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quibusdam illo esse iste eligendi,"
+      para: "There's no doubt that streaming services are the future of entertainment. And when it comes to choosing a streaming service, you want one that offers the best quality content. That's why we're excited to recommend Our Ott Services."
     },
 
     {
       icon: "Images/ott-app/Group901189.png",
       title: "Fast Downloading",
-      para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quibusdam illo esse iste eligendi,"
+      para: "There's nothing worse than waiting forever for a movie or TV show to download. But with our ott services, you can forget about those slow downloads. We offers some of the fastest speeds around, so you can start watching your favorite shows and movies right away."
     },
 
     {
       icon: "Images/ott-app/Group16.png",
       title: "Analytics Services",
-      para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quibusdam illo esse iste eligendi,"
+      para: "The demand for analytics services on OTT platforms is constantly increasing. This is because more and more businesses are realising the importance of data-driven decision making. By utilising analytics services, businesses can gain valuable insights into their customers."
     },
 
     {
       icon: "Images/ott-app/Frame.png",
       title: "Data Optimization",
-      para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quibusdam illo esse iste eligendi,"
+      para: "There are a number of ways to optimize data on an OTT platform. One way is to use data compression. This can help to reduce the amount of data that is needed to be transferred and stored. Another way is to use cache management."
 
     },
 
     {
       icon: "Images/ott-app/Group-1.png",
       title: "Regular Support",
-      para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quibusdam illo esse iste eligendi,"
+      para: "One way to get regular support is to hire a dedicated support team. This team can provide you with 24/7 support, ensuring that your platform is always up and running."
     },
 
     {
       icon: "Images/ott-app/Frame-1.png",
       title: "Search Engine Optimization",
-      para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quibusdam illo esse iste eligendi,"
+      para: "By understanding what keywords people are searching for on these platforms, you can ensure that your content is being seen by those who are most likely to be interested in it. In addition, you can also use keyword data to inform your paid search campaigns on these platforms."
     }
 
    
@@ -53,7 +53,7 @@ export const OttHeader = () => {
             <div className='ott-Header-Left-Text-Div'>
 
               <h1 className='redbn'>OTT App Solutions</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro id est in sit! Velit consectetur suscipit, corrupti tenetur nontcliolectui dignissimos possimus, doloremque in minimabgrds ggue quae quia magnam reiciendis ab.</p>
+              <p>OTT app solutions are one of the most popular and effective ways to reach your target audience. With so many people using smartphones and other mobile devices, it's important to have a presence on these platforms. OTT apps allow you to do just that, by providing a way for people to access your content on their mobile devices.</p>
               <button className='ott-header-button'>Get Started</button>
             </div>
         </div>

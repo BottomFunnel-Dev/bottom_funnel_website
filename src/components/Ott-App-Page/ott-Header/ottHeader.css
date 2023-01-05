@@ -15,10 +15,11 @@
 
 .ott-Header-Left-Div {
     width: 45%;
-    height: 600px;
+    height: 350px;
     /* border: 1px solid blue; */
     display: flex;
-  
+    margin-top: 2%;
+    margin-left: 2%;
    
 }
 
@@ -32,7 +33,7 @@
 
 
 .ott-Header-Left-Text-Div > p {
-    font-size: 20px;
+    /* font-size: 20px; */
     width: 90%;
     color: white;
    
@@ -152,10 +153,14 @@
 
 .ott-Services-Boxes-Div {
     width: 30%;
-    
+    height: 230px;
+    border: 1px solid lightgray;
     gap: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.ott-Services-Boxes-Div:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
 .ott-Services-div-For-Flex-icon-Head {
     display: flex;

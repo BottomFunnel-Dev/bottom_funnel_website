@@ -45,12 +45,10 @@ const OttAdminPannelData = [
     <div className="ott-Admin-Pannel-Container">
       <div className="ott-Admin-Pannel-left-div">
       <div className="ott-Admin-Pannel-left-div-heading">
-          <h1>Admin Pannel</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum autem
-            in veniam nemo, minima quisquam ipsa esse nesciunt, nulla vero
-            inventore quas hic modi ratione assumenda adipisci soluta eaque
-            veritatis.
-            </p>
+          <h1>Admin Panel</h1>
+          <p>
+            An admin panel is a web-based interface that allows you to manage your website. You can use it to add and remove users, change website settings, and more. The best part about an admin panel is that it makes website management easy and convenient. With an admin panel, you can make changes to your website without having to dive into the code.
+          </p>
         </div>
         
         {OttAdminPannelData.map((e) => {

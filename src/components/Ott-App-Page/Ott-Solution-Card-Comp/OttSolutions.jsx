@@ -68,7 +68,8 @@ const OttSolutionsData = [
           
         <div className='ott-app-right-div-heading'>
                 <h1>User Experience App</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum autem in veniam nemo, minima quisquam ipsa esse nesciunt, nulla vero inventore quas hic modi ratione assumenda adipisci soluta eaque veritatis.</p>
+                <p>
+                   Our App is designed to streamline your experience with using your phone. From the moment you open the app, you can see how easy it is to navigate and find what you're looking for. The interface is clean and clutter-free, making it a joy to use.</p>
             </div>
             
           {OttSolutionsData.map((e) => {
