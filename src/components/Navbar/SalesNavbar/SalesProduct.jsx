@@ -20,7 +20,7 @@ export const SalesProduct = ({ saleProIn, saleProOut, scroll }) => {
             }}
             className="saleProductData"
           >
-            {/* <img src={item.navIcons} alt="Product logo" /> */}
+            <img src={item.navIcons} alt="Product logo" />
             <Link
               onClick={saleProOut}
               style={{ width: "75%" }}

@@ -1215,11 +1215,13 @@ export const salesProduct = [
   {
     dropContent: "Bottom Funnel Sales",
     productText1:"Sales CRM",
+    navIcons: "Images/navbar/product/bottomFunnnelSales.png",
     path:"",
   },
   {
     dropContent: "Bottom Funnel Suite",
     productText1:"Sales & Markeing CRM",
+    navIcons: "Images/navbar/product/Sales.png",
     path:"",
   },
 ];

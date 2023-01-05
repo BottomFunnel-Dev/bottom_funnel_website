@@ -1,13 +1,3 @@
-// import React from "react";
-// import "./products.css";
-// export const Products = ({productHoverIn,productHoverOut, scroll}) => {
-//   return (
-//     <div className="productNavVisible" onMouseEnter={productHoverIn} onMouseLeave={productHoverOut} style={{ top: scroll ? "75px" : "112px" }}>
-//       <h1>Hello products dropdown</h1>
-//     </div>
-//   );
-// };
-
 import React, {useState} from "react";
 import "./products.css";
 import { Link } from "react-router-dom";
@@ -182,7 +172,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
 
                   <Link onClick={serHoverOut} to={item.path} style={{ margin: "0"}} className="linkP">
 
-                    <p style={{margin: "0"}}>{item.dropContent}</p>
+                    <p style={{margin: "0",paddingLeft:"7%"}}>{item.dropContent}</p>
                   </Link>
                 </div>
               ))}
