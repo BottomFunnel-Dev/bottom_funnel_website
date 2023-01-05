@@ -61,9 +61,8 @@ In this article, we'll provide an overview of mobile app development and discuss
                 
                     <div className='stcontaindiv-containreact' >
                         <h2>React Native Customization Service</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa eveniet porro amet ut est distinctio saepe vitae nulla excepturi quisquam,
-                             aliquam ad ex odio autem sit ratione officia magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maxime porro qui suscipit quod, nisi natus similique 
-                             tenetur nulla a sed, ullam perspiciatis ab illum, nemo delectus. Dicta, doloremque vero!  </p>
+                        <p>React Native Customization Service is a powerful tool that makes it easy for app developers to customize their apps without having to learn code. Using this service, developers can change the look and feel of their apps without needing to re-write any code.
+This service is perfect for businesses who want to create unique mobile experiences for their customers. It also helps reduce development time and costs, as customizations can be made quickly and cheaply.</p>
                            
                             
 

@@ -6,13 +6,8 @@ export const Advantages = () => {
     <div>
             <div className='reactnativePageCards-innermaindiv5'>
                 <div className='nativereactheading'>
-            <h2>Advantages of React Native App Development</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic laudantium error quaerat iste. 
-                    Saepe quaerat cum aut, eum sit culpa ratione magnam, blanditiis officia, nobis 
-                    dolorem dolor dolore nesciunt magni? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Veritatis, adipisci. Quasi placeat laudantium perspiciatis! Enim ratione nam at fugiat nesciunt
-                     consectetur 
-                    laboriosam, earum aliquid esse voluptatum maxime deleniti iste veniam.</p>
+                <h2>Advantages of React Native App Development</h2>
+                <p>There are many advantages of React Native app development. First, React Native uses JavaScript, which is a widely-used programming language, making it easy to find developers who are familiar with the language. Second, React Native apps are faster and more responsive than traditional native apps because they use a lighter weight UI. Third, React Native apps are easier to develop and test than traditional native apps because they can be developed in a single codebase. Finally, React Native apps have access to the same native platform features as traditional native apps, such as push notifications and camera access.</p>
             </div>
             <div className='nativeinnermaindiv5-boxdiv'>
                 <div className='nativeinnermaindiv4-boxdiv1stcolum' >
