@@ -13,11 +13,9 @@
     display: flex;
     flex-wrap: wrap;
     /* border: 1px solid green; */
-    height: 300px; 
+    height: 350px; 
     width: 90%;
-    margin: auto 10%;
- 
-    
+    margin: auto;
 }
 
 
@@ -25,12 +23,16 @@
     width: 30%;
     height: fit-content;
     color: white;
-    /* border: 1px solid red; */
+    border: 1px solid white;
     flex-direction: row;
     margin: auto;
-    
+    height: 140px;
+    padding: 15px;
+    border-radius: 10px;
 }
-
+.ott-features-cards-div:hover{
+    box-shadow: rgba(184, 183, 183, 0.35) 0px 5px 15px;
+}
 .ott-features-img-para-combo {
     display: flex;
    gap: 20px;

@@ -167,13 +167,11 @@
    width: 90%;
     justify-content: space-between;
     text-align: center;
-  
-
-
+    /* border: 2px solid red; */
 }
 
 .ott-Services-div-For-Flex-icon-Head > div > img {
-    width: 70%;
+    width: 60%;
 }
 
 .ott-Services-div-For-Flex-icon-Head > div > h3 {
@@ -182,10 +180,10 @@
 
 
 .ott-Services-lorem-para {
-    /* border: 1px solid red; */
+/* border: 1px solid red; */
 width: 95%;
 margin: auto;
-font-size: 18px;
+font-size: 10px;
 
 }
 

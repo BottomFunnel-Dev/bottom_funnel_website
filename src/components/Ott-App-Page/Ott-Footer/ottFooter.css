@@ -15,22 +15,23 @@
     /* border: 1px solid green; */
     height: 300px; 
     width: 90%;
-    margin: auto 10%;
- 
-    
+    margin: auto;   
 }
 
 
 .ott-Footer-cards-div {
     width: 30%;
-    height: fit-content;
+    height: 140px;
     color: white;
-    /* border: 1px solid red; */
+    border: 1px solid white;
+    border-radius: 10px;
     flex-direction: row;
-    margin: auto;
-    
+    margin: auto; 
+    padding: 15px;
 }
-
+.ott-Footer-cards-div:hover{
+    box-shadow: rgba(204, 202, 202, 0.35) 0px 5px 15px;
+}
 .ott-Footer-img-para-combo {
     display: flex;
    gap: 20px;
