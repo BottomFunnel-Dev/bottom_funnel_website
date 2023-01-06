@@ -22,9 +22,17 @@
     /* border: 2px solid red; */
     width: 25%;
     /* height: 50vh; */
+    padding: 2px;
     margin-left: 3%;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mobileDevMainSolutionsContentBox1:first-child{
+    margin-left: 0%;
+}
+.mobileDevMainSolutionsContentBox1:hover{
+    background-color: #EF4C23;
+    color: white;
 }
 .mobileDevMainSolutionsIcons{
     width: 50px;

@@ -16,10 +16,7 @@ export const MobileDevMainCards = () => {
                 Andriod App Development
               </h4>
               <div className="mobileDevMainCardsContentText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                cupiditate porro velit amet nihil corporis laboriosam quisquam
-                magni, commodi necessitatibus obcaecati ducimus quam nulla
-                fugiat neque ab, id quidem. Sed!
+                 Bottom funnel android app development service can help you to design, develop and deploy the best Android app for your business. Our team of experienced and qualified developers will work with you.
               </div>
             </div>
 
@@ -32,10 +29,7 @@ export const MobileDevMainCards = () => {
                 IOS App Development
               </h4>
               <div className="mobileDevMainCardsContentText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                cupiditate porro velit amet nihil corporis laboriosam quisquam
-                magni, commodi necessitatibus obcaecati ducimus quam nulla
-                fugiat neque ab, id quidem. Sed!
+                 Over a decade in custom iOS app development, we have built dozens of applications for different Apple devices. Some of them won prestigious design awards, others became new profit centers.
               </div>
             </div>
 
@@ -48,10 +42,7 @@ export const MobileDevMainCards = () => {
                 Kotlin App Development
               </h4>
               <div className="mobileDevMainCardsContentText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                cupiditate porro velit amet nihil corporis laboriosam quisquam
-                magni, commodi necessitatibus obcaecati ducimus quam nulla
-                fugiat neque ab, id quidem. Sed!
+                Kotlin is a language that helps you create applications in a more efficient way. It is concise, safe and interoperable with Java. Kotlin is an open source project under the Apache 2.0 license.
               </div>
             </div>
           </div>
@@ -66,10 +57,7 @@ export const MobileDevMainCards = () => {
                 Flutter App Development
               </h4>
               <div className="mobileDevMainCardsContentText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                cupiditate porro velit amet nihil corporis laboriosam quisquam
-                magni, commodi necessitatibus obcaecati ducimus quam nulla
-                fugiat neque ab, id quidem. Sed!
+                Bottom funnel flutter app development is all about the ease of use and an intuitive user experience. Flutter is a great option for both beginners and experts alike. It makes it easier to build apps that have a wide range. 
               </div>
             </div>
 
@@ -82,10 +70,7 @@ export const MobileDevMainCards = () => {
                 React Native App Development
               </h4>
               <div className="mobileDevMainCardsContentText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                cupiditate porro velit amet nihil corporis laboriosam quisquam
-                magni, commodi necessitatibus obcaecati ducimus quam nulla
-                fugiat neque ab, id quidem. Sed!
+                If you're looking for an app development partner that can create high-quality, mobile apps from scratch, then look no further than our team of React Native experts.
               </div>
             </div>
 
@@ -98,10 +83,7 @@ export const MobileDevMainCards = () => {
                 Xamarin App Development
               </h4>
               <div className="mobileDevMainCardsContentText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                cupiditate porro velit amet nihil corporis laboriosam quisquam
-                magni, commodi necessitatibus obcaecati ducimus quam nulla
-                fugiat neque ab, id quidem. Sed!
+               Xamarin app development is an exciting way to create cross-platform mobile apps. Using the Xamarin platform, you can write your code once and deploy it to multiple platforms, including Android, iOS.
               </div>
             </div>
           </div>
@@ -116,10 +98,7 @@ export const MobileDevMainCards = () => {
                 Ionic App Development
               </h4>
               <div className="mobileDevMainCardsContentText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                cupiditate porro velit amet nihil corporis laboriosam quisquam
-                magni, commodi necessitatibus obcaecati ducimus quam nulla
-                fugiat neque ab, id quidem. Sed!
+                We have extensive expertise in the Ionic framework that allows us to develop feature-rich and robust cross-platform Apps. Our Ionic Development team produces the needed widgets in HTML5. 
               </div>
             </div>
 
@@ -132,10 +111,7 @@ export const MobileDevMainCards = () => {
                 Wearble App Development
               </h4>
               <div className="mobileDevMainCardsContentText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                cupiditate porro velit amet nihil corporis laboriosam quisquam
-                magni, commodi necessitatibus obcaecati ducimus quam nulla
-                fugiat neque ab, id quidem. Sed!
+              The use of wearable technology for both individuals and businesses are growing at a rapid rate. Whether it is for tracking steps walked or sending real-time work push notifications, wearable tech of Andriod IOS.
               </div>
             </div>
 
@@ -144,12 +120,9 @@ export const MobileDevMainCards = () => {
                 className="mobileDevMainCardsContentImage"
                 src="Images/MobileDevMain/Component70.png"
               />
-              <h4 className="mobileDevMainCardsContentHeading">MObile UI UX</h4>
+              <h4 className="mobileDevMainCardsContentHeading">Mobile UI UX</h4>
               <div className="mobileDevMainCardsContentText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                cupiditate porro velit amet nihil corporis laboriosam quisquam
-                magni, commodi necessitatibus obcaecati ducimus quam nulla
-                fugiat neque ab, id quidem. Sed!
+                 Mobile UI UX refers to the user interface and user experience of a mobile application. It is important to create a good mobile UI UX in order to provide users with a positive experience when using the app.
               </div>
             </div>
           </div>

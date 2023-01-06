@@ -46,10 +46,7 @@ export const VRServices = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-        reiciendis veniam magni soluta nam ab omnis possimus odit dolore
-        officiis adipisci, ratione iusto iste inventore quia animi iure. Eos,
-        earum!
+        If you're looking for excitement, there's no better place to turn than virtual reality development services. These services can take your gaming experience to the next level, providing you with immersive environments that are truly believable. Whether you're looking for first-person shooters or puzzle games, there's a VR development service out there that can meet your needs. And best of all, these services are constantly evolving, so you can always be sure that you're getting the latest and greatest in virtual reality technology.
       </p>
       <div className="VRServices-Content">
         {cardsData.map(({ title, body, image }) => {

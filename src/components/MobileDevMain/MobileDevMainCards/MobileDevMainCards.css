@@ -48,6 +48,7 @@
     margin-top: -25%;
     text-align: center;
     z-index: 1;
+    /* border: 2px solid red; */
     /* position: absolute; */
 }
 .mobileDevMainCardsContentHeading1{
@@ -75,4 +76,5 @@
     color: white;
     font-size: 12px;
     text-align: center;
+    padding: 10px;
 }

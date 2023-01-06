@@ -13,10 +13,7 @@ export const VRBanner = () => {
         <span></span>
       </div>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ipsam
-        facere recusandae ratione excepturi, sunt iusto provident explicabo quos
-        cum temporibus beatae quasi ipsum quisquam accusantium sint officia
-        consectetur quia!
+         Virtual reality services are becoming increasingly popular, as they offer a unique and immersive experience that can be used for a variety of purposes. businesses are starting to use VR services to create training simulations and educational experiences, while others are using them for entertainment and marketing purposes. No matter what the purpose, VR services are sure to provide an unforgettable experience.
       </p>
       <button>Request A Quote</button>
     </div>

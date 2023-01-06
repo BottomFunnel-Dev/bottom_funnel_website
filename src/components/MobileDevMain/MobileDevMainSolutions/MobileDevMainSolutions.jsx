@@ -8,17 +8,9 @@ export const MobileDevMainSolutions = () => {
         <div className="mobileDevMainSolutionsHeading">
           <h1>Our Top Custom Mobile App Development Solutions</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore,
-            praesentium perferendis mollitia aliquam eos sint? Nam illum vel
-            voluptates, vitae libero saepe omnis. Ducimus ad numquam aut dicta
-            aperiam harum? Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Aliquam, ducimus repellendus in animi recusandae molestiae
-            adipisci consectetur qui id. Odit similique deleniti accusamus.
-            Voluptatum nulla amet blanditiis numquam adipisci impedit? Lorem,
-            ipsum dolor sit amet consectetur adipisicing elit. Nam optio fuga
-            consequatur dolorum in inventore earum explicabo facilis minus
-            consequuntur quos mollitia, debitis nostrum necessitatibus
-            accusantium. Asperiores quis esse eveniet!
+            Our top custom mobile app development solutions are perfect for businesses of all sizes.
+            From small businesses to enterprise organizations, we have a solution that will fit your needs.
+            We offer a wide range of services, including custom app development, enterprise mobility solutions, and more. Our team of experienced developers can create a custom app that meets your specific business needs. We also offer a variety of other services, such as enterprise mobility solutions, that can help you take your business to the next level. Contact us today to learn more about our top custom mobile app development solutions.
           </p>
         </div>
         <div className="mobileDevMainSolutionsContent">
@@ -31,10 +23,7 @@ export const MobileDevMainSolutions = () => {
               Custom Mobile App Development
             </h5>
             <p className="mobileDevMainSolutionsText">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci
-              unde similique aspernatur sapiente fugit, facere fugiat repellat
-              sit quisquam iusto delectus?
+              There's no denying that custom mobile app development is one of the most exciting things you can do with your business. Not only does it give you a chance to create a truly unique experience for your customers, but it also allows you to tap into new markets and reach new audiences.
             </p>
           </div>
 
@@ -44,13 +33,10 @@ export const MobileDevMainSolutions = () => {
               src="Images/MobileDevMain/code.png"
             />
             <h5 className="mobileDevMainSolutionsContentHeading">
-              Custom Mobile App Development
+              Mobile App Prototyping
             </h5>
             <p className="mobileDevMainSolutionsText">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci
-              unde similique aspernatur sapiente fugit, facere fugiat repellat
-              sit quisquam iusto delectus?
+              Mobile app prototyping is an essential part of the app development process. It allows you to test out your ideas and see how they work in a real-world setting. Prototyping also helps you to identify any potential problems with your app before it goes live.
             </p>
           </div>
 
@@ -60,13 +46,10 @@ export const MobileDevMainSolutions = () => {
               src="Images/MobileDevMain/ui.png"
             />
             <h5 className="mobileDevMainSolutionsContentHeading">
-              Custom Mobile App Development
+              Mobile App UI/UX Design
             </h5>
             <p className="mobileDevMainSolutionsText">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci
-              unde similique aspernatur sapiente fugit, facere fugiat repellat
-              sit quisquam iusto delectus?
+             Mobile app UI/UX design is a hot topic in the tech world right now. With so many new apps being released every day, it's important for developers to create unique and user-friendly designs that will help their app stand out from the rest.
             </p>
           </div>
 
@@ -76,13 +59,10 @@ export const MobileDevMainSolutions = () => {
               src="Images/MobileDevMain/solutions.png"
             />
             <h5 className="mobileDevMainSolutionsContentHeading">
-              Custom Mobile App Development
+              Mobile App Third Party Integration
             </h5>
             <p className="mobileDevMainSolutionsText">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci
-              unde similique aspernatur sapiente fugit, facere fugiat repellat
-              sit quisquam iusto delectus?
+              The mobile app industry is booming and there is no signs of it slowing down anytime soon. With that said, more and more businesses are looking to get in on the action by creating their own mobile apps. However, many businesses don't have the in-house expertise or resources to develop a high-quality app.
             </p>
           </div>
         </div>

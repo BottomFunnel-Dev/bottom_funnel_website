@@ -8,7 +8,7 @@ import cross from '../Images/CrossPlatform.jpg'
 export const MobileAppDevelopmentServices = () => {
     return (
         <div className='_MobileAppservice'>
-            <div className='_MobileAppservicesmaindiv'>
+            <div className='_MobileAppservicesmaindiv' style={{border:"x solid red"}}>
                 <div className='_MobileAppservice1'>
                     <h1>Our Services</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni eius consequatur iure quo consequuntur placeat quam, deleniti quas ratione quisquam? Soluta necessitatibus porro in non atque ullam. Blanditiis, ab rerum.</p>

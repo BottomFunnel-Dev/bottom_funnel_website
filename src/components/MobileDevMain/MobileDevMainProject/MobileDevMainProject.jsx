@@ -11,7 +11,7 @@ export const MobileDevMainProject = () => {
         <div className='mobileDevMainProjectmainbox'>
             <div className='mobileDevMainProjectmainboxinnertextdiv'>
                 <h1>Kick Start Your Dream Project With Us</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed quam est. Nunc vestibulum odio blandit, aliquam metus nec, eleifend eros . Sed sed efficitur lectus, sed vehicula est. Donec feugiat non ex a molestie. Nullam</p>
+                <p>If you've been dreaming of starting your own business or project, but don't know where to start, come to us! We'll help you kick-start your dream and make it a reality.Come talk to us today and let's get started on making your dreams come true!</p>
                 
                 <button className='mobileDevMainProjectbutton'>Get Started</button>
             </div>
