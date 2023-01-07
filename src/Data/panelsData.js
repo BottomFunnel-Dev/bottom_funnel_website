@@ -760,35 +760,35 @@ export const datingCustomer = {
     {
       img: {
         src: "Images/DatingAppDev/Customer/One.png",
-        alt: "Register image",
+        alt: "Login",
       },
       title: "Simple and Secure Login",
-      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
+      para: "A simple and secure login system is essential for any online business.We provides a hassle-free way for customers to log in, while ensuring that their information is safe and secure. By using our App, businesses can give their customers the peace of mind that their personal data is protected.",
     },
     {
       img: {
         src: "Images/DatingAppDev/Customer/Two.png",
-        alt: "Schedule",
+        alt: "interface",
       },
       title: "User-friendly Interface",
-      para: "Scheduling your next trip with Schedule. Just set up an appointment, and the logistics team will keep track of where your product is moving from. Whether it's a local drop-off or getting picked up curbside, we've got you covered.",
+      para: "The user-friendly interface is one of the most important aspects of a successful website or application. It is the first thing that users see and interact with, and it should be designed with their needs in mind. A user-friendly interface is easy to use and navigate, and it contains all the information that users need to know.",
     },
     {
       img: {
         src: "Images/DatingAppDev/Customer/Three.png",
-        alt: "Multiple Payment Option image",
+        alt: "interest",
       },
       title: "Add your Interest",
-      para: "We offer multiple payment options that are safe and secure. With our platform, you can effortlessly add payments to your online shopping cart without worrying about credit card fraud or identity theft.",
+      para: "When it comes to dating, everyone has different interests and preferences. Some people like to go on dates that are more casual, while others prefer something more formal. And now, with our new dating app, people can add their interests directly into the app!",
     },
 
     {
       img: {
         src: "Images/DatingAppDev/Customer/Four.png",
-        alt: "Track Order image",
+        alt: "EasyToSearch",
       },
       title: "Easy to Search",
-      para: "Track Order is the web development platform that gives you access to all of the shipping services available today. You can choose how you want your packages to be delivered, and whether you want it on a truck or with UPS.",
+      para: "When it comes to finding a potential partner, dating apps have made things easier than ever. With just a few taps on your smartphone, you can have access to thousands of potential matches. And thanks to advanced search features, it’s easy to narrow down your options and find someone who meets your specific criteria.",
     },
   ],
   sectionTitle: "Customer App",

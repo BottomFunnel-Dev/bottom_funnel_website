@@ -11,6 +11,7 @@
     height: 450px;
     margin: auto;
     display: flex;
+    /* border: 2px solid red; */
 }
  
  
@@ -30,7 +31,9 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px;
     height: 170px;
+    width: 30%;
     padding: 30px;
+    border: 1px solid #d9d9d9;
 }
  
 .updateflexdiv{
@@ -45,5 +48,7 @@
 
 .reminderdiv{
     margin-top: 15%;
+    border: 1px solid #d9d9d9;
+    padding: 15px;
 }
  

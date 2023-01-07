@@ -42,8 +42,8 @@ export default function Dating() {
        <Datingfeatures/>
        <Customerapp  customerData={datingCustomer} />
        <Adminpannel  customerData={datingCustomer} />
-       <Datingmobile customerData={datingCustomer} />
-       <Solutiondating/>
+       {/* <Datingmobile customerData={datingCustomer} /> */}
+       {/* <Solutiondating/> */}
        <Datingstart/>
        <DatingWhy/>
        <StoriesSection/>

@@ -151,11 +151,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
             </Link>
             <div className="listItems">
               {digitalmarket.map((item, l) => (
-                // <Link
-                //   to={item.path}
-                //   onClick={serHoverOut}
-                //   className="servicesP"
-                // >
                 <div
                   onClick={() => {
                     navigate(`/${item.path}`);
@@ -180,7 +175,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
             </div>
           </div>
           <div id="serviceDropContent" className="serviceDropdownContent">
-            <Link className="noStyle">
+            <Link className="noStyle" to="trendingTech">
               <h5>Trending Technologies</h5>
             </Link>
             <div className="trendListItems">
