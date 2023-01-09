@@ -175,7 +175,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) =
             </div>
           </div>
           <div id="serviceDropContent" className="serviceDropdownContent">
-            <Link className="noStyle" to="trendingTech">
+            <Link to="trendingTech" className="noStyle">
               <h5>Trending Technologies</h5>
             </Link>
             <div className="trendListItems">
