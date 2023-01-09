@@ -52,16 +52,16 @@
 .ExclusiveFeature-innerdivcontain1:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.ExclusiveFeature-innerdivcontain p{
+/* .ExclusiveFeature-innerdivcontain p{
     font-size: 20px;
    
 }
 .ExclusiveFeature-innerdivcontain1 p{
     font-size: 20px;
    
-}
+} */
 .ExclusiveFeature-maindiv h1{
     text-align: center;
-    font-size: 40px;
+    /* font-size: 40px; */
 
 }

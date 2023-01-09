@@ -15,22 +15,22 @@
 .KidsWearbannermainboxinnertextdiv {
   height: 50%;
   width: 37%;
-
-  margin-top: 13%;
+  margin-top: 10%;
   margin-left: 5%;
+  /* border: 2px solid red; */
   /* text-align: center; */
 }
 
 .KidsWearbannermainboxinnertextdiv > h1 {
   color: black;
-  font-size: 40px;
+  font-size: 35px;
   /* font-weight: 600; */
 
 }
 .KidsWearbannermainboxinnertextdiv > p {
   color: black;
   /* margin-top: 7%; */
-  font-size: 20px;
+  font-size: 16px;
   /* font-weight: 500; */
 }
 

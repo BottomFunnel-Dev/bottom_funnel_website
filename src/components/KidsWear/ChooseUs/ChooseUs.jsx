@@ -15,7 +15,7 @@ export const ChooseUs = () => {
              <div className='ChooseUs-maindivboxcontaininnerimage'> 
              <img src="Images/kidswearappservice/Vector-1.png" alt="logo" /></div>
              <div className='ChooseUs-maindivboxcontaininnerimageheading'>
-                <h3>Customer Satisfaction</h3>
+                <h4>Customer Satisfaction</h4>
                 </div>
             </div>  
             <div  className='ChooseUs-maindivboxcontaininnerimageheadingcontain'>
@@ -30,7 +30,7 @@ export const ChooseUs = () => {
              <div className='ChooseUs-maindivboxcontaininnerimage'> 
              <img src="Images/kidswearappservice/Vector-2.png" alt="logo" /></div>
              <div className='ChooseUs-maindivboxcontaininnerimageheading'>
-                <h3>Flexibility</h3>
+                <h4>Flexibility</h4>
                 </div>
             </div>  
             <div  className='ChooseUs-maindivboxcontaininnerimageheadingcontain'>
@@ -50,7 +50,7 @@ export const ChooseUs = () => {
              <div className='ChooseUs-maindivboxcontaininnerimage'> 
              <img src="Images/kidswearappservice/on time delivery.png" alt="logo" /></div>
              <div className='ChooseUs-maindivboxcontaininnerimageheading'>
-                <h3>Delivery On Time</h3>
+                <h4>Delivery On Time</h4>
                 </div>
             </div>  
             <div  className='ChooseUs-maindivboxcontaininnerimageheadingcontain'>
@@ -65,7 +65,7 @@ export const ChooseUs = () => {
              <div className='ChooseUs-maindivboxcontaininnerimage'> 
              <img src="Images/kidswearappservice/Component 189.png" alt="logo" /></div>
              <div className='ChooseUs-maindivboxcontaininnerimageheading'>
-                <h3>Quality Assurance</h3>
+                <h4>Quality Assurance</h4>
                 </div>
             </div>  
             <div  className='ChooseUs-maindivboxcontaininnerimageheadingcontain'>

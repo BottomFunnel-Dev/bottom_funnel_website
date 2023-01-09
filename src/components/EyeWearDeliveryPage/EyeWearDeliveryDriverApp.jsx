@@ -59,7 +59,7 @@ const eyeweardriverappdata = [
     <div className='eyeweardeliverydrivermainbox'>
     <div className='eyeweardeliverydriverappboxfortxt'>
     <h1>Driver App</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum</p>
+    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum</p> */}
     </div>
     <div className='eyeweardeliverydriverappflexingintonew'>
     <div className='eyeweardeliverydriverappflexingintonewleft'>

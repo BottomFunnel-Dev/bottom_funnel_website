@@ -9,11 +9,9 @@
     justify-content: center;
     text-align: center;
 }
-.ChooseUs-maindivheading h1{
-   font-size: 40px;
-}
+
 .ChooseUs-maindivheading p{
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: 400;
     margin: 0%;
  }
@@ -54,8 +52,9 @@
 .ChooseUs-maindivboxcontaininnerimageheading{
     margin-top: 5%;
     margin-left: 3%;
+    /* border: 2px solid gold; */
 }
 .ChooseUs-maindivboxcontaininnerimageheadingcontain p{
-font-size: 20px;
+/* font-size: 20px; */
 margin-top: 2%;
 }

@@ -21,6 +21,7 @@
 }
 .solutionCards {
   width: 20%;
+  height: 45vh;
   padding: 20px;
   box-sizing: border-box;
   border-radius: 10px;

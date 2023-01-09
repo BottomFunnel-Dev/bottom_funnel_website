@@ -37,7 +37,7 @@
 }
 
 .eyewearcustomeraftermap1box{
-    height: fit-content;
+    height: auto;
     width: 45%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-left: 3%;
