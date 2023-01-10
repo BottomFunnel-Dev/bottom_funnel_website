@@ -23,14 +23,14 @@ export const EyeWearDeliveryAdmin = () => {
      {
         img:"Images/EyewearDeliveryapp/Adminpanelscreens/reports&analytics.png",
         logo:"Images/EyewearDeliveryapp/icons/prototyping-9.png",
-        stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum  Fusce volutpat tempor semper. Fusce",
+        stxt:"By using the reports and analytics features in the admin app, you can see how your app is being used, what areas need improvement, and where users are struggling.",
         htxt:"Reports & Analytics"
      },
 
      {
         img:"Images/EyewearDeliveryapp/Adminpanelscreens/notification&alerts.png",
         logo:"Images/EyewearDeliveryapp/icons/prototyping-11.png",
-        stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+        stxt:"Notifications and alerts are a vital part of any admin app. They keep users informed of new developments, changes in status, and any other important information.",
         htxt:"Notifications & Alerts"
      },
 
@@ -38,7 +38,7 @@ export const EyeWearDeliveryAdmin = () => {
      {
         img:"Images/EyewearDeliveryapp/Adminpanelscreens/paymentmanagement.png",
         logo:"Images/EyewearDeliveryapp/icons/prototyping-10.png",
-        stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+        stxt:" you will need to integrate the payment provider into your app. This usually involves getting an API key from the provider and using it in your code.",
         htxt:"payments Management"
      },
 
