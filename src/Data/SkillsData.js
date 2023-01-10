@@ -1352,14 +1352,14 @@ export const vuejsData = {
     "Bottom Funnel is a globally dominant company having highly experienced vuejs developers. Our vuejs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/skillsPhotos/vuejsSkillsPhotos/banner.webp",
+    image: "Images/vuejsSkillsPhotos/banner.webp",
     title: "Vue.js Development Services",
     description: "Trust the experts-hire vue.js developers today.",
   },
   isDes: true,
   desData: {
     title: "Vue.js",
-    image: "Images/skillsPhotos/vuejsSkillsPhotos/vuejs-logo.webp",
+    image: "Images/vuejsSkillsPhotos/vuejs-logo.webp",
     description:
       "Vue.js is an open-source view-model front end javascript frameword for building user interfaces and single-page applications. It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on defferent use cases. Bottom Funnel is among the leading React.js web application development company in Asia, USA, middle-east and Africa which provides the best React.js web application development services by experienced and best React.js web developers.",
   },
@@ -1369,7 +1369,7 @@ export const vuejsData = {
     cardsData: [
       {
         img: {
-          src: "Images/skillsPhotos/vuejsSkillsPhotos/straight-forward.webp",
+          src: "Images/vuejsSkillsPhotos/straight-forward.webp",
           alt: "Vue.js Custom App Development logo",
         },
         title: "Vue.js Custom App Development",
@@ -1379,7 +1379,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "Images/skillsPhotos/vuejsSkillsPhotos/easy-understand.webp",
+          src: "Images/vuejsSkillsPhotos/easy-understand.webp",
           alt: "Single Page App Development logo",
         },
         title: "Single Page App Development",
@@ -1388,7 +1388,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "Images/skillsPhotos/vuejsSkillsPhotos/two-communication.webp",
+          src: "Images/vuejsSkillsPhotos/two-communication.webp",
           alt: "Third-Party Integration logo",
         },
         title: "Third-Party Integration",
@@ -1397,7 +1397,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "Images/skillsPhotos/vuejsSkillsPhotos/adaptablity.webp",
+          src: "Images/vuejsSkillsPhotos/adaptablity.webp",
           alt: "Migration & Integration Services logo",
         },
         title: "Migration & Integration Services",
@@ -1406,7 +1406,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "Images/skillsPhotos/vuejsSkillsPhotos/extra-tool.webp",
+          src: "Images/vuejsSkillsPhotos/extra-tool.webp",
           alt: "Vue.js Component Development logo",
         },
         title: "Vue.js Component Development",
@@ -1415,7 +1415,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "Images/skillsPhotos/vuejsSkillsPhotos/small.webp",
+          src: "Images/vuejsSkillsPhotos/small.webp",
           alt: "Vue.js Support & Maintenance logo",
         },
         title: "Vue.js Support & Maintenance",
@@ -1427,7 +1427,7 @@ export const vuejsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Vue.js",
-    image: "Images/skillsPhotos/vuejsSkillsPhotos/big-left-image.webp",
+    image: "Images/vuejsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1441,7 +1441,7 @@ export const vuejsData = {
   BookCallData: {
     title: "Need our Vuejs developers to build your application?",
     btn: "Book a call now",
-    image: "Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "Images/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -1451,42 +1451,42 @@ export const vuejsData = {
     cardsData: [
       {
         img: {
-          src: "Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
+          src: "Images/vuejsSkillsPhotos/easy.webp",
           alt: "Simplicity logo",
         },
         title: "Simplicity",
       },
       {
         img: {
-          src: "Images/skillsPhotos/vuejsSkillsPhotos/architecture.webp",
+          src: "Images/vuejsSkillsPhotos/architecture.webp",
           alt: "Component-based architecture logo",
         },
         title: "Component-based architecture",
       },
       {
         img: {
-          src: "Images/skillsPhotos/vuejsSkillsPhotos/reusability.webp",
+          src: "Images/vuejsSkillsPhotos/reusability.webp",
           alt: "Reusability logo",
         },
         title: "Reusability",
       },
       {
         img: {
-          src: "Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
+          src: "Images/vuejsSkillsPhotos/speedometer.webp",
           alt: "High performance logo",
         },
         title: "High performance",
       },
       {
         img: {
-          src: "Images/skillsPhotos/vuejsSkillsPhotos/documentation.webp",
+          src: "Images/vuejsSkillsPhotos/documentation.webp",
           alt: "Documentation logo",
         },
         title: "Documentation",
       },
       {
         img: {
-          src: "Images/skillsPhotos/vuejsSkillsPhotos/cross-platform.webp",
+          src: "Images/vuejsSkillsPhotos/cross-platform.webp",
           alt: "Cross-platform logo",
         },
         title: "Cross-platform",
@@ -1501,7 +1501,7 @@ export const springBootData = {
     "Bottom Funnel is a globally dominant company having highly experienced springboot developers. Our springboot development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "Images/skillsPhotos/springbootSkillsPhotos/banner.webp",
+    image: "ImagesspringbootSkillsPhotos/banner.webp",
     title: "SpringBoot Development Services",
     description:
       "Delivering on your business vision with quality springboot java development.",

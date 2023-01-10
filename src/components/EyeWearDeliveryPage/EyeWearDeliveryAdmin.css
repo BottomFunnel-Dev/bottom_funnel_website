@@ -1,22 +1,22 @@
 .eyeweardeliveryadminpannelmainbox{
-    height: 100vh;
-margin-top: 100px;
+    /* height: 80vh; */
+    /* margin-top: 100p x; */
     display: flex;
-
+    /* border: 2px solid red; */
 }
 
 .eyeweardeliveryadminpannelleftbox{
     height: fit-content;
     width: 65%;
-
+    /* border: 2px solid red; */
 }
 
 .eyeweardeliveryadminpannelrightbox{
     height: 50%;
     width: 45%;
- 
+    /* border: 2px solid red; */
     position: relative;
-   margin-top: 10%;
+    margin-top: 5%;
 
 }
 
@@ -31,19 +31,19 @@ margin-top: 100px;
 .eyeweardeliveryadmintextboxleftside{
     height: fit-content;
     width: 55%;
-   
+    /* border: 2px solid red; */
     position: absolute;
-text-align: justify;
+    text-align: justify;
     left: 3%;
 }
 
 .eyeweardeliveryadminpannelwheremap{
     display: flex;
     flex-wrap: wrap;
-
+    /* border: 2px solid red; */
 }
 
-    .eyewearmappingdataboxadminpannel{
+ .eyewearmappingdataboxadminpannel{
     width: 44%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     height: fit-content;
@@ -51,15 +51,13 @@ text-align: justify;
     margin: 3%;
     display: flex;
     padding: 10px;
+    /* border: 2px solid red; */
 }
 
 .eyewearmappingdataboxadminpannel:hover{
     transform: scale(1.02);
     background-color: #ffebef;
 }
-
-
-
 .eyeadminlogo{
     margin: 1%;
     padding:10px;

@@ -18,7 +18,7 @@ const eyeweardriverappdata = [
     img:"Images/EyewearDeliveryapp/Driverappscreens/profilemanagement.png",
     icon:"Images/EyewearDeliveryapp/icons/prototyping-1.png",
     htxt:"Profile Management",
-    stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+    stxt:"A driver's app is a mobile application that helps users manage their profiles and driving information. It allows users to view and update their personal information, as well as track their driving history.",
 
 },
 
@@ -26,7 +26,7 @@ const eyeweardriverappdata = [
     img:"Images/EyewearDeliveryapp/Driverappscreens/earninganalytics.png",
     icon:"Images/EyewearDeliveryapp/icons/prototyping-8.png",
     htxt:"Earning Analytics",
-    stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+    stxt:"Earning analytics is a feature in the driver's app that allows you to see how much money you've earned over a certain period of time. This is a great feature for drivers who want to see how their earnings are progressing.",
 
 },
 
@@ -35,7 +35,7 @@ const eyeweardriverappdata = [
     img:"Images/EyewearDeliveryapp/Driverappscreens/dailyreports.png",
     icon:"Images/EyewearDeliveryapp/icons/prototyping-6.png",
     htxt:"Daily Report's Dashboard",
-    stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+    stxt:"As a driver, you want to be able to see your daily reports in one place. The Daily Report's Dashboard for driver's app gives you all the information you need to see how well you're doing. This includes a summary of your trips, earnings and Ratings.",
 
 },
 
@@ -44,7 +44,7 @@ const eyeweardriverappdata = [
     img:"Images/EyewearDeliveryapp/Driverappscreens/alertsetting.png",
     icon:"Images/EyewearDeliveryapp/icons/prototyping-7.png",
     htxt:"Alerts Settings",
-    stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+    stxt:"As a driver, it's important to be aware of your surroundings at all times. That's why the alerts settings on your driver's app are so important. By customizing the tone and volume of the alerts, you can ensure that you're always getting the information you need.",
 
 },
 
@@ -79,11 +79,9 @@ const eyeweardriverappdata = [
         key={e.htxt} onMouseEnter={() => {
             
             handleImageChange(e.img)
-        }}
-        
-        
-        
+           }}
         >
+
         <div className='logoeyeweardriver'><img src={e.icon} alt="image" /></div>
         <div className='txteyeweardriver'><h4>{e.htxt}</h4>
         <p>{e.stxt}</p>

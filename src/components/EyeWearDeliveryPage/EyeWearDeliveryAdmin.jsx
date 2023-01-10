@@ -16,14 +16,14 @@ export const EyeWearDeliveryAdmin = () => {
      {
         img:"Images/EyewearDeliveryapp/Adminpanelscreens/dashboard.png",
         logo:"Images/EyewearDeliveryapp/icons/prototyping.png",
-        stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+        stxt:"The dashboard for an admin panel can vary depending on the system you're using, but typically includes things like an overview of recent activity, a list of pending tasks or requests.",
         htxt:"Dashboard"
      },
 
      {
         img:"Images/EyewearDeliveryapp/Adminpanelscreens/reports&analytics.png",
         logo:"Images/EyewearDeliveryapp/icons/prototyping-9.png",
-        stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+        stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum  Fusce volutpat tempor semper. Fusce",
         htxt:"Reports & Analytics"
      },
 
@@ -52,7 +52,7 @@ export const EyeWearDeliveryAdmin = () => {
     <div className='eyeweardeliveryadminpannelleftbox'>
     <div className='eyeweardeliveryadmintextboxleftside'>
     <h1>Admin Pannel</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum</p>
+    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum</p> */}
     
 
 <div className='eyeweardeliveryadminpannelwheremap'>{eyeweardeliveryadmindata.map((e)=>{
